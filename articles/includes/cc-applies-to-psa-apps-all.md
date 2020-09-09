@@ -1,0 +1,1 @@
+<span data-ttu-id="41efc-101">Platí pro aplikaci Project Service verze 3.x, 2.x a 1.x</span><span class="sxs-lookup"><span data-stu-id="41efc-101">Applies to Project Service app versions 3.x, 2.x, and 1.x</span></span>

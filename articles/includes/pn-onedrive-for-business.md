@@ -1,0 +1,1 @@
+<span data-ttu-id="f303a-101">OneDrive pro firmy</span><span class="sxs-lookup"><span data-stu-id="f303a-101">OneDrive for Business</span></span>
