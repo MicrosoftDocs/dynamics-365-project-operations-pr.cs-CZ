@@ -1,0 +1,53 @@
+---
+title: Nastavení četnosti faktur
+description: Postup nastavení četnosti faktur v Project Service
+author: rumant
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.assetid: 49498392-6780-4cd6-a57f-da9aeaecd287
+ms.author: rumant
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+ms.openlocfilehash: be60f81c46baa1fe293a7e0617cd92ffb923f76f
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: cs-CZ
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3750306"
+---
+# <a name="set-up-invoice-frequencies-project-service"></a>Nastavení četnosti faktur (Project Service)
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+Četnost faktur [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] určuje, jak často účtujete klientům a ve který den určeného časového období. Nastavte četnost faktur pro jednotlivá časová období, která chcete použít pro účtování klientů, například měsíčně, čtrnáctidenně nebo týdně.  
+  
+1.  Přejděte do nabídky **Project Service > Četnost faktur**.  
+  
+2.  Klikněte na tlačítko **Nový**.  
+  
+3.  V oblasti **Obecné** zadejte název pro četnost faktur do pole **Název**.  
+  
+4.  V části **Období** vyberte možnost **Měsíčně**, **Čtrnáctidenně** nebo **Týdně**.  
+  
+5.  Pokud jste zadali období měsíčně nebo čtrnáctidenně, v části **Dny fakturace** vyberte možnost **Den období** pro fakturaci v určený den období (den v týdnu nebo o víkendu), nebo vyberte **Den v týdnu v období** pro fakturaci v zadaný den v týdnu v období.  
+  
+6.  Pokud jste zadali období měsíčně, v části **Počet za měsíc** vyberte, kolikrát se má za měsíc fakturovat.  
+  
+7.  V oblasti **Detaily četnosti fakturace** změňte den nebo pracovní den podle potřeby, aby fakturace probíhala ve správný den v týdnu nebo o víkendu v období, které jste zadali.  
+  
+8.  Když jste hotovi, klikněte na tlačítko **Uložit** v pravém dolním rohu obrazovky.  
+  
+### <a name="see-also"></a>Viz také  
+ [Konfigurace Project Service](../project-service/configure.md)

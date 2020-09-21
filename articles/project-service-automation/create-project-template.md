@@ -1,0 +1,64 @@
+---
+title: Vytvoření šablony projektu
+description: Postup vytvoření šablony projektu v Project Service
+author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.assetid: ba15d6d5-a43b-456a-9488-db6e92023fa1
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+ms.openlocfilehash: 50e12d65d5ed957565485413490b8d9f0e2f47ab
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: cs-CZ
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3750294"
+---
+# <a name="create-a-project-template-project-service"></a>Vytvoření šablony projektu (Project Service)
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+Šablony projektů šetří váš čas, pokud se vaše společnost pravidelně uchází o podobné typy projektů. Poskytují standardní sadu rolí a odhadované hodiny pro typ projektu. Manažeři zákaznických účtů a vedoucí projektu mohou vytvořit projekty založené na šabloně projektu nebo mohou zkopírovat šablonu a vytvořit svou vlastní.  
+  
+## <a name="components-of-project-template"></a>Součásti šablony projektu
+ Šablona projektu se skládá ze tří součástí:  
+  
+- **Strukturovaný rozpis prací**: Strukturovaný rozpis prací v šabloně projektu má stejnou sadu prvků jako v projektu. Můžete vytvořit hierarchii úkolů, přiřadit role k úkolu, definovat atributy plánu, nastavit závislosti a zobrazit všechna data v Ganttově diagramu. Strukturované rozpisy prací v šablonách projektů také podporují režimy úkolů pro každý úkol. Při vytváření pracovního plánu není žádný rozdíl mezi šablonou projektu a projektem.  
+  
+- **Odhady projektu**: Odhady projektu v šablonách fungují stejným způsobem jako v projektech kromě toho, že nákladové a prodejní ceny jsou vždy výchozími nákladovými a prodejními ceníky definovanými v parametrech [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Zbývající funkce jsou stejné jako v projektu.  
+  
+- **Vytvoření projektového týmu**: Při vytváření projektového týmu pro šablonu projektu nelze rezervovat pojmenovaný zdroj v šabloně. Můžete použít možnost **Vygenerovat projektový tým** ve strukturovaném rozpisu prací a vygenerovat sadu obecných zdrojů. Můžete také určit požadované dovednosti a odborné znalosti pro obecné zdroje. Nelze nahradit obecný zdroj rezervovatelným zdrojem v šablonách projektů.  
+  
+## <a name="create-a-project-from-a-template"></a>Vytvoření projektu ze šablony  
+ Projekt lze ze šablony vytvořit následujícími způsoby:  
+  
+-   Při vytváření projektu z nabídky můžete vybrat šablonu projektu ve formuláři pro rychlé vytvoření projektu.  
+  
+-   Při vytváření projektu kliknutím na tlačítko **Nový projekt** se formulář projektu zobrazí před uložením záznamu. Zde můžete kliknout na pole **Vybrat šablonu** a vybrat požadovanou šablonu ze seznamu předdefinovaných šablon projektů ve vaší organizaci.  
+  
+-   Kliknutím na tlačítko **Vytvořit projekt ze šablony** na stránce **Šablona projektu** vytvořte projekt ze šablony.  
+  
+## <a name="copying-components-of-a-template-to-a-project"></a>Kopírování součástí šablony do projektu  
+ Při kopírování součástí šablony do projektu je několik věcí, které byste měli mít na paměti.  
+  
+ **Kopírování strukturovaného rozpisu prací**: Pokud má projekt při kopírování strukturovaného rozpisu prací ze šablony projektu jiný kalendář projektu než šablona, bude v plánu úkolů použita pracovní doba z kalendáře projektu. Tím se upraví plán pro pomocný kalendář projektu. A podobně první úkol ve strukturovaném rozpisu prací bude mít datum zahájení projektu, takže zbytek plánu hierarchie úkolů bude aktualizován na základě doby trvání a závislostí, které jsou uvedeny ve strukturovaném rozpisu prací šablony.  
+  
+ **Kopírování odhadů projektu**: Při kopírování mezi řádky odhadů projektu budou ceníky aktualizovány na základě vlastnící jednotky projektu pro nákladový ceník a zákazníka pro prodejní ceník. Nákladové a prodejní ceny na jednotku se stanovují z těchto ceníků u projektů, které jsou přidruženy k prodejní entitě.  
+  
+ **Kopírování projektového týmu**: Při kopírování projektového týmu z šablony do projektu jsou zkopírovány obecné zdroje spolu s dovednostmi a odbornými znalostmi definovanými v šabloně. Přiřazení obecných zdrojů je rovněž zachováno jako v šabloně projektu.  
+  
+### <a name="see-also"></a>Viz také  
+ [Příručka pro projektového manažera](../project-service/project-manager-guide.md)
