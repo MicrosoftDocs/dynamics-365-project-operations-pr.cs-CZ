@@ -1,0 +1,75 @@
+---
+title: Příručka – Čas, výdaje a spolupráce
+description: Příručka pro čas, výdaje a spolupráci pro Project Service
+author: revathiMuthiah
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.assetid: c517dd44-af65-4845-bbd2-243417c3743d
+ms.author: revathim
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+ms.openlocfilehash: 3ea0585f65284306171e8bbdd937d165fb282424
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: cs-CZ
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3750374"
+---
+# <a name="time-expense-and-collaboration-guide-project-service"></a><span data-ttu-id="9f2ba-103">Příručka pro čas, výdaje a spolupráci (Project Service)</span><span class="sxs-lookup"><span data-stu-id="9f2ba-103">Time, expense, and collaboration guide (Project Service)</span></span>
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+<span data-ttu-id="9f2ba-104">Vítejte v aplikaci [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], která pomáhá společnostem řídit jejich prodeje na základě projektu.</span><span class="sxs-lookup"><span data-stu-id="9f2ba-104">Welcome to the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] app, which helps companies manage their project-based sales.</span></span> 
+  
+ <span data-ttu-id="9f2ba-105">Provede vás zadáváním času a výdajů pro projekty, na kterých právě pracujete.</span><span class="sxs-lookup"><span data-stu-id="9f2ba-105">This guides you through entering your time and expenses for the projects you’re working on.</span></span> <span data-ttu-id="9f2ba-106">Vždy mějte přehled o čase a výdajích, aby bylo možné zajistit splnění následujících úkolů:</span><span class="sxs-lookup"><span data-stu-id="9f2ba-106">Stay on top of your time and expense entry to make sure:</span></span>  
+  
+- <span data-ttu-id="9f2ba-107">Klienti jsou správně účtováni.</span><span class="sxs-lookup"><span data-stu-id="9f2ba-107">Your clients are billed properly</span></span>  
+  
+- <span data-ttu-id="9f2ba-108">Získáte kredit za práci, kterou jste vykonali.</span><span class="sxs-lookup"><span data-stu-id="9f2ba-108">You get credit for the work you’ve done</span></span>  
+  
+- <span data-ttu-id="9f2ba-109">Manažeři znají stav vašich projektů.</span><span class="sxs-lookup"><span data-stu-id="9f2ba-109">Your managers know the status of your projects</span></span>  
+  
+  <span data-ttu-id="9f2ba-110">Můžete také spolupracovat s ostatními členy týmu díky sdílení dokumentů a zahájení konverzací prostřednictvím [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] související s projekty.</span><span class="sxs-lookup"><span data-stu-id="9f2ba-110">You can also collaborate with your fellow team members by sharing documents and starting conversations through [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] associated with your projects.</span></span>  
+  
+  <span data-ttu-id="9f2ba-111">Můžete zadat čas a výdaje prostřednictvím webové aplikace (aplikace založená na prohlížeči) nebo pomocí aplikace [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] pro telefony a tablety v mobilním zařízení.</span><span class="sxs-lookup"><span data-stu-id="9f2ba-111">You can enter time and expenses through the web app (browser-based app), or with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets app on your mobile device.</span></span> <span data-ttu-id="9f2ba-112">Jakmile budete připraveni na další projekt, můžete použít aplikaci Project Finder Mobile.</span><span class="sxs-lookup"><span data-stu-id="9f2ba-112">When you’re ready for your next project, you can use the Project Finder Mobile app.</span></span>  
+  
+<span data-ttu-id="9f2ba-113">Kliknutím na odkaz níže získáte další informace o tom, co můžete dělat pomocí [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]:</span><span class="sxs-lookup"><span data-stu-id="9f2ba-113">Click on a link below to learn more about what you can do with [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]:</span></span>  
+  
+-   [<span data-ttu-id="9f2ba-114">Získání aplikací</span><span class="sxs-lookup"><span data-stu-id="9f2ba-114">Get the apps</span></span>](../project-service/get-apps.md)  
+  
+-   [<span data-ttu-id="9f2ba-115">Přihlášení</span><span class="sxs-lookup"><span data-stu-id="9f2ba-115">Sign in</span></span>](../project-service/sign-in.md)  
+  
+-   [<span data-ttu-id="9f2ba-116">Zobrazení plánu</span><span class="sxs-lookup"><span data-stu-id="9f2ba-116">View your schedule</span></span>](../project-service/view-schedule.md)  
+  
+-   [<span data-ttu-id="9f2ba-117">Správa projektů a rezervací v kalendáři služeb Office 365</span><span class="sxs-lookup"><span data-stu-id="9f2ba-117">Manage projects and bookings in your Office 365 calendar</span></span>](../project-service/manage-project-bookings-office-365-calendar.md)  
+  
+-   [<span data-ttu-id="9f2ba-118">Zadání času</span><span class="sxs-lookup"><span data-stu-id="9f2ba-118">Enter time</span></span>](../project-service/enter-time.md)  
+  
+-   [<span data-ttu-id="9f2ba-119">Zadání nákladů</span><span class="sxs-lookup"><span data-stu-id="9f2ba-119">Enter expenses</span></span>](../project-service/enter-expenses.md)  
+  
+-   [<span data-ttu-id="9f2ba-120">Umožnění jinému uživateli zadat váš časový záznam nebo výdaj</span><span class="sxs-lookup"><span data-stu-id="9f2ba-120">Allow someone else to enter your time entry or expense</span></span>](../project-service/allow-someone-else-enter-time-entry-expense.md)  
+  
+-   [<span data-ttu-id="9f2ba-121">Naplánování volna </span><span class="sxs-lookup"><span data-stu-id="9f2ba-121">Schedule time off</span></span>](../project-service/schedule-time-off.md)  
+  
+-   [<span data-ttu-id="9f2ba-122">Spolupráce se členy projektového týmu pomocí skupin Office 365</span><span class="sxs-lookup"><span data-stu-id="9f2ba-122">Collaborate with your project team members with Office 365 Groups</span></span>](../project-service/collaborate-project-team-members-office-365-groups.md)  
+  
+-   [<span data-ttu-id="9f2ba-123"> Vyhledání vašeho dalšího projektu pomocí aplikace Project Finder Mobile</span><span class="sxs-lookup"><span data-stu-id="9f2ba-123">Find your next project with the Project Finder Mobile app</span></span>](../project-service/find-next-project-finder-mobile-app.md)  
+  
+### <a name="see-also"></a><span data-ttu-id="9f2ba-124">Viz také</span><span class="sxs-lookup"><span data-stu-id="9f2ba-124">See Also</span></span>  
+ <span data-ttu-id="9f2ba-125">[Přehled aplikace Project Service](../project-service/overview.md) </span><span class="sxs-lookup"><span data-stu-id="9f2ba-125">[Overview of Project Service](../project-service/overview.md) </span></span>  
+ <span data-ttu-id="9f2ba-126">[Příručka pro správce](../project-service/admin-guide.md) </span><span class="sxs-lookup"><span data-stu-id="9f2ba-126">[Administrator Guide](../project-service/admin-guide.md) </span></span>  
+ <span data-ttu-id="9f2ba-127">[Příručka pro manažera obchodních vztahů](../project-service/account-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="9f2ba-127">[Account Manager Guide](../project-service/account-manager-guide.md) </span></span>  
+ <span data-ttu-id="9f2ba-128">[Příručka pro projektového manažera](../project-service/project-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="9f2ba-128">[Project Manager Guide](../project-service/project-manager-guide.md) </span></span>  
+ [<span data-ttu-id="9f2ba-129">Příručka pro manažera zdrojů</span><span class="sxs-lookup"><span data-stu-id="9f2ba-129">Resource Manager Guide</span></span>](../project-service/resource-manager-guide.md)   
