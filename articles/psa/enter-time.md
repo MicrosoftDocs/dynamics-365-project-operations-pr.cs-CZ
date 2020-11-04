@@ -1,0 +1,61 @@
+---
+title: Zadání času
+description: Postup zadání času v Project Service
+author: revathimuthiah
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.author: revathim
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+- ProjectOperations
+ms.openlocfilehash: 4db1e62e062aa5024c8b8807e155fbd543af1059
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: cs-CZ
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073983"
+---
+# <a name="enter-time-project-service"></a>Zadání času (Project Service)
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+Zadejte vaše hodiny alespoň jednou za týden – nebo tak často, jak požadují vaši nadřízení, aby bylo možné zajistit, že vaši klienti budou správně fakturováni a zúčtování.  
+  
+ Ve webové aplikaci:  
+  
+1. Přejděte do části **Project Service > Časové údaje**. Po výběru této možnosti se zobrazí kalendář.  
+  
+2. Klepnutím na tlačítko **Předchozí** nebo **Další** zobrazíte kalendář pro předchozí nebo příští týden. Kliknutím na tlačítko **Dnes** se vrátit zpět na aktuální týden.  
+  
+3. Chcete-li zadat čas, klikněte na možnost **Nový** nebo dvakrát klikněte na kalendář v den, kdy chcete zadat čas.  
+  
+4. Vyplňte pole ve formuláři **Časový záznam** a potom klikněte na tlačítko **Uložit**.  
+  
+5. Pokračujte v zadávání času pro daný týden. Pokud jste hotovi a vše vypadá v pořádku, klikněte na tlačítko **Odeslat**. Manažer zkontroluje a schválí vaše časové údaje.  
+  
+6. Pokud chcete změnit položky, které jste již odeslali, vyberte položku v kalendáři a potom klikněte na tlačítko **Odvolat**.  
+  
+7. Pokud chcete kopírovat všechny položky z předchozího týdne do aktuálního týdne, klikněte na tlačítko **Kopírovat z** a vyberte časový rozvrh týdne, který chcete kopírovat.  
+  
+8. Pokud byste raději chtěli zobrazit seznam položek, na nichž pracujete, klikněte na příkaz **Mřížka**.  
+  
+   V mobilní aplikaci:  
+  
+9. V nabídce přejděte do části **Časové údaje**.     Můžete přepnout na zobrazení **Den** , **Týden** nebo **Měsíc** nebo přejít na předchozí nebo následující časové období.  
+  
+10. Klepněte na **…** a klepněte na možnost **Nový**.  
+  
+11. Vyplňte požadované údaje a klepněte na tlačítko **Uložit**.  
+  
+### <a name="see-also"></a>Viz také  
+ [Příručka – Čas, výdaje a spolupráce](../psa/time-expense-collaboration-guide.md)

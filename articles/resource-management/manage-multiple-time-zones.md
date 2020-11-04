@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961838"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073718"
 ---
 # <a name="manage-time-zones"></a>Správa časových pásem
 
@@ -57,7 +57,7 @@ Následující tabulka znázorňuje:
 |Zdroj C  |  ![Kalendář zdroje C](media/reconcile-assignments-08.png) |
 |Zdroj D  | ![Kalendář zdroje D](media/reconcile-assignments-09.png)  |
  
-Když přejdete na zobrazení **Vyrovnání**, zobrazí se přiřazení zdrojů a přidružené nedostatečné rezervace.
+Když přejdete na zobrazení **Vyrovnání** , zobrazí se přiřazení zdrojů a přidružené nedostatečné rezervace.
 
 ![Zobrazení odsouhlasení před rozšířením](media/reconcile-assignments-10.png)
 

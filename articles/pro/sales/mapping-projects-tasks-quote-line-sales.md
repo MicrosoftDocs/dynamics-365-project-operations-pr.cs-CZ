@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 6b396ccf5e76230a42a2f933a3aaa5b8149790bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3964899"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073672"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mapování projektů a úkolů na řádky nabídky založené na projektu
 
@@ -57,7 +57,7 @@ Stránka **Projekt** poskytuje optimální prostředí pro přidružení úkolů
 K řádkům nabídky můžete přidružit projektové úkoly na kartě **Účtovatelné úkoly** umístěné ve stránce **Řádek nabídky**.
 
 >[!NOTE]
->Optimálním místem pro přidružení projektových úkolů k řádkům nabídky je karta **Účtování úkolů** na stránce **Projekt**. Pokud přidružení úkolů provádíte na kartě **Účtovatelné úkoly** umístěné na stránce **Řádek nabídky**, musíte ručně přidružit každý projekt.
+>Optimálním místem pro přidružení projektových úkolů k řádkům nabídky je karta **Účtování úkolů** na stránce **Projekt**. Pokud přidružení úkolů provádíte na kartě **Účtovatelné úkoly** umístěné na stránce **Řádek nabídky** , musíte ručně přidružit každý projekt.
 
 1. Na kartě **Všeobecné** řádku nabídky založené na projektu si ověřte, že je v poli **Projekt** vybrán projekt.
 2. V poli **Zahrnuté úkoly** vyberte možnost **Pouze vybrané úkoly**.

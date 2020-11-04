@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e841ab7c37e0b348a4d1570123a5aea00ede0047
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898479"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073808"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Vytvoření odhadů na řádku nabídky
 
@@ -84,7 +83,7 @@ Pokud jste na řádku podrobností nabídky přidali vlastní pole a chcete, aby
 2. Vyberte **Hledat** a vyhledejte modul plug-in, který chcete aktualizovat.
 3. Vyberte modul plug-in a poté na hlavní stránce vyberte **Vybrat**.
 4. Vyberte krok modulu plug-in, který chcete aktualizovat, klikněte pravým tlačítkem myši a vyberte **Aktualizovat**.
-5. V dialogovém okně **Aktualizovat existující krok** vyberte v poli **Atributy filtrování** tlačítko se třemi tečkami (**…**):
+5. V dialogovém okně **Aktualizovat existující krok** vyberte v poli **Atributy filtrování** tlačítko se třemi tečkami ( **…** ):
 6. V dialogovém **Vybrat atributy** zaškrtněte zaškrtávací políčka u vlastních atributů.
 7. Klepnutím na **OK** zavřete dialogové okno a pak vyberte **Aktualizovat krok**.
 8. Opakujte kroky 1 až 7 pro druhý modul plug-in.

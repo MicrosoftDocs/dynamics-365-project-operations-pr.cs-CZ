@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966755"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073684"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Odhad na řádku nabídky založené na projektu
 
@@ -30,7 +30,7 @@ Chcete-li odhadnout řádek nabídky na základě projektu, na řádku nabídky 
 
 Chcete-li vytvořit odhad na řádku nabídky na základě projektu, vyberte kartu **Podrobnosti na řádku nabídky**. Položka řádku, kterou vytvoříte na této kartě, shrnuje hodnotu nabídky pro tento řádek nabídky. 
 
-Chcete-li vytvořit podrobnosti řádku nabídky, vyberte **+ Nová podrobnost řádku nabídky** v podmřížce **Podrobnosti řádku nabídky**. Otevře se posuvník pro rychlé vytvoření. Následující pole na formuláři **Řádek nabídky**:
+Chcete-li vytvořit podrobnosti řádku nabídky, vyberte **+ Nová podrobnost řádku nabídky** v podmřížce **Podrobnosti řádku nabídky**. Otevře se posuvník pro rychlé vytvoření. Následující pole na formuláři **Řádek nabídky** :
 
 | **Pole** | **Umístění** | **Relevance, účel a vedení** | **Dopad na příjem dat** |
 | --- | --- | --- | --- |
@@ -50,11 +50,11 @@ Chcete-li vytvořit podrobnosti řádku nabídky, vyberte **+ Nová podrobnost �
 
 ## <a name="update-prices-on-quote-line-details"></a>Aktualizujte ceny v podrobnostech řádku nabídky
 
-Pokud jste změnili ceny v ceníku projektu, který je připojen k nabídce, nebo v ceníku nákladů smluvní jednotky, můžete vybrat **Přepočítat** na stránce **Nabídka**, chcete-li aktualizovat ceny v podrobnostech jednotlivých nabídek, aby se tato změna promítla. Když vyberete **Přepočítat**, objeví se varování, které vás informuje, že ceny v podrobnostech řádku nabídky pro všechny řádky nabídky v této nabídce budou resetovány. Vyberte **Ano** k aktualizaci cen prodejních i nákladových podrobností řádku nabídky.
+Pokud jste změnili ceny v ceníku projektu, který je připojen k nabídce, nebo v ceníku nákladů smluvní jednotky, můžete vybrat **Přepočítat** na stránce **Nabídka** , chcete-li aktualizovat ceny v podrobnostech jednotlivých nabídek, aby se tato změna promítla. Když vyberete **Přepočítat** , objeví se varování, které vás informuje, že ceny v podrobnostech řádku nabídky pro všechny řádky nabídky v této nabídce budou resetovány. Vyberte **Ano** k aktualizaci cen prodejních i nákladových podrobností řádku nabídky.
 
 ## <a name="access-quote-line-details-for-cost"></a>Přístup k podrobnostem řádku nabídky za cenu
 
-Na kartě **Podrobnosti řádku nabídky** vyberte řádek v mřížce a povolte některé akce na panelu nástrojů podmřížky. První akce na panelu nástrojů podmřížky, když je vybrán detail řádku nabídky, je **Otevřít podrobnosti nákladů**. Vyberte **Otevřít podrobnosti nákladů**, chcete-li zobrazit související sazbu nákladů a částku pro tento řádek nabídky.
+Na kartě **Podrobnosti řádku nabídky** vyberte řádek v mřížce a povolte některé akce na panelu nástrojů podmřížky. První akce na panelu nástrojů podmřížky, když je vybrán detail řádku nabídky, je **Otevřít podrobnosti nákladů**. Vyberte **Otevřít podrobnosti nákladů** , chcete-li zobrazit související sazbu nákladů a částku pro tento řádek nabídky.
 
 > [!NOTE]
 > Změna hodnoty jednotky zdroje, množství, data, role nebo kategorie v detailu řádku nabídky pro náklady změní odpovídající hodnoty v podrobnostech nabídky řádku pro prodej.

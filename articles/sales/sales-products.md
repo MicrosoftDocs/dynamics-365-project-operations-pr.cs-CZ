@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 28397fd49ad4cdb2c820ef4b6f198f410995ba0f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898703"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073877"
 ---
 # <a name="products"></a>Produkty
 
@@ -39,22 +38,22 @@ Produkty jsou páteří vašeho podnikání. Katalog produktů v Dynamics 365 Sa
 
     -  **Jméno**
     -  **ID produktu**
-    -  **Nadřazený**: Zvolte nadřazenou produktovou řadu pro produkt. Pokud vytváříte podřízený produkt v produktové řadě, je zde naplněn název nadřazené produktové řady. Toto nelze změnit po uložení záznamu.
-    -  **Platnost od**/**Platnost do**: Definujte dobu trvání, po kterou je balíček produktů platný, volbou data **Platné od** a **Platnost do**.
-    -  **Skupina jednotek**: Vyberte skupinu jednotek. Skupina jednotek je kolekce různých jednotek, ve kterých se produkt prodává, a definuje, jak jsou jednotlivé položky seskupeny do větších množství. Pokud například přidáváte jako produkt semena, můžete mít vytvořenou skupinu jednotek s názvem „Semena“ a definovat její primární jednotku jako „sáček“.
-    -  **Výchozí jednotka**: Vyberte nejčastější jednotku, ve které se produkt prodává. Jednotky jsou množství nebo míry, ve kterých své produkty prodáváte. Pokud například přidáváte jako produkt semena, můžete je prodávat v sáčcích, krabičkách nebo paletách. Každá z těchto možností se stane jednotku produktu. Semena se nejčastěji prodávají v baleních, proto zvolte jako jednotku tuto možnost.
-    -  **Výchozí ceník**: Pokud se jedná o nový produkt, je toto pole určeno jen pro čtení. Před výběrem výchozího ceníku je třeba zadat hodnoty do všech povinných polí a poté záznam uložit. Ačkoli výchozí ceník není požadován, po uložení záznamu produktu je vhodné nastavit výchozí ceník pro jednotlivé produkty. V případě, že záznam zákazníka neobsahuje žádný ceník, aplikace Prodej bude moci použít výchozí Ceník pro generování nabídek, objednávek a faktur.
-    -  **Podporovaná desetinná místa**: Musíte zadat celé číslo mezi 0 a 5. Pokud produkt nelze rozdělit na zlomkové množství, zadejte hodnotu 0. Pokud k tomuto produktu není přidružen ceník, přesnost pole **Množství** v záznamu produktu na nabídce, objednávce nebo faktuře se ověří vůči hodnotě v tomto poli.
-    -  **Předmět**: Tento produkt můžete přidružit k předmětu. Pomocí předmětů můžete produkty zařazovat do kategorií a filtrovat sestavy.
+    -  **Nadřazený** : Zvolte nadřazenou produktovou řadu pro produkt. Pokud vytváříte podřízený produkt v produktové řadě, je zde naplněn název nadřazené produktové řady. Toto nelze změnit po uložení záznamu.
+    -  **Platnost od**/**Platnost do** : Definujte dobu trvání, po kterou je balíček produktů platný, volbou data **Platné od** a **Platnost do**.
+    -  **Skupina jednotek** : Vyberte skupinu jednotek. Skupina jednotek je kolekce různých jednotek, ve kterých se produkt prodává, a definuje, jak jsou jednotlivé položky seskupeny do větších množství. Pokud například přidáváte jako produkt semena, můžete mít vytvořenou skupinu jednotek s názvem „Semena“ a definovat její primární jednotku jako „sáček“.
+    -  **Výchozí jednotka** : Vyberte nejčastější jednotku, ve které se produkt prodává. Jednotky jsou množství nebo míry, ve kterých své produkty prodáváte. Pokud například přidáváte jako produkt semena, můžete je prodávat v sáčcích, krabičkách nebo paletách. Každá z těchto možností se stane jednotku produktu. Semena se nejčastěji prodávají v baleních, proto zvolte jako jednotku tuto možnost.
+    -  **Výchozí ceník** : Pokud se jedná o nový produkt, je toto pole určeno jen pro čtení. Před výběrem výchozího ceníku je třeba zadat hodnoty do všech povinných polí a poté záznam uložit. Ačkoli výchozí ceník není požadován, po uložení záznamu produktu je vhodné nastavit výchozí ceník pro jednotlivé produkty. V případě, že záznam zákazníka neobsahuje žádný ceník, aplikace Prodej bude moci použít výchozí Ceník pro generování nabídek, objednávek a faktur.
+    -  **Podporovaná desetinná místa** : Musíte zadat celé číslo mezi 0 a 5. Pokud produkt nelze rozdělit na zlomkové množství, zadejte hodnotu 0. Pokud k tomuto produktu není přidružen ceník, přesnost pole **Množství** v záznamu produktu na nabídce, objednávce nebo faktuře se ověří vůči hodnotě v tomto poli.
+    -  **Předmět** : Tento produkt můžete přidružit k předmětu. Pomocí předmětů můžete produkty zařazovat do kategorií a filtrovat sestavy.
 
 4.  Zvolte **Uložit**.
 5.  Na kartě **Další podrobnosti** v sekci **Položky ceníku** vyberte možnost **Další příkazy** a poté zvolte **Přidat novou položku ceníku**.
 7.  Na kartě **Další podrobnosti** v sekci **Vztah produktu** vyberte ikonu **Další příkazy** a poté zvolte **Přidat nový produktový vztah.**
-8.  Ve formuláři **Nový produktový vztah** vložte následující údaje a na panelu příkazů vyberte položku **Uložit a zavřít**:
+8.  Ve formuláři **Nový produktový vztah** vložte následující údaje a na panelu příkazů vyberte položku **Uložit a zavřít** :
 
-    -   **Související produkt**: Vyberte produkt, který chcete přidat jako související produkt do stávajícího záznamu produktu, na němž právě pracujete.
-    -   **Typ prodejního vztahu**: Vyberte, zda chcete přidat produkt jako následný prodej, prodej souvisejících produktů, příslušenství nebo jako náhradní produkt.
-    -   **Směr**: Vyberte, zda bude vztah mezi produkty jednosměrný nebo obousměrný. Pokud vyberete jednosměrný, produkt vybraný v části **Související produkt** se zobrazí jako doporučení pro existující produkt, ale nikoli naopak.
+    -   **Související produkt** : Vyberte produkt, který chcete přidat jako související produkt do stávajícího záznamu produktu, na němž právě pracujete.
+    -   **Typ prodejního vztahu** : Vyberte, zda chcete přidat produkt jako následný prodej, prodej souvisejících produktů, příslušenství nebo jako náhradní produkt.
+    -   **Směr** : Vyberte, zda bude vztah mezi produkty jednosměrný nebo obousměrný. Pokud vyberete jednosměrný, produkt vybraný v části **Související produkt** se zobrazí jako doporučení pro existující produkt, ale nikoli naopak.
 
 9.  Ve formuláři Produkt vyberte **Uložit**.
 
@@ -120,8 +119,8 @@ Systém ověřuje, zda jsou jako množstevní faktory označeny pouze numerické
 
 Například pokud existují následující vlastnosti: 
 
-- **Počet uživatelů**: počet uživatelů 
-- **Poč. měsíců**: počet měsíců předplatného
+- **Počet uživatelů** : počet uživatelů 
+- **Poč. měsíců** : počet měsíců předplatného
 - **Jednotka SKU produktu** 
 
 Vlastnosti **Počet uživatelů** a **Počet měsíců** lze pomocí úpravy vlastností řádku produktu označit jako množstevní faktory. 

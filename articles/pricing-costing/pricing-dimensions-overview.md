@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fe2ab3a1b12c00e346e27709d66b5a0cb81a3b56
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 6b1ebdc97ec4704ba256acb521c0f2e7c474940b
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898208"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073887"
 ---
 # <a name="pricing-dimensions-overview"></a>Přehled cenových dimenzí
 
@@ -36,8 +35,8 @@ Dimenze používané v lidských zdrojích k nastavení cen a nákladů spadají
 
 Z tohoto důvodu jsou k dispozici dva typy hodnot cenové dimenze:
 
-- **Sady možností**: Dimenze, které jsou pevnými výčty pro sadu hodnot.
-- **Hodnoty založené na entitě**: Dimenze, které mohou být různé sady hodnot.
+- **Sady možností** : Dimenze, které jsou pevnými výčty pro sadu hodnot.
+- **Hodnoty založené na entitě** : Dimenze, které mohou být různé sady hodnot.
 
 ## <a name="pricing-dimensions"></a>Cenové dimenze
 
@@ -48,7 +47,7 @@ Potřebujete-li své zdroje ocenit nebo vyjádřit náklady na ně pomocí dalš
 ## <a name="pricing-human-resource-time"></a>Ocenění času lidského zdroje
 Způsob, jakým organizace oceňuje čas lidského zdroje, je často důležitým strategickým aspektem, který přímo ovlivňuje ziskovost organizace. V případě, že vaše organizace je připravena určit, jakým způsobem chce vytvořit sazby fakturace a nákladové sazby pro čas lidského zdroje, pracujte s finančními týmy a vedoucími praxe.
 
-Další úvahy týkající se tvorby cen zahrnují to, zda se mají znovu použít pole nebo entity, které aktuálně nejsou cenovými dimenzemi, ale které se použijí jako cenové dimenze pro vaši organizaci. Pole jako **Kategorie transakce** (**msdyn_transactioncategory**) a **Rezervovatelný zdroj** (**bookableresource**) jsou příklady kandidátských dimenzí. 
+Další úvahy týkající se tvorby cen zahrnují to, zda se mají znovu použít pole nebo entity, které aktuálně nejsou cenovými dimenzemi, ale které se použijí jako cenové dimenze pro vaši organizaci. Pole jako **Kategorie transakce** ( **msdyn_transactioncategory** ) a **Rezervovatelný zdroj** ( **bookableresource** ) jsou příklady kandidátských dimenzí. 
 
 Zvažte, zda by vaší cenovou dimenzí měla být tabulka nebo sada možností. Pokud předvídáte změny hodnot dimenze, které budou vyšší než 10 nebo 12, a potřebujete pro tyto hodnoty další atributy, mohli byste vytvořit spíše entitu než sadu možností. Správa sada možností, jako např. přidání nebo odebrání hodnot, vyžaduje správce nebo vývojáře, zatímco přidání nových řádků do tabulky může provádět většina uživatelů.
 

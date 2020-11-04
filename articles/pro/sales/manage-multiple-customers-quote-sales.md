@@ -9,17 +9,17 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 656418ab99db46455195f70c38b6f5fa13c30755
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966754"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073680"
 ---
 # <a name="managing-multiple-customers-on-project-quotes-sales"></a>Správa více zákazníků v projektových nabídkách (Sales)
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
-Projektové nabídky podporují scénář, kdy návrh zahrnuje více zákazníků, kteří budou obchod financovat. Karta **Souhrn** nabídky obsahuje pole **Potencionální zákazník**, které identifikuje primárního zákazníka obchodu. Další zákazníky pro obchod lze nastavit na kartě **Zákazníci** projektové nabídky.
+Projektové nabídky podporují scénář, kdy návrh zahrnuje více zákazníků, kteří budou obchod financovat. Karta **Souhrn** nabídky obsahuje pole **Potencionální zákazník** , které identifikuje primárního zákazníka obchodu. Další zákazníky pro obchod lze nastavit na kartě **Zákazníci** projektové nabídky.
 
 Všichni zákazníci nabídky na kartě **Zákazníci** projektové nabídky jsou uvedeni jako výchozí zákazníci řádku nabídky na všech **nových** řádcích nabídek založených na projektu vytvořených pro nabídku. Žádné stávající řádky nabídek založených na projektu nezdědí nové záznamy zákazníků nabídky vytvořené po nich.
 
@@ -31,7 +31,7 @@ Zákazníky nabídky a zákazníky řádku nabídky lze přidávat, aktualizovat
 
 Zákazník uvedený na kartě Souhrn projektové nabídky jako potenciální zákazník je primárním zákazníkem nabídky. Když se pokusíte odstranit primárního zákazníka ze seznamu zákazníků v nabídce, zobrazí se chyba se zprávou, že záznam primárního zákazníka v nabídce nelze odstranit.
 
-Primární zákazník by neměl být aktualizován ze seznamu zákazníků v nabídce. Primárního zákazníka však můžete ovlivnit změnou potenciálního zákazníka na kartě **Souhrn** nabídky. Když je toto pole aktualizováno na kartě **Souhrn nabídky**, nově vybraný potenciální zákazník je přidán jako nový zákazník nabídky s nastaveným příznakem **Primární**. Starý potenciální zákazník bude i nadále zákazníkem v nabídce.
+Primární zákazník by neměl být aktualizován ze seznamu zákazníků v nabídce. Primárního zákazníka však můžete ovlivnit změnou potenciálního zákazníka na kartě **Souhrn** nabídky. Když je toto pole aktualizováno na kartě **Souhrn nabídky** , nově vybraný potenciální zákazník je přidán jako nový zákazník nabídky s nastaveným příznakem **Primární**. Starý potenciální zákazník bude i nadále zákazníkem v nabídce.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Vytvoření, aktualizace nebo odstranění záznamu zákazníka nabídky
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 4c814754e68b3a1a8bf8784434d45010bf8d0123
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907979"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073697"
 ---
 # <a name="skills-and-certifications"></a>Dovednosti a certifikace
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
@@ -30,7 +30,7 @@ Přidání charakteristik k požadavkům na zdroje vám umožní dokumentovat zn
 
 ## <a name="assign-characteristics-to-resources"></a>Přiřazení vlastností zdroji
 
-1. V hlavní nabídce vyberte položku **Zdroje** > **Rezervovatelné zdroje**. Otevře se stránka **Aktivní rezervovatelné zdroje**, kde uvidíte seznam všech dostupných zdrojů v systému.
+1. V hlavní nabídce vyberte položku **Zdroje** > **Rezervovatelné zdroje**. Otevře se stránka **Aktivní rezervovatelné zdroje** , kde uvidíte seznam všech dostupných zdrojů v systému.
 2. Vyberte v seznamu název rezervovatelného zdroje.
 3. V sekci **Projektové služby** vyberte položku **+Přidat záznam pro charakteristiky rezervovatelných zdrojů**.
 4. Zobrazí se automaticky otevírané okno, kde bude možné hledat a vybrat požadované charakteristiky a přidat ke zdroji **Hodnotu hodnocení**.

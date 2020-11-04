@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896228"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073706"
 ---
 # <a name="product-based-opportunity-lines"></a>Řádky příležitosti založené na produktu
 
@@ -25,4 +25,4 @@ _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
 Jeden pojem vyskytující se v řádcích příležitostí založených na produktu, který je specifický pro příležitosti založené na projektu, je **Rozpočet zákazníka**. Toto pole slouží ke sledování částky, kterou je zákazník ochoten zaplatit za řádkovou položku.
 
-Pokud je metoda výnosu souhrnu příležitostí nastavena na **Vypočteno systémem**, jsou hodnoty zákaznického rozpočtu napříč produktovými a projektovými řádky shrnuty pro výpočet odhadovaných výnosů.
+Pokud je metoda výnosu souhrnu příležitostí nastavena na **Vypočteno systémem** , jsou hodnoty zákaznického rozpočtu napříč produktovými a projektovými řádky shrnuty pro výpočet odhadovaných výnosů.

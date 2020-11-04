@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 2f08de54767f49c308d0ccc7f2e1c6ef880b7f99
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906111"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073708"
 ---
 # <a name="opportunity-header"></a>Záhlaví příležitosti
 
@@ -27,7 +27,7 @@ Následující tabulka obsahuje pole v příležitosti založené na projektu, k
 
 | **Pole** | **Umístění** | **Relevance, účel a vedení** | **Dopad na následné složky** |
 | --- | --- | --- | --- |
-| Typ | Karta Obecné (skrytá) | Toto pole sady možností obsahuje následující možnosti:</br>- Na základě práce (k dispozici pouze v Project Operations)</br>- Na základě zboží (k dispozici pouze v případě, že jsou nainstalovány aplikace Project Operations a Sales)</br>- Na základě servisní údržby (k dispozici, když je nainstalována služba Field Service) | Když použijete aplikaci Project Operations, hodnota tohoto pole se automaticky nastaví na **Na základě práce**, takže příležitost je klasifikována jako projektová. Příležitost by měla být založená na projektu, aby byla povolena všechna rozšíření a funkce specifické pro projekt v procesu následného prodeje pro tento obchod. |
+| Typ | Karta Obecné (skrytá) | Toto pole sady možností obsahuje následující možnosti:</br>- Na základě práce (k dispozici pouze v Project Operations)</br>- Na základě zboží (k dispozici pouze v případě, že jsou nainstalovány aplikace Project Operations a Sales)</br>- Na základě servisní údržby (k dispozici, když je nainstalována služba Field Service) | Když použijete aplikaci Project Operations, hodnota tohoto pole se automaticky nastaví na **Na základě práce** , takže příležitost je klasifikována jako projektová. Příležitost by měla být založená na projektu, aby byla povolena všechna rozšíření a funkce specifické pro projekt v procesu následného prodeje pro tento obchod. |
 | Kontakt | Karta Obecné | Odkaz na primární kontakt zákazníka pro tento obchod. | |
 | Účet | Karta Obecné | Odkaz na záznam společnosti nebo účtu zákazníka. | |
 | Manažer obchodních vztahů | Karta Obecné | Jméno správce účtu pro tuto příležitost založenou na projektu. | Manažer obchodních vztahů je zodpovědný za řízení vztahu se zákazníkem až do dokončení tohoto projektu. Smluvní jednotka je nastavena na výchozí hodnoty na základě záznamu rezervovatelného zdroje svázaného se správcem účtu. |

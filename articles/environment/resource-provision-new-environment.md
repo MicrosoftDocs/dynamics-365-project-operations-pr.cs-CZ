@@ -3,17 +3,17 @@ title: Zřízení nového prostředí
 description: Toto téma poskytuje informace o zřízení nového prostředí Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949354"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073667"
 ---
 # <a name="provision-a-new-environment"></a>Zřízení nového prostředí
 
@@ -26,14 +26,14 @@ Toto téma poskytuje informace o tom, jak zřídit nové prostředí Dynamics 36
 Pomocí následujících kroků povolíte tok automatického zřizování Project Operations pro váš projekt LCS.
 
 1. Přejděte do [LCS](https://lcs.dynamics.com/v2) a vyberte dlaždici **Správa funkce náhledu**.
-2. V seznamu **Funkce náhledu** vyberte **Project Operations** a poté výběrem možnosti **Funkce náhledu povolena** povolte aplikaci Project Operations.
+2. V seznamu **Funkce Preview** vyberte **Funkce Project Operations** a poté výběrem možnosti **Povolit funkci verze Preview** povolte aplikaci Project Operations.
 
 > [!NOTE]
 > Tento krok se provádí pouze jednou za projekt LCS.
 
 ## <a name="provision-a-project-operations-environment"></a>Zřízení prostředí Project Operations
 
-1. Otevřete nové [demo prostředí Dynamics 365 Finance](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) nebo nasazení [sandboxu / produkčního prostředí](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Otevřete nové [demo prostředí Dynamics 365 Finance](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) nebo nasazení [sandboxu / produkčního prostředí](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Projděte jednotlivé obrazovky průvodce **Zřízení prostředí**. 
 
 > [!IMPORTANT]
@@ -165,18 +165,19 @@ Aktualizace bude trvat přibližně 20 minut. Po dokončení obdržíte upozorn
 | **Entita integrace pro vztahy projektových transakcí (msdyn\_transactionconnections)** | No | No | Neuvedeno | No | Neuvedeno |
 | **Milníky řádku smlouvy integrace Project Operations (msdyn\_contractlinesscheduleofvalues)** | No | No | Neuvedeno | No | Neuvedeno |
 | **Entita integrace Project Operations pro odhady výdajů (msdyn\_estimateslines)** | No | No | Neuvedeno | No | Neuvedeno |
-| **Entita integrace Project Operations pro odhady hodin (msdyn\_resourceassignments)** | No | No | Neuvedeno | No | Neuvedeno |
+| **Entita exportu kategorie výdajů projektu integrace Project Operations (msdyn\_expensecategories)** | No | No | Neuvedeno | No | Neuvedeno |
 | **Entita exportu výdajů projektu integrace Project Operations (msdyn\_expenses)** | Ano | No | Neuvedeno | No | Neuvedeno |
 | **Entita integrace Project Operations pro odhady hodin (msdyn\_resourceassignments)** | Ano | No | Neuvedeno | No | Neuvedeno |
 
+
 4. Chcete-li entitu aktualizovat, vyberte název mapy a poté vyberte příkaz **Aktualizovat entity**. 
-5. Po dokončení aktualizace pokračujte ve spuštění mapy.
+
 
 ![Aktualizovat mapu](./media/20RefreshMapping.png)
 
-Před povolením další mapy ověřte, zda je mapa v tabulce ve stavu **Běh**. Spuštění map s větším počtem předpokladů může trvat delší dobu.
+5. Po dokončení aktualizace spusťte mapu. Před povolením další mapy ověřte, zda je mapa v tabulce ve stavu **Běh**. Spuštění map s větším počtem předpokladů může trvat delší dobu.
 
-Chcete-li spustit mapu s předpoklady, zapněte přepínač **Zobrazit související mapy entit**. Pokud je v tabulce **Počáteční synchronizace požadavků** nastavena na **Ne**, ověřte, zda příznak **Počáteční synchronizace** má hodnotu **Vypnuto** ve všech mapách požadavků, než ji spustíte.
+Chcete-li spustit mapu s předpoklady, zapněte přepínač **Zobrazit související mapy entit**. Pokud je v tabulce **Počáteční synchronizace požadavků** nastavena na **Ne** , ověřte, zda příznak **Počáteční synchronizace** má hodnotu **Vypnuto** ve všech mapách požadavků, než ji spustíte.
 
 ![Spuštění mapy](./media/21RunMap.png)
 

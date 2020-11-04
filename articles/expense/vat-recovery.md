@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907990"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073648"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Vratka DPH ve správě výdajů
 
@@ -21,7 +21,7 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 
 Aby společnost nebo organizace mohla dostávat vrácené částky za způsobilé transakce k dani z přidané hodnoty (DPH), musí identifikovat, shromažďovat, ověřovat a odesílat přesné informace. Tento proces zahrnuje více úkolů a v závislosti na velikosti vaší společnosti může zahrnovat několik zaměstnanců nebo rolí.
 
-Chcete-li získat zpět DPH v modulu **Správa výdajů**, musí být splněny následující předpoklady:
+Chcete-li získat zpět DPH v modulu **Správa výdajů** , musí být splněny následující předpoklady:
 
 - Kódy daně musí být vytvořeny pro země / oblasti, které jsou přiděleny do kategorií výdajů.
 - Pro každý daňový zákon musí být vytvořena skupina DPH.

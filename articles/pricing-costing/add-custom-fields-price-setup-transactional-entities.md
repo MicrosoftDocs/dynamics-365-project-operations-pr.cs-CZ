@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a27bfe881fdb6431941fa860d279e3e7b526f623
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e589465eb98723b3b49c5d96e263eb3abf15eb2c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898298"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073820"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Přidání požadovaných vlastních polí do nastavení ceny a transakčních entit
 
@@ -43,31 +42,31 @@ Pokud je vlastní cenová dimenze založena na sadě možností, přidejte ji ja
 2. V Průzkumníku řešení vyberte v levém navigačním podokně **Entity > Cena role**.
 3. Rozbalte entitu **Cena role** a vyberte **Pole**.
 4. Zvolte **Nové** vytvořte nové pole nazvané **Místo výkonu práce zdroje** a jako typ pole vyberte **Sada možností**. 
-5. Vyberte **Použít existující sadu možností**, vyberte sadu možností **Místo výkonu práce zdroje** a poté zvolte **Uložit**.
+5. Vyberte **Použít existující sadu možností** , vyberte sadu možností **Místo výkonu práce zdroje** a poté zvolte **Uložit**.
 6. Opakováním kroků 1–5 přidejte toto pole do entity **Přirážka ceny role**. 
 7. Opakujte kroky 1–5 pro sadu možností **Pracovní doba zdroje**.
 
 > [!IMPORTANT]
 > Přidáte-li pole do více než jedné entity, použijte stejný název pole ve všech entitách. 
 
-Ve fázích prodeje a odhadu projektu se k odhadu hodnoty Nabídky/Projektu používají odhady pracovního úsilí, které je nutné k dokončení práce **Místní** a **U zákazníka**, v **Běžné pracovní době** a **Přesčasové pracovní době**. Pole **Místo výkonu práce zdroje** a **Pracovní doba zdroje** budou přidány do entit odhadu **Podrobnosti řádku nabídky**, **Podrobnosti řádku smlouvy**, **Člen projektového týmu** a **Řádek odhadu**.
+Ve fázích prodeje a odhadu projektu se k odhadu hodnoty Nabídky/Projektu používají odhady pracovního úsilí, které je nutné k dokončení práce **Místní** a **U zákazníka** , v **Běžné pracovní době** a **Přesčasové pracovní době**. Pole **Místo výkonu práce zdroje** a **Pracovní doba zdroje** budou přidány do entit odhadu **Podrobnosti řádku nabídky** , **Podrobnosti řádku smlouvy** , **Člen projektového týmu** a **Řádek odhadu**.
 
 1. V Project Operations zvolte **Nastavení** > **Řešení** a pak dvakrát klikněte na **\<your organization name> cenové dimenze**. 
 2. V Průzkumníku řešení vyberte v levém navigačním podokně **Entity > Podrobnosti řádku nabídky**.
 3. Rozbalte entitu **Podrobnosti řádku nabídky** a vyberte **Pole**.
 4. Zvolte **Nové** vytvořte nové pole nazvané **Místo výkonu práce zdroje** a vyberte typ pole **Sada možností**. 
 5. Vyberte **Použít existující sadu možností** a **Místo výkonu práce zdroje** a poté zvolte **Uložit**.
-6. Opakováním kroků 1–5 přidejte toto pole do entit **Podrobnosti řádku projektové smlouvy**, **Člen projektového týmu** a **Řádek odhadu**.
+6. Opakováním kroků 1–5 přidejte toto pole do entit **Podrobnosti řádku projektové smlouvy** , **Člen projektového týmu** a **Řádek odhadu**.
 7. Opakujte kroky 1–6 pro sadu možností **Pracovní doba zdroje**. 
 
-Pro dodání a fakturaci musí být dokončená práce přesně oceněna, aby bylo možné ve Skutečnostech projektu vybrat, zda byla provedena **Místně** nebo **U zákazníka**, a zda byla dokončena v **Běžné pracovní době** nebo **Přesčasové pracovní době**. Pole **Místo výkonu práce zdroje** a **Pracovní doba zdroje** by měla být přidána do entit **Časový záznam**, **Skutečnost**, **Podrobnosti řádku faktury** a **Řádek deníku**.
+Pro dodání a fakturaci musí být dokončená práce přesně oceněna, aby bylo možné ve Skutečnostech projektu vybrat, zda byla provedena **Místně** nebo **U zákazníka** , a zda byla dokončena v **Běžné pracovní době** nebo **Přesčasové pracovní době**. Pole **Místo výkonu práce zdroje** a **Pracovní doba zdroje** by měla být přidána do entit **Časový záznam** , **Skutečnost** , **Podrobnosti řádku faktury** a **Řádek deníku**.
 
 1. Zvolte **Nastavení** > **Řešení** a pak dvakrát klikněte na **\<your organization name> cenové dimenze**.
 2. V Průzkumníku řešení vyberte v levém navigačním podokně **Entity > Časový záznam**.
 3. Rozbalte entitu **Podrobnosti řádku nabídky** a poté vyberte **Pole**.
 4. Zvolte **Nové** vytvořte nové pole nazvané **Místo výkonu práce zdroje** a jako typ pole vyberte **Sada možností**. 
-5. Vyberte **Použít existující sadu možností**, vyberte sadu možností **Místo výkonu práce zdroje** a poté zvolte **Uložit**.
-6. Opakováním kroků 1–5 přidejte toto pole k entitám **Skutečnost**, **Podrobnosti řádku faktury** a **Řádek deníku**.
+5. Vyberte **Použít existující sadu možností** , vyberte sadu možností **Místo výkonu práce zdroje** a poté zvolte **Uložit**.
+6. Opakováním kroků 1–5 přidejte toto pole k entitám **Skutečnost** , **Podrobnosti řádku faktury** a **Řádek deníku**.
 7. Opakujte kroky 1–6 pro sadu možností **Pracovní doba zdroje**. 
 
 Tím dokončíte změny schématu vyžadované pro vlastní dimenze založené na sadě možností.
@@ -95,14 +94,14 @@ Ve fázích prodeje a odhadu projektu jsou pro ocenění Nabídky/Projektu vyža
 - **Člen projektového týmu**
 - **Řádek odhadu**
 
-5. Opakujte kroky 1–5 pro vytvoření vztahů 1:N ze **Standardní funkce** do **Podrobnosti řádku nabídky**, **Podrobnosti řádku projektové smlouvy**, **Člen projektového týmu** a **Řádek odhadu**.
+5. Opakujte kroky 1–5 pro vytvoření vztahů 1:N ze **Standardní funkce** do **Podrobnosti řádku nabídky** , **Podrobnosti řádku projektové smlouvy** , **Člen projektového týmu** a **Řádek odhadu**.
 
-  Ve fázích Dodání a Fakturace musí být práce dokončená každou Standardní funkcí přesně oceněna ve Skutečnostech projektu. To znamená, že zde musí být vztahy 1:N ze **Standardní funkce** do **Časový záznam**, **Skutečnost**, **Podrobnosti řádku faktury** a **Entity řádku deníku**.
+  Ve fázích Dodání a Fakturace musí být práce dokončená každou Standardní funkcí přesně oceněna ve Skutečnostech projektu. To znamená, že zde musí být vztahy 1:N ze **Standardní funkce** do **Časový záznam** , **Skutečnost** , **Podrobnosti řádku faktury** a **Entity řádku deníku**.
 
-6. Opakováním kroků 1–6 vytvořte vztahy 1:N ze **Standardní funkce** do **Časový záznam**, **Skutečnost**, **Podrobnosti řádku faktury** a **Entity řádku deníku**.
+6. Opakováním kroků 1–6 vytvořte vztahy 1:N ze **Standardní funkce** do **Časový záznam** , **Skutečnost** , **Podrobnosti řádku faktury** a **Entity řádku deníku**.
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Nastavení výchozí hodnoty Dimenze pomocí funkcí mapování platformy
-V případě Časového záznamu by bylo užitečné mít systémovou výchozí hodnotou standardní funkci u Časového záznamu z Rezervovatelného zdroje, který časový záznam zaznamenává. Chcete-li přidat mapování polí u vztahu 1:N z **Rezervovatelný zdroj** do **Časový záznam**, použijte následující postup.
+V případě Časového záznamu by bylo užitečné mít systémovou výchozí hodnotou standardní funkci u Časového záznamu z Rezervovatelného zdroje, který časový záznam zaznamenává. Chcete-li přidat mapování polí u vztahu 1:N z **Rezervovatelný zdroj** do **Časový záznam** , použijte následující postup.
 
 1. V Průzkumníku řešení vyberte v levém navigačním podokně **Entity > Standardní funkce**.
 2. Rozbalte entitu **Standardní funkce** a vyberte **Vztahy 1:N**.

@@ -3,23 +3,23 @@ title: Kopírování projektu
 description: Toto téma poskytuje informace o kopírování projektů v Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907989"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073721"
 ---
 # <a name="copy-a-project"></a>Kopírování projektu
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-S Dynamics 365 Project Operations můžete rychle vytvářet nové projekty pomocí akce **Kopírovat projekt** ve formuláři **Projekty**. Chcete-li zkopírovat projekt, vyberte projekt a poté vyberte **Kopírovat**. Akce zkopíruje:
+S Dynamics 365 Project Operations můžete rychle vytvářet nové projekty výběrem **Kopírovat projekt** ve formuláři **Projekty**. Chcete-li zkopírovat projekt, otevřete projekt, který chcete zkopírovat, a poté vyberte **Kopírovat projekt**. Akce zkopíruje:
 
 - Vlastnosti projektu
 - Strukturovaný rozpis prací
@@ -58,4 +58,6 @@ Když se projektový tým zkopíruje ze zdrojového projektu, zkopírují se obe
 
 ## <a name="estimates"></a>Odhady
 
-Při kopírování projektu se zkopírují řádky odhadu zdrojů a výdajů ze zdrojového projektu.
+Při kopírování projektu se zkopírují řádky odhadu zdrojů a výdajů ze zdrojového projektu. 
+
+Informace o tom, jak programátorsky přistupovat ke kopírování projektu, najdete v části [Vývoj projektových šablon pomocí nástroje kopírovat projekt](dev-copy-project.md).

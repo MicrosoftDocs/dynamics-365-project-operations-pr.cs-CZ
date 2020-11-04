@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896318"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073709"
 ---
 # <a name="manage-leads-pro"></a>Správa zájemců (Pro)
 
@@ -49,11 +49,11 @@ Následující tabulka obsahuje důležité informace o poli pro zájemce a důs
 
 ## <a name="qualify-a-new-project-based-lead"></a>Kvalifikace nového zájemce na základě projektu
 
-Zájemci, kteří mají **Typ** nastaven na hodnotu **Na základě práce**, se nazývají zájemci na základě projektu. Když je zájemce na základě projektu kvalifikován, vytvoří se následující položky:
+Zájemci, kteří mají **Typ** nastaven na hodnotu **Na základě práce** , se nazývají zájemci na základě projektu. Když je zájemce na základě projektu kvalifikován, vytvoří se následující položky:
 
 - Účet, který používá pole **Společnost** ze zájemce.
 - Záznam kontaktní osoby přidružený k účtu na základě hodnot v polích **Křestní jméno** a **Příjmení** zájemce.
-- Příležitost založená na projektu, která má pole **Typ** nastaveno na &quot;**Na základě práce**.
+- Příležitost založená na projektu, která má pole **Typ** nastaveno na **Na základě práce**.
 
 Podrobnější informace o zařazení zájemců najdete v tématu[Zařazení nebo převod zájemců](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

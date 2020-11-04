@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906112"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073649"
 ---
 # <a name="travel-requisitions"></a>Cestovní žádanky
 
@@ -52,7 +52,7 @@ Vyberte cestovní žádanku, kterou chcete schválit, a poté vyberte **Pracovn�
 
 1. Vytvořte nové vyúčtování výdajů a v záhlaví vyúčtování výdajů vyberte ze seznamu schválených cestovních žádanek **Mapa k cestovní žádance**.
 2. Pole **Částka na cestovní žádance** se automaticky aktualizuje v záhlaví vyúčtování výdajů.
-3. Přidejte jednotlivé výdaje vynaložené na cestu. Pokud je povoleno pole **Schváleno předem**, bude aktualizována sesouhlasená částka a autorizovaná částka pro konkrétní kategorii výdajů.
+3. Přidejte jednotlivé výdaje vynaložené na cestu. Pokud je povoleno pole **Schváleno předem** , bude aktualizována sesouhlasená částka a autorizovaná částka pro konkrétní kategorii výdajů.
 
 > [!NOTE]
 > Když mapujete vyúčtování výdajů na schválenou žádost o cestování, částka transakce nemůže být větší než autorizovaná částka. 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907983"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073655"
 ---
 # <a name="opportunity-headersummary"></a>Záhlaví/souhrn příležitosti
 
@@ -28,7 +28,7 @@ Následující tabulka obsahuje pole v příležitosti založené na projektu, k
 
 | **Pole** | **Umístění** | **Relevance, účel a vedení** | **Dopad na následné složky** |
 | --- | --- | --- | --- |
-| Typ | Karta Obecné (skrytá) | Toto pole sady možností obsahuje následující možnosti:</br>- Na základě práce (k dispozici pouze v Project Operations)</br>- Na základě zboží (k dispozici pouze v případě, že jsou nainstalovány aplikace Project Operations a Sales)</br>- Na základě servisní údržby (k dispozici, když je nainstalována služba Field Service) | Když použijete aplikaci Project Operations, hodnota tohoto pole se automaticky nastaví na **Na základě práce**, takže příležitost je klasifikována jako projektová. Příležitost by měla být založená na projektu, aby byla povolena všechna rozšíření a funkce specifické pro projekt v procesu následného prodeje pro tento obchod. |
+| Typ | Karta Obecné (skrytá) | Toto pole sady možností obsahuje následující možnosti:</br>- Na základě práce (k dispozici pouze v Project Operations)</br>- Na základě zboží (k dispozici pouze v případě, že jsou nainstalovány aplikace Project Operations a Sales)</br>- Na základě servisní údržby (k dispozici, když je nainstalována služba Field Service) | Když použijete aplikaci Project Operations, hodnota tohoto pole se automaticky nastaví na **Na základě práce** , takže příležitost je klasifikována jako projektová. Příležitost by měla být založená na projektu, aby byla povolena všechna rozšíření a funkce specifické pro projekt v procesu následného prodeje pro tento obchod. |
 | Vlastnící společnost | Karta Obecné | Toto je společnost nebo právnická osoba, která dodá projekt zákazníkovi. | Informace v tomto poli budou zkopírovány do odpovídajícího pole v projektové nabídce, která je vytvořena z této příležitosti. |
 | Kontakt | Karta Obecné | Odkaz na primární kontakt zákazníka pro tento obchod. | |
 | Účet | Karta Obecné | Odkaz na záznam společnosti nebo účtu zákazníka. | |

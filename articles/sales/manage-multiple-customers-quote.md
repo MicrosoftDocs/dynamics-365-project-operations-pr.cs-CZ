@@ -9,17 +9,17 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907994"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073634"
 ---
 # <a name="manage-multiple-customers-on-project-quotes"></a>Správa více zákazníků v projektových nabídkách
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Projektové nabídky podporují scénář, kdy návrh zahrnuje více zákazníků, kteří budou obchod financovat. Karta **Souhrn** nabídky obsahuje pole **Potencionální zákazník**, které identifikuje primárního zákazníka obchodu. Další zákazníky pro obchod lze nastavit na kartě **Zákazníci** projektové nabídky.
+Projektové nabídky podporují scénář, kdy návrh zahrnuje více zákazníků, kteří budou obchod financovat. Karta **Souhrn** nabídky obsahuje pole **Potencionální zákazník** , které identifikuje primárního zákazníka obchodu. Další zákazníky pro obchod lze nastavit na kartě **Zákazníci** projektové nabídky.
 
 Všichni zákazníci nabídky na kartě **Zákazníci** projektové nabídky jsou uvedeni jako výchozí zákazníci řádku nabídky na všech **nových** řádcích nabídek založených na projektu vytvořených pro nabídku. Žádné stávající řádky nabídek založených na projektu nezdědí nové záznamy zákazníků nabídky vytvořené po nich.
 
@@ -29,7 +29,7 @@ Zákazníky nabídky a zákazníky řádku nabídky lze přidávat, aktualizovat
 
 Zákazník uvedený na kartě **Souhrn** projektové nabídky jako potenciální zákazník je primárním zákazníkem nabídky. Pokud se pokusíte odstranit primárního zákazníka ze seznamu zákazníků v nabídce, zobrazí se chyba se zprávou, že záznam primárního zákazníka v nabídce nelze odstranit.
 
-Primární zákazník by neměl být aktualizován ze seznamu zákazníků v nabídce. Primárního zákazníka však můžete ovlivnit změnou potenciálního zákazníka na kartě **Souhrn** nabídky. Když je toto pole aktualizováno na kartě **Souhrn nabídky**, nově vybraný potenciální zákazník je přidán jako nový zákazník nabídky s nastaveným příznakem **Primární**. Starý potenciální zákazník bude i nadále zákazníkem v nabídce.
+Primární zákazník by neměl být aktualizován ze seznamu zákazníků v nabídce. Primárního zákazníka však můžete ovlivnit změnou potenciálního zákazníka na kartě **Souhrn** nabídky. Když je toto pole aktualizováno na kartě **Souhrn nabídky** , nově vybraný potenciální zákazník je přidán jako nový zákazník nabídky s nastaveným příznakem **Primární**. Starý potenciální zákazník bude i nadále zákazníkem v nabídce.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Vytvoření, aktualizace nebo odstranění záznamu zákazníka nabídky
 
@@ -43,7 +43,7 @@ Zákazník nabídky může být vytvořen, aktualizován nebo odstraněn na kart
 | Fakturační adresa – jméno | Upravitelná mřížka na kartě **Zákazníci nabídky** a formuláře **Hlavní** a **Vytvořit** pro zákazníka nabídky. | Toto textové pole by se mělo použít k identifikaci kontaktní osoby faktury pro tohoto zákazníka. | Zkopírováno do zákazníků projektové smlouvy po získání nabídky, a následně do pole **Fakturační adresa – jméno kontaktu** na faktuře, která je generována pro tohoto zákazníka. |
 | Platební podmínky | Upravitelná mřížka na kartě **Zákazníci nabídky** a formuláře **Hlavní** a **Vytvořit** pro zákazníka nabídky. | Toto je sada možností s hodnotami, které jsou implicitně načteny ze záznamu souvisejícího účtu. | Zkopírováno do zákazníků projektové smlouvy po získání nabídky, a následně do pole **Fakturační adresa – jméno kontaktu** na faktuře, která je generována pro tohoto zákazníka. |
 | Je zaokrouhlení | Upravitelná mřížka na kartě **Zákazníci nabídky** a formuláře **Hlavní** a **Vytvořit** pro zákazníka nabídky. | Označuje, zda je tento zákazník výchozím zaokrouhlovacím zákazníkem pro tento obchod. | Zkopírováno do zákazníků projektové smlouvy při získání nabídky. |
-| Vlastnící společnost | Upravitelná mřížka na kartě **Zákazníci nabídky** a formuláře **Hlavní** a **Vytvořit** pro zákazníka nabídky. | Právnická osoba, kterou má tento zákazník nastavenu v modulu **Řízení projektů a účetnictví**. Toto pole je pouze ke čtení a je nastaveno na vlastnící společnost samotné nabídky. Seznam zákazníků, které chcete přidat do pole **Účet**, je již filtrován do seznamu z této vlastnické společnosti v modulu **Řízení projektů a účetnictví** aplikace Project Operations. | Vlastnická společnost odpovídá konceptu právnické osoby v modulu **Řízení projektů a účetnictví** aplikace Project Operations. Všechny náklady a výnosy plynoucí z tohoto projektu jsou účtovány v hlavní knize vlastnící společnosti, |
+| Vlastnící společnost | Upravitelná mřížka na kartě **Zákazníci nabídky** a formuláře **Hlavní** a **Vytvořit** pro zákazníka nabídky. | Právnická osoba, kterou má tento zákazník nastavenu v modulu **Řízení projektů a účetnictví**. Toto pole je pouze ke čtení a je nastaveno na vlastnící společnost samotné nabídky. Seznam zákazníků, které chcete přidat do pole **Účet** , je již filtrován do seznamu z této vlastnické společnosti v modulu **Řízení projektů a účetnictví** aplikace Project Operations. | Vlastnická společnost odpovídá konceptu právnické osoby v modulu **Řízení projektů a účetnictví** aplikace Project Operations. Všechny náklady a výnosy plynoucí z tohoto projektu jsou účtovány v hlavní knize vlastnící společnosti, |
 | Nepřekročitelný limit | Upravitelná mřížka na kartě **Zákazníci nabídky** a formuláře **Hlavní** a **Vytvořit** pro zákazníka nabídky. | Určuje, zda existuje sjednaný limit nebo strop celkové částky, která bude fakturována tomuto zákazníkovi za tuto zakázku. | Zkopírováno do zákazníků projektové smlouvy při získání nabídky. |
 
 ## <a name="editing-billing-split-percentages"></a>Úprava procentuálních rozdělení fakturace

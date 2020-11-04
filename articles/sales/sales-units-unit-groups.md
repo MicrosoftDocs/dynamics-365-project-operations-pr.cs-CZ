@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ea5399368214a293ca7c10fabf21d82407b5c76f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 345a4f38ad0bc5acddb90cfd8cb3e92154e46513
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898748"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073903"
 ---
 # <a name="units-and-unit-groups"></a>Jednotky a skupiny jednotek
 
@@ -46,4 +45,4 @@ Chcete-li provést kroky v tomto tématu, ujistěte se, že vám byla přiřazen
 2. Vyberte **Přidat novou jednotku** a na stránce **Rychlé vytvoření: Jednotka** zadejte do pole **Název** název jednotky.
 3. Do pole **Množství** zadejte množství, které bude jednotka obsahovat. Pokud například krabice obsahuje dva kusy, zadejte „2“. 
 4. V poli **Základní jednotka** vyberte základní jednotku pro stanovení nejnižší měrné jednotky pro danou jednotku. Můžete například vybrat „Kus“.
-5. Zvolte **Uložit**:
+5. Zvolte **Uložit** :

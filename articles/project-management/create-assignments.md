@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906109"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073693"
 ---
 # <a name="create-resource-assignments"></a>Vytvořit přiřazení zdrojů
 
@@ -37,7 +37,7 @@ Když vytvoříte obecného člena týmu prostřednictvím přiřazení úkolů,
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Přiřazení pojmenovaného zdroje ze seznamu všech rezervovatelných zdrojů
 
-Můžete použít vyhledávací pole ve **Výběru zdrojů** pro vyhledání všech aktivních rezervovatelných zdrojů a přiřadit je k libovolnému úkolu typu list. Zdroje přiřazené tímto způsobem jsou do týmu přidány bez jakýchkoli rezervací. To je podobné jako přidání člena týmu a vybrání metody přidělení **Žádná**. Zdroj se zobrazí se na kartách **Tým**, **Přiřazení zdrojů** a **Vyrovnání** jako zdroj pouze s přiřazením a nedostatečnou rezervací. Zarezervujte je, pokud chcete použít jejich dostupnost.
+Můžete použít vyhledávací pole ve **Výběru zdrojů** pro vyhledání všech aktivních rezervovatelných zdrojů a přiřadit je k libovolnému úkolu typu list. Zdroje přiřazené tímto způsobem jsou do týmu přidány bez jakýchkoli rezervací. To je podobné jako přidání člena týmu a vybrání metody přidělení **Žádná**. Zdroj se zobrazí se na kartách **Tým** , **Přiřazení zdrojů** a **Vyrovnání** jako zdroj pouze s přiřazením a nedostatečnou rezervací. Zarezervujte je, pokud chcete použít jejich dostupnost.
 
 1. Z mřížky úkolů, vývěsky nebo časové osy přejděte na buňku **Přiřazeno**.
 2. Do vyhledávacího pole začněte psát jméno. Výsledky vyhledání názvu se zobrazí ve **Výběru zdrojů** v části **Další zdroje**.

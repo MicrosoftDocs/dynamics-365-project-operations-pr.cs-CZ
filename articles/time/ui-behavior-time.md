@@ -9,18 +9,18 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 86f805cd33f81e70bf9ae3c1fb20a1c310473604
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961693"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073715"
 ---
 # <a name="time-entry-ui-behavior"></a>Chování uživatelského rozhraní při zadávání času
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
 
-Nová mřížka pro **týdenní zadávání času** je vlastní ovládací prvek, který obsahuje panel nástrojů a dvě hlavní části **Dimenze** a **Doba trvání**.
+Nová mřížka pro **týdenní zadávání času** je vlastní ovládací prvek, který obsahuje panel nástrojů a dvě hlavní části **Dimenze** a  **Doba trvání**.
 
 ## <a name="dimensions"></a>Dimenze
 Část **Dimenze** znázorňuje dimenze, pro které lze zadat čas. Následující dimenze jsou podporovány ve výchozím nastavení:
@@ -40,7 +40,7 @@ Nová mřížka pro **týdenní zadávání času** je vlastní ovládací prvek
 
 1. V Mřížce zadání času vyberte **Nový**. 
 2. V dialogovém okně **Rychlé zadání času** vyberte datum zadání času.
-3. Zadejte data pro dimenze **Projekt**, **Projektový úkol**, **Role** a **Doba trvání**. Tyto informace by měly být přidány během několika minut, hodin nebo dnů zadáním hodnot **h**, **m** nebo **d** spolu s číslicí. 
+3. Zadejte data pro dimenze **Projekt** , **Projektový úkol** , **Role** a **Doba trvání**. Tyto informace by měly být přidány během několika minut, hodin nebo dnů zadáním hodnot **h** , **m** nebo **d** spolu s číslicí. 
 4. Zadejte popis záznamu a jakékoli komentáře, které lze sdílet ohledně časového záznamu externě. 
 
 Když záznam uložíte, zadané hodnoty se zobrazí v části **Rozměry**. Informace zadané do pole **Doba trvání** se zobrazí k datu, pro které byl časový záznam vytvořen.
@@ -48,7 +48,7 @@ Když záznam uložíte, zadané hodnoty se zobrazí v části **Rozměry**. Inf
 Vyhledávací pole jsou zálohována systémovými zobrazeními. Například poté, co uživatel zadá projekt, bude pole **Projektový úkol** ve výchozím nastavení nastaveno na zobrazení **Kopie**. Chcete-li vytvořit časové záznamy pro úkoly, které nejsou přiřazeny uživateli, vyberte možnost **Změnit zobrazení** v dialogovém okně vyhledávání a pak vyberte zobrazení **Všechny aktivní projektové úkoly**.
 
 ## <a name="edit-a-time-entry"></a>Úprava časového záznamu 
-Podrobnosti z některých polí na stránce zadávání času, například **Popis** a **Externí komentáře**, nejsou zobrazeny v mřížce týdenního zadávání času. Místo toho se v buňkách **Doba trvání**, které mají tyto další podrobnosti, zobrazí malý trojúhelníkový ukazatel. 
+Podrobnosti z některých polí na stránce zadávání času, například **Popis** a  **Externí komentáře** , nejsou zobrazeny v mřížce týdenního zadávání času. Místo toho se v buňkách **Doba trvání** , které mají tyto další podrobnosti, zobrazí malý trojúhelníkový ukazatel. 
 
 1. Chcete-li upravit záznam času, vyberte v záznamu času buňku, kterou chcete aktualizovat.
 2. Vyberte **Upravit podrobnosti** k aktualizaci dat v podokně **Hlavní formulář zadání času**. 
@@ -67,10 +67,10 @@ Můžete odeslat jeden časový záznam nebo skupinu časových záznamů výbě
 
 ## <a name="time-entry-status"></a>Stav časového záznamu
 
-- **Koncept**: Novým časovým záznamům je automaticky přiřazen stav **Koncept**. Odstranit lze pouze časové záznamy, které mají stav **Koncept**.
-- **Odesláno**: Po odeslání časového záznamu je stav aktualizován na **Odesláno**. 
-- **Schváleno**: Po schválení časového záznamu je stav aktualizován na **Schváleno**. 
-- **Vráceno**: Pokud je časový záznam zamítnut, bude jeho stav aktualizován na **Vráceno** a záznam bude dostupný pro opravu a opětovné odeslání. 
+- **Koncept** : Novým časovým záznamům je automaticky přiřazen stav **Koncept**. Odstranit lze pouze časové záznamy, které mají stav **Koncept**.
+- **Odesláno** : Po odeslání časového záznamu je stav aktualizován na **Odesláno**. 
+- **Schváleno** : Po schválení časového záznamu je stav aktualizován na **Schváleno**. 
+- **Vráceno** : Pokud je časový záznam zamítnut, bude jeho stav aktualizován na **Vráceno** a záznam bude dostupný pro opravu a opětovné odeslání. 
 
 ## <a name="view-rejection-comments"></a>Zobrazení komentářů k zamítnutí
 Pokud je časový záznam zamítnut schvalovatelem, může schvalovatel přidat komentáře, které pomohou zdroji porozumět důvodu zamítnutí. Chcete-li zobrazit komentáře k zamítnutí časového záznamu, vyberte možnost **Otevřít záznam**. Komentáře k zamítnutí budou zobrazeny na časové ose. Uživatel může reagovat na komentáře o odmítnutí před opětovným odesláním záznamu.

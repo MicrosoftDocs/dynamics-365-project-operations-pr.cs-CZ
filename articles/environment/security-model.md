@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896723"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073665"
 ---
 # <a name="security-model"></a>Model zabezpečení
 
@@ -36,10 +36,11 @@ Mezi funkce front-endu Project Operations patří následující role:
 
 
 Microsoft Project pro web zahrnuje následující role:
-| Role                          | Popis                                                                                                          | Obor |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Uživatel projektu | Kolaborativní uživatel aplikace Project, který je schopen vytvářet vlastní projekty a prohlížet všechny s ním sdílené projekty.| Uživatelské|
-| Systém projektu | Role použitá pro kontext aplikace. Zákazníci by neměli tuto systémovou roli používat. | Globální|
+
+| Role           | Popis                                                                                                        | Obor  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Uživatel projektu   | Kolaborativní uživatel aplikace Project, který je schopen vytvářet vlastní projekty a prohlížet všechny s ním sdílené projekty. | Uživatelské   |
+| Systém projektu | Role použitá pro kontext aplikace. Zákazníci by neměli tuto systémovou roli používat.                                    | Globální |
 
 ## <a name="security-enforcement"></a>Prosazování bezpečnosti
 Akce, které se provádějí na úrovni projektu, se provádějí v kontextu přihlášeného uživatele. To znamená, že za účelem vytvoření, otevření nebo odstranění projektu musí uživatel mít přístup k projektu v CDS. Přístup v CDS může být udělen prostřednictvím kteréhokoli z možných mechanismů obsažených v platformě. Například když může uživatel s větším rozsahem přistupovat k projektu nebo pokud byla provedena explicitní akce sdílení projektu, která uživateli uděluje přístup.
@@ -56,6 +57,8 @@ Skupiny umožňují společně pracovat na oprávněních projektu a podpůrnýc
 Project Operations nevytváří skupinu prostřednictvím implicitní akce a dělá to pouze prostřednictvím explicitní akce prosazení skupin.
 
 Hledání členů skupiny v dialogovém okně **Správa skupiny** je omezeno na členy, kteří jsou nastaveni jako součást skupiny zabezpečení prostředí. Další informace naleznete v části [Řízení přístupu uživatelů k prostředím: skupiny zabezpečení a licence](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Skupinový režim](./media/groupsmode.png)
 
 1. Projekt je vytvářen a vlastněn vytvářejícím uživatelem.
 2. Vlastník projektu je aktualizován na tým.

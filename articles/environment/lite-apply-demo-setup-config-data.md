@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948797"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073645"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Použít ukázkové nastavení a konfigurační data pro omezené nasazení Project Operations - od obchodu po pro forma fakturaci
 
@@ -25,7 +25,7 @@ _**Omezené nasazení - dohoda o pro forma fakturaci_
 
 ![Migrace konfigurace](./media/1ConfigurationMigration.png)
 
-4. Na stránce 2 průvodce CMT vyberte **Office 365** jako **Typ nasazení**.
+4. Na stránce 2 průvodce CMT vyberte **Microsoft 365** jako **Typ nasazení**.
 5. Zaškrtněte políčka **Zobrazit seznam dostupných organizací** a **Zobrazit pokročilé**.
 6. Vyberte oblast vašeho klienta, zadejte své přihlašovací údaje a pak vyberte **Přihlásit se**.
 
