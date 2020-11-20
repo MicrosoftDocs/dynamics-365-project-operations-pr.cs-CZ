@@ -1,124 +1,134 @@
 ---
-title: Nastavení a použití dat konfigurace ve službě Common Data Service pro Project Operations
+title: Nastavení a použití konfiguračních dat v Common Data Service
 description: Toto téma poskytuje informace o tom, jak nastavit a použít konfigurační data v aplikaci Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073653"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401120"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a><span data-ttu-id="11edc-103">Nastavení a použití dat konfigurace ve službě Common Data Service pro Project Operations</span><span class="sxs-lookup"><span data-stu-id="11edc-103">Set up and apply configuration data in the Common Data Service for Project Operations</span></span>
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a><span data-ttu-id="62581-103">Nastavení a použití konfiguračních dat v Common Data Service</span><span class="sxs-lookup"><span data-stu-id="62581-103">Set up and apply configuration data in the Common Data Service</span></span> 
 
-<span data-ttu-id="11edc-104">_**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_</span><span class="sxs-lookup"><span data-stu-id="11edc-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="62581-104">_**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_</span><span class="sxs-lookup"><span data-stu-id="62581-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-## <a name="install-setup-and-configuration-data"></a><span data-ttu-id="11edc-105">Instalace nastavení a dat konfigurace</span><span class="sxs-lookup"><span data-stu-id="11edc-105">Install setup and configuration data</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="62581-105">Požadavky</span><span class="sxs-lookup"><span data-stu-id="62581-105">Prerequisites</span></span>
 
-1. <span data-ttu-id="11edc-106">Stáhněte, odblokujte a rozbalte soubor [Balíček údajů o nastavení a konfiguraci](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).</span><span class="sxs-lookup"><span data-stu-id="11edc-106">Download, unblock, and unzip the [Setup and Configuration Data Package](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).</span></span>
-2. <span data-ttu-id="11edc-107">Přejděte do rozbalené složky a spusťte soubor *DataMigrationUtility*.</span><span class="sxs-lookup"><span data-stu-id="11edc-107">Navigate to the unzipped folder and run the executable file, *DataMigrationUtility*.</span></span>
-3. <span data-ttu-id="11edc-108">Na straně 1 Průvodce konfigurací migrace (CMT) Common Data Service, vyberte **Importovat data** a poté vyberte **Pokračovat**.</span><span class="sxs-lookup"><span data-stu-id="11edc-108">On page 1 of the Common Data Service Configuration Migration (CMT) Wizard, select **Import Data** and then select **Continue**.</span></span>
+<span data-ttu-id="62581-106">Než začnete konfigurovat data v Common Data Service (CDS), musí být splněny následující předpoklady:</span><span class="sxs-lookup"><span data-stu-id="62581-106">Before you beging to configure data in the Common Data Service (CDS), the following prerequisites must be met:</span></span>
+
+1.  <span data-ttu-id="62581-107">Máte zřízeno prostředí CDS a Dynamics 365 Finance pro Project Operations.</span><span class="sxs-lookup"><span data-stu-id="62581-107">Provision a CDS environment and a Dynamics 365 Finance environment for Project Operations.</span></span>
+2.  <span data-ttu-id="62581-108">V prostředí CDS jsou sdíleny informace o právnické osobě z Dynamics 365 Finance.</span><span class="sxs-lookup"><span data-stu-id="62581-108">Legal entity information from Dynamics 365 Finance is shared to the CDS environment.</span></span> <span data-ttu-id="62581-109">To znamená, že entita **Společnost** v CDS má následující záznamy:</span><span class="sxs-lookup"><span data-stu-id="62581-109">This means that the **Company** entity in CDS has the following company records:</span></span>
+  - <span data-ttu-id="62581-110">THPM</span><span class="sxs-lookup"><span data-stu-id="62581-110">THPM</span></span>
+  - <span data-ttu-id="62581-111">USPM</span><span class="sxs-lookup"><span data-stu-id="62581-111">USPM</span></span>
+  - <span data-ttu-id="62581-112">GBPM</span><span class="sxs-lookup"><span data-stu-id="62581-112">GBPM</span></span>
+
+## <a name="install-setup-and-configuration-data"></a><span data-ttu-id="62581-113">Instalace nastavení a dat konfigurace</span><span class="sxs-lookup"><span data-stu-id="62581-113">Install setup and configuration data</span></span>
+
+1. <span data-ttu-id="62581-114">Stáhněte, odblokujte a rozbalte soubor [Balíček údajů o nastavení a konfiguraci](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).</span><span class="sxs-lookup"><span data-stu-id="62581-114">Download, unblock, and unzip the [Setup and Configuration Data Package](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).</span></span>
+2. <span data-ttu-id="62581-115">Přejděte do rozbalené složky a spusťte soubor *DataMigrationUtility*.</span><span class="sxs-lookup"><span data-stu-id="62581-115">Navigate to the unzipped folder and run the executable file, *DataMigrationUtility*.</span></span>
+3. <span data-ttu-id="62581-116">Na straně 1 Průvodce konfigurací migrace (CMT) Common Data Service, vyberte **Importovat data** a poté vyberte **Pokračovat**.</span><span class="sxs-lookup"><span data-stu-id="62581-116">On page 1 of the Common Data Service Configuration Migration (CMT) Wizard, select **Import Data** and then select **Continue**.</span></span>
 
 ![Migrace konfigurace](./media/1ConfigurationMigration.png)
 
-4. <span data-ttu-id="11edc-110">Na stránce 2 průvodce CMT vyberte **Microsoft 365** jako **Typ nasazení**.</span><span class="sxs-lookup"><span data-stu-id="11edc-110">On Page 2 of the CMT Wizard, select **Microsoft 365** as the **Deployment Type**.</span></span>
-5. <span data-ttu-id="11edc-111">Zaškrtněte políčka **Zobrazit seznam dostupných organizací** a **Zobrazit pokročilé**.</span><span class="sxs-lookup"><span data-stu-id="11edc-111">Select the **Display a list of available organizations** and **Show Advanced** check boxes.</span></span>
-6. <span data-ttu-id="11edc-112">Vyberte oblast vašeho klienta, zadejte své přihlašovací údaje a vyberte příkaz **Přihlásit se**.</span><span class="sxs-lookup"><span data-stu-id="11edc-112">Select the region of your tenant, enter your credentials, and select **Login**.</span></span>
+4. <span data-ttu-id="62581-118">Na stránce 2 průvodce CMT vyberte **Microsoft 365** jako **Typ nasazení**.</span><span class="sxs-lookup"><span data-stu-id="62581-118">On Page 2 of the CMT Wizard, select **Microsoft 365** as the **Deployment Type**.</span></span>
+5. <span data-ttu-id="62581-119">Zaškrtněte políčka **Zobrazit seznam dostupných organizací** a **Zobrazit pokročilé**.</span><span class="sxs-lookup"><span data-stu-id="62581-119">Select the **Display a list of available organizations** and **Show Advanced** check boxes.</span></span>
+6. <span data-ttu-id="62581-120">Vyberte oblast vašeho klienta, zadejte své přihlašovací údaje a vyberte příkaz **Přihlásit se**.</span><span class="sxs-lookup"><span data-stu-id="62581-120">Select the region of your tenant, enter your credentials, and select **Login**.</span></span>
 
 ![Přihlášení do konfigurace](./media/2ConfigurationSignin.png)
 
-7. <span data-ttu-id="11edc-114">Na stránce 3 vyberte ze seznamu organizací v klientovi organizaci, do které chcete importovat ukázková data, a vyberte příkaz **Přihlásit se**.</span><span class="sxs-lookup"><span data-stu-id="11edc-114">On page 3, from the list of organizations on the tenant, select the organization you want to import the demo data into and select **Login**.</span></span>
-8. <span data-ttu-id="11edc-115">Na stránce 4 vyberte soubor zip *SampleSetupAndConfigData* z rozbalené složky.</span><span class="sxs-lookup"><span data-stu-id="11edc-115">On page 4, select the zip file, *SampleSetupAndConfigData* from the unpacked folder.</span></span>
+7. <span data-ttu-id="62581-122">Na stránce 3 vyberte ze seznamu organizací v klientovi organizaci, do které chcete importovat ukázková data, a vyberte příkaz **Přihlásit se**.</span><span class="sxs-lookup"><span data-stu-id="62581-122">On page 3, from the list of organizations on the tenant, select the organization you want to import the demo data into and select **Login**.</span></span>
+8. <span data-ttu-id="62581-123">Na stránce 4 vyberte soubor zip *SampleSetupAndConfigData* z rozbalené složky.</span><span class="sxs-lookup"><span data-stu-id="62581-123">On page 4, select the zip file, *SampleSetupAndConfigData* from the unpacked folder.</span></span>
 
 ![Výběr souboru ZIP](./media/3ZipFile.png)
 
 ![Vyberte soubor.](./media/4SelectAFile.png)
 
-9. <span data-ttu-id="11edc-118">Po výběru souboru zip vyberte **Importovat data**.</span><span class="sxs-lookup"><span data-stu-id="11edc-118">After the zip file is selected, select **Import Data**.</span></span>
+9. <span data-ttu-id="62581-126">Po výběru souboru zip vyberte **Importovat data**.</span><span class="sxs-lookup"><span data-stu-id="62581-126">After the zip file is selected, select **Import Data**.</span></span>
 
 ![Importovat data](./media/5ImportData.png)
 
-10. <span data-ttu-id="11edc-120">Import bude probíhat přibližně dvě až deset minut v závislosti na rychlosti vaší sítě.</span><span class="sxs-lookup"><span data-stu-id="11edc-120">Import will run for approximately two-ten minutes depending on your network speed.</span></span> <span data-ttu-id="11edc-121">Po dokončení importu ukončete průvodce CMT.</span><span class="sxs-lookup"><span data-stu-id="11edc-121">After import completes, exit the CMT Wizard.</span></span> 
-11. <span data-ttu-id="11edc-122">Zkontrolujte ve své organizaci data v následujících 19 entitách:</span><span class="sxs-lookup"><span data-stu-id="11edc-122">Check your organization for data in the following 19 entities:</span></span>
+10. <span data-ttu-id="62581-128">Import bude probíhat přibližně dvě až deset minut v závislosti na rychlosti vaší sítě.</span><span class="sxs-lookup"><span data-stu-id="62581-128">Import will run for approximately two-ten minutes depending on your network speed.</span></span> <span data-ttu-id="62581-129">Po dokončení importu ukončete průvodce CMT.</span><span class="sxs-lookup"><span data-stu-id="62581-129">After import completes, exit the CMT Wizard.</span></span> 
+11. <span data-ttu-id="62581-130">Zkontrolujte ve své organizaci data v následujících 19 entitách:</span><span class="sxs-lookup"><span data-stu-id="62581-130">Check your organization for data in the following 19 entities:</span></span>
 
-  - <span data-ttu-id="11edc-123">Měna</span><span class="sxs-lookup"><span data-stu-id="11edc-123">Currency</span></span>
-  - <span data-ttu-id="11edc-124">Organizační jednotka</span><span class="sxs-lookup"><span data-stu-id="11edc-124">Organizational Unit</span></span>
-  - <span data-ttu-id="11edc-125">Kontakt</span><span class="sxs-lookup"><span data-stu-id="11edc-125">Contact</span></span>
-  - <span data-ttu-id="11edc-126">Daňová skupina</span><span class="sxs-lookup"><span data-stu-id="11edc-126">Tax Group</span></span>
-  - <span data-ttu-id="11edc-127">Skupina zákazníků</span><span class="sxs-lookup"><span data-stu-id="11edc-127">Customer Group</span></span>
-  - <span data-ttu-id="11edc-128">Jednotka</span><span class="sxs-lookup"><span data-stu-id="11edc-128">Unit</span></span>
-  - <span data-ttu-id="11edc-129">Skupina jednotek</span><span class="sxs-lookup"><span data-stu-id="11edc-129">Unit Group</span></span>
-  - <span data-ttu-id="11edc-130">Ceník</span><span class="sxs-lookup"><span data-stu-id="11edc-130">Price List</span></span>
-  - <span data-ttu-id="11edc-131">Ceník projektových parametrů</span><span class="sxs-lookup"><span data-stu-id="11edc-131">Project Parameter Price List</span></span>
-  - <span data-ttu-id="11edc-132">Frekvence faktur</span><span class="sxs-lookup"><span data-stu-id="11edc-132">Invoice Frequency</span></span>
-  - <span data-ttu-id="11edc-133">Kategorie rezervovatelného zdroje</span><span class="sxs-lookup"><span data-stu-id="11edc-133">Bookable Resource Category</span></span>
-  - <span data-ttu-id="11edc-134">Kategorie transakce</span><span class="sxs-lookup"><span data-stu-id="11edc-134">Transaction Category</span></span>
-  - <span data-ttu-id="11edc-135">Kategorie výdaje</span><span class="sxs-lookup"><span data-stu-id="11edc-135">Expense Category</span></span>
-  - <span data-ttu-id="11edc-136">Cena role</span><span class="sxs-lookup"><span data-stu-id="11edc-136">Role Price</span></span>
-  - <span data-ttu-id="11edc-137">Cena kategorie transakce</span><span class="sxs-lookup"><span data-stu-id="11edc-137">Transaction Category Price</span></span>
-  - <span data-ttu-id="11edc-138">Charakteristika</span><span class="sxs-lookup"><span data-stu-id="11edc-138">Characteristic</span></span>
-  - <span data-ttu-id="11edc-139">Rezervovatelný zdroj</span><span class="sxs-lookup"><span data-stu-id="11edc-139">Bookable Resource</span></span>
-  - <span data-ttu-id="11edc-140">Přidružení kategorie rezervovatelného zdroje</span><span class="sxs-lookup"><span data-stu-id="11edc-140">Bookable resource category Assn</span></span>
-  - <span data-ttu-id="11edc-141">Charakteristika rezervovatelného zdroje</span><span class="sxs-lookup"><span data-stu-id="11edc-141">Bookable Resource Characteristic</span></span>
+  - <span data-ttu-id="62581-131">Měna</span><span class="sxs-lookup"><span data-stu-id="62581-131">Currency</span></span>
+  - <span data-ttu-id="62581-132">Organizační jednotka</span><span class="sxs-lookup"><span data-stu-id="62581-132">Organizational Unit</span></span>
+  - <span data-ttu-id="62581-133">Kontakt</span><span class="sxs-lookup"><span data-stu-id="62581-133">Contact</span></span>
+  - <span data-ttu-id="62581-134">Daňová skupina</span><span class="sxs-lookup"><span data-stu-id="62581-134">Tax Group</span></span>
+  - <span data-ttu-id="62581-135">Skupina zákazníků</span><span class="sxs-lookup"><span data-stu-id="62581-135">Customer Group</span></span>
+  - <span data-ttu-id="62581-136">Jednotka</span><span class="sxs-lookup"><span data-stu-id="62581-136">Unit</span></span>
+  - <span data-ttu-id="62581-137">Skupina jednotek</span><span class="sxs-lookup"><span data-stu-id="62581-137">Unit Group</span></span>
+  - <span data-ttu-id="62581-138">Ceník</span><span class="sxs-lookup"><span data-stu-id="62581-138">Price List</span></span>
+  - <span data-ttu-id="62581-139">Ceník projektových parametrů</span><span class="sxs-lookup"><span data-stu-id="62581-139">Project Parameter Price List</span></span>
+  - <span data-ttu-id="62581-140">Frekvence faktur</span><span class="sxs-lookup"><span data-stu-id="62581-140">Invoice Frequency</span></span>
+  - <span data-ttu-id="62581-141">Kategorie rezervovatelného zdroje</span><span class="sxs-lookup"><span data-stu-id="62581-141">Bookable Resource Category</span></span>
+  - <span data-ttu-id="62581-142">Kategorie transakce</span><span class="sxs-lookup"><span data-stu-id="62581-142">Transaction Category</span></span>
+  - <span data-ttu-id="62581-143">Kategorie výdaje</span><span class="sxs-lookup"><span data-stu-id="62581-143">Expense Category</span></span>
+  - <span data-ttu-id="62581-144">Cena role</span><span class="sxs-lookup"><span data-stu-id="62581-144">Role Price</span></span>
+  - <span data-ttu-id="62581-145">Cena kategorie transakce</span><span class="sxs-lookup"><span data-stu-id="62581-145">Transaction Category Price</span></span>
+  - <span data-ttu-id="62581-146">Charakteristika</span><span class="sxs-lookup"><span data-stu-id="62581-146">Characteristic</span></span>
+  - <span data-ttu-id="62581-147">Rezervovatelný zdroj</span><span class="sxs-lookup"><span data-stu-id="62581-147">Bookable Resource</span></span>
+  - <span data-ttu-id="62581-148">Přidružení kategorie rezervovatelného zdroje</span><span class="sxs-lookup"><span data-stu-id="62581-148">Bookable resource category Assn</span></span>
+  - <span data-ttu-id="62581-149">Charakteristika rezervovatelného zdroje</span><span class="sxs-lookup"><span data-stu-id="62581-149">Bookable Resource Characteristic</span></span>
 
 ![Dokončit import](./media/6CompleteImport.png)
 
-## <a name="update-project-operations-configurations"></a><span data-ttu-id="11edc-143">Aktualizace konfigurací Project Operations</span><span class="sxs-lookup"><span data-stu-id="11edc-143">Update Project Operations configurations</span></span>
+## <a name="update-project-operations-configurations"></a><span data-ttu-id="62581-151">Aktualizace konfigurací Project Operations</span><span class="sxs-lookup"><span data-stu-id="62581-151">Update Project Operations configurations</span></span>
 
-1. <span data-ttu-id="11edc-144">Přejděte do prostředí CE.</span><span class="sxs-lookup"><span data-stu-id="11edc-144">Navigate to the CE environment.</span></span> <span data-ttu-id="11edc-145">Najdete jej otevřením [Centra pro správu Power Platform](https://admin.powerplatform.microsoft.com/environments), kde vyberete prostředí a poté **Otevřené prostředí**.</span><span class="sxs-lookup"><span data-stu-id="11edc-145">You can find it by opening the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments), selecting the environment, and then selecting **Open Environment**.</span></span> 
+1. <span data-ttu-id="62581-152">Přejděte do prostředí CE.</span><span class="sxs-lookup"><span data-stu-id="62581-152">Navigate to the CE environment.</span></span> <span data-ttu-id="62581-153">Najdete jej otevřením [Centra pro správu Power Platform](https://admin.powerplatform.microsoft.com/environments), kde vyberete prostředí a poté **Otevřené prostředí**.</span><span class="sxs-lookup"><span data-stu-id="62581-153">You can find it by opening the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments), selecting the environment, and then selecting **Open Environment**.</span></span> 
 
 ![Otevření prostředí](./media/7OpenEnvironment.png)
 
-2. <span data-ttu-id="11edc-147">Přejděte do nabídky **Projekty** > **Zdroje** a poté vyberte příkaz **Nový** k vytvoření rezervovatelného zdroje pro vašeho uživatele.</span><span class="sxs-lookup"><span data-stu-id="11edc-147">Go to **Projects** > **Resources** and then select **New** to create a bookable resource for your user.</span></span>
+2. <span data-ttu-id="62581-155">Přejděte do nabídky **Projekty** > **Zdroje** a poté vyberte příkaz **Nový** k vytvoření rezervovatelného zdroje pro vašeho uživatele.</span><span class="sxs-lookup"><span data-stu-id="62581-155">Go to **Projects** > **Resources** and then select **New** to create a bookable resource for your user.</span></span>
 
 ![Rezervovatelné zdroje](./media/8BookableResources.png)
 
-3. <span data-ttu-id="11edc-149">Na kartě **Obecné** vyberte uživatele správce.</span><span class="sxs-lookup"><span data-stu-id="11edc-149">On the **General** tab, select your admin user.</span></span> <span data-ttu-id="11edc-150">Ověřte, zda se časové pásmo shoduje s časovým pásmem, ve kterém se nacházíte.</span><span class="sxs-lookup"><span data-stu-id="11edc-150">Verify that the time zone matches the one you are in.</span></span> 
+3. <span data-ttu-id="62581-157">Na kartě **Obecné** vyberte uživatele správce.</span><span class="sxs-lookup"><span data-stu-id="62581-157">On the **General** tab, select your admin user.</span></span> <span data-ttu-id="62581-158">Ověřte, zda se časové pásmo shoduje s časovým pásmem, ve kterém se nacházíte.</span><span class="sxs-lookup"><span data-stu-id="62581-158">Verify that the time zone matches the one you are in.</span></span> 
 
 ![Nový rezervovatelný zdroj](./media/9NewBookableResource.png)
 
-4. <span data-ttu-id="11edc-152">Na kartě **Plánování** v poli **Společnost** vyberte společnost **USPM** a poté vyberte příkaz **Uložit**.</span><span class="sxs-lookup"><span data-stu-id="11edc-152">On the **Scheduling** tab, in the **Company** field, pick the **USPM** company, and then select **Save**.</span></span> 
+4. <span data-ttu-id="62581-160">Na kartě **Plánování** v poli **Společnost** vyberte společnost **USPM** a poté vyberte příkaz **Uložit**.</span><span class="sxs-lookup"><span data-stu-id="62581-160">On the **Scheduling** tab, in the **Company** field, pick the **USPM** company, and then select **Save**.</span></span> 
 
 ![Karta Plánování](./media/10SchedulingTab.png)
 
-5. <span data-ttu-id="11edc-154">Vyberte kartu **Pracovní doba**.</span><span class="sxs-lookup"><span data-stu-id="11edc-154">Select the **Work hours** tab.</span></span>  
+5. <span data-ttu-id="62581-162">Vyberte kartu **Pracovní doba**.</span><span class="sxs-lookup"><span data-stu-id="62581-162">Select the **Work hours** tab.</span></span>  
 
 ![Pracovní doba](./media/11WorkHours.png)
 
-6. <span data-ttu-id="11edc-156">Poklepejte na libovolnou hodnotu v kalendáři a vyberte příkaz **Upravit** > **Všechny události v řadě**.</span><span class="sxs-lookup"><span data-stu-id="11edc-156">Double-click on any value in the calendar and select **Edit** > **All events in the series**.</span></span> 
+6. <span data-ttu-id="62581-164">Poklepejte na libovolnou hodnotu v kalendáři a vyberte příkaz **Upravit** > **Všechny události v řadě**.</span><span class="sxs-lookup"><span data-stu-id="62581-164">Double-click on any value in the calendar and select **Edit** > **All events in the series**.</span></span> 
 
 ![Pracovní kalendář](./media/12WorkCalendar.png)
 
-7. <span data-ttu-id="11edc-158">Změňte pracovní dobu na osmi (8) hodinový pracovní den, označte víkendy jako dny pracovního klidu a ujistěte se, že časové pásmo odpovídá vašemu.</span><span class="sxs-lookup"><span data-stu-id="11edc-158">Change work hours to an eight (8) hour work day, mark weekends as non-work days, and make sure time zone matches yours.</span></span> 
-8. <span data-ttu-id="11edc-159">Zvolte **Uložit a zavřít**.</span><span class="sxs-lookup"><span data-stu-id="11edc-159">Select **Save and close**.</span></span>
+7. <span data-ttu-id="62581-166">Změňte pracovní dobu na osmi (8) hodinový pracovní den, označte víkendy jako dny pracovního klidu a ujistěte se, že časové pásmo odpovídá vašemu.</span><span class="sxs-lookup"><span data-stu-id="62581-166">Change work hours to an eight (8) hour work day, mark weekends as non-work days, and make sure time zone matches yours.</span></span> 
+8. <span data-ttu-id="62581-167">Zvolte **Uložit a zavřít**.</span><span class="sxs-lookup"><span data-stu-id="62581-167">Select **Save and close**.</span></span>
 
 ![Aktualizace kalendáře](./media/13UpdateCalendar.png)
 
-9. <span data-ttu-id="11edc-161">Přejděte do nabídky **Nastavení** > **Šablony kalendáře** a vyberte položku **Nová**.</span><span class="sxs-lookup"><span data-stu-id="11edc-161">Go to **Settings** > **Calendar templates** and select **New**.</span></span>
+9. <span data-ttu-id="62581-169">Přejděte do nabídky **Nastavení** > **Šablony kalendáře** a vyberte položku **Nová**.</span><span class="sxs-lookup"><span data-stu-id="62581-169">Go to **Settings** > **Calendar templates** and select **New**.</span></span>
  
  ![Šablony kalendářů](./media/14CalendarTemplates.png)
  
- 10. <span data-ttu-id="11edc-163">Zadejte název, vyberte zdroj šablony, který jste vytvořili, a pak vyberte příkaz **Uložit**.</span><span class="sxs-lookup"><span data-stu-id="11edc-163">Enter a name, select the template resource you created, and then select **Save**.</span></span> 
+ 10. <span data-ttu-id="62581-171">Zadejte název, vyberte zdroj šablony, který jste vytvořili, a pak vyberte příkaz **Uložit**.</span><span class="sxs-lookup"><span data-stu-id="62581-171">Enter a name, select the template resource you created, and then select **Save**.</span></span> 
  
  ![Uložení šablony kalendáře](./media/15SaveCalendarTemplate.png)
  
- 11. <span data-ttu-id="11edc-165">Přejděte do části **Parametry** a dvakrát klikněte na záznam.</span><span class="sxs-lookup"><span data-stu-id="11edc-165">Go to **Parameters** and double-click the record.</span></span> 
+ 11. <span data-ttu-id="62581-173">Přejděte do části **Parametry** a dvakrát klikněte na záznam.</span><span class="sxs-lookup"><span data-stu-id="62581-173">Go to **Parameters** and double-click the record.</span></span> 
  
  ![Projektové parametry](./media/16ProjectParameters.png)
  
-12. <span data-ttu-id="11edc-167">Aktualizujte následující pole:</span><span class="sxs-lookup"><span data-stu-id="11edc-167">Update the following fields:</span></span>
+12. <span data-ttu-id="62581-175">Aktualizujte následující pole:</span><span class="sxs-lookup"><span data-stu-id="62581-175">Update the following fields:</span></span>
 
- - <span data-ttu-id="11edc-168">**Výchozí společnost** : USPM</span><span class="sxs-lookup"><span data-stu-id="11edc-168">**Default company** : USPM</span></span>
- - <span data-ttu-id="11edc-169">**Výchozí organizační jednotka** : Contoso Robotics Global</span><span class="sxs-lookup"><span data-stu-id="11edc-169">**Default Organizational Unit** : Contoso Robotics Global</span></span>
- - <span data-ttu-id="11edc-170">**Četnost faktur** : Sedmý a poslední den</span><span class="sxs-lookup"><span data-stu-id="11edc-170">**Invoice Frequency** : Seventh and Last day</span></span>
- - <span data-ttu-id="11edc-171">**Šablona pracovní doby** : Změňte na šablonu, kterou jste vytvořili.</span><span class="sxs-lookup"><span data-stu-id="11edc-171">**Work hour template** : Change to the template you created.</span></span>
+ - <span data-ttu-id="62581-176">**Výchozí společnost**: USPM</span><span class="sxs-lookup"><span data-stu-id="62581-176">**Default company**: USPM</span></span>
+ - <span data-ttu-id="62581-177">**Výchozí organizační jednotka**: Contoso Robotics Global</span><span class="sxs-lookup"><span data-stu-id="62581-177">**Default Organizational Unit**: Contoso Robotics Global</span></span>
+ - <span data-ttu-id="62581-178">**Četnost faktur**: Sedmý a poslední den</span><span class="sxs-lookup"><span data-stu-id="62581-178">**Invoice Frequency**: Seventh and Last day</span></span>
+ - <span data-ttu-id="62581-179">**Šablona pracovní doby**: Změňte na šablonu, kterou jste vytvořili.</span><span class="sxs-lookup"><span data-stu-id="62581-179">**Work hour template**: Change to the template you created.</span></span>
 
-13. <span data-ttu-id="11edc-172">Zvolte **Uložit**.</span><span class="sxs-lookup"><span data-stu-id="11edc-172">Select **Save**.</span></span> 
+13. <span data-ttu-id="62581-180">Zvolte **Uložit**.</span><span class="sxs-lookup"><span data-stu-id="62581-180">Select **Save**.</span></span> 
 
 ![Aktualizované projektové parametry](./media/17UpdatedProjectParameters.png)
