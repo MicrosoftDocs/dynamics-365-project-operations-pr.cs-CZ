@@ -3,10 +3,10 @@ title: Kontrola navrhovaných zdrojů
 description: Toto téma obsahuje informace o způsobu navrhování projektových zdrojů.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073747"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401165"
 ---
 # <a name="review-proposed-resources"></a>Kontrola navrhovaných zdrojů
 
@@ -47,35 +47,6 @@ Správci zdrojů mohou při zpracování žádostí o zdroje použít kterýkoli
 - Navrhnout méně zdrojů, než je vyžadováno. V tomto scénáři je navrhovaná kapacita zdroje menší než požadovaná doba, kterou žadatel specifikoval. Proto, když žadatel přijme navržené prostředky, je vytvořen nesplněný požadavek na zdroj k zachycení zbývající poptávky.
 - Rezervovat více zdrojů pro uspokojení poptávky, pokud není k dispozici žádný zdroj pro dokončení práce.
 - Rezervovat méně zdrojů, než je vyžadováno. V tomto scénáři je počet rezervovaných hodin menší než počet požadovaných hodin. Systém vás provede návrhy zdrojů místo rezervací, aby mohl žadatel ověřit a sledovat zbývající poptávku.
-
-## <a name="billable-utilization"></a>Fakturovatelné využití
-
-Zdroje mohou mít cílové fakturovatelné využití. Toto cílové využití je buď definováno jako atribut výchozí role zdroje, nebo je nastaveno v záznamu konkrétního rezervovatelného zdroje. Výpočty využití vycházejí ze skutečných hodin, které zdroje vykázaly pomocí schválených časových záznamů.
-
-K výpočtu využití se používají následující vzorce:
-
-- Fakturovatelné využití = skutečné fakturovatelné hodiny ÷ kapacita zdroje
-- Nefakturovatelné využití = skutečný čas s ID typu fakturace = neúčtovatelné, komplementární nebo nedostupné ÷ kapacita zdroje
-- Interní = skutečný čas bez prodejní smlouvy ÷ kapacita zdroje
-- Kapacita zdroje = pracovní doba zdroje – mimo kancelář – nepracovní dny
-
-Zobrazení **Využití zdroje** naleznete v podokně **Zdroje**.
-
-Každá buňka v tabulce představuje procentuální hodnotu fakturovatelného využití zdroje v určitém období, například den, týden nebo měsíc. K obarvení buněk se používají následující vzorce:
-
-- **Zelená:** fakturovatelné využití \>= cílové využití zdroje
-- **Žlutá:** cílové využití – 20 \<= fakturovatelné využití \< cílové využití
-- **Červená:** fakturovatelné využití \< cílové využití – 20
-
-Vzhledem k tomu, že je zobrazení **Využití zdroje** založeno na Plánovací vývěsce, můžete k filtrování výsledků využít funkce filtrování Plánovací vývěsky.
-
-Mřížka vyžaduje, abyste nastavili cílové využití buď u role, nebo u konkrétního zdroje. Pro toto nastavení přejděte na **Zdroje** \> **Role zdrojů**.
-
-Navíc musí být ke každému rezervovatelnému zdroji přiřazena výchozí role. Přejděte na **Zdroje** \> **Zdroje**. Na kartě **Project Service** ověřte, zda je definována role zdroje a zda pole **Je výchozí** je pro ni nastaveno na **Ano**. Můžete přidat další role, kde **Je výchozí = Ne**. Role, ve které **Je výchozí = Ano** , slouží k vyhodnocení využití prostředku vůči cíli pro danou roli.
-
-Na kartě **Project Service** můžete také nastavit individuální cílové využití zdroje. Výpočet využití pak používá toto cílové využití k vyhodnocení cíle zdroje namísto cíle výchozí role zdroje.
-
-Využití je pro zdroj zobrazeno pouze v případě, že tento zdroj má schválenou fakturovatelnou dobu během období zobrazeného v mřížce.
 
 ## <a name="resource-availability"></a>Dostupnost zdroje
 

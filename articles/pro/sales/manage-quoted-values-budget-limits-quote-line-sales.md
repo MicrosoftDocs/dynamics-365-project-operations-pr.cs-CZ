@@ -1,21 +1,21 @@
 ---
-title: Řádky nabídky založené na projektu (Pro)
+title: Přehled řádků nabídky založené na projektu – omezeno
 description: Toto téma poskytuje informace o používání řádků nabídek založených na projektu pro práci na projektu. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073710"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181084"
 ---
-# <a name="project-based-quote-lines-pro"></a>Řádky nabídky založené na projektu (Pro)
+# <a name="project-based-quote-lines-overview---lite"></a>Přehled řádků nabídky založené na projektu – omezeno
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
@@ -31,12 +31,12 @@ _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
 Následující tabulka poskytuje informace o polích na karrtě **Všeobecné** řádku nabídky založené na projektu. Tato pole pomáhají připravit základ pro podrobný počáteční odhad projektové práce.
 
-| **Pole** | **Relevance, účel a vedení** | **Dopad na následné složky** |
+| **Pole** | **Popis** | **Dopad na příjem dat** |
 | --- | --- | --- |
 | Jméno | Název řádku nabídky, který by vám měl pomoci identifikovat diskrétní součást nabídky, která se odhaduje. | Zkopírováno do řádku projektové smlouvy, který je vytvořen z tohoto řádku nabídky, když je nabídka získána. |
 | Způsob fakturace | U nabídky vytvořené z příležitosti se tato hodnota zkopíruje z příslušného pole na řádku příležitosti. Toto pole zahrnuje dva hlavní smluvní modely podporované aplikací Dynamics 365 Project Operations:</br>- Pevná cena</br>- Čas a materiál.| Hodnota tohoto pole je zkopírována do řádku projektové smlouvy, který je vytvořen z tohoto řádku nabídky, když je nabídka získána. |
 | Project | Pomocí tohoto volitelného pole můžete identifikovat projekt, který bude použit k provedení práce na této zakázce. Když je projekt mapován na řádek nabídky, pomáhá to při nastavení zpoplatněných úkolů a také při stanovení odhadu založeného na projektu do řádku nabídky jako podrobnosti řádku nabídky. Pokud projekt není mapován na řádek nabídky založené na projektu, odhad by měl být vytvořen ručně – vytvořením každé podrobnosti řádku nabídky. | Hodnota tohoto pole je zkopírována do řádku projektové smlouvy, který je vytvořen z tohoto řádku nabídky, když je nabídka získána.|
-| Zahrnuté úkoly | Udává, zda je tento řádek nabídky použit pro všechny nebo jen některé úkoly vybraného projektu. Toto pole může obsahovat následující hodnoty:</br>- Všechny projektové úkoly</br>- Pouze vybrané úkoly projektu</br>Prázdná hodnota v tomto poli odpovídá možnosti **Všechny úkoly projektu**. | Když je vybrána hodnota **Pouze vybrané úkoly projektu** , poté je možné na stránce projektu v kartě **Nastavení fakturace úkolu** vybrat konkrétní úkoly a přidružit je k tomuto řádku nabídky. Hodnota tohoto pole je zkopírována do řádku projektové smlouvy, který je vytvořen z tohoto řádku nabídky, když je nabídka získána. |
+| Zahrnuté úkoly | Udává, zda je tento řádek nabídky použit pro všechny nebo jen některé úkoly vybraného projektu. Toto pole může obsahovat následující hodnoty:</br>- Všechny projektové úkoly</br>- Pouze vybrané úkoly projektu</br>Prázdná hodnota v tomto poli odpovídá možnosti **Všechny úkoly projektu**. | Když je vybrána hodnota **Pouze vybrané úkoly projektu**, poté je možné na stránce projektu v kartě **Nastavení fakturace úkolu** vybrat konkrétní úkoly a přidružit je k tomuto řádku nabídky. Hodnota tohoto pole je zkopírována do řádku projektové smlouvy, který je vytvořen z tohoto řádku nabídky, když je nabídka získána. |
 | Zahrnout čas | Příznak **Ano**/**Ne** určuje, zda budou časové transakce nebo náklady práce ve vybraném projektu zahrnuty do odhadu na tomto řádku nabídky. Hodnota **Ne** určuje, že časové transakce nebo náklady práce nebudou zahrnuty do odhadu na tomto řádku nabídky. Hodnota **Ano** určuje, že časové transakce nebo náklady práce budou zahrnuty do odhadu na tomto řádku nabídky. | Hodnota tohoto pole je zkopírována do řádku projektové smlouvy, který je vytvořen z tohoto řádku nabídky, když je nabídka získána. |
 | Zahrnout výdaj | Příznak **Ano**/**Ne** určuje, zda budou výdajové náklady ve vybraném projektu zahrnuty do odhadu na tomto řádku nabídky. Hodnota **Ne** určuje, že výdajové náklady nebudou zahrnuty do odhadu na tomto řádku nabídky. Hodnota **Ano** určuje, že výdajové náklady budou zahrnuty do odhadu na tomto řádku nabídky. | Hodnota tohoto pole je zkopírována do řádku projektové smlouvy, který je vytvořen z tohoto řádku nabídky, když je nabídka získána. |
 | Zahrnout poplatek | Příznak **Ano**/**Ne** určuje, zda budou poplatky ve vybraném projektu zahrnuty do odhadu na tomto řádku nabídky. Hodnota **Ne** určuje, že poplatky nebudou zahrnuty do odhadu na tomto řádku nabídky. Hodnota **Ano** určuje, že poplatky budou zahrnuty do odhadu na tomto řádku nabídky. | Hodnota tohoto pole je zkopírována do řádku projektové smlouvy, který je vytvořen z tohoto řádku nabídky, když je nabídka získána. |
@@ -49,11 +49,11 @@ Následující tabulka poskytuje informace o polích na karrtě **Všeobecné** 
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Pravidla ověření pro pole na kartě Všeobecné řádků nabídek založených na projektu
 
-**Pravidlo 1** : Pokud je pole **Zahrnuté úkoly** prázdné nebo je-li nastaveno na hodnotu **Všechny úkoly projektu** , je projekt zahrnut do řádku nabídky.
+**Pravidlo 1** : Pokud je pole **Zahrnuté úkoly** prázdné nebo je-li nastaveno na hodnotu **Všechny úkoly projektu**, je projekt zahrnut do řádku nabídky.
 
-**Pravidlo 2** : Pokud je pole **Zahrnuté úkoly** prázdné nebo je-li nastaveno na hodnotu **Všechny úkoly projektu** , lze projekt a určitou třídu transakcí zahrnout pouze na jeden řádek nabídky založené na projektu.
+**Pravidlo 2** : Pokud je pole **Zahrnuté úkoly** prázdné nebo je-li nastaveno na hodnotu **Všechny úkoly projektu**, lze projekt a určitou třídu transakcí zahrnout pouze na jeden řádek nabídky založené na projektu.
 
-**Pravidlo 3** : Pokud je pole **Zahrnuté úkoly** prázdné nebo je-li nastaveno na hodnotu **Pouze vybrané úkoly projektu** , lze projekt a určitou třídu transakcí zahrnout do více řádků nabídky založené na projektu.
+**Pravidlo 3**: Pokud je pole **Zahrnuté úkoly** prázdné nebo je-li nastaveno na hodnotu **Pouze vybrané úkoly projektu**, lze projekt a určitou třídu transakcí zahrnout do více řádků nabídky založené na projektu.
 
 **Pravidlo 4** : Pokud má příležitost více nabídek, mohou existovat řádky nabídky z různých nabídek, které všechny odkazují na stejný projekt a zahrnují stejnou třídu transakcí.
 

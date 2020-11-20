@@ -1,21 +1,21 @@
 ---
-title: Řádky nabídky založené na projektu
+title: Přehled řádků nabídky založené na projektu
 description: Toto téma poskytuje informace o používání řádků nabídek založených na projektu pro práci na projektu.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073647"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181849"
 ---
-# <a name="project-based-quote-lines"></a>Řádky nabídky založené na projektu
+# <a name="project-based-quote-lines-overview"></a>Přehled řádků nabídky založené na projektu
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
@@ -31,7 +31,7 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 
 Následující tabulka poskytuje informace o polích na karrtě **Všeobecné** řádku nabídky založené na projektu. Tato pole pomáhají připravit základ pro podrobný počáteční odhad projektové práce.
 
-| **Pole** | **Relevance, účel a vedení** | **Dopad na následné složky** |
+| **Pole** | **Popis** | **Dopad na příjem dat** |
 | --- | --- | --- |
 | Jméno | Název řádku nabídky, který by vám měl pomoci identifikovat diskrétní součást nabídky, která se odhaduje. | Zkopírováno do řádku projektové smlouvy, který je vytvořen z tohoto řádku nabídky, když je nabídka získána. |
 | Způsob fakturace | U nabídky vytvořené z příležitosti se tato hodnota zkopíruje z příslušného pole na řádku příležitosti. Toto pole zahrnuje dva hlavní smluvní modely podporované aplikací Dynamics 365 Project Operations:</br>- Pevná cena</br>- Čas a materiál.| Hodnota tohoto pole je zkopírována do řádku projektové smlouvy, který je vytvořen z tohoto řádku nabídky, když je nabídka získána. |

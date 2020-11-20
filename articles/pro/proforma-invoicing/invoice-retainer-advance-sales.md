@@ -1,21 +1,21 @@
 ---
-title: Fakturace záloh
+title: Fakturace záloh – omezené
 description: Toto téma poskytuje informace o fakturaci záloh v aplikaci Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087856"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180544"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Fakturace záloh
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Fakturace záloh – omezené
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
@@ -43,7 +43,7 @@ Na každé faktuře, která je generována pro smlouvu o projektu, která faktur
 
 To je vidět na mřížce **Použité zálohy** na stránce **Faktura**. Následující tabulka poskytuje informace o polích v mřížce **Použité zálohy** na stránce **Projektová faktura**.
 
-| Pole | Místo | Relevance, účel a vedení | Dopad na následné složky |
+| Pole | Místo | Popis | Dopad na následné složky |
 | --- | --- | --- | --- |
 | Popis | Mřížka **Použité zálohy** na stránce **Projektová faktura**. |Toto pole jen pro čtení poskytuje popis zálohy použité na této faktuře. Tuto hodnotu nelze na faktuře změnit. Tuto hodnotu lze aktualizovat v podsíti na serveru **Projektová smlouva**. | Toto pole lze zákazníkovi zobrazit na vytištěné faktuře, aby bylo uvedeno, která záloha je na faktuře použita. |
 | Datum dodání | Mřížka **Použité zálohy** na stránce **Projektová faktura**.  | Toto pole jen pro čtení poskytuje datum fakturace zálohy použité na této faktuře. Tuto hodnotu nelze na faktuře změnit. Tuto hodnotu lze aktualizovat v podsíti na serveru **Projektová smlouva**. | Toto pole lze zákazníkovi zobrazit na vytištěné faktuře, aby bylo uvedeno datum, kdy byla záloha zákazníkovi poprvé fakturována. |

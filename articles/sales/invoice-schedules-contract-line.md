@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 23378b51c8324a60918ad494e7f659dbbc94e2a8
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4074012"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180769"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Vytvoření plánu faktur na řádku smlouvy na základě projektu 
 
@@ -27,13 +27,13 @@ Když je metodou fakturace pro řádek smlouvy na základě projektu čas a mate
 
 1. Přejděte na **Nastavení** > **Frekvence faktur** a nastavte frekvenci faktur.
 2. Přejděte na záznam smlouvy o projektu a na kartě **Shrnutí** v poli **Požadované datum dodání** vyberte datum.
-3. Otevřete řádek smlouvy **Čas a materiál** , pro který potřebujete vytvořit rozpis faktur na základě data. 
+3. Otevřete řádek smlouvy **Čas a materiál**, pro který potřebujete vytvořit rozpis faktur na základě data. 
 4. Na kartě **Rozpis faktur** vyberte datum zahájení fakturace a frekvence faktur.
-5. V podmřížce vyberte **Generovat rozpis faktur**. Rozpis faktur se vygeneruje s poli **Datum spuštění faktury** , **Mezní datum transakce** a **Stav spuštění** následujícím způsobem:
+5. V podmřížce vyberte **Generovat rozpis faktur**. Rozpis faktur se vygeneruje s poli **Datum spuštění faktury**, **Mezní datum transakce** a **Stav spuštění** následujícím způsobem:
 
-    - **Datum spuštění faktury** : Toto datum je určeno na základě frekvence fakturace.
+    - **Datum spuštění faktury**: Toto datum je určeno na základě frekvence fakturace.
     - **Mezní datum transakce** Den před datem spuštění faktury.
-    - **Stav spuštění** : Automaticky nastaveno na **Nespuštěno**. Když je úloha automatického vytváření faktur spuštěna pro určité datum spuštění faktury, aktualizuje toto pole buď na **Spuštění úspěšné** , nebo **Spuštění selhalo**.
+    - **Stav spuštění**: Automaticky nastaveno na **Nespuštěno**. Když je úloha automatického vytváření faktur spuštěna pro určité datum spuštění faktury, aktualizuje toto pole buď na **Spuštění úspěšné**, nebo **Spuštění selhalo**.
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Vytvořte harmonogram faktury za fixní cenu pro řádek smlouvy
 
@@ -46,14 +46,14 @@ Provedením následujících kroků automaticky vygenerujete rozpis faktur na z�
 
 1. Přejděte na **Nastavení** > **Frekvence faktur** a nastavte frekvenci faktur.
 2. Přejděte na záznam smlouvy o projektu a na kartě **Shrnutí** v poli **Požadované datum dodání** vyberte datum.
-3. Otevřete řádek smlouvy **Fixní cena** , pro který vytváříte milníkový plán. Na kartě **Milníky faktur** vyberte datum zahájení fakturace a frekvence faktur. 
-4. V podmřížce vyberte **Generovat periodické milníky**. Rozpis faktur je generován pomocí polí **Název milníku** , **Datum milníku** a **Částka milníku** nastavených následovně:
+3. Otevřete řádek smlouvy **Fixní cena**, pro který vytváříte milníkový plán. Na kartě **Milníky faktur** vyberte datum zahájení fakturace a frekvence faktur. 
+4. V podmřížce vyberte **Generovat periodické milníky**. Rozpis faktur je generován pomocí polí **Název milníku**, **Datum milníku** a **Částka milníku** nastavených následovně:
 
-    - **Název milníku** : Toto datum je určeno na základě frekvence fakturace.
-    - **Datum milníku** : Toto datum je určeno na základě frekvence fakturace.
-    - **Částka milníku** : Tato částka se vypočítá vydělením částky smlouvy na řádku smlouvy počtem milníků, jak je diktováno frekvencí a začátkem fakturace a požadovanými termíny dodání.
+    - **Název milníku**: Toto datum je určeno na základě frekvence fakturace.
+    - **Datum milníku**: Toto datum je určeno na základě frekvence fakturace.
+    - **Částka milníku**: Tato částka se vypočítá vydělením částky smlouvy na řádku smlouvy počtem milníků, jak je diktováno frekvencí a začátkem fakturace a požadovanými termíny dodání.
 
-    Pokud má řádek smlouvy hodnotu v poli **Odhadovaná částka daně** , toto pole je také při generování periodických milníků rovnoměrně přiděleno každému milníku.
+    Pokud má řádek smlouvy hodnotu v poli **Odhadovaná částka daně**, toto pole je také při generování periodických milníků rovnoměrně přiděleno každému milníku.
 
 Milníky fakturace by se měly rovnat smluvní hodnotě řádku smlouvy. Pokud ne, zobrazí se chyba na stránce **Řádek smlouvy**. Chybu můžete opravit ověřením, že milníky fakturace dají v součtu smluvní hodnotu řádku vytvořením, úpravou nebo odstraněním milníků. Po provedení změn obnovte stránku, abyste chybu odstranili.
 
@@ -64,7 +64,7 @@ Milníky fixní ceny můžete také generovat ručně, pokud nejsou pravidelně 
 1. Otevřete řádek smlouvy s pevnou cenou, pro kterou vytváříte milník, a na kartě **Rozpis faktur** vyberte **+ Vytvořit nový milník řádku smlouvy**. 
 2. Na stránce **Vytvoření milníku** zadejte požadované informace na základě následující tabulky.
 
-| Pole | Místo | Relevance, účel a vedení | Dopad na následné složky |
+| Pole | Místo | Popis | Dopad na následné složky |
 | --- | --- | --- | --- |
 | Název milníku | Vytvořit | Textové pole pro název milníku. | To je přeneseno na milník řádku smlouvy projektu a na fakturu. |
 | Projektový úkol | Vytvořit | Pokud je milník svázán s úkolem projektu, můžete pomocí tohoto odkazu přidat vlastní logiku nastavení stavu milníku na základě stavu úlohy. | Aplikace nemá žádný následný dopad tohoto odkazu na úkol. |

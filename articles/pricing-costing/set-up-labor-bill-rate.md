@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073804"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180680"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>Nastavení fakturačních sazeb pro práci 
+# <a name="set-up-labor-bill-rates"></a>Nastavení fakturačních sazeb za práci
 
 _ **Platí pro:** Project Operations u scénářů založených na zdrojích / položkách, které nejsou na skladě
 
@@ -27,7 +27,7 @@ Každý ceník obsahuje sadu cen rolí nebo pracovních sazeb, které jsou úči
 
    V následující tabulce je uveden seznam polí na kartě **Všeobecné** a v podokně **Vytvořit** řádku ceny role, na které byste měli pamatovat při vytváření cen rolí v prodejním ceníku:
 
-    | Pole | Místo | Relevance, účel a vedení | Dopad na následné složky |
+    | Pole | Místo | Popis | Dopad na následné složky |
     | --- | --- | --- | --- |
     | Role | Karta **Všeobecné** a podokno **Vytvořit** | Vyberte roli, pro kterou nastavujete fakturační sazbu. | Role u příchozího odhadu nebo skutečné hodnoty bude porovnána s tímto řádkem za účelem určení výchozí fakturační sazby role. |
     | Společnost poskytující zdroje | Karta **Všeobecné** a podokno **Vytvořit** | Vyberte společnost nebo právnickou osobu, ze které role pochází. Například vývojář ze společnosti Fabrikam Indie nebo vývojář z Fabrikam USA. | Společnost poskytující zdroje u příchozího odhadu nebo skutečné hodnoty bude porovnána s tímto řádkem za účelem určení výchozí fakturační sazby role. |

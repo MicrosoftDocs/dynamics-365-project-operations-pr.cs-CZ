@@ -1,21 +1,21 @@
 ---
-title: Nastavení fakturačních sazeb za práci
+title: Nastavení fakturačních sazeb za práci – omezené
 description: Toto téma poskytuje informace o tom, jak nastavit fakturační sazby za práci v aplikaci Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073842"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181172"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>Nastavení fakturačních sazeb za práci 
+# <a name="set-up-labor-bill-rates---lite"></a>Nastavení fakturačních sazeb za práci – omezené
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
@@ -27,7 +27,7 @@ Každý ceník obsahuje sadu cen rolí nebo pracovních sazeb, které jsou úči
 
   V následující tabulce je uveden seznam polí na kartě **Všeobecné** a v podokně **Vytvořit** řádku ceny role, na které byste měli pamatovat při vytváření cen rolí v prodejním ceníku:
 
-  | Pole | Místo | Relevance, účel a vedení | Dopad na následné složky |
+  | Pole | Místo | Popis | Dopad na následné složky |
   | --- | --- | --- | --- |
   | Role | Karta **Všeobecné** a podokno **Vytvořit** | Vyberte roli, pro kterou nastavujete fakturační sazbu. | Role u příchozího odhadu nebo skutečné hodnoty bude porovnána s tímto řádkem za účelem určení výchozí fakturační sazby role. |
   | Jednotka zdroje | Karta **Všeobecné** a podokno **Vytvořit** | Vyberte organizační jednotku nebo divizi společnosti, ze které role pochází. Například vývojář z divize Robotics společnosti Fabrikam Indie nebo vývojář z divize Software společnosti Fabrikam USA. | Jednotka zdroje u příchozího odhadu nebo skutečné hodnoty bude porovnána s tímto řádkem za účelem určení výchozí fakturační sazby role. |

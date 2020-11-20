@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e5a2402a2c1059ff11dbe1a331a028da77958235
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073699"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180274"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Nastavení nákladových a prodejních sazeb pro výdaje
 
@@ -24,17 +24,17 @@ V aplikaci Dynamics 365 Project Operations můžete nastavit nákladové a prode
 Chcete-li nastavit nákladové a prodejní sazby pro kategorie transakcí, proveďte následující kroky. 
 
 1. Vytvořte ceník na základě záhlaví ceníku. 
-2. Na stránce **Ceny kategorií** v nabídce dílčí mřížky vyberte položku **+ Nová cena kategorie**. 
+2. V **Ceny kategorií** v nabídce podmřížky vyberte **+ Nová cena kategorie**. 
 3. Na stránce **Vytvořit** zadejte kategorii transakce a jednotku, pro kterou vytváříte novou cenu.
 
 V následující tabulce je uveden seznam polí na kartě **Všeobecné** a stránce **Vytvořit** řádku ceny kategorie, na které byste měli pamatovat při vytváření cen kategorií v prodejním nebo nákladovém ceníku.
 
-| Pole | Místo | Relevance, účel a vedení | Dopad na následné složky |
+| Pole | Místo | Popis | Dopad na následné složky |
 | --- | --- | --- | --- |
 | Kategorie transakce | Karta **Všeobecné** a stránky **Vytvořit** | Vyberte kategorii transakcí, pro kterou vytváříte prodejní nebo nákladovou cenu. | Kategorie transakcí u příchozího odhadu nebo skutečné hodnoty pro výdaje bude porovnána s tímto řádkem, aby byla určena výchozí nákladová nebo prodejní sazba kategorie transakce. |
 | Rozpis jednotky | Karta **Všeobecné** a stránky **Vytvořit** | Výchozí hodnoty rozpisu jednotky pocházejí z rozpisu jednotky kategorie transakcí. | Toto pole nemá žádný následný dopad. |
 | Jednotka | Karta **Všeobecné** a stránky **Vytvořit** | Vyberte jednotku, pro kterou nastavujete sazby. | Jednotka u příchozího odhadu nebo skutečné hodnoty je porovnána s jednotkou na tomto řádku, aby byla nastavena výchozí sazba pro odhad nebo skutečnou hodnotu výdajů. |
-| Způsob ocenění | Karta **Všeobecné** a stránky **Vytvořit** | Možné hodnoty pole **Způsob ocenění** jsou **Cena za jednotku** , **Podle nákladů** a **Přirážka k nákladům**. | Během nastavení ceny výběr způsobu **Cena za jednotku** uzamkne pole **Procento** na řádku ceny kategorie. Když je vybrán způsob **Podle nákladů** , uzamknou se pole **Cena** a **Procento** v prodejním ceníku. Výběr způsobu **Přirážka k nákladům** zamkne pole **Cena** v prodejním ceníku. Na řádku příchozí skutečné hodnoty pro výdaje vedou způsoby ocenění **Podle nákladů** nebo **Přirážka k nákladům** k tomu, že odpovídajícímu nevyfakturovanému řádku prodeje bude přiřazena cena, která se rovná ceně skutečného nákladu nebo se vypočítá jako přirážka k ceně. |
+| Způsob ocenění | Karta **Všeobecné** a stránky **Vytvořit** | Možné hodnoty pole **Způsob ocenění** jsou **Cena za jednotku**, **Podle nákladů** a **Přirážka k nákladům**. | Během nastavení ceny výběr způsobu **Cena za jednotku** uzamkne pole **Procento** na řádku ceny kategorie. Když je vybrán způsob **Podle nákladů**, uzamknou se pole **Cena** a **Procento** v prodejním ceníku. Výběr způsobu **Přirážka k nákladům** zamkne pole **Cena** v prodejním ceníku. Na řádku příchozí skutečné hodnoty pro výdaje vedou způsoby ocenění **Podle nákladů** nebo **Přirážka k nákladům** k tomu, že odpovídajícímu nevyfakturovanému řádku prodeje bude přiřazena cena, která se rovná ceně skutečného nákladu nebo se vypočítá jako přirážka k ceně. |
 | Cena | Karta **Všeobecné** a stránky **Vytvořit** | Nastavte jednotkovou sazbu pro kategorii transakce a kombinaci jednotek. Například sazba za ujetou vzdálenost je 10 USD na míli a 8 USD na kilometr. | Sazba za ujetou vzdálenost bude sazba, která je výchozí pro jednotkovou cenu nebo náklad řádku příchozího odhadu nebo skutečnosti pro třídu výdajových transakcí.|
 | Procenta | Karta **Všeobecné** a stránky **Vytvořit** | Nastavte procento přirážky k nákladům pro kategorii transakce a kombinaci jednotek. Například sazba za prodej letenek by měla být zvýšena o 10 procent nad náklady vzniklých výdajů za letenky. | Toto procento přirážky k nákladům je použitelné pouze v prodejním ceníku, když je vybraná metoda výpočtu ceny **Přirážka k nákladům**. |
 | Měna | Karta **Všeobecné** a stránky **Vytvořit** | Ve výchozím nastavení tato hodnota pochází z měny v záhlaví ceníku. U cen kategorie transakcí nelze měnu přepsat. | Tato měna je výchozí pro jednotkovou cenu příchozího skutečného řádku pro třídu výdajových transakcí pro náklady a prodej. |

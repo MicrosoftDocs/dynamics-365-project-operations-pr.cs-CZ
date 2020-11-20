@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91ee798a206ea5200780c8ebafc8f99cd9a3e219
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073819"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181489"
 ---
 # <a name="copy-price-lists"></a>Kopírovat ceníky
 
@@ -26,10 +26,10 @@ Chcete-li vytvořit kopii ceníku, proveďte následující kroky.
 1. Otevřete ceník, ze kterého chcete vytvořit kopii, a vyberte **Kopírovat**.
 2. Zadejte všechny potřebné informace ke zkopírování ceníku. V následující tabulce jsou uvedeny věci, které je třeba mít na paměti při zadávání informací.
 
-| Pole | Relevance, účel a vedení | Dopad na následné složky |
+| Pole | Popis | Dopad na následné složky |
 | --- | --- | --- |
 | Jméno | Název zdrojového ceníku s připojeným slovem **-kopie**. | Ceník obsahuje tuto hodnotu na všech stránkách seznamů a v rozevíracích seznamech. |
-| Kontext | Zadejte požadovaný kontext pro cílový ceník. | Ceník, který má kontext nastavený na **Náklady** , se používá k vyhledání ceny pro odhady nákladů a skutečné náklady. Ceník, který má kontext nastavený na **Prodej** , se používá k vyhledání ceny pro odhady prodejů a skutečné prodeje. Pouze ceníky, jejichž kontext je nastaven na **Prodej** , lze připojit k projektovým ceníkům pro zákazníka, nabídky a smlouvy. |
+| Kontext | Zadejte požadovaný kontext pro cílový ceník. | Ceník, který má kontext nastavený na **Náklady**, se používá k vyhledání ceny pro odhady nákladů a skutečné náklady. Ceník, který má kontext nastavený na **Prodej**, se používá k vyhledání ceny pro odhady prodejů a skutečné prodeje. Pouze ceníky, jejichž kontext je nastaven na **Prodej**, lze připojit k projektovým ceníkům pro zákazníka, nabídky a smlouvy. |
 | Počáteční datum | Počáteční datum období, ve kterém je ceník účinný. | Spolu s polem **Datum ukončení** se toto pole používá k určení, který ceník je použitelný pro určitý odhad nebo skutečný řádek. |
 | Koncové datum | Koncové datum období, ve kterém je ceník účinný. | Spolu s polem **Počáteční datum** se toto pole používá k určení, který ceník je použitelný pro určitý odhad nebo skutečný řádek. |
 | Měna | Měna zdrojového ceníku. Tu lze změnit. | Když se změní, všechny výsledné cenové řádky pro práci, výdaje a položky katalogu produktů se během kopírování převedou na měnu cílového ceníku. |
@@ -40,6 +40,6 @@ Chcete-li vytvořit kopii ceníku, proveďte následující kroky.
 
 ## <a name="update-a-price-list-by-applying-a-mark-up-to-all-the-prices"></a>Úprava ceníku uplatněním přirážky ke všem cenám
 
-1. Na kartách **Role** , **Kategorie** a **Položka ceníku** můžete vybrat **Aktualizovat ceny** a použít přirážku na všechny ceny v podmřížce. 
+1. Na kartách **Role**, **Kategorie** a **Položka ceníku** můžete vybrat **Aktualizovat ceny**, čímž použijete přirážku na všechny ceny v podmřížce. 
 2. Na dialogové stránce, která se otevře, zadejte přirážku. Můžete také zadat záporné procento přirážky a snížit ceny o určité procento. 
-3. Vyberte **OK** na stránce dialogu a poté ověřte, že ceny v podmřížce odrážejí provedené změny.
+3. Vyberte **OK** na stránce dialogového okna a poté ověřte, že ceny v podmřížce odpovídají provedeným změnám.

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073677"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180589"
 ---
 # <a name="set-up-labor-cost-rates"></a>Nastavení nákladových sazeb za práci
 
@@ -22,13 +22,13 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 
 Každý ceník obsahuje sadu sazeb za práci (cen rolí), které jsou spojeny s kontextem a datem účinnosti ceníku.
 
-1. Vytvořte ceník a na kartě **Cena role** vyberte v podmřížce položku **+ Nová role**.
+1. Vytvořte ceník a na kartě **Cena role** v podmřížce vyberte **Nová role**.
 2. Na stránce **Vytvořit** vyberte roli a organizační jednotku.
 3. Zadejte informace do všech dalších povinných polí.
 
 Následující tabulka obsahuje některá pole, která jsou důležitá při vytváření sazeb práce v ceníku nákladů.
 
-| Pole | Místo | Relevance, účel a vedení | Dopad na následné složky |
+| Pole | Místo | Popis | Dopad na následné složky |
 | --- | --- | --- | --- |
 | Role | Karta **Všeobecné** a stránky **Vytvořit** | Vyberte roli, na kterou se nákladová sazba vztahuje. | Role u příchozího odhadu nebo skutečné hodnoty bude porovnána s tímto řádkem za účelem určení výchozího nákladu role. |
 | Společnost poskytující zdroje | Karta **Všeobecné** a stránky **Vytvořit** | Vyberte právnickou osobu, které je role přiřazena. Například vývojář ze společnosti Fabrikam Indie nebo vývojář z Fabrikam USA. | Společnost poskytující zdroje u příchozího odhadu nebo skutečné hodnoty bude porovnána s tímto řádkem za účelem určení výchozí nákladové sazby role. |

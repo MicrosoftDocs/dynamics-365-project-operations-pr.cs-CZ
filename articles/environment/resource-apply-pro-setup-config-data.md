@@ -1,23 +1,33 @@
 ---
-title: Nastavení a použití dat konfigurace ve službě Common Data Service pro Project Operations
+title: Nastavení a použití konfiguračních dat v Common Data Service
 description: Toto téma poskytuje informace o tom, jak nastavit a použít konfigurační data v aplikaci Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073653"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401120"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Nastavení a použití dat konfigurace ve službě Common Data Service pro Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Nastavení a použití konfiguračních dat v Common Data Service 
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
+
+## <a name="prerequisites"></a>Požadavky
+
+Než začnete konfigurovat data v Common Data Service (CDS), musí být splněny následující předpoklady:
+
+1.  Máte zřízeno prostředí CDS a Dynamics 365 Finance pro Project Operations.
+2.  V prostředí CDS jsou sdíleny informace o právnické osobě z Dynamics 365 Finance. To znamená, že entita **Společnost** v CDS má následující záznamy:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Instalace nastavení a dat konfigurace
 
@@ -114,10 +124,10 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
  
 12. Aktualizujte následující pole:
 
- - **Výchozí společnost** : USPM
- - **Výchozí organizační jednotka** : Contoso Robotics Global
- - **Četnost faktur** : Sedmý a poslední den
- - **Šablona pracovní doby** : Změňte na šablonu, kterou jste vytvořili.
+ - **Výchozí společnost**: USPM
+ - **Výchozí organizační jednotka**: Contoso Robotics Global
+ - **Četnost faktur**: Sedmý a poslední den
+ - **Šablona pracovní doby**: Změňte na šablonu, kterou jste vytvořili.
 
 13. Zvolte **Uložit**. 
 

@@ -1,21 +1,21 @@
 ---
-title: Souhrnné informace o projektové nabídce
+title: Nastavení projektové nabídky
 description: Toto téma poskytuje informace o údajích a nastaveních, která se vztahují na projektové nabídky a ovlivňují je.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073626"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180229"
 ---
-# <a name="summary-information-on-a-project-quote"></a>Souhrnné informace o projektové nabídce
+# <a name="project-quote-settings"></a>Nastavení projektové nabídky
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
@@ -24,7 +24,7 @@ Tento článek vysvětluje informace, které se vztahují k projektové nabídce
 
 V následující tabulce jsou uvedena souhrnná informační pole projektové nabídky, která jsou jedinečná pro aplikaci Dynamics 365 Project Operations nebo se jejich chování významně odlišuje oproti nabídkám aplikace Dynamics 365 Sales.
 
-| **Pole** | **Umístění** | **Relevance, účel a vedení** | **Dopad na následné složky** |
+| **Pole** | **Umístění** | **Popis** | **Dopad na příjem dat** |
 | --- | --- | --- | --- |
 | Typ | Karta Souhrn (skrytá) | Toto pole sady možností obsahuje následující možnosti:</br>- Na základě práce (k dispozici pouze v případě, že je nainstalována aplikace Project Operations)</br>- Na základě zboží (k dispozici pouze v případě, že jsou nainstalovány aplikace Project Operations a Sales)</br>- Na základě servisní údržby (k dispozici, když je nainstalována služba Dynamics 365 Field Service) | Když použijete aplikaci Project Operations, hodnota tohoto pole se automaticky nastaví na **Na základě práce**. Toto klasifikuje nabídku jako nabídku založenou na projektu. Nabídka by měla být založená na projektu, aby povolila všechna rozšíření a funkce specifické pro projekt. |
 | Vlastnící společnost | Souhrn | Právní subjekt, který bude odpovídat za náklady a výnosy plynoucí z tohoto projektu nebo projektů spojených s touto nabídkou. Když je nabídka vytvořena z příležitosti, zkopíruje se toto pole z odpovídajícího pole příležitosti. | Vlastnící společnost odpovídá konceptu právnické osoby v modulu **Řízení a účetnictví projektů** aplikace Project Operations. Všechny náklady a výnosy plynoucí z tohoto projektu budou zaúčtovány v hlavní knize vlastnící společnosti, |
@@ -38,7 +38,7 @@ V následující tabulce jsou uvedena souhrnná informační pole projektové na
 
 Níže jsou uvedeny karty a KPI dostupné v projektové nabídce, které jsou jedinečné pro aplikaci Project Operations, nebo se jejich chování významně liší od chování nabídek aplikace Sales.
 
-| **Pole** | **Umístění** | **Relevance, účel a vedení** |
+| **Pole** | **Umístění** | **Popis** |
 | --- | --- | --- |
 | Analýza ziskovosti | Karta na nabídce | Karta zobrazuje následující metriky.</br>- Celkové účtovatelné náklady</br></br>- Celkové neúčtovatelné náklady</br>- Celkové výnosy</br>- Celkové výnosy (základní)</br>- Hrubá marže</br>- Upravená hrubá marže|
 | Porovnání s očekáváními zákazníka | Karta na nabídce | Tato karta zobrazuje následující metriky.</br>- Odhadované dokončení</br>- Požadované dokončení</br>- Rozpočet zákazníka</br>- Hodnota nabídky |

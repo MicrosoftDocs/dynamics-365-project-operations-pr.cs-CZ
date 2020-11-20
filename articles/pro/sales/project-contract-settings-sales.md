@@ -1,21 +1,21 @@
 ---
-title: Pole a informace projektové smlouvy
+title: Nastavení projektové smlouvy – omezené
 description: Toto téma poskytuje informace o polích, která mají dopad na řádky smlouvy, a informacích o smlouvě, které jsou shrnuty za všechny řádkové položky.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087855"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180904"
 ---
-# <a name="project-contract-fields-and-information"></a>Pole a informace projektové smlouvy 
+# <a name="project-contract-settings---lite"></a>Nastavení projektové smlouvy – omezené
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
@@ -23,7 +23,7 @@ Toto téma poskytuje informace o polích, která se vztahují na celou projektov
 
 V následující tabulce jsou uvedena pole projektové smlouvy, která jsou jedinečná pro aplikaci Dynamics 365 Project Operations nebo se jejich chování významně odlišuje oproti prodejním objednávkám aplikace Dynamics 365 Sales.
 
-| Pole | Místo | Relevance, účel a vedení | Dopad na následné složky |
+| Pole | Místo | Popis | Dopad na následné složky |
 | --- | --- | --- | --- |
 | Typ | Karta **Souhrn** (skrytá) | Toto pole sady možností obsahuje následující možnosti:</br>- **Na základě práce** (k dispozici pouze v případě, že je nainstalována aplikace Project Operations)</br>- **Na základě zboží** (k dispozici pouze v případě, že jsou nainstalovány aplikace Project Operations a Sales)</br>- **Na základě servisní údržby** (k dispozici, když je nainstalována služba Dynamics 365 Field Service) | V Project Operations je hodnota tohoto pole implicitně nastavena na hodnotu **Na základě práce** a klasifikuje smlouvu jako založenou na projektu. Smlouva by měla být založená na projektu, aby povolila všechna rozšíření a funkce specifické pro projekt. |
 | Potenciální zákazník | Karta **Souhrn** | Odkaz na záznam společnosti nebo účtu zákazníka. Když je smlouva vytvořena z nabídky, zkopíruje se toto pole z odpovídajícího pole záznamu nabídky. | Měna v projektové smlouvě má výchozí hodnotu na základě měny zákazníka. Toto však lze změnit před uložením smlouvy. |
@@ -36,7 +36,7 @@ V následující tabulce jsou uvedena pole projektové smlouvy, která jsou jedi
 
 Na kartě **Plnění smlouvy** projektové smlouvy jsou k dispozici následující KPI.
 
-| Pole | Místo | Relevance, účel a vedení |
+| Pole | Místo | Popis |
 | --- | --- | --- |
 | Hodnota smlouvy | Souhrnná smlouva | Celková hodnota projektové smlouvy. |
 | Fakturovaná částka | Souhrnná smlouva | Součet částek na všech fakturách uplatněných vůči této smlouvě. |

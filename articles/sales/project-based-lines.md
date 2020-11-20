@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073641"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181939"
 ---
 # <a name="project-based-opportunity-lines"></a>Řádky příležitosti založené na projektu
 
@@ -26,9 +26,9 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 
 Níže jsou vyjmenována pole v řádku příležitosti založené na projektu:
 
-| **Pole** | **Umístění** | **Relevance, účel a vedení** | **Dopad na následné složky** |
+| **Pole** | **Umístění** | **Popis** | **Dopad na příjem dat** |
 | --- | --- | --- | --- |
-| Typ produktu | Karta Obecné (skrytá) | Toto je pole sady možností. Pokud máte nainstalovanou aplikaci Dynamics 365 Operations, jednou z dostupných možností je **Služba založená na projektu**.  | Hodnota tohoto pole se nastaví na **Služba založená na projektu** , když vytvoříte řádek příležitosti založené na projektu z mřížky řádků založených na projektu v příležitosti. <br> Pokud tuto hodnotu změníte nebo přepíšete, nebude u vašich řádkových položek založených na projektu povolena funkce projektu. |
+| Typ produktu | Karta Obecné (skrytá) | Toto je pole sady možností. Pokud máte nainstalovanou aplikaci Dynamics 365 Operations, jednou z dostupných možností je **Služba založená na projektu**.  | Hodnota tohoto pole se nastaví na **Služba založená na projektu**, když vytvoříte řádek příležitosti založené na projektu z mřížky řádků založených na projektu v příležitosti. <br> Pokud tuto hodnotu změníte nebo přepíšete, nebude u vašich řádkových položek založených na projektu povolena funkce projektu. |
 | Příležitost | Karta Obecné | Toto pole je pouze ke čtení a odkazuje na nadřazený záznam příležitosti, ke kterému tato řádková položka patří. | Toto pole nemá žádný následný dopad. |
 | Jméno | Karta Obecné | Toto je upravitelné textové pole, ve kterém lze této řádkové položce zadat krátkou identitu | Tato hodnota se přenese do řádku nabídky, když vytvoříte nabídku z této příležitosti |
 | Rozpočet zákazníka | Karta Obecné | Toto upravitelné pole měny lze použít ke sledování částky, kterou je zákazník ochoten za tuto řádkovou položku utratit. | Tato hodnota se přenese do odpovídajícího pole v řádku nabídky, když vytvoříte nabídku z této příležitosti |

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073713"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180814"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Plány faktur na řácích nabídky založené na projektu
 
@@ -31,8 +31,8 @@ Když je metodou fakturace pro řádek nabídky na základě projektu Čas a mat
 2. Na stránce **Nabídky** otevřete nabídku projektu a na kartě **Souhrn** nastavte požadované datum dodání.
 3. Otevřete řádek nabídky času a materiálu, pro který potřebujete vytvořit harmonogram faktur na základě data. 
 4. Na kartě **Časový plán faktur** vyberte hodnoty v polích **Zahájení fakturace** a **Frekvence faktur**. 
-5. V podmřížce vyberte **Generovat plán faktur**.
-6. Aplikace generuje plán faktur s poli **Datum spuštění faktury** , **Mezní datum transakce** a **Stav spuštění** následujícím způsobem:
+5. V podmřížce vyberte **Generovat rozpis faktur**.
+6. Aplikace generuje plán faktur s poli **Datum spuštění faktury**, **Mezní datum transakce** a **Stav spuštění** následujícím způsobem:
 
     - **Datum spuštění faktury** je nastaveno na datum, které je určeno na základě frekvence fakturace.
     - **Mezní datum transakce** je nastaven na den před **Datem spuštění faktury**.
@@ -40,7 +40,7 @@ Když je metodou fakturace pro řádek nabídky na základě projektu Čas a mat
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Vytvořte harmonogram faktury za fixní cenu pro řádek nabídky založené na projektu
 
-Když má řádek nabídky na základě projektu metodu fakturace **Ficní** , systém vytvoří plán faktur na základě milníků. Dokončením následujících kroků automaticky vygenerujete tento plán pro fixní sadu milníků, které jsou rovnoměrně rozloženy pro kalendářní období.
+Když má řádek nabídky na základě projektu metodu fakturace **Ficní**, systém vytvoří plán faktur na základě milníků. Dokončením následujících kroků automaticky vygenerujete tento plán pro fixní sadu milníků, které jsou rovnoměrně rozloženy pro kalendářní období.
 
 1. Přejděte na **Nastavení** > **Frekvence faktur** a nastavte frekvenci faktur.
 2. Na stránce **Nabídky** otevřete nabídku projektu a na kartě **Souhrn** nastavte požadované datum dodání.
@@ -58,9 +58,9 @@ Když má řádek nabídky na základě projektu metodu fakturace **Ficní** , s
 
 Milníky fixní ceny lze také generovat ručně, pokud nejsou pravidelně rozděleny. Postup ručního vytváření milníků:
 
-Otevřete řádek nabídky fixní ceny, pro který potřebujete vytvořit milník. Na kartě **Plán faktur** , v dílčí mřížce, vyberte **+ Vytvořit nový milník řádku nabídky** a zadejte požadované informace na základě následující tabulky.
+Otevřete řádek nabídky fixní ceny, pro který potřebujete vytvořit milník. Na kartě **Rozpis faktury** vyberte **+ Vytvořit nový milník řádku nabídky** a zadejte požadované informace na základě následující tabulky.
 
-| **Pole** | **Umístění** | **Relevance, účel a vedení** | **Dopad na následné složky** |
+| **Pole** | **Umístění** | **Popis** | **Dopad na příjem dat** |
 | --- | --- | --- | --- |
 | Název milníku | Vytvořit | Název milníku. | To je přeneseno na milník řádku smlouvy projektu a na fakturu |
 | Projektový úkol | Vytvořit | Pokud je milník svázán s úkolem projektu, můžete pomocí tohoto odkazu přidat vlastní logiku nastavavení stavu milníku na základě stavu úlohy. | Aplikace nemá žádný následný dopad tohoto odkazu na úkol. |

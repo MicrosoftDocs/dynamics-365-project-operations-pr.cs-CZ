@@ -1,21 +1,21 @@
 ---
-title: Přehled řádků smlouvy založených na produktu
+title: Přehled řádků smlouvy založené na produktu – omezený
 description: Toto téma poskytuje informace o řádcích smlouvy založených na produktu.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073707"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177863"
 ---
-# <a name="product-based-contract-lines-overview"></a>Přehled řádků smlouvy založených na produktu
+# <a name="product-based-contract-lines-overview---lite"></a>Přehled řádků smlouvy založené na produktu – omezený
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
@@ -43,6 +43,6 @@ Pokud je řádek smlouvy založen na katalogu produktů, můžete přepsat prode
 - **Přepsat ocenění**
 - **Použít výchozí**
 
-Pokud pole **Ocenění** nastavíte na **Přepsat ocenění** , není výchozí cena nastavena. Zadejte cenu produktu v řádku smlouvy. Pokud nastavíte pole na hodnotu **Použít výchozí** , použije se výchozí prodejní cena a pole nelze upravit.
+Pokud pole **Ocenění** nastavíte na **Přepsat ocenění**, není výchozí cena nastavena. Zadejte cenu produktu v řádku smlouvy. Pokud nastavíte pole na hodnotu **Použít výchozí**, použije se výchozí prodejní cena a pole nelze upravit.
 
-Po instalaci Project Operations jsou do řádků smlouvy založených na produktu vloženy výchozí prodejní ceny. Pole **Ocenění** je pak nastaveno na **Přepsat ocenění** , takže můžete upravit výchozí cenu na řádcích smlouvy. Toto přepsání chování řádků založených je specifické pro Project Operations a odlišné vůči aplikaci Dynamics 365 Sales.
+Po instalaci Project Operations jsou do řádků smlouvy založených na produktu vloženy výchozí prodejní ceny. Pole **Ocenění** je pak nastaveno na **Přepsat ocenění**, takže můžete upravit výchozí cenu na řádcích smlouvy. Toto přepsání chování řádků založených je specifické pro Project Operations a odlišné vůči aplikaci Dynamics 365 Sales.

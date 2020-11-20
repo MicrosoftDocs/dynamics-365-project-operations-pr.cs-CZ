@@ -1,21 +1,21 @@
 ---
-title: Správa zájemců (Pro)
+title: Správa zájemců – omezeno
 description: Toto téma obsahuje informace o správě zájemců na základě projektu (Pro).
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073709"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180499"
 ---
-# <a name="manage-leads-pro"></a>Správa zájemců (Pro)
+# <a name="manage-leads---lite"></a>Správa zájemců – omezeno
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
@@ -38,7 +38,7 @@ Chcete-li, aby kvalifikovaný zájemce automaticky vytvořil příležitost, nas
 
 Následující tabulka obsahuje důležité informace o poli pro zájemce a důsledky těchto polí v následných činnostech.
 
-| **Pole** | **Umístění** | **Relevance, účel a vedení** | **Dopad na následné složky** |
+| **Pole** | **Umístění** | **Popis** | **Dopad na příjem dat** |
 | --- | --- | --- | --- |
 | Téma | Karta Obecné | Toto textové pole by mělo obsahovat krátký popis obchodu. | Téma zájemce bude mít výchozí obsah podle tématu příležitosti, a název nabídky a projektové smlouvy. |
 | Typ | Karta Obecné | Toto pole sady možností obsahuje následující možnosti:</br>- Na základě práce (k dispozici pouze v případě, že je nainstalována aplikace Project Operations)</br>- Na základě zboží (k dispozici pouze v případě, že jsou nainstalovány aplikace Project Operations a Sales)</br>- Na základě servisní údržby (k dispozici, když je nainstalována služba Field Service) | Když je toto pole nastaveno na hodnotu **Na základě práce** u zájemce, je zájemce kvalifikován k vytvoření příležitosti založené na projektu. Příležitost založená na projektu je nutná k povolení všech rozšíření a funkcí specifických pro projekt v procesu následného prodeje pro tento obchod. |
@@ -49,7 +49,7 @@ Následující tabulka obsahuje důležité informace o poli pro zájemce a důs
 
 ## <a name="qualify-a-new-project-based-lead"></a>Kvalifikace nového zájemce na základě projektu
 
-Zájemci, kteří mají **Typ** nastaven na hodnotu **Na základě práce** , se nazývají zájemci na základě projektu. Když je zájemce na základě projektu kvalifikován, vytvoří se následující položky:
+Zájemci, kteří mají **Typ** nastaven na hodnotu **Na základě práce**, se nazývají zájemci na základě projektu. Když je zájemce na základě projektu kvalifikován, vytvoří se následující položky:
 
 - Účet, který používá pole **Společnost** ze zájemce.
 - Záznam kontaktní osoby přidružený k účtu na základě hodnot v polích **Křestní jméno** a **Příjmení** zájemce.

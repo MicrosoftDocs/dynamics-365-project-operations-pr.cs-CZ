@@ -1,23 +1,30 @@
 ---
-title: Použití ukázkového nastavení a data konfigurace
+title: Použití ukázkového nastavení a data konfigurace – omezené
 description: Toto téma poskytuje informace o tom, jak použít ukázková nastavení a konfigurační data pro Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073645"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401255"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Použít ukázkové nastavení a konfigurační data pro omezené nasazení Project Operations - od obchodu po pro forma fakturaci
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Použití ukázkového nastavení a data konfigurace pro Project Operations – omezené 
 
 _**Omezené nasazení - dohoda o pro forma fakturaci_
+
+## <a name="prerequisites"></a>Požadavky
+
+Před zahájením konfigurace musíte mít mít zřízeno prostředí Common Data Service (CDS) pro Dynamics 365 Project Operations.
+
+
+## <a name="instructions"></a>Pokyny
 
 1. Stáhněte si [Balíček kmenových dat](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Přejděte do složky *ProjOpsDemoDataSetupAndMaster - integrovaný CMT* a spusťte soubor *DataMigrationUtility*.
@@ -45,25 +52,25 @@ _**Omezené nasazení - dohoda o pro forma fakturaci_
 10. Import bude probíhat přibližně dvě až deset minut v závislosti na rychlosti vaší sítě. Po dokončení ukončete průvodce CMT. 
 11. Zkontrolujte ve své organizaci data v následujících 20 entitách:
 
-- Měna
-- Organizační jednotka
-- Kontakt
-- Daňová skupina
-- Skupina zákazníků
-- Jednotka
-- Skupina jednotek
-- Ceník
-- Ceník projektových parametrů
-- Frekvence faktur
-- Podrobnosti četnosti faktury
-- Kategorie rezervovatelného zdroje
-- Kategorie transakce
-- Kategorie výdaje
-- Cena role
-- Cena kategorie transakce
-- Charakteristika
-- Rezervovatelný zdroj
-- Přidružení kategorie rezervovatelného zdroje
-- Charakteristika rezervovatelného zdroje
+-   Měna
+-   Účet
+-   Organizační jednotka
+-   Kontakt
+-   Daňová skupina
+-   Skupina zákazníků
+-   Jednotka
+-   Skupina jednotek
+-   Ceník
+-   Ceník projektových parametrů 
+-   Frekvence faktur
+-   Kategorie rezervovatelného zdroje
+-   Kategorie transakce
+-   Kategorie výdaje
+-   Cena role
+-   Cena kategorie transakce
+-   Charakteristika
+-   Rezervovatelný zdroj
+-   Přidružení kategorie rezervovatelného zdroje
+-   Charakteristika rezervovatelného zdroje
 
 ![Dokončit import](./media/6CompleteImport.png)

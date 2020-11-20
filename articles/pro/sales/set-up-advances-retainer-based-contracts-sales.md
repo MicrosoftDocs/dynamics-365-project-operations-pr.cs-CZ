@@ -1,21 +1,21 @@
 ---
-title: Zálohy a smlouvy na základě záloh
+title: Smlouvy na základě záloh – omezené
 description: Toto téma poskytuje informace o smluvních modelech založených na zálohách a zálohách v aplikaci Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087853"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180859"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Zálohy a smlouvy na základě záloh 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Smlouvy na základě záloh – omezené
 
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
@@ -33,7 +33,7 @@ Kromě pravidelného plánu založeného na zálohách může Project Operations
 
 Zálohu v Project Operations nelze použít, dokud nebude fakturována zákazníkovi. To naznačují následující pole v podmřížce pro zálohy.
 
-| Pole | Relevance, účel a vedení | Dopad na následné složky |
+| Pole | Popis | Dopad na následné složky |
 | --- | --- | --- |
 | Dostupná částka | Částka, která je k dispozici k použití v zálohovém záznamu. | Dokud nebude záloha vyfakturována, nebude možné ji použít, což znamená, že dostupná částka bude nulová. |
 | Použitá částka | Částka, která je již použita v záloze. | Záloha může být částečně odsouhlasena na faktuře se skutečnými náklady, které budou mít některou část označenou jako již použitou nebo spotřebovanou. Zbytek částky zálohy je k dispozici k odsouhlasení na budoucí faktuře se skutečnými náklady. |

@@ -1,33 +1,33 @@
 ---
-title: Nastavení nákladových sazeb za práci
+title: Nastavení nákladových sazeb za práci – omezené
 description: Toto téma poskytuje informace o tom, jak nastavit nákladové sazby za práci v aplikaci Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073691"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180698"
 ---
-# <a name="setting-up-labor-cost-rates"></a>Nastavení nákladových sazeb za práci 
+# <a name="set-up-labor-cost-rates---lite"></a>Nastavení nákladových sazeb za práci – omezené
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
 Každý ceník obsahuje sadu sazeb za práci (cen rolí), které jsou spojeny s kontextem a datem účinnosti ceníku.
 
-1. Vytvořte ceník a na kartě **Cena role** vyberte v podmřížce položku **+ Nová role**.
+1. Vytvořte ceník a na kartě **Cena role** v podmřížce vyberte **Nová role**.
 2. Na stránce **Vytvořit** vyberte roli a organizační jednotku.
 3. Zadejte informace do všech dalších povinných polí.
 
 Následující tabulka obsahuje některá pole, která jsou důležitá při vytváření sazeb práce v ceníku nákladů.
 
-| Pole | Místo | Relevance, účel a vedení | Dopad na následné složky |
+| Pole | Místo | Popis | Dopad na následné složky |
 | --- | --- | --- | --- |
 | Role | Karta **Všeobecné** a stránky **Vytvořit** | Vyberte roli, na kterou se nákladová sazba vztahuje. | Role u příchozího odhadu nebo skutečné hodnoty bude porovnána s tímto řádkem za účelem určení výchozího nákladu role. |
 | Jednotka zdroje | Karta **Všeobecné** a stránky **Vytvořit** | Vyberte organizační jednotku nebo divizi společnosti, ze které bude tato role použita. Například vývojář z divize Robotics společnosti Fabrikam Indie nebo vývojář z divize Software společnosti Fabrikam USA. | Jednotka zdroje u příchozího odhadu nebo skutečné hodnoty bude porovnána s tímto řádkem za účelem určení výchozího nákladu role. |

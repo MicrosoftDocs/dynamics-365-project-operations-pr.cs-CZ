@@ -1,21 +1,21 @@
 ---
-title: Klíčové koncepty nabídky projektu
+title: Nabídky – klíčové koncepty – omezené
 description: Toto téma poskytuje informace o tom, jak používat projektové nabídky v aplikaci Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073704"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177998"
 ---
-# <a name="project-quote-key-concepts"></a>Klíčové koncepty nabídky projektu
+# <a name="quotes---key-concepts---lite"></a>Nabídky – klíčové koncepty – omezené
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
@@ -40,7 +40,7 @@ Na rozdíl od nákladů lze hodnoty prodejů zaznamenat pouze v měně prodeje.
 
 ## <a name="billing-method"></a>Způsob fakturace
 
-Projekty mají obvykle smluvní modely s pevným poplatkem a založené na spotřebě. To je v aplikaci Project Operations vyjádřeno jako pole **Způsob fakturace** , které má dvě hodnoty, čas a materiál a pevnou cenu.
+Projekty mají obvykle smluvní modely s pevným poplatkem a založené na spotřebě. To je v aplikaci Project Operations vyjádřeno jako pole **Způsob fakturace**, které má dvě hodnoty, čas a materiál a pevnou cenu.
 
 - **Čas a materiál:** Jedná se o smluvní model založený na spotřebě, kde jsou všechny vzniklé náklady kryty odpovídajícími výnosy. S novým odhadem nebo při vzniku dalších nákladů se také zvýší odpovídající odhadovaný a skutečný prodej. Na řádcích nabídek, které mají tuto metodu fakturace, můžete určit nepřekročitelné limity. Tím se omezí skutečný příjem. Odhadované výnosy nejsou nepřekročitelnými limity ovlivněny.
 - **Pevná cena:** Jedná se o smluvní model s pevným poplatkem, který naznačuje, že hodnoty prodejů budou nezávislé na vzniklých nákladech. Hodnota prodeje je pevná a nemění se, když dále odhadujete náklady nebo když další náklady.
@@ -78,7 +78,7 @@ K obchodům s více zákazníky dochází, když se má fakturovat více než je
 
 ## <a name="invoice-schedules"></a>Rozpisy faktur
 
-Rozpisy faktur jsou specifické pro každý řádek nabídky a jsou také volitelné. Rozpisy faktur jsou vytvářeny na základě určitých dat zahájení a ukončení a četnosti faktur. Rozpisy faktur se používají ve fázi smlouvy, když je konfigurován proces automatického vytváření faktur. Ve fázi nabídky jsou rozpisy volitelné. Když se vytvářejí rozpisy faktur ve fázi **Nabídka** , jsou zkopírovány do projektové smlouvy, která je vytvořena při získání projektové nabídky.
+Rozpisy faktur jsou specifické pro každý řádek nabídky a jsou také volitelné. Rozpisy faktur jsou vytvářeny na základě určitých dat zahájení a ukončení a četnosti faktur. Rozpisy faktur se používají ve fázi smlouvy, když je konfigurován proces automatického vytváření faktur. Ve fázi nabídky jsou rozpisy volitelné. Když se vytvářejí rozpisy faktur ve fázi **Nabídka**, jsou zkopírovány do projektové smlouvy, která je vytvořena při získání projektové nabídky.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Změny oproti nabídce aplikace Dynamics 365 Sales:
 
