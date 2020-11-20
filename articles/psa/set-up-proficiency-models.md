@@ -3,7 +3,7 @@ title: Nastavení modelů odborné způsobilosti
 description: Postup nastavení modelů odborné způsobilosti v Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 653b7eef12c57203fbc6853e97d3be43bdb85b9d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2d13d5bbfd43ef88ec2f285357ee26a2a87db870
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073997"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122965"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>Nastavení modelů odborné způsobilosti (Project Service)
 
@@ -33,7 +33,7 @@ Nyní, když jste přidali dovednosti pro projekty svých klientů, potřebujete
   
 1.  Přejděte do části **Project Service > Modely odborné způsobilosti**.  
   
-2.  Chcete-li zobrazit nebo upravit výchozí model odborné způsobilosti, klikněte v seznamu na tlačítko **Výchozí model hodnocení** , nebo chcete-li vytvořit nový model odborné způsobilosti, klikněte na volbu **Nový**.  
+2.  Chcete-li zobrazit nebo upravit výchozí model odborné způsobilosti, klikněte v seznamu na tlačítko **Výchozí model hodnocení**, nebo chcete-li vytvořit nový model odborné způsobilosti, klikněte na volbu **Nový**.  
   
 3.  Pokud vytváříte nový model odborné způsobilosti, vyplňte pole v oblasti **Obecné** a pak kliknutím na tlačítko **Uložit** vytvořte záznam, abyste mohli pokračovat v úpravách. Při vytváření vlastního modelu odborné způsobilosti mějte na paměti, že vyšší čísla jsou lepší.  
   

@@ -3,7 +3,7 @@ title: Plány projektu
 description: Toto téma obsahuje informace o způsobu vytvoření plánu.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073815"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123219"
 ---
 # <a name="project-schedules"></a>Plány projektu 
 
@@ -83,12 +83,12 @@ Tlačítka **Posunout nahoru** a **Posunout dolů** změní pozici úkolu v jeho
 
 Mřížka **Plán** je plně přístupná a lze ji použít se čtečkami obrazovky, jako jsou např. Narrator, JAWS nebo NVDA. Oblast mřížky můžete procházet pomocí kláves se šipkami (jako v aplikaci Microsoft Excel), pomocí klávesy Tab můžete procházet interaktivní prvky uživatelského rozhraní a pomocí klávesy se šipkou dolů, klávesy Enter nebo mezerníku vybrat a vyvolat rozevírací nabídky. Záhlaví sloupců jsou také interaktivní. Sloupce můžete skrýt nebo zobrazit, pomocí klávesy Tab a kláves se šipkami se pohybovat záhlavími sloupců a používat tlačítka akcí na panelu nástrojů. Kromě toho můžete použít následující klávesové zkratky:
 
-- **Aktualizovat** : ALT+SHIFT+F5
-- **Přidat** : ALT+SHIFT+Insert
-- **Odstranit** : ALT+SHIFT+Delete
-- **Přesunout nahoru/dolů** : ALT+SHIFT+šipky nahoru/dolů
-- **Zvětšit/zmenšit odsazení** : ALT_SHIFT+šipky vlevo/vpravo
-- **Rozbalit/sbalit hierarchie** : ALT+SHIFT+klávesy plus/minus
+- **Aktualizovat**: ALT+SHIFT+F5
+- **Přidat**: ALT+SHIFT+Insert
+- **Odstranit**: ALT+SHIFT+Delete
+- **Přesunout nahoru/dolů**: ALT+SHIFT+šipky nahoru/dolů
+- **Zvětšit/zmenšit odsazení**: ALT_SHIFT+šipky vlevo/vpravo
+- **Rozbalit/sbalit hierarchie**: ALT+SHIFT+klávesy plus/minus
 
 ## <a name="task-attributes"></a>Atributy úkolu
 
@@ -98,19 +98,19 @@ Název úkolu popisuje práci, která musí být provedena. V PSA popisují atri
  
 ### <a name="schedule-attributes"></a>Plánování atributů
 
-Atributy **Úsilí** , **Počáteční datum** , **Koncové datum** a **Doba trvání** definují plán úkolu.
+Atributy **Úsilí**, **Počáteční datum**, **Koncové datum** a **Doba trvání** definují plán úkolu.
 
 Mezi další atributy plánu patří:
 
-- **Úsilí v hodinách** : zadejte odhad hodin potřebných k dokončení úkolu. 
-- **Doba trvání** : zadejte počet pracovních dnů potřebných k dokončení úkolu.
-- **ID plánu** : toto automaticky generované ID se používá k řazení úkolů v hierarchii. Závislosti mezi úkoly řídí aktuální pořadí, ve kterém jsou úkoly zpracovávány.
+- **Úsilí v hodinách**: zadejte odhad hodin potřebných k dokončení úkolu. 
+- **Doba trvání**: zadejte počet pracovních dnů potřebných k dokončení úkolu.
+- **ID plánu**: toto automaticky generované ID se používá k řazení úkolů v hierarchii. Závislosti mezi úkoly řídí aktuální pořadí, ve kterém jsou úkoly zpracovávány.
  
 ### <a name="staffing-attributes"></a>Personální atributy
 
 K atributům personálního obsazení se přistupuje prostřednictvím pole **Zdroje** v plánu. Můžete buď vyhledat existující zdroj, nebo kliknout na **Vytvořit** a v podokně **Vytvořit** přidat člena projektového týmu jako nový zdroj.
 
-Pole **Role** , **Jednotka zdroje** a **Název pozice** slouží k popisu požadavků na personální obsazení úkolu. Tyto atributy personálního obsazení se společně s plánem úkolů používají k nalezení dostupných zdrojů pro vykonání tohoto úkolu.
+Pole **Role**, **Jednotka zdroje** a **Název pozice** slouží k popisu požadavků na personální obsazení úkolu. Tyto atributy personálního obsazení se společně s plánem úkolů používají k nalezení dostupných zdrojů pro vykonání tohoto úkolu.
 
 **Role** – určete typ prostředku, který je vyžadován k provádění úkolu.
 

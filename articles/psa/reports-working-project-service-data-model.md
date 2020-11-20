@@ -3,7 +3,7 @@ title: Práce s datovým modelem Project Service Automation
 description: Toto téma obsahuje informace o způsobu práce s datovým modelem.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073965"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120265"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Práce s datovým modelem Project Service Automation
 
@@ -33,15 +33,15 @@ Dynamics 365 Project Service Automation rozšiřuje další entity aplikace a za
 
 ## <a name="reporting-on-opportunities"></a>Podávání zpráv o příležitostech
 
-Project Service Automation rozšiřuje entitu **Příležitost** aplikace Dynamics 365 Sales přidáním polí, která umožňují scénáře založené na projektech. Tato pole jsou označena názvem schématu, který má předponou **msdyn\_** Jedním novým polem, které je důležité pro vykazování příležitostí PSA, je **Typ objednávky**. Hodnota **Na základě práce** pro toto pole označuje, že je tato příležitost příležitostí PSA. Mezi další pole, která byla do entity přidána, patří **Smluvní organizace** , které zaznamenává organizaci, jenž příležitost obsahuje, a **Manažer obchodních vztahů** , které zaznamenává jméno manažera obchodních vztahů, který je za příležitost zodpovědný.
+Project Service Automation rozšiřuje entitu **Příležitost** aplikace Dynamics 365 Sales přidáním polí, která umožňují scénáře založené na projektech. Tato pole jsou označena názvem schématu, který má předponou **msdyn\_** Jedním novým polem, které je důležité pro vykazování příležitostí PSA, je **Typ objednávky**. Hodnota **Na základě práce** pro toto pole označuje, že je tato příležitost příležitostí PSA. Mezi další pole, která byla do entity přidána, patří **Smluvní organizace**, které zaznamenává organizaci, jenž příležitost obsahuje, a **Manažer obchodních vztahů**, které zaznamenává jméno manažera obchodních vztahů, který je za příležitost zodpovědný.
 
 Entita **Řádek příležitosti** obsahuje i pole, která souvisejí s aplikací Project Service. **Způsob fakturace** označuje, zda má být řádek příležitosti fakturován na základě času a materiálu nebo na základě pevné ceny a **Projekt** zaznamenává název projektu, který příležitost podporuje. Další pole, která lze vykazovat u částek zachycených nákladů a rozpočtů zákazníka pro položku řádku.
 
 ## <a name="reporting-on-quotes"></a>Vykazování v nabídkách
 
-PSA rozšiřuje entitu prodeje **Nabídka** přidáním polí souvisejících s projektem. **Typ objednávky** rozlišuje nabídky PSA a nabídky, které nepocházejí z PSA. Hodnota **Na základě práce** pro toto pole označuje, že je tato nabídka nabídkou PSA. Další pole, která mohou být relevantní pro vykazování v nabídkách PSA, zahrnují pole částek, jako jsou např. **Účtovatelné náklady** , **Nečtovatelné náklady** , **Hrubá marže** , **Odhady** a **Rozpočet**. Další užitečná pole označují, zda je nabídka zisková, zda bude dokončena podle plánu a zda splňuje očekávání rozpočtu zákazníka.
+PSA rozšiřuje entitu prodeje **Nabídka** přidáním polí souvisejících s projektem. **Typ objednávky** rozlišuje nabídky PSA a nabídky, které nepocházejí z PSA. Hodnota **Na základě práce** pro toto pole označuje, že je tato nabídka nabídkou PSA. Další pole, která mohou být relevantní pro vykazování v nabídkách PSA, zahrnují pole částek, jako jsou např. **Účtovatelné náklady**, **Nečtovatelné náklady**, **Hrubá marže**, **Odhady** a **Rozpočet**. Další užitečná pole označují, zda je nabídka zisková, zda bude dokončena podle plánu a zda splňuje očekávání rozpočtu zákazníka.
 
-PSA také rozšiřuje entitu prodeje **Řádek nabídky**. Jedno pole, které PSA přidává, je **Způsob fakturace** , toto pole označuje, jak bude řádek nabídky fakturován (čas a materiál nebo pevná cena). Další pole, která byla přidána do entity, zaznamenávají související projekt, který podporuje řádek nabídky, fakturaci, náklady a rozpočet.
+PSA také rozšiřuje entitu prodeje **Řádek nabídky**. Jedno pole, které PSA přidává, je **Způsob fakturace**, toto pole označuje, jak bude řádek nabídky fakturován (čas a materiál nebo pevná cena). Další pole, která byla přidána do entity, zaznamenávají související projekt, který podporuje řádek nabídky, fakturaci, náklady a rozpočet.
 
 PSA datového modelu Dynamics 365 také přidává nové entity související s nabídkou. Zde je uvedeno několik příkladů:
 
@@ -50,13 +50,13 @@ PSA datového modelu Dynamics 365 také přidává nové entity související s 
 - **Milník řádku nabídky** – tato entita obsahuje fakturační milníky pro řádky nabídky s pevnou cenou.
 - **Analytický rozpis řádku objednávky** – tato entita obsahuje finanční podrobnosti řádku nabídky. Tyto podrobnosti mohou být užitečné pro vykazování částek nabízeného prodeje a odhadovaných nákladů podle různých dimenzí.
 
-Dalšími entitami, které PSA do nabídek přidává, jsou **Projektový ceník řádku nabídky** , **Kategorie zdroje řádku nabídky** a **Kategorie transakce řádku nabídky**.
+Dalšími entitami, které PSA do nabídek přidává, jsou **Projektový ceník řádku nabídky**, **Kategorie zdroje řádku nabídky** a **Kategorie transakce řádku nabídky**.
 
 ![Diagram zobrazující nabídku, řádek nabídky a vztahy projektů](media/PS-Reporting-image2.png "Diagram zobrazující nabídku, řádek nabídky a vztahy projektů")
 
 ## <a name="reporting-on-project-contracts"></a>Podávání zpráv o projektových smlouvách
 
-PSA rozšiřuje entitu prodeje **Objednávka** , která se používá při záznamu projektových smluv. Přidá nové důležité pole **Typ objednávky** , které označuje smlouvu jako projektovou smlouvu PSA namísto prodejní objednávky. Hodnota **Na základě práce** pro toto pole označuje, že je tato objednávka projektovou smlouvou PSA. Další nová pole přidaná do entity **Objednávka** zaznamenávají podrobnosti o nákladech, stavu smlouvy PSA a organizaci, která smlouvu vlastní.
+PSA rozšiřuje entitu prodeje **Objednávka**, která se používá při záznamu projektových smluv. Přidá nové důležité pole **Typ objednávky**, které označuje smlouvu jako projektovou smlouvu PSA namísto prodejní objednávky. Hodnota **Na základě práce** pro toto pole označuje, že je tato objednávka projektovou smlouvou PSA. Další nová pole přidaná do entity **Objednávka** zaznamenávají podrobnosti o nákladech, stavu smlouvy PSA a organizaci, která smlouvu vlastní.
 
 PSA také rozšiřuje entitu **Řádek prodejní objednávky**. Mezi pole, která jsou přidána, patří pole, která zaznamenávají způsob fakturace (čas a materiál nebo pevnou cenu), částky rozpočtu zákazníka a podkladový projekt.
 
@@ -66,7 +66,7 @@ PSA také přidává nové entity, které jsou navrženy pro projektové smlouvy
 - **Rozpis faktury řádku smlouv** – tato entita obsahuje plán fakturace, který je generován na základě četnosti faktury přiřazené k řádku smlouvy.
 - **Milník smlouvy** – tato entita obsahuje fakturační milníky pro řádky smlouvy, které obsahují požadavek na fakturaci s pevnou cenou.
 
-Dalšími entitami, které PSA do smluv přidává, jsou **Projektový ceník řádku projektové smlouvy** , **Kategorie zdroje řádku projektové smlouvy** a **Kategorie transakce řádku projektové smlouvy**.
+Dalšími entitami, které PSA do smluv přidává, jsou **Projektový ceník řádku projektové smlouvy**, **Kategorie zdroje řádku projektové smlouvy** a **Kategorie transakce řádku projektové smlouvy**.
 
 ![Diagram zobrazující objednávku, řádek objednávky a vztahy projektů](media/PS-Reporting-image3.png "Diagram zobrazující objednávku, řádek objednávky a vztahy projektů")
 

@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096744"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122875"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfigurace integrace Project Operations podle právnické osoby 
 
@@ -32,7 +32,7 @@ Chcete-li povolit požadované funkce, proveďte následující kroky.
     - **Povolit Project Operations v Dynamics 365 Customer Engagement**
 
 > [!NOTE]
-> Pokud nevidíte uvedené **Klíče oprávnění** , ověřte, zda vaše verze Finance splňuje požadavek na minimální verzi (verze aplikace 10.0.13 se všemi použitými aktualizacemi kvality nebo vyšší). Výběrem položky **Kontrola aktualizací** aktualizujte seznam funkcí.
+> Pokud nevidíte uvedené **Klíče oprávnění**, ověřte, zda vaše verze Finance splňuje požadavek na minimální verzi (verze aplikace 10.0.13 se všemi použitými aktualizacemi kvality nebo vyšší). Výběrem položky **Kontrola aktualizací** aktualizujte seznam funkcí.
 
 ## <a name="define-the-project-operations-deployment-scenario-for-a-legal-entity"></a>Definování scénáře nasazení Project Operations pro právnickou osobu
 
@@ -48,6 +48,6 @@ Aplikaci Project Operations můžete v Dynamics 365 Customer Engagement povolit 
 
 Každá právnická osoba využívající Project Operations v Dynamics 365 Customer Engagement potřebuje sadu výchozích parametrů. Tyto parametry se konfigurují na kartě **Project Operations** ve stránce **Parametry řízení projektu a účetnictví**. K dispozici jsou tyto parametry:
 
-  - **Výchozí hodnoty typu účtování** : Project Operations používá pevnou sadu výchozích typů účtování, které musejí být mapovány na vlastnosti řádku ve Finance. Vytvořte záznam pro každý typ účtování: **Nezadáno** , **Účtovatelné** , **Neúčtovatelné** , **Doplňkové** a **Není dostupné**.
-  - **Výchozí nastavení kategorie projektu** : Vyberte výchozí kategorie projektu, které se mají použít pro každý typ transakce. Tyto výchozí hodnoty budou použity v **Deníku integrace Project Operations** a v odhadech, kde není pro skutečný projekt zadána žádná kategorie transakcí.
+  - **Výchozí hodnoty typu účtování**: Project Operations používá pevnou sadu výchozích typů účtování, které musejí být mapovány na vlastnosti řádku ve Finance. Vytvořte záznam pro každý typ účtování: **Nezadáno**, **Účtovatelné**, **Neúčtovatelné**, **Doplňkové** a **Není dostupné**.
+  - **Výchozí nastavení kategorie projektu**: Vyberte výchozí kategorie projektu, které se mají použít pro každý typ transakce. Tyto výchozí hodnoty budou použity v **Deníku integrace Project Operations** a v odhadech, kde není pro skutečný projekt zadána žádná kategorie transakcí.
   - **Prognózy** : Vyberte model prognózy, který se použije pro odhady času a výdajů.

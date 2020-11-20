@@ -3,7 +3,7 @@ title: Vytvoření rezervace projektu z Plánovací vývěsky
 description: Toto téma obsahuje informace o způsobu vytvoření rezervace projektu z plánovací vývěsky.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073797"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122290"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Vytvoření rezervace projektu z Plánovací vývěsky
 
@@ -60,13 +60,13 @@ Můžete vytvořit obecný zdroj a přiřadit k němu jeden nebo více úkolů v
 
 Vytvoření projektu v aplikaci Project Service automaticky vytvoří požadavek na zdroj nazvaný Primární požadavek. Jedná se o prázdný požadavek, umožňující rychle rezervovat zdroj pomocí Plánovací vývěsky bez generování požadavku nebo vytvoření požadavku od samého začátku. Vzhledem k tomu, že požadavek je prázdný, bude nutné zadat data, stejně jako metodu přidělení a popřípadě hodiny. 
 
-1. Chcete-li rezervovat zdroj s Primárním požadavkem, zvolte na Plánovací vývěsce kartu **Projekt**. Možná budete chtít použít filtr sloupce ve sloupci **Projekt** , pokud máte příliš mnoho projektů.
+1. Chcete-li rezervovat zdroj s Primárním požadavkem, zvolte na Plánovací vývěsce kartu **Projekt**. Možná budete chtít použít filtr sloupce ve sloupci **Projekt**, pokud máte příliš mnoho projektů.
 
    ![Filtry sloupců na plánovací vývěsce](media/FAQ-Project-Booking-Schedule-Board-2.png "Snímek obrazovky tabulky rezervací a přiřazení")
 
 2. Vyberte požadavek, který má pouze název projektu jako svůj název a má nulovou dobu trvání (0).
 
-3. Zvolte kartu **Najít dostupnost** , která se zobrazí na řádku. To převede Plánovací vývěsku do režimu Pomocníka plánování a zobrazí dostupné prostředky, které lze rezervovat na projekt.
+3. Zvolte kartu **Najít dostupnost**, která se zobrazí na řádku. To převede Plánovací vývěsku do režimu Pomocníka plánování a zobrazí dostupné prostředky, které lze rezervovat na projekt.
 
 4. Protože **Primární požadavek** je prázdným požadavkem s nulovou dobou trvání (0), budete muset nastavit dobu trvání na panelu **Vytvořit rezervaci zdrojů** při výběru a rezervaci zdroje.
 
@@ -79,11 +79,11 @@ Vytvoření projektu v aplikaci Project Service automaticky vytvoří požadavek
 ## <a name="book-from-a-new-resource-requirement"></a>Rezervace z nového požadavku na zdroj
 Chcete-li provést rezervaci z nového požadavku na zdroj, postupujte následujícím způsobem. 
 
-1. Přejděte na **Požadavky na zdroj** a poté vyberte **Nový** , chcete-li vytvořit nový požadavek na zdroj.
+1. Přejděte na **Požadavky na zdroj** a poté vyberte **Nový**, chcete-li vytvořit nový požadavek na zdroj.
 
 2. Na kartě **Projekt** vyberte projekt, ke kterému chcete požadavek na projekt přidružit.
  
-    Tento nově vytvořený požadavek se na Plánovací vývěsce zobrazuje jako **Otevřený požadavek** , který můžete splnit.
+    Tento nově vytvořený požadavek se na Plánovací vývěsce zobrazuje jako **Otevřený požadavek**, který můžete splnit.
 
 3. Rezervace zdroje za účelem jeho přidání do projektového týmu.
 

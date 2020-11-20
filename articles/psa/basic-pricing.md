@@ -3,7 +3,7 @@ title: Ocenění projektů
 description: Toto téma obsahuje informace o fungování ocenění v Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073977"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120760"
 ---
 # <a name="project-pricing"></a>Ocenění projektů 
 
@@ -56,7 +56,7 @@ Termín *Role zdroje* odkazuje na sadu dovedností, kompetencí a certifikací, 
 
 Čas lidských zdrojů je obvykle uváděn na základě role, kterou zdroj plní v určitém projektu. PSA pro čas lidských zdrojů podporuje oceňování a fakturaci, které jsou založeny na roli zdroje. Čas lze ocenit v libovolné jednotce ve skupině jednotek **Čas**.
 
-Skupina jednotek **Čas** se vytvoří při instalaci PSA. Obsahuje výchozí jednotku **Hodina**. Atributy skupiny jednotek **Čas** nebo jednotky **Hodina** nelze odstranit, přejmenovat ani upravit. Do skupiny jednotek **Čas** však můžete přidat další jednotky. Pokud se pokusíte odstranit skupinu jednotek **Čas** nebo jednotku **Hodina** , můžete způsobit selhání v obchodní logice PSA.
+Skupina jednotek **Čas** se vytvoří při instalaci PSA. Obsahuje výchozí jednotku **Hodina**. Atributy skupiny jednotek **Čas** nebo jednotky **Hodina** nelze odstranit, přejmenovat ani upravit. Do skupiny jednotek **Čas** však můžete přidat další jednotky. Pokud se pokusíte odstranit skupinu jednotek **Čas** nebo jednotku **Hodina**, můžete způsobit selhání v obchodní logice PSA.
 
 > ![Konfigurace cen podle role](media/basic-guide-13.png)
  

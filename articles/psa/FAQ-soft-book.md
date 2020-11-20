@@ -3,7 +3,7 @@ title: Předběžná rezervace prostředku
 description: Toto téma obsahuje informace o tom, jak předběžně plánovat nebo předběžně rezervovat členy projektového týmu.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/25/2019
@@ -12,12 +12,12 @@ ms.author: ruhercul
 audience: Admin
 search.app:
 - ProjectOperations
-ms.openlocfilehash: cb506a519dbc490ecdd579edf1e3fa5dd0153bdb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af71ff9d60e237a9d1379b3ccd4c0d5ffce411e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073905"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122200"
 ---
 # <a name="soft-book-a-resource"></a>Předběžná rezervace prostředku
 
@@ -25,7 +25,7 @@ ms.locfileid: "4073905"
 
 Nezávazně můžete naplánovat nebo předběžně rezervovat zdroj do projektového týmu pro zobrazení toho, že plánujete přiřazení zdroje k projektu. Předběžné rezervace nespotřebovávají dostupné kapacity zdroje a předběžně rezervované členy týmu lze přiřadit k úkolům projektu. Nicméně protože předběžné rezervace nespotřebovávají kapacitu zdroje, můžete stále závazně rezervovat zdroj pro jiné úkoly ve stejném období. Obecné zdroje nelze předběžně rezervovat, stejně jako předběžná rezervace nemůže splnit požadavek na obecný zdroj.
 
-Seznam předběžně rezervovaných členů týmu je uveden na kartě **Tým** stránky **Projekt** , se svými předběžně rezervovanými hodinami zobrazenými ve sloupci **Předběžně rezervované hodiny** v zobrazení **Pojmenovaní členové týmu**. Předběžně rezervovaní členové týmu jsou také uvedeni na Plánovací vývěsce. Protože jsou předběžně rezervováni, Plánovací vývěska nezobrazuje všechny spotřeby kapacity pro tyto zdroje. Předběžně rezervovaný čas se nezobrazí na kartě **Vyrovnání** , ani není zobrazen v poli **Prodloužit rezervace** na kartě **Vyrovnání** Plánovací vývěsky. 
+Seznam předběžně rezervovaných členů týmu je uveden na kartě **Tým** stránky **Projekt**, se svými předběžně rezervovanými hodinami zobrazenými ve sloupci **Předběžně rezervované hodiny** v zobrazení **Pojmenovaní členové týmu**. Předběžně rezervovaní členové týmu jsou také uvedeni na Plánovací vývěsce. Protože jsou předběžně rezervováni, Plánovací vývěska nezobrazuje všechny spotřeby kapacity pro tyto zdroje. Předběžně rezervovaný čas se nezobrazí na kartě **Vyrovnání**, ani není zobrazen v poli **Prodloužit rezervace** na kartě **Vyrovnání** Plánovací vývěsky. 
 
 Předběžně rezervovat člena týmu na projektu lze dvěma způsoby: přímo z Plánovací vývěsky nebo přidáním člena týmu na kartě **Tým**. 
 
@@ -57,11 +57,11 @@ Chcete-li použít tuto metodu, proveďte následující kroky:
 8. Po zavření Plánovací vývěsky, uvidíte, že hodiny zdroje byly přesunuty ze sloupce **Závazně rezervované hodiny** do **Předběžně rezervované hodiny** na mřížce karty **Tým** v zobrazení **Pojmenovaní členové týmu**.
 
 > [!NOTE]
-> Použijete-li ke změně stavu ze **Závazná** na **Předběžná** **Zachovat rezervace** , tak pokud závazně rezervujete zdroj pro tým a poté mu přiřadíte úkoly, přiřazení úkolů pro tento zdroj se zachovají. Nicméně na kartě **Vyrovnání** bude mít zdroj nedostatečnou rezervaci, protože se zvažují pouze závazné rezervace při vyrovnání rezervací vůči přiřazením. Funkci **Prodloužit rezervace** na kartě **Vyrovnání** můžete použít k závazné rezervaci zdroje pro eliminaci nedostatečných závazných rezervací proti přiřazením zdrojů. Budete muset zrušit předběžnou rezervaci pro zdroj pomocí možnosti **Správa rezervací**.
+> Použijete-li ke změně stavu ze **Závazná** na **Předběžná** **Zachovat rezervace**, tak pokud závazně rezervujete zdroj pro tým a poté mu přiřadíte úkoly, přiřazení úkolů pro tento zdroj se zachovají. Nicméně na kartě **Vyrovnání** bude mít zdroj nedostatečnou rezervaci, protože se zvažují pouze závazné rezervace při vyrovnání rezervací vůči přiřazením. Funkci **Prodloužit rezervace** na kartě **Vyrovnání** můžete použít k závazné rezervaci zdroje pro eliminaci nedostatečných závazných rezervací proti přiřazením zdrojů. Budete muset zrušit předběžnou rezervaci pro zdroj pomocí možnosti **Správa rezervací**.
 
 Pokud budete chtít změnit předběžně rezervovaný zdroj člena týmu na závazně rezervovaného člena týmu, proveďte následující kroky:
 
 1. Na Plánovací vývěsce rozbalte zdroje pro zobrazení jejich rezervací. Uvidíte rezervaci zobrazenou jako **Předběžná**.
 2. Klikněte pravým tlačítkem myši na rezervaci a u možnosti **Změnit stav** vyberte **Závazná rezervace** \> **Závazná**. Stav rezervace je nyní **Závazná**.
-3. Po zavření Plánovací vývěsky, návratu na projekt a otevření karty **Tým** uvidíte, že hodiny zdroje byly přesunuty ze sloupce **Předběžně rezervované hodiny** do sloupce **Závazně rezervované hodiny** na kartě **Tým** v zobrazení **Pojmenovaní členové týmu**. Pokud byl zdroj přiřazen k úkolům, nebude již zobrazovat nedostatečnou rezervaci na kartě **Vyrovnání** , protože jeho rezervace jsou nyní závazné.
+3. Po zavření Plánovací vývěsky, návratu na projekt a otevření karty **Tým** uvidíte, že hodiny zdroje byly přesunuty ze sloupce **Předběžně rezervované hodiny** do sloupce **Závazně rezervované hodiny** na kartě **Tým** v zobrazení **Pojmenovaní členové týmu**. Pokud byl zdroj přiřazen k úkolům, nebude již zobrazovat nedostatečnou rezervaci na kartě **Vyrovnání**, protože jeho rezervace jsou nyní závazné.
 

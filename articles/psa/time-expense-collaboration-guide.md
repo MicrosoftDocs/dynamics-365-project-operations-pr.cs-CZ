@@ -3,7 +3,7 @@ title: Příručka – Čas, výdaje a spolupráce
 description: Příručka pro čas, výdaje a spolupráci pro Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3404642bf20ee23000202b3447f3167aeb4dee27
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4f975a248c6224bdea72ca1ecdb8a299f0f9254c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073869"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120040"
 ---
 # <a name="time-expense-and-collaboration-guide-project-service"></a>Příručka pro čas, výdaje a spolupráci (Project Service)
 
@@ -59,11 +59,11 @@ Kliknutím na odkaz níže získáte další informace o tom, co můžete dělat
   
 -   [Umožnění jinému uživateli zadat váš časový záznam nebo výdaj](../psa/allow-someone-else-enter-time-entry-expense.md)  
   
--   [Naplánování volna ](../psa/schedule-time-off.md)  
+-   [Naplánování volna](../psa/schedule-time-off.md)  
   
 -   [Spolupráce se členy projektového týmu pomocí skupin Office 365](../psa/collaborate-project-team-members-office-365-groups.md)  
   
--   [ Vyhledání vašeho dalšího projektu pomocí aplikace Project Finder Mobile](../psa/find-next-project-finder-mobile-app.md)  
+-   [Vyhledání vašeho dalšího projektu pomocí aplikace Project Finder Mobile](../psa/find-next-project-finder-mobile-app.md)  
   
 ### <a name="see-also"></a>Viz také  
  [Přehled aplikace Project Service](../psa/overview.md)   

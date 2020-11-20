@@ -3,17 +3,17 @@ title: Zřízení nového prostředí
 description: Toto téma poskytuje informace o zřízení nového prostředí Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073667"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121165"
 ---
 # <a name="provision-a-new-environment"></a>Zřízení nového prostředí
 
@@ -177,7 +177,7 @@ Aktualizace bude trvat přibližně 20 minut. Po dokončení obdržíte upozorn
 
 5. Po dokončení aktualizace spusťte mapu. Před povolením další mapy ověřte, zda je mapa v tabulce ve stavu **Běh**. Spuštění map s větším počtem předpokladů může trvat delší dobu.
 
-Chcete-li spustit mapu s předpoklady, zapněte přepínač **Zobrazit související mapy entit**. Pokud je v tabulce **Počáteční synchronizace požadavků** nastavena na **Ne** , ověřte, zda příznak **Počáteční synchronizace** má hodnotu **Vypnuto** ve všech mapách požadavků, než ji spustíte.
+Chcete-li spustit mapu s předpoklady, zapněte přepínač **Zobrazit související mapy entit**. Pokud je v tabulce **Počáteční synchronizace požadavků** nastavena na **Ne**, ověřte, zda příznak **Počáteční synchronizace** má hodnotu **Vypnuto** ve všech mapách požadavků, než ji spustíte.
 
 ![Spuštění mapy](./media/21RunMap.png)
 
@@ -185,4 +185,10 @@ Chcete-li spustit mapu s předpoklady, zapněte přepínač **Zobrazit souvisej�
 
 ![Všechny mapy běží](./media/22AllMapsRunning.png)
 
-Vaše prostředí Project Operations je nyní zřízeno a nakonfigurováno.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Použití dat konfigurace v prostředí CDS pro Project Operations (volitelně)
+
+Pokud jste použili ukázková data v prostředí Finance, viz [Nastavení a použití konfiguračních dat v Common Data Service pro Project Operations](resource-apply-pro-setup-config-data.md) pro použití ukázkových dat v prostředí CDS.
+
+
+Vaše prostředí Project Operations je nyní zřízeno a nakonfigurováno. 

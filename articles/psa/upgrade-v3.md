@@ -2,7 +2,7 @@
 title: Důležité informace o upgradu – Microsoft Dynamics 365 Project Service Automation verze 2.x nebo 1.x na verzi 3
 description: Toto téma obsahuje důležité informace, které je třeba zvážit při upgradu aplikace Project Service Automation verze 2.x nebo 1.x na verzi 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073860"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121705"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Důležité informace o upgradu – PSA verze 2.x nebo 1.x na verzi 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -31,11 +31,11 @@ ms.locfileid: "4073860"
 Obě aplikace Dynamics 365 Project Service Automation a Dynamics 365 Field Service používají pro plánování zdrojů řešení Universal Resourcing Scheduling (URS). Pokud máte ve své instanci obě aplikace Project Service Automation a Field Service, měli byste plánovat upgrade obou řešení na nejnovější verzi (verze 3.x aplikace Project Service Automation , verze 8.x aplikace Field Service). Při upgradu aplikace Project Service Automation nebo Field Service bude nainstalována nejnovější verze URS, což znamená, že nekonzistentní chování je možné, pokud nejsou řešení Project Service Automation i Field Service ve stejné instanci upgradována na nejnovější verzi.
 
 ## <a name="resource-assignments"></a>Přiřazení zdrojů
-Ve verzích 2 a 1 aplikace Project Service Automation byla přiřazení úkolů uložena jako podřízené úlohy (nazývané také jako řádkové úkoly) v  **entitě Úkol** a nepřímo související s entitou **Přiřazení zdroje**. Úkol na řádku byl viditelný v automaticky otevřeném okně přiřazení ve strukturovaném rozpisu prací (WBS).
+Ve verzích 2 a 1 aplikace Project Service Automation byla přiřazení úkolů uložena jako podřízené úlohy (nazývané také jako řádkové úkoly) v **entitě Úkol** a nepřímo související s entitou **Přiřazení zdroje**. Úkol na řádku byl viditelný v automaticky otevřeném okně přiřazení ve strukturovaném rozpisu prací (WBS).
 
 ![Úkoly na řádku pro WBS v aplikaci Project Service Automation verze 2 a 1](media/upgrade-line-task-01.png)
 
-V aplikaci Project Service Automation verze 3 se změnilo základní schéma přiřazení rezervovatelných zdrojů k úkolům. Úkol na řádku byl zastaralý a mezi úlohou v  **entitě Úkol** a členem týmu v entitě **Přiřazení zdroje** existuje přímá relace 1:1. Úkoly, které jsou přiřazeny členovi projektového týmu, jsou nyní uloženy přímo v entitě Přiřazení zdroje.  
+V aplikaci Project Service Automation verze 3 se změnilo základní schéma přiřazení rezervovatelných zdrojů k úkolům. Úkol na řádku byl zastaralý a mezi úlohou v **entitě Úkol** a členem týmu v entitě **Přiřazení zdroje** existuje přímá relace 1:1. Úkoly, které jsou přiřazeny členovi projektového týmu, jsou nyní uloženy přímo v entitě Přiřazení zdroje.  
 
 Tyto změny ovlivňují upgrade všech existujících projektů, které mají přiřazení zdrojů pro pojmenované rezervovatelné zdroje a obecné zdroje v projektovém týmu. Toto téma obsahuje důležité informace, které je třeba zohlednit u projektů při upgradu na verzi 3. 
 
@@ -56,7 +56,7 @@ Při upgradu na verzi 3 jsou úkoly na řádku nahrazeny přiřazeními zdroje 
 
 ![Přiřazení zdrojů](media/resource-assignment-v2-05.png)
 
-Vzhledem k tomu, že odhady jsou založeny na výchozí roli zdroje, mohou se odhady prodeje a nákladů změnit. Všimněte si, že v následující grafice již není zobrazena role **Vývojář** , protože tato role je nyní převzata z výchozí role rezervovatelného zdroje.
+Vzhledem k tomu, že odhady jsou založeny na výchozí roli zdroje, mohou se odhady prodeje a nákladů změnit. Všimněte si, že v následující grafice již není zobrazena role **Vývojář**, protože tato role je nyní převzata z výchozí role rezervovatelného zdroje.
 
 ![Odhady nákladů pro výchozí role](media/resource-assignment-cost-estimate-06.png)
 ![Odhad prodeje pro výchozí role](media/resource-assignment-sales-estimate-07.png)
@@ -77,7 +77,7 @@ Ve verzích 2 a 1 mohou být projekty s obecnými zdroji ve dvou stavech nebo
 
 Než zahájíte upgrade, doporučujeme znovu vygenerovat tým pro každý projekt, který má úkoly přiřazené k obecným zdrojům nebo u kterého je ještě třeba spustit proces generování týmu.
 
-U úkolů, které jsou přiřazeny obecným členům týmu vygenerovaným pomocí funkce **Vygenerovat tým** , bude při upgradu tento obecný zdroj v týmu ponechán a toto přiřazení zůstane tomuto obecnému členovi týmu. Požadavek na zdroj pro obecného člena týmu doporučujeme vygenerovat po upgradu, ale dříve, než rezervujete nebo odešlete žádost o zdroj. Tím zůstanou zachována jakákoli přiřazení organizační jednotky pro obecné členy týmu, která se liší od smluvní organizační jednotky projektu.
+U úkolů, které jsou přiřazeny obecným členům týmu vygenerovaným pomocí funkce **Vygenerovat tým**, bude při upgradu tento obecný zdroj v týmu ponechán a toto přiřazení zůstane tomuto obecnému členovi týmu. Požadavek na zdroj pro obecného člena týmu doporučujeme vygenerovat po upgradu, ale dříve, než rezervujete nebo odešlete žádost o zdroj. Tím zůstanou zachována jakákoli přiřazení organizační jednotky pro obecné členy týmu, která se liší od smluvní organizační jednotky projektu.
 
 Například v projektu Project Z je smluvní organizační jednotkou Contoso US. V plánu projektu byla k testování úkolů v rámci fáze implementace přiřazena role Technický poradce a přiřazenou organizační jednotkou je Contoso India.
 

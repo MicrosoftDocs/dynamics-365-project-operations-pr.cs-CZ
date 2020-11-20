@@ -3,7 +3,7 @@ title: Dovednosti a modely odborné způsobilosti
 description: Toto téma obsahuje informace o způsobu použití dovedností a modelů odborné způsobilosti.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cd243544df062e5801bbfa0a3bd75c4d9a116a6f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 92735262ebc4b48dd1143af57349d77e1fe3061c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074000"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124180"
 ---
 # <a name="skills-and-proficiency-models"></a>Dovednosti a modely odborné způsobilosti
 
@@ -45,4 +45,4 @@ Dovednosti pro zdroje jsou hodnoceny pomocí modelů odborné způsobilosti. Ind
 
 > ![Definované minimální a maximální hodnocení](media/Resource-Management-image85.png)
 
-Tyto hodnoty hodnocení jsou zobrazeny ve filtrech **Požadavky na zdroje** , **Plánovací vývěska** a **Pomocník plánování**.
+Tyto hodnoty hodnocení jsou zobrazeny ve filtrech **Požadavky na zdroje**, **Plánovací vývěska** a **Pomocník plánování**.

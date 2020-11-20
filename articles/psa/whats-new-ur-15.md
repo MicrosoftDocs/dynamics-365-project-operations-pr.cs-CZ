@@ -3,7 +3,7 @@ title: Novinky a změny v aplikaci Project Service Automation, aktualizace verz
 description: Tohle téma poskytuje informace o tom, co je nového v aktualizaci verze 15 pro aplikaci Project Service Automation V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6112e4874025e528a2bb583cf215fd9eff681534
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2112e70d7359e7f30725ef3069a18570da651c06
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073737"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119905"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Project Service Automation, vydání aktualizace 15, V3
 
@@ -42,7 +42,7 @@ Tohle téma uvádí seznam funkcí a oprav, které jsou nové nebo změněné v�
 
   - Opraveno: Přidáno zpracování chyb při načítání v zobrazení odsouhlasení.
   - Opraveno: Centrum projektových zdrojů: Přejmenováno **Množství** pro omezení nejednoznačnosti.
-  - Opraveno: Upraveno zobrazení **Zkopírovat sloupce časového záznamu** , aby zahrnovalo typ.
+  - Opraveno: Upraveno zobrazení **Zkopírovat sloupce časového záznamu**, aby zahrnovalo typ.
   - Opraveno: Úprava doby trvání časového záznamu v zobrazení mřížky pomocí desetinných čísel způsobila u některých čísel neznámou chybu.
 
 - Správa projektů
@@ -58,6 +58,6 @@ Tohle téma uvádí seznam funkcí a oprav, které jsou nové nebo změněné v�
 
   - Opraveno: Vyhledávání kategorie odhadu nákladů lze použít k filtrování duplikátů.
   - Opraveno: Kód v **PluginDomain.ExecuteIn tryCatchBlock(..)** již neskrývá původ výjimky.
-  - Opraveno: Již se nezobrazí chybová zpráva ve **Vyhledávání projektu** ve formuláři **Řádek nabídky** , pokud existuje více než 1000 projektů.
+  - Opraveno: Již se nezobrazí chybová zpráva ve **Vyhledávání projektu** ve formuláři **Řádek nabídky**, pokud existuje více než 1000 projektů.
   - Opraveno: Mřížka **Odhady** pro odhady práce a nákladů nyní zobrazuje správný symbol měny.
   - Opraveno: Poté, co organizace aktualizuje PSA z aktualizace verze 14 na verzi 15, karta **Plán** se již na formuláři **Projekt** nezobrazuje jako prázdná.

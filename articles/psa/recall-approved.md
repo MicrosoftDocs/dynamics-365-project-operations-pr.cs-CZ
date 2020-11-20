@@ -3,7 +3,7 @@ title: Odvolání schválených časových nebo výdajových záznamů
 description: Toto téma obsahuje informace o tom, jak odvolat dříve schválený čas nebo výdajovou transakci.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073827"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120535"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Odvolání schválených časových nebo výdajových záznamů
 
@@ -62,11 +62,11 @@ Chcete-li žádost o odvolání schválit nebo zamítnout, postupujte podle nás
 1. Přejděte do **Projekty** \> **Úkoly** \> **Schválení**.
 2. Na stránce se seznamem **Schválení** změňte zobrazení na **Odvolat žádosti o schválení**. Zobrazí se seznam odeslaných žádostí o odvolání.
 3. Vyberte jeden nebo více záznamů a pak vyberte buď **Schválit** nebo **Zamítnout**.
-4. Pokud jste zvolili **Schválit** , obdržíte varovnou zprávu s vysvětlením dopadu schválení. Výběrem **OK** operaci potvrďte. Žádost o odvolání je schválena.
+4. Pokud jste zvolili **Schválit**, obdržíte varovnou zprávu s vysvětlením dopadu schválení. Výběrem **OK** operaci potvrďte. Žádost o odvolání je schválena.
 
     –nebo–
 
-    Pokud jste vybrali **Zamítnout** , je žádost o odvolání zamítnuta.
+    Pokud jste vybrali **Zamítnout**, je žádost o odvolání zamítnuta.
 
 > [!NOTE]
 > Stejně jako při žádosti o odvolání systém při schválení odvolání u časových nebo výdajových záznamů kontroluje jakoukoli fakturační činnost. Pokud byl záznam již fakturován nebo pokud je na konceptu faktury, zobrazí se schvalovateli chybová zpráva, že odvolání časového nebo výdajového záznamu nelze schválit, protože již byl fakturován.
@@ -77,7 +77,7 @@ Pokud je schválení odvoláno, existuje jak provozní dopad, tak i finanční d
 
 ### <a name="operational-impact"></a>Provozní dopad
 
-Je-li žádost o odvolání schválena, označí se záznam o schválení jako **Zamítnutý**. Stav záznamu se změní buď na **Vráceno** , nebo **Zamítnuto** , v závislosti na tom, zda se jedná o časový nebo výdajový záznam.
+Je-li žádost o odvolání schválena, označí se záznam o schválení jako **Zamítnutý**. Stav záznamu se změní buď na **Vráceno**, nebo **Zamítnuto**, v závislosti na tom, zda se jedná o časový nebo výdajový záznam.
 
 Člen projektového týmu může záznamy zobrazit, upravit a poté je znovu odeslat nebo zcela odstranit.
 

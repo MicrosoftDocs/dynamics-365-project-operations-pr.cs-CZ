@@ -5,15 +5,15 @@ author: suvaidya
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8ecbd0abc16d0a29eea47d6bd1653a204a83de4c
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073662"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121030"
 ---
 # <a name="configure-expense-management-parameters"></a>Konfigurace parametrů správy výdajů
 
@@ -26,7 +26,7 @@ Toto téma popisuje parametry, které řídí obecné chování ve správě výd
 | Pole                                                    | Popis |
 |----------------------------------------------------------|-------------|
 | Standardní sazba za ujeté kilometry                                 | Zadejte sazbu náhrady za výdaje za ujeté kilometry. Tato sazba se vynásobí počtem najetých kilometrů, který je zadán u výdajů pro výpočet částky, která je proplácena za cestovní výdaje. |
-| Ověřit účel výdajů                                 | Tuto možnost zapněte, chcete-li omezit uživatele na existující sadu hodnot, která je nakonfigurována v poli **Účel výkazu výdajů** , když vytvářejí výkazy výdajů. |
+| Ověřit účel výdajů                                 | Tuto možnost zapněte, chcete-li omezit uživatele na existující sadu hodnot, která je nakonfigurována v poli **Účel výkazu výdajů**, když vytvářejí výkazy výdajů. |
 | Osobní výdaje hrazené                                | Vyberte, kdo je odpovědný za výplatu všech částek transakcí kreditní kartou, které jsou kategorizovány jako osobní. |
 | Zobrazit celou zprávu o výdajích při vrácení zpět               | Vyberte tuto možnost, chcete-li zobrazit všechny výdaje na výkazu výdajů, když jsou zobrazeny podrobnosti původního dokumentu pro konkrétní doklad, který byl vygenerován při zaúčtování výkazu výdajů. |
 | Předběžná autorizace cesty je povinná                 | Tuto možnost vyberte, pokud chcete, aby zaměstnanec mohl odeslat výkaz výdajů, aby byla odeslána a schválena cestovní žádost. |
@@ -36,7 +36,7 @@ Toto téma popisuje parametry, které řídí obecné chování ve správě výd
 | Povolte úpravy směnného kurzu pro výdaje na kreditní karty | Vyberte tuto možnost, abyste uživateli umožnili upravit směnný kurz pro importované výdaje na kreditní karty. |
 | Pole víceúrovňové hierarchie k zobrazení                  | Vyberte, která pole schvalovatele se zobrazují, když je typ přiřazení pracovního toku nastaven na hierarchii, a výběr **Hierarchie** je nastaven na použití hierarchie schválení, víceúrovňové schválení výdajů. Když se pro pracovní postup použije víceúrovňová schvalovací hierarchie, vybraná pole se zobrazí v sestavě výdajů a lze je upravit. |
 | Zadejte číslo kreditní karty zaměstnance                        | Vyberte, zda lze zadat a uložit 15místné nebo 16místné číslo do pole **ID karty** na stránce **Kreditní karty** pro zaměstnance. |
-| Ověření účel cestovní žádosti                      | Tuto možnost zapněte, chcete-li omezit uživatele na existující sadu hodnot, která je nakonfigurována v poli **Účel výkazu výdajů** , když vytvářejí cestovní žádanky. |
+| Ověření účel cestovní žádosti                      | Tuto možnost zapněte, chcete-li omezit uživatele na existující sadu hodnot, která je nakonfigurována v poli **Účel výkazu výdajů**, když vytvářejí cestovní žádanky. |
 
 ## <a name="financial"></a>Finanční služby
 

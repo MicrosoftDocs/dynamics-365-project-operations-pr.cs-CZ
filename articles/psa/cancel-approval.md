@@ -3,7 +3,7 @@ title: Zrušit dříve schválené časové a výdajové záznamy
 description: Toto téma obsahuje informace o tom, jak zrušit schválený čas projektu a výdajovou transakci.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ea816040570cc8f6ddf3c5ec8a74ac092fc68b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 84fc057599dd98162320d6104ed4a7612e894ecb
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073955"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123325"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Zrušit dříve schválené časové nebo výdajové záznamy
 
@@ -46,7 +46,7 @@ Pokud je schválení zrušeno, existuje jak provozní dopad, tak i finanční do
 
 ### <a name="operational-impact"></a>Provozní dopad
 
-Z provozního pohledu se stav záznamu při zrušení schválení obnoví na **Koncept** a schválení se již nezobrazuje v zobrazení **Moje předchozí schválení**. Zrušené schválení se místo toho zobrazí buď v zobrazení **Časové záznamy ke schválení** nebo v zobrazení **Výdajové záznamy ke schválení** , v závislosti na tom, zda se jednalo o časový záznam nebo výdajový záznam. Dále se stav souvisejícího časového nebo výdajového záznamu změní na **Odesláno** , takže související záznam je konzistentní se schváleními, která mají stav **Koncept**.
+Z provozního pohledu se stav záznamu při zrušení schválení obnoví na **Koncept** a schválení se již nezobrazuje v zobrazení **Moje předchozí schválení**. Zrušené schválení se místo toho zobrazí buď v zobrazení **Časové záznamy ke schválení** nebo v zobrazení **Výdajové záznamy ke schválení**, v závislosti na tom, zda se jednalo o časový záznam nebo výdajový záznam. Dále se stav souvisejícího časového nebo výdajového záznamu změní na **Odesláno**, takže související záznam je konzistentní se schváleními, která mají stav **Koncept**.
 
 Jako schvalující můžete upravit některá pole schválení, která mají stav **Koncept**. Tato pole zahrnují **Typ fakturace** a **Fakturovatelné hodiny pro časové záznamy**. Po provedení změn můžete záznam znovu schválit. Záznam můžete také zamítnout. Pokud zamítnete schválení časového záznamu, změní se stav záznamu na **Vráceno**. Pokud zamítnete schválení výdajového záznamu, změní se stav záznamu na **Zamítnuto**. Funkčně se oba vrácené a zamítnuté záznamy chovají stejně jako záznam se stavem **Koncept**. Člen projektového týmu může buď provést požadované změny záznamu, a pak jej znovu odeslat ke schválení, nebo záznam zcela odstranit.
 

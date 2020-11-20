@@ -3,7 +3,7 @@ title: Kontrola nedokončené fakturace u projektů a projektových smluv
 description: Toto téma obsahuje informace o tom, jak kontrolovat nedokončené časové, výdajové a produktové záznamy a jak je označit jako připravené k fakturaci.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eb6d942d61bf8b5d20afb75c88716132a596bcbd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bcdcc0cae06ce61bd582d56a8398e718051ff564
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073989"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123955"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Kontrola nedokončené fakturace u projektů a projektových smluv
 
@@ -36,7 +36,7 @@ PSA při odeslání a schválení časových nebo výdajových záznamů pro pro
 - Skutečné náklady 
 - Skutečný nefakturovaný prodej
 
-Skutečné hodnoty nefakturovaného prodeje představují nedokončenou fakturaci a jeho stav fakturace musí být nastaven na **Připraveno k fakturaci**. Při vytvoření projektové faktury jsou skutečné hodnoty nefakturovaného prodeje, které jsou označeny jako **Připraveno k fakturaci** , zkopírovány jako podrobnosti řádku faktury.
+Skutečné hodnoty nefakturovaného prodeje představují nedokončenou fakturaci a jeho stav fakturace musí být nastaven na **Připraveno k fakturaci**. Při vytvoření projektové faktury jsou skutečné hodnoty nefakturovaného prodeje, které jsou označeny jako **Připraveno k fakturaci**, zkopírovány jako podrobnosti řádku faktury.
 
 Chcete-li zkontrolovat nedokončenou fakturaci času a materiálu, přejděte na **Prodej** \> **Fakturace** \> **Nedokončená fakturace času a materiálu**. Vyberte všechny skutečné hodnoty nefakturovaného prodeje, které jsou připraveny k fakturaci a pak vyberte **Připraveno k fakturaci**. Stav fakturace těchto skutečných hodnot je změněn na **Připraveno k fakturaci**.
 
@@ -44,7 +44,7 @@ Chcete-li zkontrolovat nedokončenou fakturaci času a materiálu, přejděte na
 
 ## <a name="review-the-product-billing-backlog"></a>Kontrola nedokončené fakturace produktů
 
-Obsahuje-li projektová smlouva v PSA řádky smlouvy založené na produktu, budou tyto řádky zohledněny pro fakturaci při každém vytvoření faktury pro projektovou smlouvu. Všechny produkty, které obsahují řádky smlouvy označené jako **Připraveno k fakturaci** , jsou zkopírovány do projektové faktury jako řádky projektové faktury.
+Obsahuje-li projektová smlouva v PSA řádky smlouvy založené na produktu, budou tyto řádky zohledněny pro fakturaci při každém vytvoření faktury pro projektovou smlouvu. Všechny produkty, které obsahují řádky smlouvy označené jako **Připraveno k fakturaci**, jsou zkopírovány do projektové faktury jako řádky projektové faktury.
 
 Chcete-li zkontrolovat nedokončenou fakturaci produktů, přejděte do **Prodej** \> **Fakturace** \> **Nedokončená fakturace produktů**. Vyberte všechny řádky smlouvy založené na produktu, které jsou připraveny k fakturaci a pak vyberte **Připraveno k fakturaci**. Stav fakturace těchto řádků je změněn na **Připraveno k fakturaci**.
 

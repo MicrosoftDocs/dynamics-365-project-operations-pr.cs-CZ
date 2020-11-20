@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 087950c9639a95868a20d71286dfad4437555108
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073775"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119410"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Nastavení vlastních polí jako cenových dimenzí
 
@@ -36,14 +36,14 @@ Toto téma obsahuje informace o nastavení vlastních cenových dimenzí. Na str
 - **msdyn_OrganizationalUnit** (organizační jednotka)
 
 > [!IMPORTANT]
-> Tyto řádky neodstraňujte. Pokud je však nepotřebujete, můžete je nastavit tak, aby byly v určitém kontextu nepoužitelné pomocí nastavení hodnoty všech možností **Použitelné na náklady** , **Použitelné pro prodej** a **Použitelné pro nákup** na **Ne**. Nastavení hodnot těchto atributů na **Ne** má stejný účinek, jako byste dané pole neměli k dispozici jako cenovou dimenzi.
+> Tyto řádky neodstraňujte. Pokud je však nepotřebujete, můžete je nastavit tak, aby byly v určitém kontextu nepoužitelné pomocí nastavení hodnoty všech možností **Použitelné na náklady**, **Použitelné pro prodej** a **Použitelné pro nákup** na **Ne**. Nastavení hodnot těchto atributů na **Ne** má stejný účinek, jako byste dané pole neměli k dispozici jako cenovou dimenzi.
 
 Aby se pole stalo cenovou dimenzí, musí být:
 
 - Vytvořeno jako pole v entitách **Cena role** a **Přirážka ceny role**. Další informace o tom, jak to udělat viz [Přidání vlastních polí do nastavení ceny a transakčních entit](add-custom-fields-price-setup-transactional-entities.md).
 - Vytvořeno jako řádek v tabulce **Cenová dimenze**. Můžete například přidat řádky cenové dimenze, jak je znázorněno na následujícím obrázku. 
 
-Pracovní doba zdroje ( **msdyn_resourceworkhours** ) je přidána jako dimenze založená na přirážce a byla přidána do mřížky na kartě **Cenová dimenze založená na přirážce**.
+Pracovní doba zdroje (**msdyn_resourceworkhours**) je přidána jako dimenze založená na přirážce a byla přidána do mřížky na kartě **Cenová dimenze založená na přirážce**.
 
 > [!IMPORTANT]
 > Jakákoli změna v datech cenové dimenze v této tabulce, existující nebo nová, se rozšíří do obchodní logiky ocenění až po aktualizaci mezipaměti. Doba aktualizace mezipaměti může trvat až 10 minut. Povolit tuto dobu zobrazení změn v logice pro výchozí cenu, která musí být výsledkem změn v datech cenové dimenze.
@@ -58,11 +58,11 @@ Tato hodnota by měla být shodná s názvem schématu pole, které je přidáno
 ### <a name="type-of-dimension"></a>Typ dimenze
 Existují dva typy cenových dimenzí:
   
-  - **Dimenze založené na částce** : hodnoty dimenze ze vstupního kontextu jsou spárovány s hodnotami dimenze na řádku **Cena role** a výchozí hodnota ceny/nákladů se převezme přímo z tabulky **Cena role**.
-  - **Dimenze založené na přirážce** : jedná se o dimenze, kde se použije následující 3stupňový proces pro získání ceny/nákladů:
+  - **Dimenze založené na částce**: hodnoty dimenze ze vstupního kontextu jsou spárovány s hodnotami dimenze na řádku **Cena role** a výchozí hodnota ceny/nákladů se převezme přímo z tabulky **Cena role**.
+  - **Dimenze založené na přirážce**: jedná se o dimenze, kde se použije následující 3stupňový proces pro získání ceny/nákladů:
  
     1. Hodnoty dimenze, která není založena na přirážce, ze vstupního kontextu se spárují s řádkem Cena role, aby se získala základní sazba.
-    2. Hodnoty dimenze ze vstupního kontextu se sprárují s řádkem **Přirážka ceny role** , aby se získalo procento přirážky.
+    2. Hodnoty dimenze ze vstupního kontextu se sprárují s řádkem **Přirážka ceny role**, aby se získalo procento přirážky.
     3. Procento přirážky ze druhého kroku se použije na základní sazbu získanou z tabulky **Cena role** v prvním kroku k dosažení konečné ceny/nákladů.
    
    V následující tabulce je znázorněn výpočet přirážek ceny.
@@ -77,16 +77,16 @@ Existují dva typy cenových dimenzí:
 Pokud zdroj ze společnosti Contoso India, jehož základní sazba je 100 USD, pracuje u zákazníka a zaznamenává do časového záznamu 8 hodin pravidelného času a 2 hodiny přesčasu, použije modul ocenění k zaznamenání 800 USD základní sazbu 100 za 8 hodin. Pro dobu 2 hodin přesčasové práce se na základní sazbu 100 použije přirážka ve výši 15 % pro získání jednotkové ceny 115 USD a zaznamenají se celkové náklady na 230 USD.
 
 ### <a name="applicable-to-cost"></a>Použitelné na náklady 
-Pokud je toto nastaveno na **Ano** , znamená to, že hodnota dimenze ze vstupního kontextu by měla být použita ke spárování s **Cenou role** a **Přirážkou ceny role** při načítání sazeb nákladů a přirážky.
+Pokud je toto nastaveno na **Ano**, znamená to, že hodnota dimenze ze vstupního kontextu by měla být použita ke spárování s **Cenou role** a **Přirážkou ceny role** při načítání sazeb nákladů a přirážky.
 
 ### <a name="applicable-to-sales"></a>Použitelné na prodej
-Pokud je toto nastaveno na **Ano** , znamená to, že hodnota dimenze ze vstupního kontextu by měla být použita ke spárování s **Cenou role** a **Přirážkou ceny role** při načítání fakturační sazby a sazby přirážky.
+Pokud je toto nastaveno na **Ano**, znamená to, že hodnota dimenze ze vstupního kontextu by měla být použita ke spárování s **Cenou role** a **Přirážkou ceny role** při načítání fakturační sazby a sazby přirážky.
 
 ### <a name="applicable-to-purchase"></a>Použitelné na nákup
-Pokud je toto nastaveno na **Ano** , znamená to, že hodnota dimenze ze vstupního kontextu by měla být použita ke spárování s **Cenou role** a **Přirážkou ceny role** při načítání nákupní ceny. Scénáře subdodávek nejsou podporovány, takže toto pole se nepoužívá. 
+Pokud je toto nastaveno na **Ano**, znamená to, že hodnota dimenze ze vstupního kontextu by měla být použita ke spárování s **Cenou role** a **Přirážkou ceny role** při načítání nákupní ceny. Scénáře subdodávek nejsou podporovány, takže toto pole se nepoužívá. 
 
 ### <a name="priority"></a>Priorita
 Nastavení priority dimenze pomáhá při tvorbě ceny, a to i v případě, že nelze nalézt přesnou shodu mezi hodnotami vstupních dimenzí a hodnotami z tabulek **Cena role** nebo **Přirážka ceny role**. V tomto scénáři se použijí hodnoty null pro nespárované hodnoty dimenzí vážením dimenzí v pořadí podle jejich priority.
 
-- **Priorita nákladů** : hodnota priority nákladů dimenze bude označovat váhu této dimenze při párování s nastavením nákladových cen. Hodnota **Priorita nákladů** musí být jedinečná v rámci dimenzí, které jsou **Použitelné na náklady**.
-- **Priorita prodeje** : hodnota priority prodeje dimenze bude označovat váhu této dimenze při párování s nastavením prodejních cen nebo fakturačních sazeb. Hodnota **Priorita prodeje** musí být jedinečná v rámci dimenzí, které jsou **Použitelné na náklady**.
+- **Priorita nákladů**: hodnota priority nákladů dimenze bude označovat váhu této dimenze při párování s nastavením nákladových cen. Hodnota **Priorita nákladů** musí být jedinečná v rámci dimenzí, které jsou **Použitelné na náklady**.
+- **Priorita prodeje**: hodnota priority prodeje dimenze bude označovat váhu této dimenze při párování s nastavením prodejních cen nebo fakturačních sazeb. Hodnota **Priorita prodeje** musí být jedinečná v rámci dimenzí, které jsou **Použitelné na náklady**.

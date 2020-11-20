@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 14c6914cf9b5fb52e7554e51604e79f0920064df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073640"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123820"
 ---
 # <a name="approvals-overview"></a>Přehled schválení
 
@@ -27,9 +27,9 @@ Když vytvoříte a odešlete položku času nebo výdajů, vytvoří se položk
 ## <a name="approve-an-entry"></a>Schválit záznam
 Formulář **Schválení** umožňuje přepínat mezi různými pohledy, takže můžete prohlížet různé typy schválení.
   
-1. Přejděte na formulář **Schválení** a vyberte **Výdaje** , **Čas** nebo **Odvolání**.
+1. Přejděte na formulář **Schválení** a vyberte **Výdaje**, **Čas** nebo **Odvolání**.
 2. Zkontrolujte každé schválení a vyberte ty, které chcete schválit.
-3. Vyberte **Schvalovat** , chcete-li schválit vybrané položky.
+3. Vyberte **Schvalovat**, chcete-li schválit vybrané položky.
 Systém tyto záznamy zpracuje a vytvoří skutečné hodnoty nebo rezervaci.
 
 ## <a name="reject-an-entry"></a>Odmítnout záznam

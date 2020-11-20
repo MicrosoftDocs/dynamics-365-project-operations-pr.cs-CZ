@@ -2,7 +2,7 @@
 title: Důležité informace o upgradu pro strukturovaný rozpis prací
 description: Toto téma obsahuje informace o upgradu strukturovaného rozpisu prací z verze Project Service Automation 2.x na 3.x.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 169dc24f0d1ae151ea5927123fb738221de88250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073862"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121795"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Důležité informace o upgradu pro strukturovaný rozpis prací
 Toto téma obsahuje informace o upgradu strukturovaného rozpisu prací z verze Project Service Automation 2.x na 3.x. Toto téma definuje zdravý stav projektu v aplikaci Project Service Automation (PSA), který je nutný pro úspěšný upgrade. Obsahuje také informace o běžných blokovacích podmínkách, které způsobí selhání upgradu. Další informace o definování úkolů projektu a jejich funkcích v rámci plánu projektu naleznete v tématu [Projektové plány](project-creating.md).
@@ -65,7 +65,7 @@ Aby bylo možné zajistit úspěšný upgrade, je nutné správně udržovat ná
 - Všechny úkoly musí mít počáteční datum nejdříve 1. 1. 2000.*
 - Všechny úkoly musí mít počáteční datum nejpozději 17 let od dnešního dne.*
 - Všechny úkoly musí mít počáteční datum dřívější nebo shodné s datem dokončení.
-- Všechny typy transakcí v klasifikacích (výdaje, materiál, daň a čas) musí mít hodnoty pro **Výchozí jednotku** a  **Skupinu jednotek**.
+- Všechny typy transakcí v klasifikacích (výdaje, materiál, daň a čas) musí mít hodnoty pro **Výchozí jednotku** a **Skupinu jednotek**.
 - Je třeba se vyhnout formátům data s písmeny.
 
 ### <a name="potential-mitigation-steps"></a>Potenciální postup zmírnění

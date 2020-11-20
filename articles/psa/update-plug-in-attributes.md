@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f215555dd7b29444e00499c0e731624e51057250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073863"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121840"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Aktualizace atributů modulů plug-in tak, aby zahrnovaly nové cenové dimenze
 
@@ -50,7 +50,7 @@ Následující postup vysvětluje proces registrace modulů plug-in.
 
  ![Snímek obrazovky modulu plug-in, který má být aktualizován](media/PRT-2.png)
  
-5. V okně aktualizace klikněte na tři tečky ( **...** ) v atributech filtrování.
+5. V okně aktualizace klikněte na tři tečky (**...**) v atributech filtrování.
 
  ![Snímek obrazovky aktualizace existujících informací kroku konfigurace](media/PRT-3.png)
  

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ec77f3911a460b96414a61bc44ea254f1b7da660
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087858"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122335"
 ---
 # <a name="manage-the-billing-backlog"></a>Správa nedokončené fakturace
 
@@ -23,9 +23,9 @@ Dynamics 365 Project Operations má dva vyhrazené pohledy, které vám pomohou 
 
 ## <a name="fixed-price-milestones"></a>Milníky s pevnou cenou
 
-Toto zobrazení uvádí všechny milníky fixních cen ve všech řádcích smluv projektu v systému. Jeden nebo více milníků lze označit jako **Připraveno k fakturaci** nebo **Není připraveni na fakturaci** z tohoto pohledu. Když označíte milník jako **Připraveno k fakturaci** , milník bude k dispozici pro koncept faktury.
+Toto zobrazení uvádí všechny milníky fixních cen ve všech řádcích smluv projektu v systému. Jeden nebo více milníků lze označit jako **Připraveno k fakturaci** nebo **Není připraveni na fakturaci** z tohoto pohledu. Když označíte milník jako **Připraveno k fakturaci**, milník bude k dispozici pro koncept faktury.
 
-Pokud mají řádky smlouvy pro více zákazníků pevnou metodu fakturace, vytvoří se jeden milník pro každého zákazníka na řádce smlouvy. Uživatel vytvoří milník a tento milník se interně rozdělí na záznamy o zákaznících = specifické milníky podle rozdělení fakturačního procenta definovaného pro každého zákazníka na řádku smlouvy. V zobrazení **Milníky pevné ceny** uvidíte jednotlivé záznamy o milnících konkrétních zákazníků. Každý z těchto milníků lze označit jako **Připraveno k fakturaci** odděleně z tohoto zobrazení. Když je jeden nebo více souvisejících milníků rozděleno jako **Připraveno k fakturaci** , záhlaví se přesune do stavu **Probíhá** z **Nezahájeno**. Po fakturaci všech rozdělení milníku se stav milníku záhlaví stane **Dokončeno**.
+Pokud mají řádky smlouvy pro více zákazníků pevnou metodu fakturace, vytvoří se jeden milník pro každého zákazníka na řádce smlouvy. Uživatel vytvoří milník a tento milník se interně rozdělí na záznamy o zákaznících = specifické milníky podle rozdělení fakturačního procenta definovaného pro každého zákazníka na řádku smlouvy. V zobrazení **Milníky pevné ceny** uvidíte jednotlivé záznamy o milnících konkrétních zákazníků. Každý z těchto milníků lze označit jako **Připraveno k fakturaci** odděleně z tohoto zobrazení. Když je jeden nebo více souvisejících milníků rozděleno jako **Připraveno k fakturaci**, záhlaví se přesune do stavu **Probíhá** z **Nezahájeno**. Po fakturaci všech rozdělení milníku se stav milníku záhlaví stane **Dokončeno**.
 
 V tomto zobrazení se zobrazuje milník v konceptu faktury se stavem fakturace **Zákaznická faktura vytvořena**. Po potvrzení konceptu faktury se stav fakturace v tomto záznamu aktualizuje na **Faktura zaúčtována**. Aktualizace této hodnoty stavu pomocí vlastního kódu se nedoporučuje. Pokud jsou tyto hodnoty stavu aktualizovány pomocí vlastního kódu, nebude Project Operations fungovat správně.
 

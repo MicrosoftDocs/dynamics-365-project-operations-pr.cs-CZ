@@ -3,7 +3,7 @@ title: Požadavky na předběžnou rezervaci
 description: Toto téma obsahuje informace o požadavcích na předběžnou rezervaci.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 861e484ea2fc251e0082b4cb0cd5409a45a74057
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073990"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124090"
 ---
 # <a name="soft-book-requirements"></a>Požadavky na předběžnou rezervaci
 
@@ -31,7 +31,7 @@ Požadavek na zdroj může být rezervovaný závazně. Závazná rezervace vytv
 
 ![Stav rezervace nastavený na Předběžná](media/Resource-Management-image77.png)
 
-Pokud je karta **Tým** v zobrazení **Pojmenovaní členové týmu** , zdroj se zde zobrazí. Předběžně rezervované hodiny jsou hlášeny ve sloupci **Předběžně rezervované hodiny**.
+Pokud je karta **Tým** v zobrazení **Pojmenovaní členové týmu**, zdroj se zde zobrazí. Předběžně rezervované hodiny jsou hlášeny ve sloupci **Předběžně rezervované hodiny**.
 
 ![Předběžně rezervované hodiny v zobrazení Pojmenovaní členové týmu](media/Resource-Management-image78.png)
 
@@ -54,7 +54,7 @@ Chcete-li změnit předběžnou rezervaci na závaznou rezervaci, klikněte v Pl
 
 ![Změna stavu rezervace na Závazná](media/Resource-Management-image82.png)
 
-Rezervace se změní a změní se stav v Plánovací vývěsce. Vzhledem k tomu, že stav je nyní **Závazná** , zdroj je zobrazen jako rezervovaný a je upravena jeho kapacita a dostupnost.
+Rezervace se změní a změní se stav v Plánovací vývěsce. Vzhledem k tomu, že stav je nyní **Závazná**, zdroj je zobrazen jako rezervovaný a je upravena jeho kapacita a dostupnost.
 
 Stejný postup můžete použít ke zrušení závazné rezervace nebo předběžné rezervace z Plánovací vývěsky.
 

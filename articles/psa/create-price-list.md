@@ -3,7 +3,7 @@ title: Vytvoření ceníku
 description: Postup vytvoření ceníku v Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073816"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122020"
 ---
 # <a name="create-a-price-list-project-service"></a>Vytvoření ceníku (Project Service)
 
@@ -39,7 +39,7 @@ Ceníky jsou závislé na rolích a kategoriích výdajů, proto se před vytvo�
   
 2.  Klikněte na tlačítko **Nový**.  
   
-3.  V části **Kontext** vyberte, zda je tento ceník pro **Náklady** , **Nákup** nebo **Prodej**.  
+3.  V části **Kontext** vyberte, zda je tento ceník pro **Náklady**, **Nákup** nebo **Prodej**.  
   
 4.  Do pole **Název** zadejte název pro tento ceník.  
   
@@ -47,7 +47,7 @@ Ceníky jsou závislé na rolích a kategoriích výdajů, proto se před vytvo�
   
 6.  V poli **Časová jednotka** určete dobu, k níž se cena vztahuje, například den nebo hodinu.  
   
-7.  Podle potřeby vyplňte pole  **Počáteční datum** , **Koncové datum** a **Popis**.  
+7.  Podle potřeby vyplňte pole  **Počáteční datum**, **Koncové datum** a **Popis**.  
   
 8.  Kliknutím na tlačítko **Uložit** vytvořte záznam, abyste mohli pokračovat v jeho úpravách.  
   

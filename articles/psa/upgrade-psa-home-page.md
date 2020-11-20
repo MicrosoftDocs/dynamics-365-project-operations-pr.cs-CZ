@@ -2,7 +2,7 @@
 title: Upgrade domovské stránky
 description: Toto téma ukazuje, kde naleznete důležité informace o nových a změněných funkcích aplikace Dynamics 365 Project Service Automation a o procesu upgradu na nejnovější verzi.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 29e7b519b61e8709c025e9906d04aed0156f65eb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073861"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121750"
 ---
 # <a name="upgrade-home-page"></a>Upgrade domovské stránky
 
@@ -61,4 +61,4 @@ Od 17. května 2019 budou mít všechny nové instance UCI jako výchozího kl
 Od 1. března 2020 již zákazníci Dynamics PSA nebudou moci vytvářet nová prostředí se staršími verzemi PSA, například PSA verze 2.x nebo nižší. Jakékoli nové prostředí bude pouze verze 3.x aplikace PSA.
 
 > [!NOTE]
-> Chcete-li dosáhnout nejlepších výsledků, pokud používáte starší verze aplikací Field Service a PSA, přejděte na stránku **Nastavení systému** a pro pole **Používat jen nové Sjednocené rozhraní (doporučeno)** vyberte možnost **Ne** , protože tyto verze nejsou navrženy tak, aby byly v UCI správně načteny. Po vypnutí UCI můžete tyto verze aplikací Field Service a PSA otevřít a spustit pomocí starého webového klienta. 
+> Chcete-li dosáhnout nejlepších výsledků, pokud používáte starší verze aplikací Field Service a PSA, přejděte na stránku **Nastavení systému** a pro pole **Používat jen nové Sjednocené rozhraní (doporučeno)** vyberte možnost **Ne**, protože tyto verze nejsou navrženy tak, aby byly v UCI správně načteny. Po vypnutí UCI můžete tyto verze aplikací Field Service a PSA otevřít a spustit pomocí starého webového klienta. 

@@ -3,7 +3,7 @@ title: Řádky nabídky založené na produktu
 description: Toto téma poskytuje informace o řádcích nabídky založených na produktu.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073960"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123190"
 ---
 # <a name="product-based-quote-lines"></a>Řádky nabídky založené na produktu
 
@@ -41,7 +41,7 @@ Společnost například prodává předplacené licence pro různé softwary. Ve
 - Počet uživatelů 
 - Doba trvání předplatného (v měsících)
 
-Dobrým způsobem, jak udržovat tento typ katalogu, je vytvořit produktovou řadu s názvem **Předplatné softwaru** , která jako atributy obsahuje **Počet uživatelů** a **Doba trvání předplatného**. Poté můžete do produktové řady **Předplatné softwaru** přidat jednotlivé produkty, například **Dynamics 365 Sales** nebo **Dynamics 365 Field Service**.
+Dobrým způsobem, jak udržovat tento typ katalogu, je vytvořit produktovou řadu s názvem **Předplatné softwaru**, která jako atributy obsahuje **Počet uživatelů** a **Doba trvání předplatného**. Poté můžete do produktové řady **Předplatné softwaru** přidat jednotlivé produkty, například **Dynamics 365 Sales** nebo **Dynamics 365 Field Service**.
 
 ## <a name="adding-product-catalog-items-to-a-project-quote"></a>Přidání položek katalogu produktů do projektové nabídky
 
@@ -54,9 +54,9 @@ Pokud je řádek poptávky založen na katalogu produktů, můžete přepsat pro
 - Přepsat ocenění  
 - Použít výchozí
 
-Pokud toto pole nastavíte na **Přepsat ocenění** , Dynamics 365 nenastaví výchozí cenu. Na řádku nabídky musíte zadat cenu produktu. Pokud toto pole nastavíte na **Použít výchozí** , Dynamics 365 použije výchozí prodejní cenu a uzamkne pole, aby nedošlo k úpravám.
+Pokud toto pole nastavíte na **Přepsat ocenění**, Dynamics 365 nenastaví výchozí cenu. Na řádku nabídky musíte zadat cenu produktu. Pokud toto pole nastavíte na **Použít výchozí**, Dynamics 365 použije výchozí prodejní cenu a uzamkne pole, aby nedošlo k úpravám.
 
-Po instalaci PSA jsou do řádků na nabídce založených na produktu vloženy výchozí prodejní ceny. Pole **Ocenění** je pak nastaveno na **Přepsat ocenění** , takže můžete upravit výchozí cenu na řádcích nabídky.
+Po instalaci PSA jsou do řádků na nabídce založených na produktu vloženy výchozí prodejní ceny. Pole **Ocenění** je pak nastaveno na **Přepsat ocenění**, takže můžete upravit výchozí cenu na řádcích nabídky.
 
 > ![Nastavení přepisu ocenění](media/basic-guide-10.png)
  

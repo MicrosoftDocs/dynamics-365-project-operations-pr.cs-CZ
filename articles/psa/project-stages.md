@@ -3,7 +3,7 @@ title: Typy fází projektu
 description: Toto téma poskytuje informace o fázích projektu.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 521bf4b3090473a603626a99fded53906b644a7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: aa423979a794b07a8bd27440f47a29480b74b518
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073831"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123039"
 ---
 # <a name="project-stage-types"></a>Typy fází projektu 
 
@@ -46,15 +46,15 @@ Při vytváření projektu je fáze projektu nastavena na **Nový**. Pokud byl p
 
 ## <a name="quote"></a>Nabídka
 
-Když přiřadíte projekt k nabídce nebo když vytvoříte projekt z nabídky, fáze projektu bude nastavena na **Nabídka** a aktualizuje se odhadované datum zahájení a ukončení. Pokud je projekt ve fázi **Nabídka** , zobrazí se podrobnosti o nabídce na kartě **Prodej** na stránce **Entita projektu**.
+Když přiřadíte projekt k nabídce nebo když vytvoříte projekt z nabídky, fáze projektu bude nastavena na **Nabídka** a aktualizuje se odhadované datum zahájení a ukončení. Pokud je projekt ve fázi **Nabídka**, zobrazí se podrobnosti o nabídce na kartě **Prodej** na stránce **Entita projektu**.
 
 ## <a name="plan"></a>Plán
 
-Pokud vyhrajete nabídku spojenou s projektem a projekt přejde do fáze **Smlouva** , fáze projektu se aktualizuje na **Plán**. Pokud je projekt ve fázi **Plán** , zobrazí se podrobnosti o smlouvě na stránce **Entita projektu**.
+Pokud vyhrajete nabídku spojenou s projektem a projekt přejde do fáze **Smlouva**, fáze projektu se aktualizuje na **Plán**. Pokud je projekt ve fázi **Plán**, zobrazí se podrobnosti o smlouvě na stránce **Entita projektu**.
 
 ## <a name="deliver"></a>Dodat
 
-Když je plán projektu dokončen a jste připraveni ke spuštění projektu, měl by projektový manažer aktualizovat fázi projektu na **Dodat** , aby bylo možné zobrazit, že projekt byl zahájen.
+Když je plán projektu dokončen a jste připraveni ke spuštění projektu, měl by projektový manažer aktualizovat fázi projektu na **Dodat**, aby bylo možné zobrazit, že projekt byl zahájen.
 
 ## <a name="complete"></a>Dokončeno 
 

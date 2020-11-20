@@ -2,7 +2,7 @@
 title: Novinky a změny v aplikaci Project Service Automation verze 3
 description: Tohle téma poskytuje informace o novinkách a změnách v aplikaci Project Service Automation verze 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073742"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119995"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novinky a změny v aplikaci Project Service Automation verze 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -90,11 +90,11 @@ Pokud přesunete plán existujícího projektu vpřed, dojde k následujícímu
 - Skutečnosti nebudou přesunuty. 
 
 ## <a name="estimates"></a>Odhady
-Odhady byly rozděleny na dvě karty, **Přiřazení zdroje** a  **Odhady**. Záložka **Přiřazení zdroje** obsahuje odhady intenzity a zobrazuje přiřazení zdrojů pro úkoly v zobrazení s časovým uspořádáním. Odhady můžete upravit na základě toho, co modul plánování vygeneroval.
+Odhady byly rozděleny na dvě karty, **Přiřazení zdroje** a **Odhady**. Záložka **Přiřazení zdroje** obsahuje odhady intenzity a zobrazuje přiřazení zdrojů pro úkoly v zobrazení s časovým uspořádáním. Odhady můžete upravit na základě toho, co modul plánování vygeneroval.
 
 ![Karta Přiřazení zdrojů, která zobrazuje odhady intenzity a přiřazení zdrojů pro úkoly](media/resource-assignments-tab-02.png)
 
-Karta **Odhady** zobrazuje částky nákladů a prodeje pro přiřazení zdrojů. Částky jsou jen pro čtení. Ceny nákladů a prodeje jsou nyní řízeny z přiřazení členů týmu podle plánu. To znamená, že pokud máte úkol bez přiřazení, úkol se zobrazí pod nepřidělený kbelík. To také znamená, že bez **Role** , což je výchozí cenová dimenze, nebudou k dispozici žádné odhadované náklady nebo prodeje, pokud máte zákazníka nebo smlouvu/nabídku spojenou s projektem. 
+Karta **Odhady** zobrazuje částky nákladů a prodeje pro přiřazení zdrojů. Částky jsou jen pro čtení. Ceny nákladů a prodeje jsou nyní řízeny z přiřazení členů týmu podle plánu. To znamená, že pokud máte úkol bez přiřazení, úkol se zobrazí pod nepřidělený kbelík. To také znamená, že bez **Role**, což je výchozí cenová dimenze, nebudou k dispozici žádné odhadované náklady nebo prodeje, pokud máte zákazníka nebo smlouvu/nabídku spojenou s projektem. 
 
 ![Karta Odhady, která zobrazuje částky nákladů a prodeje](media/estimates-tab-03.png)
   
@@ -105,7 +105,7 @@ Odhady výdajů lze zapsat do mřížky na kartě **Odhady výdajů**.
 ![Karta Odhady výdajů, která zobrazuje mřížku odhadů výdajů](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Správa zdrojů
-V aplikaci Project Service Automation verze 3, s novým uživatelským rozhraním jednotného klienta a změnami ve vztahu mezi rezervacemi a přiřazeními, se personální obsazení projektu s obecnými nebo skutečnými zdroji výrazně liší od verze 2 a 1. Koncepce rezervovatelných zdrojů, **skutečné** i  **obecné** , však zůstávají stejné stejně jako členové týmu, požadavky, přiřazení a rezervace.   
+V aplikaci Project Service Automation verze 3, s novým uživatelským rozhraním jednotného klienta a změnami ve vztahu mezi rezervacemi a přiřazeními, se personální obsazení projektu s obecnými nebo skutečnými zdroji výrazně liší od verze 2 a 1. Koncepce rezervovatelných zdrojů, **skutečné** i **obecné**, však zůstávají stejné stejně jako členové týmu, požadavky, přiřazení a rezervace.   
 
 ![Používání výběru zdrojů](media/resource-management-05.png)
 
@@ -143,7 +143,7 @@ Pro každý zdroj je v zobrazení uveden rozdíl mezi rezervacemi člena týmu 
 Pokud máte přiřazení úkolů pro zdroj bez rezervací (nedostatečná rezervace), můžete vybrat souhrnné nedostatečné rezervace a kliknout na možnost **Prodloužit rezervaci**. Zde si můžete prohlédnout rezervaci potřebnou k vyřešení nedostatku zdrojů a jejich dostupnosti. 
  
 ## <a name="time-and-expense"></a>Čas a výdaje
-Tato část obsahuje informace o změnách času, výdajů a schválení ve verzi 3 aplikace Project Service Automation. Jako součást řešení Dynamics 365 Project Service Automation byla obnovena funkce zadání **Časový záznam** , aby bylo možné využít architekturu Sjednoceného rozhraní. Díky tomu je možné poskytovat konzistentní, jednotné uživatelské rozhraní, které se řídí zásadami přizpůsobivého návrhu na libovolné velikosti obrazovky nebo v libovolném zařízení. 
+Tato část obsahuje informace o změnách času, výdajů a schválení ve verzi 3 aplikace Project Service Automation. Jako součást řešení Dynamics 365 Project Service Automation byla obnovena funkce zadání **Časový záznam**, aby bylo možné využít architekturu Sjednoceného rozhraní. Díky tomu je možné poskytovat konzistentní, jednotné uživatelské rozhraní, které se řídí zásadami přizpůsobivého návrhu na libovolné velikosti obrazovky nebo v libovolném zařízení. 
 
 ### <a name="landing-page"></a>Cílová stránka
 Ve verzi 3 se již nerozšiřitelné prostřední vlastního časového záznamu nepoužívá. Místo toho se zde používá rozšiřitelná a přístupná nativní mřížka. Funkci časového záznamu můžete používat pomocí mapy webu vlevo. Díky této změně již nebudete moci zadávat čas vždy na jeden týden. Místo toho bude nutné vytvořit časový záznam pro každý den v mřížce. Po vytvoření několika časových záznamů mohou uživatelé hromadně vytvářet časové záznamy pomocí funkce **Kopírovat** vysvětlené později v tomto tématu. 
@@ -192,11 +192,11 @@ Platforma Common Data Service nepodporuje zosobnění jednoho uživatele druhým
 Vlastní nastavení umožňuje přidat **Rezervovatelný zdroj** do prostředí pro vytváření a úpravy, což uživateli umožní vystupovat jako delegát změnou pole **Rezervace zdroje** na jiného uživatele, pro kterého je třeba zaznamenat časové a výdajové položky. Následující kroky se týkají delegování časového záznamu. Stejné informace platí pro delegování výdajové položky. 
  
 1.  Zajistěte, aby měl delegovaný uživatel globální přístup zabezpečení pro projekty a projektové úkoly. 
-1.  Protože **Rezervovatelný zdroj** , což je pole v entitě **Časový záznam** , není na stránce **Vytvořit** uveden, je třeba jej přidat.
+1.  Protože **Rezervovatelný zdroj**, což je pole v entitě **Časový záznam**, není na stránce **Vytvořit** uveden, je třeba jej přidat.
 
     nebo
 
-    Vytvořte vlastní zobrazení, které obsahuje sloupec **Rezervovatelný zdroj** , chcete-li zobrazovat pouze časové záznamy, které jsou pro daný zdroj vytvořeny. Publikujte vlastní nastavení v návrháři modulu aplikace pro toto zobrazení, které se zobrazí pod **výběrem zobrazení** na stránce **Časové záznamy**. Existují dva moduly plug-in, které zpracovávají nastavení manažera pro časové záznamy mimo projekt:
+    Vytvořte vlastní zobrazení, které obsahuje sloupec **Rezervovatelný zdroj**, chcete-li zobrazovat pouze časové záznamy, které jsou pro daný zdroj vytvořeny. Publikujte vlastní nastavení v návrháři modulu aplikace pro toto zobrazení, které se zobrazí pod **výběrem zobrazení** na stránce **Časové záznamy**. Existují dva moduly plug-in, které zpracovávají nastavení manažera pro časové záznamy mimo projekt:
 
     - PreValidateTimeEntryCreate
     - PreValidateTimeEntryUpdate
@@ -204,14 +204,14 @@ Vlastní nastavení umožňuje přidat **Rezervovatelný zdroj** do prostředí 
 1. Vytvořte nový modul plug-in, který přepíše pole **Manažer** na manažera uživatele přiřazeného v poli **Rezervovatelný zdroj**. Použijte stejnou **fázi provádění** jako samostatný (OOB) modul plug-in (předběžné ověření) a použijte **pořadí provádění** vyšší než moduly plug-in OOB (větší než 1). Tím zajistíte, že vlastní modul plug-in bude spuštěn po modulech plug-in OOB.  
  
 ### <a name="end-user-experience"></a>Prostředí koncového uživatele
-1.  Když na stránce pro vytvoření vytvoříte časový záznam, zadejte podrobnosti projektu a projektového úkolu a pak vyberte uživatele v poli **Rezervovatelný zdroj** , pro který je nutné zaznamenat časový záznam. 
+1.  Když na stránce pro vytvoření vytvoříte časový záznam, zadejte podrobnosti projektu a projektového úkolu a pak vyberte uživatele v poli **Rezervovatelný zdroj**, pro který je nutné zaznamenat časový záznam. 
 2.  Ve výchozím nastavení je toto pole přihlášeným uživatelem, avšak vzhledem k tomu, že uživatel toto pole přepsal, bude nyní vytvořen časový záznam pro zvolený **Rezervovatelný zdroj**.
 3.  Když odešlete časové záznamy, které jste vytvořili pro tyto záznamy, budou zařazeny do fronty pro schvalovatele v projektu očekávaným způsobem. 
 4.  Když odvoláte časové záznamy vytvořené pro jiného uživatele, budou vráceny do stavu **Koncept** s polem **Rezervovatelný zdroj** nastaveným na jiného uživatele. 
 5.  Volitelně můžete přepnout na vlastní zobrazení a filtrovat časové záznamy vytvořené pro jiného uživatele. 
  
 ### <a name="limitations"></a>Omezení
-Funkce **Kopírovat** a  **Importovat** funguje pouze v kontextu přihlášeného uživatele. To znamená, že není možné kopírovat nebo importovat časové záznamy, které byly vytvořeny pro uživatele, který je přihlášen jako rezervovatelný zdroj.
+Funkce **Kopírovat** a **Importovat** funguje pouze v kontextu přihlášeného uživatele. To znamená, že není možné kopírovat nebo importovat časové záznamy, které byly vytvořeny pro uživatele, který je přihlášen jako rezervovatelný zdroj.
 
 Časové záznamy, které nejsou určeny pro projekt, budou směrovány ke schválení manažerovi rezervovatelného zdroje, pouze pokud byl dokončen krok 4 v části **Podrobnosti vlastního nastavení**. V opačném případě budou časové záznamy mimo projekt pro jiného uživatele nesprávně směrovány manažerovi přihlášeného uživatele. 
 
@@ -229,13 +229,13 @@ Pro zákazníky aplikace Project Service Automation, kteří chtějí nadále po
 Ve verzi 3 aplikace Project Service Automation se změnily aspekty nastavení a správy pro nabídky a smlouvy. Podrobnější informace jsou uvedeny v následujících částech.
 
 ### <a name="set-up-chargeability-options"></a>Možnosti nastavení účtovatelnosti
-Ve verzích 1 a 2 bylo provedeno nastavení možností účtovatelnosti pro role a kategorie pro konkrétní nabídky a smlouvy pomocí zobrazení **Účtovatelnost** , které bylo v horní navigační oblasti řádku nabídky nebo řádku smlouvy. Zde také můžete nastavit ceny pro tyto role a kategorie výdajů.
+Ve verzích 1 a 2 bylo provedeno nastavení možností účtovatelnosti pro role a kategorie pro konkrétní nabídky a smlouvy pomocí zobrazení **Účtovatelnost**, které bylo v horní navigační oblasti řádku nabídky nebo řádku smlouvy. Zde také můžete nastavit ceny pro tyto role a kategorie výdajů.
 
-Od verze 3 se nastavení možností účtovatelnosti podle role a kategorie výdajů provádí na úrovni řádku nabídky nebo řádku smlouvy. Nastavení cen je oddělené od nastavení účtovatelnosti. **Účtovatelné role** a  **Účtovatelné kategorie** budete moci najít jako karty na **řádku nabídky** a stránkách **řádku smlouvy** bez nutnosti použití horní navigační oblasti.
+Od verze 3 se nastavení možností účtovatelnosti podle role a kategorie výdajů provádí na úrovni řádku nabídky nebo řádku smlouvy. Nastavení cen je oddělené od nastavení účtovatelnosti. **Účtovatelné role** a **Účtovatelné kategorie** budete moci najít jako karty na **řádku nabídky** a stránkách **řádku smlouvy** bez nutnosti použití horní navigační oblasti.
 
 ![Účtovatelné role](media/chargeable-12.png)
  
-Nastavení účtovatelných rolí a účtovatelných kategorií také využívá předem připravené ovládací prvky upravitelné mřížky. U každé role a kategorie zůstávají podporované možnosti pro typ fakturace během fáze vytvoření nabídky a smlouvy beze změny od předchozích verzí jako **Účtovatelné** a  **Neúčtovatelné**. **Neplacené** není podporovaný typ během fáze vytvoření nabídky nebo smlouvy. **Bezplatné** je podporovaný typ pouze během schválení času nebo výdajů.  
+Nastavení účtovatelných rolí a účtovatelných kategorií také využívá předem připravené ovládací prvky upravitelné mřížky. U každé role a kategorie zůstávají podporované možnosti pro typ fakturace během fáze vytvoření nabídky a smlouvy beze změny od předchozích verzí jako **Účtovatelné** a **Neúčtovatelné**. **Neplacené** není podporovaný typ během fáze vytvoření nabídky nebo smlouvy. **Bezplatné** je podporovaný typ pouze během schválení času nebo výdajů.  
  
 ### <a name="create-and-edit-custom-pricing-for-a-project-service-automation-quote-and-project-contract"></a>Vytvoření a úprava vlastních cen pro nabídku a projektovou smlouvu Project Service Automation
 Ve verzích 1 a 2 bylo použití vlastního ceníku pro specifické nabídky a smlouvy provedeno pomocí funkce **Upravit ceny** v zobrazení **Účtovatelnost**. Zobrazení **Účtovatelnost** bylo umístěno v horní navigační oblasti řádku nabídky nebo řádku smlouvy. Zde také bylo možné nastavit možnosti účtovatelnosti pro role nebo kategorie výdajů.

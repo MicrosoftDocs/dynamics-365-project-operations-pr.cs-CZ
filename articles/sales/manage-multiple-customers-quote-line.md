@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073656"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118555"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Správa více zákazníků v řádcích nabídek založených na projektu
 
@@ -33,11 +33,11 @@ V následující tabulce jsou uvedena pole v záznamu zákazníka řádku nabíd
 
 | Pole | Místo | Popis a rady | Dopad na následné složky |
 | --- | --- | --- | --- |
-| **Obchodní vztah** | Upravitelná mřížka na kartě **Zákazníci řádku nabídky** , hlavní formulář a formulář pro rychlé vytvoření zákazníka řádku nabídky. | Vypíše seznam všech aktivních účtů. Po vytvoření záznamu je toto pole uzamčeno. Pokud potřebujete pole aktualizovat, smažte a znovu vytvořte záznam. Pokud jste zaznamenali nějaké skutečnosti, nemůžete záznam smazat. | Když vyberete účet z hlavního seznamu účtů, který chcete přidat, přidá se jako zákazník nabídky také zákazník na řádku nabídky. Po získání nabídky se zákazníci řádku nabídky zkopírují k zákazníkům řádku projektové smlouvy. |
-| **Procento rozdělení fakturace** | Upravitelná mřížka na kartě **Zákazníci řádku nabídky** , hlavní formulář a formulář pro rychlé vytvoření zákazníka řádku nabídky. | Představuje procento z každé nevyfakturované prodejní transakce, která bude připsána tomuto zákazníkovi řádku nabídky. | Zkopírováno do zákazníků řádků projektové smlouvy. |
-| **Nepřekročitelný limit** | Upravitelná mřížka na kartě **Zákazníci řádku nabídky** , hlavní formulář a formulář pro rychlé vytvoření zákazníka řádku nabídky. | Určuje, zda existuje sjednaný limit nebo strop celkové částky, která bude fakturována tomuto zákazníkovi za tento řádek nabídky. | Zkopírováno do zákazníků řádku projektové smlouvy při získání nabídky. |
-| **Vlastnící společnost** | Upravitelná mřížka na kartě **Zákazníci řádku nabídky** , hlavní formulář a formulář pro rychlé vytvoření zákazníka řádku nabídky, | Právnická osoba, ve které je tento zákazník nastaven v modulu **Řízení projektů a účetnictví**. Toto pole je pouze ke čtení a je nastaveno na vlastnící společnost samotné nabídky. Seznam zákazníků, které chcete přidat do pole **Účet** , je již filtrován do seznamu z vlastnické společnosti v modulu **Řízení projektů a účetnictví** aplikace Project Operations. | Vlastnící společnost odpovídá pojmu právnická osoba. Všechny náklady a výnosy plynoucí z tohoto projektu jsou účtovány v hlavní knize vlastnící společnosti. |
-| **Je zaokrouhlení** | Upravitelná mřížka na kartě **Zákazníci řádku nabídky** , hlavní formulář a formulář pro rychlé vytvoření zákazníka řádku nabídky. | Udává, zda je tento zákazník výchozím zaokrouhlovacím zákazníkem pro tento řádek nabídky založené na projektu. | Zkopírováno do zákazníků projektové smlouvy při získání nabídky. |
+| **Obchodní vztah** | Upravitelná mřížka na kartě **Zákazníci řádku nabídky**, hlavní formulář a formulář pro rychlé vytvoření zákazníka řádku nabídky. | Vypíše seznam všech aktivních účtů. Po vytvoření záznamu je toto pole uzamčeno. Pokud potřebujete pole aktualizovat, smažte a znovu vytvořte záznam. Pokud jste zaznamenali nějaké skutečnosti, nemůžete záznam smazat. | Když vyberete účet z hlavního seznamu účtů, který chcete přidat, přidá se jako zákazník nabídky také zákazník na řádku nabídky. Po získání nabídky se zákazníci řádku nabídky zkopírují k zákazníkům řádku projektové smlouvy. |
+| **Procento rozdělení fakturace** | Upravitelná mřížka na kartě **Zákazníci řádku nabídky**, hlavní formulář a formulář pro rychlé vytvoření zákazníka řádku nabídky. | Představuje procento z každé nevyfakturované prodejní transakce, která bude připsána tomuto zákazníkovi řádku nabídky. | Zkopírováno do zákazníků řádků projektové smlouvy. |
+| **Nepřekročitelný limit** | Upravitelná mřížka na kartě **Zákazníci řádku nabídky**, hlavní formulář a formulář pro rychlé vytvoření zákazníka řádku nabídky. | Určuje, zda existuje sjednaný limit nebo strop celkové částky, která bude fakturována tomuto zákazníkovi za tento řádek nabídky. | Zkopírováno do zákazníků řádku projektové smlouvy při získání nabídky. |
+| **Vlastnící společnost** | Upravitelná mřížka na kartě **Zákazníci řádku nabídky**, hlavní formulář a formulář pro rychlé vytvoření zákazníka řádku nabídky, | Právnická osoba, ve které je tento zákazník nastaven v modulu **Řízení projektů a účetnictví**. Toto pole je pouze ke čtení a je nastaveno na vlastnící společnost samotné nabídky. Seznam zákazníků, které chcete přidat do pole **Účet**, je již filtrován do seznamu z vlastnické společnosti v modulu **Řízení projektů a účetnictví** aplikace Project Operations. | Vlastnící společnost odpovídá pojmu právnická osoba. Všechny náklady a výnosy plynoucí z tohoto projektu jsou účtovány v hlavní knize vlastnící společnosti. |
+| **Je zaokrouhlení** | Upravitelná mřížka na kartě **Zákazníci řádku nabídky**, hlavní formulář a formulář pro rychlé vytvoření zákazníka řádku nabídky. | Udává, zda je tento zákazník výchozím zaokrouhlovacím zákazníkem pro tento řádek nabídky založené na projektu. | Zkopírováno do zákazníků projektové smlouvy při získání nabídky. |
 
 ## <a name="edit-billing-split-percentages"></a>Úprava procentuálních rozdělení fakturace
 

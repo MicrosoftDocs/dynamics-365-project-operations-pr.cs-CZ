@@ -3,7 +3,7 @@ title: Spárování rezervací a přiřazení
 description: Toto téma poskytuje informace o skutečných hodnotách.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073826"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120445"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Spárování rezervací a přiřazení
 
@@ -35,7 +35,7 @@ Z důvodu volného spárování rezervací projektů a přiřazení úkolů je v
 
 Karta **Vyrovnání** zobrazuje pro každého pojmenovaného člena týmu rezervace a přiřazení až k úrovni jednotlivých přiřazení úkolů. Zobrazuje hodiny v buňkách představují časová období od měsíců po dny.
 
-V poli **Časové měřítko** můžete vybrat **Měsíc** , **Týden** nebo **Den**. Ve výchozím nastavení je vybrán **Týden**. Výchozí hodnotu však můžete změnit tak, že vyberete tlačítko **Nastavení**. Při otevření karty **Vyrovnání** , se zobrazí aktuální datum, ale pro přesun dopředu nebo dozadu v čase můžete použít ovládací prvek kalendáře. Pokud má projekt datum zahájení, které je v budoucnosti, karta toto datum zobrazí při svém otevření. Ovládací prvek kalendáře také obsahuje možnosti, které umožňují přesun data zahájení a ukončení projektu.
+V poli **Časové měřítko** můžete vybrat **Měsíc**, **Týden** nebo **Den**. Ve výchozím nastavení je vybrán **Týden**. Výchozí hodnotu však můžete změnit tak, že vyberete tlačítko **Nastavení**. Při otevření karty **Vyrovnání**, se zobrazí aktuální datum, ale pro přesun dopředu nebo dozadu v čase můžete použít ovládací prvek kalendáře. Pokud má projekt datum zahájení, které je v budoucnosti, karta toto datum zobrazí při svém otevření. Ovládací prvek kalendáře také obsahuje možnosti, které umožňují přesun data zahájení a ukončení projektu.
 
 Chcete-li zobrazit podrobnosti o rezervacích tohoto zdroje, můžete u jednotlivých zdrojů použít ovládací prvky pro rozbalení. Přiřazení jednotlivých zdrojů můžete také rozbalit na úroveň jednotlivého úkolu.
 
@@ -47,7 +47,7 @@ V dolní části karty **Vyrovnání** je zobrazen celkový čistý součet proj
 > [!NOTE]
 > Legenda těchto stavů může být skryta, aby bylo možné ponechat více místa pro mřížku. V tomto případě můžete nastavit aby se legenda zobrazovala tak, že vyberete tlačítko **Nastavení**.
 
-V některých případech, kdy je pole **Časové měřítko** nastaveno na úroveň, která je vyšší než **Den** , mohou být rozdíly vypočteny jako 0 (nula). Například na úrovni **Měsíc** může být čistý rozdíl pro zdroj roven 0 (nule), což označuje, že se rezervace rovnají přiřazením. Pokud se však podíváte na úroveň **Týden** , můžete se setkat s tím, že v prvním týdnu měsíce jsou přiřazení ve výši 0 (nula) hodin a rezervace 40 hodin a ve druhém týdnu jsou přiřazení 40 hodin a rezervace 0 (nula) hodin. Ačkoli se celkové rezervace a přiřazení pro daný měsíc rovnají, liší se po týdnech.
+V některých případech, kdy je pole **Časové měřítko** nastaveno na úroveň, která je vyšší než **Den**, mohou být rozdíly vypočteny jako 0 (nula). Například na úrovni **Měsíc** může být čistý rozdíl pro zdroj roven 0 (nule), což označuje, že se rezervace rovnají přiřazením. Pokud se však podíváte na úroveň **Týden**, můžete se setkat s tím, že v prvním týdnu měsíce jsou přiřazení ve výši 0 (nula) hodin a rezervace 40 hodin a ve druhém týdnu jsou přiřazení 40 hodin a rezervace 0 (nula) hodin. Ačkoli se celkové rezervace a přiřazení pro daný měsíc rovnají, liší se po týdnech.
 
 Když se podíváte na vyšší úrovně, karta **Vyrovnání** zobrazuje indikátor buňky, který vás upozorní, že se na nižších úrovních vyskytují rozdíly. Například na následujícím obrázku je v buňce zobrazen indikátor buňky pro měsíc říjen 2018 pro zdroj pojmenovaný Libuše Horáčková. Proto je vidět, že i když jsou rezervace a přiřazení zdroje stejné, tak při agregaci na úrovni **Měsíc** se na nižších úrovních neshodují.
 
@@ -61,7 +61,7 @@ Kliknutím pravým tlačítkem myši na buňku pro oddálení další vyšší �
 
 Můžete také použít tlačítka **Předchozí** a **Další** nad mřížkou a procházet všemi rozdíly v projektu. Chcete-li tato tlačítka používat, je nutné nejprve vybrat zdroj. Vyberte **Další** pro přechod na další rozdíl mezi rezervacemi a přiřazeními pro daný zdroj. Chcete-li přejít zpět na předchozí graf, vyberte tlačítko **Předchozí**.
 
-Pokud máte přiřazení úkolů pro zdroj bez přiřazení, můžete nyní vybrat souhrnné nedostatečné rezervace a kliknout na možnost **Prodloužit rezervaci**. Poté můžete zobrazit rezervaci, která je požadována pro vyřešení nedostatku zdroje. Můžete také zobrazit rezervace zdroje na aktuálním projektu a dalších projektech. Chcete-li vytvořit rezervaci pro zdroj, vyberte **OK** , rezervaci zdroje bez ohledu na aktuální dostupnost. Projektový manažer nebo správce prostředku pak může pomocí Plánovací vývěsky spravovat situace, ve kterých je zdroj přerezervovaný nad svoji kapacitu, protože jejich rezervace byla prodloužena.
+Pokud máte přiřazení úkolů pro zdroj bez přiřazení, můžete nyní vybrat souhrnné nedostatečné rezervace a kliknout na možnost **Prodloužit rezervaci**. Poté můžete zobrazit rezervaci, která je požadována pro vyřešení nedostatku zdroje. Můžete také zobrazit rezervace zdroje na aktuálním projektu a dalších projektech. Chcete-li vytvořit rezervaci pro zdroj, vyberte **OK**, rezervaci zdroje bez ohledu na aktuální dostupnost. Projektový manažer nebo správce prostředku pak může pomocí Plánovací vývěsky spravovat situace, ve kterých je zdroj přerezervovaný nad svoji kapacitu, protože jejich rezervace byla prodloužena.
 
 ## <a name="managing-with-time-zones"></a>Správa pomocí časových pásem
 Pro zajištění přesných a předvídatelných výsledků při používání funkce Prodloužit rezervaci musejí být splněny dva klíčové předpoklady:  
