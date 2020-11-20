@@ -1,26 +1,26 @@
 ---
-title: Nákladové řádky smlouvy založené na produktu
+title: Nákladové řádky smlouvy založené na produktu – omezené
 description: Toto téma poskytuje informace o vytváření
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7dfb9425174dddee52f9ee64f7a963e48a6bca70
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 0e961bcf32a5dd662b7cd27a23eb5f664c45c292
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4074011"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177233"
 ---
-# <a name="costing-product-based-contract-lines"></a>Nákladové řádky smlouvy založené na produktu
+# <a name="cost-product-based-contract-lines---lite"></a>Nákladové řádky smlouvy založené na produktu – omezené
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
 
-Řádky smlouvy na základě produktu v Dynamics 365 Project Operations zahrnují pole **Nákladová cena** , kam se ukládá nákladová cena produktu pro následné výpočty ziskovosti.
+Řádky smlouvy na základě produktu v Dynamics 365 Project Operations zahrnují pole **Nákladová cena**, kam se ukládá nákladová cena produktu pro následné výpočty ziskovosti.
 
 Když je pro katalogový produkt vytvořen řádek smlouvy založené na produktu, náklady na řádek smlouvy založené na produktu jsou ve výchozím stavu přebírány z pole **Standardní náklady** v katalogu produktů. Pole **Standardní náklad** v katalogu produktů je nastaveno v základní měně organizace. Když jsou na řádku smlouvy výchozí jednotkové náklady, převedou se na měnu prodeje na smlouvě.
 

@@ -3,7 +3,7 @@ title: Organizační jednotky
 description: Toto téma poskytuje informace o organizačních jednotkách v Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073892"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130615"
 ---
 # <a name="organizational-units"></a>Organizační jednotky 
 
@@ -50,7 +50,7 @@ Kromě toho existuje atribut organizační jednotky entity Zdroj. Každý zdroj 
 
 Organizační jednotka hraje v PSA dvě role:
 
-- **Smluvní jednotka** – organizační jednotka, která zastupuje skupinu nebo divizi společnosti, která je primárně zodpovědná za získání prodeje a řízení dodávky práce a služeb zákazníkovi. Smluvní jednotka je identifikována pomocí pole **Smluvní jednotka** v části hlavičky stránek **Příležitost** , **Nabídka** , **Projektová smlouva** a **Projekt**.
+- **Smluvní jednotka** – organizační jednotka, která zastupuje skupinu nebo divizi společnosti, která je primárně zodpovědná za získání prodeje a řízení dodávky práce a služeb zákazníkovi. Smluvní jednotka je identifikována pomocí pole **Smluvní jednotka** v části hlavičky stránek **Příležitost**, **Nabídka**, **Projektová smlouva** a **Projekt**.
 - **Jednotka zdroje** – organizační jednotka, k níž zdroj náleží nebo je přiřazen. Tato organizační jednotka může poskytnout své zdroje pro některé role v prohlášeních o práci (SOWs) a projektech vlastněných smluvní jednotkou.
 
 > ![Smluvní jednotky a financování jednotek](media/advanced-1.png)

@@ -3,7 +3,7 @@ title: Skupiny jednotek a jednotky
 description: Toto téma poskytuje informace o skupinách jednotek a jednotkách.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073796"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130570"
 ---
 # <a name="unit-groups-and-units"></a>Skupiny jednotek a jednotky
 
@@ -33,16 +33,16 @@ Skupiny jednotek a jednotky jsou základními entitami v Microsoft Dynamics 365.
 
 Zde je několik příkladů jednotek a skupin jednotek:
  
-- **Skupina jednotek** : Vzdálenost 
-    - **Jednotky** : míle, kilometr a tak dál.
-- **Skupina jednotek** : Čas
-    - **Jednotky** : hodina, den, týden atd. 
+- **Skupina jednotek**: Vzdálenost 
+    - **Jednotky**: míle, kilometr a tak dál.
+- **Skupina jednotek**: Čas
+    - **Jednotky**: hodina, den, týden atd. 
 
 Pokud nastavíte více jednotek ve skupině jednotek, musíte také nastavit koeficient převodu tak, že určíte první jednotku, kterou nastavíte jako výchozí nebo primární jednotku pro skupinu jednotek. 
 
-Pokud například ve skupině jednotek **Čas** nastavíte jako první jednotku **Hodina** , systém označí **Hodinu** jako výchozí jednotku. Pokud je následující jednotka, kterou nastavíte, **Den** , musíte nastavit koeficient převodu pro **Den** na **Hodinu.** Pokud potom jako třetí jednotku přidáte **Týden** , musíte nastavit koeficient převodu pro **Týden** podle **Dnů** nebo **Hodin**. 
+Pokud například ve skupině jednotek **Čas** nastavíte jako první jednotku **Hodina**, systém označí **Hodinu** jako výchozí jednotku. Pokud je následující jednotka, kterou nastavíte, **Den**, musíte nastavit koeficient převodu pro **Den** na **Hodinu.** Pokud potom jako třetí jednotku přidáte **Týden**, musíte nastavit koeficient převodu pro **Týden** podle **Dnů** nebo **Hodin**. 
 
-Následující obrázek znázorňuje příklad nastavení pro jednotku **Den** , kde pole **Množství** zobrazuje počet hodin v rámci dne a **Týdne** , kde pole **Množství** zobrazí počet dnů v týdnu.
+Následující obrázek znázorňuje příklad nastavení pro jednotku **Den**, kde pole **Množství** zobrazuje počet hodin v rámci dne a **Týdne**, kde pole **Množství** zobrazí počet dnů v týdnu.
 
 > ![Skupina jednotek: Stránka s informacemi](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation používá jednotky a skupiny jednotek k
 
 U výdajů má každá kategorie výdajů výchozí skupinu jednotek a jednotku. Tyto hodnoty jsou zadány jako výchozí hodnoty pro položky ceníku pro kategorie výdajů. 
 
-Máte například kategorii výdajů s názvem **Mílovné**. Obsahuje skupinu jednotek pojmenovanou **Vzdálenost** a výchozí jednotku pojmenovanou **Míle**. Nastavíte-li skupinu jednotek **Vzdálenost** tak, aby obsahovala dvě jednotky ( **Míle** a **Kilometr** ), můžete nastavit dvě ceny pro kategorii **Mílovné** v jednom ceníku: cena za míli a cena za kilometr.
+Máte například kategorii výdajů s názvem **Mílovné**. Obsahuje skupinu jednotek pojmenovanou **Vzdálenost** a výchozí jednotku pojmenovanou **Míle**. Nastavíte-li skupinu jednotek **Vzdálenost** tak, aby obsahovala dvě jednotky (**Míle** a **Kilometr**), můžete nastavit dvě ceny pro kategorii **Mílovné** v jednom ceníku: cena za míli a cena za kilometr.
 
 | Kategorie výdaje  | Skupina jednotek  | Jednotka      | Způsob ocenění  | Cena za jednotku  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Každá hlavička ceníku má pro čas pole **Výchozí časová jednotka**. Tat
 Následující příklad ukazuje, jak PSA používá skupinu jednotek, jednotky a koeficienty převodu.
 - Jednotky
 
-   - **Skupina jednotek** : Čas 
-   - **Jednotky** : Hodina 
+   - **Skupina jednotek**: Čas 
+   - **Jednotky**: Hodina 
     
     - **Den** – koeficient převodu: 8 hodin       
     - **Týden** – koeficient převodu: 40 hodin  
         
 - Nastavení ceníku na projektu A:
 
-    - **Název** : prodejní ceny UK 2016 
-    - **Výchozí časová jednotka** : Den 
-    - **Měna** : GBP
+    - **Název**: prodejní ceny UK 2016 
+    - **Výchozí časová jednotka**: Den 
+    - **Měna**: GBP
 
 | Role      | Skupina jednotek | Jednotka | Organizační jednotka | Cena   |
 |-----------|------------|------|---------------------|---------|

@@ -1,21 +1,21 @@
 ---
-title: Registrace Preview předplatného
+title: Registrace k odběru verze Preview – omezené
 description: Toto téma obsahuje informace o tom, jak se přihlásit k odběru a nasadit omezené nasazení Project Operations - od obchodu po pro forma fakturaci.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073643"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175883"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Přihlaste se k odběru Preview pro omezené nasazení - od obchodu po pro forma fakturaci
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Registrace k odběru verze Preview – omezené 
 
 Toto téma vysvětluje, jak se přihlásit k odběru preview nabídky partnera a nasadit omezené nasazení Dynamics 365 Project Operations - od obchodu po pro forma fakturaci.
 
@@ -42,7 +42,7 @@ Když obdržíte schválení [požadavku na preview](https://forms.office.com/Fo
 
 Než začnete, ujistěte se, že jste přihlášeni do prohlížeče s pracovním účtem uživatele v klientu, kde chcete Project Operations Preview mít.
 
-1. Uplatněte první kód nabídky, **Dynamics 365 Project Operations (CRM) – zkušební verze Preview** , vložením do adresy URL prohlížeče.
+1. Uplatněte první kód nabídky, **Dynamics 365 Project Operations (CRM) – zkušební verze Preview**, vložením do adresy URL prohlížeče.
 
 ![Uplatnění nabídky](./media/16RedeemFirstOfferNew.png)
 

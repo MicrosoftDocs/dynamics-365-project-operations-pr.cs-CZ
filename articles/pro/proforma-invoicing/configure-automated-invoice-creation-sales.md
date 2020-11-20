@@ -1,22 +1,22 @@
 ---
-title: Konfigurace automatického vytváření proforma faktur
+title: Konfigurace automatického vytváření faktur – omezená
 description: Toto téma poskytuje informace o konfiguraci automatického vytváření proforma faktur.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e146dd510b3795d52d164fc6acf8e5400ba11310
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073689"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176558"
 ---
-# <a name="configure-automated-proforma-invoice-creation"></a>Konfigurace automatického vytváření proforma faktur
-
+# <a name="configure-automatic-invoice-creation---lite"></a>Konfigurace automatického vytváření faktur – omezená
+ 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
 V Dynamics 365 Project Operations můžete nakonfigurovat automatické vytváření faktur. Systém vytvoří koncept proforma faktury na základě rozpisu faktury pro každou projektovou smlouvu a řádek smlouvy. Rozpisy faktur jsou konfigurovány na úrovni řádku smlouvy. Každý řádek ve smlouvě může mít odlišný rozpis faktury nebo stejný rozpis faktury může být obsažen v každém řádku smlouvy.
@@ -48,21 +48,21 @@ Rozpisy faktur definované u každé z těchto dvou řádkových položek vypada
 
 V tomto příkladu, když je automatická fakturace spuštěna:
 
-- **4. října nebo jakékoli dřívější datum** : Pro tuto smlouvu není generována žádná faktura, protože tabulka **Rozpis faktury** pro každý z těchto řádků smlouvy neobsahuje neděli 4. října jako datum spuštění faktury.
-- **Pondělí 5. října** : Jedna faktura je generována pro:
+- **4. října nebo jakékoli dřívější datum**: Pro tuto smlouvu není generována žádná faktura, protože tabulka **Rozpis faktury** pro každý z těchto řádků smlouvy neobsahuje neděli 4. října jako datum spuštění faktury.
+- **Pondělí 5. října**: Jedna faktura je generována pro:
 
     - Prototypová práce zahrnující milník, pokud je označen jako **Připraveno k fakturaci**.
     - Implementační práce, která zahrnuje všechny časové transakce vytvořené před datem uzavření transakce v neděli 4. října, která je označena jako **Připravena k fakturaci**.
     - Vzniklé výdaje, které zahrnují všechny výdajové transakce vytvořené před datem uzavření transakce v neděli 4. října, která je označena jako **Připravena k fakturaci**.
   
-- **6. října nebo jakékoli datum před 19. říjnem** : Pro tuto smlouvu není generována žádná faktura, protože tabulka **Rozpis faktury** pro každý z těchto řádků smlouvy neobsahuje 6. října ani žádné datum před 19. říjnem jako datum spuštění faktury.
-- **Pondělí 19. října** : Jedna faktura je vygenerována pro implementační práci, která zahrnuje všechny časové transakce vytvořené před datem uzavření transakce v neděli 18. října, která je označena jako **Připravena k fakturaci**.
-- **Pondělí 2. listopadu** : Jedna faktura je generována pro:
+- **6. října nebo jakékoli datum před 19. říjnem**: Pro tuto smlouvu není generována žádná faktura, protože tabulka **Rozpis faktury** pro každý z těchto řádků smlouvy neobsahuje 6. října ani žádné datum před 19. říjnem jako datum spuštění faktury.
+- **Pondělí 19. října**: Jedna faktura je vygenerována pro implementační práci, která zahrnuje všechny časové transakce vytvořené před datem uzavření transakce v neděli 18. října, která je označena jako **Připravena k fakturaci**.
+- **Pondělí 2. listopadu**: Jedna faktura je generována pro:
 
     - Implementační práce, která zahrnuje všechny časové transakce vytvořené před datem uzavření transakce v neděli 1. listopadu, která je označena jako **Připravena k fakturaci**.
     - Vzniklé výdaje, které zahrnují všechny výdajové transakce vytvořené před datem uzavření transakce v neděli 1. listopadu, která je označena jako **Připravena k fakturaci**.
 
-- **Úterý 3. listopadu** : Za prototypovou práci je vygenerována jedna faktura, která obsahuje milník pro 12 000 USD, pokud je označena jako **Připraveno k fakturaci**.
+- **Úterý 3. listopadu**: Za prototypovou práci je vygenerována jedna faktura, která obsahuje milník pro 12 000 USD, pokud je označena jako **Připraveno k fakturaci**.
 
 ## <a name="configure-automatic-invoicing"></a>Konfigurovat automatické fakturování
 
@@ -81,11 +81,11 @@ Chcete-li nakonfigurovat spuštění automatické fakturace, postupujte následo
 6. V dalším dialogovém okně vyberte **OK**. Po pracovním postupu **Spánek** následuje pracovní postup **Zpracovat**. 
 
 > [!NOTE]
-> Pracovní postup **ProcessRunner** můžete také vybrat v kroku 5. Když potom vyberete **OK** , bude pracovní postup **Zpracovat** následován pracovním postupem **Spánek**.
+> Pracovní postup **ProcessRunner** můžete také vybrat v kroku 5. Když potom vyberete **OK**, bude pracovní postup **Zpracovat** následován pracovním postupem **Spánek**.
 
 Pracovní postupy **ProcessRunCaller** a **ProcessRunner** vytvářejí faktury. **ProcessRunCaller** volá **ProcessRunner**. **ProcessRunner** je pracovní postup, který skutečně vytváří faktury. Pracovní postup prochází všemi řádky smluv, pro které musí být vytvořeny faktury, a vytváří faktury pro tyto řádky. Aby určil řádky smluv, pro které musí být vytvořeny faktury, vyhledává úloha data spuštění faktury pro řádky smluv. Jestliže řádky smluv, které patří k jedné smlouvě, mají stejné datum spuštění faktury, budou transakce sloučeny do jedné faktury, která má dva řádky faktury. Pokud neexistují žádné transakce pro vytvoření faktur, úloha přeskočí vytvoření faktury.
 
-Proces **ProcessRunner** po svém dokončení volá proces **ProcessRunCaller** , poskytne čas ukončení a je zavřen. Proces **ProcessRunCaller** poté spustí časovač, který běží po dobu 24 hodin od zadaného času ukončení. Po doběhnutí časovače je **ProcessRunCaller** uzavřen.
+Proces **ProcessRunner** po svém dokončení volá proces **ProcessRunCaller**, poskytne čas ukončení a je zavřen. Proces **ProcessRunCaller** poté spustí časovač, který běží po dobu 24 hodin od zadaného času ukončení. Po doběhnutí časovače je **ProcessRunCaller** uzavřen.
 
 Úloha dávkového zpracování pro vytváření faktur je opakující se úloha. Pokud je tento dávkový proces spuštěn vícekrát, vytvoří se více instancí této úlohy a způsobí chyby. Proto byste tento dávkový proces měli spustit pouze jednou a restartovat ho, pouze pokud přestane běžet.
 

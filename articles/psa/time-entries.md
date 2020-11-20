@@ -3,7 +3,7 @@ title: Vytvoření časových záznamů
 description: Toto téma obsahuje informace o způsobu vytvoření časových záznamů.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073871"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131256"
 ---
 # <a name="create-time-entries"></a>Vytvoření časových záznamů
 
@@ -41,7 +41,7 @@ Chcete-li vytvořit časový záznam, postupujte takto.
 4. V poli **Projektový úkol** najděte úkol pro tento časový záznam.
 
     > [!NOTE]
-    > Pokud vytváříte časový záznam pro úkol, který není přiřazen uživateli, vyberte v poli **Projektový úkol** tlačítko **Hledat** , vyberte **Změnit zobrazení** a pak vyberte **Všechny aktivní projektové úkoly** pro zobrazení seznamu všech úkolů.
+    > Pokud vytváříte časový záznam pro úkol, který není přiřazen uživateli, vyberte v poli **Projektový úkol** tlačítko **Hledat**, vyberte **Změnit zobrazení** a pak vyberte **Všechny aktivní projektové úkoly** pro zobrazení seznamu všech úkolů.
 
 5. Zadejte popis, pokud je vyžadován popis, a pak vyberte **Uložit a zavřít**.
 
@@ -57,9 +57,9 @@ Všimněte si, že zlomky hodiny nejsou minuty. Proto 1,5 hodiny představuje 1 
 Po vytvoření několika časových záznamů je můžete pomocí funkce kopírování kopírovat za účelem hromadného vytvoření dalších záznamů.
 
 1. Na stránce **Časové záznamy** vyberte **Kopírovat týden**.
-2. Ve skupině polí **Od období** definujte v polích **Počáteční datum** a  **Koncové datum** rozsah dat, ze kterého se má zkopírovat časový záznam.
+2. Ve skupině polí **Od období** definujte v polích **Počáteční datum** a **Koncové datum** rozsah dat, ze kterého se má zkopírovat časový záznam.
 3. Ve skupině polí **Do období** v poli **Počáteční datum** zadejte datum, pro které chcete vytvořit časové záznamy.
-4. Chcete-li vytvořit kopii časových záznamů, které odpovídají dnu v týdnu určenému ve skupině polí **Do období** , klikněte na **Kopírovat**. Například pondělní časový záznam z minulého týdne bude zkopírován do pondělí týdne, který je zadán ve skupině polí jako **Do období**.
+4. Chcete-li vytvořit kopii časových záznamů, které odpovídají dnu v týdnu určenému ve skupině polí **Do období**, klikněte na **Kopírovat**. Například pondělní časový záznam z minulého týdne bude zkopírován do pondělí týdne, který je zadán ve skupině polí jako **Do období**.
 
 ## <a name="import-data-for-time-entries"></a>Importovat data pro časové záznamy
 

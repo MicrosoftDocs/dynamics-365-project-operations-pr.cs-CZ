@@ -1,21 +1,21 @@
 ---
-title: Vytvoření manuální proforma faktury
+title: Vytvoření manuální proforma faktury – omezené
 description: Toto téma poskytuje informace o o vytváření manuálních proforma faktur v aplikaci Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5e93206737507bf6698a9746815c790d3dfc904
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 87ef090454b2a7ab997e7c21d8d10badc31c8235
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4074009"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176378"
 ---
-# <a name="creating-a-manual-proforma-invoice"></a>Vytvoření manuální proforma faktury
+# <a name="create-a-manual-proforma-invoice---lite"></a>Vytvoření manuální proforma faktury – omezené
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
@@ -31,6 +31,6 @@ Všechny vytvořené faktury projektu jsou k dispozici na stránce **Faktura** v
 
 ## <a name="project-contract-details-page"></a>Stránka s podrobnostmi projektových smluv
 
-Proforma fakturu lze také vytvořit na stránce s podrobnostmi **Smlouva o projektu** , kde se vytváří faktura za konkrétní smlouvu o projektu. Systém zkontroluje, že projektová smlouva má nevyřízené položky **Připraveno k fakturaci** datované před dnešním datem. Z těchto smluv systém vytváří návrhy proforma faktur na základě počtu zákazníků na každém řádku smlouvy.
+Proforma fakturu lze také vytvořit na stránce s podrobnostmi **Smlouva o projektu**, kde se vytváří faktura za konkrétní smlouvu o projektu. Systém zkontroluje, že projektová smlouva má nevyřízené položky **Připraveno k fakturaci** datované před dnešním datem. Z těchto smluv systém vytváří návrhy proforma faktur na základě počtu zákazníků na každém řádku smlouvy.
 
-Když je vytvořena jedna proforma faktura, otevře se stránka **Faktura**. Pokud je pro danou projektovou smlouvu vytvořeno více faktur, se otevře stránka se seznamem **Faktury** , kde se zobrazí všechny vytvořené faktury.
+Když je vytvořena jedna proforma faktura, otevře se stránka **Faktura**. Pokud je pro danou projektovou smlouvu vytvořeno více faktur, se otevře stránka se seznamem **Faktury**, kde se zobrazí všechny vytvořené faktury.

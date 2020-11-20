@@ -3,7 +3,7 @@ title: Vytvoření šablony projektu
 description: Postup vytvoření šablony projektu v Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 700d1bb1fd7299b49b6c6f8e4d84d14bc1d52c1a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 78d25183aad8d86593d3f2582295db59eb84cf14
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073793"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133180"
 ---
 # <a name="create-a-project-template-project-service"></a>Vytvoření šablony projektu (Project Service)
 
@@ -34,11 +34,11 @@ ms.locfileid: "4073793"
 ## <a name="components-of-project-template"></a>Součásti šablony projektu
  Šablona projektu se skládá ze tří součástí:  
   
-- **Strukturovaný rozpis prací** : Strukturovaný rozpis prací v šabloně projektu má stejnou sadu prvků jako v projektu. Můžete vytvořit hierarchii úkolů, přiřadit role k úkolu, definovat atributy plánu, nastavit závislosti a zobrazit všechna data v Ganttově diagramu. Strukturované rozpisy prací v šablonách projektů také podporují režimy úkolů pro každý úkol. Při vytváření pracovního plánu není žádný rozdíl mezi šablonou projektu a projektem.  
+- **Strukturovaný rozpis prací**: Strukturovaný rozpis prací v šabloně projektu má stejnou sadu prvků jako v projektu. Můžete vytvořit hierarchii úkolů, přiřadit role k úkolu, definovat atributy plánu, nastavit závislosti a zobrazit všechna data v Ganttově diagramu. Strukturované rozpisy prací v šablonách projektů také podporují režimy úkolů pro každý úkol. Při vytváření pracovního plánu není žádný rozdíl mezi šablonou projektu a projektem.  
   
-- **Odhady projektu** : Odhady projektu v šablonách fungují stejným způsobem jako v projektech kromě toho, že nákladové a prodejní ceny jsou vždy výchozími nákladovými a prodejními ceníky definovanými v parametrech [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Zbývající funkce jsou stejné jako v projektu.  
+- **Odhady projektu**: Odhady projektu v šablonách fungují stejným způsobem jako v projektech kromě toho, že nákladové a prodejní ceny jsou vždy výchozími nákladovými a prodejními ceníky definovanými v parametrech [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Zbývající funkce jsou stejné jako v projektu.  
   
-- **Vytvoření projektového týmu** : Při vytváření projektového týmu pro šablonu projektu nelze rezervovat pojmenovaný zdroj v šabloně. Můžete použít možnost **Vygenerovat projektový tým** ve strukturovaném rozpisu prací a vygenerovat sadu obecných zdrojů. Můžete také určit požadované dovednosti a odborné znalosti pro obecné zdroje. Nelze nahradit obecný zdroj rezervovatelným zdrojem v šablonách projektů.  
+- **Vytvoření projektového týmu**: Při vytváření projektového týmu pro šablonu projektu nelze rezervovat pojmenovaný zdroj v šabloně. Můžete použít možnost **Vygenerovat projektový tým** ve strukturovaném rozpisu prací a vygenerovat sadu obecných zdrojů. Můžete také určit požadované dovednosti a odborné znalosti pro obecné zdroje. Nelze nahradit obecný zdroj rezervovatelným zdrojem v šablonách projektů.  
   
 ## <a name="create-a-project-from-a-template"></a>Vytvoření projektu ze šablony  
  Projekt lze ze šablony vytvořit následujícími způsoby:  
@@ -52,11 +52,11 @@ ms.locfileid: "4073793"
 ## <a name="copying-components-of-a-template-to-a-project"></a>Kopírování součástí šablony do projektu  
  Při kopírování součástí šablony do projektu je několik věcí, které byste měli mít na paměti.  
   
- **Kopírování strukturovaného rozpisu prací** : Pokud má projekt při kopírování strukturovaného rozpisu prací ze šablony projektu jiný kalendář projektu než šablona, bude v plánu úkolů použita pracovní doba z kalendáře projektu. Tím se upraví plán pro pomocný kalendář projektu. A podobně první úkol ve strukturovaném rozpisu prací bude mít datum zahájení projektu, takže zbytek plánu hierarchie úkolů bude aktualizován na základě doby trvání a závislostí, které jsou uvedeny ve strukturovaném rozpisu prací šablony.  
+ **Kopírování strukturovaného rozpisu prací**: Pokud má projekt při kopírování strukturovaného rozpisu prací ze šablony projektu jiný kalendář projektu než šablona, bude v plánu úkolů použita pracovní doba z kalendáře projektu. Tím se upraví plán pro pomocný kalendář projektu. A podobně první úkol ve strukturovaném rozpisu prací bude mít datum zahájení projektu, takže zbytek plánu hierarchie úkolů bude aktualizován na základě doby trvání a závislostí, které jsou uvedeny ve strukturovaném rozpisu prací šablony.  
   
- **Kopírování odhadů projektu** : Při kopírování mezi řádky odhadů projektu budou ceníky aktualizovány na základě vlastnící jednotky projektu pro nákladový ceník a zákazníka pro prodejní ceník. Nákladové a prodejní ceny na jednotku se stanovují z těchto ceníků u projektů, které jsou přidruženy k prodejní entitě.  
+ **Kopírování odhadů projektu**: Při kopírování mezi řádky odhadů projektu budou ceníky aktualizovány na základě vlastnící jednotky projektu pro nákladový ceník a zákazníka pro prodejní ceník. Nákladové a prodejní ceny na jednotku se stanovují z těchto ceníků u projektů, které jsou přidruženy k prodejní entitě.  
   
- **Kopírování projektového týmu** : Při kopírování projektového týmu z šablony do projektu jsou zkopírovány obecné zdroje spolu s dovednostmi a odbornými znalostmi definovanými v šabloně. Přiřazení obecných zdrojů je rovněž zachováno jako v šabloně projektu.  
+ **Kopírování projektového týmu**: Při kopírování projektového týmu z šablony do projektu jsou zkopírovány obecné zdroje spolu s dovednostmi a odbornými znalostmi definovanými v šabloně. Přiřazení obecných zdrojů je rovněž zachováno jako v šabloně projektu.  
   
 ### <a name="see-also"></a>Viz také  
  [Příručka pro projektového manažera](../psa/project-manager-guide.md)

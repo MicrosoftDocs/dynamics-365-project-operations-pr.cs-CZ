@@ -3,7 +3,7 @@ title: Nastavení četnosti faktur
 description: Postup nastavení četnosti faktur v Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18fb4e6968612adb1c946650c829174286c5f3cd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2739db966b332db35e383589e06e023ff156ed45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073996"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132014"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>Nastavení četnosti faktur (Project Service)
 
@@ -37,7 +37,7 @@ ms.locfileid: "4073996"
   
 3.  V oblasti **Obecné** zadejte název pro četnost faktur do pole **Název**.  
   
-4.  V části **Období** vyberte možnost **Měsíčně** , **Čtrnáctidenně** nebo **Týdně**.  
+4.  V části **Období** vyberte možnost **Měsíčně**, **Čtrnáctidenně** nebo **Týdně**.  
   
 5.  Pokud jste zadali období měsíčně nebo čtrnáctidenně, v části **Dny fakturace** vyberte možnost **Den období** pro fakturaci v určený den období (den v týdnu nebo o víkendu), nebo vyberte **Den v týdnu v období** pro fakturaci v zadaný den v týdnu v období.  
   

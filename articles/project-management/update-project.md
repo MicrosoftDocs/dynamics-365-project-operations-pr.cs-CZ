@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 5c9cd0c7c6886bd454c5f2ef2ae7f20d1707293f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8bcbc6c5a62d252398d541649647fbad49006a0c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073635"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131425"
 ---
 # <a name="update-a-project"></a>Aktualizace projektu
 
@@ -23,28 +23,28 @@ Níže je uveden souhrn polí, která lze aktualizovat na projektu po jeho vytvo
 
 ## <a name="project-detail-fields"></a>Pole podrobností projektu
 
-- **Název** : Název projektu.
-- **Popis** : Přehled projektu.
-- **Zákazník** : Společnost, do které bude projekt dodán.
-- **Šablona kalendáře** : Pracovní doba projektu. Když se pole změní, přepočítá se celý plán.
-- **Měna** : Měna projektu. Toto pole je výchozí na základě měny definované ve smluvní jednotce. Při aktualizaci smluvní jednotky se aktualizuje také pole.
-- **Smluvní jednotka** : Organizační jednotka, která zastupuje skupinu nebo divizi společnosti, která je primárně zodpovědná za získání prodeje a řízení dodávky práce a služeb zákazníkovi. 
-- **Projektový manažer** : Člen projektového týmu, který má oprávnění kontrolovat a schvalovat časové údaje a výdaje.
+- **Název**: Název projektu.
+- **Popis**: Přehled projektu.
+- **Zákazník**: Společnost, do které bude projekt dodán.
+- **Šablona kalendáře**: Pracovní doba projektu. Když se pole změní, přepočítá se celý plán.
+- **Měna**: Měna projektu. Toto pole je výchozí na základě měny definované ve smluvní jednotce. Při aktualizaci smluvní jednotky se aktualizuje také pole.
+- **Smluvní jednotka**: Organizační jednotka, která zastupuje skupinu nebo divizi společnosti, která je primárně zodpovědná za získání prodeje a řízení dodávky práce a služeb zákazníkovi. 
+- **Projektový manažer**: Člen projektového týmu, který má oprávnění kontrolovat a schvalovat časové údaje a výdaje.
 
 ## <a name="estimate-fields"></a>Odhad polí
 
-- **Odhadované počáteční datum** : Počáteční datum projektu. Když se toto pole aktualizuje, všechny úkoly na projektu se budou pohybovat úměrně s počátečním novým začátkem.
-- **Datum dokončení** : Datum, kdy je naplánováno ukončení projektu.
-- **Úsílí** : Odhadované úsilí projektu. Když jsou do projektu přidány úkoly, toto pole již nelze upravovat.
-- **Odhadované náklady na práci** : Odhadované pracovní náklady projektu. Když jsou do projektu přidány pracovní náklady, toto pole již nelze upravovat.
-- **Odhadované výdaje** : Odhadované výdaje projektu. Když jsou do projektu přidány výdaje, toto pole již nelze upravovat.
+- **Odhadované počáteční datum**: Počáteční datum projektu. Když se toto pole aktualizuje, všechny úkoly na projektu se budou pohybovat úměrně s počátečním novým začátkem.
+- **Datum dokončení**: Datum, kdy je naplánováno ukončení projektu.
+- **Úsílí**: Odhadované úsilí projektu. Když jsou do projektu přidány úkoly, toto pole již nelze upravovat.
+- **Odhadované náklady na práci**: Odhadované pracovní náklady projektu. Když jsou do projektu přidány pracovní náklady, toto pole již nelze upravovat.
+- **Odhadované výdaje**: Odhadované výdaje projektu. Když jsou do projektu přidány výdaje, toto pole již nelze upravovat.
 
 ## <a name="project-actual-fields"></a>Pole skutečné hodnoty projektu
-- **Skutečný začátek** : Datum zahájení projektu.
-- **Skutečné dokončení** : Bude aktualizováno po dokončení projektu.
+- **Skutečný začátek**: Datum zahájení projektu.
+- **Skutečné dokončení**: Bude aktualizováno po dokončení projektu.
 
 ## <a name="project-status-fields"></a>Pole Stav projektu
 
-- **Celkový stav projektu** : Celkový stav projektu poskytnutý manažerem projektu.
-- **Komentáře** : Textový komentář týkající se aktuálního stavu projektu poskytnutý manažerem projektu.
+- **Celkový stav projektu**: Celkový stav projektu poskytnutý manažerem projektu.
+- **Komentáře**: Textový komentář týkající se aktuálního stavu projektu poskytnutý manažerem projektu.
 

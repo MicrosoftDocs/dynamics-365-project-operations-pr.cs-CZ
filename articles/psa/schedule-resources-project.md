@@ -3,7 +3,7 @@ title: Plánování zdrojů pro projekt
 description: Postup plánování zdrojů pro projekt v Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db69348aac96cbfaaa865228c9230cbda4b1e784
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1479bf920be897a6ee3498aada7a6c36692a01fc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073986"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132121"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Plánování zdrojů pro projekt (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4073986"
 
 Můžete zkontrolovat dostupnost zdrojů, chcete-li získat celkový přehled o tom, jak jsou zdroje rezervovány, nebo můžete filtrovat zobrazení podle dovedností, týmu, umístění a dalších možností.  
   
-Plánovací vývěska zobrazuje seznam zdrojů a jejich dostupnost. Vyberte režim zobrazení pro zobrazení dostupnosti podle **Hodin** , **Dne** , **Týdne** nebo **Měsíce**.  
+Plánovací vývěska zobrazuje seznam zdrojů a jejich dostupnost. Vyberte režim zobrazení pro zobrazení dostupnosti podle **Hodin**, **Dne**, **Týdne** nebo **Měsíce**.  
   
 Před použitím plánovací vývěsky je třeba ji nastavit. Další informace naleznete v tématu [Konfigurace plánovací vývěsky (Field Service nebo Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   

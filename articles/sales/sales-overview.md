@@ -1,29 +1,23 @@
 ---
-title: Přehled prodejních procesů
+title: Přehled prodejního procesu
 description: Toto téma poskytuje informace o základních prodejních procesech.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
-ms.custom:
-- dyn365-projectservice
-ms.date: 09/23/2019
+manager: Annbe
+ms.date: 10/29/2020
 ms.topic: article
-ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
 ms.author: rumant
-audience: Admin
-search.audienceType:
-- admin
-- customizer
-- enduser
-search.app: ''
-ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073979"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177593"
 ---
-# <a name="sales-processes-overview"></a>Přehled prodejních procesů
+# <a name="sales-process-overview"></a>Přehled prodejního procesu
+
+_**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
 Prodejní procesy používané v organizaci založené na projektech se liší od prodejních procesů používaných v organizaci založené na produktech. K tomuto rozdílu dochází proto, že prodejní cykly pro organizace založené na projektech jsou delší a vyžadují pro analýzu a vytváření nabídek pro jednotlivé obchody přizpůsobené techniky odhadu. Dynamics 365 Project Operations používá některé z následujících funkcí, které se používají v prodejním procesu:
 
@@ -56,12 +50,12 @@ Vaše společnost může mít například v prodejním procesu následujících 
  
 Vaše organizace může v průběhu vývoje používat k reprezentaci stejného obchodu různé entity. Počátkem prodejního procesu je obchod reprezentován entitou Příležitost. Jak plyne čas a objeví se další podrobnosti, můžete k vytvoření jedné nebo více nabídek použít odhady na vysoké úrovni. Pokud je jedna z těchto nabídek zkontrolována interními a zákaznickými zúčastněnými stranami, představuje entita Nabídka obchod. Poté, co zákazník nabídku přijme, představuje projektová smlouva nebo SOW obchod. Pro podporu tohoto chování jsou toky obchodních procesů strukturovány tak, aby každá fáze procesu byla propojena s jinou databázovou tabulkou.
 
-Fázi **Zařadit** lze v prodejním procesu podpořit pomocí entity Příležitost. Fáze **Odhad** a **Interní revize** lze podpořit pomocí entity Nabídka. Fáze **Smlouva** , **Dodávka** a **Uzavření** lze podpořit pomocí entity Projektová smlouva.
+Fázi **Zařadit** lze v prodejním procesu podpořit pomocí entity Příležitost. Fáze **Odhad** a **Interní revize** lze podpořit pomocí entity Nabídka. Fáze **Smlouva**, **Dodávka** a **Uzavření** lze podpořit pomocí entity Projektová smlouva.
 
 Při přesouvání obchodů napříč fázemi se zobrazí výzva k vytvoření příslušného záznamu entity, který vám pomůže a provede vás procesem. Fáze mohou být podmíněné. Pokud například požadujete interní revizi nabídky pouze v případě, že nabídka používá vlastní ceník, můžete tuto podmínku nakonfigurovat v příslušné fázi obchodního procesu. Fáze **Interní revize** se pak zobrazí pouze pro nabídky, které používají vlastní ceník. U všech ostatních obchodů a nabídek následuje po fázi **Odhad** fáze **Smlouva**.
 
 > [!NOTE]
-> Project Operations má konkrétní stránky pro záznamy entit Příležitost, Nabídka, Objednávka a Faktura. Tyto záznamy musíte vytvořit pomocí informačních stránek projektu pro tyto entity. Jinak nebudete moci otevřít záznamy ze stránky **Informace o projektu**. Pokud chcete otevřít záznam ze stránky **Informace o projektu** , musíte záznam odstranit a znovu ho vytvořit pomocí stránky **Informace o projektu** , kde obchodní logika pro každý z těchto typů entit zajišťuje, že pole **Typ** záznamu je nastaveno správně a všechny povinné koncepty jsou správně inicializovány.
+> Project Operations má konkrétní stránky pro záznamy entit Příležitost, Nabídka, Objednávka a Faktura. Tyto záznamy musíte vytvořit pomocí informačních stránek projektu pro tyto entity. Jinak nebudete moci otevřít záznamy ze stránky **Informace o projektu**. Pokud chcete otevřít záznam ze stránky **Informace o projektu**, musíte záznam odstranit a znovu ho vytvořit pomocí stránky **Informace o projektu**, kde obchodní logika pro každý z těchto typů entit zajišťuje, že pole **Typ** záznamu je nastaveno správně a všechny povinné koncepty jsou správně inicializovány.
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Sledování revizí nabídek a projektových plánů v prodejním cyklu

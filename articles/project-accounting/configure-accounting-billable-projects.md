@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 32031742b1a9580b9ebdbaf6952a998733be5e8f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073694"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131965"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurace účetnictví pro fakturovatelné projekty
 
@@ -21,8 +21,8 @@ _**Platí pro:** Project Operations scénáře založené na zdrojích / položk
 
 Dynamics 365 Project Operations podporuje různé možnosti účtování pro fakturovatelné projekty, které zahrnují časové a materiálové transakce a transakce s pevnou cenou.
 
-- **Časové a materiálové transakce** : Tyto transakce jsou fakturovány podle postupu práce na základě spotřeby hodin, výdajů, položek nebo poplatků na projektu. Tyto transakční náklady lze porovnat s výnosy z každé transakce a projekt je fakturován podle postupu práce. Výnosy z projektu lze také akumulovat v době, kdy k transakci dojde. Během fakturace jsou výnosy uznány a časově rozlišené výnosy jsou případně stornovány.
-- **Transakce s pevnou cenou** : tyto transakce fakturovány podle plánu fakturace, který je založen na smlouvě o projektu. Výnosy z transakcí s pevnou cenou lze uznat při fakturaci nebo vypočítat a zaúčtovat pravidelně podle metody **Dokončená smlouva** nebo **Dokončené procento**.
+- **Časové a materiálové transakce**: Tyto transakce jsou fakturovány podle postupu práce na základě spotřeby hodin, výdajů, položek nebo poplatků na projektu. Tyto transakční náklady lze porovnat s výnosy z každé transakce a projekt je fakturován podle postupu práce. Výnosy z projektu lze také akumulovat v době, kdy k transakci dojde. Během fakturace jsou výnosy uznány a časově rozlišené výnosy jsou případně stornovány.
+- **Transakce s pevnou cenou**: tyto transakce fakturovány podle plánu fakturace, který je založen na smlouvě o projektu. Výnosy z transakcí s pevnou cenou lze uznat při fakturaci nebo vypočítat a zaúčtovat pravidelně podle metody **Dokončená smlouva** nebo **Dokončené procento**.
 
 Projekt je považován za fakturovatelný, pokud je spojen s jedním nebo více řádků smlouvy. Řádek smlouvy projektu sám definuje, které způsoby fakturace a typy transakcí jsou povoleny.
 
@@ -45,47 +45,47 @@ Pomocí následujících kroků vytvořte nový profil nákladů a výnosů proj
 3. V poli **Název** zadejte název a krátký popis profilu.
 4. V poli **Způsob účtování** vyberte **Čas a materiál** nebo **Pevná cena**.
 5. Rozbalte pevnou záložku **Účetní kniha**. Pole na této kartě definují účetní zásady, které se používají, když jsou transakce projektu zapsány do deníku pomocí deníku integrace Project Operations a poté fakturovány prostřednictvím návrhu faktury projektu.
-6. Vyberte příslušné informace v následujících polích na pevné záložce **Hlavní kniha** :
+6. Vyberte příslušné informace v následujících polích na pevné záložce **Hlavní kniha**:
 
-    - **Zaúčtovat náklady - hodiny** :
+    - **Zaúčtovat náklady - hodiny**:
 
-       - *Žádná hlavní kniha* : Cena za časové transakce nebude zaúčtována do hlavní knihy, když bude zaúčtován deník integrace Project Operations. Účetní však může zaúčtovat náklady pomocí funkce Zaúčtovat náklady později.
-       - **Zůstatek** : Náklady za časové transakce budou odečteny z účtu hlavní knihy typem *Nedokončená práce - hodnota nákladů* a připsány na *Účet přidělování mezd* v nastavení účtování v hlavní knize. Účetní bude pomocí funkce Zaúčtovat náklady pravidelně přesouvat tyto náklady z účtu zůstatku na účet zisků a ztrát.
-       - **Zisk a ztráta** : Při zaúčtování deníku integrace Project Operations budou náklady za časovou transakci odečteny z účtu hlavní knihy typu *Náklady* a připsány na *Účet přidělování mezd* definovaný na kartě **Náklady** na stránce **Nastavení účtování hlavní knihy** ( **Řízení projektů a účetnictví** \> **Nastavení** \> **Účtování** \> **Nastavení účtování hlavní knihy** ). Toto je nejběžnější nastavení pro časové a materiálové transakce.
-        - *Nikdy hlavní kniha* : Cena za časové transakce nebude nikdy zaúčtována do hlavní knihy.
+       - *Žádná hlavní kniha*: Cena za časové transakce nebude zaúčtována do hlavní knihy, když bude zaúčtován deník integrace Project Operations. Účetní však může zaúčtovat náklady pomocí funkce Zaúčtovat náklady později.
+       - **Zůstatek**: Náklady za časové transakce budou odečteny z účtu hlavní knihy typem *Nedokončená práce - hodnota nákladů* a připsány na *Účet přidělování mezd* v nastavení účtování v hlavní knize. Účetní bude pomocí funkce Zaúčtovat náklady pravidelně přesouvat tyto náklady z účtu zůstatku na účet zisků a ztrát.
+       - **Zisk a ztráta**: Při zaúčtování deníku integrace Project Operations budou náklady za časovou transakci odečteny z účtu hlavní knihy typu *Náklady* a připsány na *Účet přidělování mezd* definovaný na kartě **Náklady** na stránce **Nastavení účtování hlavní knihy** (**Řízení projektů a účetnictví** \> **Nastavení** \> **Účtování** \> **Nastavení účtování hlavní knihy**). Toto je nejběžnější nastavení pro časové a materiálové transakce.
+        - *Nikdy hlavní kniha*: Cena za časové transakce nebude nikdy zaúčtována do hlavní knihy.
 
-    - **Zaúčtování nákladů - výdaje** :
+    - **Zaúčtování nákladů - výdaje**:
 
-         - **Zůstatek** : Při zaúčtování deníku integrace Project Operations budou náklady výdajových transakcí odečteny z účtu hlavní knihy typem *Nedokončená práce - hodnota nákladů* , jak je definováno na kartě **Náklady** na stránce **Nastavení účtování hlavní knihy** a připsány na offsetový účet na řádku deníku. Výchozí offsetové účty pro výdaj jsou definovány v **Řízení projektů a účetnictví** > **Nastavení** \> **Účtování** \> **Výchozí offsetový účet pro výdaje**. Účetní bude pomocí funkce **Zaúčtovat náklady** pravidelně přesouvat tyto náklady z účtu zůstatku na účet zisků a ztrát.
-        - **Zisk a ztráta** : Při zaúčtování deníku integrace Project Operations budou náklady výdajových transakcí odečteny z účtu hlavní knihy typem *Náklady* , jak je definováno na kartě **Náklady** na stránce **Nastavení účtování hlavní knihy** a připsány na offsetový účet na řádku deníku. Výchozí offsetové účty pro výdaj jsou definovány v **Řízení projektů a účetnictví** \> **Nastavení** \> **Účtování** \> **Výchozí offsetový účet pro výdaje**.
+         - **Zůstatek** : Při zaúčtování deníku integrace Project Operations budou náklady výdajových transakcí odečteny z účtu hlavní knihy typem *Nedokončená práce - hodnota nákladů*, jak je definováno na kartě **Náklady** na stránce **Nastavení účtování hlavní knihy** a připsány na offsetový účet na řádku deníku. Výchozí offsetové účty pro výdaj jsou definovány v **Řízení projektů a účetnictví** > **Nastavení** \> **Účtování** \> **Výchozí offsetový účet pro výdaje**. Účetní bude pomocí funkce **Zaúčtovat náklady** pravidelně přesouvat tyto náklady z účtu zůstatku na účet zisků a ztrát.
+        - **Zisk a ztráta**: Při zaúčtování deníku integrace Project Operations budou náklady výdajových transakcí odečteny z účtu hlavní knihy typem *Náklady*, jak je definováno na kartě **Náklady** na stránce **Nastavení účtování hlavní knihy** a připsány na offsetový účet na řádku deníku. Výchozí offsetové účty pro výdaj jsou definovány v **Řízení projektů a účetnictví** \> **Nastavení** \> **Účtování** \> **Výchozí offsetový účet pro výdaje**.
        
-    - **Fakturace na účet** :
+    - **Fakturace na účet**:
 
-        - **Zůstatek** : Při zaúčtování návrhu faktury projektu bude transakce na účtu (milník fakturace) připsána na typ účtu hlavní knihy *Fakturovaná nedokončená práce - na účet* , jak je definováno na kartě **Výnosy** na stránce **Nastavení účtování hlavní knihy** a odečtena z účtu zůstatku zákazníka.
-         - **Zisk a ztráta** : Při zaúčtování návrhu faktury projektu bude transakce na účtu (milník fakturace) připsána na typ účtu hlavní knihy *Fakturované výnosy - na účet* , jak je definováno na kartě **Výnosy** na stránce **Nastavení účtování hlavní knihy** a odečtena z účtu zůstatku zákazníka. Účty zůstatku zákazníka jsou definovány v **Pohledávky** \> **Nastavení** \> **Profily účtování zákazníků**.
+        - **Zůstatek** : Při zaúčtování návrhu faktury projektu bude transakce na účtu (milník fakturace) připsána na typ účtu hlavní knihy *Fakturovaná nedokončená práce - na účet*, jak je definováno na kartě **Výnosy** na stránce **Nastavení účtování hlavní knihy** a odečtena z účtu zůstatku zákazníka.
+         - **Zisk a ztráta**: Při zaúčtování návrhu faktury projektu bude transakce na účtu (milník fakturace) připsána na typ účtu hlavní knihy *Fakturované výnosy - na účet*, jak je definováno na kartě **Výnosy** na stránce **Nastavení účtování hlavní knihy** a odečtena z účtu zůstatku zákazníka. Účty zůstatku zákazníka jsou definovány v **Pohledávky** \> **Nastavení** \> **Profily účtování zákazníků**.
 
-   Když definujete profily účtování pro metody účtování času a materiálu, máte možnost časové rozložit výnosy podle typu transakce (hodina, výdaj a poplatek). Pokud je možnost **Časové rozložzit výnosy** nastavena na **Ano** , nevyfakturované prodejní transakce v deníku integrace Project Operations budou zaznamenány do hlavní knihy. Hodnota prodeje je odepsána z **Nedokončené práce - účet hodnoty prodeje** a připsána na účet **Časově rozložené příjmy - hodnota prodeje** , který byl zřízen na stránce **Nastavení účtování hlavní knihy** na kartě **Výnosy**. 
+   Když definujete profily účtování pro metody účtování času a materiálu, máte možnost časové rozložit výnosy podle typu transakce (hodina, výdaj a poplatek). Pokud je možnost **Časové rozložzit výnosy** nastavena na **Ano**, nevyfakturované prodejní transakce v deníku integrace Project Operations budou zaznamenány do hlavní knihy. Hodnota prodeje je odepsána z **Nedokončené práce - účet hodnoty prodeje** a připsána na účet **Časově rozložené příjmy - hodnota prodeje**, který byl zřízen na stránce **Nastavení účtování hlavní knihy** na kartě **Výnosy**. 
   
   > [!NOTE]
   > Možnost **Časově rozložit příjmy** je k dispozici pouze v případě, že příslušný typ transakce **Náklady** se zaúčtuje na účet zisků a ztrát.
     
 7. Rozbalte pevnou záložku **Odhad**. Pole na této kartě definují nastavení výpočtu pro odhady výnosů z pevné ceny. Pole na této kartě se vztahují pouze na profily nákladů a výnosů projektu s metodou fakturace **Pevná cena**.
-8. Vyberte příslušné informace v následujících polích na pevné záložce **Odhad** :
+8. Vyberte příslušné informace v následujících polích na pevné záložce **Odhad**:
 
-    - **Zásada použitá pro výpočty dokončení projektu** :
+    - **Zásada použitá pro výpočty dokončení projektu**:
 
-        - **Dokončená smlouva** : K porovnávání nákladů a rozpoznávání výnosů dojde až na konci projektu. Náklady se odrážejí jako Nedokončená práce v zůstatku, dokud není projekt dokončen.
-        - **Dokončené procento** : Časově rozlišené výnosy se počítají a zaúčtují do účetní knihy každé období na základě procenta dokončení projektu. Existuje několik metod pro výpočet procentního dokončení. Tyto metody mohou být na základě konfigurace automatické nebo ruční.
-        - **Žádné nedokončené práce** : Toto nastavení se používá pro projekty s pevnou cenou s krátkým časovým rozpětím a kde se faktura a náklady vyskytují ve stejném období. V tomto případě je hodnota pole **Fakturace na účet** na pevné záložce **Účetní kniha** automaticky nastavena na **Zisk a ztráta** , aby se zajistilo, že jsou výnosy uznány při fakturaci. Proces odhadu výnosů nebude použit pro tento profil nákladů a výnosů projektu.
+        - **Dokončená smlouva**: K porovnávání nákladů a rozpoznávání výnosů dojde až na konci projektu. Náklady se odrážejí jako Nedokončená práce v zůstatku, dokud není projekt dokončen.
+        - **Dokončené procento**: Časově rozlišené výnosy se počítají a zaúčtují do účetní knihy každé období na základě procenta dokončení projektu. Existuje několik metod pro výpočet procentního dokončení. Tyto metody mohou být na základě konfigurace automatické nebo ruční.
+        - **Žádné nedokončené práce**: Toto nastavení se používá pro projekty s pevnou cenou s krátkým časovým rozpětím a kde se faktura a náklady vyskytují ve stejném období. V tomto případě je hodnota pole **Fakturace na účet** na pevné záložce **Účetní kniha** automaticky nastavena na **Zisk a ztráta**, aby se zajistilo, že jsou výnosy uznány při fakturaci. Proces odhadu výnosů nebude použit pro tento profil nákladů a výnosů projektu.
 
-    - **Zásada přiřazení** : Toto pole určuje, jak bude vypočítaná hodnota prodeje (časově rozložený výnos) zaúčtována do hlavní knihy.
+    - **Zásada přiřazení**: Toto pole určuje, jak bude vypočítaná hodnota prodeje (časově rozložený výnos) zaúčtována do hlavní knihy.
 
         - Při použití zásady **Hodnota prodeje** systém vypočítá hodnotu prodeje přiřazením nákladů a výnosů a poté je zaúčtuje jako jednu částku.
         - Při použití zásady **Výroba a zisk** systém rozdělí hodnotu prodeje na realizované náklady a vypočítaný zisk. Ty jsou zaúčtovány samostatně.
 
-    - **Šablony nákladů** : Povolit seskupování transakcí projektu na základě typu transakce a kategorie projektu a definovat pravidla výpočtu procentního dokončení pro tyto skupiny.
-    - **Kódy období** : Definujte frekvenci, s jakou se počítají odhady výnosů pro daný profil nákladů a výnosů projektu.
-    - **Kategorie pro odhad** : Používá se pro prodejní hodnotu (časově rozložený výnos) zaúčtování do transakcí projektu. Nejprve nakonfigurujte kategorii vyhrazeného projektu pro typ transakce **Poplatek** a poté nastavte příznak **Odhad** pro tuto kategorii projektu. Dále v závislosti na vybraném principu párování vyberte tuto kategorii projektu v hodnotě **Prodej** nebo poli **Zisk** v profilu nákladů a výnosů projektu.
+    - **Šablony nákladů**: Povolit seskupování transakcí projektu na základě typu transakce a kategorie projektu a definovat pravidla výpočtu procentního dokončení pro tyto skupiny.
+    - **Kódy období**: Definujte frekvenci, s jakou se počítají odhady výnosů pro daný profil nákladů a výnosů projektu.
+    - **Kategorie pro odhad**: Používá se pro prodejní hodnotu (časově rozložený výnos) zaúčtování do transakcí projektu. Nejprve nakonfigurujte kategorii vyhrazeného projektu pro typ transakce **Poplatek** a poté nastavte příznak **Odhad** pro tuto kategorii projektu. Dále v závislosti na vybraném principu párování vyberte tuto kategorii projektu v hodnotě **Prodej** nebo poli **Zisk** v profilu nákladů a výnosů projektu.
 
 ### <a name="sample-configurations-for-project-cost-and-revenue-profiles"></a>Ukázkové konfigurace pro profily nákladů a výnosů projektu
 

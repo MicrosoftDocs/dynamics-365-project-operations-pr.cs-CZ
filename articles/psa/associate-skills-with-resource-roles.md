@@ -3,7 +3,7 @@ title: Přidružení dovedností k rolím zdrojů
 description: Postup přidružení dovedností k rolím zdrojů v Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b4d5fe145fc39afc1a909e0ff274c19e9a36d7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70c4b5cfca1495cb887ad6034542c46fd4cb079c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073897"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130255"
 ---
 # <a name="associate-skills-with-resource-roles-project-service"></a>Přidružení dovedností k rolím zdrojů (Project Service)
 
@@ -37,7 +37,7 @@ Při přidávání rolí zdrojů jim pravděpodobně již byly přiřazeny někt
   
 3.  V oblasti **Dovednosti** kliknutím na položku **+** přidejte dovednost.  
   
-4.  V podokně požadavků na kompetence role klikněte do pole **Dovednost** , poté na tlačítko **Hledat** a potom vyberte dovednost.  
+4.  V podokně požadavků na kompetence role klikněte do pole **Dovednost**, poté na tlačítko **Hledat** a potom vyberte dovednost.  
   
 5.  Vyberte odborné způsobilosti pro dovednost a poté klikněte na tlačítko **Uložit**.  
   

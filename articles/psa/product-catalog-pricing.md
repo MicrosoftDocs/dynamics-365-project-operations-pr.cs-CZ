@@ -3,7 +3,7 @@ title: Ceny v katalogu produktů
 description: Toto téma obsahuje informace o tom, jak v Dynamics 365 Project Service Automation (PSA) fungují ceny v katalogu produktů.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073811"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132235"
 ---
 # <a name="product-catalog-pricing"></a>Ceny v katalogu produktů 
 
@@ -46,11 +46,11 @@ PSA podporuje různé možnosti zaokrouhlení, pokud jsou ceny konfigurovány ja
 
 > ![Přidání produktů z katalogu do různých ceníků](media/basic-guide-16.png)
 
-Když vytvoříte nový vlastní ceník pro nabídku pomocí výběru **Vytvořit vlastní ceny** na stránce **Projektová nabídka** , PSA vytvoří kopii ceníku a pole **Entita** v záhlaví nového ceníku bude nastaveno na **Entita prodeje**. K názvu nového ceníku je připojen název nabídky a časové razítko. Název nového ceníku a název nabídky ve vlastních pracovních postupech můžete také použít k aktivaci další kontroly a schválení pro nabídky, které používají vlastní ceny.
+Když vytvoříte nový vlastní ceník pro nabídku pomocí výběru **Vytvořit vlastní ceny** na stránce **Projektová nabídka**, PSA vytvoří kopii ceníku a pole **Entita** v záhlaví nového ceníku bude nastaveno na **Entita prodeje**. K názvu nového ceníku je připojen název nabídky a časové razítko. Název nového ceníku a název nabídky ve vlastních pracovních postupech můžete také použít k aktivaci další kontroly a schválení pro nabídky, které používají vlastní ceny.
 
  
 ## <a name="default-product-price-list"></a>Výchozí ceník produktu
-Každý záznam zákazníka obsahuje pole **Výchozí ceník** , ve kterém můžete určit ceník, který odpovídá měně zákazníka. V PSA se do tohoto pole nevloží automaticky výchozí hodnota. Pokud existuje vlastní cenová dohoda s určitým zákazníkem, můžete toto pole použít k přidružení ceníku k tomuto zákazníkovi.
+Každý záznam zákazníka obsahuje pole **Výchozí ceník**, ve kterém můžete určit ceník, který odpovídá měně zákazníka. V PSA se do tohoto pole nevloží automaticky výchozí hodnota. Pokud existuje vlastní cenová dohoda s určitým zákazníkem, můžete toto pole použít k přidružení ceníku k tomuto zákazníkovi.
 
 Entity Příležitost, Nabídka a Projektová smlouva používají k zadávání výchozích ceníků produktů následující pořadí. Stejné pořadí se používá pro projektové ceníky.
 

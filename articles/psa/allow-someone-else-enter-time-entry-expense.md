@@ -3,7 +3,7 @@ title: Umožnění jinému uživateli zadat váš časový záznam nebo výdaj
 description: Postup umožnění jiným uživatelům zadat váš časový záznam nebo výdaj v Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073753"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130348"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Umožnění jinému uživateli zadat váš časový záznam nebo výdaj (Project Service)
 
@@ -37,13 +37,13 @@ Nastavte delegáta, chcete-li umožnit jinému uživateli vytvářet časové ne
   
 2.  Na panelu příkazů klikněte na položku **Nový**.  
   
-3. **Název** : Zadejte název záznamu.  
+3. **Název**: Zadejte název záznamu.  
   
-4. **Typ** : Vyberte, zda může delegát zadávat časové nebo výdajové záznamy vaším jménem.  
+4. **Typ**: Vyberte, zda může delegát zadávat časové nebo výdajové záznamy vaším jménem.  
   
-5. **Delegát** : Vyberte jméno osoby, která má být delegátem.  
+5. **Delegát**: Vyberte jméno osoby, která má být delegátem.  
   
-6. **Počáteční a koncová data** : Zvolte data, kdy bude delegace začínat a končit.  
+6. **Počáteční a koncová data**: Zvolte data, kdy bude delegace začínat a končit.  
   
 7.  Až budete hotovi, klikněte na možnost **Uložit a zavřít**.  
   

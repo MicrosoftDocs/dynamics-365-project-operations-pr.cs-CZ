@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9dd43be79f8e906298578911b3bff03e66c2f1e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 616bcd5758b434b45bd06aa1a026f32efc8b7f99
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073818"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130885"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Vytvoření vlastních polí a entit jako cenových dimenzí
 
@@ -36,7 +36,7 @@ Následující kroky proveďte pokaždé, když chcete vytvořit vlastní sadu m
 
 ## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Vytvoření vlastního řešení pro cenové dimenze
 1. Přejděte na **Nastavení** > **Řešení** a pak zvolte **Nové** a vytvořte nové řešení. 
-2. Řešení nazvěte **\<your organization name> cenové dimenze** , zadejte zbývající požadované informace a poté vyberte **Uložit**.
+2. Řešení nazvěte **\<your organization name> cenové dimenze**, zadejte zbývající požadované informace a poté vyberte **Uložit**.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Vytvoření vlastních polí a sad možností v řešení cenové dimenze
 
@@ -60,9 +60,9 @@ Můžete vytvořit dvě dimenze založené na sadě možností. Ke sledování c
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Vytvoření dat pro dimenze založené na entitě
 
-Data lze pro dimenze založené na entitě vytvořit ručně nebo pomocí importu aplikace Microsoft Excel nebo volání služby. Pomocí kroků v tomto postupu můžete z dimenze **Standardní funkce** , která je založena na entitě, vytvořit dvě standardní funkce, **Systémový technik** a **Hlavní systémový technik**. Pokud jsou data, která chcete vytvořit, malá, jako v následujícím příkladu, můžete použít standardní formulář.
+Data lze pro dimenze založené na entitě vytvořit ručně nebo pomocí importu aplikace Microsoft Excel nebo volání služby. Pomocí kroků v tomto postupu můžete z dimenze **Standardní funkce**, která je založena na entitě, vytvořit dvě standardní funkce, **Systémový technik** a **Hlavní systémový technik**. Pokud jsou data, která chcete vytvořit, malá, jako v následujícím příkladu, můžete použít standardní formulář.
 
-1. Vyberte **Pokročilé hledání** , vyberte entitu **Standardní funkce** a potom vyberte **Výsledky**. Zobrazí se všechny řádky v entitě **Standardní funkce**.
+1. Vyberte **Pokročilé hledání**, vyberte entitu **Standardní funkce** a potom vyberte **Výsledky**. Zobrazí se všechny řádky v entitě **Standardní funkce**.
 2. Vyberte **Nový** a v poli **Název** vyberte "Systémový inženýr" a pak zvolte **Uložit**.
 3. Zavře formulář. 
 4. Opakováním kroků 1–3 vytvořte další standardní funkci pro „Hlavního systémového technika”.

@@ -1,21 +1,21 @@
 ---
-title: Kredity a opravené faktury
+title: Opravené faktury – omezené
 description: Toto téma poskytuje informace o opravených fakturách v aplikaci Project Operations
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073891"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176423"
 ---
-# <a name="credits-and-corrected-invoices"></a>Kredity a opravené faktury
+# <a name="corrected-invoices---lite"></a>Opravené faktury – omezené
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
@@ -35,7 +35,7 @@ Z potvrzené faktury se vytvoří nový koncept faktury. Všechny podrobnosti ř
 - Odsouhlasení záloh lze opravit, pokud byla použita nesprávná částka k vyrovnání proti poplatkům na dříve potvrzené faktuře.
 
 > [!IMPORTANT]
-> Podrobnosti řádku faktury, které jsou opravami dalších již fakturovaných poplatků, mají pole **Oprava** nastavený na **Ano**. Faktury, které opravují podrobnosti řádku faktury, mají pole s názvem **Má opravy** , které je také nastaveno na **Ano**.
+> Podrobnosti řádku faktury, které jsou opravami dalších již fakturovaných poplatků, mají pole **Oprava** nastavený na **Ano**. Faktury, které opravují podrobnosti řádku faktury, mají pole s názvem **Má opravy**, které je také nastaveno na **Ano**.
 
 ## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Skutečné hodnoty vytvořené při potvrzení opravné faktury:
 

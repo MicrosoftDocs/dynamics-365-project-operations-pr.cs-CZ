@@ -3,7 +3,7 @@ title: Instalace ukázkových dat
 description: Tento téma poskytuje informace o instalaci ukázkových dat v Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073845"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132415"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalace ukázkových dat pro aplikaci Project Service
 
@@ -43,13 +43,13 @@ Nejnovější balíček **ukázkových** dat je:
 Tyto balíčky ukázkových dat jsou k dispozici pouze v angličtině.
 
 > [!IMPORTANT]
-> **Neexistuje žádný způsob odinstalace ukázkových dat.** Proto byste měli tyto balíčky instalovat pouze pro účely ukázky, hodnocení, školení nebo testování systémů. Všimněte si také, že instalace samostatného balíčku a následná instalace dalších jednotlivých balíčků není podporována. (Jinými slovy, nelze nainstalovat **FSMasterData** a potom **PSMasterData** , nebo naopak.) Pokud máte pocit, že v budoucnu budete potřebovat ukázková data pro obě aplikace, měli byste nainstalovat balíček **v902FPSMasterData**.
+> **Neexistuje žádný způsob odinstalace ukázkových dat.** Proto byste měli tyto balíčky instalovat pouze pro účely ukázky, hodnocení, školení nebo testování systémů. Všimněte si také, že instalace samostatného balíčku a následná instalace dalších jednotlivých balíčků není podporována. (Jinými slovy, nelze nainstalovat **FSMasterData** a potom **PSMasterData**, nebo naopak.) Pokud máte pocit, že v budoucnu budete potřebovat ukázková data pro obě aplikace, měli byste nainstalovat balíček **v902FPSMasterData**.
 
 Při instalaci kteréhokoli z balíčků ukázkových dat proces instalace provede následující akce:
 
 - Vytvoří nebo nastaví výchozí parametry pro použití aplikace Project Service, Field Service nebo obou (pokud existuje).
 
-- Importuje ukázková data pro aplikace, například rezervovatelné prostředky, role specifické pro aplikaci, prodej a ceníky nákladů, organizační jednotky, záznamy prodejního procesu a jiných subjektů k prokázání klíčových schopností.  
+- Importuje ukázková data pro aplikace, například rezervovatelné prostředky, role specifické pro aplikaci, prodej a ceníky nákladů, organizační jednotky, záznamy prodejního procesu a jiných subjektů k prokázání klíčových schopností.  
 
 S balíčkem **ukázkových dat** získáte výše uvedená a další transakční data, jako jsou pracovní příkazy a projekty.
 
@@ -80,7 +80,7 @@ Protokol instalace předpokládá následující skutečnosti týkající se va�
 
 Je nutné spustit instalační program v počítači s nejnovější verzí systému Windows (ideálně Windows 10).
 
-Měli byste naplánovat, aby počítač zůstal připojený k síti, a počítat s tím, že instalace může trvat až **1 hodinu** pro **data nastavení a referenční data**. (Obvykle instalace trvá přibližně 30 minut u **FPSMasterData** , který obsahuje ukázková data pro obě aplikace.) U **FPSDemoData** bude instalace trvat kolem **3 hodin**.
+Měli byste naplánovat, aby počítač zůstal připojený k síti, a počítat s tím, že instalace může trvat až **1 hodinu** pro **data nastavení a referenční data**. (Obvykle instalace trvá přibližně 30 minut u **FPSMasterData**, který obsahuje ukázková data pro obě aplikace.) U **FPSDemoData** bude instalace trvat kolem **3 hodin**.
 
 Na počítači by měla být vypnuta funkce spořiče obrazovky. Jinak se můžou při aktivaci spořiče obrazovky ztratit přihlašovací údaje pro instalaci (pokud nezachováte relaci po celou dobu aktivní).
 
@@ -114,13 +114,13 @@ Balíček **FPSMasterData** je navržen pro instalaci s jedním uživatelem pojm
 
 Chcete-li vytvořit nebo konfigurovat uživatele, přejděte na **Nastavení** > **Zabezpečení** > **Uživatelé** a proveďte následující kroky:
 
-1. Nastavte UserFullname="Spencer Low" s uživatelským jménem "spencerl" ( **malými písmeny** ) na role Project Manager a Practice Manager.
+1. Nastavte UserFullname="Spencer Low" s uživatelským jménem "spencerl" (**malými písmeny**) na role Project Manager a Practice Manager.
 
 2. Vyberte uživatele **Spencer Low** a pak vyberte **Spravovat role**. Vyhledejte a vyberte roli **Správce systému** a pak vyberte **OK** k udělení úplných oprávnění pro správu uživateli Spencer Low. Tento krok je nezbytný pro zajištění, že ukázkové záznamy jsou vytvořeny se správným uživatelským vlastnictvím a tedy správně naplňují zobrazení.
 
 3. Ze staženého balíčku musíte aktualizovat soubor mapování dat pomocí e-mailových adres výchozího kontextu uživatele. Postupujte tak, že otevřete složku **PkgFolder** a potom vyhledáte a otevřete soubor **ImportUserMapFile.xml** v programu Poznámkový blok (nebo Visual Studio nebo v jiném editoru XML). Nastavte v poli **DefaultUserToMapTo =** e-mailovou adresu uživatele Spencer Low.
 
-4. Pokud nevystupujete jako uživatel Spencer Low s uživatelským jménem **spencerl** , je třeba aktualizovat další soubor. Otevřete soubor **DemoDataPreImportConfig.xml** a potom vyhledejte značku **userstocreateandconfigure**. Aktualizujte značku **\<login\>** uživatelským jménem uživatele Spencer Low. Další podrobnosti naleznete v [technických poznámkách](#technical-notes).
+4. Pokud nevystupujete jako uživatel Spencer Low s uživatelským jménem **spencerl**, je třeba aktualizovat další soubor. Otevřete soubor **DemoDataPreImportConfig.xml** a potom vyhledejte značku **userstocreateandconfigure**. Aktualizujte značku **\<login\>** uživatelským jménem uživatele Spencer Low. Další podrobnosti naleznete v [technických poznámkách](#technical-notes).
 
 ## <a name="create-or-configure-users---demo-data-package"></a>Vytvoření nebo konfigurace uživatelů - balíček ukázkových dat
 
@@ -143,9 +143,9 @@ Balíček ukázkových dat vyžaduje šest uživatelů. Pro správnou instalaci 
    > [!div class="mx-imgBorder"]
    > ![Snímek obrazovky UserMapFile](media/sample-data-7.png)
 
-4. Pokud má celé jméno uživatele Spencer Low jiné ID uživatele než **"spencerl"** , je třeba aktualizovat další soubor. Otevřete **DemoDataPreImportConfig.xml** a potom vyhledejte značku **userstocreateandconfigure**. Aktualizujte značku **\<login\>** s loginId (rozlišuje velká a malá písmena). 
+4. Pokud má celé jméno uživatele Spencer Low jiné ID uživatele než **"spencerl"**, je třeba aktualizovat další soubor. Otevřete **DemoDataPreImportConfig.xml** a potom vyhledejte značku **userstocreateandconfigure**. Aktualizujte značku **\<login\>** s loginId (rozlišuje velká a malá písmena). 
 
-5. Kalendář prvního uživatele (ve značce **userstocreateandconfigure** ) slouží k naplnění pracovní doby pro všechny rezervovatelné prostředky při importu ukázkových dat. Přejděte do **Nastavení** > **Zabezpečení** > **Uživatelé** , vyhledeje uživatele Spencer Low a otevřete možnost Pracovní doba. Upravte existující pracovní dobu výběrem možnosti **Celý opakovaný týdenní plán od začátku do konce**. Ujistěte se, že **pracovní doba je nastavena na 8:00 - 17:00 (9 hodin), od pondělí do pátku a v časovém pásmu Tichomoří (USA a Kanada)**. To je nutné proto, aby se , aby se Projekt a Plánovací vývěska zobrazovaly podle očekávání.
+5. Kalendář prvního uživatele (ve značce **userstocreateandconfigure**) slouží k naplnění pracovní doby pro všechny rezervovatelné prostředky při importu ukázkových dat. Přejděte do **Nastavení** > **Zabezpečení** > **Uživatelé**, vyhledeje uživatele Spencer Low a otevřete možnost Pracovní doba. Upravte existující pracovní dobu výběrem možnosti **Celý opakovaný týdenní plán od začátku do konce**. Ujistěte se, že **pracovní doba je nastavena na 8:00 - 17:00 (9 hodin), od pondělí do pátku a v časovém pásmu Tichomoří (USA a Kanada)**. To je nutné proto, aby se , aby se Projekt a Plánovací vývěska zobrazovaly podle očekávání.
 
 **Doporučení:** Nyní zvažte vytvoření zálohy organizace pro případ, že budete potřebovat obnovit počáteční bod, pokud dojde k chybě při instalaci ukázkových dat. Další informace získáte v části [Instance zálohování a obnovení](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
@@ -168,7 +168,7 @@ Balíček ukázkových dat vyžaduje šest uživatelů. Pro správnou instalaci 
 
 4. Vyberte organizaci, ve které chcete nainstalovat ukázková data.
 
-5. Klikejte na **Další** , dokud se nezobrazí dialogové okno **Nastavení ukázkových dat**.
+5. Klikejte na **Další**, dokud se nezobrazí dialogové okno **Nastavení ukázkových dat**.
 
    > [!div class="mx-imgBorder"]
    > ![Snímek obrazovky stavového okna instalačního programu ukázkových dat](media/sample-data-3.png)
@@ -241,7 +241,7 @@ V tomto konfiguračním souboru před importem existuje několik dalších souč
 
 ### <a name="fabrikam-robotics-fictitious-scenario"></a>Fiktivní scénář společnosti Fabrikam Robotics
 
-Balíčky referenčních ukázkových dat Field Service a Project Service instalují řešení **Fabrikam Manufacturing Master Data (v3.0.0.0)** , spolu s přibližně 4 000 záznamy a 40 různými entitami. Samostatné balíčky ukázkových dat pro aplikaci Field Service nebo Project Service obsahují dílčí sadu ukázkových dat **v902FPSMasterData** pro tuto aplikaci. Balíček **Ukázková Data** instaluje **řešení Fabrikam Manufacturing Demo Data (v3.0.0.7)** s přibližně 22 000 záznamů napříč 148 subjekty.
+Balíčky referenčních ukázkových dat Field Service a Project Service instalují řešení **Fabrikam Manufacturing Master Data (v3.0.0.0)**, spolu s přibližně 4 000 záznamy a 40 různými entitami. Samostatné balíčky ukázkových dat pro aplikaci Field Service nebo Project Service obsahují dílčí sadu ukázkových dat **v902FPSMasterData** pro tuto aplikaci. Balíček **Ukázková Data** instaluje **řešení Fabrikam Manufacturing Demo Data (v3.0.0.7)** s přibližně 22 000 záznamů napříč 148 subjekty.
 
 Fiktivní společnost Fabrikam Robotics je výrobce robotů montážní linky elektronických zařízení a je známá díky kvalitě svých výrobků, inovacím a solidním službám zákazníkům, včetně instalace, plánování, implementace a průběžných služeb údržby. Společnost Fabrikam sídlí ve Spojených státech (Fabrikam USA) a má operace služeb založené na projektu ve Francii, Indii, Spojeném království a Švýcarsku.
 

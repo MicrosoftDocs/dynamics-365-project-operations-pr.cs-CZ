@@ -1,12 +1,12 @@
 ---
-title: Projektové ceníky
+title: Správa ceníků projektů v nabídce
 description: Tento téma poskytuje informace o entitě projektových ceníků.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074006"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177188"
 ---
-# <a name="project-price-lists"></a>Projektové ceníky
+# <a name="manage-project-price-lists-on-a-quote"></a>Správa ceníků projektů v nabídce
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
@@ -34,16 +34,16 @@ Dynamics 365 Project Operations rozšiřuje entitu ceníku v Dynamics 365 Sales.
 
 Ceník obsahuje informace poskytované čtyřmi různými entitami:
 
-- **Ceník** : Tato entita uchovává informace o kontextu, měně, datu účinnosti a časové jednotce pro dobu ocenění. Kontext ukazuje, zda ceník vyjadřuje nákladové sazby nebo prodejní sazby. 
-- **Měna** : Tato entita uchovává měnu cen v ceníku. 
-- **Datum** : Tato entita se používá v případě, že se systém pokouší zadat výchozí cenu pro transakci. Je vybrán ceník, který má datum účinnosti, které zahrnuje datum transakce. Pokud je nalezen více než jeden ceník, který je platný pro datum transakce a je připojen k související nabídce, smlouvě nebo organizační jednotce, pak nebude použita žádná výchozí cena. 
-- **Čas** : Tato entita uchovává jednotku času, pro kterou jsou vyjádřeny ceny, například denní nebo hodinové sazby. 
+- **Ceník**: Tato entita uchovává informace o kontextu, měně, datu účinnosti a časové jednotce pro dobu ocenění. Kontext ukazuje, zda ceník vyjadřuje nákladové sazby nebo prodejní sazby. 
+- **Měna**: Tato entita uchovává měnu cen v ceníku. 
+- **Datum**: Tato entita se používá v případě, že se systém pokouší zadat výchozí cenu pro transakci. Je vybrán ceník, který má datum účinnosti, které zahrnuje datum transakce. Pokud je nalezen více než jeden ceník, který je platný pro datum transakce a je připojen k související nabídce, smlouvě nebo organizační jednotce, pak nebude použita žádná výchozí cena. 
+- **Čas**: Tato entita uchovává jednotku času, pro kterou jsou vyjádřeny ceny, například denní nebo hodinové sazby. 
 
 Entita Ceník obsahuje tři související tabulky, ve kterých jsou uloženy ceny:
 
-  - **Cena role** : V této tabulce jsou uloženy sazby pro kombinaci hodnot role a organizační jednotky a slouží k nastavení cen lidských zdrojů založených na rolích.
-  - **Cena kategorie transakce** : Tato tabulka uchovává ceny podle kategorie transakcí a používá se k nastavení cen kategorií výdajů.
-  - **Položky ceníku** : Tato tabulka uchovává ceny pro katalogové produkty.
+  - **Cena role**: V této tabulce jsou uloženy sazby pro kombinaci hodnot role a organizační jednotky a slouží k nastavení cen lidských zdrojů založených na rolích.
+  - **Cena kategorie transakce**: Tato tabulka uchovává ceny podle kategorie transakcí a používá se k nastavení cen kategorií výdajů.
+  - **Položky ceníku**: Tato tabulka uchovává ceny pro katalogové produkty.
  
 Ceník je karta se sazbami. Karta se sazbami je kombinací entity Ceník a souvisejících řádků v tabulkách Cena role, Cena kategorie transakce a Položky ceníku.
 
@@ -53,15 +53,15 @@ Termín *Role zdroje* odkazuje na sadu dovedností, kompetencí a certifikací, 
 
 Čas lidských zdrojů je uváděn na základě role, kterou zdroj plní v určitém projektu. Pro čas lidských zdrojů jsou oceňování a fakturace založeny na roli zdroje. Čas lze ocenit v libovolné jednotce ve skupině jednotek **Čas**.
 
-Skupina jednotek **Čas** se vytvoří při instalaci Project Operations. Obsahuje výchozí jednotku **Hodina**. Atributy skupiny jednotek **Čas** nebo jednotky **Hodina** nelze odstranit, přejmenovat ani upravit. Do skupiny jednotek **Čas** však můžete přidat další jednotky. Pokud se pokusíte odstranit skupinu jednotek **Čas** nebo jednotku **Hodina** , můžete způsobit selhání v obchodní logice.
+Skupina jednotek **Čas** se vytvoří při instalaci Project Operations. Obsahuje výchozí jednotku **Hodina**. Atributy skupiny jednotek **Čas** nebo jednotky **Hodina** nelze odstranit, přejmenovat ani upravit. Do skupiny jednotek **Čas** však můžete přidat další jednotky. Pokud se pokusíte odstranit skupinu jednotek **Čas** nebo jednotku **Hodina**, můžete způsobit selhání v obchodní logice.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategorie transakcí a kategorie výdajů
 
 Cestovné a další výdaje, které vzniknou projektovým konzultantům, jsou fakturovány zákazníkovi. Ceny kategorií výdajů se dokončují pomocí ceníků. Příklady kategorií výdajů jsou letenky, hotel a pronájem aut. Každý řádek ceníku pro výdaje určuje ceny pro specifickou kategorii výdajů. K cenovým kategoriím výdajů se používají následující tři metody:
 
-- **Podle nákladů** : Výdajové náklady jsou fakturovány zákazníkovi a není použita žádná přirážka.
-- **Procento přirážky** : Procentní podíl nad skutečné náklady je fakturován zákazníkovi. 
-- **Cena za jednotku** : Fakturační cena je nastavena pro každou jednotku kategorie výdajů. Částka, která je fakturována zákazníkovi, je vypočtena na základě počtu výdajových jednotek, které konzultant hlásí. Mílovné používá metodu ocenění cena za jednotku. Kategorie výdajů na mílovné může být nakonfigurována pro 30 amerických dolarů (USD) za den nebo 2 USD na míli. Když konzultant ohlásí mílovné na projekt, fakturovaná částka se vypočte na základě počtu mil, které konzultant ohlásil.
+- **Podle nákladů**: Výdajové náklady jsou fakturovány zákazníkovi a není použita žádná přirážka.
+- **Procento přirážky**: Procentní podíl nad skutečné náklady je fakturován zákazníkovi. 
+- **Cena za jednotku**: Fakturační cena je nastavena pro každou jednotku kategorie výdajů. Částka, která je fakturována zákazníkovi, je vypočtena na základě počtu výdajových jednotek, které konzultant hlásí. Mílovné používá metodu ocenění cena za jednotku. Kategorie výdajů na mílovné může být nakonfigurována pro 30 amerických dolarů (USD) za den nebo 2 USD na míli. Když konzultant ohlásí mílovné na projekt, fakturovaná částka se vypočte na základě počtu mil, které konzultant ohlásil.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Oceňování a přepisy projektových prodejů
 

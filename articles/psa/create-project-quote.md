@@ -3,7 +3,7 @@ title: Vytvoření nabídky projektu
 description: Postup vytvoření nabídky projektu v Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efa18faffc6b5e97e8fbc21352688874d07e906f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a28bafed6fa76e21e3edb890da04f105b2b2a3c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073888"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133135"
 ---
 # <a name="create-a-project-quote-project-service"></a>Vytvoření nabídky projektu (Project Service)
 
@@ -33,7 +33,7 @@ Vytvoření nabídky je podobné vytváření příležitosti. Zatímco příle�
   
 1. Chcete-li z příležitosti vytvořit nabídku, přejděte do části  **Project Service > Příležitosti** a potom klikněte na tlačítko příležitosti, pro kterou chcete vytvořit nabídku.  
   
-2. Klikněte na tlačítko **Další fáze** na pravé straně panelu procesu a pak buď vyberte existující nabídku, nebo klikněte na tlačítko **Vytvořit** , chcete-li vytvořit novou nabídku.  
+2. Klikněte na tlačítko **Další fáze** na pravé straně panelu procesu a pak buď vyberte existující nabídku, nebo klikněte na tlačítko **Vytvořit**, chcete-li vytvořit novou nabídku.  
   
 3. V oblasti **Souhrn** podle potřeby změňte veškeré informace.  
   

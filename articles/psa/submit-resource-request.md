@@ -2,7 +2,7 @@
 title: Odeslání žádosti o zdroj
 description: Toto téma obsahuje informace o odeslání žádosti o zdroj projektu.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bcea3d640d7e9ee2b071c55bff9ade3268edb319
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f076b89c5ac7fee4866534cbd47d81f92f3ab3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073873"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131251"
 ---
 # <a name="submitting-a-resource-request"></a>Odeslání žádosti o zdroj
 
@@ -38,4 +38,4 @@ Vygenerovaný požadavek na zdroj můžete odeslat jako žádost o zdroj. Žádo
 
 Stav žádosti obecného člena týmu se změní na **Odeslána**.
 
-Po splnění žádosti správcem zdrojů bude obecný zdroj nahrazen pojmenovaným zdrojem, pokud správce zdrojů splní žádost rezervací pojmenovaného zdroje. V opačném případě zůstane obecný zdroj v týmu a stav požadavku se změní na **Potřebuje kontrolu** , pokud správce prostředků navrhl pojmenovaný zdroj.
+Po splnění žádosti správcem zdrojů bude obecný zdroj nahrazen pojmenovaným zdrojem, pokud správce zdrojů splní žádost rezervací pojmenovaného zdroje. V opačném případě zůstane obecný zdroj v týmu a stav požadavku se změní na **Potřebuje kontrolu**, pokud správce prostředků navrhl pojmenovaný zdroj.

@@ -1,25 +1,25 @@
 ---
-title: Konfigurace účtovatelných součásti řádku smlouvy na základě projektu
+title: Konfigurace účtovatelných součásti řádku smlouvy na základě projektu – omezená
 description: Tento téma poskytuje informace o tom, jak přidat účtovatelné komponenty do řádků smlouvy v Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d665a6351d2315d185e64e4eb6b0b8859f7bbc4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073687"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177143"
 ---
-# <a name="configuring-chargeable-components-of-a-project-based-contract-line"></a>Konfigurace účtovatelných součásti řádku smlouvy na základě projektu
+# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Konfigurace účtovatelných součásti řádku smlouvy na základě projektu – omezená
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
-Řádek smlouvy na základě projektu má *zahrnuté* komponenty a  *účtovatelné* komponenty.
+Řádek smlouvy na základě projektu má *zahrnuté* komponenty a *účtovatelné* komponenty.
 
 Zahrnuté komponenty jsou komponenty, které podléhají:
 
@@ -34,31 +34,31 @@ Podskupinu zahrnutých komponent lze označit jako účtovatelnou pomocí pole *
 
 Účtovatelné komponenty lze definovat na úkolech, rolích a kategoriích transakcí.
 
-Účtovatelnost je definována na úkolech pro řádek smlouvy projektu a platí pro všechny třídy transakcí zahrnutých na řádku. Pokud je pole **Zahrnout úkoly** na řádku smlouvy prázdné nebo je nastaveno na **Celý projekt** , karta **Účtovatelné úlohy** nebude k dispozici.
+Účtovatelnost je definována na úkolech pro řádek smlouvy projektu a platí pro všechny třídy transakcí zahrnutých na řádku. Pokud je pole **Zahrnout úkoly** na řádku smlouvy prázdné nebo je nastaveno na **Celý projekt**, karta **Účtovatelné úlohy** nebude k dispozici.
 
-Účtovatelnost definovaná pro role pro řádek smlouvy projektu se vztahuje pouze na třídu transakcí **Čas**. Pokud je pole **Zahrnout čas** na řádku smlouvy nastaveno na **Ne** , karta **Účtovatelné role** nebude k dispozici.
+Účtovatelnost definovaná pro role pro řádek smlouvy projektu se vztahuje pouze na třídu transakcí **Čas**. Pokud je pole **Zahrnout čas** na řádku smlouvy nastaveno na **Ne**, karta **Účtovatelné role** nebude k dispozici.
 
-Účtovatelnost definovaná na kategoriích transakcí pro řádek smlouvy projektu se vztahuje pouze na třídu transakcí **Výdaj**. Pokud je pole **Zahrnout výdaje** na řádku smlouvy nastaveno na **Ne** , karta **Účtovatelné kategorie** nebude k dispozici.
+Účtovatelnost definovaná na kategoriích transakcí pro řádek smlouvy projektu se vztahuje pouze na třídu transakcí **Výdaj**. Pokud je pole **Zahrnout výdaje** na řádku smlouvy nastaveno na **Ne**, karta **Účtovatelné kategorie** nebude k dispozici.
 
 ### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a>Nastavení úkolu projektu jako účtovatelného nebo neúčtovatelného
 
 Úkol projektu může být účtovatelný nebo neúčtovatelný na konkrétním řádku smlouvy, což umožňuje následující nastavení:
 
-Pokud řádek smlouvy na základě projektu zahrnuje **Čas** a určitý úkol, **T1** je k němu přidruženo jako účtovatelné. Pokud existuje druhý řádek smlouvy, který zahrnuje **Výdaje** , můžete úkol T1 na řádku smlouvy asociovat jako neúčtovatelný. Výsledkem je, že veškerý čas zaznamenaný na úkolu je účtovatelný a všechny náklady jsou neúčtovatelné.
+Pokud řádek smlouvy na základě projektu zahrnuje **Čas** a určitý úkol, **T1** je k němu přidruženo jako účtovatelné. Pokud existuje druhý řádek smlouvy, který zahrnuje **Výdaje**, můžete úkol T1 na řádku smlouvy asociovat jako neúčtovatelný. Výsledkem je, že veškerý čas zaznamenaný na úkolu je účtovatelný a všechny náklady jsou neúčtovatelné.
 
-Typ fakturace úkolu lze nakonfigurovat na kartě **Účtovatelné úkoly** řádku smlouvy aktualizací pole **Typ fakturace** v podmřížce úkolů řádku smlouvy. Případně můžete aktualizovat pole **Typ fakturace** v podmřížce úkolu Nastavení fakturace projektu, která zobrazuje řádky smlouvy spojené s úkolem.
+Typ fakturace úkolu lze nakonfigurovat na kartě **Účtovatelné úkoly** řádku smlouvy aktualizací pole **Typ fakturace** v podmřížce Úkoly řádku smlouvy. Alternativně můžete aktualizovat pole **Typ fakturace** v nastavení fakturace úkolu projektu, které zobrazuje řádky smluv přidružené k úkolu.
 
 ### <a name="update-a-role-as-chargeable-or-non-chargeable"></a>Nastavení role jako účtovatelné nebo neúčtovatelné
 
 Role může být účtovatelná nebo neúčtovatelná na konkrétním řádku smlouvy.
 
-Typ fakturace role lze nakonfigurovat na kartě **Účtovatelné role** řádku smlouvy. Chcete-li to provést, upravte pole **Typ fakturace** na podmřížce **Účtovatelné role**.
+Typ fakturace role lze nakonfigurovat na kartě **Účtovatelné role** řádku smlouvy. Chcete-li to provést, aktualizujte pole **Typ fakturace** v podmřížce **Účtovatelné role**.
 
 ### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a>Nastavení kategorie transakcí jako účtovatelné nebo neúčtovatelné
 
 Kategorie transakcí může být účtovatelná nebo neúčtovatelná na konkrétním řádku smlouvy.
 
-Typ fakturace transakce lze nakonfigurovat na kartě **Účtovatelné kategorie** řádku smlouvy na základě projektu. Chcete-li to provést, upravte pole **Typ fakturace** na podmřížce **Účtovatelné kategorie**.
+Typ fakturace transakce lze nakonfigurovat na kartě **Účtovatelné kategorie** řádku smlouvy na základě projektu. Chcete-li to provést, aktualizujte pole **Typ fakturace** v podmřížce **Účtovatelné kategorie**.
 
 ### <a name="resolve-chargeability"></a>Vyřešení účtovatelnosti
 
