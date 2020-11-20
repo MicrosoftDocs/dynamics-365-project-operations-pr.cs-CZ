@@ -3,7 +3,7 @@ title: Správa žádostí o zdroje
 description: Postup správy žádostí o zdroje v Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073779"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128995"
 ---
 # <a name="manage-resource-requests-project-service"></a>Správa žádostí o zdroje (Project Service)
 
@@ -37,15 +37,15 @@ Manažeři obchodních vztahů a vedoucí projektu pro jejich projekty pravideln
   
     Proveďte libovolnou z následujících možností k optimalizaci vyhledávání:  
   
-   -   Z horní části obrazovky vyberte možnost zobrazení nebo seřazení objednávek. Můžete také vybrat, zda chcete zobrazit dostupnost pro **Den** , **Týden** nebo **Měsíc** a pomocí šipek zobrazit předchozí nebo následující časové období. Pomocí vyhledávacího pole můžete vyhledat konkrétní zdroj.  
+   -   Z horní části obrazovky vyberte možnost zobrazení nebo seřazení objednávek. Můžete také vybrat, zda chcete zobrazit dostupnost pro **Den**, **Týden** nebo **Měsíc** a pomocí šipek zobrazit předchozí nebo následující časové období. Pomocí vyhledávacího pole můžete vyhledat konkrétní zdroj.  
   
    -   Kliknutím na tlačítko **Možnosti** můžete změnit, co je zobrazeno. Například můžete zobrazit legendu, která zobrazuje barevné schéma pro různé typy rezervací, nebo je možné zobrazit pouze určitý typ rezervace (například závazné rezervace nebo předběžné rezervace).  
   
-   -   Klikněte na tlačítko **Filtr** , chcete-li zobrazit podokno **Filtr** , které vám umožní filtrovat výsledky podle organizační jednotky, role, dovednosti nebo jiných atributů.  
+   -   Klikněte na tlačítko **Filtr**, chcete-li zobrazit podokno **Filtr**, které vám umožní filtrovat výsledky podle organizační jednotky, role, dovednosti nebo jiných atributů.  
   
        ![Obrazovka Žádost o zdroje Project Service](../psa/media/project-service-resource-request-screen.png "Obrazovka Žádost o zdroje Project Service")  
   
-3. V kalendáři zdroje, který chcete rezervovat, vyberte časové období pro rezervaci zdroje a potom klikněte na tlačítko **Rezervovat** , chcete-li zdroj rezervovat, nebo na tlačítko **Navrhnout rezervaci** , chcete-li rezervaci navrhnout a požádat žadatele o schválení. Když rezervujete zdroj, můžete jej rezervovat předběžně nebo závazně.  
+3. V kalendáři zdroje, který chcete rezervovat, vyberte časové období pro rezervaci zdroje a potom klikněte na tlačítko **Rezervovat**, chcete-li zdroj rezervovat, nebo na tlačítko **Navrhnout rezervaci**, chcete-li rezervaci navrhnout a požádat žadatele o schválení. Když rezervujete zdroj, můžete jej rezervovat předběžně nebo závazně.  
   
 ### <a name="see-also"></a>Viz také  
  [Příručka pro manažera zdrojů](../psa/resource-manager-guide.md)

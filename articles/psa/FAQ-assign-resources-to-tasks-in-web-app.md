@@ -3,7 +3,7 @@ title: Jak přiřadit rezervovatelný zdroj k úkolu ve webové aplikaci
 description: Přehled způsobů, kterými můžete přiřadit rezervovatelné zdroje.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7b95eff52351904f97c62b3806f17b02db47860b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073968"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125170"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Jak přiřadit rezervovatelný zdroj k úkolu ve webové aplikaci (aplikace Project Service v2.x)?
 
@@ -51,7 +51,7 @@ Při použití této metody přidáte zdroj do projektového týmu a poté při�
     - **Rovnoměrně rozdělit podle hodin** rezervuje zdroj pro určený počet hodin a distribuuje ho rovnoměrně každý den v období od počátečního do koncového data.
     - **Vytížení na začátku podle hodin** rezervuje zdroj pro určený počet hodin s vytížením na začátku každý den v období od počátečního do koncového data.
 
-    Nevybírejte **Žádné** , protože to přidá zdroj k týmu, ale nevytvoří žádné rezervace, které absorbují kapacitu zdroje.
+    Nevybírejte **Žádné**, protože to přidá zdroj k týmu, ale nevytvoří žádné rezervace, které absorbují kapacitu zdroje.
 5.  Vyberte **Uložit**.
 
     Všimněte si, že hodiny rezervace musí být dostatečné k pokrytí hodin úsilí a datového rozsahu úkolů, ke kterým přiřazujete tento zdroj. Pokud nejsou ve shodě, nelze přiřadit zdroj k úkolu.

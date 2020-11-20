@@ -3,7 +3,7 @@ title: Použití doplňku Project Service za účelem plánování práce v apli
 description: Toto téma obsahuje informace o způsobu přidání, konfigurace a použití doplňku Microsoft project pro Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073910"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129670"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Použití doplňku Project Service Automation za účelem plánování práce v aplikaci Microsoft Project
 
@@ -141,9 +141,9 @@ Projekt se importuje do [!INCLUDE[pn_project_service_auto](../includes/pn-projec
 
 3. V dialogu **Povolit otevření v aplikaci [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** vyberte **Ano** nebo **Ne**.  
 
-   - Pokud kliknete na tlačítko **Ano** , budete moci vybrat možnost **Otevřít v aplikaci [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** v aplikaci Project Service Automation, spustit aplikaci [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] a načíst soubor aplikace Project z knihovny dokumentů systému SharePoint.  
+   - Pokud kliknete na tlačítko **Ano**, budete moci vybrat možnost **Otevřít v aplikaci [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** v aplikaci Project Service Automation, spustit aplikaci [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] a načíst soubor aplikace Project z knihovny dokumentů systému SharePoint.  
 
-   - Pokud kliknete na tlačítko **Ne** , odkaz tlačítka **Otevřít v aplikaci [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** nebude fungovat.  
+   - Pokud kliknete na tlačítko **Ne**, odkaz tlačítka **Otevřít v aplikaci [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** nebude fungovat.  
 
 4. Soubor aplikace [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] naleznete v [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] v části **Dokumenty** pro konkrétní projekt [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
@@ -155,9 +155,9 @@ Projekt se importuje do [!INCLUDE[pn_project_service_auto](../includes/pn-projec
 
 3. V dialogu **Povolit otevření v aplikaci [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** vyberte **Ano** nebo **Ne**.  
 
-   - Pokud kliknete na tlačítko **Ano** , budete moci vybrat možnost **Otevřít v aplikaci [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** v aplikaci Project Service Automation, spustit aplikaci [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] a načíst soubor aplikace Project z knihovny dokumentů systému SharePoint.  
+   - Pokud kliknete na tlačítko **Ano**, budete moci vybrat možnost **Otevřít v aplikaci [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** v aplikaci Project Service Automation, spustit aplikaci [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] a načíst soubor aplikace Project z knihovny dokumentů systému SharePoint.  
 
-   - Pokud kliknete na tlačítko **Ne** , odkaz tlačítka **Otevřít v aplikaci [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** nebude fungovat.  
+   - Pokud kliknete na tlačítko **Ne**, odkaz tlačítka **Otevřít v aplikaci [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** nebude fungovat.  
 
 4. Soubor aplikace [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] naleznete v [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] v části **Dokumenty** pro konkrétní projekt [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 

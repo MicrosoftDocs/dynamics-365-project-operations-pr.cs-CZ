@@ -3,7 +3,7 @@ title: Přiřazení zdroje k úkolu
 description: Toto téma obsahuje informace o způsobu přiřazení zdrojů k úkolům.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073969"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125125"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Přiřazení zdroje k úkolu
 
@@ -35,7 +35,7 @@ Můžete přidat zdroj do projektového týmu a poté přiřadit zdroj k úkolů
 
 1. Na kartě **Člen týmu** přidejte nového člena týmu výběrem možnosti **Nový**. 
 
-2. Otevře se panel **Rychlé vytvoření člena týmu** , kde můžete zvolit název rezervovatelného zdroje a nastavit roli. 
+2. Otevře se panel **Rychlé vytvoření člena týmu**, kde můžete zvolit název rezervovatelného zdroje a nastavit roli. 
 
     Vyberte jednu z následujících metod přidělení pro rezervaci zdroje:
 

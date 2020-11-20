@@ -3,7 +3,7 @@ title: Přehled skutečných hodnot
 description: Toto téma poskytuje informace o skutečných hodnotách projektu.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073978"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129760"
 ---
 # <a name="actuals-overview"></a>Přehled skutečných hodnot
 
@@ -39,7 +39,7 @@ V PSA se při odeslání časového záznamu pro projekt, který je namapovaný 
 
 Logika pro zadávání výchozích cen je umístěna na řádku deníku. Všechny hodnoty polí z časového záznamu jsou zkopírovány do řádku deníku. Tato pole obsahují datum transakce, řádek smlouvy, na který je projekt namapován, a výsledek měny v příslušném ceníku. 
 
-Pole, která ovlivňují výchozí ceny, jako jsou **Role** a **Organizační jednotka** , způsobí, že ve výchozím nastavení bude do řádku deníku zadána odpovídající cena. Přidáte-li do časového záznamu vlastní pole a chcete, aby byla hodnota pole přenesena do skutečných hodnot, vytvořte v entitě Skutečnost pole a pomocí mapování polí zkopírujte pole z časového záznamu do skutečného záznamu.
+Pole, která ovlivňují výchozí ceny, jako jsou **Role** a **Organizační jednotka**, způsobí, že ve výchozím nastavení bude do řádku deníku zadána odpovídající cena. Přidáte-li do časového záznamu vlastní pole a chcete, aby byla hodnota pole přenesena do skutečných hodnot, vytvořte v entitě Skutečnost pole a pomocí mapování polí zkopírujte pole z časového záznamu do skutečného záznamu.
 
 ## <a name="submitting-an-expense-entry"></a>Odeslání výdajové položky
 

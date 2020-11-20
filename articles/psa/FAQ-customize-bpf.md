@@ -2,7 +2,7 @@
 title: Jak přizpůsobit tok obchodního procesu týkající se fází projektu?
 description: Přehled přizpůsobení toku obchodního procesu týkajícího se fází projektu.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073966"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125023"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Jak přizpůsobit tok obchodního procesu týkající se fází projektu?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Existuje známé omezení v dřívějších verzích aplikace Project Service spočívající v tom, že názvy fází v toku obchodního procesu týkajícího se fází projektu musí přesně odpovídat očekávaným anglickým názvům ( **Quote** , **Plan** , **Close** ). V opačném případě obchodní logika, která závisí na anglických názvech fází, nefunguje podle očekávání. Proto nevidíte známé akce, jako je **Přepnout proces** nebo **Upravit proces** dostupné ve formuláři projektu, a přizpůsobení toku obchodního procesu není doporučeno. 
+Existuje známé omezení v dřívějších verzích aplikace Project Service spočívající v tom, že názvy fází v toku obchodního procesu týkajícího se fází projektu musí přesně odpovídat očekávaným anglickým názvům (**Quote**, **Plan**, **Close**). V opačném případě obchodní logika, která závisí na anglických názvech fází, nefunguje podle očekávání. Proto nevidíte známé akce, jako je **Přepnout proces** nebo **Upravit proces** dostupné ve formuláři projektu, a přizpůsobení toku obchodního procesu není doporučeno. 
 
 Toto omezení bylo adresováno ve verzi 2.4.5.48 a vyšší. Tento článek obsahuje zástupná řešení, pokud potřebujete přizpůsobit výchozí tok obchodního procesu pro starší verze.  
 
@@ -38,7 +38,7 @@ Toto omezení bylo adresováno ve verzi 2.4.5.48 a vyšší. Tento článek obs
 Tok obchodního procesu týkající se fází projektu zahrnuje obchodní logiku, která řídí následující chování v aplikaci:
 - Když je přiřazen projekt k nabídce, kód nastaví tok obchodního procesu do fáze **Quote**.
 - Když je přiřazen projekt ke smlouvě, kód nastaví tok obchodního procesu do fáze **Plan**.
-- Když se tok obchodního procesu posune do fáze **Close** , záznam projektu je deaktivovaný. Když je projekt deaktivován, formulář projektu a strukturovaný rozpis prací jsou nastaveny pouze na čtení, rezervace pojmenovaných zdrojů se uvolní a všechny přidružené ceníky se deaktivují.
+- Když se tok obchodního procesu posune do fáze **Close**, záznam projektu je deaktivovaný. Když je projekt deaktivován, formulář projektu a strukturovaný rozpis prací jsou nastaveny pouze na čtení, rezervace pojmenovaných zdrojů se uvolní a všechny přidružené ceníky se deaktivují.
 
 Tato obchodní logika spoléhá na anglické názvy fází projektu. Tato závislost na anglických názvech fází je hlavním důvodem, proč není doporučeno přizpůsobení toku obchodního procesu týkajícího se fází projektu, stejně jako příčinou, proč nevidíte běžné akce toku obchodního procesu, jako je **Přepnout proces** nebo **Upravit proces** na entitě projektu.
 
@@ -48,7 +48,7 @@ V aplikaci Project Service verze 1.x na platformě 8.2, když názvy fáze v pro
 
 V aplikaci Project Service verze 2.4.4.30 nebo dřívější na platformě 9.0 došlo k významné změně architektury toků obchodních procesů, což vyžaduje přepsání obchodní logiky toku obchodního procesu. Důsledkem je, že pokud se názvy fází procesu neshodují s očekávanými anglickými názvy, zobrazí se chybová zpráva. 
 
-Proto, pokud chcete přizpůsobit tok obchodního procesu týkajícího se fází projektu pro entitu projektu, můžete přidat pouze zcela nové fáze k výchozímu toku obchodního procesu pro entitu projektu, zatímco fáze **Quote** , **Plan** a **Close** zůstanou beze změny. Toto omezení zajišťuje, že neobdržíte chyby z obchodní logiky, která očekává anglické názvy fází v toku obchodního procesu.
+Proto, pokud chcete přizpůsobit tok obchodního procesu týkajícího se fází projektu pro entitu projektu, můžete přidat pouze zcela nové fáze k výchozímu toku obchodního procesu pro entitu projektu, zatímco fáze **Quote**, **Plan** a **Close** zůstanou beze změny. Toto omezení zajišťuje, že neobdržíte chyby z obchodní logiky, která očekává anglické názvy fází v toku obchodního procesu.
 
 Ve verzi 2.4.5.48 nebo novější byla obchodní logika popsaná v tomto článku odebrána z výchozího toku obchodního procesu pro entitu projektu. Upgrade na tuto verzi nebo novější vám umožní přizpůsobit nebo nahradit výchozí tok obchodního procesu jedním ze svých vlastních. 
 
@@ -56,12 +56,12 @@ Ve verzi 2.4.5.48 nebo novější byla obchodní logika popsaná v tomto článk
 
 Pokud upgrade není možností, můžete přizpůsobit tok obchodního procesu týkajícího se fází projektu pro entitu projektu pomocí jednoho z těchto dvou způsobů:
 
-1. Přidejte další fáze k výchozí konfiguraci při současném zachování anglických názvů fází pro možnosti **Quote** , **Plan** a **Close**.
+1. Přidejte další fáze k výchozí konfiguraci při současném zachování anglických názvů fází pro možnosti **Quote**, **Plan** a **Close**.
 
 
 ![Snímek obrazovky přidání fází k výchozí konfiguraci](media/FAQ-Customize-BPF-1.png)
  
-2. Vytvořte svůj vlastní tok obchodního procesu a učiňte ho primárním tokem obchodního procesu pro entitu projektu, který umožňuje mít názvy fáze, které chcete. Pokud však chcete použít stejné standardní fáze projektu **Quote** , **Plan** a **Close** , je nutné provést některá přizpůsobení, která jsou vyvozena z vašich vlastních názvů fází. Složitější logika je v uzavření projektu, kterou můžete stále spustit pouze deaktivací záznamu projektu.
+2. Vytvořte svůj vlastní tok obchodního procesu a učiňte ho primárním tokem obchodního procesu pro entitu projektu, který umožňuje mít názvy fáze, které chcete. Pokud však chcete použít stejné standardní fáze projektu **Quote**, **Plan** a **Close**, je nutné provést některá přizpůsobení, která jsou vyvozena z vašich vlastních názvů fází. Složitější logika je v uzavření projektu, kterou můžete stále spustit pouze deaktivací záznamu projektu.
 
 ![Vlastní nastavení BPF](media/FAQ-Customize-BPF-2.png)
 
@@ -81,7 +81,7 @@ K vytvoření vlastního toku obchodního procesu pro entitu projektu proveďte 
 
   ![Vytvořit proces](media/FAQ-Customize-BPF-3.png)
 
-2. Pomocí návrháře procesu vytvořte názvy fází, které chcete. Chcete-li stejnou funkci jako výchozí fáze pro **Quote** , **Plan** a **Close** , budete ji muset vytvořit na základě vlastních názvů fází toku obchodního procesu.
+2. Pomocí návrháře procesu vytvořte názvy fází, které chcete. Chcete-li stejnou funkci jako výchozí fáze pro **Quote**, **Plan** a **Close**, budete ji muset vytvořit na základě vlastních názvů fází toku obchodního procesu.
 
    ![Snímek obrazovky návrháře procesu použitého k přizpůsobení BPF](media/FAQ-Customize-BPF-4.png) 
 

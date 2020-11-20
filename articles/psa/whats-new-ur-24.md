@@ -3,7 +3,7 @@ title: Novinky a změny v aplikaci Project Service Automation, aktualizace verz
 description: Tohle téma uvádí seznam funkcí a oprav, které jsou k dispozici v Project Service Automation, aktualizace verze 24, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6c8348e65307f63a251f97bf1ea17578e7026da8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a37e71be2cce259d8aed0621d13393b6bbe4199
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073732"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126565"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Project Service Automation, vydání aktualizace 24, V3
 
@@ -67,7 +67,7 @@ Byly vyřešeny následující problémy:
 
 Byly vyřešeny následující problémy:
 
-- V **Časovém plánu projektu** , když přecházíte z **Manual** na **Auto** , automatické ukládání se nedokončí.
+- V **Časovém plánu projektu**, když přecházíte z **Manual** na **Auto**, automatické ukládání se nedokončí.
 - Náklady by se neměly počítat směrem k odchylce v **Mřížce pro sledování projektů**.
 - Nekonzistentní chování pro sloupce **Značka odhadů** během načítání versus změna typu **Časová fáze**.
 - Skutečné náklady na projekt nemusí odrážet součty ze **Skutečných hodnot**.

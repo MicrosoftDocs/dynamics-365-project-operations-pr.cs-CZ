@@ -3,7 +3,7 @@ title: Nabídky a řádky nabídky
 description: Toto téma poskytuje informace o nabídkách a řádcích nabídky.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073895"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129445"
 ---
 # <a name="quotes-and-quote-lines"></a>Nabídky a řádky nabídky
 
@@ -35,7 +35,7 @@ V Dynamics 365 Project Service Automation existují dva typy nabídek: projektov
 - Prodejní nabídka podporuje aktivaci a revize. Projektová nabídka tyto procesy nepodporuje.
 - K prodejní nabídce můžete připojit více objednávek. K projektové nabídce lze připojit pouze jednu projektovou smlouvu.
 - Můžete vyhrát prodejní nabídku a ponechat související příležitost otevřenou. Po získání projektové nabídky je související příležitost uzavřena.
-- Prodejní nabídka neobsahuje některá pole a koncepty, které jsou součástí projektové nabídky. Mezi tato pole patří **Smluvní jednotka** , **Manažer obchodních vztahů** a **Fakturační adresa – jméno kontaktu**.  
+- Prodejní nabídka neobsahuje některá pole a koncepty, které jsou součástí projektové nabídky. Mezi tato pole patří **Smluvní jednotka**, **Manažer obchodních vztahů** a **Fakturační adresa – jméno kontaktu**.  
 - Prodejní nabídky a projektové nabídky jsou také identifikovány pomocí pole založeného na sadě možností, které je pojmenováno **Typ**. U prodejní nabídky má toto pole hodnotu **Na základě zboží**. U projektové nabídky má hodnotu **Na základě práce**.
 
 Toto téma se zaměří na podrobnosti projektových nabídek.
@@ -76,7 +76,7 @@ PSA podporuje všechny tři typy rozpisů faktur pro řádky nabídek s pevnou c
 Profesionální servisní organizace svým zákazníkům obvykle předkládají nabídky a faktury podle klasifikace nákladů. V PSA jsou náklady reprezentovány následujícími klasifikacemi transakcí:
 
 - **Čas** – tato klasifikace představuje náklady na práci nebo čas lidských zdrojů na projekt.
-- **Výdaje** : – tato klasifikace představuje všechny ostatní druhy výdajů na projekt. Protože výdaje mohou být široce klasifikovány, většina organizací vytváří podkategorie, jako jsou cestování, pronájem aut, hotel nebo kancelářské potřeby.
+- **Výdaje**: – tato klasifikace představuje všechny ostatní druhy výdajů na projekt. Protože výdaje mohou být široce klasifikovány, většina organizací vytváří podkategorie, jako jsou cestování, pronájem aut, hotel nebo kancelářské potřeby.
 - **Poplatek** – tato klasifikace představuje různé režijní náklady, pokuty a další položky, které jsou účtovány zákazníkovi. 
 - **Daň** – tato klasifikace představuje částky daně, které uživatelé přidávají při zadávání výdajů.
 - **Materiálové transakce** – tato klasifikace představuje skutečné hodnoty z produktových řádků na potvrzené projektové faktuře.
@@ -91,7 +91,7 @@ Nabídka může například obsahovat následující dva řádky nabídky:
 - Související cestovní výdaje, které používají metodu fakturace pevné ceny. Například všechny cestovní výdaje pro ukázkový projekt **Implementace Dynamics AX** jsou fakturovány s pevnou peněžní hodnotou.
 
 > [!NOTE]
-> Kombinace klasifikací projektu a transakce **Čas** , **Výdaje** a **Poplatek** , které jsou přidruženy k řádku nabídky nebo řádku smlouvy, musí být jedinečné. Pokud je stejná kombinace projektu a třídy transakce přidružena k více než jednomu řádku smlouvy nebo řádku nabídky, PSA nebude pracovat správně.
+> Kombinace klasifikací projektu a transakce **Čas**, **Výdaje** a **Poplatek**, které jsou přidruženy k řádku nabídky nebo řádku smlouvy, musí být jedinečné. Pokud je stejná kombinace projektu a třídy transakce přidružena k více než jednomu řádku smlouvy nebo řádku nabídky, PSA nebude pracovat správně.
 
 ## <a name="billing-types"></a>Typy fakturace
 

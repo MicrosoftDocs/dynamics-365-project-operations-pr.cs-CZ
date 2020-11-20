@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c8ac11d45c1d28967eaf5d76b326950ebd0c8eb3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073633"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128770"
 ---
 # <a name="edit-a-resource-requirement"></a>Úprava požadavku na zdroj
 
@@ -36,4 +36,4 @@ Jako projektový manažer proveďte následující kroky a upravte požadavek na
 
 ## <a name="edit-resource-assignment-contours"></a>Úprava obrysů přiřazení zdrojů
 
-Kromě úpravy podrobností o požadavcích na zdroje může vedoucí projektu aktualizovat jednotlivé obrysy požadavku na zdroje pomocí funkce **Určení vzoru**. Když je vybrána volba **Zadat vzor** , otevře se stránka a můžete zobrazit obrysy v časovém měřítku dne, týdne nebo měsíce. Každý obrys lze upravit pro čas zahájení, čas ukončení a celkové úsilí v daném období.
+Kromě úpravy podrobností o požadavcích na zdroje může vedoucí projektu aktualizovat jednotlivé obrysy požadavku na zdroje pomocí funkce **Určení vzoru**. Když je vybrána volba **Zadat vzor**, otevře se stránka a můžete zobrazit obrysy v časovém měřítku dne, týdne nebo měsíce. Každý obrys lze upravit pro čas zahájení, čas ukončení a celkové úsilí v daném období.

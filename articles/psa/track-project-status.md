@@ -3,7 +3,7 @@ title: Sledování stavu projektu
 description: Postup sledování stavu projektu v Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 70d07c98bd9432712e939445dbf867b96642f5ba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00b6d874b42a415fe567d17e49c0ea319d8952a0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073866"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127825"
 ---
 # <a name="track-a-projects-status-project-service"></a>Sledování stavu projektu (Project Service)
 
@@ -40,7 +40,7 @@ V průběhu platnosti závazku se fáze projektu aktualizují tak, aby odráže
 |  **Nabídka**   |      Když přiřadíte projekt k nabídce nebo jej vytvoříte z nabídky, fáze projektu bude nastavena na možnost **Nabídka** a aktualizuje se také odhadované datum zahájení a ukončení. Pokud je projekt ve fázi nabídky, podrobnosti o nabídce se zobrazí na kartě **Prodej** na stránce **Projekt**.      |
 |   **Plán**   |                                     Pokud vyhrajete nabídku spojenou s projektem a v průběhu platnosti závazku přejdete do fáze smlouvy, fáze projektu se aktualizuje na **Plán**. Podrobnosti o smlouvě se zobrazí na kartě **Prodej** na stránce **Projekt**.                                      |
 | **Dokončeno** |                    Po dokončení práce na projektu můžete přepnout na fázi **Dokončeno**. Pokud je fáze projektu nastavena na možnost Dokončeno, práce je na 100 % ale dokončena, ale projekt zůstává otevřen, aby by mohla být zaznamenána doba čekání nebo položky výdajů.                     |
-|  **Zavřít**   |           Když jsou všechny transakce projektu zaznamenány a neočekáváte protokolování dalších, můžete ručně nastavit fázi na **Uzavřeno**. Pokud je projekt nastaven na **Uzavřeno** , nelze protokolovat žádné další transakce projektu a projekt bude jen pro čtení.           |
+|  **Zavřít**   |           Když jsou všechny transakce projektu zaznamenány a neočekáváte protokolování dalších, můžete ručně nastavit fázi na **Uzavřeno**. Pokud je projekt nastaven na **Uzavřeno**, nelze protokolovat žádné další transakce projektu a projekt bude jen pro čtení.           |
 
 ## <a name="to-track-a-projects-status"></a>Sledování stavu projektu  
 

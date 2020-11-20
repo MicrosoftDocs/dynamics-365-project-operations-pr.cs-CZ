@@ -5,15 +5,15 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c52d5ccef681ef9d9ff767c99af6f2fd0fd6da52
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073648"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126115"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Vratka DPH ve správě výdajů
 
@@ -21,7 +21,7 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 
 Aby společnost nebo organizace mohla dostávat vrácené částky za způsobilé transakce k dani z přidané hodnoty (DPH), musí identifikovat, shromažďovat, ověřovat a odesílat přesné informace. Tento proces zahrnuje více úkolů a v závislosti na velikosti vaší společnosti může zahrnovat několik zaměstnanců nebo rolí.
 
-Chcete-li získat zpět DPH v modulu **Správa výdajů** , musí být splněny následující předpoklady:
+Chcete-li získat zpět DPH v modulu **Správa výdajů**, musí být splněny následující předpoklady:
 
 - Kódy daně musí být vytvořeny pro země / oblasti, které jsou přiděleny do kategorií výdajů.
 - Pro každý daňový zákon musí být vytvořena skupina DPH.
@@ -39,7 +39,7 @@ V následujících částech jsou uvedeny příklady, které ukazují, jak zamě
 
 ## <a name="enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Zadejte daňové údaje o transakcích kreditní kartou, abyste identifikovali nároky na vrácení DPH.
 
-Nancy, obchodní zástupkyně společnosti Contoso se sídlem ve Spojených státech, se nedávno vrátila z prodejní cesty do Velké Británie. Během výletu Nancy vznikly nějaké soukromé výdaje na kreditní kartě za jídlo. Nancy nyní musí vytvořit vyúčtování výdajů, aby sesouhlasila výdaje.
+Nancy, obchodní zástupkyně společnosti Contoso se sídlem ve Spojených státech, se nedávno vrátila z obchodní cesty do Spojeného království. Během výletu Nancy vznikly nějaké soukromé výdaje na kreditní kartě za jídlo. Nancy nyní musí vytvořit vyúčtování výdajů, aby sesouhlasila výdaje.
 
 Když Nancy zadá informace ve vyúčtování výdajů, vybere v poli **Země/region** na stránce **Upravit vyúčtování výdajů** možnost **Spojené království**. Seznam skupin DPH je poté filtrován, takže zobrazuje pouze skupiny, které se vztahují na Spojené království. Nancy vybere skupinu DPH **Spojené království 001** a poté vybere skupinu DPH **Jídla**. Dále Nancy přidá novou transakci pro ubytování. Protože pro ubytování ve Spojeném království existuje pouze jedna skupina DPH a jedna skupina daně z prodeje zboží, tyto informace se automaticky vyplní v Nancyně vyúčtování výdajů.
 

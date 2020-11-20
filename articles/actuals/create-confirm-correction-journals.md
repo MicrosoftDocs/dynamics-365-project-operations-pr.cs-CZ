@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 855593df1ea14827f06961dda5b4becd2fa75c18
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6cc22168cdfefc4ae7b833bea75f68ba37c1ee67
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073777"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127736"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Vytváření a potvrzení deníků oprav
 
@@ -53,7 +53,7 @@ Chcete-li opravit jeden nebo více časových záznamů pro projekt, proveďte n
 
 7. Pokud se opravy objeví podle očekávání, vyberte **Potvrdit**. V dialogovém okně vyberte **OK**.
 
-8. Vraťte se do části **Prodej** , vyberte **Projekty** a poté otevřete projekt, pro který jste právě aktualizovali časové záznamy. 
+8. Vraťte se do části **Prodej**, vyberte **Projekty** a poté otevřete projekt, pro který jste právě aktualizovali časové záznamy. 
 
 9. Na stránce **Projekty** na kartě **Skutečné hodnoty** zobrazte provedené změny. 
 
@@ -73,7 +73,7 @@ Chcete-li opravit jeden nebo více záznamů výdajů, proveďte následující 
 
 2. V seznamu **Schválené výdaje** vyberte projekt, který chcete opravit, a poté vyberte **Opravit položky**. Automaticky se vytvoří nový deník oprav s přiřazeným typem **Oprava výdajů**. 
 
-3. Na stránce **Nový deník** zadejte **Popis** pro opravu a na kartě **Oprava výdajů** v části **Nové hodnoty nákladů** vyberte datová pole, která chcete opravit pro vybrané řádky výdajů. Například můžete přiřadit výdaje jinému **projektu** , nebo opravit **Kategorie výdajů** , **Datum výdaje** , nebo **Rezervovatelný zdroj**.
+3. Na stránce **Nový deník** zadejte **Popis** pro opravu a na kartě **Oprava výdajů** v části **Nové hodnoty nákladů** vyberte datová pole, která chcete opravit pro vybrané řádky výdajů. Například můžete přiřadit výdaje jinému **projektu**, nebo opravit **Kategorie výdajů**, **Datum výdaje**, nebo **Rezervovatelný zdroj**.
 
 4. Vyberte **Náhled**. V dialogovém okně vyberte **OK**. 
 

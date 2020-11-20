@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ff624a13ec88ae64dba18715fbe9b94353b070e8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: deedfe0c6601fd09e09460034c9a0db936b6566e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073698"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127510"
 ---
 # <a name="navigating-the-user-interface"></a>Navigace v uživatelském rozhraní
 
@@ -39,7 +39,7 @@ Hlavní formulář projektu je rozdělen do několika karet. Každá karta před
 
     ![Karta Přiřazení zdrojů a pole](media/navigation10.png)
 
-- **Vyrovnání zdrojů** : Poskytuje časově odstupňovaný pohled na rozdíly mezi přiřazením každého pojmenovaného zdroje a jejich rezervacemi.
+- **Vyrovnání zdrojů**: Poskytuje časově odstupňovaný pohled na rozdíly mezi přiřazením každého pojmenovaného zdroje a jejich rezervacemi.
 
     ![Karta Vyrovnání zdrojů a pole](media/navigation11.png)
 

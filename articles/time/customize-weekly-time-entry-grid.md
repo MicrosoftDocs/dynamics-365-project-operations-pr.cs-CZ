@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073679"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124630"
 ---
 # <a name="extending-time-entries"></a>Rozšíření časových záznamů
 
@@ -33,7 +33,7 @@ Prodloužení časových záznamů je možné ve dvou oblastech:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Přidejte vlastní časové záznamy pro vlastní potřebu
 
-Časové položky jsou základní entitou používanou ve více scénářích. V dubnové vlně 1 2020 bylo představeno základní řešení TESA. TESA poskytuje a entitu **Nastavení** a novou roli zabezpečení **Uživatel zadání času**. Nová pole **msdyn_start** a **msdyn_end** , které mají přímý vztah k **msdyn_duration** , byly také zahrnuty. Nová entita role zabezpečení a pole umožňují jednotnější přístup k času napříč více produkty.
+Časové položky jsou základní entitou používanou ve více scénářích. V dubnové vlně 1 2020 bylo představeno základní řešení TESA. TESA poskytuje a entitu **Nastavení** a novou roli zabezpečení **Uživatel zadání času**. Nová pole **msdyn_start** a **msdyn_end**, které mají přímý vztah k **msdyn_duration**, byly také zahrnuty. Nová entita role zabezpečení a pole umožňují jednotnější přístup k času napříč více produkty.
 
 
 ### <a name="time-source-entity"></a>Entita časového zdroje
@@ -58,7 +58,7 @@ Logika automaticky aktualizuje záznam zadání času v následujících situac�
     - **msdyn_duration**
 
 - Pole **msdyn_start** a **msdyn_end** berou v potaz časové pásmo.
-- Časové položky vytvořené pouze se zadanými hodnotami **msdyn_date** a  **msdyn_duration** začnou o půlnoci. Pole **msdyn_start** a **msdyn_end** se odpovídajícím způsobem aktualizují.
+- Časové položky vytvořené pouze se zadanými hodnotami **msdyn_date** a **msdyn_duration** začnou o půlnoci. Pole **msdyn_start** a **msdyn_end** se odpovídajícím způsobem aktualizují.
 
 #### <a name="time-entry-types"></a>Typy časových záznamů
 
@@ -103,32 +103,32 @@ Můžete přizpůsobit zobrazení **Moje týdenní časové záznamy** a přida
 
 #### <a name="create-a-new-default-custom-time-entry"></a>Vytvoření nového výchozího časového záznamu
 
-Toto zobrazení by mělo obsahovat kromě sloupců, které mají být v mřížce, také pole **Popis** a  **Externí komentáře**. 
+Toto zobrazení by mělo obsahovat kromě sloupců, které mají být v mřížce, také pole **Popis** a **Externí komentáře**. 
 
 1. Vyberte umístění, velikost a výchozí pořadí řazení v mřížce úpravou těchto vlastností v zobrazení. 
 2. Nakonfigurujte vlastní ovládací prvek pro toto zobrazení tak, aby se jednalo o ovládací prvek **Mřížka časových záznamů**. 
 3. Přidejte tento ovládací prvek do zobrazení a vyberte jej pro web, telefon a tablet. 
 4. Nakonfigurujte parametry pro tabulku týdenního zadávání času. 
-5. Nastavte pole **Počáteční datum** na **msdyn_date** , pole **Doba trvání** na **msdyn_duration** a pole **Stav** na **msdyn_entrystatus**. 
+5. Nastavte pole **Počáteční datum** na **msdyn_date**, pole **Doba trvání** na **msdyn_duration** a pole **Stav** na **msdyn_entrystatus**. 
 6. Pro výchozí zobrazení je pole **Seznam stavů jen pro čtení** pole je nastaveno na **192350002,192350003,192350004**. Pole **Průběh úlohy úpravy řádku** je nastaveno na **msdyn_timeentryrowedit**. Pole **Průběh úlohy úpravy buňky** je nastaveno na **msdyn_timeentryedit**. 
 7. Tato pole můžete upravit a přidat nebo odebrat stav jen ke čtení nebo použít jiné prostředí založené na úlohách (TBX) pro úpravy řádků nebo buněk. Tato pole jsou nyní vázána na statickou hodnotu.
 
 
 > [!NOTE] 
-> Obě možnosti odstraní některé připravené filtry pro entity **Projekt** a  **Projektový úkol** , takže všechna zobrazení vyhledávání entit budou viditelná. Viditelná jsou pouze připravená příslušná zobrazení vyhledávání.
+> Obě možnosti odstraní některé připravené filtry pro entity **Projekt** a **Projektový úkol**, takže všechna zobrazení vyhledávání entit budou viditelná. Viditelná jsou pouze připravená příslušná zobrazení vyhledávání.
 
-Určete příslušný tok úlohy pro vlastní pole. Pokud jste pole přidali do mřížky, mělo by přejít do toku úlohy úprav řádku, který se používá pro pole, která se vztahují na celý řádek časových záznamů. Má-li vlastní pole jedinečnou hodnotu každý den, například vlastní pole pro **Koncový čas** , mělo by přejít do toku úlohy úprav buňky.
+Určete příslušný tok úlohy pro vlastní pole. Pokud jste pole přidali do mřížky, mělo by přejít do toku úlohy úprav řádku, který se používá pro pole, která se vztahují na celý řádek časových záznamů. Má-li vlastní pole jedinečnou hodnotu každý den, například vlastní pole pro **Koncový čas**, mělo by přejít do toku úlohy úprav buňky.
 
 Chcete-li přidat vlastní pole do toku úlohy, přetáhněte prvek **Pole** na příslušné místo na stránce a nastavte vlastnosti pole. Nastavte vlastnost **Zdroj** na možnost **Časový záznam** a vlastnost **Datové pole** na vlastní pole. Vlastnost **Pole** určuje zobrazovaný název na stránce TBX. Vyberte **Použít** a uložte změny do pole a poté vyberte **Aktualizovat** pro uložení změn na stránku.
 
-Chcete-li místo toho použít novou vlastní stránku TBX, vytvořte nový proces. Nastavte kategorii na **Tok obchodního procesu** , entitu na **Časový záznam** a typ obchodního procesu na **Spustit proces jako tok úlohy**. V části **Vlastnosti** by měla být vlastnost **Název stránky** nastavena na zobrazovaný název stránky. Přidejte všechna příslušná pole na stránku TBX. Proces uložte a aktivujte. Aktualizujte vlastnost vlastního ovládacího prvku pro příslušný tok úlohy na hodnotu **Název** v procesu.
+Chcete-li místo toho použít novou vlastní stránku TBX, vytvořte nový proces. Nastavte kategorii na **Tok obchodního procesu**, entitu na **Časový záznam** a typ obchodního procesu na **Spustit proces jako tok úlohy**. V části **Vlastnosti** by měla být vlastnost **Název stránky** nastavena na zobrazovaný název stránky. Přidejte všechna příslušná pole na stránku TBX. Proces uložte a aktivujte. Aktualizujte vlastnost vlastního ovládacího prvku pro příslušný tok úlohy na hodnotu **Název** v procesu.
 
 ### <a name="add-new-option-set-values"></a>Přidání nových hodnot sady možností
-Chcete-li přidat hodnoty sady možností do připraveného pole, otevřete stránku pro úpravy pole a potom v části **Typ** vyberte možnost **Upravit** vedle sady možností. Přidejte novou možnost, která má vlastní popisek a barvu. Chcete-li přidat nový stav časového záznamu, bude připravené pole pojmenováno **Stav záznamu** , nikoli **Stav**.
+Chcete-li přidat hodnoty sady možností do připraveného pole, otevřete stránku pro úpravy pole a potom v části **Typ** vyberte možnost **Upravit** vedle sady možností. Přidejte novou možnost, která má vlastní popisek a barvu. Chcete-li přidat nový stav časového záznamu, bude připravené pole pojmenováno **Stav záznamu**, nikoli **Stav**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Určení nového stavu časového záznamu jako jen ke čtení
 Chcete-li určit nový stav časového záznamu jako jen ke čtení, přidejte novou hodnotu časového záznamu do vlastnosti **Seznam stavů jen pro čtení**. Upravitelná část mřížky pro zadávání času bude uzamčena pro řádky, které mají nový stav.
-Dále přidejte obchodní pravidla pro uzamknutí všech polí na stránkách TBX **Úprava řádku časového záznamu** a  **Úprava časového záznamu**. K obchodním pravidlům pro tyto stránky můžete přejít otevřením editoru toku obchodního procesu pro stránku a následným výběrem možnosti **Obchodní pravidla**. Nový stav můžete přidat do podmínky ve stávajících obchodních pravidlech nebo můžete přidat nové obchodní pravidlo pro nový stav.
+Dále přidejte obchodní pravidla pro uzamknutí všech polí na stránkách TBX **Úprava řádku časového záznamu** a **Úprava časového záznamu**. K obchodním pravidlům pro tyto stránky můžete přejít otevřením editoru toku obchodního procesu pro stránku a následným výběrem možnosti **Obchodní pravidla**. Nový stav můžete přidat do podmínky ve stávajících obchodních pravidlech nebo můžete přidat nové obchodní pravidlo pro nový stav.
 
 ### <a name="add-custom-validation-rules"></a>Přidávání vlastních ověřovacích pravidel
 Existují dva typy pravidel ověření, které můžete přidat pro týdenní mřížku pro zadávání času:

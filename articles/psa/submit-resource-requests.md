@@ -3,7 +3,7 @@ title: Odeslání žádostí o zdroje
 description: Postup odeslání požadavků na zdroje v Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1978a9212db25ac32ff2dc5f9050ec43fc1ccbd7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f66d1157b932a91224a63d91ea2aeccc2c209f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073872"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126880"
 ---
 # <a name="submit-resource-requests-project-service"></a>Odeslání požadavků na zdroje (Project Service)
 
@@ -41,13 +41,13 @@ Po získání kontraktu na projekt budete potřebovat zaměstnance do projektu. 
   
 5.  Chcete-li zdroj rezervovat napevno, vyberte roli a potom klikněte na tlačítko **Rezervovat napevno**. Zobrazí se kalendář všech zdrojů a jejich dostupnosti, s barevným kódováním, které poskytuje vizuální zobrazení stavu rezervace zdroje. Proveďte libovolnou z následujících možností k optimalizaci vyhledávání:  
   
-    -   Z horní části obrazovky vyberte možnost zobrazení nebo seřazení objednávek. Můžete také vybrat, zda chcete zobrazit dostupnost pro **Den** , **Týden** nebo **Měsíc** a pomocí šipek zobrazit předchozí nebo následující časové období. Pomocí vyhledávacího pole můžete vyhledat konkrétní zdroj.  
+    -   Z horní části obrazovky vyberte možnost zobrazení nebo seřazení objednávek. Můžete také vybrat, zda chcete zobrazit dostupnost pro **Den**, **Týden** nebo **Měsíc** a pomocí šipek zobrazit předchozí nebo následující časové období. Pomocí vyhledávacího pole můžete vyhledat konkrétní zdroj.  
   
     -   Kliknutím na tlačítko **Možnosti** můžete změnit, co je zobrazeno. Například můžete zobrazit legendu, která zobrazuje barevné schéma pro různé typy rezervací, nebo je možné zobrazit pouze určitý typ rezervace (například závazné rezervace nebo předběžné rezervace).  
   
-    -   Klikněte na tlačítko **Filtr** , chcete-li zobrazit podokno **Filtr** , které vám umožní filtrovat výsledky podle organizační jednotky, role, dovednosti nebo jiných atributů.  
+    -   Klikněte na tlačítko **Filtr**, chcete-li zobrazit podokno **Filtr**, které vám umožní filtrovat výsledky podle organizační jednotky, role, dovednosti nebo jiných atributů.  
   
-    -   V kalendáři zdroje, který chcete rezervovat, vyberte časové období pro rezervaci zdroje a potom klikněte na tlačítko **Rezervovat** , chcete-li zdroj rezervovat, nebo na tlačítko **Navrhnout rezervaci** , chcete-li rezervaci navrhnout a požádat žadatele o schválení.  
+    -   V kalendáři zdroje, který chcete rezervovat, vyberte časové období pro rezervaci zdroje a potom klikněte na tlačítko **Rezervovat**, chcete-li zdroj rezervovat, nebo na tlačítko **Navrhnout rezervaci**, chcete-li rezervaci navrhnout a požádat žadatele o schválení.  
   
 6.  Správce zdrojů musí zkontrolovat a schválit požadavky na zdroje.  
   

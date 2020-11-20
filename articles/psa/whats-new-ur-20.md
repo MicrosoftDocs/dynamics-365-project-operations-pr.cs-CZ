@@ -3,7 +3,7 @@ title: Novinky a změny v aplikaci Project Service Automation, aktualizace verz
 description: Toto téma uvádí seznam funkcí a oprav, které jsou k dispozici v Project Service Automation, aktualizace verze 20, V3
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073729"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126745"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation, vydání aktualizace 20, V3
 
@@ -58,5 +58,5 @@ Byly vyřešeny následující problémy:
 - Trvání časové fáze v **Grafu analýzy ziskovosti** neodpovídá době trvání nákladů v podrobnostech pevné cenové nabídky v nabídce.
 - Hodnoty jednotek a skupin jednotek nejsou správně nastaveny pro kategorie výdajů ve formulářích **Detaily řádku smlouvy** a **Detaily řádku nabídky**.
 - Seznamy **Nákladová cena organizační jednotky** umožňují překrývání účinnosti data.
-- Uživatelé nemají dovoleno měnit hodnotu **OrgUnit** , když typ objednávky není založený na práci, protože to povede k chybě výjimky nulového odkazu.
+- Uživatelé nemají dovoleno měnit hodnotu **OrgUnit**, když typ objednávky není založený na práci, protože to povede k chybě výjimky nulového odkazu.
 - Když se uživatel pokusí přejít z formuláře **Detaily řádku nabídky** zpět na kartu **Nabídka** formulář se aktualizuje a zobrazí kartu **Souhrn**.

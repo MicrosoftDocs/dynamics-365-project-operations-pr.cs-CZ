@@ -3,7 +3,7 @@ title: Projektové náklady a výnosy
 description: Toto téma obsahuje informace o odhadování projektových nákladů a výnosů.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9862b6c69596f5b998cf40691f8478bb87251583
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073810"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127960"
 ---
 # <a name="project-costs-and-revenue"></a>Projektové náklady a výnosy
 
@@ -50,7 +50,7 @@ Pokud kombinace role, jednotky a organizační jednotky nevrátí nákladovou ce
 Pokud systém nenajde cenu pro roli, nastaví se nákladová cena na řádku odhadu na výchozí hodnotu **0,00**. Všechny částky nákladů na řádcích odhadu nákladů projektu jsou zaznamenány v měně smluvní jednotky.
 
 > [!NOTE]
-> Microsoft Dynamics 365 ve výchozím nastavení ukládá částky nákladů v základní měně. Částky nákladů, které jsou zobrazeny na kartě **Odhady** , jsou však v měně smluvní jednotky.  
+> Microsoft Dynamics 365 ve výchozím nastavení ukládá částky nákladů v základní měně. Částky nákladů, které jsou zobrazeny na kartě **Odhady**, jsou však v měně smluvní jednotky.  
 
 ### <a name="default-sales-price"></a>Výchozí prodejní cena 
 
@@ -80,7 +80,7 @@ V zobrazení časového uspořádání je celkové úsilí odhadované pro úkol
 
 ### <a name="work-hours-based-allocation"></a>Přidělení na základě pracovní doby
  
-V režimu automatického plánování jsou denní výchozí hodiny pro zdroje úkolů nastaveny na celou pracovní hodinovou sazbu. Toto chování platí při přidělování úsilí jeho rozdělením na celou dobu trvání úkolů v zobrazení časového uspořádání. Pokud například odhadnete, že úkol dokončí jeden zdroj v časovém měřítku **Den** , tak úsilí, které je přiděleno na den, nesmí přesáhnout pracovní dobu za den, která je definována v projektovém kalendáři. Proto přidělení úsilí vždy zajišťuje odhad, že prostředky budou využity po celý den.
+V režimu automatického plánování jsou denní výchozí hodiny pro zdroje úkolů nastaveny na celou pracovní hodinovou sazbu. Toto chování platí při přidělování úsilí jeho rozdělením na celou dobu trvání úkolů v zobrazení časového uspořádání. Pokud například odhadnete, že úkol dokončí jeden zdroj v časovém měřítku **Den**, tak úsilí, které je přiděleno na den, nesmí přesáhnout pracovní dobu za den, která je definována v projektovém kalendáři. Proto přidělení úsilí vždy zajišťuje odhad, že prostředky budou využity po celý den.
 
 ### <a name="even-allocation"></a>Rovnoměrné přidělení
 

@@ -3,7 +3,7 @@ title: Proč nemohu odstranit záznamy z entity Skutečné hodnoty?
 description: Toto téma poskytuje informace o důvodech, proč nelze odstranit záznamy z entity Skutečné hodnoty.
 author: JPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/6/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f47e7ccd46642dc6129fbb3beac3c9490160d046
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9b45e3ae0cd9273af4d2a5cd9cce30502c0aa78
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073906"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127150"
 ---
 # <a name="why-cant-i-delete-records-from-the-actuals-entity"></a>Proč nemohu odstranit záznamy z entity Skutečné hodnoty?
 

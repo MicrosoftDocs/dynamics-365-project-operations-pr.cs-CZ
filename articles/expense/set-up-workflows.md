@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db1bda71e18369550cd2d38fee1d0ac40e07555d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af6463b07e282ae1ff6aa7dc1a540ff7c8cc318a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073807"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127690"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Nastavení pracovních postupů pro správu výdajů
 
@@ -30,9 +30,9 @@ Můžete nastavit proces pracovního postupu ke kontrole a schvalování cestovn
 
 Pracovní postup představuje obchodní proces a definuje, jak doklad protéká systémem. Pracovní postup také označuje, kdo musí dokončit úkol nebo schválit dokument. Existuje několik výhod používání systému pracovního postupu ve vaší organizaci:
 
-- **Konzistentní procesy** : Můžete definovat proces schvalování pro konkrétní doklady, jako jsou nákupní žádanky a výkazy výdajů. Používání systému pracovního postupu pomáhá zajistit, aby dokumenty byly zpracovávány a schvalovány konzistentním a efektivním způsobem.
-- **Viditelnost procesu** : Můžete sledovat stav, historii a metriky výkonu konkrétní instance pracovního postupu. To vám pomůže určit, zda je třeba provést změny v pracovním postupu, aby se zlepšila účinnost.
-- **Centralizovaný pracovní seznam** : Uživatelé si mohou prohlížet centralizovaný pracovní seznam a zobrazit úkoly pracovního toku a schválení, která jim byla přidělena. 
+- **Konzistentní procesy**: Můžete definovat proces schvalování pro konkrétní doklady, jako jsou nákupní žádanky a výkazy výdajů. Používání systému pracovního postupu pomáhá zajistit, aby dokumenty byly zpracovávány a schvalovány konzistentním a efektivním způsobem.
+- **Viditelnost procesu**: Můžete sledovat stav, historii a metriky výkonu konkrétní instance pracovního postupu. To vám pomůže určit, zda je třeba provést změny v pracovním postupu, aby se zlepšila účinnost.
+- **Centralizovaný pracovní seznam**: Uživatelé si mohou prohlížet centralizovaný pracovní seznam a zobrazit úkoly pracovního toku a schválení, která jim byla přidělena. 
 
 ## <a name="workflow-types"></a>Typy pracovního postupu
 

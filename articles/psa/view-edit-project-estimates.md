@@ -3,7 +3,7 @@ title: Zobrazení a úprava odhadů projektu
 description: Postup zobrazení a úprava odhadů projektu v Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d6f8375b71ef17319924e3a57800b1218f7258ee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34f0c1d85311dc6ec00e892ee899bc4dad0eed32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073856"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125845"
 ---
 # <a name="view-and-edit-project-estimates-project-service"></a>Zobrazení a úprava odhadů projektu (Project Service)
 
@@ -37,7 +37,7 @@ Prostřednictvím funkcí [!INCLUDE[pn_project_service_auto](../includes/pn-proj
   
 3.  Na panelu v horní části obrazovky vyberte šipku dolů vedle názvu projektu a potom klikněte na možnost **Odhady projektu**.  
   
-4.  V sekci **Časově uspořádat podle** vyberte položku **Úsilí** , **Náklady** nebo **Prodej** , chcete-li změnit, které odhady projektu zobrazit.  
+4.  V sekci **Časově uspořádat podle** vyberte položku **Úsilí**, **Náklady** nebo **Prodej**, chcete-li změnit, které odhady projektu zobrazit.  
   
 5.  Chcete-li přidat nebo odstranit výdaje, klikněte na položku  **Zobrazit mřížku**. Chcete-li vytvořit nov výdaj, klikněte na tlačítko **Nový výdaj**. Pokud chcete odstranit výdaj, vyberte jej ze seznamu a potom klikněte na tlačítko **Odstranit výdaj**. Jakmile budete hotovi s přidáváním a odstraňováním výdajů, klikněte na možnost **Uložit**.  
   

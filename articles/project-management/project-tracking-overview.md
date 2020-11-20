@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073631"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127333"
 ---
 # <a name="project-tracking-overview"></a>Přehled sledování projektů
 
@@ -25,10 +25,10 @@ Potřeba sledovat pokrok oproti plánu se liší podle odvětví. Některá odv�
 
 Zobrazení **Sledování úsilí** sleduje průběh úkolů v plánu porovnáním skutečných hodin úsilí vynaložených na úkol s hodinami plánovaného úsilí. Aplikace Dynamics 365 Project Operations používá pro výpočet metrik sledování následující vzorce:
 
-- **Procento pokroku** : Skutečné úsilí vynaložené doposud ÷ Odhad při dokončení (EAC) 
-- **Odhad dokončení (ETC)** : Plánované úsilí – Skutečné úsilí vynaložené doposud 
-- **Odhad nákladů při dokončení (EAC)** : Zbývající úsilí + Skutečné úsilí vynaložené doposud 
-- **Očekávaná odchylka úsilí** : Plánované úsilí – EAC
+- **Procento pokroku**: Skutečné úsilí vynaložené doposud ÷ Odhad při dokončení (EAC) 
+- **Odhad dokončení (ETC)**: Plánované úsilí – Skutečné úsilí vynaložené doposud 
+- **Odhad nákladů při dokončení (EAC)**: Zbývající úsilí + Skutečné úsilí vynaložené doposud 
+- **Očekávaná odchylka úsilí**: Plánované úsilí – EAC
 
 Project Operations u daného úkolu zobrazuje očekávanou odchylku úsilí. Je-li EAC větší než plánované úsilí, předpokládá se, že úkol zabere více času, než bylo původně plánováno a je pozadu za plánem. Je-li EAC menší než plánované úsilí, předpokládá se, že úkol zabere méně času, než bylo původně plánováno a je před plánem v předstihu.
 
@@ -60,10 +60,10 @@ Zobrazení **Sledování nákladů** porovnává skutečné náklady, které byl
 > [!NOTE]
 > Toto zobrazení ukazuje pouze náklady práce a nezahrnuje náklady z odhadů výdajů. Aplikace Project Operations používá pro výpočet metrik sledování následující vzorce:
 
-- **Procento spotřebovaných nákladů** : Skutečné náklady vynaložené doposud ÷ Odhadované náklady při dokončení
-- **Náklady na dokončení (CTC)** : Plánované náklady – Skutečné náklady vynaložené doposud
-- **Odhad nákladů při dokončení (EAC)** : Zbývající náklady + Skutečné dosud vynaložené náklady
-- **Očekávaná odchylka nákladů** : Plánované náklady – EAC
+- **Procento spotřebovaných nákladů**: Skutečné náklady vynaložené doposud ÷ Odhadované náklady při dokončení
+- **Náklady na dokončení (CTC)**: Plánované náklady – Skutečné náklady vynaložené doposud
+- **Odhad nákladů při dokončení (EAC)**: Zbývající náklady + Skutečné dosud vynaložené náklady
+- **Očekávaná odchylka nákladů**: Plánované náklady – EAC
 
 U úkolu je zobrazen odhad odchylky nákladů. Je-li EAC větší než plánované náklady, předpokládá se, že náklady na úkol budou vyšší, než bylo původně plánováno. Proto vykazuje vývoj trendu nad rozpočet. Je-li EAC menší než plánované náklady, předpokládá se, že náklady na úkol budou nižší, než bylo původně plánováno. Proto vykazuje vývoj trendu pod rozpočtem.
 

@@ -3,7 +3,7 @@ title: Prodejní procesy
 description: Toto téma poskytuje informace o základních prodejních procesech.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073894"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129310"
 ---
 # <a name="sales-processes"></a>Prodejní procesy
 
@@ -70,12 +70,12 @@ Těchto šest fází je reprezentováno dvojitými šipkami (\>), které vyberet
  
 Vaše organizace může v průběhu vývoje používat k reprezentaci stejného obchodu různé entity. Počátkem prodejního procesu je obchod reprezentován entitou Příležitost. Jak plyne čas a objeví se další podrobnosti, můžete k vytvoření jedné nebo více nabídek použít odhady na vysoké úrovni. Pokud je jedna z těchto nabídek zkontrolována interními a zákaznickými zúčastněnými stranami, představuje entita Nabídka obchod. Poté, co zákazník nabídku přijme, představuje projektová smlouva nebo SOW obchod. Pro podporu tohoto chování jsou toky obchodních procesů strukturovány tak, aby každá fáze procesu byla propojena s jinou databázovou tabulkou.
 
-Fázi **Zařadit** lze v prodejním procesu podpořit pomocí entity Příležitost. Fáze **Odhad** a **Interní revize** lze podpořit pomocí entity Nabídka. Fáze **Smlouva** , **Dodávka** a **Uzavření** lze podpořit pomocí entity Projektová smlouva.
+Fázi **Zařadit** lze v prodejním procesu podpořit pomocí entity Příležitost. Fáze **Odhad** a **Interní revize** lze podpořit pomocí entity Nabídka. Fáze **Smlouva**, **Dodávka** a **Uzavření** lze podpořit pomocí entity Projektová smlouva.
 
 Při přesouvání obchodů napříč fázemi se zobrazí výzva k vytvoření příslušného záznamu entity, který vám pomůže a provede vás procesem. Fáze mohou být podmíněné. Pokud například požadujete interní revizi nabídky pouze v případě, že nabídka používá vlastní ceník, můžete tuto podmínku nakonfigurovat v příslušné fázi obchodního procesu. Fáze **Interní revize** se pak zobrazí pouze pro nabídky, které používají vlastní ceník. U všech ostatních obchodů a nabídek následuje po fázi **Odhad** fáze **Smlouva**.
 
 > [!NOTE]
-> PSA obsahuje pro entity Příležitost, Nabídka, Objednávka a Faktura specifické stránky. Pro tyto entity musíte pomocí stránek informací o projektu vytvořit příležitosti, nabídky, objednávky a faktury služby Project Service. Pokud k vytvoření záznamu použijete jinou stránku, nebudete tento záznam moci otevřít ze stránky **Informace o projektu**. Chcete-li otevřít záznam ze stránky **Informace o projektu** , je nutné záznam odstranit a znovu jej vytvořit pomocí stránky **Informacemi o projektu**. Obchodní logika na stránce **Informace o projektu** pro každý z těchto typů entit zaručuje, že pole **Typ** záznamu je správně nastaveno, a že jsou správně inicializovány všechny povinné koncepty.
+> PSA obsahuje pro entity Příležitost, Nabídka, Objednávka a Faktura specifické stránky. Pro tyto entity musíte pomocí stránek informací o projektu vytvořit příležitosti, nabídky, objednávky a faktury služby Project Service. Pokud k vytvoření záznamu použijete jinou stránku, nebudete tento záznam moci otevřít ze stránky **Informace o projektu**. Chcete-li otevřít záznam ze stránky **Informace o projektu**, je nutné záznam odstranit a znovu jej vytvořit pomocí stránky **Informacemi o projektu**. Obchodní logika na stránce **Informace o projektu** pro každý z těchto typů entit zaručuje, že pole **Typ** záznamu je správně nastaveno, a že jsou správně inicializovány všechny povinné koncepty.
 
 > ![Informace o projektu pro novou objednávku](media/basic-guide-4.png)
  

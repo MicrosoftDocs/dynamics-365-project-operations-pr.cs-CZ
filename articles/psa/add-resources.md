@@ -3,7 +3,7 @@ title: Přidat zdroje
 description: Postup přidání zdrojů v Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c882ade53eb207d5c85fd769437cff65fef7ca1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e7b088ce2718901ab5af953f5fa1094188a4c954
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073772"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129490"
 ---
 # <a name="add-resources-project-service"></a>Přidání zdrojů (Project Service)
 

@@ -3,7 +3,7 @@ title: Plánování projektu pomocí strukturovaného rozpisu prací
 description: Postup plánování projektu pomocí strukturovaného rozpisu prací v Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073962"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127870"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Plánování projektu se strukturou rozpisu práce (Project Service)
 
@@ -86,14 +86,14 @@ Při vytváření strukturovaného rozpisu prací budete používat následujíc
   
 ### <a name="schedule-attributes"></a>Plánování atributů
 
- - Přiřaďte hodnoty k možnostem **Hodiny úsilí** , **Počet zdrojů** , **Datum zahájení** , **Datum ukončení** a **Doba trvání** a stanovte plán úkolu. 
+ - Přiřaďte hodnoty k možnostem **Hodiny úsilí**, **Počet zdrojů**, **Datum zahájení**, **Datum ukončení** a **Doba trvání** a stanovte plán úkolu. 
  - **Úsilí** je odhadovaný počet hodin nutných k dokončení úkolu.
  - **Počet zdrojů** je odhad vedoucího projektu ohledně počtu osob, které jsou třeba pro nejlepší možný plán. 
  - **Doba trvání** (ve dnech) označuje počet pracovních dnů, které budou třeba k dokončení úkolu.  
   
 ### <a name="staffing-attributes"></a>Personální atributy
 
- - **Role** , **Organizační jednotka zdroje** , **Počet zdrojů** , a **Zdroje** popisují požadavky na personální obsazení úkolu. 
+ - **Role**, **Organizační jednotka zdroje**, **Počet zdrojů**, a **Zdroje** popisují požadavky na personální obsazení úkolu. 
  - **Role** popisuje typ zdroje potřebný k provedení úkolu. 
  - **Organizační jednotka zdroje** označuje organizační jednotku, ze které je pro tento úkol třeba zajistit zdroje. To ovlivní také nákladové a prodejní odhady úkolu, protože je třeba vzít tyto hodnoty v úvahu při určování jednotkové prodejní ceny zdroje. 
  - **Zdroje** zahrnují obecné zdroje nebo pojmenované zdroje, pokud existují.  
@@ -136,11 +136,11 @@ Při vytváření strukturovaného rozpisu prací budete používat následujíc
   
 5.  Pokračujte v přidávání úkolů, dokud nebude strukturovaný rozpis prací dokončen. Při vytváření strukturovaného rozpisu prací můžete provést následující, chcete-li uspořádat úkoly:  
   
-    -   Vyberte úkol a klikněte na tlačítko **Zvětšit odsazení** , chcete-li jej posunout pod jiný úkol, nebo na tlačítko Zmenšit odsazení, chcete-li jej přesunout na vyšší úroveň.  
+    -   Vyberte úkol a klikněte na tlačítko **Zvětšit odsazení**, chcete-li jej posunout pod jiný úkol, nebo na tlačítko Zmenšit odsazení, chcete-li jej přesunout na vyšší úroveň.  
   
     -   Vyberte úkol a klikněte na tlačítko **Posunout nahoru** nebo **Posunout dolů** , chcete-li úkol přesunout nahoru nebo dolů v seznamu.  
   
-    -   Klikněte na tlačítko **Skrýt Ganttův diagram** , chcete-li skrýt Ganttům diagram, a na tlačítko **Zobrazit Ganttův diagram** , chcete-li jej znovu zobrazit.  
+    -   Klikněte na tlačítko **Skrýt Ganttův diagram**, chcete-li skrýt Ganttům diagram, a na tlačítko **Zobrazit Ganttův diagram**, chcete-li jej znovu zobrazit.  
   
     -   Vyberte jinou dobu pro Ganttův diagram v poli **Časové měřítko**.  
   
