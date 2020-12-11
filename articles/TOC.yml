@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Co je nového
       items:
+        - name: 'Prosinec 2020 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: 'Listopad 2020 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Prodejní proces projektu
@@ -87,7 +89,7 @@
                 - name: Správa více zákazníků na řádcích nabídek na základě projektů
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Konfigurace účtovatelných součásti řádku projektové nabídky
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Vytvoření odhadů na řádku nabídky
                   href: sales/create-estimate-quote-line.md
                 - name: Import odhadů z projektu do řádku nabídky založeného na projektu
@@ -109,7 +111,7 @@
             - name: Správa ceníků projektů v projektových smlouvách
               href: sales/contracts-manage-project-price-lists.md
             - name: Správa více zákazníků v projektových smlouvách
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Řádky smlouvy založené na projektu
               items:
                 - name: Přehled řádků smlouvy založené na projektu
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Kopírování projektové smlouvy
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Zálohy
+              items:
+                - name: Smlouvy na základě záloh - omezené
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Nastavení plánu záloh - omezené
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Vytvoření ad hoc zálohy na smlouvě - omezené
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Ceny a výpočet nákladů
       items:
         - name: Nastavení ceníku
@@ -158,18 +168,28 @@
           items:
             - name: Přehled cenových dimenzí
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Vytvoření řešení pro vlastní cenové dimenze
+              href: sales/create-solution-custompd.md
             - name: Použití existujících polí jako cenových dimenzí
               items:
                 - name: Pole Project Operations jako cenové dimenze
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Použití rezervovatelného zdroje jako cenové dimenze
+                  href: sales/use-br-as-pd.md
+                - name: Použití kategorie transakce jako cenové dimenze
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Rezervovatelný zdroj s více rolemi na projektu
+                  href: sales/br-playing-multiple-roles.md
             - name: Vlastní pole jako cenové dimenze
               items:
                 - name: Vytvoření vlastních polí a entit jako cenových dimenzí
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: "Přidání vlastních polí do nastavení ceny a\_transakčních entit"
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Nastavení vlastních polí jako cenových dimenzí
+                - name: 'Nastavení vlastních polí jako cenových dimenzí '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: 'Aktualizace atributů modulů plug-in tak, aby zahrnovaly nové cenové dimenze'
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Vypnutí cenové dimenze
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Správa projektů
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Správa zdrojů
           items:
+            - name: Vytvoření zdrojů
+              href: resource-management/create-resources.md
             - name: Definování dovedností a odbornosti
               href: resource-management/define-skills-proficiencies.md
+            - name: Definování rolí
+              href: resource-management/define-roles.md
             - name: Definování kalendářů zdrojů
               href: resource-management/define-resource-calendars.md
         - name: Metody přidělení rezervace
           href: resource-management/booking-allocation-methods.md
+        - name: Stavy rezervací
+          href: resource-management/booking-status.md
         - name: Dovednosti a modely odbornosti
           href: resource-management/skills-proficiency-models.md
         - name: Odsouhlasení zdrojů
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Správa proforma faktury projektu
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Fakturace záloh
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Potvrzení proforma faktury projektu
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Konfigurace automatizace faktury projektu
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Deník integrace v Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Mezipodniková fakturace
+          items:
+            - name: Přehled mezipodnikové fakturace
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Konfigurace mezipodnikové fakturace
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Vytváření mezipodnikových faktur zákazníků a dodavatelů
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Vytváření mezipodnikových transakcí
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Uznání výnosů
+      items:
+        - name: Přehled uznání výnosů
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Nastavení uznání výnosů
+          items:
+            - name: Nastavení typů období
+              href: project-accounting/period-types.md
+            - name: Nastavení šablon nákladů
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Správa odhadů výnosů
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Projekty odhadu výnosů pevné ceny
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Náklady na dokončení metod
+          href: revenue-recognition/cost-complete-methods.md
 - name: Omezené nasazení – od obchodu po pro forma fakturaci
   items:
     - name: Začínáme
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Co je nového
       items:
+        - name: 'Co je nového, prosinec 2020 - omezené nasazení – od obchodu po pro forma fakturaci'
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: 'Co je nového, listopad 2020 - omezené nasazení – od obchodu po pro forma fakturaci'
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Prodejní proces projektu
@@ -538,18 +594,28 @@
           items:
             - name: Přehled cenových dimenzí
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Vytvoření řešení pro vlastní cenové dimenze
+              href: sales/create-solution-custompd.md
             - name: Použití existujících polí jako cenových dimenzí
               items:
-                - name: Použití existujícího pole jako cenové dimenze
+                - name: Pole Project Operations jako cenové dimenze
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Použití rezervovatelného zdroje jako cenové dimenze
+                  href: sales/use-br-as-pd.md
+                - name: Použití kategorie transakce jako cenové dimenze
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Rezervovatelný zdroj s více rolemi na projektu
+                  href: sales/br-playing-multiple-roles.md
             - name: Vlastní pole jako cenové dimenze
               items:
                 - name: Vytvoření vlastních polí a entit jako cenových dimenzí
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: "Přidání vlastních polí do nastavení ceny a\_transakčních entit"
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Nastavení vlastních polí jako cenových dimenzí
+                - name: 'Nastavení vlastních polí jako cenových dimenzí '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: 'Aktualizace atributů modulů plug-in tak, aby zahrnovaly nové cenové dimenze'
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Vypnutí cenové dimenze
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Správa projektů
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Správa zdrojů
           items:
+            - name: Vytvoření zdrojů
+              href: resource-management/create-resources.md
             - name: Definování dovedností a odbornosti
               href: resource-management/define-skills-proficiencies.md
+            - name: Definování rolí
+              href: resource-management/define-roles.md
             - name: Definování kalendářů zdrojů
               href: resource-management/define-resource-calendars.md
         - name: Rezervace metod přidělení
           href: resource-management/booking-allocation-methods.md
+        - name: Stavy rezervací
+          href: resource-management/booking-status.md
         - name: Dovednosti a modely odbornosti
           href: resource-management/skills-proficiency-models.md
         - name: Odsouhlasení zdrojů
@@ -834,6 +906,8 @@
       items:
         - name: Plán vydávání aktualizací pro Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 26, V3'
+          href: psa/whats-new-ur-26.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 25, V3'
           href: psa/whats-new-ur-25.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 24, V3'
