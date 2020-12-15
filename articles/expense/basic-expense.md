@@ -3,17 +3,17 @@ title: Položka výdajů (omezené)
 description: Tento téma poskytuje informace o tom, jak pracovat se zadáním výdajů v omezeném nasazení.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121075"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590938"
 ---
 # <a name="expense-entry-lite"></a>Položka výdajů (omezené)
 
@@ -21,7 +21,7 @@ _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
 Základní nebo omezená správa nákladů je schopnost zaznamenávat jednoduché výdaje. Můžete zaznamenat výdaje proti projektu a poté je schvalovatel projektu zkontroluje a schválí.
 
-Další informace o možnostech výdajů v Dynamics 365 Project Operations najdete v [Přehledu výdajů](expense-overview.md).
+Další informace o možnostech výdajů v Dynamics 365 Project Operations viz [Přehled výdajů](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Zachyťte základní výdaje
 
@@ -36,6 +36,10 @@ Jakmile dokončíte získávání všech svých výdajů a jste připraveni je s
 
 1. přejděte na **Výdaje** a vyberte výdaj. Nebo vyberte všechny výdaje pomocí zaškrtávacího políčka v záhlaví.
 2. Vyberte položku **Odeslat**. Systém zpracuje vybrané položky a poté vytvoří žádosti o schválení výdajů.
+
+## <a name="add-an-attachment"></a>Přidat přílohu
+
+Možná budete muset poskytnout schvalovateli další dokumentaci o svých výdajích. Na časové ose záznamu výdajů můžete připojit potvrzení. Vyberte **Upravit** a v sekci **Časová osa** vyberte ikonu kancelářské sponky a přiložte potvrzení.
 
 ## <a name="recall-a-basic-expense"></a>Odvolání základního výdaje
 

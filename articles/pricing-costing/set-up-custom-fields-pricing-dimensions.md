@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119410"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650194"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Nastavení vlastních polí jako cenových dimenzí
 
@@ -41,9 +41,15 @@ Toto téma obsahuje informace o nastavení vlastních cenových dimenzí. Na str
 Aby se pole stalo cenovou dimenzí, musí být:
 
 - Vytvořeno jako pole v entitách **Cena role** a **Přirážka ceny role**. Další informace o tom, jak to udělat viz [Přidání vlastních polí do nastavení ceny a transakčních entit](add-custom-fields-price-setup-transactional-entities.md).
+
 - Vytvořeno jako řádek v tabulce **Cenová dimenze**. Můžete například přidat řádky cenové dimenze, jak je znázorněno na následujícím obrázku. 
 
+![Řádky cenové dimenze založené na částce](media/Amt-based-PD.png)
+
 Pracovní doba zdroje (**msdyn_resourceworkhours**) je přidána jako dimenze založená na přirážce a byla přidána do mřížky na kartě **Cenová dimenze založená na přirážce**.
+
+![Řádky cenové dimenze založené na přirážce](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Jakákoli změna v datech cenové dimenze v této tabulce, existující nebo nová, se rozšíří do obchodní logiky ocenění až po aktualizaci mezipaměti. Doba aktualizace mezipaměti může trvat až 10 minut. Povolit tuto dobu zobrazení změn v logice pro výchozí cenu, která musí být výsledkem změn v datech cenové dimenze.

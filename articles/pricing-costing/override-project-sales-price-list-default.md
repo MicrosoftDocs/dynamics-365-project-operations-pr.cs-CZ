@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130840"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672223"
 ---
 # <a name="override-project-sales-price-lists"></a>Přepsání prodejních ceníků projektu
 
@@ -27,7 +28,7 @@ Chcete-li nastavit projektový ceník konkrétního zákazníka, v oblasti **Pro
 
 1. Otevřete stránku seznamu **Obchodní vztahy**.
 2. Vyhledejte a poklepejte na záznam zákazníka a otevřete stránku s podrobnostmi **Obchodní vztah**.
-3. Na kartě **Projektové ceníky** vyberte **+ Nový projektový ceník^^.
+3. Na kartě **Projektové ceníky** vyberte **+ Nový projektový ceník**.
 4. Na stránce **Nový projektový ceník** vyberte z rozevíracího seznamu ceník. Jsou zde pouze ceníky, jejichž kontext je nastaven na **Prodej** a jejichž měna odpovídá měně obchodního vztahu.
 5. Pojmenujte přidružení a poté vyberte **Uložit**. Vytvoří se projektový ceník konkrétního zákazníka. Tento ceník bude určovat výchozí projektové ceny u projektových nabídek nebo smluv vytvořených pro tohoto zákazníka, kde datum vytvoření projektové nabídky nebo smlouvy spadá do data účinnosti ceníku.
 

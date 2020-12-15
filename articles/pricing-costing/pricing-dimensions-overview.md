@@ -1,28 +1,20 @@
 ---
 title: Přehled cenových dimenzí
-description: Toto téma obsahuje informace o cenových dimenzích v Dynamics 365 Project Operations.
+description: Toto téma obsahuje informace o nastavení cenových dimenzí v Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128455"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650177"
 ---
 # <a name="pricing-dimensions-overview"></a>Přehled cenových dimenzí
 
@@ -42,7 +34,19 @@ Z tohoto důvodu jsou k dispozici dva typy hodnot cenové dimenze:
 
 Dynamics 365 Project Operations se dodává s výchozí sadou cenových dimenzí. Tyto cenové dimenze můžete zobrazit přechodem na **Project Operations** > **Parametry**. V záznamu parametru na kartě **Cenové dimenze založené na částce** ověřte, že role **msdyn_resourcecategory** a organizační jednotka zdroje **msdyn_organizationalunit** mají pole **Použitelné pro prodej** a **Použitelné pro náklady** nastavená na **Ano**. Když jsou tato pole povolena, můžete nastavit cenu a náklady pro každou kombinaci role a organizační jednotky.
 
-Potřebujete-li své zdroje ocenit nebo vyjádřit náklady na ně pomocí dalších atributů, můžete vytvořit přizpůsobená pole, entity a dimenze.
+![Snímek obrazovky parametrů Project Service se zvýrazněním „Použitelné na prodej”](media/PS-OOB-parameters.png)
+
+Potřebujete-li své zdroje ocenit nebo vyjádřit náklady na ně pomocí dalších atributů, můžete vytvořit přizpůsobená pole, entity a dimenze. Další informace naleznete v následujících tématech: 
+  
+  > [!NOTE]
+  > Postupy musí být dokončeny v pořadí, v jakém jsou uvedeny.
+
+1. [Vytvoření řešení pro vlastní cenové dimenze](../sales/create-solution-custompd.md)
+2. [Vytvoření vlastních polí a entit](create-custom-fields-entities-pricing-dimensions.md)
+3. [Přidání vlastních polí do nastavení ceny a transakčních entit ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Nastavení vlastních polí jako cenových dimenzí ](set-up-custom-fields-pricing-dimensions.md)
+5. [Aktualizace atributů modulů plug-in tak, aby zahrnovaly nové cenové dimenze](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Ocenění času lidského zdroje
 Způsob, jakým organizace oceňuje čas lidského zdroje, je často důležitým strategickým aspektem, který přímo ovlivňuje ziskovost organizace. V případě, že vaše organizace je připravena určit, jakým způsobem chce vytvořit sazby fakturace a nákladové sazby pro čas lidského zdroje, pracujte s finančními týmy a vedoucími praxe.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180769"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513916"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Vytvoření plánu faktur na řádku smlouvy na základě projektu 
 
@@ -49,7 +49,7 @@ Provedením následujících kroků automaticky vygenerujete rozpis faktur na z�
 3. Otevřete řádek smlouvy **Fixní cena**, pro který vytváříte milníkový plán. Na kartě **Milníky faktur** vyberte datum zahájení fakturace a frekvence faktur. 
 4. V podmřížce vyberte **Generovat periodické milníky**. Rozpis faktur je generován pomocí polí **Název milníku**, **Datum milníku** a **Částka milníku** nastavených následovně:
 
-    - **Název milníku**: Toto datum je určeno na základě frekvence fakturace.
+    - **Název milníku**: Tento název je dán frekvencí faktur.
     - **Datum milníku**: Toto datum je určeno na základě frekvence fakturace.
     - **Částka milníku**: Tato částka se vypočítá vydělením částky smlouvy na řádku smlouvy počtem milníků, jak je diktováno frekvencí a začátkem fakturace a požadovanými termíny dodání.
 

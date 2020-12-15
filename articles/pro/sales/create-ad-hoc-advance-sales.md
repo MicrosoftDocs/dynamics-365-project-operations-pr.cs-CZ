@@ -1,5 +1,5 @@
 ---
-title: Vytvoření ad hoc zálohy na smlouvě – omezené
+title: Vytvoření ad hoc zálohy na smlouvě
 description: Tohle téma poskytuje informace o vytvoření zálohy na smlouvě podle potřeby.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181354"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4595941"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Vytvoření ad hoc zálohy na smlouvě – omezené
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Vytvoření ad hoc zálohy na smlouvě
 
-_**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
+_**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
 Microsoft Dynamics 365 Project Operations podporuje scénáře fakturace, které zahrnují platby předem a zálohy. Proces používání **Záloh** v **Project Operations** je podobný smlouvám **Záloha**. 
 

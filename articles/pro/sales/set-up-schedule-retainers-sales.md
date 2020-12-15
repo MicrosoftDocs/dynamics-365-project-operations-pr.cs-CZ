@@ -1,5 +1,5 @@
 ---
-title: Nastavení plánu záloh – omezené
+title: Nastavit plán záloh
 description: Tohle téma poskytuje informace, jak nastavit plán záloh v Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181264"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596364"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Nastavení plánu záloh – omezené
+# <a name="set-up-a-retainer-schedule"></a>Nastavit plán záloh
 
-_**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
+_**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
 Plány záloh lze nastavit na stránce **Projektová smlouva** v Dynamics 365 Project Operations.
 

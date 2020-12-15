@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180499"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513781"
 ---
 # <a name="manage-leads---lite"></a>Správa zájemců – omezeno
 
@@ -23,7 +23,7 @@ Zájemce na základě projektu lze spravovat a kvalifikovat v aplikaci Project O
 
 ## <a name="list-of-project-sales-leads"></a>Seznam potenciálních zákazníků projektu
 
-V části **Prodej** v levém navigačním podokně otevřete stránku seznamu **Zájemci** a zobrazte tak seznam všech záznamů potenciálních zákazníků v systému. Zobrazený seznam zájemců obsahuje zájemce založené na práci a další typy zájemců, které lze vytvořit, pokud máte také aplikace Dynamics 365 Sales nebo Dynamics 365 Field Service.
+V části **Prodej** v levém navigačním podokně otevřete stránku seznamu **Zájemci** a zobrazte tak seznam všech záznamů potenciálních zákazníků v systému. Zájemci v seznamu jsou na základě práce i dalších typů, které lze vytvořit, pokud máte také Dynamics 365 Sales nebo aplikace Dynamics 365 Field Service.
 
 Vytvořením filtru podle hodnoty **Typ** můžete vytvořit filtrované zobrazení a ukázat pouze zájemce na základě projektu. Můžete například vybrat, aby se zobrazovali pouze zájemci na základě práce.
 
@@ -55,7 +55,7 @@ Zájemci, kteří mají **Typ** nastaven na hodnotu **Na základě práce**, se 
 - Záznam kontaktní osoby přidružený k účtu na základě hodnot v polích **Křestní jméno** a **Příjmení** zájemce.
 - Příležitost založená na projektu, která má pole **Typ** nastaveno na **Na základě práce**.
 
-Podrobnější informace o zařazení zájemců najdete v tématu[Zařazení nebo převod zájemců](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Podrobnější informace o zařazení zájemců najdete v tématu [Zařazení nebo převod zájemců](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Tok obchodního procesu u obchodů založených na projektu
 

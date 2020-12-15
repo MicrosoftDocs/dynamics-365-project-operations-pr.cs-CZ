@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073914"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642625"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizace projektových smluv a projektů přímo z Project Service Automation do Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Toto téma popisuje šablonu a základní úkoly, které se používají k synchronizaci projektových smluv a projektů přímo z Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 
@@ -46,7 +48,7 @@ Následující obrázek ukazuje, jak jsou data synchronizována mezi Project Ser
 
 ## <a name="templates-and-tasks"></a>Šablony a úkoly
 
-Pro přístup k dostupným šablonám v centru pro správu Microsoft Power Apps vyberte **Projekty** a poté v pravém horním rohu vyberte **Nový projekt** , aby se vybraly veřejné šablony.
+Pro přístup k dostupným šablonám v centru pro správu Microsoft Power Apps vyberte **Projekty** a poté v pravém horním rohu vyberte **Nový projekt**, aby se vybraly veřejné šablony.
 
 Následující šablony a základní úlohy se používají k synchronizaci projektových smluv a projektů z Project Service Automation do Finance:
 
@@ -95,11 +97,11 @@ Milníky řádků projektové smlouvy jsou spravovány v aplikaci Project Servic
 
 Pole **ID projektové smlouvy** je dostupné na stránce **Projektové smlouvy**. Toto pole se stalo přirozeným a jedinečným klíčem pro podporu integrace.
 
-Když je vytvořena nová projektová smlouva a **ID projektové smlouvy** hodnota ještě neexistuje, je automaticky generován pomocí číselné řady. Hodnota se skládá z řetězce **ORD** , za kterým následuje automaticky se zvyšující číslo a přípona šesti znaků. Zde je příklad: **ORD-01022-Z4M9Q0**.
+Když je vytvořena nová projektová smlouva a **ID projektové smlouvy** hodnota ještě neexistuje, je automaticky generován pomocí číselné řady. Hodnota se skládá z řetězce **ORD**, za kterým následuje automaticky se zvyšující číslo a přípona šesti znaků. Zde je příklad: **ORD-01022-Z4M9Q0**.
 
 Pole **Číslo projektu** je dostupné na stránce **Projekty**. Toto pole se stalo přirozeným a jedinečným klíčem pro podporu integrace.
 
-Když je vytvořen nový projekt a hodnota **Číslo projektu** ještě neexistuje, je automaticky generována pomocí číselné řady. Hodnota se skládá z řetězce **PRJ** , za kterým následuje automaticky se zvyšující číslo a přípona šesti znaků. Zde je příklad: **PRJ-01049-CCNID0**.
+Když je vytvořen nový projekt a hodnota **Číslo projektu** ještě neexistuje, je automaticky generována pomocí číselné řady. Hodnota se skládá z řetězce **PRJ**, za kterým následuje automaticky se zvyšující číslo a přípona šesti znaků. Zde je příklad: **PRJ-01049-CCNID0**.
 
 Když je použito řešení integrace Project Service Automation do Finance, nastaví skript upgradu pole **ID projektové smlouvy** pro stávající projektové smlouvy a pole **Číslo projektu** pro stávající projekty v Project Service Automation.
 
@@ -133,9 +135,9 @@ Pokud musíte použít Power Query, postupujte podle těchto pokynů:
 ## <a name="template-mapping-in-data-integration"></a>Mapování šablon v integraci dat
 
 > [!NOTE] 
-> Pole **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** a **AdresssZipCode** nejsou zahrnuta do výchozího mapování pro projektové smlouvy. Můžete přidat mapování, pokud požadujete synchronizaci těchto dat u projektových smluv.
+> Pole **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** a **AdresssZipCode** nejsou zahrnuta do výchozího mapování pro projektové smlouvy. Můžete přidat mapování, pokud požadujete synchronizaci těchto dat u projektových smluv.
 >
-> Pole **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** a **ProjectType** nejsou zahrnuta do výchozího mapování pro projekty. Můžete přidat mapování, pokud požadujete synchronizaci těchto dat u projektů.
+> Pole **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** a **ProjectType** nejsou zahrnuta do výchozího mapování pro projekty. Můžete přidat mapování, pokud požadujete synchronizaci těchto dat u projektů.
 
 Následující obrázky ukazují příklady mapování úlohy šablony v Integraci dat. Mapování zobrazuje informace pole, které budou synchronizovány z Project Service Automation do Finance.
 

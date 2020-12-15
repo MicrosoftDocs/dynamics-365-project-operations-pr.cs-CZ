@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129670"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642760"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Použití doplňku Project Service Automation za účelem plánování práce v aplikaci Microsoft Project
 
@@ -173,6 +173,59 @@ Projekt se importuje do [!INCLUDE[pn_project_service_auto](../includes/pn-projec
 4. Klikněte na **Publikovat**.  
 
 Propojení souboru aplikace Project s [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] učiní soubor aplikace Project hlavním souborem a nastaví strukturovaný rozpis prací v šabloně [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] jen pro čtení.  Aby bylo možné provádět změny v plánu projektu, je nutné změny provést v aplikaci [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] a publikovat je jako aktualizace do [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+
+## <a name="read-a-resource-loaded-schedule"></a>Přečtěte si plán načtených zfrojů
+
+Při čtení projektu z Project Service Automation se kalendář prostředku nesynchronizuje s klientem plochy. Pokud existují rozdíly v dobách trvání, úsilí nebo konci úkolu, je to pravděpodobně proto, že prostředky a klient pro stolní počítače nemají pro projekt stejný kalendář šablon pracovní doby.
+
+
+## <a name="data-synchronization"></a>Synchronizace dat
+
+Následující tabulka popisuje, jak se synchronizují data mezi Project Service Automation a doplňkem Microsoft Project pro stolní počítače.
+
+| **Entita** | **Pole** | **Microsoft Project do Project Service Automation** | **Project Service Automation do Microsoft Project** |
+| --- | --- | --- | --- |
+| Projektový úkol | Termín | ● | - |
+| Projektový úkol | Odhadované úsilí | ● | - |
+| Projektový úkol | ID klienta MS Project | ● | - |
+| Projektový úkol | Nadřazený úkol | ● | - |
+| Projektový úkol | Project | ● | - |
+| Projektový úkol | Projektový úkol | ● | - |
+| Projektový úkol | Název projektového úkolu | ● | - |
+| Projektový úkol | Jednotka zdroje (vyřazeno ve verzi 3.0) | ● | - |
+| Projektový úkol | Plánovaná doba trvání | ● | - |
+| Projektový úkol | Počáteční datum | ● | - |
+| Projektový úkol | ID strukturovaného rozpisu prací | ● | - |
+
+| **Entita** | **Pole** | **Microsoft Project do Project Service Automation** | **Project Service Automation do Microsoft Project** |
+| --- | --- | --- | --- |
+| Člen týmu | ID klienta MS Project | ● | - |
+| Člen týmu | Název pozice | ● | - |
+| Člen týmu | projekt | ● | ● |
+| Člen týmu | Projektový tým | ● | ● |
+| Člen týmu | Jednotka zdroje | - | ● |
+| Člen týmu | Role | - | ● |
+| Člen týmu | Pracovní doba | Nesynchronizováno | Nesynchronizováno |
+
+| **Entita** | **Pole** | **Microsoft Project do Project Service Automation** | **Project Service Automation do Microsoft Project** |
+| --- | --- | --- | --- |
+| Přiřazení zdroje | Od data | ● | - |
+| Přiřazení zdroje | hod | ● | - |
+| Přiřazení zdroje | ID klienta MS Project | ● | - |
+| Přiřazení zdroje | Naplánovaná práce | ● | - |
+| Přiřazení zdroje | Project | ● | - |
+| Přiřazení zdroje | Projektový tým | ● | - |
+| Přiřazení zdroje | Přiřazení zdroje | ● | - |
+| Přiřazení zdroje | Úloha | ● | - |
+| Přiřazení zdroje | K aktuálnímu datu | ● | - |
+
+| **Entita** | **Pole** | **Microsoft Project do Project Service Automation** | **Project Service Automation do Microsoft Project** |
+| --- | --- | --- | --- |
+| Závislosti projektových úkolů | Závislost projektového úkolu | ● | - |
+| Závislosti projektových úkolů | Typ propojení | ● | - |
+| Závislosti projektových úkolů | Předchozí úkol | ● | - |
+| Závislosti projektových úkolů | Project | ● | - |
+| Závislosti projektových úkolů | Následný úkol | ● | - |
 
 ### <a name="see-also"></a>Viz také  
  [Příručka pro projektového manažera](../psa/project-manager-guide.md)

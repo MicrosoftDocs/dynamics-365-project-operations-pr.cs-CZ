@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 16f5dbb283eee12cf10ca7145ea9e17c5ef8923e
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181759"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513826"
 ---
 # <a name="manage-leads"></a>Správa zájemců
 
@@ -55,7 +55,7 @@ Zájemci, kteří mají **Typ** nastaven na hodnotu **Na základě práce**, se 
 - Záznam kontaktní osoby přidružený k účtu na základě hodnot v polích **Křestní jméno** a **Příjmení** zájemce.
 - Příležitost založená na projektu, která má pole **Typ** nastaveno na **Na základě práce**.
 
-Podrobnější informace o zařazení zájemců najdete v tématu[Zařazení nebo převod zájemců](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Podrobnější informace o zařazení zájemců najdete v tématu [Zařazení nebo převod zájemců](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Zařazení zájemce a informace o právnické osobě 
 

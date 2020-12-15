@@ -1,5 +1,5 @@
 ---
-title: Fakturace záloh – omezené
+title: Fakturace záloh
 description: Toto téma poskytuje informace o fakturaci záloh v aplikaci Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180544"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596184"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Fakturace záloh – omezené
+# <a name="invoice-a-retainer-or-an-advance"></a>Fakturace záloh
 
-_**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
+_**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Dynamics 365 Project Operations podporuje smlouvy založené na zálohách a jednorázové zálohy. Na smlouvě o projektu můžete zaznamenat plán záloh nebo jednorázových zálohu. Nahrávání na úrovni smlouvy o projektu však okamžitě nezpřístupní zálohu pro použití. Chcete-li použít zálohu na faktuře, která zákazníkovi skutečně účtuje, je třeba nejdříve zálohu vyfakturovat.
+Dynamics 365 Project Operations podporuje smluvy na základě záloh a jednorázové zálohy. Na smlouvě o projektu můžete zaznamenat plán záloh nebo jednorázových zálohu. Nahrávání na úrovni smlouvy o projektu však okamžitě nezpřístupní zálohu pro použití. Chcete-li použít zálohu na faktuře, která zákazníkovi skutečně účtuje, je třeba nejdříve zálohu vyfakturovat.
 
 Chcete-li vyfakturovat zálohu, postupujte následovně.
 

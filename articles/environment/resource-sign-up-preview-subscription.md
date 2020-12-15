@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121120"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642942"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Přihlášení k odběru preview Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Toto téma vysvětluje, jak se přihlásit k odběru preview / nabídky partnera a nasadit prostředí Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě.
 
@@ -31,18 +33,18 @@ Toto téma vysvětluje, jak se přihlásit k odběru preview / nabídky partnera
 
 Až bude váš [požadavek na preview](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) schválen, dostanete od společnosti Microsoft e-mailem tři nabídky. Tyto nabídky vám umožňují nasadit Project Operations Preview:
 
-- Dynamics 365 Project Operations (CRM) – zkušební verze Preview
+- Zkušební verze Preview Dynamics 365 Project Operations (CRM)
 - Office 365 Project Operations – zkušební verze Preview
 - Dynamics 365 Finance - Zkušební verze Preview
 
 > [!IMPORTANT]
 > Tuto úlohu musí v organizaci provést pouze jedna osoba, správce tenanta. Pokud nejste předplatitelem tohoto vydání, počkejte, dokud nebude vaše organizace zaregistrována a neobdržíte přihlašovací údaje uživatele.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – zkušební verze Preview 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Zkušební verze Preview Dynamics 365 Project Operations (CRM) 
 
 Než začnete, ujistěte se, že jste přihlášeni do prohlížeče s pracovním účtem uživatele v klientu, kde chcete Project Operations Preview mít.
 
-1. Uplatněte první kód nabídky, **Dynamics 365 Project Operations (CRM) – zkušební verze Preview**, vložením do adresy URL prohlížeče.
+1. Uplatněte první kód nabídky **Dynamics 365 Project Operations (CRM) - zkušební verze náhledu** vložením do adresy URL prohlížeče.
 
 ![Uplatnění nabídky](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ Stejné kroky opakujte s poslední nabídkou z uvítacího e-mailu.
 
 ![Přiřazení licencí](./media/15AssignLicenses.png)
 
-3. Ověřte, že je vybrána položka **Dynamics 365 Project Operations (CRM) – Preview** a licence **Office 365 Project Operations - Preview** a vyberte příkaz **Uložit změny**.
+3. Ověřte, že byla vybrána licence **Náhled Dynamics 365 Project Operations (CRM)** a **Office 365 Project Operations - náhled** a vyberte **Uložit změny**.
 
 > [!NOTE]
 > Nabídku zkušební verze Finance není nutné přiřadit uživateli.

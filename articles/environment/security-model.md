@@ -1,6 +1,6 @@
 ---
 title: model zabezpečení,
-description: Toto téma poskytuje informace o modelech zabezpečení v Dynamics 365 Project Operations.
+description: Toto téma obsahuje informace o modelu zabezpečení v Dynamics 365 Project Operations.
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124360"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642895"
 ---
 # <a name="security-model"></a>Model zabezpečení
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Microsoft Dynamics 365 Project Operations obsahuje jedinečný model zabezpečení, který dovoluje použít model podnikového zabezpečení založený na rolích, spolupracující se skupinami Microsoft Office. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations obsahuje jedinečný model zabezpečení, který umožňuje obchodní model zabezpečení založený na rolích, kterým spolupracuje se skupinami Microsoft Office. 
 
 
 ## <a name="security-roles"></a>Role zabezpečení

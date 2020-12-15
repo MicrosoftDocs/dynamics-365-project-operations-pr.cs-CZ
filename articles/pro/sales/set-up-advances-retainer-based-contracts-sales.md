@@ -1,5 +1,5 @@
 ---
-title: Smlouvy na základě záloh – omezené
+title: Zálohy a smlouvy na základě záloh
 description: Toto téma poskytuje informace o smluvních modelech založených na zálohách a zálohách v aplikaci Project Operations.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180859"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596094"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Smlouvy na základě záloh – omezené
+# <a name="advances-and-retainer-based-contracts"></a>Zálohy a smlouvy na základě záloh
 
 
-_**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
+_**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Dynamics 365 Project Operations podporuje smlouvy založené na zálohách. Smlouva založená na zálohách je sjednaná sada rovnoměrně distribuovaných plateb, které budou zákazníkovi fakturovány po celou dobu trvání projektu. Tento typ smlouvy se obvykle používá pro fakturační modely založené na čase a materiálu nebo spotřebě, kde je třeba zákazníkovi poskytnout předvídatelnou fakturu a plán plateb. Skutečné časově rozlišené výnosy v každém období jsou porovnány s platbami přijatými od zákazníka na začátku období. V souladu s konceptem fakturačního modelu Čas a materiál se časově rozlišené hodnoty výnosů v každém období mohou lišit podle vzniklých nákladů. Pokud je časově rozlišený výnos vyšší než částka přijatá na začátku období, mohla by společnost provádějící projekt:
+Dynamics 365 Project Operations podporuje smlouvy na základě záloh. Smlouva založená na zálohách je sjednaná sada rovnoměrně distribuovaných plateb, které budou zákazníkovi fakturovány po celou dobu trvání projektu. Tento typ smlouvy se obvykle používá pro fakturační modely založené na čase a materiálu nebo spotřebě, kde je třeba zákazníkovi poskytnout předvídatelnou fakturu a plán plateb. Skutečné časově rozlišené výnosy v každém období jsou porovnány s platbami přijatými od zákazníka na začátku období. V souladu s konceptem fakturačního modelu Čas a materiál se časově rozlišené hodnoty výnosů v každém období mohou lišit podle vzniklých nákladů. Pokud je časově rozlišený výnos vyšší než částka přijatá na začátku období, mohla by společnost provádějící projekt:
 
 - Fakturovat zákazníkovi pouze přebytek 
 - Odložit odsouhlasení výnosů na další fakturační období a na konci projektu provést jedno závěrečné vyúčtování zbývajících nevyrovnaných výnosů

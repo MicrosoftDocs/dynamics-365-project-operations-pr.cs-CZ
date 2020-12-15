@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e1a963bccefd1552aab6e42d3b2d1dc63a82e8f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9ccbb29d5035ea061d232011af87cef2c81e76c
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073921"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642445"
 ---
 # <a name="project-service-automation-overview"></a>Přehled aplikace Project Service Automation
 
 [!include[banner](../includes/banner.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Řešení integrace aplikací Project Service Automation do Finance využívá funkci integrace dat k synchronizaci dat napříč instancemi aplikací Dynamics 365 Finance a Dynamics 365 Project Service Automation přes Common Data Service. Šablony integrace, která jsou k dispozici s funkcí integrace dat, umožňují tok dat o projektových smlouvách, projektech, řádcích projektových smluv, milníků řádků, projektových úkolů, kategorií transakcí výdajů, odhadů hodinových cen a výdajů z Project Service Automation do Finance.
 

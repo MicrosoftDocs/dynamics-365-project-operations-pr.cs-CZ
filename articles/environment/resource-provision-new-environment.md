@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121165"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642955"
 ---
 # <a name="provision-a-new-environment"></a>Zřízení nového prostředí
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-Toto téma poskytuje informace o tom, jak zřídit nové prostředí Dynamics 365 Project Operations pro scénáře založené na zdrojích / neuskladněných zásobách.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Toto téma poskytuje informace o zřízování nového prostředí Dynamics 365 Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Povolení automatického zřizování Project Operations v projektu LCS
 
@@ -120,7 +122,7 @@ Uložení a ověření balíčku může trvat až 15 minut.
 
 ![Použít řešení](./media/13ApplySolutions.png)
 
-5. Vyberte obě řešení **Mapa entit duálního zápisu Dynamics 365 Finance and Operations** a **Mapa entit duálního zápisu Dynamics 365 Project Operations** a potom vyberte příkaz **Použít**.
+5. Vyberte obě řešení, **Mapa entit duálního zápisu Dynamics 365 Finance and Operations** a **Mapa entit duálního zápisu Dynamics 365 Project Operations** a potom vyberte **Použít**.
 
 ![Potvrzení řešení](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Aktualizace bude trvat přibližně 20 minut. Po dokončení obdržíte upozorn
 | --- | --- | --- | --- | --- | --- |
 | **Role zdrojů projektu pro všechny společnosti (bookableresourcecategories)** | No | Ano | Common Data Service | No | Neuvedeno |
 | **Právnické osoby (cdm\_companies)** | No | Ano | Aplikace Finance and Operations | No | Neuvedeno |
+| **Registr (msdyn_ledgers)** | No | Ano | Aplikace Finance and Operations | Ano | Ano, aplikace Finance and Operations |
 | **Skutečné hodnoty integrace Project Operations (msdyn\_actuals)** | No | No | Neuvedeno | Ano | No |
 | **Řádky smlouvy založené na projektu (salesorderdetails)** | No | No | Neuvedeno | No | No |
 | **Entita integrace pro vztahy projektových transakcí (msdyn\_transactionconnections)** | No | No | Neuvedeno | No | Neuvedeno |
