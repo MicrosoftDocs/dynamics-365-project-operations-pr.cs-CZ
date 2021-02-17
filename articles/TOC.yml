@@ -24,8 +24,6 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Použití ukázkových dat
           items:
-            - name: Použití ukázkových dat na prostředí aplikace Finance hostované v cloudu
-              href: environment/resource-apply-finance-demo-data.md
             - name: Použití konfiguračních dat v Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Nasazení prostředí
@@ -38,6 +36,10 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Co je nového
       items:
+        - name: 'Únor 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-feb-2021-resource-based.md
+        - name: 'Leden 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-jan-2021-resource-based.md
         - name: 'Prosinec 2020 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
           href: whats-new/whats-new-dec-2020-resource-based.md
         - name: 'Listopad 2020 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
@@ -132,11 +134,11 @@
               href: pro/sales/copy-project-contracts-sales.md
             - name: Zálohy
               items:
-                - name: Smlouvy na základě záloh - omezené
+                - name: Zálohy a smlouvy na základě záloh
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Nastavení plánu záloh - omezené
+                - name: Nastavení plánu záloh
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Vytvoření ad hoc zálohy na smlouvě - omezené
+                - name: Vytvoření ad hoc zálohy na smlouvě
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Ceny a výpočet nákladů
       items:
@@ -210,6 +212,8 @@
           href: project-management/copy-project.md
         - name: Plánování strukturovaného rozpisu prací
           items:
+            - name: Vytvoření strukturovaného rozpisu prací
+              href: project-management/create-wbs.md
             - name: Vytvoření přiřazení
               href: project-management/create-assignments.md
         - name: Odhad projektů
@@ -232,6 +236,8 @@
               href: project-management/project-team-members-overview.md
             - name: Udržování členů týmu
               href: project-management/maintain-team-members.md
+        - name: Řešení potíží s prací v mřížce úloh
+          href: project-management/projectplanningUIFAQ.md
         - name: Spolupráce
           items:
             - name: Spolupráce se Skupinami Office
@@ -262,6 +268,8 @@
               href: resource-management/book-project.md
             - name: Kontrola navrhovaných zdrojů
               href: resource-management/review-proposed-resources.md
+            - name: Úprava rezervací
+              href: resource-management/edit-existing-bookings.md
         - name: Decentralizovaná rezervace zdrojů (hybridní)
           items:
             - name: Přidání členů týmu do mřížky členů týmu
@@ -326,6 +334,8 @@
                   href: expense/set-up-credit-card-integration.md
                 - name: Nastavení kategorií výdajů
                   href: expense/set-up-expense-categories.md
+            - name: Práce s osobními výdaji ve výkazu výdajů
+              href: expense/personal-expenses-expense-report.md
             - name: Vytvoření vyúčtování výdajů
               items:
                 - name: Distribuce na vyúčtování výdajů
@@ -370,22 +380,28 @@
           items:
             - name: Vytváření a potvrzení deníků oprav
               href: actuals/create-confirm-correction-journals.md
-    - name: Proforma fakturace
+    - name: Fakturace
       items:
-        - name: Správa nedokončené fakturace produktů
-          href: proforma-invoicing/manage-billing-backlog.md
-        - name: Správa nepřekročitelných stavů a ověření
-          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Ruční vytvoření proforma faktury
-          href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Správa proforma faktury projektu
-          href: proforma-invoicing/manage-proforma-invoice.md
-        - name: Fakturace záloh
-          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-        - name: Potvrzení proforma faktury projektu
-          href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Konfigurace automatizace faktury projektu
-          href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Přehled fakturovacího procesu
+          href: invoicing/post-project-invoices.md
+        - name: Správa návrhů faktury projektu
+          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Proforma fakturace
+          items:
+            - name: Správa nedokončené fakturace produktů
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: Správa nepřekročitelných stavů a ověření
+              href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+            - name: Ruční vytvoření proforma faktury
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: Správa proforma faktury projektu
+              href: proforma-invoicing/manage-proforma-invoice.md
+            - name: Fakturace záloh
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: Potvrzení proforma faktury projektu
+              href: proforma-invoicing/confirm-proforma-invoice.md
+            - name: Konfigurace automatizace faktury projektu
+              href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Účetnictví projektu
       items:
         - name: Výchozí hodnoty finanční dimenze
@@ -404,10 +420,10 @@
               href: project-accounting/intercompany-invoicing-overview.md
             - name: Konfigurace mezipodnikové fakturace
               href: project-accounting/configure-intercompany-invoicing.md
-            - name: Vytváření mezipodnikových faktur zákazníků a dodavatelů
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
             - name: Vytváření mezipodnikových transakcí
               href: project-accounting/create-intercompany-transactions.md
+            - name: Vytváření mezipodnikových faktur zákazníků a dodavatelů
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Uznání výnosů
       items:
         - name: Přehled uznání výnosů
@@ -418,12 +434,12 @@
               href: project-accounting/period-types.md
             - name: Nastavení šablon nákladů
               href: revenue-recognition/rev-rec-cost-templates.md
-        - name: Správa odhadů výnosů
-          href: revenue-recognition/rev-rec-completed-contract-method.md
         - name: Projekty odhadu výnosů pevné ceny
           href: revenue-recognition/rev-rec-percentage-completion-method.md
         - name: Náklady na dokončení metod
           href: revenue-recognition/cost-complete-methods.md
+        - name: Správa odhadů výnosů
+          href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: Omezené nasazení – od obchodu po pro forma fakturaci
   items:
     - name: Začínáme
@@ -440,9 +456,13 @@
           href: environment/security-model.md
     - name: Co je nového
       items:
-        - name: 'Co je nového, prosinec 2020 - omezené nasazení – od obchodu po pro forma fakturaci'
+        - name: 'Co je nového, únor 2021 - omezené nasazení'
+          href: pro/whats-new/whats-new-feb-2021-lite.md
+        - name: 'Co je nového, leden 2021 - omezené nasazení'
+          href: pro/whats-new/whats-new-jan-2021-lite.md
+        - name: 'Co je nového, prosinec 2020 - omezené nasazení'
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: 'Co je nového, listopad 2020 - omezené nasazení – od obchodu po pro forma fakturaci'
+        - name: 'Co je nového, listopad 2020 - omezené nasazení'
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Prodejní proces projektu
       items:
@@ -636,6 +656,8 @@
           href: project-management/copy-project.md
         - name: Plánování strukturovaného rozpisu prací
           items:
+            - name: Vytvoření strukturovaného rozpisu prací
+              href: project-management/create-wbs.md
             - name: Vytvoření přiřazení
               href: project-management/create-assignments.md
         - name: Odhad projektů
@@ -658,10 +680,16 @@
               href: project-management/project-team-members-overview.md
             - name: Udržování členů týmu
               href: project-management/maintain-team-members.md
+        - name: Řešení potíží s prací v mřížce úloh
+          href: project-management/projectplanningUIFAQ.md
         - name: Spolupráce
           items:
             - name: Spolupráce se Skupinami Office
               href: project-management/collaboration-groups.md
+        - name: Poznámky vývojáře
+          items:
+            - name: Vývoj šablon projektů pomocí kopírování projektu
+              href: project-management/dev-copy-project.md
     - name: Řízení zdrojů
       items:
         - name: Klíčové koncepty
@@ -684,6 +712,8 @@
               href: resource-management/book-project.md
             - name: Kontrola navrhovaných zdrojů
               href: resource-management/review-proposed-resources.md
+            - name: Úprava rezervací
+              href: resource-management/edit-existing-bookings.md
         - name: Decentralizovaná rezervace zdrojů (hybridní)
           items:
             - name: Přidání členů týmu do mřížky členů týmu
@@ -772,6 +802,10 @@
   items:
     - name: Co je nového
       items:
+        - name: 'Co je nového, leden 2021 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
+          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+        - name: 'Co je nového, prosinec 2020 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
+          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
         - name: 'Co je nového, listopad 2020 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Přehled nasazení Project Operations pro scénáře založené na skladovém materiálu / výrobě
@@ -906,6 +940,14 @@
       items:
         - name: Plán vydávání aktualizací pro Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 28.5, oprava hotfix, V3'
+          href: psa/whats-new-ur-28-5.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 28, V3'
+          href: psa/whats-new-ur-28.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 27.5, oprava hotfix, V3'
+          href: psa/whats-new-ur-27-5.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 27, V3'
+          href: psa/whats-new-ur-27.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 26, V3'
           href: psa/whats-new-ur-26.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 25, V3'
@@ -936,6 +978,8 @@
           href: psa/whats-new-ur-13.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 12, V3'
           href: psa/whats-new-ur-12.md
+        - name: 'Co je nového nebo co se změnilo v aplikaci Project Service Automation V3.x, vlna 1 2021'
+          href: psa/whats-new-2021-wave1.md
         - name: 'Co je nového nebo co se změnilo v aplikaci Project Service Automation V3.x, vlna 1 2020'
           href: psa/whats-new-v3-2020-wave1.md
         - name: Co je nového nebo co se změnilo v aplikaci Project Service Automation V3
@@ -992,6 +1036,8 @@
               href: psa/project-stages.md
             - name: Nastavení projektu
               href: psa/project-settings.md
+            - name: Plánování práce v Microsoft Project s doplňkem Project Service
+              href: psa/add-in-plan-work-projects.md
         - name: "Cenové a\_nákladové dimenze"
           items:
             - name: "Domovská stránka cenových a\_nákladových dimenzí"
