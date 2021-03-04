@@ -3,17 +3,18 @@ title: Zřízení nového prostředí
 description: Toto téma poskytuje informace o zřízení nového prostředí Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642955"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727782"
 ---
 # <a name="provision-a-new-environment"></a>Zřízení nového prostředí
 
@@ -60,17 +61,15 @@ Pomocí následujících kroků povolíte tok automatického zřizování Projec
 
 ![Souhlas s nasazením](./media/2DeploymentConsent.png)
 
-7. Vyplňte zbývající požadovaná pole v průvodci a potvrďte nasazení. Čas zřízení prostředí se liší podle typu prostředí. Zřizování může trvat až šest hodin.
+7. Volitelné – použití ukázkových dat na prostředí. Přejdete do **Pokročilé nastavení**, vyberte **Přizpůsobte konfiguraci databáze SQL** a nastavte **Určete datovou sadu pro databázi aplikací** na **Ukázka**.
+
+8. Vyplňte zbývající požadovaná pole v průvodci a potvrďte nasazení. Čas zřízení prostředí se liší v závislosti na typu prostředí. Zřizování může trvat až šest hodin.
 
   Po úspěšném dokončení nasazení se prostředí zobrazí jako **Nasazeno**.
 
-8. Chcete-li potvrdit úspěšné nasazení prostředí, vyberte možnost **Přihlásit se** a potvrďte dokončení přihlášením do prostředí.
+9. Chcete-li potvrdit, že se prostředí úspěšně nasadilo, vyberte **Přihlásit se** a potvrďte přihlášením do prostředí.
 
 ![Podrobnosti prostředí ](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Použití ukázkových dat Project Operations Finance (volitelný krok)
-
-Ukázková data Project Operations Finance se použijí na prostředí hostované v cloudu s verzí služby 10.0.13 podle popisu v [tomto článku](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Použití aktualizací v prostředí Finance
 
@@ -151,6 +150,21 @@ Po použití entit se v prostředí zobrazí všechna dostupná mapování.
 Aktualizace bude trvat přibližně 20 minut. Po dokončení obdržíte upozornění.
 
 ![Potvrzení aktualizace](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Aktualizovat nastavení zabezpečení v Project Operations na Dataverse
+
+1. Přejděte na Project Operations v prostředí Dataverse. 
+2. Přejděte do části **Nastavení** > **Zabezpečení** > **Role zabezpečení**. 
+3. Na stránce **Role zabezpečení** v seznamu rolí vyberte **uživatel aplikace dual-write** a vyberte kartu **Vlastní entity**.  
+4. Ověřte, zda role má oprávnění **Číst** a **Připojit k** pro:
+      
+      - **Typ směnného kurzu měny**
+      - **Účtová osnova**
+      - **Fiskální kalendář**
+      - **Registr**
+
+5. Po aktualizaci role zabezpečení přejděte na **Nastavení** > **Bezpečnostní** > **týmy** a vyberte výchozí tým v zobrazení týmu **Místní vlastník firmy**.
+6. Vyberte **Správa rolí** a ověřte, že bezpečnostní oprávnění **uživatel aplikace dual-write** je tomuto týmu přiděleno.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Spuštění mapování duálního zápisu Project Operations
 

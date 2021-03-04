@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 64901610144f9dfe274bd4c2294ab32659743a1a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073938"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960284"
 ---
 # <a name="expense-receipt-processing"></a>Zpracování příjemek výdajů
-
-[!include [banner](../includes/banner.md)]
 
 Zadávání výdajů bylo vylepšeno zavedením zpracování optického rozpoznávání znaků (OCR) pro účtenky. Tato funkce je navržena tak, aby zlepšila uživatelské prostředí při vytváření výkazů výdajů.
 
@@ -49,17 +47,17 @@ Chcete-li vytvořit výdaj nebo spárovat výdaj z účtenky, proveďte následu
   2. Pod nahraným obrázkem účtenky si všimněte možností **Vytvořit** a **Párovat**.
 
       - Vyberte **Vytvořit** k vytvoření ručně zadané výdajové transakce a vyplnění hodnot, které jsou extrahovány z účtenky.
-      - Pokud vyberete **Párovat** , systém se pokusí spárovat existující výdaj s účtenkou.
+      - Pokud vyberete **Párovat**, systém se pokusí spárovat existující výdaj s účtenkou.
 
 ## <a name="installation"></a>Instalace
 
-Tato funkce funguje v kombinaci s funkcí **Sestavy výdajů v novém** , která pomůže zjednodušit výdaje. Tato funkce je k dispozici pouze pro prostředí úrovně alespoň 2, která jsou Sandbox a provozní.
+Tato funkce funguje v kombinaci s funkcí **Sestavy výdajů v novém**, která pomůže zjednodušit výdaje. Tato funkce je k dispozici pouze pro prostředí úrovně alespoň 2, která jsou Sandbox a provozní.
 
 Chcete-li použít tyto pokročilé možnosti výdajů, nainstalujte si doplněk Služba správy výdajů pro Microsoft Dynamics 365 Finance a zapněte funkce ve vaší instanci. K doplňku můžete přistupovat ze svého projektu v Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Přihlaste se do LCS a otevřete požadované prostředí.
 2. Přejděte na **Úplné podrobnosti**.
-3. Vyberte **Udržovat** , nebo přejděte dolů záložku s náhledem **Doplňky prostředí**.
+3. Vyberte **Udržovat**, nebo přejděte dolů záložku s náhledem **Doplňky prostředí**.
 4. Vyberte **Nainstalovat nový doplněk**.
 5. Zvolte **Služba správy výdajů**.
 6. Postupujte podle instalačního průvodce a souhlaste s podmínkami.

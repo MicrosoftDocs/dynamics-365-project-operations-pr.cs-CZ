@@ -3,17 +3,17 @@ title: Použití ukázkového nastavení a data konfigurace – omezené
 description: Toto téma poskytuje informace o tom, jak použít ukázková nastavení a konfigurační data pro Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 11/04/2020
+ms.date: 01/27/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 421c9d28088c92617687641d93b3ad5d6bfea73c
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 762b0cf317d442565a033f56033a53a5b5cc435c
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642085"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089111"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Použití ukázkového nastavení a data konfigurace pro Project Operations – omezené 
 
@@ -32,47 +32,45 @@ Před zahájením konfigurace musíte mít mít zřízeno prostředí  Common Da
 2. Přejděte do složky *ProjOpsDemoDataSetupAndMaster - integrovaný CMT* a spusťte soubor *DataMigrationUtility*.
 3. Na straně 1 Průvodce konfigurací migrace (CMT) Common Data Service, vyberte **Importovat data** a poté vyberte **Pokračovat**.
 
-![Migrace konfigurace](./media/1ConfigurationMigration.png)
+    ![Migrace konfigurace](./media/1ConfigurationMigration.png)
 
 4. Na stránce 2 průvodce CMT vyberte **Microsoft 365** jako **Typ nasazení**.
 5. Zaškrtněte políčka **Zobrazit seznam dostupných organizací** a **Zobrazit pokročilé**.
 6. Vyberte oblast vašeho klienta, zadejte své přihlašovací údaje a pak vyberte **Přihlásit se**.
 
-![Přihlášení do konfigurace](./media/2ConfigurationSignin.png)
+   ![Přihlášení do konfigurace](./media/2ConfigurationSignin.png)
 
 7. Na stránce 3 ze seznamu organizací v klientovi vyberte, do které organizace chcete importovat ukázková data, a poté vyberte **Přihlásit se**.
 8. Na stránce 4 vyberte soubor zip *MasterAndSetupData* z rozbalené složky *ProjOpsDemoDataSetupAndMaster - integrovaný CMT*.
 
-![Soubor ZIP](./media/3ZipFile.png)
+   ![Soubor ZIP](./media/3ZipFile.png)
 
-![Vyberte soubor.](./media/4SelectAFile.png)
+   ![Vyberte soubor.](./media/4SelectAFile.png)
 
 9. Po výběru souboru zip vyberte **Importovat data**.
 
-![Import dat](./media/5ImportData.png)
+   ![Import dat](./media/5ImportData.png)
 
 10. Import bude probíhat přibližně dvě až deset minut v závislosti na rychlosti vaší sítě. Po dokončení ukončete průvodce CMT. 
 11. Zkontrolujte ve své organizaci data v následujících 20 entitách:
 
--   Měna
--   Účet
--   Organizační jednotka
--   Kontakt
--   Daňová skupina
--   Skupina zákazníků
--   Jednotka
--   Skupina jednotek
--   Ceník
--   Ceník projektových parametrů 
--   Frekvence faktur
--   Kategorie rezervovatelného zdroje
--   Kategorie transakce
--   Kategorie výdaje
--   Cena role
--   Cena kategorie transakce
--   Charakteristika
--   Rezervovatelný zdroj
--   Přidružení kategorie rezervovatelného zdroje
--   Charakteristika rezervovatelného zdroje
+    -   Měna
+    -   Účet
+    -   Organizační jednotka
+    -   Kontakt
+    -   Jednotka
+    -   Skupina jednotek
+    -   Ceník
+    -   Ceník projektových parametrů 
+    -   Frekvence faktur
+    -   Kategorie rezervovatelného zdroje
+    -   Kategorie transakce
+    -   Kategorie výdaje
+    -   Cena role
+    -   Cena kategorie transakce
+    -   Charakteristika
+    -   Rezervovatelný zdroj
+    -   Přidružení kategorie rezervovatelného zdroje
+    -   Charakteristika rezervovatelného zdroje
 
-![Dokončit import](./media/6CompleteImport.png)
+    ![Dokončit import](./media/6CompleteImport.png)

@@ -5,23 +5,24 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 135b182af73bdab7a3520589431332ad059ec497
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5e851193df8151821e112e01a9f33df5afee7df7
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176693"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764542"
 ---
 # <a name="set-up-cost-and-sales-rates-for-catalog-products---lite"></a>Nastavení nákladových a prodejních sazeb pro produkty katalogu – omezené
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
 
-Stanovení cen u položek v katalogu produktů v Dynamics 365 Project Operations je stejné jako v Dynamics 365 Sales.
+Nastavení cen pro položky katalogu produktů v Dynamics 365 Project Operations je stejné jako v Dynamics 365 Sales.
 
-Protože produkty nelze odhadnout ani použít v projektech Project Operations, není nutné nastavovat katalogové ceny produktů v projektových cenících pro nabídky a smlouvy.
+V Project Operations nelze produkty odhadovat ani používat na projektech, takže není nutné nastavovat ceny katalogů produktů v cenících projektů pro nabídky a smlouvy.
 
-Katalogové ceny produktů by měly být stanoveny v poli **Cena produktu** nabídky, smlouvy nebo účtu. Nenastavujte katalogové ceny produktů v projektových cenících pro tyto entity. Projektové ceníky jsou exkluzivní funkcí aplikace Project Operations. Existuje obchodní logika pro konkrétní aplikaci, která kopíruje ceníky z nabídky do smlouvy. Výsledkem je projektový ceník pro určitou smlouvu. Operace kopírování může zpozdit proces vyhrání nabídky, pokud bude projektový ceník nabídky příliš velký. Produktové ceníky se nekopírují, aby vytvořily vlastní ceníky ve smlouvách. To znamená, že produktové ceníky nemají vliv na výkon procesu vyhrání nabídky.
+Použijte pole **Cena produktu** pole nabídky, smlouvy nebo účtu k nastavení cen katalogu produktů. Nenastavujte ceny katalogů produktů v cenících projektů. Projektové ceníky jsou exkluzivní funkcí aplikace Project Operations. Obchodní logika pro konkrétní aplikaci kopíruje ceníky z nabídky do smlouvy. Výsledkem je projektový ceník pro určitou smlouvu. Operace kopírování může zpozdit proces vyhrání nabídky, pokud bude projektový ceník nabídky příliš velký. Produktové ceníky se nekopírují, aby vytvořily vlastní ceníky ve smlouvách. Protože se nejedná o žádné kopírování, není ovlivněn výkon procesu nabídky.

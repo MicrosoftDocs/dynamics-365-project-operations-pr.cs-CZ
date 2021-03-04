@@ -16,18 +16,15 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: af49187a3ad530919376fbfdb5a0fbc288b7c28c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 454d3f6feb46b28762a6a1249df2336f1aa5e91a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073824"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960374"
 ---
 # <a name="expense-management-parameters"></a>Parametry správy výdajů
 
-[!include [banner](../includes/banner.md)]
-
------------------------------
 
 Parametry řídí obecné chování ve správě výdajů.
 
@@ -80,7 +77,7 @@ Parametry řídí obecné chování ve správě výdajů.
 
 | **Pole**                      | **Popis**            |
 |--------------------------------|-----------------------------------------------------------------------------|
-| **Pokyny**                   | Zadejte pokyny, které musí zaměstnanci dodržovat, když vytvářejí titulní stránku pro fax, který se používá k odesílání účtenek souvisejících se sestavou výdajů. Klikněte na tlačítko **Překlady** , chcete-li zadat text specifický pro jazyk, který se zobrazí na základě uživatelského jazyka. |
+| **Pokyny**                   | Zadejte pokyny, které musí zaměstnanci dodržovat, když vytvářejí titulní stránku pro fax, který se používá k odesílání účtenek souvisejících se sestavou výdajů. Klikněte na tlačítko **Překlady**, chcete-li zadat text specifický pro jazyk, který se zobrazí na základě uživatelského jazyka. |
 |**ID uživatele (informace o čárovém kódu)** | Tuto možnost vyberte, pokud chcete uložit jedinečný identifikátor zaměstnance do čárového kódu, který se používá na titulní stránce faxu.                 |
 |**Čárový kód**                      | Vyberte čárový kód, který se použije na titulní stránce faxu. Ve správě výdajů jsou podporovány čárové kódy 39 a 128.               |
 

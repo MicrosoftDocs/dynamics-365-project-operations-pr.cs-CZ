@@ -5,15 +5,16 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122819"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764901"
 ---
 # <a name="expense-home-page"></a>Domovská stránka výdajů
 
@@ -28,7 +29,7 @@ V Project Operations existují dva podporované modely nasazení pro výdaj:
 - **Základní**: Základní nasazení je k dispozici pr **Project Operations pro scénáře se zdroji bez skladových materiálů** a **Omezené nasazení - od obchodu po pro forma fakturaci**.
 
 ## <a name="full"></a>Úplný 
-Nasazení pro plné výdaje poskytuje úplné vynucování zásad, které zahrnuje schopnost vytvářet zásady, například:
+Plné nasazení výdajů poskytuje úplné vynucování zásad, které zahrnuje schopnost vytvářet zásady, například:
 
   - Limity kategorií výdajů
   - Cesta

@@ -1,6 +1,6 @@
 ---
 title: Správa delegování výdajů
-description: Delegovaný uživatel pro správu výdajů může vytvářet a spravovat výkazy výdajů jménem jiného zaměstnance v organizaci.
+description: Uživatel delegace výdajů může vytvářet a spravovat výkazy výdajů pro jiného zaměstnance v organizaci.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073932"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960779"
 ---
 # <a name="manage-expense-delegation"></a>Správa delegování výdajů
 
-[!include [banner](../includes/banner.md)]
+Delegát výdajů může vytvářet a spravovat výkazy výdajů pro jiného zaměstnance.
 
-Delegovaný uživatel pro správu výdajů může vytvářet a spravovat výkazy výdajů jménem jiného zaměstnance v organizaci.
+## <a name="configure-expense-delegation"></a>Konfigurace delegování výdajů
 
-## <a name="configuring-expense-delegation"></a>Konfigurace delegování výdajů
+1. Chcete-li nastavit uživatele jako delegáta výdajů, přejděte na **Správa výdajů > Nastavení > Obecné > Delegáti**.
+2. Na stránce **Delegáti** vyberte **Nové**.
+3. Vyberte zaměstnance, který bude mít definovaného delegáta. 
+4. Zadejte alias uživatele delegáta a počáteční a koncové datum období delegování.
 
-Chcete-li nastavit uživatele jako delegáta výdajů, přejděte do nabídky **Správa výdajů > Nastavení > Obecné > Delegáti** a otevřete stránku **Delegáti**. Vyberte položku **Nový** a poté vyberte zaměstnance, který bude mít definovaného delegáta. Zadejte alias uživatele delegáta a počáteční a koncové datum období delegování.
+## <a name="manage-expense-delegation-for-another-employee"></a>Správa delegování výdajů pro jiného zaměstnance
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Delegování správy výdajů jménem jiného zaměstnance
+Když je klíč pro správu funkcí **Povolit stránku se seznamem delegátů výdajů** povoleno, stránka seznamu **Výdaje delegované na mě** seznamu bude k dispozici. Přejděte do nabídky **Správa výdajů** > **Moje výdaje** > **Výdaje delegované na mě**.
 
-Pokud je aktivována možnost **Povolit stránku se seznamem delegátů výdajů** správy funkcí, bude k dispozici stránka seznamu **Výdaje delegované na mě** po přechodu na nabídku **Správa výdajů > Moje výdaje > Výdaje delegované na mě**.
+Delegovaný uživatel může rychle filtrovat a vyhledávat existující sestavy výdajů, které mu byly delegovány. Může také vytvořit novou sestavu výdajů pro ostatní uživatele výběrem **Nová sestava výdajů**.
 
-Delegovaný uživatel může rychle filtrovat a vyhledávat stávající výkazy výdajů, které mu byly delegovány. Uživatel může také rychle vytvořit nový výkaz výdajů jménem ostatních uživatelů kliknutím na možnost **Nový výkaz výdajů**.
-
-Delegovaní uživatelé mohou také vytvářet a spravovat výkazy výdajů jménem ostatních zaměstnanců přechodem do nabídky **Správa výdajů > Moje výdaje > Výkazy výdajů** a kliknutím na tlačítko **Otevřít výdaje jiného uživatele**.
+Delegovaní uživatelé mohou také vytvářet a spravovat výkazy výdajů pro ostatní zaměstnance přechodem na **Správa výdajů** > **Moje výdaje** > **Sestavy výdajů** a výběrem **Otevřít výdaje jiného uživatele**.

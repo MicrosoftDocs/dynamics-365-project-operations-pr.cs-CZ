@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d008ef8dd55550431fbb9e329cd7d9428a08831
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 982b7621c35547448b5d756f77f3873b9fbbcb9d
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073926"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960103"
 ---
 # <a name="post-an-expense-report"></a>Zaúčtování sestavy výdajů
-
-[!include [banner](../includes/banner.md)]
 
 Jakmile bude sestava výdajů schválena a přenesena do finančního deníku, může být zaúčtována do hlavní knihy. Když zaúčtujete sestavu výdajů, budou identifikovány výdaje, které jsou způsobilé k vrácení daně z přidané hodnoty (DPH). Úkol ověřovat a vymáhat platby DPH je přidělen zaměstnanci, který je odpovědný za ověření sestavy výdajů.
 

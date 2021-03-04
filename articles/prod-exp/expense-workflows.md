@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0af23ed2cf172e4c90de72f5db389c349303c039
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8f3235d12499c68a52f9d1c7e118e7bc91dc3a0a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073934"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960509"
 ---
 # <a name="set-up-expense-management-workflows"></a>Nastavení pracovních postupů správy výdajů
-
-[!include [banner](../includes/banner.md)]
 
 Můžete nastavit proces pracovního postupu, který se používá ke kontrole a schvalování cestovních a výdajových dokladů. Mezi dokumenty, pro které je možné definovat pracovní postupy, patří sestavy výdajů, cestovní žádanky a žádosti o hotovostní zálohy.
 
