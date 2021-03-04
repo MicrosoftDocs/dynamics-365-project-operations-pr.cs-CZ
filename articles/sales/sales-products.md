@@ -124,3 +124,6 @@ Například pokud existují následující vlastnosti:
 - **Jednotka SKU produktu** 
 
 Vlastnosti **Počet uživatelů** a **Počet měsíců** lze pomocí úpravy vlastností řádku produktu označit jako množstevní faktory. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

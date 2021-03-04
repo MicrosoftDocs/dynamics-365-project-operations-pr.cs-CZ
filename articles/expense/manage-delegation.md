@@ -39,3 +39,6 @@ Pokud je aktivována možnost **Povolit stránku se seznamem delegátů výdajů
 Delegát může rychle filtrovat a vyhledávat stávající výkazy výdajů, které mu byly delegovány. Delegát může také rychle vytvořit nový výkaz výdajů pro ostatní uživatele výběrem možnosti **Nový výkaz výdajů**.
 
 Delegáti mohou vytvářet a spravovat výkazy výdajů pro ostatní zaměstnance přechodem do nabídky **Správa výdajů** > **Moje výdaje** > **Výkazy výdajů** a výběrem možnosti **Otevřít výdaje jiného uživatele**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Tohle téma uvádí seznam funkcí a oprav, které jsou nové nebo změněné v�
      - Opraveno: Dodatečná tlačítka pro **Nová příležitost**, **Nabídka**, **Řádek objednávky** a **Přidat produkt** jsou viditelné v příkazech pro Příležitosti, Nabídky, Produkty v objednávkách a podmřížku Řádky na základě projektu.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

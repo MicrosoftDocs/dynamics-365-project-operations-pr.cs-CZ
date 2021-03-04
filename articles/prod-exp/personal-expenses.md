@@ -33,3 +33,6 @@ Existují dva způsoby, jak účtovat osobní výdaje pracovníka:
 - **Placeno společností** – Vaše organizace zaplatí celý účet firemní kreditní karty a poté strhne z účtu pracovníka osobní náklady.
 
 Způsob, který vaše organizace používá, se vybírá na stránce **Parametry řízení výdajů**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

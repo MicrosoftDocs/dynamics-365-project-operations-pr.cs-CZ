@@ -34,3 +34,6 @@ Chcete-li vytvořit a pracovat s typy období, proveďte následující kroky:
 4. Vyberte záznam typu období a poté vyberte **Generovat období** k vytvoření období pro typ období. Na základě zvolené frekvence období můžete mít možnost určit datum zahájení nebo počet období, která se mají vygenerovat.
 5. Vyberte **Období**, chcete-li zkontrolovat vygenerovaná období.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Po získání kontraktu na projekt budete potřebovat zaměstnance do projektu. 
   
 ### <a name="see-also"></a>Viz také  
  [Příručka pro projektového manažera](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

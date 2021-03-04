@@ -113,3 +113,6 @@ Když právnická osoba poskytující půjčku, USSI, zaúčtuje mezipodnikovou 
 Další informace viz [Konfigurace mezipodnikové fakturace projektu](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

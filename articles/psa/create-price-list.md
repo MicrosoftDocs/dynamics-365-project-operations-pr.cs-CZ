@@ -71,3 +71,6 @@ Ceníky jsou závislé na rolích a kategoriích výdajů, proto se před vytvo�
   
 ### <a name="see-also"></a>Viz také  
  [Konfigurace Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

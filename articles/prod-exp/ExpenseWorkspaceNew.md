@@ -78,3 +78,6 @@ Následující funkce jsou k dispozici na existující stránce, ale ještě nej
 - Pracovní postup na úrovni řádků
 - Prozatímní podpora schvalovatele
 - Rozšířené rozepisování
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

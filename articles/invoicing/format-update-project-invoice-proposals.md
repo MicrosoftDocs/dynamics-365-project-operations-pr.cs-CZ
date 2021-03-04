@@ -143,3 +143,6 @@ Chcete-li před zaúčtováním zobrazit fakturu, zrušte zaškrtnutí políčka
 Kromě stránky **Návrh faktury** lze také návrhy faktur zveřejnit spuštěním periodické úlohy **Zaúčtovat návrhy faktur**. Chcete-li najít tuto úlohu, přejděte na **Řízení projektů a účetnictví** > **Periodické** > **Faktury projektu** > **Zaúčtovat návrhy faktur**.
 
 Tato stránka zobrazuje všechny návrhy faktur, které jsou připraveny k zaúčtování. Můžete naplánovat odesílání návrhů faktur výběrem možnosti **Dávka**. Nastavte **Parametr dávkového zpracování** na **Ano** a nastavte opakování dávkového zpracování výběrem **Opakování**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

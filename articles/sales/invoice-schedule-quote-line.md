@@ -68,3 +68,6 @@ Otevřete řádek nabídky fixní ceny, pro který potřebujete vytvořit milní
 | Stav faktury | Vytvořit | Když je vytvořen milník, je tento stav vždy nastaven na **Není připraveno na fakturaci**. | To je přeneseno na milník řádku smlouvy projektu a na fakturu. |
 | Částka řádku | Vytvořit | Částka nebo hodnota milníku, která bude zákazníkovi fakturována. | To je přeneseno na milník řádku smlouvy projektu a na fakturu. |
 | Daň | Vytvořit | Výše daně, která bude použita k milníku. | To je přeneseno na milník řádku smlouvy projektu a na fakturu. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

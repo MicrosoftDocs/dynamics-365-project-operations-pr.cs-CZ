@@ -52,3 +52,6 @@ Další informace o generování sestav v PSA viz následující témata:
 - [Práce s datovým modelem Project Service](reports-working-project-service-data-model.md)
 - [Řídicí panely](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

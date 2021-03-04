@@ -105,3 +105,6 @@ Zadejte vaše výdaje alespoň jednou za týden – nebo tak často, jak požadu
  [Přehled aplikace Project Service](../psa/overview.md)   
  [Příručka – Čas, výdaje a spolupráce](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

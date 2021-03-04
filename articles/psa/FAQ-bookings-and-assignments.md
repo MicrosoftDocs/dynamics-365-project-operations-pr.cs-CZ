@@ -68,3 +68,6 @@ Vzhledem k tomu, že rezervace a přiřazení nejsou úzce spojeny, je možné r
 > [!NOTE]
 > Pokud přesunete úkol, kterému jste sami dali průběhové křivky, tyto křivky nejsou zachovány. Průběhové křivky jsou regenerovány podle kalendáře projektu, aby byly zohledněny změny v pracovní době a svátcích. Toto je záměrné, protože systém nezná záměr původní průběhové křivky a nemůže určit, zda má smysl zachovat tuto průběhovou křivku v novém časovém období. Protože rezervace a přiřazení nejsou ve shodě, rezervace zachovají průběhové křivky původní rezervace. V takovém případě bude nutné zrušit a opětovně rezervovat na novou průběhovou křivku přiřazení.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

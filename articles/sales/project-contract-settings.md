@@ -58,3 +58,6 @@ Na kartě **Plnění smlouvy** projektové smlouvy jsou k dispozici následujíc
 | Vzniklé náklady | Řádky založené na produktech | Součet všech skutečných nákladů zaznamenaných pro řádek smlouvy založený na produktu. |
 | Hrubá marže | Řádky založené na projektech | Fakturovaná částka - Náklady vzniklé do data / Fakturovaná částka |
 | Očekávaná marže | Řádky založené na produktech | (Hodnota řádku smlouvy - Odhadované náklady na řádek smlouvy) / Hodnota řádku smlouvy |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

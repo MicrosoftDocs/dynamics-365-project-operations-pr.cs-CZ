@@ -54,3 +54,6 @@ Odhady pracovního úsilí a plánování můžete definovat pomocí polí na ka
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Import odhadů z projektu do nabídky
 
 Po definování odhadů projektu je můžete importovat do řádku nabídky. Chcete-li odhady projektu shrnout podle typu transakce, role nebo úrovně úkolu, vyberte na stránce **Podrobnosti řádku nabídky** na pásu karet **Import z odhadů**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

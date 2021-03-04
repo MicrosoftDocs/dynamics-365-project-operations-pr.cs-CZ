@@ -53,3 +53,6 @@ Před tím, než si můžete rezervovat z Plánovací vývěsky, musíte vytvoř
 Požadavek je splněn pomocí vybraného zdroje. V podokně **Požadavky na rezervace** si všimněte, že požadavek byl aktualizován a zdroj je v projektu zobrazen jako rezervovaný.
 
 ![Rezervovaný zdroj v projektu](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

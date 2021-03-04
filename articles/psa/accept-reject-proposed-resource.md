@@ -45,3 +45,6 @@ Chcete-li návrh zamítnout, klikněte na **Zamítnout zdroj**.
 ![Přijetí návrhu zdroje](media/RM-how-to-20.png) 
 
 Podobně jako při přímém vyplnění požadavku na obecný zdroj pojmenovaným zdrojem bude obecný zdroj nahrazen a přiřazené úkoly budou aktualizovány pomocí uvedeného člena týmu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

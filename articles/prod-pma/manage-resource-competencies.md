@@ -53,3 +53,6 @@ K nastavení kompetencí pro pracovníka můžete použít buď stránku seznamu
 5. V poli **Datum úrovně** vyberte **14. 1. 2014**.
 6. V poli **Roky zkušeností** zadejte **10**.
 7. Vyberte tlačítko **Uložit** a potom zavřete stránku.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

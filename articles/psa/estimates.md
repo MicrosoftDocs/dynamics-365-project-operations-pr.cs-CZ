@@ -106,3 +106,6 @@ Pokud jste na řádku podrobností nabídky přidali vlastní pole a chcete, aby
 
 8. Opakujte kroky 1 až 7 pro druhý modul plug-in.
 9. Zavřete PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

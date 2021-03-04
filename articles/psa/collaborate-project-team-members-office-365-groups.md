@@ -43,3 +43,6 @@ S aplikací [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] můžete
   
 ### <a name="see-also"></a>Viz také  
  [Příručka – Čas, výdaje a spolupráce](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Konfigurace časových jednotek v katalogu výrobků, které použijete jako zá
   
 ### <a name="see-also"></a>Viz také  
  [Konfigurace Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

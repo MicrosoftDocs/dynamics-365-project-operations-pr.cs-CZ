@@ -45,3 +45,6 @@ Pokud chcete zobrazit, na čem v týdnu pracujete, prohlédněte si plán.
   
 ### <a name="see-also"></a>Viz také  
  [Příručka – Čas, výdaje a spolupráce](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

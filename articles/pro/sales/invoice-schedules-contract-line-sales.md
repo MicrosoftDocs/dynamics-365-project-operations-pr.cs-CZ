@@ -74,3 +74,6 @@ Milníky pevné ceny lze generovat ručně, pokud nejsou pravidelně rozděleny.
 | Daň | Vytvořit | Částka daně použitá u milníku. | To je zahrnuto v milníku řádku smlouvy o projektu a na faktuře. |
 
 4. Zvolte **Uložit a zavřít**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

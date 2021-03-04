@@ -45,3 +45,6 @@ Chcete-li vytvořit kvantitativní faktory z vlastností produktu, postupujte ta
 6. Uložte a zavřete formulář. Opakujte tyto kroky pro všechny vlastnosti, které se mají použít pro výpočet množství pro řádek nabídky založené na produktu.
 
 Když pro produkt vytvoříte řádek nabídky založené na produktu, množství řádku nabídky se uzamkne. Množství bude vypočítáno jako součin hodnot vlastností, které zadáte pro daný řádek nabídky.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

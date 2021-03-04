@@ -41,3 +41,6 @@ Zdroje jsou nejdůležitějším majetkem organizace založené na službách. S
 - [Požadavky na předběžnou rezervaci](resource-management-softbook-requirements.md)
 - [Dovednosti a modely odborné způsobilosti](resource-management-skills-proficiency.md)
 - [Nejčastější dotazy ke správě zdrojů](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Tato akce může trvat několik minut. Měla by se zobrazit potvrzovací zpráva
 18. Ukončete relaci vzdálené plochy a na stránce LCS **Podrobnosti o prostředí** se přihlaste do prostředí a zkontrolujte, že funguje podle očekávání.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Chcete-li vytvořit vlastní verzi formuláře **Informace o projektu**, postupu
     ```
 
 6. Uložte a poté publikujte vlastní nastavení.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

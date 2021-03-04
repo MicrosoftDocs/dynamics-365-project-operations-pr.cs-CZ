@@ -59,3 +59,6 @@ Můžete také kliknout na odkaz **Požadavek na zdroj** v mřížce týmu a tí
 
 ![Požadavek na zdroj](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

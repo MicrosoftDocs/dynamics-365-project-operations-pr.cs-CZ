@@ -55,3 +55,6 @@ V řádcích deníku integrace Project Operations lze aktualizovat pouze násled
 Řádky deníku integrace lze odstranit, avšak všechny nezaúčtované řádky se do deníku vloží znovu po opětovném spuštění periodického procesu **Import z pracovní tabulky**.
 
 Když zaúčtujete deník integrace, vytvoří se transakce dílčí hlavní knihy a hlavní knihy. Tyto transakce se používají při následné fakturaci zákazníků, uznání výnosů a finančním výkaznictví.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

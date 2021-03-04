@@ -65,3 +65,6 @@ Jakmile vytvoříte podmínky zadržení pro dodavatele, můžete je použít na
 6. Pokud má projekt pro dodavatele nastaveny také podmínky zaplacení po uhrazení (PWP), zadejte prahovou hodnotu pro projekt do pole **Procento prahové hodnoty PWP**.
 
 Podmínky zadržení pro dodavatele se také zobrazují na nákupních objednávkách, které pro dodavatele vytvoříte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

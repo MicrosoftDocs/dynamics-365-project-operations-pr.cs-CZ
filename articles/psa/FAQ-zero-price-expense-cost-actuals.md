@@ -38,3 +38,6 @@ Tyto často kladené dotazy se týkají skutečných výdajů, kde je třída tr
 Přejděte na položku souvisejícího výdaje a ujistěte se, že je v poli položky výdajů částka. Pokud původní položka výdajů nemá vyplněno pole částky, izolovali jste problém.
  
 Chcete-li tento problém vyřešit, znovu vytvořte položku výdajů s platnou částkou a schvalte ji.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

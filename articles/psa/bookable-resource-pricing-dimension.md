@@ -76,3 +76,6 @@ Otevře se stránka **Nový název pole cenové dimenze** pro **msdyn_bookablere
 5. Do pole **Logický název entity** přidejte **msdyn_projectteam** a do pole **Název pole** **msdyn_bookableresourceid**. Uložte záznam.
 
  ![Nový formulář názvu pole cenové dimenze](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

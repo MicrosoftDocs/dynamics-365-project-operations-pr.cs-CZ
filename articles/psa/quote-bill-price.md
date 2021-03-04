@@ -44,3 +44,6 @@ Následující témata obsahují další informace o funkcích vypracovávání 
 - [Skupiny jednotek a jednotky](advanced-units.md)
 - [Vícejednotková měna](advanced-currency.md)
 - [Záznam skutečných hodnot](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

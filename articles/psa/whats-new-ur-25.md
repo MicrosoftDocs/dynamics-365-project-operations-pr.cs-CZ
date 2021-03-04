@@ -70,3 +70,6 @@ Byly vyřešeny následující problémy:
 - Vylepšené zpracování chyb při řešení výjimek odkazu s hodnotou null generovaných z **Kopírování projektu: správa odhadů HelperResource**.
 - **Nepřipraveno k fakturaci** v **Nedokončená fakturace času a materiálu** nevymaže stav fakturace.
 - Opraveno nesprávně označená tlačítka **Ceny** na kartách **Cena role** a **Položky katalogu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

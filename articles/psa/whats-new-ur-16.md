@@ -64,3 +64,6 @@ Tohle téma uvádí seznam funkcí a oprav, které jsou nové nebo změněné v�
 
     -   Oprava: Když uživatelé upgradují z 2.X na 3.X, budou povoleny projekty s hodnotou NULL pro název projektu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

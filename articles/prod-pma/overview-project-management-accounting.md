@@ -440,3 +440,6 @@ Po výpočtu výpisu si můžete prohlédnout následující informace na různ�
 -   **Spotřeba** - Informace o spotřebě hodin, položek, výdajů a mzdových transakcí.
 -   **Faktura** - Informace o fakturách a fakturaci na účet.
 -   **Hodinová sazba** - Hodinové sazby za hodiny, které jsou zaúčtovány na účty výnosů a nákladů.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

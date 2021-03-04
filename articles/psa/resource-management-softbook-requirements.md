@@ -63,3 +63,6 @@ Stejný postup můžete použít ke zrušení závazné rezervace nebo předbě�
 Chcete-li změnit zdroj, který je na kartě **Tým** předběžně rezervovaný na závazně rezervovaný, vyberte zdroj a pak vyberte **Potvrdit**.
 
 ![Příkaz Potvrdit](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

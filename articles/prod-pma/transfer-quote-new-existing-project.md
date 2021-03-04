@@ -36,3 +36,6 @@ Při použití průvodce postupujte podle těchto kroků:
 1. Přejděte do části **Řízení projektů a účetnictví** > **Nabídky** > **Nabídky projektu**.
 2. Vyberte nabídku, kterou chcete převést, a na kartě **Následná reakce** ve skupině **Upravit** vyberte **Převést do projektu**.
 3. Postupujte podle pokynů průvodce **Převést nabídku do projektu** a přidružte a převeďte nabídku do projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Každá organizace musí tyto role nastavit na stránce **Aktivní kategorie zdr
 ## <a name="price-lists"></a>Ceníky
 
 Ceníky vám umožní nastavit nákladové a prodejní ceny pro role zdrojů, kategorie výdajů, produkty a další položky v organizaci. Před nastavením finančních odhadů pro práci, která musí být dodána pro projekt, byste měli vytvořit pomocný nákladový a prodejní ceník. V sekci parametry byste měli také nastavit výchozí nákladový a prodejní ceník, který se vztahuje na všechny projekty vytvořené v organizaci. Na stránce **Aktivní projektové parametry** se ujistěte, že jste nastavili výchozí nákladový a prodejní ceník.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

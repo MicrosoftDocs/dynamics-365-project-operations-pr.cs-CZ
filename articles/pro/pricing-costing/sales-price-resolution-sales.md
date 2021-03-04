@@ -54,3 +54,6 @@ Po vyřešení prodejního ceníku systém provede následující kroky a nastav
     | &nbsp; | Přirážka k nákladům | Aplikování přirážky definované v řádku ceny kategorie na sazbu jednotkové ceny související skutečné ceny |
 
 4. Pokud systém není schopen spárovat hodnoty polí **Kategorie** a **Jednotka**, je výchozí hodnota prodejní sazby nula (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

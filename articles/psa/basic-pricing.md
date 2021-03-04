@@ -131,3 +131,6 @@ Nákladové sazby pro lidské zdroje se stejně jako fakturační sazby také na
     1. Nákladový ceník, který je připojen k organizační jednotce.
     2. Nákladový ceník, který je připojen k parametrům služby Project Service. Protože k parametrům služby Project service připojit nákladové ceníky v mnoha různých měnách, jsou měna smluvní organizační jednotky projektu, smlouvy nebo nabídky a měna nákladového ceníku stejné.
     3. U výdajů se metody ocenění podle nákladů a podle přirážky k nákladům na nákladové ceníky nepoužijí. I když se tyto metody ocenění používají v řádcích nákladových ceníků pro nastavení nákladů kategorie transakce, systém je ignoruje a nebude zadána výchozí nákladová cena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

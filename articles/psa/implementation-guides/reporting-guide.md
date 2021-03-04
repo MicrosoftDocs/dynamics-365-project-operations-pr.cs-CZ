@@ -41,3 +41,6 @@ Odkaz na soubor PDF, který byl dříve v tomto tématu, byl odebrán a obsah by
 
 > [!NOTE]
 > Toto téma bude v budoucí aktualizaci dokumentace odebráno. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

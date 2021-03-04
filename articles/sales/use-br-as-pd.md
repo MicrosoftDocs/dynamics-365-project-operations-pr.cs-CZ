@@ -78,3 +78,6 @@ Záznam cenové dimenze pro **msydn_bookableresource** s musí být o tomto rozd
 5. Přidejte **msdyn_bookableresourceid** k **Názvu pole**.
 
  ![Nový formulář názvu pole cenové dimenze](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

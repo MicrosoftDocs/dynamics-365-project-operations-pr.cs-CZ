@@ -74,3 +74,6 @@ Milníky fixní ceny můžete také generovat ručně, pokud nejsou pravidelně 
 | Daň | Vytvořit | Částka daně použitá u milníku. | To je přeneseno na milník řádku smlouvy projektu a na fakturu. |
 
 3. Zvolte **Uložit a zavřít**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Zobrazí se Pomocník plánování, který je filtrován podle požadavků. Vybe
 > ![Vybraný zdroj](media/Resource-Management-image61.png)
 
 Obecný člen týmu je v projektovém týmu a přiřazeních úkolů v plánu projektu nahrazen závazně rezervovaným pojmenovaným zdrojem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

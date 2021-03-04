@@ -67,3 +67,6 @@ Pokud budete chtít změnit předběžně rezervovaný zdroj člena týmu na zá
 2. Klikněte pravým tlačítkem myši na rezervaci a u možnosti **Změnit stav** vyberte **Závazná rezervace** \> **Závazná**. Stav rezervace je nyní **Závazná**.
 3. Po zavření Plánovací vývěsky, návratu na projekt a otevření karty **Tým** uvidíte, že hodiny zdroje byly přesunuty ze sloupce **Předběžně rezervované hodiny** do sloupce **Závazně rezervované hodiny** na kartě **Tým** v zobrazení **Pojmenovaní členové týmu**. Pokud byl zdroj přiřazen k úkolům, nebude již zobrazovat nedostatečnou rezervaci na kartě **Vyrovnání**, protože jeho rezervace jsou nyní závazné.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

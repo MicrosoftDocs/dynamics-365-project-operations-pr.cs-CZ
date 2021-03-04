@@ -40,3 +40,6 @@ Manažer projektu může naplánovat požadované role zdrojů pro projekt. Spr�
 7. Vyberte pracovníka a poté zvolte **Přiřadit**.
 8. Ověřte, zda byl řádek pro **Softwarového vývojáře 1** odstraněn u projektu **Fáze 2 projektu Upgrade XYZ**.
 9. Na kartě **Projektový tým a plánování** u projektu **Fáze 2 projektu Upgrade XYZ** ověřte, že pracovník vybraný v předchozím kroku byl přidán jako **Softwarový vývojář**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

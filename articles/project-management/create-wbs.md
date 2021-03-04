@@ -116,3 +116,6 @@ Režim úkolu nemá žádný vliv na aktualizace dat zahájení a ukončení př
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Usnadnění a klávesové zkratky
 
 Mřížka **Plán** je plně přístupná a lze ji použít se čtečkami obrazovky, jako jsou např. Narrator, JAWS nebo NVDA. Oblast mřížky můžete procházet pomocí kláves se šipkami (jako v aplikaci Microsoft Excel), pomocí klávesy Tab můžete procházet interaktivní prvky uživatelského rozhraní a pomocí klávesy se šipkou dolů, klávesy Enter nebo mezerníku vybrat a otevřít rozevírací nabídky.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

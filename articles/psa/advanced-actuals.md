@@ -34,3 +34,6 @@ ms.locfileid: "5145710"
 Jsou zaznamenávány všechny finanční transakce, které nastanou během projektu. Tyto transakce jsou zaznamenány jako **skutečné hodnoty**. Následující tabulka zobrazuje různé typy skutečných hodnot, které jsou vytvořeny v závislosti na tom, zda je projekt časově materiálovým projektem, projektem s pevnou cenou nebo interním projektem nebo je v předprodejní fázi.
 
 > ![Tabulka znázorňující způsob, jakým jsou zaznamenávány skutečné hodnoty](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -135,3 +135,6 @@ Pokud máte skutečné hodnoty, které vznikly až po vytvoření faktury, můž
 2. Otevřete koncept proforma faktury a na pásu karet **Akce** klikněte na **Aktualizovat transakce řádku faktury**.
 
   Tím se vytvoří podrobnosti řádku faktury pro všechny skutečné hodnoty, jejichž datum a čas jsou označeny jako **Připraveno k fakturaci**; ale nejsou součástí faktury.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

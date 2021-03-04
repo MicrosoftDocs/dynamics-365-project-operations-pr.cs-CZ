@@ -209,3 +209,6 @@ Pokud jste použili ukázková data v prostředí Finance, viz [Nastavení a pou
 
 
 Vaše prostředí Project Operations je nyní zřízeno a nakonfigurováno. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

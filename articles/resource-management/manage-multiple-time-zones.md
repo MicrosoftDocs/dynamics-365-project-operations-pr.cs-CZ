@@ -68,3 +68,6 @@ Poté, co byla u každého zdroje použita funkce rozšířené rezervace, jsou 
 Všimněte si, že při detailnějším pohledu na podrobnosti rezervací se ukážou rozdíly v počátečním čase rezervací. Rezervace začínají nejdříve v počátečním čase průběhové křivky přiřazení a nejdříve v dostupném počátečním čase zdroje.
 
 ![Nové rezervace zdrojů na plánovací vývěsce](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

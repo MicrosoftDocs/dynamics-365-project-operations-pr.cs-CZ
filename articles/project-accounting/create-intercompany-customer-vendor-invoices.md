@@ -61,3 +61,6 @@ Můžete vytvořit více mezipodnikových faktur současně pro všechny vypůj�
 ## <a name="post-the-intercompany-vendor-invoice"></a>Zaúčtujte fakturu mezipodnikového dodavatele
 
 Účetní projektu ve vypůjčující právnické osobě může zkontrolovat mezipodnikové nevyřízené faktury dodavatele, když je zaúčtována příslušná mezipodniková faktura zákazníka. Ve Finance přejděte ve vypůjčující právnické osobě na **Závazky** > **Faktury** > **Nevyřízená faktura dodavatele**. Číslo nevyřízené faktury se bude shodovat s číslem faktury mezipodnikového zákazníka. Ověřte správnost faktury a poté fakturu zaúčtujte. Zaúčtováním faktury mezipodnikového dodavatele se vytvoří podřízená kniha projektu a transakce hlavní knihy, která odráží transakční náklady ve vypůjčující právnické osobě.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Po vytvoření šablony pracovní doby je třeba ji přiřadit zdrojům tak, aby
   
 ### <a name="see-also"></a>Viz také  
  [Nastavení zdrojů](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

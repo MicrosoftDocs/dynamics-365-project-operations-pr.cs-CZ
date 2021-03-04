@@ -38,3 +38,6 @@ Pro každou položku řádku výdajů jsou definovány následující atributy:
 - **Nákladová cena jednotky**: Jednotková cena použitá k výpočtu nákladů.
 - **Prodejní cena jednotky**: Jednotková cena použitá k výpočtu prodejní ceny výdaje.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

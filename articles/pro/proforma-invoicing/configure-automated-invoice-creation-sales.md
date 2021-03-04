@@ -91,3 +91,6 @@ Proces **ProcessRunner** po svém dokončení volá proces **ProcessRunCaller**,
 
 > [!NOTE]
 > Dávková fakturace v Project Operations běží pouze pro řádky projektové smlouvy, které jsou konfigurovány podle plánů faktur. Řáeke smlouvy s metodou fakturace s pevnou cenou musí mít nakonfigurované milníky. Řádek smlouvy o projektu s metodou fakturace času a materiálu bude vyžadovat sestavení časového rozvrhu faktur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

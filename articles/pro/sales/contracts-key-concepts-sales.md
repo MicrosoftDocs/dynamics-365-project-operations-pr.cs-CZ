@@ -93,3 +93,6 @@ Smlouvy v Project Operations jsou postaveny na smlouvách v Dynamics 365 Sales. 
 - Smlouvy Project Operations mají svůj vlastní formulář a prvky uživatelského rozhraní, obchodní pravidla, obchodní logiku v modulech plug-in, a skripty na straně klienta, díky nimž se liší od smluv aplikace Sales.
 
 Z těchto důvodů nepoužívejte smlouvu Sales a projektovou smlouvu záměnně.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

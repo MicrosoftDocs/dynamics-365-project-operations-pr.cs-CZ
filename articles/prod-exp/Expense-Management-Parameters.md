@@ -89,3 +89,6 @@ Parametry řídí obecné chování ve správě výdajů.
 | <strong>Protikorupční zpráva pro zadavatele</strong> |                                                                                             Zadejte text, který se zaměstnanci zobrazí při vytváření nové sestavy výdajů. Klikněte na tlačítko <strong>Překlady</strong>, chcete-li zadat text specifický pro jazyk, který se zobrazí na základě uživatelského jazyka.                                                                                             |
 | <strong>Protikorupční zpráva pro schvalovatele</strong>  |                                                                                             Zadejte text, který se schvalovateli zobrazí při vytváření nové sestavy výdajů. Klikněte na tlačítko <strong>Překlady</strong>, chcete-li zadat text specifický pro jazyk, který se zobrazí na základě uživatelského jazyka.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

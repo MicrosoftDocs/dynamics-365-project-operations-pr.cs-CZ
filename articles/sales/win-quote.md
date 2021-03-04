@@ -43,3 +43,6 @@ Pokud má projektová nabídka, která je uzavřená jako ztracená, obsahuje na
 
 > [!NOTE]
 > V Project Operations nebude mít uzavření nabídky jako získané nebo ztracené vliv na tento stav příležitosti, která zůstane otevřená, dokud nebude ručně uzavřena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Projekty vašich klientů nepochybně vyžadují celou řadu různých dovednost
   
 ### <a name="see-also"></a>Viz také  
  [Nastavení zdrojů](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

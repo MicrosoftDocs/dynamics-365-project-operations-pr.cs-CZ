@@ -55,3 +55,6 @@ Vytvoření nabídky je podobné vytváření příležitosti. Zatímco příle�
   
 ### <a name="see-also"></a>Viz také  
  [Příručka pro manažera obchodních vztahů](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

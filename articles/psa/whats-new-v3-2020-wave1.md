@@ -43,3 +43,6 @@ Pokud navíc máte jakékoli vlastní moduly aplikace, které zahrnují všechny
 
 ### <a name="currently-extended-time-entry-changes"></a>Aktuálně změny rozšířeného časového záznamu
 Aby se minimalizoval dopad na současné uživatele časového záznamu, je tato změna role jediným základním požadavkem nezbytným pro pokračování ve časového záznamu. Pokud jste vytvořili vlastní zobrazení nebo oddělené časové záznamy, musíte nastavit pole **Nastavení časového záznamu** na správnou hodnotu PSA.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

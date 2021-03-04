@@ -257,3 +257,6 @@ Následující obrázek je ze chvíle po vytvoření vlastních ceníků.
 
 > [!NOTE]
 > Může dojít ke krátké prodlevě mezi kliknutím na tlačítko **Vytvořit vlastní ceny** a vytvořením vlastního ceníku. Místo opakovaného kliknutí doporučujeme aktualizovat mřížku. Vlastní ceník byl vytvořen v případě, že název přidruženého ceníku má připojen název nabídky nebo název smlouvy o projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

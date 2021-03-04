@@ -66,3 +66,6 @@ Byly vyřešeny následující problémy:
 - Zákazníci se mohou při vytváření projektu setkat se sníženým výkonem, protože **GetBookableResourceIdFromUser** načte všechny sloupce rezervovatelných zdrojů namísto pouze primárního ID.
 - Entita **Typ transakce** postrádá plug-in aktualizace před ověřením, aby uživatelům zabránila v zadání vlastností **Units** a **UnitGroups**, které nejsou platné pro typy transakcí.
 - Krok **Odebrat** krok nefunguje při importu zadání času.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

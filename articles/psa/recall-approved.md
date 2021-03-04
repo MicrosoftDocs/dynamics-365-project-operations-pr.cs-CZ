@@ -107,3 +107,6 @@ Následující obrázek zobrazuje změny, ke kterým dojde u schválených časo
 Následující obrázek zobrazuje změny, ke kterým dojde u schválených výdajových záznamů při jejich odvolání.
 
 ![Stavové přechody výdajových záznamů](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

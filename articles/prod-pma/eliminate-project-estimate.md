@@ -51,3 +51,6 @@ Chcete-li eliminovat projekt odhadu, musí být hotový. Následující kroky vy
 5. Po dokončení procesu eliminace se zobrazí eliminovaný projekt odhadu se zápornou hodnotou. 
 
 Pokud jste neměli v úmyslu odhad eliminovat, můžete vybrat eliminovat odhad a vybrat **Vrátit eliminaci**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

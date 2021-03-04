@@ -26,3 +26,6 @@ Nástroje pro řízení projektů v aplikaci Dynamics 365 Project Operations pom
 - Použití projektových odhadů během prodejního procesu.
 - Předpovídání požadavků na zdroje pro projekty, které jsou v kanálu.
 - Úspěšné dodání projektů sledováním postupu a spotřeby nákladů.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

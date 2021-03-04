@@ -62,3 +62,6 @@ Následující procedura vysvětluje, jak vytvořit projektový tým:
 ## <a name="monitor-project-teams"></a>Monitorování projektových týmů
 1. Na stránce **Všechny projekty** vyberte odkaz **ID projektu** pro projekt **Fáze 2 upgradu XYZ**.
 2. Na kartě **Projektový tým a plánování** ověřte, zda jsou projektové zdroje v seznamu správné.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

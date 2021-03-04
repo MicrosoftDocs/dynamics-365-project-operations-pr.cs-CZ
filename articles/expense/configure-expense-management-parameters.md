@@ -83,3 +83,6 @@ Toto téma popisuje parametry, které řídí obecné chování ve správě výd
 | Zobrazit protikorupční osvědčení   | Vyberte tuto možnost, chcete-li zobrazit protikorupční text při vytváření výkazu výdajů. Poté lze povolit konkrétní kategorie výdajů, které budou vyžadovat, aby bylo ve výkazu výdajů vybráno protikorupční osvědčení. Například kategorie dárků, která souvisí s výdaji státních úředníků, může vyžadovat, aby zaměstnanec potvrdil, že výdaj splňuje zásady společnosti související s vládními úředníky. |
 | Protikorupční zpráva pro zadavatele | Zadejte text, který se má zobrazit zaměstnanci, který vytváří sestavu výdajů. Chcete-li zadat text specifický pro jazyk, který se zobrazí, na základě uživatelského jazyka vyberte **Překlady**. |
 | Protikorupční zpráva pro schvalovatele  | Zadejte text, který se má zobrazit schvalovateli při vytváření sestavy výdajů. Chcete-li zadat text specifický pro jazyk, který se zobrazí, na základě uživatelského jazyka vyberte **Překlady**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

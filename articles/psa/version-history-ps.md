@@ -73,3 +73,6 @@ Vydání: Informace o dalších aktualizacích služby Project Service naleznete
 >[!Note]
 > - Data ve všech regionech kromě cloudu komunity státní správy (GCC) označují načasování další automatické aktualizace. Data v GCC označují dostupnost verze; v současné době pro tyto oblasti neexistuje žádná automatická aktualizace.
 > - Pro všechny ostatní regiony, zatímco většina aktualizací by měla být dokončena v naplánovanou noc, aktualizace vyžadující více času mohou být dokončeny během hodin nečinnosti o víkendu uvedených ve sloupci **Plánované datum**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

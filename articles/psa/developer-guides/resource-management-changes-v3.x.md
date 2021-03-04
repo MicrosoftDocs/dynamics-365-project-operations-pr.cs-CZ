@@ -170,3 +170,6 @@ Následující pole pro plánované, skutečné a zbývající náklady a prodej
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

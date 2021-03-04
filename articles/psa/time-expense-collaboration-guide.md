@@ -73,3 +73,6 @@ Kliknutím na odkaz níže získáte další informace o tom, co můžete dělat
  [Příručka pro manažera obchodních vztahů](../psa/account-manager-guide.md)   
  [Příručka pro projektového manažera](../psa/project-manager-guide.md)   
  [Příručka pro manažera zdrojů](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

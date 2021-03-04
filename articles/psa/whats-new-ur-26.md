@@ -74,3 +74,6 @@ Byly vyřešeny následující problémy:
 - Při výběru řádku založeného na projektu v nabídce nebo smlouvě by tlačítko **Návrh** mělo být viditelné pouze při výběru řádku založeného na projektu spojené s existujícím produktem.
 - Rozdělit oprávnění **Create_Product** z oprávnění **Create_ProjectContract**.
 - Odstranění řádku faktury způsobí selhání nulové reference v **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

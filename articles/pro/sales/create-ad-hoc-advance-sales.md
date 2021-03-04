@@ -39,3 +39,6 @@ Chcete-li zákazníkovi fakturovat zálohu, proveďte následující kroky.
     | **Stav faktury** | Toto je nastavení možnosti, které označuje, zda je tato záloha přidána do konceptu faktury pro tohoto zákazníka. Možné hodnoty jsou:</br>- **Nepřipraveno k fakturaci**</br>- **Připraveno k fakturaci** | Když je záloha označena jako **Připraveno k fakturaci**, je přidána jako čas na řádku v konceptu faktury. K vyrovnání vůči nákladům projektu na další fakturační období lze použít pouze plně fakturovanou zálohu. |
 
 4. Vyberte **Uložit a zavřít** v dialogovém okně pro rychlé vytvoření, čímž zálohu zaznamenáte.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

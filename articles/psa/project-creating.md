@@ -149,3 +149,6 @@ Nemá-li úkol uzlu typu list předchůdce, nastaví se počáteční datum ve v
 ### <a name="manual-scheduling"></a>Ruční plánování
 
 Pokud pravidla automatického plánování nesplňují vaše požadavky, můžete nastavit režim úkolu pro úkol na **Ručně naplánováno**. Toto nastavení zabrání plánovacímu modulu ve výpočtu hodnot dalších atributů plánování. Nastavíte-li u úkolů předchůdce, bude bez ohledu na režim úkolu vždy ovlivněno počáteční datum závislého úkolu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

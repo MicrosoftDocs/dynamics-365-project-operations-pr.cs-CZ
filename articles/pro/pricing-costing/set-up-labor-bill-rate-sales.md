@@ -55,3 +55,6 @@ Například vývojáři ze společnosti Fabrikam Indie pracující na americkém
     | Developer | Fabrikam USA | 150 USD |
 
 3. Připojte prodejní ceník **Fakturační sazby společnosti Fabrikam USA** k projektovému ceníku projektové smlouvy nebo k určitému účtu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

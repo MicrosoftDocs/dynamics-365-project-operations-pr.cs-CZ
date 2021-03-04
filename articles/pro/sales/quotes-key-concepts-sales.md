@@ -89,3 +89,6 @@ Nabídky Project Operations vycházejí z nabídek Dynamics 365 Sales. Existují
 - Nabídky Project Operations mají svůj vlastní formulář a prvky uživatelského rozhraní, obchodní pravidla, obchodní logiku v modulech plug-in, a skripty na straně klienta, díky nimž se liší od nabídek aplikace Sales.
 
 Z těchto důvodů se nedoporučuje zaměňovat nabídky aplikace Sales a nabídky Project Operations.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

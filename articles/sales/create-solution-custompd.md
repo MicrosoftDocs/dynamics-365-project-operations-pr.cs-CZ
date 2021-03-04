@@ -64,3 +64,6 @@ Přidejte do svého cenového řešení následující entity Project Service, a
 5.  Po zobrazení výzvy k zahrnutí jakýchkoli závislých entit pro vybrané entity vyberte **Ne, nezahrnovat požadované součásti.**
 
     ![Včetně závislých entit](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ S jakýmkoli projektem, který není spojen se smlouvou v aplikaci Dynamics 365 
 Pokud je projekt spojen se smlouvou o projektu, po zaúčtování transakcí do projektu, systém vrátí všechny akumulované transakce a vytvoří nové zúčtovatelné transakce. Fakturovatelné transakce se řídí účetními pravidly definovanými v příslušném profilu nákladů a výnosů projektu.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

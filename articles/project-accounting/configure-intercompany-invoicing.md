@@ -101,3 +101,6 @@ V následujícím příkladu je Contoso Robotics USA (USPM) vypůjčující prá
           - **Zdrojová společnost** = **Contoso Robotics UK**
           - **Fakturační sazba** = **200 USD**
       9. Přejděte na **Prodej** > **Projektové smlouvy** a připojte ceník **Fakturační sazby Adventure Works** do ceníku projektu Adventure Works projektové smlouvy.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

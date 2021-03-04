@@ -43,3 +43,6 @@ Toto nasazení by mělo být zvoleno, pokud očekáváte, že Project Operations
 - Potřeba plně funkčního podnikového modulu prodejní daně a směnného kurzu pro generování zákaznických faktur v rámci projektů.
 - Systém projektového účetnictví a uznávání výnosů v souladu s mezinárodními standardy finančního výkaznictví (IFRS).
 - Aplikace Finance nebo Supply Chain Management a integrace projektových transakcí.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -167,3 +167,6 @@ Pokud vaše společnost pracuje jako jedna jednotka, která má jeden nákladov�
 Pokud je projekt vytvořen samostatně, je výchozí smluvní jednotka projektu založena na uživateli, který jej vytvořil. Tento uživatel je také výchozím projektovým manažerem. Pokud je projekt namapován na prodejní entitu, jako je například nabídka nebo projektová smlouva, je smluvní jednotka v projektu založena na prodejní entitě. V takovém případě mohou být odhady projektu přepočítány, protože nákladový ceník se používá k výpočtu změn odhadu nákladů při změně smluvní jednotky. Prodejní ceník se používá k výpočtu odhadů prodeje, které budou změněny, aby byly synchronizovány s projektovým ceníkem v nabídce.
 
 Pole **Smluvní jednotka** a **Měna** v projektu jsou uzamčeny pro úpravy, protože musí být synchronizovány s hodnotami prodejní entity (nabídka nebo projektová smlouva), na kterou je projekt namapován.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

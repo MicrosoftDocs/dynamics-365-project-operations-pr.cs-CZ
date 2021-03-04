@@ -44,3 +44,6 @@ Po přidělení rozpočtu nebo revizi rozpočtu můžete zkontrolovat částky p
 10. Když přidělení vyhovuje tomu, co chcete, kliknutím na Odeslat na stránce rozpočtu projektu odešlete rozpočet nebo revize rozpočtu do pracovního postupu schválení.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

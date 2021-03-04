@@ -73,3 +73,6 @@ Data lze pro dimenze založené na entitě vytvořit ručně nebo pomocí import
 > ![Ukázková data pro entitu Standardní funkce ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

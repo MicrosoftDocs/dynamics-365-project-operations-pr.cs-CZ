@@ -38,3 +38,6 @@ Vyberte **Přihlášení** > **Přihlášením se do prostředí** předete na m
 
 > [!NOTE]
 > K Project Operations můžete přistoupit v Common Data Service a modulu **Řízení projektů a účetnictví** přímo pomocí příslušných adres URL. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

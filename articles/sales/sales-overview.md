@@ -63,3 +63,6 @@ V Project Operations nelze sledovat revize provedené v nabídce. Místo toho mu
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Sledování komentářů a schvalování nabídek a projektových smluv
 Revizi a schvalování nabídek a projektových smluv můžete spravovat pomocí zdi záznamu a příspěvků. Vaše organizace může vytvořit vlastní pracovní postupy a moduly plug-in pro přiřazení, přesměrování, eskalaci a správu upozornění na revize a schválení pracovních položek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

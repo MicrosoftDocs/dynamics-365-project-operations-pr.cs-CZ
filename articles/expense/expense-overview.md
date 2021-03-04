@@ -44,3 +44,6 @@ Další informace viz [Výdajový záznam (omezený)](basic-expense.md)
 
 ## <a name="determine-your-expense-deployment"></a>Určení typu nasazení pro výdaje
 Chcete-li zjistit, zda používáte nasazení pro správu základních výdajů, ověřte, zda adresa URL končí na **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

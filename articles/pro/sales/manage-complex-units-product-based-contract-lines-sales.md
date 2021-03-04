@@ -46,3 +46,6 @@ Chcete-li z vlastností produktu vytvořit množstevní faktory, proveďte násl
 7. Opakujte kroky 2–6 pro všechny vlastnosti, které společně tvoří množství pro řádek smlouvy na základě produktu.
 
 S nastavenými množstevními faktory, když uživatel vytvoří pro tento produkt řádek kontraktu, je množství řádku smlouvy uzamčeno. Množství se poté vypočítá jako produkt hodnot vlastností pro daný řádek smlouvy.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

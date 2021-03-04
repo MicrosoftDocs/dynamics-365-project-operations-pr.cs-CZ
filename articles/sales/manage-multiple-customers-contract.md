@@ -47,3 +47,6 @@ Smluvní zákazník může být vytvořen, aktualizován nebo odstraněn z kary 
 Procenta rozdělení fakturace lze upravit v mřížce. Pokud procentuální rozdělení fakturace nedosáhne 100 procent, dojde k chybě. Po úpravě procentuálního rozdělení fakturace aktualizujte stránku **Projektová smlouva**, abyste chybu opravili.
 
 Můžete také vybrat **Rovnoměrně rozdělit** v podmřížce projektových smluvních zákazníků. Rozdělená fakturace se přiděluje rovnoměrně všem zákazníkům v projektové smlouvě. Pokud existuje nějaký faktor zaokrouhlování, bude přidán k zákazníkovi pro zaokrouhlování. Jeden ze smluvních zákazníků má vždy příznak **Zaokrouhlování** nastaven na **Ano**. Tento zákazník je zákazníkem zaokrouhlování. Zákazník zaokrouhlování je obvykle také primárním zákazníkem smlouvy, ale není to nutné.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

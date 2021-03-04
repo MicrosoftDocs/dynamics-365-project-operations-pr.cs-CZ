@@ -70,3 +70,6 @@ Můžete importovat data z rezervací projektů a přiřazení. Při importu dat
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Funkce seskupit podle, třídit, hledat a filtrovat
 
 Časové záznamy lze seskupit a filtrovat podle dimenzí zadaných ve sloupcích. V poli **Seskupit podle** vyberte dimenzi, kterou chcete použít k filtrování časových záznamů. Záznamy s položkami času lze také řadit vzestupně nebo sestupně pomocí šipky řazení v záhlavích sloupců. Tyto záznamy lze zobrazit nebo skrýt výběrem tlačítka **Filtrovat** v záhlavích sloupců a potom do políčka **Hledat** zadáním textu, který má být použit k hledání časových položek podle názvu projektu, úkolu projektu, času položku nebo zdroj.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

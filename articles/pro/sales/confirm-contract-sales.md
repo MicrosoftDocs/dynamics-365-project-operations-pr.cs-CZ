@@ -35,3 +35,6 @@ Pokud smlouva projektu, která je uzavřena jako ztracená, odkazuje na projekt 
 
 > [!NOTE]
 > V Dynamics 365 Project Operations nebude mít uzavření smlouvy o projektu jako ztracené vliv na stav přidružené příležitosti. Příležitost zůstane otevřená a musí být ručně uzavřena.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

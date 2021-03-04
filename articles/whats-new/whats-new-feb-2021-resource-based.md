@@ -54,3 +54,6 @@ Další informace o projektovém řízení a účetnictví v Dynamics 365 Financ
 ## <a name="regulatory-updates"></a>Povinné aktualizace
 
 Informace o povinných aktualizacích pro aplikace Finance and Operations viz [Povinné aktualizace](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Dalším způsobem, jak se dozvědět o aktualizacích předpisů, je přihlásit se do služby Lifecycle Services (LCS) a zobrazit plánované aktualizace předpisů pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

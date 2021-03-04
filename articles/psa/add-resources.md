@@ -55,3 +55,6 @@ Zdroje můžete přiřadit organizačním jednotkám, pokud potřebujete mít r�
   
 ### <a name="see-also"></a>Viz také  
  [Nastavení zdrojů](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

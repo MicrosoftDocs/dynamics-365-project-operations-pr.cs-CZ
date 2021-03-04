@@ -81,3 +81,6 @@ Byly vyřešeny následující problémy:
 - Tlačítko **Obnovit skutečné údaje** nesprávně vypočítá souhrnné úkoly.
 - Doplněk Microsoft Project: Oprava chyby s nulovou referencí, pokud má kterýkoli člen týmu prázdnou zdrojovou jednotku.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

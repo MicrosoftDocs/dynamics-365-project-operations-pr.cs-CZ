@@ -45,3 +45,6 @@ Navíc musí být ke každému rezervovatelnému zdroji přiřazena výchozí ro
 Na kartě **Project Service** můžete také nastavit individuální cílové využití zdroje. Výpočet využití pak používá toto cílové využití k vyhodnocení cíle zdroje namísto cíle výchozí role zdroje.
 
 Využití je pro zdroj zobrazeno pouze v případě, že tento zdroj má schválenou fakturovatelnou dobu během období zobrazeného v mřížce.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

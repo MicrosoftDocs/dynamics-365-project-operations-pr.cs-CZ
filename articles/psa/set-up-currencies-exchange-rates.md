@@ -43,3 +43,6 @@ Pro vytvoření nabídky a faktury pro odběratele v rámci [!INCLUDE[pn_project
   
 ### <a name="see-also"></a>Viz také  
  [Konfigurace Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

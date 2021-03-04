@@ -42,3 +42,6 @@ Byly vyřešeny následující problémy:
 
 - Snížení výkonu při vyhledávání pomoci s plánováním
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

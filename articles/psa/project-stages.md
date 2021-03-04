@@ -65,3 +65,6 @@ Po dokončení práce na projektu může projektový manažer aktualizovat fázi
 ## <a name="close"></a>Close (Zavřít)
 
 Jakmile jsou všechny transakce pro projekt zaznamenány, může projektový manažer aktualizovat fázi na **Zavřít**. V tomto okamžiku nelze zaznamenat žádné transakce a projekt je nastaven jen pro čtení.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

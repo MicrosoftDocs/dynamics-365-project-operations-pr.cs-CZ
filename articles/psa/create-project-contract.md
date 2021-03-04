@@ -47,3 +47,6 @@ Nyní, když jste získali nabídku pro projekt, je čas vytvořit smlouvu se z�
   
 ### <a name="see-also"></a>Viz také  
  [Příručka pro manažera obchodních vztahů](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

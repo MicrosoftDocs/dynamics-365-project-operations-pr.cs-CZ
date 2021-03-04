@@ -37,3 +37,5 @@ Jako projektový manažer proveďte následující kroky a upravte požadavek na
 ## <a name="edit-resource-assignment-contours"></a>Úprava obrysů přiřazení zdrojů
 
 Kromě úpravy podrobností o požadavcích na zdroje může vedoucí projektu aktualizovat jednotlivé obrysy požadavku na zdroje pomocí funkce **Určení vzoru**. Když je vybrána volba **Zadat vzor**, otevře se stránka a můžete zobrazit obrysy v časovém měřítku dne, týdne nebo měsíce. Každý obrys lze upravit pro čas zahájení, čas ukončení a celkové úsilí v daném období.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

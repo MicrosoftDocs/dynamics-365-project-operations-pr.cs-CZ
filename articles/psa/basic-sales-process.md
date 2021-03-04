@@ -93,3 +93,6 @@ V PSA nelze sledovat revize provedené v nabídce. Místo toho musíte označit 
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Sledování komentářů a schvalování nabídek a projektových smluv
 Revizi a schvalování nabídek a projektových smluv můžete spravovat pomocí zdi záznamu a příspěvků. Vaše organizace může vytvořit vlastní pracovní postupy a moduly plug-in pro přiřazení, přesměrování, eskalaci a správu upozornění na pracovní položky revize a schválení.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

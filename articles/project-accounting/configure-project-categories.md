@@ -53,3 +53,6 @@ Kategorie projektu představují nejpodrobnější úroveň konfigurace kategori
 Skupiny kategorií se používají ke sdílení vlastností, zejména zveřejňování profilů, mezi souvisejícími kategoriemi projektu. Pro každý typ transakce musí existovat alespoň jedna skupina kategorií a každé kategorii projektu je přiřazena skupina.
 
 Specifikace účtování v Project Operations jsou definovány pravidly profilu nákladů a výnosů profilu projektu, kategoriemi projektů a skupinami kategorií. Skupiny kategorií můžete nastavit přechodem na **Řízení projektů a účetnictví** \> **Nastavit** \> **Kategorie** \> **Skupiny kategorií**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

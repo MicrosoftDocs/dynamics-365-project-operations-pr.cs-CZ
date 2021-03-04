@@ -106,3 +106,6 @@ Když se provede jedna nebo více aktualizací struktury rozpisu práce, změny 
   - Systém Project Operations
   - Systém projektu
   - Systém duálního zápisu Project Operations (Tato role je vyžadována, pokud nasazujete scénář Project Operations, který není založen na zdroji / není skladem.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

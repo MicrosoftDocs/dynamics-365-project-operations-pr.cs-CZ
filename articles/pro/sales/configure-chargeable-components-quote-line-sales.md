@@ -77,3 +77,6 @@ Odhadovaní nebo skutečně vytvořené na výdaj budou považovány za účtova
 | No | Ano | Celý projekt | Nelze nastavit | Neúčtovatelné | Nelze nastavit | Skutečná fakturace na čas: Není k dispozici </br>Typ fakturace při skutečných výdajích: Neúčtovatelné |
 | Ano | No | Celý projekt | Účtovatelné | Nelze nastavit | Nelze nastavit | Skutečná fakturace na čas: Účtovatelné</br>Typ fakturace při skutečných výdajích: Není k dispozici |
 | Ano | No | Celý projekt | Neúčtovatelné | Nelze nastavit | Nelze nastavit | Skutečná fakturace na čas: Neúčtovatelné </br>Typ fakturace při skutečných výdajích: Není k dispozici |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

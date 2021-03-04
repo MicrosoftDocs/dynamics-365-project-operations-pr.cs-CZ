@@ -344,3 +344,6 @@ Pokud máte pro zdroj přiřazení úkolů, ale nemáte žádné rezervace, vybe
 ![Dialogové okno Prodloužit rezervaci](media/Resource-Management-image58.png)
 
 Projektový manažer nebo správce prostředku pak může pomocí Plánovací vývěsky spravovat všechny situace, ve kterých je zdroj přerezervovaný nad svoji kapacitu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

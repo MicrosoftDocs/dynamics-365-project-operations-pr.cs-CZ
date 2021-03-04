@@ -63,3 +63,6 @@ Tohle téma uvádí seznam funkcí a oprav, které jsou nové nebo změněné v�
 **Sales**
 
 - Opraveno: Při opětovném schválení časových záznamů (**Schválit > Zrušit>** a znovu schválit), se vytvoří duplicitní neúčtovatelná skutečná hodnota.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

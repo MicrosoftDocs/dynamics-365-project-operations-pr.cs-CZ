@@ -67,3 +67,6 @@ Když se uživatel rozhodne provést sumarizaci podle třídy transakce, kategor
 | Úkol A | Letenky | 10/1/2020 | 4 | 400 | 1600 |
 | Úkol B | Hotel | 10/1/2020 | 4 | 200 | 800 |
 | Úkol C | Hotel | 11/1/2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

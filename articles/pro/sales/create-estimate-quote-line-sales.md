@@ -67,3 +67,6 @@ Měna v podrobnostech řádku nabídky pro výchozí náklady z ceníku projektu
 Výpočty ziskovosti převádějí částku v podrobnostech řádku nabídky pro náklady a prodej do na základní měnu prostředí a vykazují celkovou odhadovanou marži nabídky.
 
 To by mohlo mít za následek chyby zaokrouhlování měn a změnu marží z důvodu neexistence směnných kurzů platných pro daný den. Tyto výpočty použijte v nabídkách projektu pouze jako přibližné hodnoty a nikoli jako skutečné statutární nebo jiné sestavy, které vyžadují vyšší přesnost zaokrouhlování a směnné kurzy platné pro patřičný den.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

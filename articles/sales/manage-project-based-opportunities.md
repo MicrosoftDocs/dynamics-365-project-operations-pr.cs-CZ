@@ -65,3 +65,6 @@ Prodejní proces příležitosti v Project Operations je rozšířením obchodn�
 > Pokud vaše projektová dohoda začala příležitostí, má přednost prodejní proces příležitosti.
 
 Můžete upravit tok obchodního procesu produktu nebo vytvořit vlastní toky obchodního procesu a podle potřeby sledovat prodejní proces. Další informace o toku obchodního procesu naleznete v tématu [Přehled toků obchodního procesu](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

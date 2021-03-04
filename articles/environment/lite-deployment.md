@@ -44,3 +44,6 @@ Project Operations podporuje více modelů nasazení. Chcete-li zjistit nejlepš
 2. Nainstalujte **Microsoft Dynamics 365 Project Operations** ze seznamu nasazení aplikací Dynamics 365. Další informace najdete v části [Správa aplikací Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

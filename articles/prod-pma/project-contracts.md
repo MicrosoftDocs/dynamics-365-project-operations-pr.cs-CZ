@@ -344,3 +344,6 @@ Během prvního měsíce konzultanti projektu odpracovali celkem 800 hodin. Nák
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

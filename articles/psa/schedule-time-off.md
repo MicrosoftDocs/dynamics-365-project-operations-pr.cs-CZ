@@ -57,3 +57,6 @@ Dovolenou nebo pracovní volno lze naplánovat téměř stejným způsobem jako 
   
 ### <a name="see-also"></a>Viz také  
  [Příručka – Čas, výdaje a spolupráce](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Manažeři obchodních vztahů a vedoucí projektu pro jejich projekty pravideln
   
 ### <a name="see-also"></a>Viz také  
  [Příručka pro manažera zdrojů](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

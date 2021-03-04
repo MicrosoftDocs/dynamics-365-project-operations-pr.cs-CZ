@@ -43,3 +43,5 @@ Přidání charakteristik k požadavkům na zdroje vám umožní dokumentovat zn
 3. V podřízené mřížce **Dovednosti** vyberte příkaz **+ Přidat novou charakteristiku požadavku.**
 4. V podokně rychlého vytvoření vyhledejte a vyberte požadované charakteristiky a přidejte **Hodnotu hodnocení**.
 5. Zvolte **Uložit a zavřít**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

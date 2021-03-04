@@ -49,3 +49,6 @@ Chcete-li vytvořit plán projektu, vytvořte šablonu projektového kalendáře
 8. V dialogovém **Šablona práce** zadejte název šablony práce a pak vyberte **Použít**. 
 
 Nyní můžete šablonu práce přidružit k šabloně kalendáře projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

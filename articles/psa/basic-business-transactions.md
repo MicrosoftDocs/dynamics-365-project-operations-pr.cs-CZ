@@ -149,3 +149,6 @@ Následující tabulka zobrazuje záznamy v entitě Propojení transakce pro př
 | Oprava konceptu faktury       | GUID transakce řádku faktury | Nahrazení          | msdyn_invoicelinetransaction | GUID fakturovaného prodeje            | Původní           | msdyn_actual       |
 | Potvrdit opravu faktury     | GUID storna fakturovaného prodeje    | Stornování          | msdyn_actual                 | GUID fakturovaného prodeje            | Původní           | msdyn_actual       |
 | GUID skutečné hodnoty nového nefakturovaného prodeje | Nahrazení                     | msdyn_actual       | GUID fakturovaného prodeje            | Původní                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

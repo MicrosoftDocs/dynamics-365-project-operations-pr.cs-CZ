@@ -88,3 +88,6 @@ Rozpisy faktur jsou specifické pro každý řádek smlouvy a jsou vyžadovány 
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Změny oproti objednávce aplikace Dynamics 365 Sales
 
 Smlouvy v Project Operations jsou postaveny na objednávkách v Dynamics 365 Sales. Existují však důležité odchylky a rozdíly ve funkčnosti. Smlouvy mají svůj vlastní formulář a prvky uživatelského rozhraní, obchodní pravidla, obchodní logiku v modulech plug-in, a skripty na straně klienta, díky nimž se liší od smluv. Z těchto důvodů nepoužívejte prodejní objednávku a smlouvu Project Operations záměnně.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

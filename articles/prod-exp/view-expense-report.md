@@ -32,3 +32,6 @@ U sestav výdajů můžete procházet údaje směrem od transakce až k původn�
 Chcete-li přejít k původní sestavě výdajů, ve které se transakce objevila, vyberte transakci a poté vyberte možnost **Původní dokument**.
 
 Když si prohlížíte jednotlivé transakce, můžete si také zobrazit jakákoli další data, která jsou k transakci připojena. Například u rozepsaných výdajů na hotel si můžete prohlédnout podrobný seznam výdajů, jako je přístup na internet, telefonní hovory a pokojová služba.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

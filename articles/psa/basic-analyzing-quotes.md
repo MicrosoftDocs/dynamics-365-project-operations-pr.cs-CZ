@@ -60,3 +60,6 @@ Pokud zadáte hodnoty do následujících polí, můžete analyzovat nabídky a 
 Analýza očekávání zákazníka týkající se plánu je provedena porovnáním nejpozdějšího koncového data podrobnosti řádku nabídky s požadovaným datem dodání na všech řádcích nabídky v nabídce.
 
 Analýza očekávání zákazníka týkající se rozpočtu je provedena porovnáním součtu celkového rozpočtu zákazníka s nabízenou částkou na všech řádcích nabídky.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

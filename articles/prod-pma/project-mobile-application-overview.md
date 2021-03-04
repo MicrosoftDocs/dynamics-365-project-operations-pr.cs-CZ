@@ -49,3 +49,6 @@ Moje časové výkazy (optimalizováno pro mobilní zařízení) a Časové výk
 - [Zadání času projektu]( project-time-entry-mobile-workspace.md)
 - [Časové výkazy projektu na mobilním zařízení](Mobile-timesheets.md)
 - [Implementujte vlastní pole pro mobilní aplikaci Microsoft Dynamics 365 Project Timesheet na systémech iOS a Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

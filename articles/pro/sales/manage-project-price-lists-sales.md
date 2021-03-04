@@ -67,3 +67,6 @@ Až budete mít nastaveny výchozí projektové ceníky pro organizaci a konkré
 
 1. V **Projektové nabídce** na kartě **Projektový ceník** si ověřte v podřízené mřížce, že není vybrán žádný konkrétní záznam ceníku.
 2. Vyberte položku **Vytvořit vlastní ceny**. Tímto způsobem vytvoříte kopie všech standardních ceníků aktuálně přidružených k nabídce a přidružíte tyto kopie k nabídce. Stávající přidružení ke standardním ceníkům budou odstraněna. Prodejce pak může v těchto kopiích začít provádět úpravy cen. Tyto změněné ceny se budou vztahovat pouze na tuto projektovou nabídku.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

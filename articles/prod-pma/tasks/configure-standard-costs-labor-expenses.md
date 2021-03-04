@@ -54,3 +54,6 @@ Toto téma vysvětluje, jak nastavit standardní náklady na práci a výdaje na
 22. Do pole **Ceny** zadejte číslo. Skutečná prodejní cena, která se použije, když pracovník zadá transakce do deníku výdaje, je prodejní cena s nejvyšší úrovní podrobností. Například pokud je nastavena jak obecná prodejní cena, tak prodejní cena specifická pro pracovníka, použije se prodejní cena specifická pro pracovníka.  
 23. Zvolte **Uložit**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

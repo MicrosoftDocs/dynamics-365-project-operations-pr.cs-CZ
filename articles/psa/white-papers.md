@@ -45,3 +45,6 @@ Tyto dokumenty white paper poskytují podrobné informace o řešení [!INCLUDE[
 
 ### <a name="see-also"></a>Viz také
  [Přehled aplikace Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

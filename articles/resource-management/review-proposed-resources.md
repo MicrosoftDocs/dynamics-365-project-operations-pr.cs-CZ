@@ -62,3 +62,6 @@ Protože Dynamics 365 Project Operations používá modul Universal Resource Sch
 
 Chcete-li zobrazit další podrobnosti o konkrétním zdroji, klepněte na něj pravým tlačítkem myši a otevřete kartu zdroje.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

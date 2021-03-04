@@ -31,3 +31,6 @@ Denní dieta je příspěvek vyplácený pracovníkovi, který cestuje za prací
     
 ## <a name="submit-expenses-using-per-diem"></a>Odesílání výdajů na denní diety
 Chcete-li odeslat výdaje s využitím denních diet, použijte při vytváření sestavy výdajů kategorie výdajů **Denní diety**. Zadejte hodnoty **Denní diety od data**, **Denní diety do data** a **Umístění denních diet**. Částka bude vypočítána na základě sazeb denních diet pro vybrané místo a redukce diety za jídlo bude vypočítána na základě úrovní sazeb denních diet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

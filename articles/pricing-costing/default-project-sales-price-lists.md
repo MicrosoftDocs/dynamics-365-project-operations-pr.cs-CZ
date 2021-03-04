@@ -57,3 +57,6 @@ Ceníky nákladů nemají výchozí žádnou entitu v Project Operations. Stanov
 5. Dále systém zkoumá datovou platnost ceníků, které odpovídají datu příchozího odhadu nebo skutečného řádku. 
 6. Pokud existuje více ceníků, které jsou platné pro datum v příchozím odhadu nebo skutečné hodnotě, je vybrán naposledy vytvořený ceník.
 7. Pokud k parametrům projektu nejsou připojeny žádné nákladové ceníky, které odpovídají měně a datu platnosti, systém nastaví výchozí hodnotu nákladové sazby na nulu (0) na příchozím odhadu nebo skutečném řádku.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

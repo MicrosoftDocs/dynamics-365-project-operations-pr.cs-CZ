@@ -113,3 +113,6 @@ Molly Clarková, vývojářka zaměstnaná v GBPM, zaznamenává 10 hodin práce
     - Kredit: Projekt - časově rozlišený výnos 120 USD
 
     Systém je nyní připraven k vytvoření mezipodnikové faktury zákazníka.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

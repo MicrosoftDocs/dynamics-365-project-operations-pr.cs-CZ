@@ -76,3 +76,6 @@ K vytvoření nákupní objednávky ve Správě projektů a účetnictví může
 
 Další informace viz téma [Příjem položek na nákupní objednávce z požadavku na položku](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

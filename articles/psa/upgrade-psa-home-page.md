@@ -65,3 +65,6 @@ Od 1. března 2020 již zákazníci Dynamics PSA nebudou moci vytvářet nové p
 
 > [!NOTE]
 > Chcete-li dosáhnout nejlepších výsledků, pokud používáte starší verze aplikací Field Service a PSA, přejděte na stránku **Nastavení systému** a pro pole **Používat jen nové Sjednocené rozhraní (doporučeno)** vyberte možnost **Ne**, protože tyto verze nejsou navrženy tak, aby byly v UCI správně načteny. Po vypnutí UCI můžete tyto verze aplikací Field Service a PSA otevřít a spustit pomocí starého webového klienta. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

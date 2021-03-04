@@ -66,3 +66,6 @@ Pokud i přesto nevidíte platnou cenu vašich skutečných časových nákladů
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

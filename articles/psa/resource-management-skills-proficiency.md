@@ -48,3 +48,6 @@ Dovednosti pro zdroje jsou hodnoceny pomocí modelů odborné způsobilosti. Ind
 > ![Definované minimální a maximální hodnocení](media/Resource-Management-image85.png)
 
 Tyto hodnoty hodnocení jsou zobrazeny ve filtrech **Požadavky na zdroje**, **Plánovací vývěska** a **Pomocník plánování**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

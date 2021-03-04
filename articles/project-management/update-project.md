@@ -48,3 +48,6 @@ Níže je uveden souhrn polí, která lze aktualizovat na projektu po jeho vytvo
 - **Celkový stav projektu**: Celkový stav projektu poskytnutý manažerem projektu.
 - **Komentáře**: Textový komentář týkající se aktuálního stavu projektu poskytnutý manažerem projektu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

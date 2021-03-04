@@ -110,3 +110,6 @@ Pro úkoly, které jsou přiřazeny k roli s organizační jednotkou, která s
  
 Změna výchozího nastavení různých organizačních jednotek zdroje u nevygenerovaných členů týmu je důvodem, proč doporučujeme vygenerovat nebo znovu vygenerovat tým pro každý projekt, který obsahuje obecné zdroje, ještě před upgradem, aby nedošlo ke ztrátě přiřazení organizační jednotky.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

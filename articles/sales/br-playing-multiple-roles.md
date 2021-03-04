@@ -106,3 +106,6 @@ Když rozbalíte řádek pro daný záznam člena týmu, uvidíte v záznamu čl
 ### <a name="estimates-grid"></a>Mřížka odhadů 
 
 V mřížce **Odhady** obě přiřazení stejného zdroje jsou oceněny odlišně. Cena za přiřazení zdroje na **úkolu A** je stanovena pomocí hodnoty atributu **Role** položky **Poradenský vedoucí**. Cena za přiřazení stejného zdroje na **úkolu B** je stanovena pomocí hodnoty atributu **Role** položky **Síťový technik**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Po dokončení předchozích úkolů můžete podle potřeby dokončit následuj
 - Vyřizujte žádosti o zdroje.
 - Požádejte o personální zdroj ze strukturovaného rozpisu prací.
 - Rezervujte si zdroje do projektu bez požadavku na personální zdroj.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Následující tabulka definuje klíčové koncepce, které se používají v ap
 | Průběhová křivka                    | Hodiny úkolu, požadavku nebo přiřazení, které jsou rozděleny do denního rozdělení. Například pětidenní, 40hodinový úkol může být rozdělen na osm hodin denně za pět dní. |
 | Zobrazení Vyrovnání        | Zobrazení, ve kterém jsou zobrazeny rezervace a přiřazení pro jednotlivé členy projektového týmu. Toto zobrazení umožňuje projektovému manažerovi vyhledat jakýkoli nesoulad mezi rezervacemi a přiřazeními a provést nápravné opatření, pokud k nějakému nesouladu dojde. |
 | Pracovní doba                 | Entita, která slouží k identifikaci kapacity zdroje a pracovní a nepracovní doby. Tato entita je také označována jako kalendář zdroje. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

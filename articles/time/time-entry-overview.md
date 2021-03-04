@@ -27,3 +27,6 @@ Při záznamu času v Project Operations mohou uživatelé sledovat čas proti j
 
 Informace o tom, jak vytvořit, odeslat nebo vyvolat záznam a další nástroje, které vám pomohou dokončit vytváření přehledů, najdete v části [Chování uživatele při zadávání času](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

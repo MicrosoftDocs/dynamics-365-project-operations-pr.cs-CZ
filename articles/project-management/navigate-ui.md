@@ -102,3 +102,6 @@ Následuje stručný přehled typických ovládacích prvků na různých kartá
 **Přidat sloupec** : Umožňuje uživateli definovat viditelné sloupce v mřížce. Do mřížek ve formuláři **Plánování projektu** lze přidat pouze předem připravené sloupce.
 
 ![Tlačítko Přidat sloupec](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

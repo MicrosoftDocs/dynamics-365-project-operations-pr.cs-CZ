@@ -57,3 +57,6 @@ Pokud pro konkrétní cenové dimenze u skutečných časových prodejů řádek
 
 Pokud i přesto nevidíte platnou cenu vašich skutečných časových prodejů po provedení tří výše uvedených kontrol, odešlete prosím lístek podpory. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

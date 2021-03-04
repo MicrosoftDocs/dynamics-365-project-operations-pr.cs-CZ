@@ -85,3 +85,6 @@ Po vytvoření několika časových záznamů mohou uživatelé vytvářet více
 
 ## <a name="import"></a>Import
 Stejný základní postup se používá k importu z rezervací, přiřazení a výměn. Můžete určit rozsah kalendářních dat, odkdy jsou rezervace importovány, a pak explicitně vybrat rezervace, které mají být zkopírovány do konceptu časových záznamů. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

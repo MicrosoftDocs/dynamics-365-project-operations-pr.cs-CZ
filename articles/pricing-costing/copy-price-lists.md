@@ -43,3 +43,6 @@ Chcete-li vytvořit kopii ceníku, proveďte následující kroky.
 1. Na kartách **Role**, **Kategorie** a **Položka ceníku** můžete vybrat **Aktualizovat ceny**, čímž použijete přirážku na všechny ceny v podmřížce. 
 2. Na dialogové stránce, která se otevře, zadejte přirážku. Můžete také zadat záporné procento přirážky a snížit ceny o určité procento. 
 3. Vyberte **OK** na stránce dialogového okna a poté ověřte, že ceny v podmřížce odpovídají provedeným změnám.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

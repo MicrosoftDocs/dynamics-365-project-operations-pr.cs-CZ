@@ -44,3 +44,6 @@ Tohle téma uvádí seznam funkcí a oprav, které jsou nové nebo změněné pr
 - Oprava: Vyřešení šablon 24hodinové pracovní doby nepřesně přidávajících k úkolům další den.
 - Oprava: Vyřešení šablon pracovní doby +13 GMT nepřesně přesouvajících úkoly o den napřed.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

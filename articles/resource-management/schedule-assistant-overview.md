@@ -57,3 +57,6 @@ Podokno filtru zobrazuje možnosti související s prací, včetně:
 -   Společnost poskytující zdroje
 -   Typy zdrojů
 -   Preferované zdroje
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

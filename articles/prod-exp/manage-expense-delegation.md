@@ -41,3 +41,6 @@ Když je klíč pro správu funkcí **Povolit stránku se seznamem delegátů v�
 Delegovaný uživatel může rychle filtrovat a vyhledávat existující sestavy výdajů, které mu byly delegovány. Může také vytvořit novou sestavu výdajů pro ostatní uživatele výběrem **Nová sestava výdajů**.
 
 Delegovaní uživatelé mohou také vytvářet a spravovat výkazy výdajů pro ostatní zaměstnance přechodem na **Správa výdajů** > **Moje výdaje** > **Sestavy výdajů** a výběrem **Otevřít výdaje jiného uživatele**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

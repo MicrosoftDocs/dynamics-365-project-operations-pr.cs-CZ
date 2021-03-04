@@ -81,3 +81,6 @@ Stručně řečeno, následující metody přidělování vedou k přerezervová
 - Rovnoměrné rozdělení hodin
 
 Používáte-li jednu z těchto tří metod přidělení, nebudete upozorněni, že je zdroj přerezervován. Chcete-li opravit přerezervaci, musíte použít Plánovací vývěsku.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Další nápověda je k dispozici v podobě průvodců úlohami. Chcete-li zobr
 ### <a name="videos"></a>Videa
 
 Podívejte se na videa s postupy, která jsou nyní k dispozici na [kanálu YouTube Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

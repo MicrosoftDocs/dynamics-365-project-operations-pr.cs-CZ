@@ -55,3 +55,6 @@ Například vývojáři z divize Robotics společnosti Fabrikam Indie pracujíc�
     | Developer | Fabrikam USA | Fabrikam USA - Robotics | 150 USD |
 
 3. Připojte prodejní ceník **Fakturační sazby společnosti Fabrikam USA** k projektovému ceníku projektové smlouvy nebo k určitému účtu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Byly vyřešeny následující problémy:
 - Seznamy **Nákladová cena organizační jednotky** umožňují překrývání účinnosti data.
 - Uživatelé nemají dovoleno měnit hodnotu **OrgUnit**, když typ objednávky není založený na práci, protože to povede k chybě výjimky nulového odkazu.
 - Když se uživatel pokusí přejít z formuláře **Detaily řádku nabídky** zpět na kartu **Nabídka** formulář se aktualizuje a zobrazí kartu **Souhrn**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

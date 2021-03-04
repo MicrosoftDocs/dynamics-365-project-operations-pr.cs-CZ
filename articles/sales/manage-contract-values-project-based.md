@@ -57,3 +57,6 @@ Pravidlo: Projekt a určitou třídu transakcí lze do smlouvy zahrnout pouze na
 | S1       | ŘS2           | O1      | No           | Ano             | No          | Platná           | Čas a poplatky v projektu P1 jsou zahrnuty na řádku ŘS1. Výdaje v projektu P1 jsou zahrnuty na řádku ŘS2. </br>   Neexistuje žádné překrývání toho, co je zahrnuto na každém řádku smlouvy, a proto je platné.  |
 | S1       | ŘS1           | O1      | Ano          | Ano             | Ano         | Neplatný       | Porušuje pravidlo. Čas, výdaje a poplatky za projekt P1 jsou zahrnuty v řádcích dvou smluv.                                                                                               |
 | ŘS2      | ŘS2           | O1      | Ano          | Ano             | Ano         | Neplatný       | Porušuje pravidlo. Čas, výdaje a poplatky za projekt P1 jsou zahrnuty v řádcích dvou smluv.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

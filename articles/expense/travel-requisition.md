@@ -56,3 +56,6 @@ Vyberte cestovní žádanku, kterou chcete schválit, a poté vyberte **Pracovn�
 
 > [!NOTE]
 > Když mapujete vyúčtování výdajů na schválenou žádost o cestování, částka transakce nemůže být větší než autorizovaná částka. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Plány záloh lze nastavit na stránce **Projektová smlouva** v Dynamics 365 Pr
 | Počet záloh, které mají být vytvořeny | Když zadáte počet záloh, které chcete vytvořit, systém použije počáteční datum a četnost k vytvoření čísla v tomto poli. | Když je toto pole ručně aktualizováno, systém ignoruje hodnotu v poli **Konec plánu záloh** a místo toho vytvoří konkrétní počet záloh. |
 | Frekvence faktur | Jak často aplikace vytvoří zálohy. | Tato hodnota přímo ovlivňuje počet záloh a vytvořená data. |
 | Celková částka | Celková částka je částka rozdělená na jednotlivé zálohy, které budou vytvořeny. | Neexistuje žádný následný dopad na toto pole. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Chcete-li opravit jeden nebo více záznamů výdajů, proveďte následující 
 8. Na stránce projektu na kartě **Skutečné hodnoty** zkontrolujte **Přidružené zobrazení skutečností**. Jsou uvedeny původní záznamy a opravené záznamy. Následující obrázek ukazuje původní částky záznamu výdajů a odpovídající opravené položky částek zadaných výdajů. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

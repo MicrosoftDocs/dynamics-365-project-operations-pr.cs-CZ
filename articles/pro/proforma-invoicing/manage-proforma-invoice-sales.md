@@ -144,3 +144,6 @@ Pokud máte skutečné hodnoty, které vznikly až po vytvoření faktury, můž
 V Project Operations můžete vytvořit řádky faktury pro produkty, které se nevztahují na žádný projekt, nebo pro všechny projekty společně s řádky faktury založené na projektu. Tyto řádky faktury jsou vytvořeny jako řádky smlouvy na základě produktu a poté, co jsou označeny jako připravené k fakturaci, jsou přidány jako řádky faktury na základě produktu.
 
 Jakmile přidáte řádky faktury na základě produktu, nelze je změnit. Mohou však být z konceptu proforma faktury odstraněny.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

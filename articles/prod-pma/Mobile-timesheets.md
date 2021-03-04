@@ -62,3 +62,6 @@ Android bude kompatibilní s aktualizací Platform 16, až bude k dispozici.
 13. Volitelné: Zadejte další řádky časového výkazu.
 
 14. Po dokončení zadávání řádků časového výkazu vyberte ikonu **Pracovní postup** \> **Odeslat** k odeslání časového výkazu do procesu schvalování pracovního postupu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

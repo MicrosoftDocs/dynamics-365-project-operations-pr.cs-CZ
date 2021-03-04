@@ -35,3 +35,6 @@ Než bude pracovník moci vytvářet a odesílat mezipodnikové výdaje, musíte
 
 Než budete moci v sestavě výdajů použít daňové skupiny, které jsou přidruženy k zapůjčující (zdroj) entitě místo půjčující si (cílové) entity, musíte povolit funkci v nastavení daně z prodeje hlavního registru. Když je parametr **Právní entita pro účtování mezipodnikových daní** nastaven na **Zdroj** a **Použít pravidla pro zdanění daně z prodeje** je nastaveno na **Ne**, je použita daňová kombinace pro zapůjčující právnickou osobu. Když je stejný parametr nastaven na **Cílová**, použije se daňová kombinace pro vypůjčující právnickou osobu. U právnických osob ve Spojených státech, když je parametr nastaven na **Zdrojová**, pole **Pohledávka z prodejní dáně** musí být také nakonfigurováno na nové stránce **Skupiny účtování hlavní knihy**. Účetní nástroj použije informace z tohoto pole pro daňový účetní záznam.   
 Chování je konzistentní pro výdajové řádky zaúčtované s projektem nebo bez něj.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

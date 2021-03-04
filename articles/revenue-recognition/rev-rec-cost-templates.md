@@ -79,3 +79,6 @@ Při vytváření šablony nákladů postupujte takto:
 7. Na kartě **Kategorie** vyberte kategorie projektů, které mají být zahrnuty do řádku šablony nákladů.
 8. Na kartě **Všeobecné** vyberte, zda bude tento řádek zahrnut do procenta výpočtu dokončení.
 9. Vyberte metodu nákladů na dokončení, která se použije při výpočtu procenta dokončení.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

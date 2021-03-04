@@ -68,3 +68,6 @@ Následující postup vysvětluje proces registrace modulů plug-in.
 
 9. Zavřete nástroj Plug-in Registration Tool.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

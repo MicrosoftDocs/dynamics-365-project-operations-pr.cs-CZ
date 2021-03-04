@@ -47,3 +47,6 @@ Chcete-li otevřít **Parametry integrace Project Service Automation** přejdět
 | Výchozí nastavení typu fakturace  | Typ fakturace         | Klikněte na **Nový** k přidání řádku, ve kterém můžete vybrat typ fakturace a nastavit výchozí vlastnost řádku pro. Konkrétní typ fakturace lze v konfiguraci vybrat pouze jednou. |
 |                        | Vlastnost řádku        | Vyberte výchozí vlastnost řádku pro vybraný typ fakturace. Když jsou nové odhady hodin, nové odhady výdajů nebo nové skutečné údaje synchronizovány z Project Service Automation, je pole **Vlastnost čáry** nastaveno na výchozí hodnotu pro typ fakturace. |
 | Uzamčení funkce  | Nelze použít       | Vyberte funkci, kterou chcete zakázat v Finance pro projekty a smlouvy, které pocházejí z Project Service Automation. Můžete například vypnout schopnost upravovat smlouvy a projekty, vytvářet struktury rozpisu prací a zadávat časové rozvrhy v aplikaci Finance. Pole související s účetnictvím budou i nadále povolena, i když jsou v nastavení parametrů zpřístupněna. Ve výchozím nastavení jsou povoleny všechny funkce. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

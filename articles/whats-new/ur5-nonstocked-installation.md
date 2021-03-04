@@ -125,3 +125,6 @@ Následující aktualizace bezpečnostních oprávnění pro entity jsou vyžado
  
  ![Synchronizace mapy registru](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

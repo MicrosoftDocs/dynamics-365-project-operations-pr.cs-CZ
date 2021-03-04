@@ -34,3 +34,6 @@ Pro role lze nastavit všechny nákladové, prodejní a vnitropodnikové ceny. C
 1. Na stránce **Prodejní cena (hodina)** vyberte možnost **Nová** a zadejte datum začátku platnosti.
 2. Ve sloupci **Role** vyberte roli.
 3. Ve sloupci **Ceny** zadejte cenu pro vybranou roli zdroje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

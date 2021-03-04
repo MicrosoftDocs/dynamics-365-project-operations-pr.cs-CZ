@@ -43,3 +43,6 @@ Každý rezervovatelný zdroj pracující na projektu musí mít kalendář prac
 2. V zobrazení mřížky vyberte až 25 **Rezervovatelných zdrojů** k aktualizaci.
 3. Vyberte **Nastavit kalendář** a zobrazí se dialogové okno se seznamem dostupných šablon pracovní doby.
 4. Vyberte šablonu, kterou chcete použít, a vyberte **Použít**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

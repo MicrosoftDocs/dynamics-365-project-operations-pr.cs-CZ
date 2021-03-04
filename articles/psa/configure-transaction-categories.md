@@ -43,3 +43,6 @@ Nastavte kategorie transakcí a definujte nadmnožinou kategorie výdajů.
   
 ### <a name="see-also"></a>Viz také  
  [Konfigurace Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

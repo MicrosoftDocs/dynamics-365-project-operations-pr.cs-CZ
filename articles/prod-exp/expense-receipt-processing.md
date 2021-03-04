@@ -95,3 +95,6 @@ V současné době jsou podporovány Spojené státy.
 Finance kontaktují Cognitive Services s cílem extrahovat data pole. Během zpracování bude služba Cognitive Services uchovávat kopii vašeho dokladu až 24 hodin. Po dokončení zpracování odebere Cognitive Services účtenku. Účtenky jsou stále uloženy v aplikaci Finance.
 
 Další informace naleznete v tématu [Povolit porozumění účtenkám s novou funkcí rozpoznávání formulářů](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

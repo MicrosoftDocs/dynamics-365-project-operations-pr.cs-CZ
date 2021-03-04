@@ -67,3 +67,6 @@ Byly vyřešeny následující problémy:
 Byly vyřešeny následující problémy:
 
 - **Načíst všechny kategorie transakcí** při dvojitém kliknutí vytvoří více řádků.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

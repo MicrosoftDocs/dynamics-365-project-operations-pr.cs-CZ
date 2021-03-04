@@ -40,3 +40,6 @@ Pokud nabídka projektu, která je uzavřena jako Prohraná, odkazuje na projekt
 
 > [!NOTE]
 > V Project Operations nebude mít uzavření nabídky jako získané nebo ztracené vliv na tento stav příležitosti, která zůstane otevřená, dokud nebude ručně uzavřena.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

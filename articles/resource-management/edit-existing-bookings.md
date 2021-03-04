@@ -33,3 +33,6 @@ V mřížce **Člen týmu** manažer projektu může zvýraznit konkrétní zdro
 ## <a name="schedule-board"></a>Plánovací vývěska
 
 Na **plánovací vývěsce** má správce zdrojů pohled na portfolio všech rezervací v celé organizaci. Z tohoto pohledu může správce zdrojů rozšířit, zkrátit nebo přesunout stávající rezervace podobné funkcím nabízeným v **Zachovat rezervace**. Správce zdrojů může také nahradit stávající zdroje přidělené konkrétní rezervaci kliknutím pravým tlačítkem na rezervaci a výběrem **Nahradit zdroj**. Správci zdrojů mohou také upravit obrysy stávajících rezervací kliknutím pravým tlačítkem na rezervaci a výběrem **Upravit**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

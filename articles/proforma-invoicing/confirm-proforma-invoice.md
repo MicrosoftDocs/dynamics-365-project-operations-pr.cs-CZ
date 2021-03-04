@@ -198,3 +198,6 @@ Skutečně fakturovaný prodej pro část milníku v původním milníku na řá
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

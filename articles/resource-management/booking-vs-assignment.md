@@ -26,3 +26,6 @@ Na rozdíl od rezervací představuje přiřazení závazek zdrojů k úkolům p
 Součet rezervací pro zdroj se obvykle bude rovnat součtu přiřazení zdroje napříč jedním nebo více úkoly. Project Operations však tuto dohodu nevynucuje. Zobrazení **Vyrovnání** ukazuje projektovému manažerovi místa, kde se neshodují rezervace a přiřazení zdroje.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

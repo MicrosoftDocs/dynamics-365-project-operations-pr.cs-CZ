@@ -42,3 +42,6 @@ Kalendář nepodporuje akce jednotlivých položek kalendáře a nelze vybrat j
 ## <a name="extensibility"></a>Rozšiřitelnost
 
 Na stránce **Časové záznamy** s mřížkou zadávání času můžete přidávat vlastní pole, nastavovat vyhledávací pole a vytvářet vlastní zobrazení. Můžete také nastavit vlastní obchodní logiku, která je založena na hodnotách vybraných nebo zadaných do vlastních polí.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

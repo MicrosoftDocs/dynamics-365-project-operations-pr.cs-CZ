@@ -50,3 +50,6 @@ V následující tabulce jsou uvedeny všechny předpřipravené formuláře a z
 2. Na stránce **Parametry** na kartě **Cenové dimenze založené na částce** ověřte, že mřížka zobrazuje záznamy v entitě **Cenové dimenze**.
 3. Do tohoto seznamu přidejte **Kategorii transakce** a nastavte pole **Použitelné na náklady** a **Použitelné na prodej** na **Ano**.
 4. V poli **Typ dimenze** vyberte možnost **Založeno na částce** a pak vyberte prioritu pro **Kategorii transakce**, jelikož souvisí s náklady a prodejem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

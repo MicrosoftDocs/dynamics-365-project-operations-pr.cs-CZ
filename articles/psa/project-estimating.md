@@ -97,3 +97,6 @@ V zobrazení tabulky i v zobrazení časového uspořádání můžete vybrat, k
 ## <a name="expense-estimates"></a>Odhady výdajů
 
 Tlačítko **Přidat nový odhad výdajů** v zobrazení tabulky umožňuje zaznamenat veškeré výdaje vzniklé v projektu, které však nesouvisejí přímo s prací. Můžete zaznamenat odhady výdajů pro určitý úkol nebo pro celý projekt. Vyberte kategorie výdajů a nezávazné datum očekávaného vzniku výdaje. Pokud přidružené nákladové a prodejní ceníky obsahují výchozí ceny (nebo pokud jsou procenta přirážky definována pro kategorie výdajů), budou automaticky zadány na řádku odhadu při vzniku přidružení.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

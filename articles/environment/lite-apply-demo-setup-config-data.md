@@ -74,3 +74,6 @@ Před zahájením konfigurace musíte mít mít zřízeno prostředí  Common Da
     -   Charakteristika rezervovatelného zdroje
 
     ![Dokončit import](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

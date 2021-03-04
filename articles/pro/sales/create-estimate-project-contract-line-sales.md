@@ -68,3 +68,6 @@ Výpočty ziskovosti převádějí částky pro podrobnosti řádku smlouvy pro 
 
 > [!NOTE]
 > Mohou se vyskytnout chyby při zaokrouhlování měn a změněné marže z důvodu chybějících směnných kurzů k platnému datu. Tyto výpočty u projektových smluv používejte pouze jako přibližné hodnoty, nikoli pro skutečné statutární nebo jiné vykazování, které vyžaduje vyšší přesnost zaokrouhlování a vědomí o platnosti data pro směnné kurzy.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

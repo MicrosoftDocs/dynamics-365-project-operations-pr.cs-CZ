@@ -36,3 +36,6 @@ Pomocí služby Lifecycle Services (LCS) můžete spravovat prostředí Dynamics
 
 Pomocí tohoto projektu LCS můžete nasadit prostředí Project Operations.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

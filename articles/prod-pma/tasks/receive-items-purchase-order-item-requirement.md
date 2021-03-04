@@ -56,3 +56,6 @@ Tento úkol používá datovou sadu USSI.
 21. Do pole **Účtenka produktu** zadejte hodnotu.
 22. Vyberte **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

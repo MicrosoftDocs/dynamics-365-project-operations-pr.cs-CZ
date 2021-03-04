@@ -34,3 +34,6 @@ Prodejní ceny se aplikují jednou za každý obchod. Hierarchie výchozích pro
 1. Organizace
 2. Zákazník
 3. Nabídka / smlouva
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ Seznam nabídek projektu se nachází na stránce se seznamem **Nabídky**.
 2. Pomocí **přepínače zobrazení** vyberte další filtrovaná zobrazení nabídek. Pomocí vlastních kritérií filtru můžete nakonfigurovat vlastní zobrazení a možnosti navigace.
 
 Nabídky lze vytvářet nebo mazat z této stránky seznamu nebo stránek podrobností.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

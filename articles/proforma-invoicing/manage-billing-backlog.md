@@ -38,3 +38,6 @@ Nevyfakturované údaje o prodeji, které mají stav **Nepřekračovat** **Selha
 V případě vícezákaznických řádků smlouvy, které mají metodu fakturace času a materiálu, se po schválení času a výdajů vytvoří nevyfakturovaná skutečná tržba pro každého zákazníka na řádce smlouvy podle procentuálního rozdělení fakturace definovaného pro každého zákazníka na řádku smlouvy. V zobrazení **Nevyřízena fakturace času a materiálu** uvidíte tyto jednotlivé nevyfakturované skutečné prodeje konkrétního zákazníka. Každý z nevyfakturovaných skutečných prodejů lze označit jako **Připraveno k fakturaci** odděleně z tohoto zobrazení.
 
 V tomto zobrazení se zobrazuje nevyfakturovaný skutečný prodej v konceptu faktury se **stavem fakturace** **Zákaznická faktura vytvořena**. Po potvrzení konceptu faktury se stav fakturace v tomto záznamu aktualizuje na **Faktura zákazníka zaúčtována**. Aktualizace této hodnoty, když je v tomto stavu, pomocí vlastního kódu se nedoporučuje. Pokud jsou tyto hodnoty stavu aktualizovány pomocí vlastního kódu, nebude Project Operations fungovat správně.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

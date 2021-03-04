@@ -81,3 +81,6 @@ Pokud používáte projektové předpovědi, můžete modely identifikovat jako 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

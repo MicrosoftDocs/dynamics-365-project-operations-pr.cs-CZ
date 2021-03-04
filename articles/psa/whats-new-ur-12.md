@@ -61,3 +61,6 @@ Tohle téma uvádí seznam funkcí a oprav, které jsou nové nebo změněné v�
     - Opraveno: Duplicitní ID objektů nalezená na formuláři **Hlavní smlouva**.
     - Opraveno: Logika byla aktualizována, aby karta **Analýza nabídky** byla viditelná, takže zobrazuje nastavení metadat karty.
     - Opraveno: Datum účtování ve skutečném záznamu nyní pochází od data záznamu času/výdajů a nikoli od data schválení.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

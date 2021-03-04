@@ -53,3 +53,6 @@ Zde je několik návrhů, které vám mohou pomoci při vytváření nových zá
 ## <a name="when-to-evaluate-policies"></a>Kdy vyhodnotit zásady
 
 V parametrech správy výdajů můžete vybrat, zda chcete vyhodnotit zásady správy výdajů při uložení řádku nebo při odeslání výkazu výdajů. Pokud se rozhodnete vyhodnotit při uložení řádku, uživatelé budou mít dříve přehled o tom, co potřebují k dokončení svého výkazu najednou. Jinak můžete zpozdit vyhodnocení zásad a ušetřit čas ověřením na konci, během odesílání do pracovního postupu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

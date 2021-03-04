@@ -142,3 +142,6 @@ Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 36
 ## <a name="regulatory-updates"></a>Povinné aktualizace
 
 Informace o povinných aktualizacích pro Dynamics 365 Finance viz [Povinné aktualizace](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Dalším způsobem, jak se dozvědět o aktualizacích předpisů, je přihlásit se do služby Lifecycle Services (LCS) a zobrazit plánované aktualizace předpisů pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Než budete moci zahájit proces instalace, je třeba učinit následující roz
 
     - Jsou některé z podkategorií vyloučeny z vymáhání daní?
     - Jaká je skupina daně z prodeje zboží u podkategorií?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

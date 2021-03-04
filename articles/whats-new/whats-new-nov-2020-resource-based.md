@@ -68,3 +68,6 @@ Tohle téma platí pro následující součásti a verze aplikace Dynamics 365 P
 
 ### <a name="regulatory-updates"></a>Povinné aktualizace
 Informace o povinných aktualizacích pro aplikace Finance and Operations viz [Povinné aktualizace](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Můžete se také přihlásit do LCS a zobrazit plánované povinné aktualizace pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

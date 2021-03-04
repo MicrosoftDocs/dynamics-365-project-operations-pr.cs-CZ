@@ -32,3 +32,6 @@ Pokud jsou výdaje na sestavě výdajů účtovány jiné společnosti než spol
 Chcete-li zaúčtovat sestavu výdajů, vyberte na stránce **Schválené sestavy výdajů** sestavu výdajů a poté v podokně akcí vyberte příkaz **Zaúčtovat**.
 
 Je také možné zaúčtovat všechny sestavy výdajů v seznamu současně. Vyberte všechny sestavy výdajů a poté vyberte příkaz **Zaúčtovat**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

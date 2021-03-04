@@ -79,3 +79,6 @@ Pokud jste na řádku podrobností nabídky přidali vlastní pole a chcete, aby
 7. Klepnutím na **OK** zavřete dialogové okno a pak vyberte **Aktualizovat krok**.
 8. Opakujte kroky 1 až 7 pro druhý modul plug-in.
 9. Zavřete **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

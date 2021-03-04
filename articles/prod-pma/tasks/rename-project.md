@@ -35,3 +35,6 @@ Fáze projektu mohou sloužit jako vodítko pro životní cyklus projektu. Fáze
 4. Ze seznamu vyberte předdefinovanou nebo uživatelsky definovanou fázi, kterou si přejete změnit. 
 5. Do pole Fáze projektu zadejte nový název.
 6. Klikněte na tlačítko Uložit.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 36
 | **Plánování a sledování projektu** | 2164035 | Opravené problémy s funkcí **Kopírovat projekt**. |
 | **Časový záznam** | 2129161 | Aplikují se přísnější omezení, aby uživatelé nemohli měnit a aktualizovat zadaný nebo schválený časový údaj. |
 | **Časový záznam** | 2103572 | Schválení času pro neprojektové časové záznamy nesmí hledat roli schvalovatele projektu. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

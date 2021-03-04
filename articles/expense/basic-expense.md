@@ -55,3 +55,6 @@ Výdaje, které dosud nebyly odeslány, lze smazat. Chcete-li odstranit již ode
 ## <a name="see-also"></a>Viz také
 
 - [Přehled schválení](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

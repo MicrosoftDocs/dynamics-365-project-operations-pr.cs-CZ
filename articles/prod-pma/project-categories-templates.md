@@ -124,3 +124,6 @@ Následující obrázek ukazuje příklad mapování úlohy šablony v Integraci
 > Mapování zobrazuje informace pole, které budou synchronizovány z Project Service Automation do Finance.
 
 [![Mapování šablon Project Service Automation na šablony Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

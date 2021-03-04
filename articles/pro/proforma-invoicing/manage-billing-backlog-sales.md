@@ -60,3 +60,6 @@ Nefakturované skutečné prodeje se stavem **Nepřekročitelné** s hodnotou **
 Pokud řádky smlouvy pro více zákazníků mají metodu fakturace času a materiálu, je po schválení času a výdajů vytvořen jeden nefakturovaný skutečný prodej pro každého zákazníka na řádku smlouvy podle procentuálního rozdělení fakturace definovaného pro každého ze zákazníků. V zobrazení **Nedokončená fakturace času a materiálu** vidíte tyto nefakturované skutečné prodeje pro jednotlivé konkrétní zákazníky. Každý z nevyfakturovaných skutečných prodejů lze označit jako **Připraveno k fakturaci** odděleně z tohoto zobrazení.
 
 Nefakturovaný skutečný prodej, který je v konceptu faktury, je zobrazen v tomto zobrazení se stavem fakturace **Faktura zákazníka vytvořena**. Po potvrzení konceptu faktury se stav fakturace v tomto záznamu aktualizuje na **Faktura zákazníka zaúčtována**. Neaktualizujte tuto hodnotu stavu pomocí vlastního kódu. Pokud jsou tyto hodnoty stavu aktualizovány pomocí vlastního kódu, Project Operations nefunguje správně.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

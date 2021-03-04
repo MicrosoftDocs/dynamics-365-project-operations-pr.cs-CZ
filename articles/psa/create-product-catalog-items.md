@@ -37,3 +37,6 @@ Pokud chcete zahrnout produkty, například licence na software, do nabídek a o
   
 ### <a name="see-also"></a>Viz také  
  [Konfigurace Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

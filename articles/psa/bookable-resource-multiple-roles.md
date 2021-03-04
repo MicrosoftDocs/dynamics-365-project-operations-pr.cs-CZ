@@ -74,3 +74,6 @@ Když rozbalíte řádek daného záznamu člena týmu, uvidíte v záznamu čle
 Když přejdete na mřížku **Odhady**, všimnete si, že obě přiřazení stejného zdroje jsou oceněny odlišně.
 Cena za přiřazení zdroje na úkolu A je stanovena pomocí hodnoty atributu **Role** položky **Poradenský vedoucí**. Cena za přiřazení stejného zdroje na úkolu B je stanovena pomocí hodnoty atributu **Role** položky **Síťový technik**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

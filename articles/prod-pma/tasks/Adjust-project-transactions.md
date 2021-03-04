@@ -44,3 +44,6 @@ Tento průvodce úkolem ukazuje, jak upravit transakci v projektu. Můžete vša
 13. V seznamu označte vybraný řádek. 
 14. Do pole Nákladová cena zadejte číslo. 
 15. Klepněte na Publikovat. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

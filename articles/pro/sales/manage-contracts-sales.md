@@ -33,3 +33,6 @@ Seznam všech smluv projektu se nachází na stránce se seznamem **Smlouvy**.
 2. Vyberte **Přepínač zobrazení** (šipka rozevíracího seznamu vedle názvu zobrazení), abyste mohli vybrat další filtrovaná zobrazení. Můžete si vytvořit vlastní zobrazení s vlastními kritérii filtru.
 
 Smlouvy lze vytvářet nebo mazat z této stránky seznamu nebo stránek podrobností.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

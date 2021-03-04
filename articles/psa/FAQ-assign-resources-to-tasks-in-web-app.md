@@ -116,3 +116,6 @@ Vyberte možnost **Rezervovat** pro obecný zdroj a pak můžete použít pláno
 Když je obecný zdroj naplněn pojmenovaným zdrojem, obecný zdroj je odebrán z týmu a přiřazení úkolů pro obecný zdroj jsou přiřazena k pojmenovanému zdroji, který splnil požadavek na zdroj obecného zdroje.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

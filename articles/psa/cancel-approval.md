@@ -62,3 +62,6 @@ Projekt je při zrušení schválení ovlivněn také finančně. Odpovídajíc�
 Dále se v tabulce Skutečné hodnoty vytvoří záznamy storna. Chcete-li vytvořit záznamy storna, systém zkopíruje hodnoty tohoto pole z původních skutečných hodnot. Jedinými hodnotami, které nejsou kopírovány, jsou hodnoty množství. Tyto hodnoty jsou naopak stornovány. Stornované skutečné hodnoty se vytvoří pro skutečné hodnoty **Nákladů** a **Nefakturovaného prodeje**. Pole **Stav úpravy** je u stornovaných skutečných hodnot nastaveno na **Neupravitelné** a stav fakturace je nastaven na **Zrušeno**.
 
 Po provedení těchto změn bude částka zaznamenaná jako utracená v projektu a nedokončené výnosy v projektu dále odpovídat částkám, které tyto skutečné hodnoty představují.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

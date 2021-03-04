@@ -28,3 +28,6 @@ ms.locfileid: "4960014"
 *Denní dieta* je příspěvek vyplácený pracovníkovi, který cestuje za prací. Ve správě výdajů můžete vytvořit pravidla pro denní diety určené pro různé cestovní situace. Sazby denních diet mohou být založeny na ročním období, místě cesty nebo na obou kritériích. Když vytvoříte pravidlo denní diety, můžete určit, že určité procento sazby diety bude zadrženo, pokud pracovník obdrží bezplatné jídlo nebo služby. Můžete také nastavit minimální a maximální počet hodin, které musí cesta pracovníka trvat, aby byla sazba denní diety použita.
 
 Výpočet celkové částky za denní diety je založen na počátečních a koncových datech, která můžete nastavit na stránce **Denní diety**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

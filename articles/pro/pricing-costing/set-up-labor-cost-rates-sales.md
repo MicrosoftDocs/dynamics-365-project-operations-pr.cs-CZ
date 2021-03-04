@@ -82,3 +82,6 @@ V nákladovém ceníku pro společnost Fabrikam UK - Robotics lze sazby náklad�
 | Developer | Fabrikam UK | 115 GBP |
 
 Nákladový ceník může poskytovat sazby práce ve více měnách. Při generování odhadu nákladů na projekt převede Project Operations tyto nákladové sazby na projektovou měnu a zobrazí ji uživateli. Když je časová položka schválena a je vytvořena skutečná cena, bude skutečná cena oceněna v měně tohoto odpovídajícího řádku ceny role v nákladovém ceníku. Skutečné náklady za čas na jednom projektu lze zaznamenat ve více měnách. Při shrnutí nebo sečtení skutečných pracovních nákladů na úrovni projektu však aplikace Project Operations převede všechny částky pracovních nákladů do měny projektu, kterou může uživatel zobrazit.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -29,3 +29,6 @@ Sekce **Stav** na stránce **Entita projektu** poskytuje přehled stavu projektu
 - Pole **Komentáře** umožňuje projektovému manažerovi zadat konkrétní komentáře o stavu. 
 - Pole **Datum aktualizace stavu** nelze upravovat. Hodnota v tomto poli je časové razítko, které označuje, kdy byl stav naposledy aktualizován.
 - Pole **Plnění plánu** a **Plnění nákladů** jsou nastavena z mřížky sledování. Pokud jsou odchylky plánu a nákladů kořenového uzlu v zobrazení **Sledování úsilí** kladné, tato pole jsou aktualizována na **V předstihu**. Pokud jsou odchylky plánu a nákladů kořenového uzlu záporné, tato pole se nastaví na **Ve skluzu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Každý řádek projektové smlouvy, který obsahuje fakturační metodu s pevno
 Chcete-li zkontrolovat fakturační milníky, přejděte na **Prodej** \> **Fakturace** \> **Milníky s pevnou cenou**. Vyberte milníky, které jsou připraveny k fakturaci a pak vyberte **Připraveno k fakturaci**. Stav fakturace těchto milníků je změněn na **Připraveno k fakturaci**.
 
 ![Milníky s pevnou cenou](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

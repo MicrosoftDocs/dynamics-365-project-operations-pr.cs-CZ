@@ -32,3 +32,6 @@ Vaše organizace může vyžadovat, aby byla cestovní žádanka podána dříve
 Cestovní žádanky a zásady lze použít jako pomocníka při řízení rozpočtu. Například pokud vaše organizace pracuje na projektu s pevnou cenou, který vyžaduje cestování, musí cestovní náklady členů týmu projektu odpovídat projektovému rozpočtu. Vyžadováním schválení cestovních výdajů před jejich vznikem může organizace pomoci zajistit, aby projekt zůstal v rámci rozpočtu.
 
 Zásady pro cestovní požadavky můžete nastavit na stránce **Cestovní žádanka**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

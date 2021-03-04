@@ -170,3 +170,6 @@ Následující obrázky ukazují příklady mapování úlohy šablony v Integra
 [![Mapování šablon transakcí odhadu výdajů](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Mapování šablon odhadů výdajů](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

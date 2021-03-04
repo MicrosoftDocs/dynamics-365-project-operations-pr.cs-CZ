@@ -32,3 +32,6 @@ Níže jsou vyjmenována pole v řádku příležitosti založené na projektu:
 | Jméno | Karta Obecné | Toto upravitelné textové pole lze použít k zadání krátké identity pro řádkovou položku. | Tato hodnota se přenese do řádku nabídky, když vytvoříte nabídku z této příležitosti. |
 | Rozpočet zákazníka | Karta Obecné | Toto upravitelné pole měny lze použít ke sledování částky, kterou je zákazník ochoten za tuto řádkovou položku utratit. | Tato hodnota se přenese do odpovídajícího pole v řádku nabídky, když vytvoříte nabídku z této příležitosti. |
 | Způsob fakturace | Karta Obecné | Toto upravitelné pole může obsahovat následující hodnoty:</br>- Čas a materiál</br>- Pevná cena | Tato hodnota se přenese do odpovídajícího pole v řádku nabídky, když vytvoříte nabídku z této příležitosti. Po vytvoření řádku nabídky je pole uzamčeno a nelze jej změnit. Přiřaďte tuto hodnotu pole co nejpřesněji. Pokud potřebujete změnit hodnotu tohoto pole v řádku nabídky, odstraňte a znovu vytvořte řádek nabídky. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

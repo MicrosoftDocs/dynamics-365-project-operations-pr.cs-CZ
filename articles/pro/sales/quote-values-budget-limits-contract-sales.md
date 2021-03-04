@@ -41,3 +41,6 @@ Níže jsou uvedeny karty a KPI dostupné v projektové nabídce, které jsou je
 | Analýza ziskovosti | Karta na nabídce | Karta zobrazuje následující metriky.</br>- Celkové účtovatelné náklady</br></br>- Celkové neúčtovatelné náklady</br>- Celkové výnosy</br>- Celkové výnosy (základní)</br>- Hrubá marže</br>- Upravená hrubá marže|
 | Porovnání s očekáváními zákazníka | Karta na nabídce | Tato karta zobrazuje následující metriky.</br>- Odhadované dokončení</br>- Požadované dokončení</br>- Rozpočet zákazníka</br>- Hodnota nabídky |
 | Analýza nabídky | Karta na nabídce | Tato karta shrnuje následující hlavní KPI pro projektovou nabídku</br>- Srovnání s očekáváním zákazníka ohledně rozpočtu a plánu</br>- Hrubá marže</br>- Upravená hrubá marže |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

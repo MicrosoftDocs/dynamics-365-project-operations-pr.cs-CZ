@@ -297,3 +297,6 @@ Vyberte uživatele (například Spencer Low) a změňte pracovní dobu Spencera 
 
 > [!div class="mx-imgBorder"]
 > ![Snímek obrazovky aktivních rezervovatelných zdrojů](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

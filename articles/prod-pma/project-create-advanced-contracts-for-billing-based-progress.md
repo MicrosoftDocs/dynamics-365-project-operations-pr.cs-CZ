@@ -103,3 +103,6 @@ Rozpočtové kategorie se používají k automatickému výpočtu částek faktu
 8. Volitelné: Přiřaďte pravidlo fakturace k dalším projektům. Na pevné záložce **Projekt** v části **Dostupné projekty** vyberte projekt a poté kliknutím na tlačítko se šipkou doprava přidejte projekt do části **Vybrané projekty**.
 9. Volitelné: Vypočítejte procentní částku, kterou zákazník zadrží z plateb na faktuře. Na pevné záložce **Podmínky zadržení platby** vyberte zdroj financování a poté v poli **Procento zádržného** zadejte procento zádržného.
 10. Opakováním těchto kroků vytvoříte další fakturační pravidla pro projektovou smlouvu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

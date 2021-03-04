@@ -20,3 +20,6 @@ ms.locfileid: "4514505"
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
 Můžete použít funkce poskytované v Dynamics 365 Field Service, chcete-li definovat role ve vašem prostředí Dynamics 365 Project Operations. Informace o dokončení tohoto nastavení najdete v části [Nastavit rezervovatelné kategorie zdrojů](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

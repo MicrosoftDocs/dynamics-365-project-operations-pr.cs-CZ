@@ -200,3 +200,6 @@ Když zobrazíte čas na vyšších úrovních, buňky na kartě **Vyrovnání**
 Pokud máte pro zdroj přiřazení úkolů, ale nemáte žádné rezervace, vyberte ve formuláři **Projekty**, na kartě **Vyrovnání** nedostatečnou rezervaci a pak vyberte **Prodloužit rezervaci**. Zobrazí se dialogové okno **Prodloužit rezervaci**, ve kterém je uvedena rezervace potřebná k vyřešení nedostatku zdroje. Dialogové okno také zobrazuje existující rezervace zdroje ve všech projektech nebo jiných plánovatelných entitách. Pokud vyberete **OK** pro vytvoření rezervace pro zdroj bez ohledu na dostupnost zdroje, můžete způsobit přerezervaci.
 
 Projektový manažer nebo správce prostředku pak může pomocí Plánovací vývěsky spravovat všechny situace, ve kterých je zdroj přerezervovaný nad svoji kapacitu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

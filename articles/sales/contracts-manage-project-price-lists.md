@@ -72,3 +72,6 @@ Pokud jste se svými zákazníky sjednali hlavní cenovou smlouvu, můžete tak�
 ## <a name="custom-pricing-on-a-project-contract"></a>Vlastní ceny v projektové smlouvě
 
 Poté, co vytvoříte výchozí projektové ceníky pro konkrétního zákazníka, budou projektové smlouvy automaticky vytvořeny s těmito přidruženými projektovými ceníky. Projektové ceníky se však vždy kopírují s připojeným datem a názvem smlouvy. Manažeři obchodních vztahů a projektoví manažeři pak mohou na těchto kopiích začít provádět úpravy cen. Tyto změněné ceny se budou vztahovat pouze na tuto projektovou smlouvu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

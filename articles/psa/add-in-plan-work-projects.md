@@ -242,3 +242,6 @@ Následující tabulka popisuje, jak se synchronizují data entity závislostí 
 
 ### <a name="additional-resources"></a>Další materiály
  [Příručka pro projektového manažera](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

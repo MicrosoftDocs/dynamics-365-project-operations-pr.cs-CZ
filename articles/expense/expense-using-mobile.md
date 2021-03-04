@@ -236,3 +236,6 @@ Stáhněte si a nainstalujte mobilní aplikaci Dynamics 365 Unified Ops:
 22. Vyberte položku **Odeslat**.
 23. Zadejte jakékoli komentáře pro schvalovatele.
 24. Vyberte **Hotovo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

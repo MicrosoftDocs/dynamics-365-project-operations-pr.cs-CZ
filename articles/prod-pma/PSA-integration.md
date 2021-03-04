@@ -75,3 +75,6 @@ Chcete-li použít integrační řešení Project Service Automation to Finance,
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Nainstalujte řešení integrace Project Service Automation to Finance do instance Project Service Automation
 
 Stáhněte si řešení integrace řešení Project Service Automation to Finance z [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=57016) a postupujte podle pokynů, které jsou součástí řešení.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

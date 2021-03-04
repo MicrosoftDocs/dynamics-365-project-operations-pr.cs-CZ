@@ -52,3 +52,6 @@ Tato příručka vás provede procesem instalace a konfigurace:
  [Příručka pro manažera obchodních vztahů](../psa/account-manager-guide.md) [Příručka pro projektového manažera](../psa/project-manager-guide.md)   
  [Příručka pro manažera zdrojů](../psa/resource-manager-guide.md)   
  [Příručka – Čas, výdaje a spolupráce](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

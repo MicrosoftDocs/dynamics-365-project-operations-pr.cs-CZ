@@ -66,3 +66,6 @@ Jako projektový manažer možná budete muset rezervovat zdroj na projekt, ale 
 
 > [!NOTE]
 > Tato metoda nevytváří žádné rezervace pro prostředek. Místo toho přidá zdroj do týmu. Poté, co byl člen týmu přidán do projektu, může vedoucí projektu pomocí udržování rezervací nebo rozšíření rezervací přidat požadované rezervace do zdroje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

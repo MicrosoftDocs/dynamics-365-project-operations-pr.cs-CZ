@@ -69,3 +69,6 @@ Při kopírování mezi řádky odhadů projektu jsou ceníky aktualizovány. U 
 ### <a name="copying-a-project-team"></a>Kopírování projektového týmu
 
 Při kopírování projektového týmu ze šablony projektu do projektu jsou obecné zdroje zkopírovány spolu s dovednostmi a odbornými znalostmi, které jsou definovány v šabloně. Přiřazení obecných zdrojů jsou rovněž zachována tak, jako byla v šabloně projektu. V šablonách projektů nejsou podporovány pojmenované zdroje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

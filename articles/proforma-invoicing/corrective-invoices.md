@@ -36,3 +36,6 @@ Po potvrzení opravné faktury se původní skutečná hodnota fakturovaného pr
 
 - Fakturovaná skutečná hodnota prodeje pro 6 hodin.
 - Skutečná hodnota nefakturovaného prodeje pro zbývající dvě hodiny. Tato transakce může být buď fakturována později, nebo označena jako neúčtovatelná, v závislosti na jednáních se zákazníkem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

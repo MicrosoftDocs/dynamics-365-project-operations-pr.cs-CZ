@@ -101,3 +101,6 @@ Pokud nevidíte fakturovatelné využití, zde je několik věcí, které může
   - Role na řádku smlouvy projektu byla nastavena na nefakturovatelnou.
   - Projekt nemá přidružený řádek smlouvy.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

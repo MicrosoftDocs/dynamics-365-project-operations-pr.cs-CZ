@@ -132,3 +132,6 @@ Ověření modulu plug-in byste měli použít pro jakákoli ověření vyžaduj
 
 > [!IMPORTANT] 
 > V současné době je známý problém na stránkách TBX, který uživatelům brání v opravě informací a opětovném výběru položky Hotovo v případě, že aktualizace selže při ověřování modulu plug-in. Tento problém odstraníte, pokud nastavíte ověřování obchodních pravidel tak, aby této situaci v maximální možné míře zabránilo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

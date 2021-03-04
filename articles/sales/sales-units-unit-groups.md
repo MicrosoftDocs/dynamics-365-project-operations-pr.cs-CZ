@@ -46,3 +46,6 @@ Chcete-li provést kroky v tomto tématu, ujistěte se, že vám byla přiřazen
 3. Do pole **Množství** zadejte množství, které bude jednotka obsahovat. Pokud například krabice obsahuje dva kusy, zadejte „2“. 
 4. V poli **Základní jednotka** vyberte základní jednotku pro stanovení nejnižší měrné jednotky pro danou jednotku. Můžete například vybrat „Kus“.
 5. Zvolte **Uložit**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Pokud máte pro zdroj přiřazení úkolů, ale nemáte žádné rezervace, vybe
 Rezervace vytvořené prostřednictvím akce **Prodloužit rezervaci** jsou spojeny s požadavkem primárního projektu. Při zahájení rozšíření nelze určit konkrétní požadavek, který musí být rozšířen, protože prostředek může být přidružen k více než jednomu požadavku na projekt.
 
 Projektový manažer nebo správce prostředku pak může pomocí Plánovací vývěsky spravovat všechny situace, ve kterých je zdroj přerezervovaný nad svoji kapacitu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

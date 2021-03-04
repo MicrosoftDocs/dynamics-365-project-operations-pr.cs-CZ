@@ -60,3 +60,6 @@ V mřížce členů týmu lze provádět následující akce:
 
 - **Nový** : Kromě přidávání zdrojů přímo z plánu mohou projektoví manažeři přidávat nové pojmenované nebo obecné členy týmu z mřížky členů týmu.
 - **Vymazat** : Po výběru jednoho nebo více členů týmu může projektový manažer odstranit prostředky, které se již na projektu nebudou podílet. Odstraněním člena týmu také odstraníte všechna přidružená přiřazení zdrojů a zrušíte všechny existující rezervace.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

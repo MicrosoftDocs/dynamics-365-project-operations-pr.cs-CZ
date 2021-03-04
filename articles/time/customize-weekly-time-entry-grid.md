@@ -144,3 +144,6 @@ Ověření modulu plug-in použijte pro jakákoli ověření vyžadující více
 
 ### <a name="copying-time-entries"></a>Kopírování časových záznamů
 Použijte pohled **Kopírování sloupců pro zadání času** k definování seznamu polí ke kopírování během zadávání času. **Datum** a **Doba trvání** jsou povinná pole a nesmí být ze zobrazení odstraněna.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

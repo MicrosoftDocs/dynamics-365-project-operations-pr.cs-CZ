@@ -40,3 +40,6 @@ Dynamics 365 Project Service Automation obsahuje dva systémové řídicí panel
 ## <a name="resource-manager"></a>Správce zdrojů 
 
 Řídicí panel **Správce zdrojů** poskytuje správcům zdrojů možnosti grafického řídicího panelu pro monitorování požadavků na zdroje a poptávky po zdroji a využití. Správci zdrojů také umožňují rozdělit sledované informace pomocí různých dimenzí.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

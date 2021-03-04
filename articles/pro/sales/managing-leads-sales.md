@@ -72,3 +72,6 @@ Obchodní proces od zájemce po příležitost podporuje následující fáze:
 | Vytvořit | Příležitost | Vypracováním příležitosti přidáte další informace o provedené práci, klíčových účastnících a konkurenci. |
 | Navrhnout | Příležitost | Vypracujte návrh a získejte souhlas od interního kontrolního týmu. |
 | Uzavřeno | Příležitost | Vyhrajte příležitost uzavřít obchod. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

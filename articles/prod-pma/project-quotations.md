@@ -41,3 +41,6 @@ Pokud zákazník projektovou nabídku schválí, můžete informace z nabídky z
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

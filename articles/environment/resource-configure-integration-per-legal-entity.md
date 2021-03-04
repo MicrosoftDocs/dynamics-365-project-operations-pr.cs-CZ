@@ -51,3 +51,6 @@ Každá právnická osoba využívající Project Operations v Dynamics 365 Cust
   - **Výchozí hodnoty typu účtování**: Project Operations používá pevnou sadu výchozích typů účtování, které musejí být mapovány na vlastnosti řádku ve Finance. Vytvořte záznam pro každý typ účtování: **Nezadáno**, **Účtovatelné**, **Neúčtovatelné**, **Doplňkové** a **Není dostupné**.
   - **Výchozí nastavení kategorie projektu**: Vyberte výchozí kategorie projektu, které se mají použít pro každý typ transakce. Tyto výchozí hodnoty budou použity v **Deníku integrace Project Operations** a v odhadech, kde není pro skutečný projekt zadána žádná kategorie transakcí.
   - **Prognózy** : Vyberte model prognózy, který se použije pro odhady času a výdajů.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

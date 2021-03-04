@@ -42,3 +42,6 @@ Tohle téma uvádí seznam funkcí a oprav, které jsou nové nebo změněné v�
 Byly vyřešeny následující problémy:
 
 - Snížení výkonu při vyhledávání pomoci s plánováním
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -128,3 +128,6 @@ Pro řádek nabídky s pevnou cenou můžete použít mřížku **Rozpis faktury
 - Chcete-li vytvořit fakturační milníky, které jsou rovnoměrně rozděleny, vyberte četnost faktury, zadejte na řádku nabídky počáteční datum fakturace a vyberte **Požadované datum dokončení** pro nabídku v části **Souhrn** v záhlaví nabídky. Chcete-li vytvořit rovnoměrně rozdělené milníky na základě vybrané četnosti faktury, vyberte poté **Vygenerovat pravidelné milníky**. 
 - Chcete-li vytvořit jednorázový fakturační milník, vytvořte milník a poté jako částku milníku zadejte hodnotu řádku nabídky.
 - Chcete-li vytvořit fakturační milníky založené na konkrétních úkolech v projektovém plánu, vytvořte milník a namapujte ho na prvek plánu projektu v uživatelském rozhraní fakturačního milníku.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

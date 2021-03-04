@@ -55,3 +55,6 @@ Následující proces je příkladem pracovního postupu správy výdajů pro se
 Po ověření těchto požadavků se sestava výdajů zaúčtuje.
 
 Po zaúčtování sestavy výdajů je platba pro sestavu výdajů autorizována a zaměstnanci jsou proplaceny peníze.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

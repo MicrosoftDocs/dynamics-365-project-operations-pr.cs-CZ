@@ -42,3 +42,6 @@ Můžete použít vyhledávací pole ve **Výběru zdrojů** pro vyhledání vš
 1. Z mřížky úkolů, vývěsky nebo časové osy přejděte na buňku **Přiřazeno**.
 2. Do vyhledávacího pole začněte psát jméno. Výsledky vyhledání názvu se zobrazí ve **Výběru zdrojů** v části **Další zdroje**.
 3. Vyberte zdroj, který chcete přiřadit k úkolu, nebo vyberte název zdroje pod položkou **Další týmové zdroje**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

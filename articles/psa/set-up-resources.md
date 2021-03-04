@@ -55,3 +55,6 @@ Před vyžádáním nebo přiřazením zdrojů v aplikaci [!INCLUDE[pn_project_s
   
 ### <a name="see-also"></a>Viz také  
  [Konfigurace Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

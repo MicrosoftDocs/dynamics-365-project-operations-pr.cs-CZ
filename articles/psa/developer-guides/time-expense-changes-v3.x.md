@@ -32,3 +32,6 @@ Ve verzi Dynamics 365 Project Service Automation 3.0 byla aktualizována zobraze
 Dříve byla zobrazení kalendáře a tabulky pro čas a výdaje implementována jako ovládací prvky DHTMLX. Artefakty, které souvisejí s implementací zobrazení kalendáře a tabulky, jsou nyní zastaralé.
 
 Úplný seznam zastaralých zdrojů viz najdete v části [Vyřazené webové prostředky v Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

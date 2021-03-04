@@ -98,3 +98,6 @@ Postupujte podle pokynů v tématu [Zřízení nového prostředí](resource-pro
 
 Nainstalujte instalační a konfigurační data CDS podle popisu v tématu [Nastavení a použití dat konfigurace ve službě Common Data Service](resource-apply-pro-setup-config-data.md).
 Tento krok dokončete až poté, co se nasadí ukázkové prostředí Finance a budou připravena ukázková data ve FO.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

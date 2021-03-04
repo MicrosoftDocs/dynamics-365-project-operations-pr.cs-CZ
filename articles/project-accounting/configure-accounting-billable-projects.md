@@ -125,3 +125,6 @@ Fixní cena - dokončení v procentech
 Pravidla profilu nákladů a výnosů projektu určují profil nákladů a výnosů projektu, které je nutné použít při zpracování fakturovatelných transakcí projektu. Definujte pravidla přechodem na **Řízení projektů a účetnictví** \> **Nastavení** \> **Účtování** \> **Pravidla profilu nákladů a výnosů projektu**.
 
 Pravidla mohou být definována smlouvou projektu, skupinou projektů nebo konkrétním projektem. Systém vždy nejprve vybere pravidlo nejvyšší podrobnosti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

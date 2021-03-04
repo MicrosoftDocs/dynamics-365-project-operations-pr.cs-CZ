@@ -101,3 +101,6 @@ Po spuštění funkce Prodloužit rezervaci u každého zdroje jsou rezervace pr
 
 Bližší pohled na podrobnosti rezervace však ukazuje rozdíly v době zahájení rezervace. Rezervace nezačnou dříve, než je počáteční čas průběhové křivky přiřazení a než je k dispozici počáteční čas zdroje.
  ![Nové rezervace zdrojů na plánovací vývěsce](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

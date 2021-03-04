@@ -43,3 +43,6 @@ V následující tabulce jsou uvedena pole v záznamu zákazníka řádku nabíd
 Procenta rozdělení fakturace se dají upravit v řádku. Pokud součet procent rozdělení fakturace není 100%, dojde k chybě. Po úpravě procent rozdělení fakturace chybu odstraníte aktualizací stránky řádku nabídky.
 
 Pomocí akce rovnoměrného rozložení na podřízené mřížce zákazníků řádku nabídky přidělte rozdělení fakturace všem zákazníkům řádku nabídky. Pokud existuje zaokrouhlovací faktor, bude přidán k zaokrouhlovacímu zákazníkovi. Jeden ze zákazníků řádku nabídky je vždy označen jako zaokrouhlovací zákazník, což znamená, že v záznamu zákazníka řádku nabídky je příznak zaokrouhlování nastaven na **Ano**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

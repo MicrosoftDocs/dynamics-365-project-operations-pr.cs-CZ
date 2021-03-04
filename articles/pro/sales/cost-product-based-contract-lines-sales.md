@@ -30,3 +30,6 @@ Když je pro katalogový produkt vytvořena produktový řádek smlouvy, náklad
 Mít jednotkový náklad na řádku smlouvy na základě produktu umožňuje různé náklady na produkt pro každou jednotku. I když to není vždy nutné, existují určité scénáře, kdy dodavatel může pro zákazníka zlevnit náklady na produkt. Zvažte následující scénář:
 
 Fabrikam Robotics instaluje robotická ramena na montážní linky společnosti Adatum Corporation. Fabrikam poskytuje instalační služby, ale robotická ramena pocházejí od společnosti Trey Research. Pokud instalace robotických ramen ve společnosti Adatum Corporation otevře novou průmyslovou vertikálu pro robotická ramena společnosti Trey Research, může poskytnout speciální slevu na tento kontrakt společnosti Fabrikam. V tomto případě Fabrikam vytvoří produktovou smlouvu pro Robotic Arms. U této smlouvy se zadává jednotková cena. Cena se liší od nákladů na robotická ramena od společnosti Trey Research.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Role hrají důležitou roli v plánování projektů, když stanovujete požada
   
 ### <a name="see-also"></a>Viz také  
  [Nastavení zdrojů](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

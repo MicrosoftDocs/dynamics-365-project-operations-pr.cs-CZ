@@ -82,3 +82,6 @@ Zdroje přiřazené tímto způsobem jsou do týmu přidány bez jakýchkoli rez
 
 3. Vyberte zdroj, který chcete k úkolu přiřadit.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Stažení a instalace mobilní aplikace Finance and Operations:
 11. Vyberte vlastnost řádek.
 12. Volitelné: Zadejte jakékoli externí a interní komentáře.
 13. Vyberte **Hotovo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

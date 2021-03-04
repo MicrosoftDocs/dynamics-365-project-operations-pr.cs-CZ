@@ -53,3 +53,6 @@ Projekt můžete v PSA personálně obsadit týmem obecných nebo pojmenovaných
 - [Rezervace pojmenovaných zdrojů z požadavků na zdroje](book-named-resource.md)
 - [Odeslání žádosti o zdroj](submit-resource-request.md)
 - [Přijetí nebo zamítnutí navrženého zdroje projektu z žádosti o zdroj](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -20,3 +20,6 @@ ms.locfileid: "4514504"
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
 Můžete použít funkce poskytované v Universal Resource Scheduling pro Dynamics 365 Field Service, chcete-li nastavit stav rezervace pro vaši organizaci. Informace o dokončení tohoto nastavení najdete v části [Nastavit stavy rezervace](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

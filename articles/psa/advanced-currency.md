@@ -105,3 +105,6 @@ Dynamics 365 automaticky zpracovává souhrny částek v různých měnách. Zde
 | Výdaj           | Nefakturovaný prodej   | 17. VI. | Kamil  | Pronájem auta           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 K výpočtu celkové nefakturované hodnoty prodeje projektu můžete vytvořit souhrnné pole pro pole **Částka** na všech souvisejících nefakturovaných skutečných hodnotách prodeje. Toto souhrnné pole je konstruktem aplikace Dynamics 365, která u souvisejících záznamů umožňuje rychlé vzorce.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

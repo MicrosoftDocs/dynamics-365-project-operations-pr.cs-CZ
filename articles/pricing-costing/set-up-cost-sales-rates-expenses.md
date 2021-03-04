@@ -55,3 +55,6 @@ Když je tento způsob ocenění vybrán v řádku ceny kategorie, který je pro
 
 ### <a name="markup-over-cost"></a>Přirážka k nákladům
 Když je tento způsob ocenění vybrán v řádku ceny kategorie, který je propojen s prodejním ceníkem, výchozí cena je pro kombinaci kategorie a jednotky pouze pro skutečný výdaj. Například nevyfakturované skutečné prodeje pro třídu výdajových transakcí. Tato jednotková cena je nastavena na nevyfakturovaný prodej skutečný na vypočítanou hodnotu z jednotkové ceny na skutečný náklad pro daný výdaj po uplatnění definovaného procenta přirážky. Výchozí cena založená na nákladech se nestanoví u projektových odhadů výdajů ani u podrobností řádku nabídky a řádku smlouvy pro výdaje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

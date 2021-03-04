@@ -49,3 +49,6 @@ Doporučujeme vám použít dávkovou aktualizaci. Možnosti jsou k dispozici b�
     | Koncové datum    | Zadejte koncové datum procesu synchronizace souhrnů kapacity zdrojů. |
 
 [![Proces synchronizace](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

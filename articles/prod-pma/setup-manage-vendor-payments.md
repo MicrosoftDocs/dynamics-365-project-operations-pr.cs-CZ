@@ -80,3 +80,6 @@ Když dodavatel dokončí svou práci na projektu a pošle vám fakturu, musíte
 2. Na stránce **Faktury dodavatele se zaplacením po uhrazení platby** zadejte do vyhledávacího pole hodnoty a vyhledejte fakturu dodavatele, kterou chcete zkontrolovat. Poté vyberte možnost **Hledat**.
 3. Na pevné záložce **Řádky faktury dodavatele** vyberte řádky, které chcete změnit.
 4. Pokud jsou podmínky **Zaplatit po uhrazení platby** pro řádek faktury splněny, vyberte možnost **Uvolnit platbu dodavatele**. Možnost **Zaplatit po uhrazení platby** se vypne a hodnota pole **Připraveno k platbě** se změní na **Ano**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

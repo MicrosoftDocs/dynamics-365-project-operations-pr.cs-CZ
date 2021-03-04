@@ -45,3 +45,6 @@ Když na stránce dialogu vyberete možnost **OK**, vytvoří systém kopii proj
 > - Projektové reference u řádků nabídek založených na projektu – Informace o rozpočtu zákazníka
 >
 >Protože tyto informace jsou specifické pro každou nabídku zvlášť, tato pole a záznamy se nekopírují. Zkopírují se řádky nabídek u projektů a produktů, odhady u podrobností řádků nabídek a hodnoty, které nesmějí být překročeny na úrovni nabídky. Výchozí sazby cen a nákladů jsou závislé na možnosti **Kopírovat ceny**, vybrané na stránce dialogu **Kopírovat parametry**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

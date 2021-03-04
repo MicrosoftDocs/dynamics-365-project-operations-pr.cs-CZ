@@ -90,3 +90,6 @@ Přidružení projektových úkolů k řádkům nabídky lze zrušit také na ka
 
 >[!NOTE]
 > Tento postup neodstraní úkol z projektu. Odstraní pouze přidružení úkolu k řádku nabídky založené na projektu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

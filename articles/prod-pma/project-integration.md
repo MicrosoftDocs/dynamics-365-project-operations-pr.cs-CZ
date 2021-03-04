@@ -127,3 +127,6 @@ Chcete-li vytvořit nový strukturovaný rozpis prací pomocí aplikace Microsof
 8.  Vyberte **Kalendář** , který bude použit pro zajišťování zdrojů.
 
 11. Klikněte na **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Vaše zdroje mohou pomocí aplikace Project Finder Mobile na svých telefonech o
   
 ### <a name="see-also"></a>Viz také  
  [Nastavení zdrojů](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

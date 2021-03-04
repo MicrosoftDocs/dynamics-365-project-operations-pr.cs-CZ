@@ -41,3 +41,6 @@ Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 36
 | **Správa příležitostí** | 2040713 | Opravená chyba skriptu, ke které dochází při vytváření faktury ze smlouvy a je nainstalováno Field Service. |
 | **Plánování a sledování projektu** | 2090202 | Obchodní pravidla, která se již nepoužívají, byla označena jako **Zastaralé**. |
 | **Čas a výdaje** | 2091249 | Přesnější kontroly, aby uživatelé nemohli změnit úkol u odeslaného nebo schváleného časového záznamu. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

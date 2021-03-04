@@ -112,3 +112,6 @@ V některých zemích nebo oblastech existuje právní požadavek, aby byly fakt
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Lze jednotky a skupiny jednotek upravit, odstranit a přidat?
 Ano. S výjimkou skupiny jednotek **Čas** a jednotky **Hodina** lze všechny jednotky odstranit nebo upravit a přidat nové jednotky. V PSA nelze skupinu jednotek **Čas** a jednotku **Hodina** odstranit. Lze je však aktualizovat pomocí přeloženého textu pro pole **Název**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

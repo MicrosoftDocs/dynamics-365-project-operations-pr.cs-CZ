@@ -35,3 +35,6 @@ Všechny vytvořené faktury projektu jsou k dispozici na stránce **Faktura** v
 Pro forma fakturu lze také vytvořit na stránce s podrobnostmi **Smlouva o projektu**. Systém ověří, že projektová smlouva má nevyřízené položky **Připraveno k fakturaci** datované před dnešním datem. Z těchto smluv systém vytváří návrhy proforma faktur na základě počtu zákazníků na každém řádku smlouvy.
 
 Když je vytvořena jedna proforma faktura, otevře se stránka **Faktura**. Pokud je pro danou projektovou smlouvu vytvořeno více faktur, otevře se stránka seznamu **Faktury** se seznamem, kde se zobrazí všechny vytvořené faktury.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

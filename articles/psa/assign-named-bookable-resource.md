@@ -68,3 +68,6 @@ K rezervaci kapacity zdroje pro projekt můžete použít funkci prodloužení r
 ![Rozšíření rezervací pro člena týmu na kartě vyrovnání prostředků](media/RM-how-to-7.png)
 
 Po rezervaci člena týmu ve vašem projektu můžete použít správu rezervací nebo pomocí Plánovací vývěsky přímo spravovat jejich rezervace.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

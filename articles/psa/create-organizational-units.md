@@ -52,3 +52,6 @@ Vaše společnost pravděpodobně organizuje svou poradenskou činnost v rámci
   
 ### <a name="see-also"></a>Viz také  
  [Konfigurace Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

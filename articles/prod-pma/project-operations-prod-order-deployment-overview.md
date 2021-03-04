@@ -43,3 +43,6 @@ Vyberte tento typ nasazení, pokud chcete použít Dynamics 365 Project Operatio
 - Podnikový modul prodejní daně a směnného kurzu pro generování zákaznických faktur v rámci projektů.
 - Systém projektového účetnictví a uznávání výnosů v souladu s mezinárodními standardy finančního výkaznictví (IFRS).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

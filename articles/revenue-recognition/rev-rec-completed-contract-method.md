@@ -90,3 +90,6 @@ Odhad změní stav na **Eliminováno**.
 Tato stránka slouží ke stornu všech eliminací se stanoveným datem odhadu a se stavem odhadu **Eliminováno**. Stav transakce se změní po výběru příslušných polí.
 
 Tím se také automaticky změní stav projektu na **V procesu**, pokud je fáze projektu nastavena na dokončeno. Stav odhadu období projektu se změní zpět na **Zaúčtováno**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

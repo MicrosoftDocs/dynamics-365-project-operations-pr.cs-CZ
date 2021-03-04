@@ -36,3 +36,6 @@ Projektový manažer může předpovědět úsilí na úkoly dvěma způsoby:
 - Přepsat výchozí procento pokroku novým odhadem skutečného pokroku u úkolu.
 
 Každý z těchto přístupů způsobuje přepočet hodnot ETC, EAC a procenta pokroku a očekávané odchylky úsilí daného úkolu. Přepočítají se hodnoty EAC, ETC a procento pokroku souhrnných úkolů a vytvoří se nová projekce odchylky úsilí.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

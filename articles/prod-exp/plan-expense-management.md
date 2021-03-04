@@ -160,3 +160,6 @@ Vytvořením zásad sestav výdajů můžete pomoci vaší organizaci ušetřit 
 - Kdy platnost zásady skončí?
 - Jaké je pravidlo zásady?
 - Jaký je výstup pravidla zásady?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

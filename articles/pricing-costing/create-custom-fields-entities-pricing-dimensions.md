@@ -77,3 +77,6 @@ Data lze pro dimenze založené na entitě vytvořit ručně nebo pomocí import
 5. Opakováním kroků 1–3 vytvořte další standardní funkci pro „Hlavního systémového technika”.
 
 > ![Ukázková data pro entitu Standardní funkce](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

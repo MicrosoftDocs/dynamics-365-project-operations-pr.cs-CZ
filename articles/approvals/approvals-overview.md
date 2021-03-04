@@ -59,3 +59,6 @@ Každý projekt má několik členů projektového týmu. Můžete určit, kteř
 3. Zvolte **Uložit**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

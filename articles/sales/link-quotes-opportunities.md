@@ -56,3 +56,6 @@ Stávající nabídku lze propojit s příležitostí. Chcete-li aktualizovat in
    Když přesunete příležitost do této fáze, můžete vybrat tuto nabídku ze seznamu nabídek spojených s touto příležitostí. Výběr této nabídky znamená, že se s ní pohybujete kupředu.
 
    Všechny ostatní nabídky spojené s touto nabídkou budou stále k dispozici a aktivní, dokud jednu z nich nezískáte. Proces prodeje můžete přesunout zpět do předchozí fáze **Zařadit** a vybrat další nabídku, se kterou budete pokračovat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

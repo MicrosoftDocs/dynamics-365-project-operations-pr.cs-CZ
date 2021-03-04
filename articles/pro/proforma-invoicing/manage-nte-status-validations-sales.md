@@ -73,3 +73,6 @@ Můžete provést hromadné opětovné vyhodnocení nepřekročitelného stavu. 
 Chcete-li opětovně vyhodnotit nepřekročitelný stav, vyberte jednu nebo více skutečných hodnot ze zobrazení **Nedokončená fakturace času a materiálu** nebo **Skutečné hodnoty** a poté vyberte **Znovu vyhodnotit stav nepřekročení**.
 
 Všechny příslušné vybrané skutečné hodnoty s nepřekročitelným limitem budou vyhodnoceny podle nastavení nepřekročitelného limitu. Skutečné hodnoty, které jsou relevantní pro opětovné vyhodnocení nepřekročitelného stavu, jsou nefakturované skutečné hodnoty prodeje, které nejsou fakturovány, nejsou na konceptu faktury a jsou označeny jako účtovatelné. Jakékoli další vybrané skutečné hodnoty.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

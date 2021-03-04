@@ -41,3 +41,6 @@ Vygenerovaný požadavek na zdroj můžete odeslat jako žádost o zdroj. Žádo
 Stav žádosti obecného člena týmu se změní na **Odeslána**.
 
 Po splnění žádosti správcem zdrojů bude obecný zdroj nahrazen pojmenovaným zdrojem, pokud správce zdrojů splní žádost rezervací pojmenovaného zdroje. V opačném případě zůstane obecný zdroj v týmu a stav požadavku se změní na **Potřebuje kontrolu**, pokud správce prostředků navrhl pojmenovaný zdroj.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

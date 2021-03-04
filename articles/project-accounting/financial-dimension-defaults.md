@@ -62,3 +62,6 @@ Projekty jsou vytvářeny a spravovány v CDS. Atributy účetnictví pro projek
 4. Nastavte výchozí hodnoty finanční dimenze. Všimněte si, že finanční dimenze vychází z účtu zákazníka. Pokud je projekt přidružen k řádku smlouvy s více zákazníky projektové smlouvy, primární zákazník se použije k nastavení výchozích finančních dimenzí.
 
 Výchozí finanční dimenze projektu se používají k nastavení výchozích hodnot řádků deníku pro transakce času, výdajů a poplatků v **Deníku integrace Project Operations** a na souvisejících řádcích faktury projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

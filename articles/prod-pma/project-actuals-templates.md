@@ -140,3 +140,6 @@ Následující obrázky ukazují příklady mapování úlohy šablony v Integra
 [![Mapování šablon – Aktualizace skutečností](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Mapování šablon – Aktualizace transakce](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

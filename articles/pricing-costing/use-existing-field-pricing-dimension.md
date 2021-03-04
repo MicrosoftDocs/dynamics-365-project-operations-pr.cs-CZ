@@ -31,3 +31,6 @@ _**Platí pro:** Project Operations scénáře založené na zdrojích / položk
 Entita **Skutečné hodnoty** má mnoho polí, která lze použít jako cenové dimenze pro ceny založené na zdrojích. Například jedno společné pole je **Rezervovatelný zdroj**. Menší společnosti, které mají méně než 20–30 fakturovatelných zdrojů, mohou zjistit, že mít sazby fakturace a nákladové sazby u jednotlivých zdrojů je jednodušší. Jak však roste fakturovatelná pracovní síla, mohlo by se stát nerealistické udržovat sazby specifické pro zdroje. Náklady na zdroje a fakturační sazby se začínají lišit, když se zdroje povyšují, získávají více zkušeností nebo získávají jinou sadu dovedností. 
 
 Dalším příkladem je kategorie transakce. Zákazníci a implementátoři použili kategorii transakce ke klasifikaci práce a použití tohoto pole na cenu a náklady na základě kategorie práce.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

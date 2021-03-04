@@ -42,3 +42,6 @@ Po provedení výběru bude zdroj přidán do projektového týmu a přiřazen k
 K rezervaci kapacity zdroje pro projekt můžete použít funkci prodloužení rezervace na kartě **Vyrovnání** nebo **Plánovací vývěska**.
 
 Po rezervaci člena týmu ve vašem projektu můžete přímo spravovat jejich rezervace pomocí funkcí **Správa rezervací** **Plánovací vývěska**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

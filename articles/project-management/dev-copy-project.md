@@ -112,3 +112,6 @@ Následující příklad ukazuje, jak volat vlastní akci **CopyProject** vlastn
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

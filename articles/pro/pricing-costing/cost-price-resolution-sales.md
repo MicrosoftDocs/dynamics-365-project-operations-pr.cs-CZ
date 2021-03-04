@@ -36,3 +36,6 @@ Po vyřešení ceníku nákladů budou pole **Role** a **Jednotka zdroje** na ř
 Řádky odhadu pro výdaje odkazují na detaily řádku nabídky a smlouvy pro výdaje a řádky odhadu výdaje v projektu.
 
 Po vyřešení ceníku nákladů systém použije kombinaci polí **Kategorie** a **Jednotka** na řádku odhadu výdajů ke srovnání s řádky **Cena kategorie** na vyřešeném ceníku. Pokud systém najde řádek ceny kategorie, který má nákladovou sazbu pro kombinaci polí **Kategorie** a **Jednotka**, pak je nákladová sazba výchozí. Pokud systém nedokáže spárovat hodnoty **Kategorie** a **Jednotka** nebo pokud dokáže najít odpovídající cenový řádek kategorie, ale metoda stanovení cen není **Cena za jednotku**, výchozí cena je nula (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

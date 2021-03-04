@@ -41,3 +41,6 @@ Pokud se rozhodnete vyžadovat více schvalovatelů výkazů výdajů, můžete 
 
     1. Manažer zaměstnance schválí výkaz výdajů.
     2. Vlastník rozpočtu schválí výkaz výdajů.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

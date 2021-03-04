@@ -35,3 +35,6 @@ Zdroje jsou nejdůležitějším majetkem organizace založené na službách. S
 
 
 Projekt můžete v Project Operations personálně obsadit týmem obecných nebo pojmenovaných zdrojů. Pro přidání a přiřazení členů týmu a ke správě jejich rezervací a přiřazení můžete použít různé metody. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

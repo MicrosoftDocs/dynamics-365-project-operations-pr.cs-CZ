@@ -20,3 +20,6 @@ ms.locfileid: "4514503"
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
 Můžete použít Dynamics 365 Field Service, chcete-li vytvořit rezervovatelné zdroje pro použití ve vašem prostředí Dynamics 365 Project Operations. Chcete-li tyto prostředky vytvořit, přečtěte si téma [Nastavit rezervovatelné zdroje](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

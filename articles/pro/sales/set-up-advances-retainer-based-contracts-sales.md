@@ -37,3 +37,6 @@ Zálohu v Project Operations nelze použít, dokud nebude fakturována zákazní
 | --- | --- | --- |
 | Dostupná částka | Částka, která je k dispozici k použití v zálohovém záznamu. | Dokud nebude záloha vyfakturována, nebude možné ji použít, což znamená, že dostupná částka bude nulová. |
 | Použitá částka | Částka, která je již použita v záloze. | Záloha může být částečně odsouhlasena na faktuře se skutečnými náklady, které budou mít některou část označenou jako již použitou nebo spotřebovanou. Zbytek částky zálohy je k dispozici k odsouhlasení na budoucí faktuře se skutečnými náklady. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

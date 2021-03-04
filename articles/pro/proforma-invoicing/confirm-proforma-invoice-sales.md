@@ -273,3 +273,6 @@ Fakturovaný skutečný prodej na řádek produktu s množstvím a částkou poc
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

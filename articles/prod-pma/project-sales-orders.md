@@ -41,3 +41,6 @@ Zakázky prodeje založené na projektu můžete vytvořit dvěma způsoby:
 - Přejděte na projekt. V podokně akcí vyberte **Spravovat > Úkoly položek > Prodejní objednávka**. Informace o projektu budou výchozí pro prodejní objednávku z projektu. Pokud má projektová smlouva více než jeden zdroj financování, budete muset vybrat zdroj financování a nastavit zákazníka pro prodejní objednávku. Pokud pro projekt existuje pouze jeden zdroj financování, zákazník se nastaví automaticky.
 - Přejděte na stránku seznamu **Všechny prodejní objednávky** a vytvořte novou prodejní objednávku. Budete muset vybrat projekt pro prodejní objednávku. Po výběru projektu bude zákazník nastaven ze zdroje financování, nebo budete muset vybrat zdroj financování, pokud má projektová smlouva více zdrojů financování.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

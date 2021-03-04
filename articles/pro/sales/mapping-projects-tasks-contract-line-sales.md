@@ -82,3 +82,6 @@ To je optimálnější způsob zrušení přidružení úkolů k řádkům smluv
 4. Na otevřené stránce dialogového okna vyberte v rozevíracím seznamu řádek smlouvy.
 5. Zaškrtnutím políčka označte, zda by přidružení mělo být odebráno i od podřízených úkolů vybraných úkolů. Zaškrtnutí políčka také zruší přidružení podřízených úkolů vybraných úkolů k řádku smlouvy.
 6. Vyberte **OK**. Zobrazí se varovná zpráva s upozorněním, že odebrání tohoto přidružení může mít za následek obrácení všech skutečných hodnot dříve zaznamenaných v úkolu. Vyberte **OK** v dialogovém okně s upozorněním, čímž odeberete přidružení mezi úkolem a řádkem smlouvy na základě projektu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

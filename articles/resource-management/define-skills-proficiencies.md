@@ -42,3 +42,6 @@ Dovednosti pro zdroje jsou hodnoceny pomocí modelů odborné způsobilosti. Ind
 
 
 Tyto hodnoty hodnocení jsou zobrazeny ve filtrech **Požadavky na zdroje**, **Plánovací vývěska** a **Pomocník plánování**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

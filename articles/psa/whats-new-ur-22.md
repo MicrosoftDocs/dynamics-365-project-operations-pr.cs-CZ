@@ -72,3 +72,6 @@ Byly vyřešeny následující problémy:
 - Uzavření nabídky tak, jak byla vyhrána, se nevztahuje na vytvořenou smlouvu, pokud je BPF připojená k nabídce v konečné fázi.
 - Stornování položky **Nevyfakturovaný prodej** je spojeno s původními náklady při vyvolání časového záznamu.
 - Po výběru tlačítka **Potvrdit** se stav faktury nezmění na **Potvrzeno**, pokud není faktura obnovena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

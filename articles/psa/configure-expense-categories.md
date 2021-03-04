@@ -55,3 +55,6 @@ Každá kategorie výdajů může mít své vlastní skupiny jednotek a jednotky
   
 ### <a name="see-also"></a>Viz také  
  [Konfigurace Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

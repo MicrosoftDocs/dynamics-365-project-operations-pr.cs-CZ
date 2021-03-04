@@ -24,3 +24,6 @@ Příležitosti projektu lze uzavřít jako Záskané nebo Ztracené. Dialogové
 Nebudete mít možnost uzavřít příležitost, pokud jsou s ní spojeny nějaké aktivní nabídky. Můžete současně zavřít všechny aktivní a koncepty nabídek spojené s příležitostmi. Poté budete moci příležitost uzavřít.
 
 Další obecné informace o uzavírání příležitostí naleznete v části [Uzavření příležitostí jako záskaných nebo ztracených](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

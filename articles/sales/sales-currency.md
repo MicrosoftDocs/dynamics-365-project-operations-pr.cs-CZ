@@ -71,3 +71,6 @@ Než zahájíte tento postup, ověřte, zda vaše role zabezpečení obsahuje op
 
 > [!IMPORTANT]
 >  Nelze odstranit měny, které se používají v jiných záznamech. Můžete je pouze deaktivovat. Při deaktivaci záznamů měny nedojde k odebrání informací o měně uložených v existujících záznamech, například příležitostech nebo objednávkách. Deaktivovanou měnu však nebudete moci vybrat pro nové transakce.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

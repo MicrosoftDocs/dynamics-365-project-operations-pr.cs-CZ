@@ -55,3 +55,6 @@ Byly vyřešeny následující problémy:
 - Výjimka nulové reference je generována, když je vyvolán modul plug-in **GetEstimatesForProject**.
 - **Označit jako připraveno k fakturaci** na mřížce milníku aktualizuje atributy pouze částečně, s výjimkou atributu **Stav faktury**, který je aktualizován.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

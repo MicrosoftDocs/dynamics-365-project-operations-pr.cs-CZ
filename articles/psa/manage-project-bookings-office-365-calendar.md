@@ -91,3 +91,6 @@ Pomocí kalendáře služeb [!INCLUDE[pn_office_365](../includes/pn-office-365.m
   
 ### <a name="see-also"></a>Viz také  
  [Příručka – Čas, výdaje a spolupráce](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

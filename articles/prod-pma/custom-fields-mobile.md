@@ -429,3 +429,6 @@ K zadání výchozí kategorie projektu do záznamů časového výkazu docház�
 1. Aplikace se pokusí vložit výchozí kategorii ze zdroje projektu. Tato výchozí kategorie je nastavena v metodách **getCurrentUserResource** a **getDelegatedResourcesForCurrentUser** ve třídě **TSTimesheetSettingsService**.
 2. Pokud není výchozí kategorie poskytnuta na úrovni zdrojů projektu, aplikace se ji pokusí vytáhnout z aktivity projektu. Tato výchozí kategorie je nastavena v metodě **getActivitiesForProject** třídy **TSTimesheetProjectService**.
 3. Pokud není výchozí kategorie poskytnuta na úrovni aktivity projektu, je výchozí kategorie převzata z parametrů projektu. Tato výchozí kategorie je nastavena v metodě **getProjectDetailsbyRule** třídy **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

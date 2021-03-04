@@ -123,3 +123,6 @@ Při práci s entitou **Skutečnost** je důležité porozumět, jaká transakce
 Entita **Původ transakce** zaznamenává původ záznamu **Skutečnost** a entita **Propojení transakce** zaznamenává související záznamy pro záznam **Skutečnost**. Záznam **Skutečnost** dále obsahuje odkazy na projekt, projektovou smlouvu (objednávky), rezervovatelné prostředky a zákazníka.
 
 ![Diagram zobrazující transakční připojení, původ a skutečné vztahy](media/PS-Reporting-image6.png "Diagram zobrazující transakční připojení, původ a skutečné vztahy")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

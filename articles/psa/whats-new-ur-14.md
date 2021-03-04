@@ -64,3 +64,6 @@ Tohle téma uvádí seznam funkcí a oprav, které jsou nové nebo změněné v�
      - Opraveno: Celková prodejní cena se nevypočítává, dokud uživatel také nevloží nákladovou cenu pro odhad nákladů na projekt.
      - Opraveno: Uzavření nabídky jako **Získáno** selže, pokud přidružená projektová smlouva není ve stavu **Koncept**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

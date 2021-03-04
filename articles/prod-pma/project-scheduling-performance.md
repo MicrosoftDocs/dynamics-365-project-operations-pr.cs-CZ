@@ -69,3 +69,6 @@ Chcete-li povolit vylepšený výkon při plánování zdrojů, proveďte násle
 
 > [!NOTE]
 > Tato akce bude distribuovat obecná data do tabulky **ResRollup** napříč všemi společnostmi ve vašem prostředí, takže dávkovou úlohu je třeba spustit pouze v jedné právnické osobě. Tato dávková úloha je nutná pro všechny pohledy **Dostupnost zdrojů**. Pokud tato dávková úloha není spuštěna, data tabulky **ResRollup** budou generována za chodu, což může chvíli trvat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

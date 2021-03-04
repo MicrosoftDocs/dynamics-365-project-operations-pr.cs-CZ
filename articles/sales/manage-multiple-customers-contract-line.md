@@ -44,3 +44,6 @@ Níže jsou pole v záznamu zákazníka na řádku smlouvy pro řádek smlouvy n
 Procenta rozdělení fakturace lze upravit v mřížce. Pokud procentuální rozdělení fakturace nedosáhne 100 procent, dojde k chybě. Po úpravě procentuálního rozdělení fakturace aktualizujte stránku, abyste chybu opravili.
 
 Můžete také zkusit vybrat **Rovnoměrně rozdělit** v podmřížce zákazníka na řádku smlouvy. Tato akce rovnoměrně rozdělí fakturaci všem zákazníkům na řádku smlouvy. Pokud existuje nějaký faktor zaokrouhlování, bude přidán k zákazníkovi pro zaokrouhlování. Jeden zákazník na řádku smlouvy je vždy označen jako zákazník pro **Zaokrouhlování** s příznakem **Zaokrouhlování** nastaveným na **Ano**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

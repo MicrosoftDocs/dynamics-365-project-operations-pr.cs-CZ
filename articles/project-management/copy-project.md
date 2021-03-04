@@ -61,3 +61,6 @@ Když se projektový tým zkopíruje ze zdrojového projektu, zkopírují se obe
 Při kopírování projektu se zkopírují řádky odhadu zdrojů a výdajů ze zdrojového projektu. 
 
 Informace o tom, jak programátorsky přistupovat ke kopírování projektu, najdete v části [Vývoj projektových šablon pomocí nástroje kopírovat projekt](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

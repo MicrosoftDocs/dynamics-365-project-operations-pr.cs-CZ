@@ -146,3 +146,6 @@ Následující tabulka obsahuje úplný seznam připravených formulářů a zob
 |  Skutečnost|• Informace<br>• Aktivní skutečnosti|• Přidružené zobrazení skutečností|
 
 V závislosti na tom, co jste definovali, může být také nutné přidat vlastní pole do obchodních pravidel. Jeden z těchto připravených příkladů je pro obchodní pravidlo **Upravitelnost časového záznamu na základě stavu**. Toto pravidlo definuje, která pole je třeba uzamknout, pokud je Časový záznam v neupravitelném stavu, jako je např. **Schválen**. Přidejte pole do tohoto obchodního pravidla tak, aby byla tato pole uzamčena pro úpravy, pokud je Časový záznam v jiném stavu než **Koncept** nebo **Vrácen**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

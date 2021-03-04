@@ -28,3 +28,6 @@ _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
 Když je metoda výdělku ze shrnutí příležitosti **Počítáno systémem**, jsou hodnoty rozpočtu zákazníka napříč řádky příležitosti shrnuty pro výpočet odhadovaných výnosů. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Chcete-li opravit jeden nebo více záznamů výdajů, proveďte následující 
 8. Na stránce projektu na kartě **Skutečné hodnoty** zkontrolujte **Přidružené zobrazení skutečností**. Jsou uvedeny původní záznamy a opravené záznamy. Následující obrázek ukazuje původní částky záznamu výdajů a odpovídající opravené položky částek zadaných výdajů. 
 
 ![Skutečné hodnoty nákladů](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

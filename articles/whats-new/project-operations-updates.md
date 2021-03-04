@@ -77,3 +77,6 @@ Cílová data vydání se mohou změnit. Další informace naleznete v části [
 | --- | --- |
 | 10.0.17 | 19. března 2021 |
 | 10.0.18 | 16. dubna 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

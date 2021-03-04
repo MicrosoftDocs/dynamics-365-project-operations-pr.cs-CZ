@@ -45,3 +45,6 @@ Následující informace se nekopírují ze **zdrojové** do **cílové smlouvy*
   - Rozpočtové údaje zákazníka
 
 Protože tyto informace jsou specifické pro každou smlouvu, tato pole a záznamy se nekopírují. Zkopírují se řádky smlouvy u projektů a produktů, odhady u podrobností řádků smlouvy a hodnoty, které nesmějí být překročeny na úrovni smlouvy. Výchozí sazby cen a nákladů jsou závislé na výběru v poli **Kopírovat ceny**, vybrané na stránce dialogu **Kopírovat parametry**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

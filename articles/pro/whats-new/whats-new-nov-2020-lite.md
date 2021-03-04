@@ -37,3 +37,6 @@ V následující tabulce jsou uvedeny aktualizace Project Operations v prostřed
 | Položka času a rychlého výdaje | 2047499          | Tlačítko **Nový** na stránce Časový záznam otevře stránku **Nový e-mailový podpis**.                                                                                               |
 | Položka času a rychlého výdaje | 2059859          | Při vytváření položky výdajů se neočekávaně otevře vyskakovací okno.                                                                                                                         |
 | Ostatní                        | 2044181          | [Odinstalace nákupní objednávky] – Chyba „Záznam není dostupný“ se objeví při pokusu o odinstalaci základních řešení **msdyn_ProjectServiceCore_Patch** a msdyn Project Service.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

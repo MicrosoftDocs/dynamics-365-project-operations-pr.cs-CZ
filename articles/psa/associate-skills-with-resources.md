@@ -45,3 +45,6 @@ V předchozím kroku jste již přidružili některé dovednosti novému zdroji.
   
 ### <a name="see-also"></a>Viz také  
  [Nastavení zdrojů](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

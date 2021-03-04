@@ -96,3 +96,6 @@ Aby bylo možné zajistit úspěšný upgrade, je nutné správně udržovat ná
 
 - Všechny závislosti úkolů projektu musí souviset se stejným projektem.
 - Úkol nesmí mít stejnou závislost odkazovanou více než jednou.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

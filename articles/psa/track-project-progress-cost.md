@@ -40,3 +40,6 @@ Někdy můžete potřebovat upravit původní odhady u úkolu. Úkol může prob
   
 ### <a name="see-also"></a>Viz také  
  [Příručka pro projektového manažera](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

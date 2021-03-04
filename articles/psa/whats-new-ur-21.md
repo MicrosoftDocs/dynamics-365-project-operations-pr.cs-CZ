@@ -77,3 +77,6 @@ Byly vyřešeny následující problémy:
 - Logika **Řešení seznamu prodejních cen** nesprávně zpracovává časová pásma, což má za následek nesprávný výběr ceníků.
 - **Celkové skutečné náklady** na projekt mohou být po schválení jednoho časového záznamu posunuty o zlomkovou hodnotu.
 - Logika **Rozlišení cen** neposkytuje uživatelsky přehlednou chybovou zprávu, pokud **Načtená RolePrice** nemá hodnoty v polích **'Primární jednotka'** a **'Cena v primární jednotce'**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

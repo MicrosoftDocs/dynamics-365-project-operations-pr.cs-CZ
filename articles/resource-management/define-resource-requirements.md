@@ -26,3 +26,5 @@ Požadavky na zdroje jsou definovány vedoucím projektu za účelem vytvoření
 3.  Na kartě **Člen týmu** vyberte člena týmu a pak vyberte **Generovat požadavek**.
 
 Informace o tom, jak upravit požadavek na prostředek, najdete v části [Aktualizujte podrobnosti požadavku na zdroj](define-resource-requirements.md), chcete-li upravit požadavek na zdroj.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

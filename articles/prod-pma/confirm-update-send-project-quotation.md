@@ -57,3 +57,6 @@ Chcete-li upravit existující nabídku projektu, musí být stav nabídky **Vyt
 
 > [!NOTE]
 > Po změně stavu na nelze nabídku projektu upravit **Odesláno**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

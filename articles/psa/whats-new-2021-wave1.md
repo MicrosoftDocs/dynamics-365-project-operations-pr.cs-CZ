@@ -43,3 +43,6 @@ Byly vyřešeny následující problémy:
 
 - Datum ukončení se automaticky vyplní, když je vytvořen záznam času, pokud je doba trvání null.
 - Uživatelé mohou změnit úkol u časového záznamu, který byl schválen nebo odeslán.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

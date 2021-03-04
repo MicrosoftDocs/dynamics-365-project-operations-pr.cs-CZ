@@ -52,3 +52,6 @@ Můžete použít každý z těchto ceníků a aktualizovat ceny práce (cena ro
 Na projektové smlouvě je cena projektu vždy výchozí jako vlastní ceník s názvem smlouvy a vytvořeným razítkem data a času připojeným k názvu. To platí, ať už byla smlouva vytvořena při získání nabídky, nebo pokud byla smlouva vytvořena úplně od začátku. V případě potřeby můžete toto přidružení k vlastnímu ceníku odebrat a místo toho přidružit standardní ceník k projektové smlouvě.
 
 Když přidružíte standardní ceník k projektovým ceníkům nabídky nebo smlouvy, jakékoli změny provedené v cenách v ceníku ovlivní všechny nabídky a smlouvy, které používají ceník.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

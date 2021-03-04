@@ -104,3 +104,6 @@ Během rezervace zdrojů mohou projektoví manažeři filtrovat zdroje rolí, kt
 
 3. Vyberte tlačítko **Uložit** a potom zavřete stránku.
 4. Na kartě **Kompetence** přidejte dovednost **Správa projektu** a certifikát **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

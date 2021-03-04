@@ -96,3 +96,6 @@ Klepněte na **Předložit** k odeslání časového rozvrhu do pracovního post
 ## <a name="review-timesheets"></a>Zkontrolujte časové rozvrhy
 
 Seznam časových výkazů, které je třeba zkontrolovat, je k dispozici v nabídce. Tato možnost je k dispozici, pouze pokud jste byli označeni jako schvalovatel pracovního postupu. Je podporováno schválení záhlaví i řádku. Schválení na úrovni řádků nabízí možnost označit jeden nebo více řádků ke schválení. Po kontrole informací časového rozvrhu klikněte na **Schválit** , **Delegovat** nebo **Vrátit se** k pokračování pracovního postupu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

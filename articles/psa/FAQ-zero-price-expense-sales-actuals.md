@@ -72,3 +72,6 @@ Pokud není nastavení ceny pro kategorii výdajů platné, odhalili jste probl�
 Pokud i přesto nevidíte platnou cenu vašich skutečných výdajů prodeje po provedení tří výše uvedených kontrol, odešlete lístek podpory.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

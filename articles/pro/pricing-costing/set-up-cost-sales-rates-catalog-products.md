@@ -26,3 +26,6 @@ Nastavení cen pro položky katalogu produktů v Dynamics 365 Project Operations
 V Project Operations nelze produkty odhadovat ani používat na projektech, takže není nutné nastavovat ceny katalogů produktů v cenících projektů pro nabídky a smlouvy.
 
 Použijte pole **Cena produktu** pole nabídky, smlouvy nebo účtu k nastavení cen katalogu produktů. Nenastavujte ceny katalogů produktů v cenících projektů. Projektové ceníky jsou exkluzivní funkcí aplikace Project Operations. Obchodní logika pro konkrétní aplikaci kopíruje ceníky z nabídky do smlouvy. Výsledkem je projektový ceník pro určitou smlouvu. Operace kopírování může zpozdit proces vyhrání nabídky, pokud bude projektový ceník nabídky příliš velký. Produktové ceníky se nekopírují, aby vytvořily vlastní ceníky ve smlouvách. Protože se nejedná o žádné kopírování, není ovlivněn výkon procesu nabídky.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

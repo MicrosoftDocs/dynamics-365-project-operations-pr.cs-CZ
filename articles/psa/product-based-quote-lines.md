@@ -82,3 +82,6 @@ Vlastnosti **Poč. uživatelů** a **Poč. měsíců** lze pomocí úpravy vlast
 
 > ![Označení vlastností Poč. uživatelů a Poč. měsíců jako množstevní faktory](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

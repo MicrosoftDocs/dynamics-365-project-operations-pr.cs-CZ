@@ -107,3 +107,6 @@ Do strukturovaného rozpisu prací byly přidány další možnosti pro lepší 
     > Neobdržíte varování, že zadaný zdroj je nyní 2, protože počet zdrojů zůstává 1.
 
 14. Na stránce **Strukturovaný rozpis prací** ověřte přiřazení zdrojů ve strukturovaném rozpisu prací a poté vyberte příkaz **Uložit**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

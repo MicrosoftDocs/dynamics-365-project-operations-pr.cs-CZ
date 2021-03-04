@@ -52,3 +52,6 @@ Následující témata obsahují informace, které projektovým manažerům pomo
 - [Šablony projektů](project-templates.md)
 - [Fáze projektu](project-stages.md)
 - [Nastavení projektu](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

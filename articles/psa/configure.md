@@ -58,3 +58,6 @@ Než budete moci používat možnosti automatizace [!INCLUDE[pn_project_service_
  [Příručka pro projektového manažera](../psa/project-manager-guide.md)   
  [Příručka pro manažera zdrojů](../psa/resource-manager-guide.md)   
  [Příručka – Čas, výdaje a spolupráce](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Funkce [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md
  [Příručka pro manažera obchodních vztahů](../psa/account-manager-guide.md)   
  [Příručka pro projektového manažera](../psa/project-manager-guide.md)   
  [Příručka – Čas, výdaje a spolupráce](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

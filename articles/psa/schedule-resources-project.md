@@ -83,3 +83,6 @@ Pokud používáte starší verzi, naleznete informace o dostupnosti zdrojů v �
   
 ### <a name="additional-resources"></a>Další materiály  
  [Příručka pro manažera zdrojů](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

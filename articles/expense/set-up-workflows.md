@@ -48,3 +48,6 @@ Následující tabulka obsahuje typy pracovních postupů, které můžete vytv�
 |       <strong>Cestovní žádanka</strong>       |          Vytvořte pracovní postupy schválení pro cestovní žádanky.           |
 |      <strong>Požadavek na hotovostní zálohu</strong>      |         Vytvořte pracovní postupy schvalování požadavků na hotovostní zálohu.          |
 |        <strong>Vratka DPH</strong>        | Vytvořte pracovní postupy schválení pro vratku daně z přidané hodnoty (DPH).  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

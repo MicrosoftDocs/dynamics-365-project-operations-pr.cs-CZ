@@ -54,3 +54,6 @@ Chcete-li provést libovolné požadované změny vyberte po rezervaci zdrojů v
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Jaký je rozdíl mezi přiřazením a rezervací?
 
 Přiřazení jsou přiřazení zdrojů k úkolům projektu v plánu projektu. Zdroje mohou být buď skutečné, nebo obecné. Rezervace jsou závazné nebo předběžné přidělení zdrojů k projektu. Závazné rezervace spotřebovávají kapacitu zdroje. V ideálním případě by se pro reálné zdroje měly dohodnout rezervace a přiřazení, protože se neliší. PSA však tuto dohodu nevynucuje. Zobrazení Vyrovnání ukazuje projektovému manažerovi místa, kde se neshodují rezervace a přiřazení zdroje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

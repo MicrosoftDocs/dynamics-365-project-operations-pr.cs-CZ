@@ -63,3 +63,6 @@ Tohle téma uvádí seznam funkcí a oprav, které jsou nové nebo změněné v�
   - Opraveno: Již se nezobrazí chybová zpráva ve **Vyhledávání projektu** ve formuláři **Řádek nabídky**, pokud existuje více než 1000 projektů.
   - Opraveno: Mřížka **Odhady** pro odhady práce a nákladů nyní zobrazuje správný symbol měny.
   - Opraveno: Poté, co organizace aktualizuje PSA z aktualizace verze 14 na verzi 15, karta **Plán** se již na formuláři **Projekt** nezobrazuje jako prázdná.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

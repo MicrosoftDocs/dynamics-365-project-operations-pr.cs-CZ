@@ -113,3 +113,6 @@ Protože Dynamics 365 Project Service Automation používá modul Universal Reso
 Chcete-li zobrazit další podrobnosti o konkrétním zdroji, klepněte na něj pravým tlačítkem myši a otevřete kartu zdroje.
 
 ![Karta zdroje](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

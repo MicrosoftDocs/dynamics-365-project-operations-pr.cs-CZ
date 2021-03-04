@@ -95,3 +95,6 @@ Tato příručka obsahuje informace, které potřebujete k vytváření a správ
  [Příručka pro manažera zdrojů](../psa/resource-manager-guide.md)   
  [Příručka – Čas, výdaje a spolupráce](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

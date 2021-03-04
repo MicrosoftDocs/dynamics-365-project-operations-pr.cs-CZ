@@ -87,3 +87,6 @@ Pokud budete chtít změnit předběžně rezervovaný zdroj člena týmu na zá
 2. Při otevření plánovací vývěsky rozbalte zdroje pro zobrazení jejich rezervací. Uvidíte rezervaci označenou jako Předběžná.
 3. Klikněte pravým tlačítkem myši na rezervaci a u možnosti Změnit stav vyberte Závazná rezervace a potom Závazná. Stav rezervace je nyní Závazná.
 4. Po uzavření plánovací vývěsky uvidíte, že se hodiny pro zdroj změnily ze předběžných na závazné na mřížce člena týmu. Nyní můžete přiřadit zdroj k úkolům (za předpokladu, že existuje shoda mezi závazně rezervovanými hodinami a hodinami úsilí úkolu pro přiřazení). Všimněte si, že pokud jste postupovali podle kroků plnění obecného zdroje ve výše uvedeném bodu 3, při změně stavu předběžně rezervovaného zdroje na závazně rezervovaný, obecný člen týmu se z týmu odstraní.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

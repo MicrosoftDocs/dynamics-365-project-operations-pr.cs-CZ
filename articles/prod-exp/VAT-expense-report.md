@@ -72,3 +72,6 @@ Když je Arnie připraven odeslat data vyúčtování výdajů prodejci třetí 
 Arnie musí ověřit, že transakce vyúčtování výdajů jsou způsobilé k vrácení DPH a že digitální příjmy jsou připojeny k vyúčtováním. Aby mohl začít zpracovávat způsobilé výdaje k domácímu vymáhání, otevře Arnie stránku **Vrácení daně z výdajů** a vybere vyúčtování výdajů, který vyžaduje ověření. Ověří, že příjmy jsou zadány jménem společnosti a nikoli zaměstnance. Pro vrácení DPH musí být příjemky vystaveny na název společnosti. Arnie poté potvrdí, že byly použity správné kódy skupiny DPH a položky DPH.
 
 Když Arnie obdrží papírové stvrzenky, změní stav vyúčtování výdajů na **Připraveno k vratce**. Poté může podat přiznání u příslušného daňového úřadu. V tomto případě je příslušným daňovým úřadem v USA Internal Revenue Service (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

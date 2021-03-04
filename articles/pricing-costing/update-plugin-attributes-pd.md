@@ -52,3 +52,6 @@ Pomocí následujících kroků aktualizujte a znovu zaregistrujte moduly plug-i
 7. Výběrem **OK** zavřete stránku a pak vyberte možnost **Aktualizovat krok**.
 8. Opakujte kroky 2 až 7 pro druhý modul plug-in **PreOperationQuoteLineDetail**. Pro tento modul plug-in musíte aktualizovat krok **Aktualizujte msdyn_quotelinetransaction**.
 9. Zavřete **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

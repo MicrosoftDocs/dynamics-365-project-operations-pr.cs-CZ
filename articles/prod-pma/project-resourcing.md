@@ -55,3 +55,6 @@ Následující témata poskytují informace o úkolech, které je třeba dokonč
 - [Výkon plánování zdrojů projektu](project-scheduling-performance.md)
 - [Nastavení rolí v šablonách strukturovaného rozpisu prací](set-up-roles-wbs-template.md)
 - [Plnění zdrojů pro plánované zdroje](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

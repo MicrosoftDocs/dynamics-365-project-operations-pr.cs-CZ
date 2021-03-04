@@ -68,3 +68,6 @@ K vašemu řešení ocenění bude nutné přidat následující entity Project 
 > ![Nezahrnovat všechny související komponenty](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

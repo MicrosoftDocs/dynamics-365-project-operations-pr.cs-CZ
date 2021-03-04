@@ -98,3 +98,6 @@ Při zpracování zbývajících částek rozpočtu můžete v hlavní knize vyt
 5. U každého projektu, který chcete zpracovat, vyberte možnost na začátku řádku pro projekt. 
 6. Výběrem příkazu **Zpracovat** převeďte zbývající částky rozpočtu pro vybrané projekty do vybraného fiskálního roku.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
