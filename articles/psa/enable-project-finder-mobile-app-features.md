@@ -3,6 +3,7 @@ title: Povolení funkcí aplikace Project Finder Mobile
 description: Postup povolení funkcí aplikace Project Finder Mobile pro Project Service
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132955"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144540"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Povolení funkcí aplikace Project Finder Mobile (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Vaše zdroje mohou pomocí aplikace Project Finder Mobile na svých telefonech obsahujících [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] vyhledávat nové projekty, na nichž by mohli pracovat, a aktualizovat své dovednosti.  
   
  Aplikace je k dispozici pro telefony [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], telefony se systémem [!INCLUDE[tn_android](../includes/tn-android.md)] a telefony se systémem [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].  
-  
- Je nutné nakonfigurovat několik možností v nastavení parametrů pro vaši organizační jednotku, aby mohli uživatelé zobrazovat požadavky na zdroje v rámci projektu a aktualizovat své dovednosti.  
+    
+ Je nutné nakonfigurovat možnosti v nastavení parametrů pro vaši organizační jednotku, aby mohli uživatelé zobrazovat požadavky na zdroje v rámci projektu a aktualizovat své dovednosti.
   
 > [!NOTE]
 >  Aplikace Project Finder Mobile pracuje pouze s aplikací [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] (nikoli s místními instalacemi).  
@@ -57,10 +60,10 @@ Vaše zdroje mohou pomocí aplikace Project Finder Mobile na svých telefonech o
   
 |Příjemce|Událost|  
 |---------------|-----------|  
-|Vedoucí projektu|-   Když se zdroj zaregistruje do projektu pomocí aplikace Project Finder Mobile.|  
-|Zdroj|-   Když byla práce v rámci projektu, na kterou se zdroj zaregistroval, již vykonána jiným zdrojem.<br />-   Když byl schválen nebo zamítnut jejich požadavek na schválení dovedností.<br />-   Když byl schválen nebo zamítnut jejich požadavek na registraci do projektu.|  
+|Vedoucí projektu|– Zdroj zaregistruje do projektu pomocí aplikace Project Finder Mobile.|  
+|Prostředek|– Práce v rámci projektu, na kterou se zdroj zaregistroval, byla již vykonána jiným zdrojem.<br />– Byl schválen nebo zamítnut jejich požadavek na schválení dovedností.<br />– Byl schválen nebo zamítnut jejich požadavek na registraci do projektu.|  
   
-## <a name="privacy-notice"></a>Oznámení o ochraně osobních údajů  
+## <a name="privacy-notice"></a>Oznámení o ochraně osobních údajů  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  
   
 ### <a name="see-also"></a>Viz také  

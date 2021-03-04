@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073879"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144990"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Použití rezervovatelného zdroje jako cenové dimenze
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Toto téma obsahuje informace o použití rezervovatelného zdroje jako cenové dimenze. Než začnete, pokud jste ještě nevytvořili řešení cenové dimenze, bude nutné vytvořit novou. Pokud již máte řešení cenové dimenze, můžete provést změny v tomto řešení. Pokud jste pro organizaci nevytvořili nové řešení cenové dimenze, dokončete postupy v tématu [Vytvoření vlastních polí a entit](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Přidat do formulářů a zobrazení rezervovatelný zdroj
@@ -52,13 +55,13 @@ Otevřete Průzkumníka řešení pro řešení cenové dimenze a pak klepněte 
 2. Přidat **Rezervovatelný zdroj** do tohoto seznamu cenových dimenzí jako **msdyn_bookableresource**. 
 3. Označte kontext, ve kterém rezervovatelný zdroj pracuje, jako cenovou dimenzi, a nastavte hodnoty **Použitelné pro náklady** a **Použitelné pro prodej**.
 4. V poli **Typ dimenze** vyberte **Založeno na částce**. 
-5. Vyberte prioritu nákladů a prodeje pro rezervovatelný zdroj. Obvykle, pokud je rezervovatelný zdroj zahrnut jako cenová dimenze, má nejvyšší prioritu, takže její nastavení na **1** (nebo **0** , v závislosti na způsobu výpočtu priority) by zaručilo takové chování.
+5. Vyberte prioritu nákladů a prodeje pro rezervovatelný zdroj. Obvykle, pokud je rezervovatelný zdroj zahrnut jako cenová dimenze, má nejvyšší prioritu, takže její nastavení na **1** (nebo **0**, v závislosti na způsobu výpočtu priority) by zaručilo takové chování.
 
 ## <a name="set-up-pricing-dimension-field-names"></a>Nastavení názvů polí cenových dimenzí
 
 Pokud je název pole cenové dimenze v tabulce **Cena role** odlišný od jeho názvu pole v jakýchkoli jiných entitách, kde musí fungovat výchozí cena, musí být záznam cenové dimenze s těmito odlišnými názvy obeznámen.    
-Entita **Členové projektových týmů** má pro rezervovatelný zdroj mírně odlišný název pole ( **msdyn_bookableresourceid** ) od jeho názvu v entitě **Cena role** ( **msdyn_bookableresource** ). Záznam cenové dimenze pro **msydn_bookableresource** s tím musí být obeznámen. 
-1. Chcete-li to provést, poklepejte na řádek v mřížce **Cenové dimenze** , aby se otevřela stránka dimenze **msdyn_bookableresource**.
+Entita **Členové projektových týmů** má pro rezervovatelný zdroj mírně odlišný název pole (**msdyn_bookableresourceid**) od jeho názvu v entitě **Cena role** (**msdyn_bookableresource**). Záznam cenové dimenze pro **msydn_bookableresource** s tím musí být obeznámen. 
+1. Chcete-li to provést, poklepejte na řádek v mřížce **Cenové dimenze**, aby se otevřela stránka dimenze **msdyn_bookableresource**.
 2. Na stránce dimenze klikněte na kartě **Související** na **Názvy polí cenových dimenzí**.
 
  ![Karta Názvy polí cenových dimenzí](media/PD-fieldname.png)

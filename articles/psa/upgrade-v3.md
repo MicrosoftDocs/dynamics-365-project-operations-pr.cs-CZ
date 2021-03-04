@@ -2,6 +2,7 @@
 title: Důležité informace o upgradu – Microsoft Dynamics 365 Project Service Automation verze 2.x nebo 1.x na verzi 3
 description: Toto téma obsahuje důležité informace, které je třeba zvážit při upgradu aplikace Project Service Automation verze 2.x nebo 1.x na verzi 3.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +18,21 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121705"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144146"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Důležité informace o upgradu – PSA verze 2.x nebo 1.x na verzi 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation a Field Service
-Obě aplikace Dynamics 365 Project Service Automation a Dynamics 365 Field Service používají pro plánování zdrojů řešení Universal Resourcing Scheduling (URS). Pokud máte ve své instanci obě aplikace Project Service Automation a Field Service, měli byste plánovat upgrade obou řešení na nejnovější verzi (verze 3.x aplikace Project Service Automation , verze 8.x aplikace Field Service). Při upgradu aplikace Project Service Automation nebo Field Service bude nainstalována nejnovější verze URS, což znamená, že nekonzistentní chování je možné, pokud nejsou řešení Project Service Automation i Field Service ve stejné instanci upgradována na nejnovější verzi.
+Obě aplikace Dynamics 365 Project Service Automation a Dynamics 365 Field Service používají pro plánování zdrojů řešení Universal Resourcing Scheduling (URS). Pokud máte v instanci řešení Project Service Automation i Field Service, aktualizujte je obě na nejnovější verzi. U Project Service Automation je to verze 3.x. U Field Service je to verze 8.x. Upgrade Project Service Automation nebo Field Service nainstaluje nejnovější verzi URS. Pokud řešení Project Service Automation i Field Service ve stejné instanci nejsou upgradována na nejnovější verzi, může dojít k nekonzistentnímu chování.
 
 ## <a name="resource-assignments"></a>Přiřazení zdrojů
 Ve verzích 2 a 1 aplikace Project Service Automation byla přiřazení úkolů uložena jako podřízené úlohy (nazývané také jako řádkové úkoly) v **entitě Úkol** a nepřímo související s entitou **Přiřazení zdroje**. Úkol na řádku byl viditelný v automaticky otevřeném okně přiřazení ve strukturovaném rozpisu prací (WBS).
@@ -42,7 +46,7 @@ Tyto změny ovlivňují upgrade všech existujících projektů, které mají p�
 ### <a name="tasks-assigned-to-named-resources"></a>Úkoly přiřazené k pojmenovaným zdrojům
 Pomocí základní entity úkolu umožňovaly úkoly ve verzích 2 a 1 členům týmu ztvárnit jinou roli, než je jejich výchozí definovaná role. Například Ivaně Kočvářové, které je ve výchozím nastavení přiřazena role Programový manažer, může být přiřazena Vývojář. Ve verzi 3 je role pojmenovaného člena týmu vždy výchozí, takže všechny úkoly, ke kterým je přiřazena Ivana Kočvářová, používají její výchozí roli Programový manažer.
 
-Pokud jste přiřadili zdroj k úkolu mimo jeho výchozí roli ve verzi 2 a 1, při upgradu bude pojmenovanému zdroji přiřazena výchozí role pro všechna přiřazení úkolů, bez ohledu na přiřazení role ve verzi 2. Výsledkem budou rozdíly ve vypočtených odhadech ve verzích 2 nebo 1 a ve verzi 3, protože odhady se počítají na základě role zdroje, nikoli na základě přiřazení úkolu na řádku. Například ve verzi 2 byly Dagmar Stejskalové přiřazeny dva úkoly. Role v úkolu 1 na řádku je Vývojář a pro úkol 2 Programový manažer. Dagmar Stejskalová má výchozí roli Programový manažer.
+Pokud jste přiřadili zdroj k úkolu mimo jeho výchozí roli ve verzi 2 a 1, při upgradu bude pojmenovanému zdroji přiřazena výchozí role pro všechna přiřazení úkolů, bez ohledu na přiřazení role ve verzi 2. Výsledkem tohoto přiřazení budou rozdíly ve vypočtených odhadech ve verzích 2 nebo 1 a ve verzi 3, protože odhady se počítají na základě role zdroje, nikoli na základě přiřazení úkolu na řádku. Například ve verzi 2 byly Dagmar Stejskalové přiřazeny dva úkoly. Role v úkolu 1 na řádku je Vývojář a pro úkol 2 Programový manažer. Dagmar Stejskalová má výchozí roli Programový manažer.
 
 ![Více rolí přiřazených jednomu zdroji](media/upgrade-multiple-roles-02.png)
 
@@ -56,12 +60,12 @@ Při upgradu na verzi 3 jsou úkoly na řádku nahrazeny přiřazeními zdroje 
 
 ![Přiřazení zdrojů](media/resource-assignment-v2-05.png)
 
-Vzhledem k tomu, že odhady jsou založeny na výchozí roli zdroje, mohou se odhady prodeje a nákladů změnit. Všimněte si, že v následující grafice již není zobrazena role **Vývojář**, protože tato role je nyní převzata z výchozí role rezervovatelného zdroje.
+Vzhledem k tomu, že odhady jsou založeny na výchozí roli zdroje, mohou se odhady prodeje a nákladů změnit. V následující grafice již není zobrazena role **Vývojář**, protože tato role je nyní převzata z výchozí role rezervovatelného zdroje.
 
 ![Odhady nákladů pro výchozí role](media/resource-assignment-cost-estimate-06.png)
 ![Odhad prodeje pro výchozí role](media/resource-assignment-sales-estimate-07.png)
 
-Po dokončení upgradu můžete upravit roli člena týmu tak, aby byla jiná než přiřazená výchozí hodnota. Pokud však změníte roli členů týmu, bude změněna u všech jim přiřazených úkolů, protože členům týmu již není dovoleno přiřazovat více rolí ve verzi 3.
+Po dokončení upgradu můžete upravit roli člena týmu tak, aby byla jiná než přiřazená výchozí hodnota. Pokud však změníte roli členů týmu, bude změněna u všech jim přiřazených úkolů, protože členům týmu nelze přiřazovat více rolí ve verzi 3.
 
 ![Aktualizace role zdroje](media/resource-role-assignment-08.png)
 
@@ -102,7 +106,7 @@ Organizační jednotku můžete zobrazit v zobrazení odhadů.
  
 Po dokončení upgradu bude organizační jednotka v úkolu na řádku, který odpovídá obecnému členovi týmu, přidána k obecnému členovi týmu a úkol na řádku bude odebrán. Proto doporučujeme před upgradem vygenerovat nebo znovu vygenerovat tým pro každý projekt, který obsahuje obecné zdroje.
 
-Pro úkoly, které jsou přiřazeny k roli s organizační jednotkou, která se liší od organizační jednotky smluvního projektu, a ve kterých nebyl vygenerován tým, bude při upgradu vytvořen obecný člen týmu pro roli, ale použije se smluvní jednotka projektu pro organizační jednotku člena týmu. S ohledem na příklad Project Z to znamená, že smluvní organizační jednotce Contoso US a úkolům testování plánu projektu v rámci fáze implementace byla přiřazena role Technický poradce s organizační jednotkou přiřazenou společnosti Contoso India. Úkol testování integrace bude dokončen poté, co bude fáze implementace přiřazena k roli Technický poradce. Organizační jednotka je Contoso US a tým nebyl vygenerován. Upgrade vytvoří jednoho obecného člena týmu, technického poradce, který má přiřazené hodiny všech tří úkolů, a organizační jednotku Contoso US, což je smluvní organizační jednotka projektu.   
+Pro úkoly, které jsou přiřazeny k roli s organizační jednotkou, která se liší od organizační jednotky smluvního projektu, a ve kterých nebyl vygenerován tým, bude při upgradu vytvořen obecný člen týmu pro roli, ale použije se smluvní jednotka projektu pro organizační jednotku člena týmu. S ohledem na příklad Project Z byla smluvní organizační jednotce Contoso US a úkolům testování plánu projektu v rámci fáze implementace přiřazena role Technický poradce s organizační jednotkou přiřazenou společnosti Contoso India. Úkol testování integrace bude dokončen poté, co bude fáze implementace přiřazena k roli Technický poradce. Organizační jednotka je Contoso US a tým nebyl vygenerován. Upgrade vytvoří jednoho obecného člena týmu, technického poradce, který má přiřazené hodiny všech tří úkolů, a organizační jednotku Contoso US, což je smluvní organizační jednotka projektu.   
  
 Změna výchozího nastavení různých organizačních jednotek zdroje u nevygenerovaných členů týmu je důvodem, proč doporučujeme vygenerovat nebo znovu vygenerovat tým pro každý projekt, který obsahuje obecné zdroje, ještě před upgradem, aby nedošlo ke ztrátě přiřazení organizační jednotky.
 

@@ -1,6 +1,6 @@
 ---
-title: Odhadněte prodeje a náklady projektu, když rezervovatelný zdroj naplní více rolí v projektu
-description: Toto téma poskytuje informace o tom, jak plze použít cenové dimenze k podpoře cen a výpočtu nákladu pro zdroj, který naplní více rolí v projektu.
+title: Odhad tržeb a nákladů projektu, když rezervovatelný zdroj plní více rolí v projektu
+description: Tento téma obsahuje informace, jak používat cenové dimenze k podpoře vytváření cen a nákladů pro zdroj, který v projektu plní více rolí.
 author: rumant
 manager: kfend
 ms.custom:
@@ -17,16 +17,18 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8ddc827a4170c5576c0a4350b51e6a119094ac50
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073832"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145035"
 ---
-# <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-mulitple-roles-on-a-project"></a>Odhadněte prodeje a náklady projektu, když rezervovatelný zdroj naplní více rolí v projektu 
+# <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Odhad tržeb a nákladů projektu, když rezervovatelný zdroj plní více rolí v projektu 
 
-Projektové společnosti často potřebují, aby jeden zdroj vykonával v projektu více rolí. Každá z těchto rolí by mohla jinout cenu a náklady, což znamená, že čas stejného zdroje na projektu by mohl získat jiný finanční odhad v závislosti na sazbách fakturace a nákladových sazbách pro každou z rolí. Project Service Automation umožňuje nastavení hodnot v záznamu člena týmu pro pojmenovaný zdroj a umožňuje různé přepsání každého z úkolů, ke kterým je člen týmu přiřazen.
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+Projektové společnosti často potřebují, aby jeden zdroj prováděl více rolí v projektu. Každá z těchto rolí by mohla jinou cenu a náklady, což znamená, že čas stejného zdroje na projektu by mohl získat jiný finanční odhad v závislosti na sazbách fakturace a nákladových sazbách pro každou z rolí. Project Service Automation umožňuje nastavení hodnot v záznamu člena týmu pro pojmenovaný zdroj a umožňuje různé přepsání každého z úkolů, ke kterým je člen týmu přiřazen.
 
 Následující příklad vysvětluje, jak jednoduché přepsání této hodnoty umožňuje, aby měl prostředek v projektu více rolí s různými sazbami fakturace a nákladovými sazbami.
 
@@ -45,22 +47,22 @@ Opakujte tyto kroky pro úkol B a ujistěte se, že role a organizační jednotk
 ## <a name="set-up-role-and-organization-unit-for-a-project-task"></a>Nastavte roli a organizační jednotku pro projektový úkol
 
 1. Po vytvoření úlohy A vyberte úkol a poté vyberte **Upravit úkol**.
-2. Na stránce **Podrobnosti úkolu** najděte pole **Role** a **Organizační jednotka** , přidejte hodnoty požadované u zdroje, který by tuto úlohu provedl. 
+2. Na stránce **Podrobnosti úkolu** najděte pole **Role** a **Organizační jednotka**, přidejte hodnoty požadované u zdroje, který by tuto úlohu provedl. 
 
   > [!NOTE]
   > Pokud dokončujete tyto scénáře pomocí ukázkových dat Project Service Automation, vyberte **Poradenský vedoucí** jako roli a **Fabrikam USA** jako organizační jednotku.
 
 3. Vyberte úkol B a potom vyberte položku **Upravit úkol**.
-4. Na stránce **Podrobnosti úkolu** najděte pole **Role** a **Organizační jednotka** , přidejte hodnoty požadované u zdroje, který by tuto úlohu provedl. Ujistěte se, že hodnoty v polích **Role** a **Organizační jednotka** se liší pro úkol B od polí pro úkol A. 
+4. Na stránce **Podrobnosti úkolu** najděte pole **Role** a **Organizační jednotka**, přidejte hodnoty požadované u zdroje, který by tuto úlohu provedl. Ujistěte se, že hodnoty v polích **Role** a **Organizační jednotka** se liší pro úkol B od hodnot pro úkol A. 
 
   > [!NOTE]
   > Pokud dokončujete tyto scénáře pomocí ukázkových dat Project Service Automation, vyberte **Síťový technik** jako roli a **Fabrikam USA** jako organizační jednotku.
 
 5. Uložte a zavřete stránku **Podrobnosti úkolu**. 
 
-## <a name="team-member-and-estimates-behaviour"></a>Člen týmu a odhaduje chování 
+## <a name="team-member-and-estimates-behavior"></a>Člen týmu a odhady chování 
 
-1. Na stránce **Podrobnosti úkolu** u **Člena týmu** vyberte dva obecné členy týmu a poté vyberte **Generovat požadavky**. Tím se vygenerují požadavky na zdroje. 
+1. Na stránce **Podrobnosti úkolu** u **Člena týmu** vyberte dva obecné členy týmu a poté vyberte **Generovat požadavky**. 
 2. Vyberte řádek člena týmu pro **Poradenský vedoucí** a poté vyberte **Rezervovat**. Otevře se plánovací vývěska a rezervuje zdroj k tomuto požadavku.
 3. Vyberte řádek člena týmu pro **Síťového technika** a poté vyberte **Rezervovat**. Otevře se plánovací vývěska a rezervuje stejný zdroj k tomuto požadavku.
 
@@ -69,10 +71,6 @@ V mřížce **Člen týmu** si všimněte, že dva obecné záznamy členů tým
 Když rozbalíte řádek daného záznamu člena týmu, uvidíte v záznamu člena týmu odlišná přiřazení pro obě tyto úlohy. Každý řádek přiřazení má specifické hodnoty úkolu pro **Roli** a **Organizační jednotku**. 
 
 ### <a name="estimates-grid"></a>Mřížka odhadů 
-Když přejdete na mřížku **Odhady** , všimnete si, že obě přiřazení stejného zdroje jsou oceněny odlišně.
+Když přejdete na mřížku **Odhady**, všimnete si, že obě přiřazení stejného zdroje jsou oceněny odlišně.
 Cena za přiřazení zdroje na úkolu A je stanovena pomocí hodnoty atributu **Role** položky **Poradenský vedoucí**. Cena za přiřazení stejného zdroje na úkolu B je stanovena pomocí hodnoty atributu **Role** položky **Síťový technik**.
-
-
-
-
 

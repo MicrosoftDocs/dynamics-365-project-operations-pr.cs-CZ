@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073849"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144855"
 ---
 # <a name="create-custom-fields-and-entities"></a>Vytvoření vlastních polí a entit 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Následující kroky proveďte pokaždé, když chcete na platformě Power Apps vytvořit vlastní sadu možností nebo entitu.  
 Postupy v tomto tématu by měly být prováděny prostřednictvím webového rozhraní Project Service Automation (PSA).
@@ -61,7 +63,7 @@ Můžete vytvořit dvě dimenze založené na sadě možností. Ke sledování c
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Vytvoření dat pro dimenze založené na entitě
 
-Data lze pro dimenze založené na entitě vytvořit ručně nebo pomocí importu aplikace Microsoft Excel nebo volání služby. Pomocí kroků v tomto postupu můžete z dimenze **Standardní funkce** , která je založena na entitě, vytvořit dvě standardní funkce, **Systémový technik** a **Hlavní systémový technik**. Pokud jsou data, která chcete vytvořit, malá, jako v následujícím příkladu, můžete použít standardní formulář.
+Data lze pro dimenze založené na entitě vytvořit ručně nebo pomocí importu aplikace Microsoft Excel nebo volání služby. Pomocí kroků v tomto postupu můžete z dimenze **Standardní funkce**, která je založena na entitě, vytvořit dvě standardní funkce, **Systémový technik** a **Hlavní systémový technik**. Pokud jsou data, která chcete vytvořit, malá, jako v následujícím příkladu, můžete použít standardní formulář.
 
 1. Klikněte v PSA na **Rozšířené hledání**. Vyberte entitu **Standardní funkce** a poté klikněte na **Výsledky**. Zobrazí se všechny řádky v entitě **Standardní funkce**.
 2. Klikněte na **Nový**. Do pole **Název** zadejte „Systémový technik” a poté klikněte na **Uložit**.

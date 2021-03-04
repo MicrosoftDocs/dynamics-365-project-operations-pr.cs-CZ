@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073974"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144585"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Přidat nové vlastní formuláře entit (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Typ pole 
 
-Dynamics 365 Project Service Automation spoléhá na pole **Typ** ( **msdyn\_ordertype** ) entit Příležitost, Nabídka, Objednávka a Faktura, aby rozlišil verze těchto entit **založené na práci** od verzí **založených na položce** a **založených na službě**. Verze těchto entit založené na práci jsou zpracovávány pomocí PSA. Mnoho obchodní logiky na straně klienta a na straně serveru daného řešení závisí na poli **Typ**. Proto je důležité, aby při vytváření entit bylo toto pole inicializováno se správnou hodnotou. Nesprávná hodnota může způsobit nesprávné chování a některá obchodní logika nemusí fungovat správně.
+Dynamics 365 Project Service Automation spoléhá na pole **Typ** (**msdyn\_ordertype**) entit Příležitost, Nabídka, Objednávka a Faktura, aby rozlišil verze těchto entit **založené na práci** od verzí **založených na položce** a **založených na službě**. Verze těchto entit založené na práci jsou zpracovávány pomocí PSA. Mnoho obchodní logiky na straně klienta a na straně serveru daného řešení závisí na poli **Typ**. Proto je důležité, aby při vytváření entit bylo toto pole inicializováno se správnou hodnotou. Nesprávná hodnota může způsobit nesprávné chování a některá obchodní logika nemusí fungovat správně.
 
 ## <a name="automatic-form-switching"></a>Automatické přepínání formulářů
 
@@ -37,9 +39,9 @@ Logika automatického přepínání formulářů se opírá o mapování mezi ho
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>Přidání vlastních formulářů a zapnutí logiky přepínání formulářů
 
-Následující příklad ukazuje, jak přidat vlastní formulář **Mé informace o projektu** , aby fungoval s příležitostmi založenými na práci. Stejný proces se používá k přidání vlastních formulářů tak, aby fungovaly s nabídkami, objednávkami a fakturami.
+Následující příklad ukazuje, jak přidat vlastní formulář **Mé informace o projektu**, aby fungoval s příležitostmi založenými na práci. Stejný proces se používá k přidání vlastních formulářů tak, aby fungovaly s nabídkami, objednávkami a fakturami.
 
-Chcete-li vytvořit vlastní verzi formuláře **Informace o projektu** , postupujte následovně.
+Chcete-li vytvořit vlastní verzi formuláře **Informace o projektu**, postupujte následovně.
 
 1. V entitě Příležitost otevřete formulář **Informace o projektu** a uložte kopii s názvem **Mé informace o projektu**.
 2. Otevřete nový formulář a potom ve vlastnostech zkontrolujte, zda jsou k dispozici inicializační skripty z formuláře **Informace o projektu**. 
@@ -47,7 +49,7 @@ Chcete-li vytvořit vlastní verzi formuláře **Informace o projektu** , postup
     > [!IMPORTANT]
     > Neodstraňujte skripty. V opačném případě může dojít k nesprávné inicializaci některých dat.
 
-3. Ověřte, zda je pole **Typ** ( **msdyn\_ordertype** ) ve formuláři k dispozici. 
+3. Ověřte, zda je pole **Typ** (**msdyn\_ordertype**) ve formuláři k dispozici. 
 
     > [!IMPORTANT]
     > Toto pole neodstraňujte. V opačném případě dojde k selhání inicializačních skriptů.
