@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f8107a660f9993c7b6a32d69047a81fb7e0abef8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073844"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151380"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturace v Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -84,11 +86,11 @@ Chcete-li nakonfigurovat spuštění automatické fakturace v PSA, postupujte n�
 5. Vyberte **ProcessRunCaller** a potom vyberte **Přidat**.
 6. V dalším dialogovém okně vyberte **OK**. Po pracovním postupu **Spánek** následuje pracovní postup **Zpracovat**.
 
-    Pracovní postup **ProcessRunner** můžete také vybrat v kroku 5. Když potom vyberete **OK** , bude pracovní postup **Zpracovat** následován pracovním postupem **Spánek**.
+    Pracovní postup **ProcessRunner** můžete také vybrat v kroku 5. Když potom vyberete **OK**, bude pracovní postup **Zpracovat** následován pracovním postupem **Spánek**.
 
 Pracovní postupy **ProcessRunCaller** a **ProcessRunner** vytvářejí faktury. **ProcessRunCaller** volá **ProcessRunner**. **ProcessRunner** je pracovní postup, který skutečně vytváří faktury. Prochází všemi řádky smluv, pro které musí být vytvořeny faktury, a vytváří faktury pro tyto řádky. Aby určil řádky smluv, pro které musí být vytvořeny faktury, vyhledává úloha data spuštění faktury pro řádky smluv. Jestliže řádky smluv, které patří k jedné smlouvě, mají stejné datum spuštění faktury, budou transakce sloučeny do jedné faktury, která má dva řádky faktury. Pokud neexistují žádné transakce pro vytvoření faktur, úloha přeskočí vytvoření faktury.
 
-Proces **ProcessRunner** po svém dokončení volá proces **ProcessRunCaller** , poskytne čas ukončení a je zavřen. Proces **ProcessRunCaller** poté spustí časovač, který běží po dobu 24 hodin od zadaného času ukončení. Po doběhnutí časovače je **ProcessRunCaller** uzavřen.
+Proces **ProcessRunner** po svém dokončení volá proces **ProcessRunCaller**, poskytne čas ukončení a je zavřen. Proces **ProcessRunCaller** poté spustí časovač, který běží po dobu 24 hodin od zadaného času ukončení. Po doběhnutí časovače je **ProcessRunCaller** uzavřen.
 
 Úloha dávkového zpracování pro vytváření faktur je opakující se úloha. Pokud je tento dávkový proces spuštěn vícekrát, vytvoří se více instancí této úlohy a způsobí chyby. Proto byste tento dávkový proces měli spustit pouze jednou a restartovat ho, pouze pokud přestane běžet.
 
@@ -103,7 +105,7 @@ Když vytváříte koncept projektové faktury, jsou všechny nefakturované pro
 - Upravit a přizpůsobit množství a typ fakturace.
 - Přímo přidat čas, náklady a poplatky jako transakce na faktuře. Tuto funkci můžete použít v případě, že je řádek faktury namapován na řádek smlouvy, který umožňuje tyto třídy transakcí.
 
-Chcete-li fakturu potvrdit, vyberte **Potvrdit**. Akce Potvrdit představuje jednosměrnou akci. Když vyberete **Potvrdit** , systém nastaví fakturu jen pro čtení a vytvoří skutečné fakturované hodnoty z každé podrobnosti řádku faktury pro každý řádek faktury. Pokud podrobnosti řádku faktury odkazují na nefakturovanou skutečnou hodnotu prodeje, tak systém také stornuje nefakturovanou skutečnou hodnotu prodeje. (Všechny podrobnosti řádku faktury vytvořené z časových nebo výdajových záznamů budou odkazovat na nefakturovanou skutečnou hodnotu prodeje.) Systémy integrace hlavní knihy mohou toto storno použít ke zrušení probíhající práce (WIP) pro účetní účely.
+Chcete-li fakturu potvrdit, vyberte **Potvrdit**. Akce Potvrdit představuje jednosměrnou akci. Když vyberete **Potvrdit**, systém nastaví fakturu jen pro čtení a vytvoří skutečné fakturované hodnoty z každé podrobnosti řádku faktury pro každý řádek faktury. Pokud podrobnosti řádku faktury odkazují na nefakturovanou skutečnou hodnotu prodeje, tak systém také stornuje nefakturovanou skutečnou hodnotu prodeje. (Všechny podrobnosti řádku faktury vytvořené z časových nebo výdajových záznamů budou odkazovat na nefakturovanou skutečnou hodnotu prodeje.) Systémy integrace hlavní knihy mohou toto storno použít ke zrušení probíhající práce (WIP) pro účetní účely.
 
 ### <a name="correct-a-confirmed-psa-invoice"></a>Oprava potvrzené faktury PSA
 

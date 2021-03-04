@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073864"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150750"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Použití kategorie transakce jako cenové dimenze
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Toto téma ukazuje, jak používat kategorii transakce jako cenovou dimenzi. Než začnete, pokud jste ještě nevytvořili řešení cenové dimenze, bude nutné vytvořit novou. Pokud již máte řešení cenové dimenze, můžete provést změny v tomto řešení. Pokud jste pro organizaci nevytvořili nové řešení cenové dimenze, dokončete postupy v tématu [Vytvoření vlastních polí a entit](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Přidání kategorie transakce do formulářů a zobrazení
@@ -48,5 +51,5 @@ Následující tabulka obsahuje úplný seznam připravených formulářů a zo
 
 1. Ve webovém rozhraní přejděte na položky **Project Service** > **Nastavení** > **Parametry**. 
 2. Na stránce **Parametry** na kartě **Cenové dimenze založené na částce** si všimněte, že mřížka na této kartě zobrazuje záznamy v entitě **Cenové dimenze**.
-3. Do tohoto seznamu přidejte **Kategorii transakce** a pole **Použitelné na náklady** a  **Použitelné na prodej** nastavte na **Ano**
+3. Do tohoto seznamu přidejte **Kategorii transakce** a pole **Použitelné na náklady** a **Použitelné na prodej** nastavte na **Ano**
 4. V poli **Typ dimenze** vyberte možnost **Založeno na částce** a pak vyberte prioritu pro **Kategorii transakce** související s náklady a prodejem.
