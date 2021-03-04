@@ -3,6 +3,7 @@ title: Proč je výchozí cena skutečných prodejních výdajů nastavena na nu
 description: Následující tři kontroly vám pomohou vyřešit, proč je cena skutečných prodejních výdajů nastavena na nulu.
 author: rumant
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c2270b07b6f8765a6ec1f506fe1767a1841950b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d4910d3727085a45036f3b438ecd69abc3e99836
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122065"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146295"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Proč je výchozí cena skutečných prodejních výdajů nastavena na nulu?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -35,7 +38,7 @@ Tyto často kladené dotazy se týkají skutečných výdajů, kde je třída tr
 
 Najděte projekt z oblasti aktuálních nákladu a přejděte na stránku projektu. Následně přejděte na kartu Prodej. V mřížce řádků smlouvy projektu klikněte na odkaz v poli Projektová smlouva. Otevře se stránka Projektová smlouva. Na stránce Projektová smlouva přejděte na kartu Ceníky projektu. Zkontrolujte, zda je zde připojený alespoň jeden ceník.
 
-Pokud v mřížce Ceníky projektu Projektové smlouvy není připojen žádný ceník, proveďte následující:
+Pokud v mřížce Ceníky projektu Projektové smlouvy není připojen žádný ceník:
 
 - Připojte ceník k mřížce Ceníky projektu. Ceníky, které je zde povoleno připojit, by měly mít kontextové pole nastaveno na Prodej a pole měny v ceníku by mělo odpovídat poli měny v položce Projektová smlouva. Po provedení požadovaných oprav znovu vytvořte položku výdajů, schvalte ji a ověřte, že nefakturované prodeje ukazují platnou cenu.
 - Pokud máte v mřížce Ceníky projektu Projektové smlouvy připojen jeden nebo více ceníků, přejděte ke kontrole 2.
@@ -47,7 +50,7 @@ Aby bylo možné považovat daný ceník projektových služeb za ceník definuj
 - Začněte kontrolou, zda není počáteční a koncové datum na kartě Obecné pro přiložené ceníky prázdné. Pokud je počáteční a koncové datum ve výše uvedených cenících prázdné, odhalili jste problém. 
 - Poznamenejte si pole Počáteční datum vašich skutečných prodejních výdajích a zkontrolujte, zda jsou všechny uvedené ceníky pro toto datum platné. Například datum skutečného výdaje by měl spadat mezi počáteční datum a koncové datum v ceníku. 
     - Pokud pro datum skutečného prodejního výdaje neexistuje žádný ceník, odhalili jste problém. Upravte počáteční a koncové datum ceníku pro zajištění, že ceník zahrnuje datum skutečného výdaje. 
-    - Pokud pro datum skutečného prodejního výdaje existuje více ceníků, odhalili jste problém. Můžete to vyřešit úpravou počátečních a koncových dat ceníků tak, aby pouze jeden ceník pokrýval datum skutečného výdaje. 
+    - Pokud pro datum skutečného prodejního výdaje existuje více ceníků, odhalili jste problém. Upravte počáteční a koncová data ceníků tak, aby pouze jeden ceník pokrýval datum skutečného výdaje. 
     - Pokud existuje pouze jeden ceník, který se vztahuje k tomuto datu skutečného výdaje, přesuňte se na kontrolu 3.
 Po provedení požadovaných oprav znovu vytvořte položku výdajů, schvalte ji a ověřte, že nefakturované prodeje ukazují platnou cenu.
 
@@ -55,7 +58,7 @@ Po provedení požadovaných oprav znovu vytvořte položku výdajů, schvalte j
 
 Pokud jste úspěšně dokončili kontrolu 1 a 2, nyní byste měli mít pouze jeden ceník pro příslušný projekt, který platí pro datum skutečných prodejních nákladů. Otevřete ceník tohoto projektu a přejděte na kartu Kategorie cen. Ujistěte se, že je pro konkrétní kategorii výdajů u skutečného výdaje řádek v mřížce .
  
-- Pokud řádek neexistuje, odhalili jste problém. Vytvořte řádek v mřížce Kategorie cen pro kategorii svého skutečného nákladu. Jakmile to provedete, znovu vytvořte položku výdajů, schvalte ji a ověřte, že nefakturované prodeje ukazují platnou cenu. 
+- Pokud řádek neexistuje, odhalili jste problém. Vytvořte řádek v mřížce Kategorie cen pro kategorii svého skutečného nákladu. Poté znovu vytvořte položku výdajů, schvalte ji a ověřte, že nefakturované prodeje ukazují platnou cenu. 
 - Pokud pro konkrétní kategorii výdajů skutečného výdaje řádek v mřížce Kategorie cen existuje, zkontrolujte, zda obsahuje platnou cenu.
 
 Chcete-li pochopit, co je platná cena, použijte tyto metody:
@@ -66,6 +69,6 @@ Chcete-li pochopit, co je platná cena, použijte tyto metody:
 
 Pokud není nastavení ceny pro kategorii výdajů platné, odhalili jste problém. Řešením je úprava řádku kategorie cen na platnou cenu pro kategorii výdajů podle výše uvedených pravidel. Jakmile to provedete, znovu vytvořte položku výdajů, schvalte ji a následně zkontrolujte, zda nefakturované prodeje získávají platnou cenu.
 
-Pokud i přesto nevidíte platnou cenu vašich skutečných výdajů prodeje po provedení tří výše uvedených kontrol, odešlete prosím lístek podpory.
+Pokud i přesto nevidíte platnou cenu vašich skutečných výdajů prodeje po provedení tří výše uvedených kontrol, odešlete lístek podpory.
 
 
