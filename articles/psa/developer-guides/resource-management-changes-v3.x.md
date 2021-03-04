@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073971"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148635"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Změny správy zdrojů (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Části tohoto tématu poskytují informace o změnách, které byly provedeny v oblasti správy zdrojů Dynamics 365 Project Service Automation verze 3.x.
 
 ## <a name="project-estimates"></a>Odhady projektů
 
-Místo toho, aby byly odhady projektu založeny na entitě **msdyn\_** projecttask **(Projektový úkol)** , jsou založeny na entitě **msdyn\_resourceassignment** ( **Přiřazení zdroje** ). Přiřazení zdrojů se stala „zdrojem pravdy” pro plánování úkolů a tvorbu cen.
+Místo toho, aby byly odhady projektu založeny na entitě **msdyn\_** projecttask **(Projektový úkol)**, jsou založeny na entitě **msdyn\_resourceassignment** (**Přiřazení zdroje**). Přiřazení zdrojů se stala „zdrojem pravdy” pro plánování úkolů a tvorbu cen.
 
 ## <a name="line-tasks"></a>Úkoly na řádku
 
@@ -65,7 +67,7 @@ V PSA 3.x je nepřiřazené přiřazení přiřazení, které je přiřazeno čl
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Pole plánování entity Projektový úkol
 
-Pole v entitě **\_msdyn projecttask** byla vyřazena nebo přesunuta do entity **msdyn\_resourceassignment** nebo je na ně nyní odkazováno z entity **msdyn\_projectteam** ( **Člen projektového týmu** ).
+Pole v entitě **\_msdyn projecttask** byla vyřazena nebo přesunuta do entity **msdyn\_resourceassignment** nebo je na ně nyní odkazováno z entity **msdyn\_projectteam** (**Člen projektového týmu**).
 
 | Vyřazené pole v msdyn\_projecttask (Projektový úkol) | Nové pole v msdyn\_resourceassignment (Přiřazení zdroje) | Komentář |
 |---|---|---|
@@ -77,7 +79,7 @@ Pole v entitě **\_msdyn projecttask** byla vyřazena nebo přesunuta do entity 
 
 ## <a name="schedule-contour"></a>Průběhová křivka plánu
 
-Průběhová křivka plánu je uložena v poli **Naplánovaná práce** ( **msdyn\_plannedwork** ) jednotlivých entit **Přiřazení zdroje** ( **msdyn\_resourceassignment** ).
+Průběhová křivka plánu je uložena v poli **Naplánovaná práce** (**msdyn\_plannedwork**) jednotlivých entit **Přiřazení zdroje** (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Struktura
 
@@ -139,7 +141,7 @@ V tomto příkladu je úkol přiřazen dvěma zdrojům a je automaticky napláno
 
 ## <a name="pricing-dimensions"></a>Cenové dimenze
 
-V PSA 3.x byla z entity **msdyn\_projecttask** odebrána pole cenových dimenzí specifická pro konkrétní zdroj (jako např. **Role** a **Organizační jednotka** ). Tato pole lze nyní načíst z odpovídajícího člena projektového týmu ( **msdyn\_projectteam** ) přiřazení zdroje ( **msdyn\_resourceassignment** ) při generování odhadů projektu. Nové pole **msdyn\_organizationalunit** bylo přidáno do entity **msdyn\_projectteam**.
+V PSA 3.x byla z entity **msdyn\_projecttask** odebrána pole cenových dimenzí specifická pro konkrétní zdroj (jako např. **Role** a **Organizační jednotka**). Tato pole lze nyní načíst z odpovídajícího člena projektového týmu (**msdyn\_projectteam**) přiřazení zdroje (**msdyn\_resourceassignment**) při generování odhadů projektu. Nové pole **msdyn\_organizationalunit** bylo přidáno do entity **msdyn\_projectteam**.
 
 | Vyřazené pole v msdyn\_projecttask (Projektový úkol) | Pole z modulu msdyn\_projectteam (Člen projektového týmu), které je použito místo |
 |---|---|

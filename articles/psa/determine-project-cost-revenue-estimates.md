@@ -3,6 +3,7 @@ title: Určení odhadu nákladů a výnosů projektu
 description: Postup určení odhadu nákladů a výnosů projektu v Project Service
 author: ruhercul
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 66fa8f4374caa08b07663cc9d261bfff8ce30c87
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a91e988632d2b2cdebfe7fd17516c5d6886728fc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133000"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148815"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Určení odhadu nákladů a výnosů projektu 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -46,7 +49,7 @@ Pokud kombinace rolí a organizační jednotky nevede ke zjištění nákladové
  Všechny částky nákladů na řádcích odhadu nákladů projektu jsou v měně vlastnící organizační jednotky.  
   
 ## <a name="sales-price-defaulting"></a>Výchozí nastavení prodejní ceny  
-Prodejní ceník vychází z entity prodeje, ke které je projekt připojen. Prodejní ceník přidružený k nabídce nebo smlouvě určuje prodejní cenu jednotky. Pokud má nabídka nebo smlouva vlastní ceník, bude se jednat o výchozí prodejní ceník pro odhady projektu. Pokud neexistuje žádné přidružení entity prodeje, výchozí prodejní ceník konfigurovaný v nastavení parametrů bude výchozím prodejním ceníkem pro projekt. Každý řádek odhadu má přidruženu organizační jednotku zdroje, čímž značí organizační jednotku, ze které budou zdroje rezervovány pro dokončení úkolu. Prodejní cena pro přidružené role je určena prostřednictvím hledání kombinace role, jednotky a organizační jednotky zdroje v prodejním ceníku za účelem získání správné prodejní ceny pro datum platnosti řádků odhadu.  
+Prodejní ceník vychází z entity prodeje, ke které je projekt připojen. Prodejní ceník přidružený k nabídce nebo smlouvě určuje prodejní cenu jednotky. Pokud má nabídka nebo smlouva vlastní ceník, jedná se o výchozí prodejní ceník pro odhady projektu. Pokud neexistuje žádné přidružení entity prodeje, výchozí prodejní ceník konfigurovaný v nastavení parametrů bude výchozím prodejním ceníkem pro projekt. Každý řádek odhadu má přidruženu organizační jednotku zdroje, čímž značí organizační jednotku, ze které budou zdroje rezervovány pro dokončení úkolu. Prodejní cena pro přidružené role je určena prostřednictvím hledání kombinace role, jednotky a organizační jednotky zdroje v prodejním ceníku za účelem získání správné prodejní ceny pro datum platnosti řádků odhadu.  
   
 Pokud kombinace role, jednotky a organizační jednotky zdroje nevede ke zjištění prodejní ceny z prodejního ceníku, systém nebude brát v úvahu jednotku a vyhledá kombinaci role a organizační jednotky zdroje. Pokud je zjištěna prodejní cena, bude převedena na jednotku, kterou jste zvolili na řádku odhadu prodeje.  
   
@@ -58,7 +61,7 @@ Zobrazení odhadů má zobrazení mřížky, které zobrazuje plochou mřížku 
 V zobrazení časového uspořádání pro odhady projektů jsou data odhadů ze zobrazení mřížky ve výchozím nastavení uspořádána dle role a zobrazují šíření dat odhadu podél časové osy ve vybraném časovém období.  
   
 ## <a name="effort-estimate-allocation-based-on-task-mode"></a>Přidělení odhadu úsilí na základě režimu úkolu  
-V zobrazení časového uspořádání je celkové úsilí odhadované pro úkol distribuováno přidělením určitého počtu hodin úsilí na jednotku časového období zvoleného časového období. V projektových službách režim úkolu určuje, jak bude úsilí přiděleno v rámci celé doby trvání úkolu. Používají se dva druhy přidělení – rovnoměrné přidělení a přidělení na základě pracovní doby  
+V zobrazení časového uspořádání je celkové úsilí odhadované pro úkol distribuováno přidělením určitého počtu hodin úsilí na jednotku časového období zvoleného časového období. V projektových službách režim úkolu určuje, jak bude úsilí přiděleno v rámci celé doby trvání úkolu. Používají se dva druhy přidělení – rovnoměrné přidělení a přidělení na základě pracovní doby. 
   
 ## <a name="work-hours-based-allocation"></a>Přidělení na základě pracovní doby  
 Režim automatického plánování úkolu určuje, že pro počet zdrojů odhadovaných pro úkol se odhaduje, že budou využity po celou pracovní dobu za den. To platí také při přidělování úsilí jeho rozdělením na celou dobu trvání úkolů v zobrazení časového uspořádání. Například pro časové měřítko „Den“ platí, že pro úkol, u kterého se očekává dokončení jedním zdrojem, nesmí úsilí přidělené na den překročit pracovní dobu za den definovanou v kalendáři projektu. Proto přidělení úsilí vždy zajišťuje odhad, že prostředky budou využity po celý den.  
@@ -69,12 +72,12 @@ Režim ručního plánování úkolu neřeší pracovní dobu, kalendář projek
 Tímto způsobem režim úkolu definovaný v úkolu určuje rozdělení úsilí nebo přidělení úsilí na jednotku časového období do časovém uspořádání odhadů.  
   
 ## <a name="grouping-and-time-phasing-options"></a>Možnosti seskupení a časového uspořádání  
-Toto zobrazení vám pomáhá pochopit rozložení odhadů úsilí, nákladů a prodeje za den, týden, měsíc nebo rok. Možnost Seskupit podle umožňuje uspořádání dat odhadů do dvou různých dimenzích: kategorie a zdroje. V zobrazení mřížky a zobrazení časového uspořádání lze vybrat pole, která chcete zobrazit. Součty pro jednotlivé časové úseky se zobrazí v dolní části a značí celkové odhadované úsilí, náklady a prodeje pro den, týden, měsíc nebo rok.  
+Toto zobrazení vám pomáhá pochopit rozložení odhadů úsilí, nákladů a prodeje za den, týden, měsíc nebo rok. Možnost Seskupit podle umožňuje uspořádání dat odhadů do dvou různých dimenzích: kategorie a zdroje. V zobrazení mřížky a zobrazení časového uspořádání lze vybrat pole, která chcete zobrazit. Součty pro jednotlivé časové úseky se zobrazí v dolní části a značí celkové odhadované úsilí, náklady a prodeje za den, týden, měsíc nebo rok.  
   
-Výchozí nastavení nákladové a prodejní ceny bere v potaz datum platnosti – když se změní sazby pro role, bude přehlednější v zobrazení časového uspořádání při zobrazování dat odhadu uspořádaných dle „zdroje“ a časového uspořádání dle týdně.  
+Výchozí nákladová cena a prodejní cena jsou platné podle data. Když se změní sazby pro role, bude přehlednější v zobrazení časového uspořádání při zobrazování dat odhadu uspořádaných dle „zdroje“ a časového uspořádání dle týdně.  
   
 ## <a name="expense-estimates"></a>Odhady výdajů  
-Veškeré výdaje, které vzniknou v projektu a které nesouvisí přímo s vykonanou prací, lze zaznamenat do odhadů projektu v zobrazení mřížky. To lze provést pomocí možnosti **Přidat odhad výdajů** v zobrazení mřížky. Odhady výdajů lze zaznamenat pro určité úkoly nebo pro celý projekt. Můžete zvolit kategorie výdajů na těchto řádcích a vybrat nezávazné datum očekávaného vzniku výdaje. Pokud přidružené nákladové a prodejní ceníky mají výchozí ceny nebo procenta přirážky definované pro kategorie výdajů, budou tyto hodnoty při přidružení uvedeny na řádku odhadu.  
+Veškeré výdaje, které vzniknou v projektu a které nesouvisí přímo s vykonanou prací, lze zaznamenat do odhadů projektu v zobrazení mřížky. To lze provést pomocí možnosti **Přidat odhad výdajů** v zobrazení mřížky. Je možné zaznamenat odhady výdajů pro určitý úkol nebo pro celý projekt. Na těchto řádcích můžete vybrat kategorie výdajů a zvolit předběžné datum, kdy se očekává vznik výdajů. Pokud přidružené nákladové a prodejní ceníky mají výchozí ceny nebo procenta přirážky definované pro kategorie výdajů, budou tyto hodnoty při přidružení uvedeny na řádku odhadu.  
   
 ### <a name="see-also"></a>Viz také  
  [Příručka pro projektového manažera](../psa/project-manager-guide.md)
