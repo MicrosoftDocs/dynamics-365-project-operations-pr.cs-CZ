@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7eb9101352afd27b527bf6b8acc6f92198f44ea
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073945"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270850"
 ---
 # <a name="create-a-project-team"></a>Vytvoření projektového týmu
 
 [!include [banner](../includes/banner.md)]
 
-Chce-li použít role, které byly předtím nastaveny v projektu, musí projektový manažer přidružit role k projektu. Projektu lze přiřadit více rolí. Aby nedocházelo k nejasnostem, jsou tyto role během rezervace automaticky označeny. Například pokud projektový manažer vyžaduje tři softwarové inženýry, jsou automaticky generovány tři role softwarového inženýra, které jsou označeny štítky **softwarový inženýr 1** , **softwarový inženýr 2** a **softwarový inženýr 3**. Pokud již byly charakteristiky rolí nastaveny pro roli, použijí se jako filtr během hledání zdrojů. Podle potřeby lze přidat další charakteristiky k dalšímu upřesnění vyhledávání.
+Chce-li použít role, které byly předtím nastaveny v projektu, musí projektový manažer přidružit role k projektu. Projektu lze přiřadit více rolí. Aby nedocházelo k nejasnostem, jsou tyto role během rezervace automaticky označeny. Například pokud projektový manažer vyžaduje tři softwarové inženýry, jsou automaticky generovány tři role softwarového inženýra, které jsou označeny štítky **softwarový inženýr 1**, **softwarový inženýr 2** a **softwarový inženýr 3**. Pokud již byly charakteristiky rolí nastaveny pro roli, použijí se jako filtr během hledání zdrojů. Podle potřeby lze přidat další charakteristiky k dalšímu upřesnění vyhledávání.
 
 Nastavení zobrazení lze také přizpůsobit tak, aby poskytovalo lepší přehled o dostupnosti zdrojů. K dispozici jsou možnosti zobrazení hodinové, denní, týdenní, měsíční, čtvrtletní a roční dostupnosti. K dispozici je také možnost zobrazit dostupnou a zbývající kapacitu zdrojů. Tato možnost je užitečná pro správu času, když odhadujete dostupný čas pro aktivity nebo dostupnost zdrojů.
 
@@ -37,7 +37,7 @@ Projektový manažer může vybrat roli na stránce a poté, pokud existuje dost
 
 [![Seznam projektového týmu, který zahrnuje role i skutečné zdroje](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
-Projektový manažer má různé možnosti rezervace zdroje pro projekt, například **Zbývající kapacita** , **Plná kapacita** , **Procento kapacity** a **Zadat hodiny**. Tyto možnosti rezervace lze kdykoli zrušit, pokud se změní přiřazení zdrojů. Podporovány jsou dva typy rezervací:
+Projektový manažer má různé možnosti rezervace zdroje pro projekt, například **Zbývající kapacita**, **Plná kapacita**, **Procento kapacity** a **Zadat hodiny**. Tyto možnosti rezervace lze kdykoli zrušit, pokud se změní přiřazení zdrojů. Podporovány jsou dva typy rezervací:
 
 - **Závazná rezervace** – Rezervace zdroje byla schválena a potvrzena pro práci na zakázce po stanovenou dobu.
 - **Předběžná rezervace** – Rezervace zdrojů byly pro práci na zakázce po stanovenou dobu nastaveny předběžně.

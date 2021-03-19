@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176558"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274315"
 ---
 # <a name="configure-automatic-invoice-creation---lite"></a>Konfigurace automatického vytváření faktur – omezená
  
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
-V Dynamics 365 Project Operations můžete nakonfigurovat automatické vytváření faktur. Systém vytvoří koncept proforma faktury na základě rozpisu faktury pro každou projektovou smlouvu a řádek smlouvy. Rozpisy faktur jsou konfigurovány na úrovni řádku smlouvy. Každý řádek ve smlouvě může mít odlišný rozpis faktury nebo stejný rozpis faktury může být obsažen v každém řádku smlouvy.
+V Dynamics 365 Project Operations můžete konfigurovat automatické vytváření faktur. Systém vytvoří koncept proforma faktury na základě rozpisu faktury pro každou projektovou smlouvu a řádek smlouvy. Rozpisy faktur jsou konfigurovány na úrovni řádku smlouvy. Každý řádek ve smlouvě může mít odlišný rozpis faktury nebo stejný rozpis faktury může být obsažen v každém řádku smlouvy.
 
 Když vytvoříte fakturu, systém vždy vytvoří alespoň jednu fakturu na projektovou smlouvu. V některých případech může být vytvořeno více faktur.
 

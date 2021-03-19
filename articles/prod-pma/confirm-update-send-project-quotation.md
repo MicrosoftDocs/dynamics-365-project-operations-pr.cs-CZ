@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: f9d76c65cb6732a96cd0bd6c4c36a2a73a65a2b6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7794f9b620165b3ce914e42693faa792e3918854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073918"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270805"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>Potvrzení, aktualizace a odeslání projektové nabídky
 
@@ -39,7 +39,7 @@ Stávající nabídku projektu můžete zaslat k potvrzení e-mailem nebo jako t
 2. Na stránce **Nabídka projektu** vyberte nabídku, kterou chcete odeslat k potvrzení. 
 3. Na kartě **Následná reakce** ve skupině **Generovat** vyberte **Potvrdit**. 
 4. Na stránce **Potvrdit nabídku** nastavte požadované parametry. Chcete-li například vytisknout potvrzení, pod možností **Vytisknout** zapněte **Potvrzení tisku** a potom vyberte **OK**.
-5. Na stránce **Odeslat nabídku** vyberte **Možnosti** a na stránce **Nastavení cíle tisku** vyberte, zda chcete odeslat nabídku na **Obrazovku** , **E-mail** , **Soubor** , **Tiskový archiv** , nebo **Tiskárnu** , a poté proveďte požadované úpravy v oblasti **Specifikace** pro směrování nabídky.
+5. Na stránce **Odeslat nabídku** vyberte **Možnosti** a na stránce **Nastavení cíle tisku** vyberte, zda chcete odeslat nabídku na **Obrazovku**, **E-mail**, **Soubor**, **Tiskový archiv**, nebo **Tiskárnu**, a poté proveďte požadované úpravy v oblasti **Specifikace** pro směrování nabídky.
 6. Na stránce **Nastavení cíle tisku** vyberte položku **OK**.  
 
 ## <a name="update-a-project-quotation"></a>Aktualizace projektové nabídky

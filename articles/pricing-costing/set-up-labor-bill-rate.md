@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180680"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274810"
 ---
 # <a name="set-up-labor-bill-rates"></a>Nastavení fakturačních sazeb za práci
 
 _ **Platí pro:** Project Operations u scénářů založených na zdrojích / položkách, které nejsou na skladě
 
-Každý ceník obsahuje sadu cen rolí nebo pracovních sazeb, které jsou účinné pro kontext a datum účinnosti uvedené v záhlaví ceníku. Pracovní sazby za čas v Dynamics 365 Project Operations lze nastavit pouze v jedné měně, což je měna v záhlaví ceníku.
+Každý ceník obsahuje sadu cen rolí nebo pracovních sazeb, které jsou účinné pro kontext a datum účinnosti uvedené v záhlaví ceníku. Sazby faktur za čas v Dynamics 365 Project Operations lze nastavit pouze v jedné měně, což je měna v záhlaví ceníku.
 
 1. Chcete-li nastavit fakturační sazby za práci za prodejní ceník, vytvořte ceník na základě záhlaví ceníku. 
 2. Na kartě **Ceny rolí** vyberte v podmřížce položku **+ Nová cena role**. 

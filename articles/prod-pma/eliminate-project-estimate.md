@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073833"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270670"
 ---
 # <a name="eliminate-a-project-estimate"></a>Eliminace odhadu projektu
 
@@ -37,15 +37,15 @@ Chcete-li eliminovat projekt odhadu, musí být hotový. Následující kroky vy
 2. Na kartě **Spravovat** vyberte **Odhady** a na stránce **Odhad** vyberte **Eliminovat**.
 3. Na stránce **Eliminovat odhad** stránka na kartě **Obecné** nastavte následující možnosti:
 
-   - **Kód období** : Vyberte kód období a vyberte příslušné projekty odhadu. 
-   - **Datum odhadu** : Vyberte příslušné datum odhadu pro eliminaci.
-   - **Eliminovat s varováními WIP** : Tuto možnost povolte, chcete-li uvádět oznámení, když bude eliminován odhad, který je spojen s nedokončenou prací (WIP). Pokud tato možnost není povolena, eliminace nemůže pokračovat, pokud existují neodhadnuté transakce. 
+   - **Kód období**: Vyberte kód období a vyberte příslušné projekty odhadu. 
+   - **Datum odhadu**: Vyberte příslušné datum odhadu pro eliminaci.
+   - **Eliminovat s varováními WIP**: Tuto možnost povolte, chcete-li uvádět oznámení, když bude eliminován odhad, který je spojen s nedokončenou prací (WIP). Pokud tato možnost není povolena, eliminace nemůže pokračovat, pokud existují neodhadnuté transakce. 
    > [!NOTE]
    > Tato možnost je k dispozici pouze v případě, že je na projekt odhadu použita eliminace. Není k dispozici, pokud používáte pravidelné zveřejňování účtování. Toto nastavení funguje s nastavením na kartě **Odhad** na stránce **Parametry projektu** ve skupině polí **Povolit eliminaci, když existují neodhadnuté transakce**.
-   - **Nastavit fázi na Dokončeno** : Povolením této možnosti nastavíte fázi odhadu projektu na **Hotovo** po spuštění eliminace.
-   - **Vytisknout seznam odhadů** : Vyberte informace, které mají být zahrnuty při tisku seznamu odhadů.
-   - **Zobrazit Infolog** : Povolením této možnosti zobrazíte Infolog.
-   - **Datum zaúčtování** : Vyberte datum zaúčtování odhadu do hlavní knihy.
+   - **Nastavit fázi na Dokončeno**: Povolením této možnosti nastavíte fázi odhadu projektu na **Hotovo** po spuštění eliminace.
+   - **Vytisknout seznam odhadů**: Vyberte informace, které mají být zahrnuty při tisku seznamu odhadů.
+   - **Zobrazit Infolog**: Povolením této možnosti zobrazíte Infolog.
+   - **Datum zaúčtování**: Vyberte datum zaúčtování odhadu do hlavní knihy.
 
 4.  Vyberte **OK**.
 5. Po dokončení procesu eliminace se zobrazí eliminovaný projekt odhadu se zápornou hodnotou. 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073806"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270760"
 ---
 # <a name="intercompany-invoicing"></a>Mezipodniková fakturace
 
@@ -31,7 +31,7 @@ ms.locfileid: "4073806"
 
 Tento článek poskytuje informace a příklady mezipodnikové fakturace pro projekty.
 
-Vaše organizace může mít více divizí, dceřiných společností a dalších právnických subjektů, které si navzájem přenášejí produkty a služby pro účely projektů. Právnická osoba, který poskytuje službu nebo produkt, se nazývá *Právnická osoba poskytující půjčku* , a právnická osoba, která přijímá službu nebo produkt, se nazývá *Právnická osoba přijímající půjčku*. 
+Vaše organizace může mít více divizí, dceřiných společností a dalších právnických subjektů, které si navzájem přenášejí produkty a služby pro účely projektů. Právnická osoba, který poskytuje službu nebo produkt, se nazývá *Právnická osoba poskytující půjčku*, a právnická osoba, která přijímá službu nebo produkt, se nazývá *Právnická osoba přijímající půjčku*. 
 
 Následující obrázek ukazuje typický scénář, kdy dvě právnické osoby, SI FR (Právnická osoba přijímající půjčku) a SI USA (Právnická osoba poskytující půjčku) sdílejí prostředky na dodání projektu pro zákazníka A. V tomto scénáři je SI FR nasmlouvána, aby dodala práci pro zákazníka A. 
 
@@ -44,12 +44,12 @@ Cílem je učinit kontrolu nákladů, uznání výnosů, daně a cenu převodu u
 -   Odložte uznání výnosů v právnické osobě poskytující půjčku a když by měla právnická osoba přijímající půjčku uznat náklady.
 -   Poměrně rozložte zisky z probíhající práce (WIP) v právnické osobě poskytující půjčku.
 -   Nastavte převodní ceny, které mohou vycházet z různých cenových modelů. Zde je uvedeno několik příkladů:
-    -   **Množství** - Částka, kterou zadáte do pole **Ceny** , je skutečná cena za množství nebo jednotku.
+    -   **Množství** - Částka, kterou zadáte do pole **Ceny**, je skutečná cena za množství nebo jednotku.
     -   **Výše poplatků** - Cena / cena za transakci plus částka poplatků, kterou zadáte do pole **Ceny**.
     -   **Procento poplatků** - Cena za převod je cena / cena za transakci vynásobená procentem poplatků, které zadáte do pole **Ceny**.
     -   **Procento prodejní ceny** - Procento prodejní ceny, které je převedeno na právnickou osobu poskytující půjčku.
     -   **Částka pod prodejní cenou** - Částka, kterou právnická osoba přijímající půjčku zadržuje z prodejních cen před převodem na právnickou osobu poskytující půjčku.
-    -   **Poměr příspěvků** - Číslo, které zadáte do pole **Ceny** , je poměr příspěvků, který je vyjádřen jako procento z prodejní ceny.
+    -   **Poměr příspěvků** - Číslo, které zadáte do pole **Ceny**, je poměr příspěvků, který je vyjádřen jako procento z prodejní ceny.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>Příklad 1: Nastavení parametrů pro mezipodnikovou fakturaci
 V tomto příkladu je USSI právnická osoba poskytující půjčku a její zdroje vykazují čas vůči právnické osobě přijímající půjčku, FRSI, která vlastní smlouvu s koncovým zákazníkem. Hodiny a výdaje, které vykazují zaměstnanci USSI, lze zahrnout do faktury projektu, kterou generuje FRSI. Kromě toho existuje třetí zdroj transakcí, které mohou pocházet od právnické osoby poskytující půjčku (v tomto příkladu USSI), když poskytuje služby sdílených prodejců dceřiným společnostem (například FRSI) a poté tyto náklady přenáší na projekty v rámci těchto dceřiných společností. Všechny odpovídající fakturační dokumenty a výpočty daně jsou dokončeny modulem Finance. 

@@ -1,6 +1,6 @@
 ---
 title: Nová verze sestav výdajů
-description: Toto téma poskytuje informace o přepracovaném prostředí pro záznam v sestavě výdajů v Microsoft Dynamics 365 Finance. Nové prostředí zjednodušuje proces vyplňování sestav výdajů a zkracuje požadovaný čas.
+description: Toto téma poskytuje informace o přepracovaném prostředí pro záznam ve výkazu výdajů.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960239"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271975"
 ---
 # <a name="redesigned-expense-reports"></a>Nová verze sestav výdajů
 
@@ -40,12 +40,6 @@ Chcete-li zapnout nové prostředí, použijte pracovní prostředí **Správa f
 - Je přidána nová položka nabídky pro viditelnost pole výdajů.
 - Žádné existující položky nabídky pro výkazy výdajů (stávající stránka) nebo pole výkazu výdajů nejsou odstraněny.
 - Pracovní postupy a veškerá schválení vás stále budou zavádět na existujíc stránku s výkazy výdajů.
-
-## <a name="getting-started-video-for-new-users"></a>Video Začínáme pro nové uživatele
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-Video [Zkušenosti s výdaji v Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (zobrazeno výše) je zahrnuto v [playlistu Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) k dispozici na YouTube.
 
 ## <a name="new-features"></a>Nové funkce
 

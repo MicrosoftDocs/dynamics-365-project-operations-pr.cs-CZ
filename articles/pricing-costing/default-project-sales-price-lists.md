@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130930"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275575"
 ---
 # <a name="default-price-lists"></a>Výchozí ceníky
 
@@ -21,7 +21,7 @@ _**Platí pro:** Project Operations scénáře založené na zdrojích / položk
 
 ## <a name="sales-price-lists"></a>Prodejní ceníky
 
-Každá nabídka a smlouva o projektu v Dynamics 365 Project Operations obsahuje výchozí prodejní ceník. 
+Každá nabídka projektu a smlouva v Dynamics 365 Project Operations obsahuje výchozí prodejní ceník. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Ceník je výchozí pro nabídky projektu
 Systém provede následující proces, aby určil, který ceník má být v nabídce projektu nastaven jako výchozí:

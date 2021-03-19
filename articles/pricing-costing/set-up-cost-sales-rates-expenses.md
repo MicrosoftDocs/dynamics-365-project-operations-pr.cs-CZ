@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180274"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274900"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Nastavení nákladových a prodejních sazeb pro výdaje
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-V aplikaci Dynamics 365 Project Operations můžete nastavit nákladové a prodejní ceny pro kategorie transakcí. Protože nákladové a prodejní ceny jsou určeny pro výdaje, musí být každá kategorie transakcí, která je zahrnuje, také nastavena jako kategorie výdajů. Toto nastavení zajišťuje přesnost následných funkcí. Nákladové a prodejní ceny pro kategorie transakcí lze uvést pouze v jedné měně, kterou musí být měna v záhlaví ceníku.
+Pro kategorie transakcí můžete nastavit náklady a prodejní ceny v Dynamics 365 Project Operations. Protože nákladové a prodejní ceny jsou určeny pro výdaje, musí být každá kategorie transakcí, která je zahrnuje, také nastavena jako kategorie výdajů. Toto nastavení zajišťuje přesnost následných funkcí. Nákladové a prodejní ceny pro kategorie transakcí lze uvést pouze v jedné měně, kterou musí být měna v záhlaví ceníku.
 
 Chcete-li nastavit nákladové a prodejní sazby pro kategorie transakcí, proveďte následující kroky. 
 

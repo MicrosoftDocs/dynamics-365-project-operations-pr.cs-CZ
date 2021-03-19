@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181534"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274014"
 ---
 # <a name="manage-a-proforma-invoice---lite"></a>Správa proforma faktury – omezené
 
@@ -60,7 +60,7 @@ V Project Operations je vždy jeden řádek faktury pro každý řádek projekto
 | **Způsob fakturace** | Karta **Obecné** | Způsob fakturace na souvisejícím řádku projektové smlouvy. Pole jen pro čtení, když je uzamčeno pro úpravy. | &nbsp; |
 | **Částka řádku smlouvy** | Karta **Obecné** | Částka smlouvy na souvisejícím řádku projektové smlouvy. Pole jen pro čtení, když je uzamčeno pro úpravy. | &nbsp; |
 | **Fakturováno do data** | Karta **Obecné** | Součet částek ze všech podrobností řádku této faktury. Pole jen pro čtení, když je uzamčeno pro úpravy. | &nbsp; |
-| **Částka** | Karta **Obecné** | Součet částek ze všech podrobností účtovatelného řádku této faktury. Pole jen pro čtení, když je uzamčeno pro úpravy. | Toto pole se používá k výpočtu konečné částky v záhlaví faktury. |
+| **Množství** | Karta **Obecné** | Součet částek ze všech podrobností účtovatelného řádku této faktury. Pole jen pro čtení, když je uzamčeno pro úpravy. | Toto pole se používá k výpočtu konečné částky v záhlaví faktury. |
 | **Daň** | Karta **Obecné** | Součet částek daně ze všech podrobností tohoto řádku faktury. Pole jen pro čtení, když je uzamčeno pro úpravy. | Toto pole se používá k výpočtu konečné částky daně v záhlaví faktury. |
 | **Rozšířená částka** | Karta **Obecné** | Součet celkových částek (**Daň + částky**) ze všech podrobností tohoto účtovatelného řádku faktury. Pole jen pro čtení, když je uzamčeno pro úpravy. | Toto pole se používá k výpočtu konečné částky v záhlaví faktury. |
 

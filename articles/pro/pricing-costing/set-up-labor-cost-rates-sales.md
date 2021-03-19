@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e6b1265e5e4d29ccc3f620da364fc9554285a176
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180698"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274360"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Nastavení nákladových sazeb za práci – omezené
 
@@ -38,7 +38,7 @@ Následující tabulka obsahuje některá pole, která jsou důležitá při vyt
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Přenos cen a nákladů u zdrojů mimo vaši divizi nebo právnickou osobu
 
-Projektové společnosti běžně využívají k práci na projektech zaměstnance z jiných právnických osob nebo divizí. Projekty lze provádět jednou právnickou osobou, ale zaměstnanci nebo konzultanti, kteří na projektu pracují, mohou pocházet ze stejné nebo z jiné právnické osoby, případně může jít o kombinaci obou možností. V rámci Dynamics 365 Project Operations se právnická osoba, která vlastní dodávku projektu, nazývá **Vlastnická společnost** a divize, která vlastní dodávku, se nazývá **Smluvní jednotka**. Ostatní právnické osoby, které dodávají zdroje, se označují jako **Společnosti poskytující zdroje** a divize, které dodávají zdroje, se nazývají **Jednotky zdrojů**. Ve většině zemí jsou společnosti povinny zajistit, aby právnická osoba nebo divize zajišťující zdroje účtovala za použití zdrojů vlastnické společnosti a smluvní jednotce.
+Projektové společnosti běžně využívají k práci na projektech zaměstnance z jiných právnických osob nebo divizí. Projekty lze provádět jednou právnickou osobou, ale zaměstnanci nebo konzultanti, kteří na projektu pracují, mohou pocházet ze stejné nebo z jiné právnické osoby, případně může jít o kombinaci obou možností. V Dynamics 365 Project Operations je právnickou osobou, která vlastní dodávku projektu, **Vlastnická společnost** a divize, která vlastní dodávku, je **Smluvní jednotka**. Ostatní právnické osoby, které dodávají zdroje, se označují jako **Společnosti poskytující zdroje** a divize, které dodávají zdroje, se nazývají **Jednotky zdrojů**. Ve většině zemí jsou společnosti povinny zajistit, aby právnická osoba nebo divize zajišťující zdroje účtovala za použití zdrojů vlastnické společnosti a smluvní jednotce.
 
 Například společnost Fabrikam musí zajistit, aby společnost Fabrikam Indie - Robotics měla sjednaný nákladový tarif se společností Fabrikam USA - Robotics nebo Fabrikam UK - Robotics.
 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073834"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270985"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementace vlastních polí pro mobilní aplikaci Microsoft Dynamics 365 Project Timesheet na systémech iOS a Android
 
@@ -49,7 +49,7 @@ Třída **TSTimesheetCustomField** je třída smlouvy na data X ++, která před
 
 ### <a name="fieldbasetype-types"></a>fieldBaseType (typy)
 
-Vlastnost **FieldBaseType** v objektu **TsTimesheetCustom** určuje typ pole, které se zobrazí v aplikaci. Následující hodnoty **Typy** , které jsou podporovány.
+Vlastnost **FieldBaseType** v objektu **TsTimesheetCustom** určuje typ pole, které se zobrazí v aplikaci. Následující hodnoty **Typy**, které jsou podporovány.
 
 | Hodnota Typy | Typ              | Poznámky |
 |-------------|-------------------|-------|
@@ -61,11 +61,11 @@ Vlastnost **FieldBaseType** v objektu **TsTimesheetCustom** určuje typ pole, kt
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Pokud není vlastnost **stringOptions** poskytnuta v objektu **TSTimesheetCustomField** , je uživateli poskytnuto pole s volným textem.
+- Pokud není vlastnost **stringOptions** poskytnuta v objektu **TSTimesheetCustomField**, je uživateli poskytnuto pole s volným textem.
 
     Vlastnost **stringLength** lze použít k nastavení maximální délky řetězce, kterou mohou uživatelé zadat.
 
-- Pokud je vlastnost **stringOptions** poskytnuta v objektu **TSTimesheetCustomField** , tyto prvky seznamu jsou jediné hodnoty, které mohou uživatelé vybrat pomocí tlačítek s možnostmi (přepínačů).
+- Pokud je vlastnost **stringOptions** poskytnuta v objektu **TSTimesheetCustomField**, tyto prvky seznamu jsou jediné hodnoty, které mohou uživatelé vybrat pomocí tlačítek s možnostmi (přepínačů).
 
     V takovém případě může pole řetězce fungovat jako hodnota výčtu pro účely vstupu uživatele. Chcete-li uložit hodnotu do databáze jako výčet, ručně namapujte hodnotu řetězce zpět na hodnotu výčtu před uložením do databáze pomocí řetězce příkazů (viz „Použití řetězce příkazů ve třídě TSTimesheetEntryService k uložení záznamu časového výkazu z aplikace zpět do databáze" dále v tomto tématu).
 
@@ -97,7 +97,7 @@ Tato vlastnost identifikuje pole, když jsou hodnoty, které aplikace poskytuje,
 
 ### <a name="iseditable-noyes"></a>isEditable (NoYes)
 
-Nastavte tuto vlastnost na **Ano** k určení, že by uživatelé měli upravit pole v sekci zadávání časového výkazu . Nastavte vlastnost na **Ne** , aby bylo jen pro čtení.
+Nastavte tuto vlastnost na **Ano** k určení, že by uživatelé měli upravit pole v sekci zadávání časového výkazu . Nastavte vlastnost na **Ne**, aby bylo jen pro čtení.
 
 ### <a name="ismandatory-noyes"></a>isMandatory (NoYes)
 
@@ -145,7 +145,7 @@ Pro pole typu **Reálné** tato vlastnost předá reálnou hodnotu pole mezi ser
 
 ### <a name="stringvalue-str"></a>stringValue (str)
 
-Pro pole typu **Řetězec** tato vlastnost předá hodnotu řetězec pole mezi serverem a aplikací. Používá se také pro pole typu **Reálný** , která jsou formátována jako měna. U těchto polí se vlastnost používá k předání kódu měny do aplikace.
+Pro pole typu **Řetězec** tato vlastnost předá hodnotu řetězec pole mezi serverem a aplikací. Používá se také pro pole typu **Reálný**, která jsou formátována jako měna. U těchto polí se vlastnost používá k předání kódu měny do aplikace.
 
 ### <a name="datevalue-date"></a>dateValue (date)
 
@@ -179,9 +179,9 @@ Níže je snímek obrazovky ze stromu aplikačních objektů Visual Studio. Zobr
 
 Tento kód řídí nastavení zobrazení pro pole v aplikaci. Například řídí typ pole, štítek, zda je pole povinné a v jaké části se pole zobrazuje.
 
-Následující příklad ukazuje pole řetězce pro časové záznamy. Toto pole má dvě možnosti, **První možnost** a **Druhá možnost** , které jsou k dispozici prostřednictvím volitelných tlačítek (přepínačů). Pole v aplikaci je přidruženo k poli **TestLineString** , které je přidáno do tabulky TSTimesheetLine.
+Následující příklad ukazuje pole řetězce pro časové záznamy. Toto pole má dvě možnosti, **První možnost** a **Druhá možnost**, které jsou k dispozici prostřednictvím volitelných tlačítek (přepínačů). Pole v aplikaci je přidruženo k poli **TestLineString**, které je přidáno do tabulky TSTimesheetLine.
 
-Všimněte si metody **TSTimesheetCustomField::newFromMetatdata()** ke zjednodušení inicializace vlastností vlastního pole: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** a **numberOfDecimals**. Tyto parametry můžete také nastavit ručně, jak chcete.
+Všimněte si metody **TSTimesheetCustomField::newFromMetatdata()** ke zjednodušení inicializace vlastností vlastního pole: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** a **numberOfDecimals**. Tyto parametry můžete také nastavit ručně, jak chcete.
 
 ```xpp
 ...
@@ -245,10 +245,10 @@ Chcete-li uložit vlastní pole zpět do databáze v obvyklém použití, musít
 
 - Metoda **timesheetLineNeedsUpdating** se používá k určení, zda byl záznam řádku změněn uživatelem v aplikaci a musí být uložen do databáze. Pokud výkon není problém, lze tuto metodu zjednodušit, aby se vždy vrátila hodnota **true**.
 - Metody **populateTimesheetLineFromEntryDuringCreate** a **populateTimesheetLineFromEntryDuringUpdate** lze rozšířit tak, aby zadávaly hodnoty v databázovém záznamu TSTimesheetLine ze záznamu smlouvy TSTimesheetEntry, který je poskytnut. V následujícím příkladu si všimněte, jak se mapování mezi databázovým polem a vstupním polem provádí ručně pomocí kódu X++.
-- Metodu **populateTimesheetWeekFromEntry** lze také rozšířit, pokud vlastní pole, které je namapováno na objekt **TSTimesheetEntry** , musí zapisovat zpět do databázové tabulky TSTimesheetLineweek.
+- Metodu **populateTimesheetWeekFromEntry** lze také rozšířit, pokud vlastní pole, které je namapováno na objekt **TSTimesheetEntry**, musí zapisovat zpět do databázové tabulky TSTimesheetLineweek.
 
 > [!NOTE]
-> Následující příklad uloží hodnotu **firstOption** nebo **secondOption** , kterou uživatel vybere pro databázi jako nezpracovanou hodnotu řetězce. Pokud je databázové pole pole typu **Výčet** , lze tyto hodnoty ručně namapovat na hodnotu výčtu a poté uložit do pole výčtu v databázové tabulce.
+> Následující příklad uloží hodnotu **firstOption** nebo **secondOption**, kterou uživatel vybere pro databázi jako nezpracovanou hodnotu řetězce. Pokud je databázové pole pole typu **Výčet**, lze tyto hodnoty ručně namapovat na hodnotu výčtu a poté uložit do pole výčtu v databázové tabulce.
 
 ```xpp
 ...
@@ -408,9 +408,9 @@ final class TSTimesheetDetails_Extension
 
 Existující logika funkce časového výkazu na úrovni databáze bude i nadále fungovat podle očekávání. Chcete-li přerušit dokončení operací ukládání nebo odeslání a zobrazit konkrétní chybovou zprávu, můžete do kódu přidat hodnotu **chyba zahození („zpráva pro uživatele“)** pomocí řetězce rozšíření příkazů. Tady jsou tři příklady užitečných rozšiřitelných metod:
 
-- Pokud příkaz **validateWrite** v tabulce TSTimesheetLine vrací hodnotu **false** , během operace ukládání časového řádku se v mobilní aplikaci zobrazí chybová zpráva.
-- Pokud příkaz **validateSubmit** v tabulce validateSubmit vrací hodnotu **false** , během odesílání časového výkazu do aplikace se uživateli zobrazí chybová zpráva.
-- Logika, která vyplňuje pole (například **Vlastnost řádku** ) během metody **vložit** v tabulce TSTimesheetLine bude stále spuštěna.
+- Pokud příkaz **validateWrite** v tabulce TSTimesheetLine vrací hodnotu **false**, během operace ukládání časového řádku se v mobilní aplikaci zobrazí chybová zpráva.
+- Pokud příkaz **validateSubmit** v tabulce validateSubmit vrací hodnotu **false**, během odesílání časového výkazu do aplikace se uživateli zobrazí chybová zpráva.
+- Logika, která vyplňuje pole (například **Vlastnost řádku**) během metody **vložit** v tabulce TSTimesheetLine bude stále spuštěna.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Skrytí a označení předem připravených polí jako jen pro čtení prostřednictvím konfigurace
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119545"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274945"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Vyřešení prodejních cen pro odhady a skutečnosti
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-Když jsou prodejní ceny u odhadů a skutečností vyřešeny v Dynamics 365 Project Operations, systém k vyřešení prodejního ceníku nejprve použije datum a měnu související projektové nabídky nebo smlouvy. Po vyřešení prodejního ceníku systém vyřeší prodejní nebo fakturační sazbu.
+Když jsou vyřešeny prodejní ceny na základě odhadů a skutečností v Dynamics 365 Project Operations, systém nejprve použije datum a měnu související nabídky projektu nebo smlouvy k vyřešení ceníku prodejní ceny. Po vyřešení prodejního ceníku systém vyřeší prodejní nebo fakturační sazbu.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Vyřešení prodejních sazeb v řádcích skutečností a odhadů pro čas
 
