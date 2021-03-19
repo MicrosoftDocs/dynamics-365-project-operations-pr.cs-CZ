@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126385"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278365"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Import odhadu do řádku smlouvy na základě projektu
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-V Dynamics 365 Project Operations můžete importovat odhady z projektu na řádek smlouvy na základě projektu.
+V Dynamics 365 Project Operations můžete importovat odhady z projektu do řádku smlouvy založeného na projektu.
 
 1. Ověřte, že pole **Projekt** bylo vyplněno na řádku smlouvy na základě projektu.
 2. Na kartě **Podrobnosti řádku smlouvy** na podmřížce vyberte **Import z odhadu projektu**. Otevře se dialogové okno s možnostmi shrnutí. Dostupné možnosti shrnutí jsou **Třída transakce**, **Kategorie**, **Role** a **Projektový úkol**. Na základě výběru shrnutí se zkopíruje odhad z projektu pro všechny třídy transakcí zahrnuté v tomto řádku smlouvy. 

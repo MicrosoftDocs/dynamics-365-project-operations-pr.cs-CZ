@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180229"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277555"
 ---
 # <a name="project-quote-settings"></a>Nastavení projektové nabídky
 
@@ -22,7 +22,7 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 
 Tento článek vysvětluje informace, které se vztahují k projektové nabídce. Tyto informace zahrnují nastavení, která mají dopad na všechny řádky nabídky, a informace o nabídce, které jsou shrnuty za všechny řádkové položky a řídí KPI projektové nabídky.
 
-V následující tabulce jsou uvedena souhrnná informační pole projektové nabídky, která jsou jedinečná pro aplikaci Dynamics 365 Project Operations nebo se jejich chování významně odlišuje oproti nabídkám aplikace Dynamics 365 Sales.
+V následující tabulce jsou uvedena pole souhrnných informací nabídky projektu, která jsou jedinečná pro Dynamics 365 Project Operations nebo mají některé důležité změny v chování z nabídek v Dynamics 365 Sales.
 
 | **Pole** | **Umístění** | **Popis** | **Dopad na příjem dat** |
 | --- | --- | --- | --- |

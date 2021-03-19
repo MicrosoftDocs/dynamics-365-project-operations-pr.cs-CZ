@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181129"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277600"
 ---
 # <a name="project-contract-settings"></a>Nastavení projektové smlouvy
 
@@ -21,7 +21,7 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 
 Toto téma poskytuje informace o polích, která se vztahují na celou projektovou smlouvu, včetně nastavení, která mají dopad na všechny řádky smlouvy. Zahrnuty jsou také informace o smlouvě, které jsou shrnuty za všechny řádkové položky za účelem zvýšení KPI projektové smlouvy.
 
-V následující tabulce jsou uvedena pole projektové smlouvy, která jsou jedinečná pro aplikaci Dynamics 365 Project Operations nebo se jejich chování významně odlišuje oproti prodejním objednávkám aplikace Dynamics 365 Sales.
+V následující tabulce jsou uvedena pole na kontraktu projektu, která jsou jedinečná pro Dynamics 365 Project Operations nebo mají některé důležité změny v chování z prodejních objednávek v Dynamics 365 Sales.
 
 | Pole | Místo | Popis | Dopad na následné složky |
 | --- | --- | --- | --- |

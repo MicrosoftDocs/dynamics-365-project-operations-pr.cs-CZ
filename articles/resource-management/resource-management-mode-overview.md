@@ -1,6 +1,6 @@
 ---
 title: Přehled režimů správy zdrojů
-description: Toto téma poskytuje informace o funkci Správa zdrojů v Dynamics 365 Project Operations.
+description: Toto téma obsahuje informace o funkci správy zdrojů v Dynamics 365 Project Operations.
 author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 73ba6190e2e366f22372102d14d26f6d71ba0bc1
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118510"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279445"
 ---
 # <a name="resource-management-modes-overview"></a>Přehled režimů správy zdrojů
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
 
-Dynamics 365 Project Operations podporuje dva režimy provádění celkového toku rezervací. Režim správy je definován jako parametr projektu a lze jej upravit, pokud se změní vaše obchodní potřeby.    
+Dynamics 365 Project Operations podporuje dva režimy, abyste mohli provést celkový tok rezervací. Režim správy je definován jako parametr projektu a lze jej upravit, pokud se změní vaše obchodní potřeby.    
 
 ## <a name="central-mode"></a>Centrální režim
 Organizacím, které centralizují přidělení zdrojů k projektům, poskytuje centrální režim způsob, jak zajistit, aby projektoví manažeři mohli definovat požadavky na zdroje na úrovni projektu. Splnění požadavků na zdroje je delegováno na správce zdrojů. Manažeři projektů mohou přijímat nebo odmítat zdroje, které navrhuje správce zdrojů.

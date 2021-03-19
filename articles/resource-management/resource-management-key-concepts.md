@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123865"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279490"
 ---
 # <a name="resource-management-key-concepts"></a>Klíčové koncepty správy zdrojů
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Zdroje jsou nejdůležitějším majetkem organizace založené na službách. Schopnost najít správné zdroje ve správný čas, rezervovat tyto zdroje pro projekty a udržovat je využité pomáhá organizaci plnit výnosové cíle a cíle spokojenosti zákazníků. Funkci zajišťování zdrojů pro projekt v Dynamics 365 Project Operations můžete použít k provedení těchto úkolů:
+Zdroje jsou nejdůležitějším majetkem organizace založené na službách. Schopnost najít správné zdroje ve správný čas, rezervovat tyto zdroje pro projekty a udržovat je využité pomáhá organizaci plnit výnosové cíle a cíle spokojenosti zákazníků. Funkci zajišťování zdrojů pro projekt v Dynamics 365 Project Operations můžete použít k provedení následujících úkolů:
 
 - Vytvoření projektových týmů pomocí rezervace dostupných a kvalifikovaných zdrojů.
 - Vytvoření záznamů obecných členů týmu a definování jejich rolí a organizační jednotky zdroje.

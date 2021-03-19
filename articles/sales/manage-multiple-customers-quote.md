@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181984"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277870"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Správa více zákazníků na projektové nabídce
 
@@ -23,7 +23,7 @@ Projektové nabídky podporují scénář, kdy návrh zahrnuje více zákazník�
 
 Všichni zákazníci nabídky na kartě **Zákazníci** projektové nabídky jsou uvedeni jako výchozí zákazníci řádku nabídky na všech **nových** řádcích nabídek založených na projektu vytvořených pro nabídku. Žádné stávající řádky nabídek založených na projektu nezdědí nové záznamy zákazníků nabídky vytvořené po nich.
 
-Zákazníky nabídky a zákazníky řádku nabídky lze přidávat, aktualizovat nebo odstraňovat kdykoli před získáním nabídky. Platný zákazník v nabídce musí být nastaven jako zákazník ve vlastnící společnosti nebo právnické osobě na stránce **Zákazníci**. Právní subjekty jsou zřízeny v modulu **Řízení projektů a účetnictví** aplikace Dynamics 365 Project Operations a jsou k dispozici jako společnosti v modulech **Prodeje a dodání projektu** aplikace Project Operations.
+Zákazníky nabídky a zákazníky řádku nabídky lze přidávat, aktualizovat nebo odstraňovat kdykoli před získáním nabídky. Platný zákazník v nabídce musí být nastaven jako zákazník ve vlastnící společnosti nebo právnické osobě na stránce **Zákazníci**. Právní subjekty jsou zřízeny v modulu **Řízení projektů a účetnictví** v Dynamics 365 Project Operations a jsou k dispozici jako společnosti v modulech **Prodeje projektu a doručení** v Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Koncept primárního zákazníka
 

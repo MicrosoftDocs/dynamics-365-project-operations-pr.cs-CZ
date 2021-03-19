@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121300"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277510"
 ---
 # <a name="quotes---key-concepts"></a>Nabídky - klíčové koncepty
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-V Dynamics 365 Project Operations existují dva typy nabídek, projektové a prodejní. Tyto dva typy nabídek se liší následujícími způsoby:
+V Dynamics 365 Project Operations existují dva typy nabídek, projektové nabídky a prodejní nabídky. Tyto dva typy nabídek se liší následujícími způsoby:
 
 - **Mřížky pro položky řádku**: V prodejní nabídce je k dispozici pouze jedna mřížka pro řádkové položky. Na projektové nabídce existují dvě mřížky pro položky řádku. Jedna mřížka je pro řádky projektu a druhá pro řádky produktu.
 - **Aktivace a revize**: Prodejní nabídky podporují aktivaci a revize. Tyto procesy nejsou v nabídce projektu podporovány.

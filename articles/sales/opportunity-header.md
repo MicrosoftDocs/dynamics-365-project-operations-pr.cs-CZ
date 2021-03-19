@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c58c3696ae03e8a33a25a9483825a4b7cbf850be
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181219"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277690"
 ---
 # <a name="opportunity-settings"></a>Nastavení příležitosti
 
@@ -22,7 +22,7 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 
 Záhlaví nebo souhrn příležitosti zachycuje celkové informace o obchodu založeném na projektu, které platí pro všechny řádky příležitosti založené na projektu.
 
-Příležitosti založené na projektu v Dynamics 365 Project Operations jsou rozšířením příležitostí v aplikaci Dynamics 365 Sales. Tato rozšíření poskytují další funkce, které jsou specifické a vyžadované u příležitostí založených na projektu. Tato rozšíření mohou zahrnovat nová pole a akce pásu karet, které jsou dostupné v příležitostech založených na projektu. Některá pole, funkčnost nebo výchozí logika, která je k dispozici v Sales, nemusí být dostupná v aplikaci v Project Operations.
+Příležitosti založené na projektu v Dynamics 365 Project Operations jsou rozšíření příležitostí v Dynamics 365 Sales. Tato rozšíření poskytují další funkce, které jsou specifické a vyžadované u příležitostí založených na projektu. Tato rozšíření mohou zahrnovat nová pole a akce pásu karet, které jsou dostupné v příležitostech založených na projektu. Některá pole, funkčnost nebo výchozí logika, která je k dispozici v Sales, nemusí být dostupná v aplikaci v Project Operations.
 
 Následující tabulka obsahuje pole v příležitosti založené na projektu, která jsou buď jedinečná pro aplikaci Project Operations, nebo se jejich chování významně liší od chování příležitostí v aplikaci Sales.
 

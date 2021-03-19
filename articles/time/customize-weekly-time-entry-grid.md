@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f446e24f3a61914a46a552fdc38b986d8b924747
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124630"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277150"
 ---
 # <a name="extending-time-entries"></a>Rozšíření časových záznamů
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Dynamics 365 Project Operations zahrnuje rozšiřitelný vlastní ovládací prvek pro časové záznamy. Tento ovládací prvek obsahuje následující funkce:
+Dynamics 365 Project Operations obsahuje rozšiřitelný vlastní vstupní ovládací prvek. Tento ovládací prvek obsahuje následující funkce:
 
 - Zadávání času horizontálně přes týden
 - Součty za den, řádek nebo týden

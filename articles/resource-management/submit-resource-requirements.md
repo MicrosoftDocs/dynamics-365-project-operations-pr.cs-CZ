@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 18f43acc64ed72b1543a2d7d91a2648e7e185fc4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bc97af1ec90e60417c502eb329a85004e769e05b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128815"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279130"
 ---
 # <a name="submit-a-resource-request"></a>Odeslání žádosti o zdroj
 
@@ -21,7 +21,7 @@ _**Platí pro:** Project Operations scénáře založené na zdrojích / položk
 
 Vygenerovaný požadavek na zdroj můžete odeslat jako žádost o zdroj. Žádost se pak odešle správci zdrojů ke splnění.
 
-1. V Dynamics 365 Project Operations vyberte na stránce **Projekty** kartu **Tým** a zobrazte seznam rezervovatelných zdrojů. 
+1. V Dynamics 365 Project Operations klikněte na stránce **Projekty** na kartu **Tým** a zobrazte seznam rezervovatelných zdrojů. 
 2. Vyberte ze seznamu obecný zdroj, který obsahuje požadavek na zdroj, a pak klikněte na **Odeslat žádost**.
 
 Stav žádosti obecného člena týmu se změní na **Odeslána**.

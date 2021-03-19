@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118465"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277825"
 ---
 # <a name="manage-project-based-opportunities"></a>Správa příležitostí založených na projektech
 
@@ -21,7 +21,7 @@ _**Platí pro:** Project Operations scénáře založené na zdrojích / položk
 
 Projektové společnosti mají své doručovací činnosti obvykle rozložené do více zemí a geografických oblastí. Náklady na realizaci a dodání projektu se mohou lišit v závislosti na tom, která geografická oblast nebo divize řídí dodávku. To pak může mít dopad na obchodní marže. Poskytování služeb založených na projektu obvykle zahrnuje velké množství času vynaloženého lidskými zdroji, značné výdaje na cestování, náklady na materiál a další výdaje.
 
-Příležitosti založené na projektu v aplikaci Dynamics 365 Project Operations jsou rozšířením příležitostí vyskytujících se v Dynamics 365 Sales. Téma poskytuje podrobnosti o různých polích a obchodní logice obsažené v dalších funkcích, které jsou vyžadovány projektovými společnostmi ke správě příležitostí založených na projektu.
+Příležitosti založené na projektu v Dynamics 365 Project Operations jsou navrženy s rozšířením příležitostí v Dynamics 365 Sales. Téma poskytuje podrobnosti o různých polích a obchodní logice obsažené v dalších funkcích, které jsou vyžadovány projektovými společnostmi ke správě příležitostí založených na projektu.
 
 ## <a name="view-all-project-based-opportunities"></a>Zobrazení všech příležitostí založených na projektech
 
