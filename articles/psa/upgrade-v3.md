@@ -1,5 +1,5 @@
 ---
-title: Důležité informace o upgradu – Microsoft Dynamics 365 Project Service Automation verze 2.x nebo 1.x na verzi 3
+title: Zvažování upgradu - Microsoft Dynamics 365 Project Service Automation verze 2.x nebo 1.x na verzi 3
 description: Toto téma obsahuje důležité informace, které je třeba zvážit při upgradu aplikace Project Service Automation verze 2.x nebo 1.x na verzi 3.
 manager: kfend
 ms.prod: ''
@@ -18,12 +18,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144146"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281650"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Důležité informace o upgradu – PSA verze 2.x nebo 1.x na verzi 3
 
