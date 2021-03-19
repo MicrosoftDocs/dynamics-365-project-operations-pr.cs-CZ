@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073755"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287950"
 ---
 # <a name="work-breakdown-structures-overview"></a>Přehled struktur rozpisu prací
 
@@ -102,7 +102,7 @@ V současné době nemůžete přizpůsobit číslování strukturovaného rozpi
 
 ### <a name="schedule-estimation"></a>Odhad plánu
 
-Odhad harmonogramu je obvykle druhým krokem při vytváření strukturovaného rozpisu prací. Jako nejlepší postup byste měli po vytvoření úkolů dokončit odhad plánu. Stranka **Struktura členění práce** ve Finance má dvě sekce. Horní podokno je určeno pro odhad plánu a spodní podokno obsahuje záložku **Odhadované náklady a výnosy** , kterou můžete použít pro odhad nákladů. 
+Odhad harmonogramu je obvykle druhým krokem při vytváření strukturovaného rozpisu prací. Jako nejlepší postup byste měli po vytvoření úkolů dokončit odhad plánu. Stranka **Struktura členění práce** ve Finance má dvě sekce. Horní podokno je určeno pro odhad plánu a spodní podokno obsahuje záložku **Odhadované náklady a výnosy**, kterou můžete použít pro odhad nákladů. 
 **Závislosti úkolů** Ve strukturovaném rozpisu prací můžete vytvořit předchůdce vztah mezi úkoly. Když k úkolu přiřadíte úkoly předchůdců, lze tento úkol zahájit pouze v případě, že byly dokončeny všechny úkoly typu předchůdce. Plánované datum zahájení úkolu se automaticky nastaví na nejnovější datum všech jeho předchůdců. 
 
 **Plánování úkolů** Následující faktory určují plánování úloh listového uzlu:

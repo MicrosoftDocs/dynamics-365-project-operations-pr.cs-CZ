@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073923"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289766"
 ---
 # <a name="project-management-and-accounting-overview"></a>Přehled řízení projektů a účetnictví
 
@@ -205,7 +205,7 @@ Můžete si objednat položky z majetku společnosti pro spotřebu v projektu. P
 
 Způsob objednávání položek závisí na tom, odkud je objednáváte:
 
--   Chcete-li objednat položky z majetku společnosti, musíte zadat objednávku jako požadavek na položku. Pokud používáte stránku **Požadavky na položku** , můžete nastavit požadavek, abyste dostávali zboží jako dílčí dodávky.Proto můžete odložit spotřebu určitého množství položek, dokud položky nebudou vyžadovány.
+-   Chcete-li objednat položky z majetku společnosti, musíte zadat objednávku jako požadavek na položku. Pokud používáte stránku **Požadavky na položku**, můžete nastavit požadavek, abyste dostávali zboží jako dílčí dodávky. Proto můžete odložit spotřebu určitého množství položek, dokud položky nebudou vyžadovány.
 -   Chcete-li objednat zboží od externího dodavatele, musíte vytvořit objednávku jako nákupní objednávku na stránce **Nákupní objednávka**.
 
 > [!NOTE] 
@@ -232,7 +232,7 @@ Další informace o zpracování faktur projektu naleznete v tématu [Fakturac
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Vypočítání nákladů na dokončení projektu
 
-Když vytváříte odhad, můžete zvolit metodu, která se používá k výpočtu nákladů na dokončení projektu. V poli **Metoda nákladů na dokončení** na stránce **Vytvořit odhad** vyberte metodu. Metoda, kterou zvolíte, se v odhadu nákladů použije samostatně na každý řádek nákladů. Zatímco řádek má stav **Vytvořeno** , můžete změnit metodu, která se na něj použije na stránce **Odhad nákladů**. 
+Když vytváříte odhad, můžete zvolit metodu, která se používá k výpočtu nákladů na dokončení projektu. V poli **Metoda nákladů na dokončení** na stránce **Vytvořit odhad** vyberte metodu. Metoda, kterou zvolíte, se v odhadu nákladů použije samostatně na každý řádek nákladů. Zatímco řádek má stav **Vytvořeno**, můžete změnit metodu, která se na něj použije na stránce **Odhad nákladů**. 
 
 Následující tabulka popisuje způsoby výpočtu nákladů na dokončení projektu.
 
@@ -300,7 +300,7 @@ Na základě nastavení můžete předpovědět příliv hotovosti pro vybraný 
 -   **Datum projektu:** 5. března 2012.
 -   **Datum faktury:** 31. března 2012. Toto datum se určuje na základě četnosti faktur. V tomto příkladu nastavíte četnost fakturace na aktuální měsíc. Proto jsou všechny transakce zaúčtované v měsíci březnu fakturovány poslední den v měsíci.
 -   **Termín splnění:** 14. dubna 2012. Toto datum je určeno na základě platebních podmínek stanovených pro projekt. V tomto příkladu jste vybrali platební podmínky 14 dnů. Proto je k datu faktury přidáno 14 dní, aby se dospělo ke dni splatnosti 14. dubna 2012.
--   **Očekávané datum platby prodeje:** 27.dubna 2012. Toto datum se počítá sečtením počtu dnů v poli **Obecná data ukládání do vyrovnávací paměti** na stránce **Parametry řízení projektu a účetnictví** na počet dní v poli **Jednotlivé dny vyrovnávací paměti** na stránce **Smlouvy o projektu** a poté přidáním součtu k počtu dní v poli **Datum splatnosti**. V tomto příkladu jste zadali **3** v poli **Obecné dny ukládání do vyrovnávací paměti** a **10** v poli **Jednotlivé dny vyrovnávací paměti**. Proto je k datu faktury přidáno 13 dní, aby se dospělo k očekávanému datu platby z prodeje 27. dubna 2012.
+-   **Očekávané datum platby prodeje:** 27.dubna 2012. Toto datum se počítá sečtením počtu dnů v poli **Obecná data ukládání do vyrovnávací paměti** na stránce **Parametry řízení projektu a účetnictví** na počet dní v poli **Jednotlivé dny vyrovnávací paměti** na stránce **Smlouvy o projektu** a poté přidáním součtu k počtu dní v poli **Datum splatnosti**. V tomto příkladu jste zadali **3** v poli **Obecné dny ukládání do vyrovnávací paměti** a **10** v poli **Jednotlivé dny vyrovnávací paměti**. Proto je k datu faktury přidáno 13 dní, aby se dospělo k očekávanému datu platby z prodeje 27. dubna 2012.
 
 Obecné dny vyrovnávací paměti mohou buď nahradit jednotlivé dny vyrovnávací paměti, nebo je přidat k jednotlivým dnům vyrovnávací paměti:
 
@@ -323,9 +323,9 @@ Na základě definovaných dnů se datum platby nákladů může lišit od data 
 
 Například datum projektu transakce je 5. března 2012 a jsou nastaveny následující platební podmínky:
 
--   **Hodiny:** Aktuální měsíc ( **M** )
--   **Výdaje:** 14 dní ( **D14** )
--   **Položky:** 30 dní ( **D30** )
+-   **Hodiny:** Aktuální měsíc (**M**)
+-   **Výdaje:** 14 dní (**D14**)
+-   **Položky:** 30 dní (**D30**)
 
 Na základě těchto nastavení je zde datum platby nákladů pro každý typ transakce:
 
@@ -364,7 +364,7 @@ Náklady, které vaší organizaci vzniknou během projektu, můžete sledovat n
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Zobrazení zbývajících rozpočtovaných částek
 
-Pokud je jako metoda řízení nákladů vybrán **Zbývající rozpočet** na stránce **Parametry řízení projektu a účetnictví** , stránka **Kontrola nákladů** vypočítá náklady, které nebyly zaúčtovány jako skutečné nebo označené jako potvrzené. Konkrétně se množství na kartě **Obecné** ve spodním podokně okna **Kontrola nákladů** vypočítávají následujícími způsoby:
+Pokud je jako metoda řízení nákladů vybrán **Zbývající rozpočet** na stránce **Parametry řízení projektu a účetnictví**, stránka **Kontrola nákladů** vypočítá náklady, které nebyly zaúčtovány jako skutečné nebo označené jako potvrzené. Konkrétně se množství na kartě **Obecné** ve spodním podokně okna **Kontrola nákladů** vypočítávají následujícími způsoby:
 
 -   **Aktuální náklady** - Celková částka, která byla vynaložena na projekt pro vybraný řádek nákladů. Skutečná částka se vypočítá na stránce **Aktualizace hlavní knihy**.
 -   **Zavázané náklady** - Dodatečná výše nákladů, které se právnická osoba zavázala uhradit. Konkrétní vázané částky nákladů se počítají ze stránky **Potvrzené náklady**.
@@ -381,7 +381,7 @@ Na stránce **Kontrola nákladů** na kartě **Odchylka** můžete zobrazit srov
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Zobrazení celkových rozpočtovaných částek
 
-Pokud je jako metoda řízení nákladů vybrán **Celkový rozpočet** na stránce **Parametry řízení projektu a účetnictví** , stránka **Kontrola nákladů** vypočítá skutečné náklady a celkové náklady projektu, aby vám pomohla zjistit jakýkoli rozdíl mezi nimi. Konkrétně na stránce **Řízení nákladů** se množství ve sloupcích ve spodním podokně okna **Kontrola nákladů** vypočítávají následujícími způsoby:
+Pokud je jako metoda řízení nákladů vybrán **Celkový rozpočet** na stránce **Parametry řízení projektu a účetnictví**, stránka **Kontrola nákladů** vypočítá skutečné náklady a celkové náklady projektu, aby vám pomohla zjistit jakýkoli rozdíl mezi nimi. Konkrétně na stránce **Řízení nákladů** se množství ve sloupcích ve spodním podokně okna **Kontrola nákladů** vypočítávají následujícími způsoby:
 
 -   **Celkové rozpočtované náklady** - Celková rozpočtovaná částka pro vybraný řádek nákladů.
 -   **Skutečné náklady** - Celkové množství nákladů, které dosud vznikly na projektu pro vybrané řádky nákladů.
@@ -432,7 +432,7 @@ Můžete vytvořit prohlášení o projektu a zobrazit rychlý snímek průběhu
 -   Datum projektu / datum hlavní knihy
 -   Data
 
-Po výpočtu výpisu si můžete prohlédnout následující informace na různých kartách na stránce **Výkazy projektu** :
+Po výpočtu výpisu si můžete prohlédnout následující informace na různých kartách na stránce **Výkazy projektu**:
 
 -   **Obecné** - Obecné informace o základní struktuře zisků a ztrát projektu.
 -   **Zisk a ztráta** - Informace o časově rozlišených příjmech.

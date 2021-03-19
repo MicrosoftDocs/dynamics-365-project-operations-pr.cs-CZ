@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073841"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289316"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrace aplikace Microsoft Project Client
 
@@ -42,7 +42,7 @@ Chcete-li povolit integraci s doplňkem Microsoft Project Client, je nutné nain
 •   Klikněte na položku **Otevřít** a po výzvě klikněte na možnost **Spustit**.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Otevření a úprava stávajícího konceptu strukturovaného rozpisu prací v doplňku Microsoft Project Client
-Pokud má projekt v Dynamics 365 Finance již vytvořený strukturovaný rozpis prací, lze strukturovaný rozpis prací otevřít v aplikaci Microsoft Project Client, pokud je ve stavu konceptu. Chcete-li otevření provést ze stránky **Projekt** , klikněte na odkaz **Otevřít v Microsoft Project** na kartě **Plán**. Tuto stránku lze otevřít také z aplikace Microsoft Project Client kliknutím na možnost **Otevřít** na kartě **Microsoft Dynamics 365**. V seznamu vyberte **Právnická osoba** a **Projekt**.
+Pokud má projekt v Dynamics 365 Finance již vytvořený strukturovaný rozpis prací, lze strukturovaný rozpis prací otevřít v aplikaci Microsoft Project Client, pokud je ve stavu konceptu. Chcete-li otevření provést ze stránky **Projekt**, klikněte na odkaz **Otevřít v Microsoft Project** na kartě **Plán**. Tuto stránku lze otevřít také z aplikace Microsoft Project Client kliknutím na možnost **Otevřít** na kartě **Microsoft Dynamics 365**. V seznamu vyberte **Právnická osoba** a **Projekt**.
 
 > [!NOTE]
 > Pokud jako prohlížeč používáte Internet Explorer, budete muset kliknout na **Uložit** a ručně otevřít soubor z umístění, do kterého je stažen. Nebo klikněte **Uložit a otevřít** a otevřete soubor v aplikaci Microsoft Project Client. Při ukládání neměňte název souboru.
@@ -118,13 +118,13 @@ Chcete-li vytvořit nový strukturovaný rozpis prací pomocí aplikace Microsof
 
 4.  Vyberte hodnotu **Právnická osoba** pro projekt.
 
-5.  Zadejte **ID projektu** , pokud je třeba.
+5.  Zadejte **ID projektu**, pokud je třeba.
 
 6.  Zadejte **Název projektu**.
 
-7.  Zvolte hodnoty **Typ projektu** , **Projektová skupina** a **ID smlouvy o projektu**. Alternativně můžete vytvořit novou projektovou smlouvu kliknutím na možnost **Nový**.
+7.  Zvolte hodnoty **Typ projektu**, **Projektová skupina** a **ID smlouvy o projektu**. Alternativně můžete vytvořit novou projektovou smlouvu kliknutím na možnost **Nový**.
 
-8.  Vyberte **Kalendář** , který bude použit pro zajišťování zdrojů.
+8.  Vyberte **Kalendář**, který bude použit pro zajišťování zdrojů.
 
 11. Klikněte na **OK**.
 

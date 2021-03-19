@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073759"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288580"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Nastavení a používání plateb dodavatelů zaplacených po uhrazení platby
 
@@ -56,7 +56,7 @@ Když nastavujete podmínky PWP pro projekt, musíte určit minimální částku
     - **Skupina** – Podmínky PWP platí pro všechny dodavatele ve skupině dodavatelů.
     - **Vše** – Podmínky PWP platí pro všechny dodavatele.
 
-4. Pokud jste v předchozím kroku vybrali možnost **Tabulka** nebo **Skupina** , vyberte v poli **Dodavatel nebo skupina dodavatelů** vyberte dodavatele nebo skupinu dodavatelů, na které se vztahují podmínky PWP. Pokud jste vybrali v předchozím kroku možnost **Vše** , není možné pole **Dodavatel nebo skupina dodavatelů** upravit.
+4. Pokud jste v předchozím kroku vybrali možnost **Tabulka** nebo **Skupina**, vyberte v poli **Dodavatel nebo skupina dodavatelů** vyberte dodavatele nebo skupinu dodavatelů, na které se vztahují podmínky PWP. Pokud jste vybrali v předchozím kroku možnost **Vše**, není možné pole **Dodavatel nebo skupina dodavatelů** upravit.
 5. Pokud jsou pro dodavatele v projektu nastaveny podmínky zadržení, vyberte v poli **Podmínky zádržného dodavatele** ID pravidla pro podmínky zadržení.
 6. V poli **Procento prahu PWP** zadejte prahové procento pro projekt. Procento, které pro projekt zadáte, definuje minimální částku, kterou vám musí zákazník zaplatit, než vy zaplatíte dodavateli.
 

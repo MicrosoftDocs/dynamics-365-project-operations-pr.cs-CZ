@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073953"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288821"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobilní aplikace Časový výkaz projektu
 
@@ -76,13 +76,13 @@ V poli **Projekt** vyberte projekt, pro který zadáváte čas. pole **Zákazní
 
 Vyhledávání zákazníků a projektů umožňuje vyhledávání napříč zákazníky i projekty.
 
-Informace v polích **Kategorie** , **Aktivita** , **Vlastnost řádku** , **Skupina DPH** , a **Skupina daně z prodeje zboží** jsou povinné. Tato pole lze přepsat.
+Informace v polích **Kategorie**, **Aktivita**, **Vlastnost řádku**, **Skupina DPH**, a **Skupina daně z prodeje zboží** jsou povinné. Tato pole lze přepsat.
 
 Pole **Vlastnost řádku** bude nastaveno na výchozí hodnotu na základě parametrů řízení projektu a účetnictví. Když jsou povoleny parametry projektu / kategorie a kategorie / zdroje, hodnota **Vlastnost řádku** bude nastavena na výchozí hodnotu, kterou jste definovali pro toto ověření. Pokud nejsou povoleny parametry projektu / kategorie a kategorie / zdroje, hodnota **Vlastnost řádku** bude nastavena podle pole **Povolit výchozí vlastnost řádku** na stránce **Parametry řízení projektu a účetnictví**. Hodnotu **Vlastnost řádku** lze přepsat.
 
 Vyberte den a přidejte čas. Zadejte počet hodin, které jste každý den odpracovali.
 
-Chcete-li přidat komentáře k otevírací době, klikněte na **Přidejte komentáře** , a poté zadejte komentáře pro interní cílovou skupinu, zákazníka cílová skupiny nebo obojí.
+Chcete-li přidat komentáře k otevírací době, klikněte na **Přidejte komentáře**, a poté zadejte komentáře pro interní cílovou skupinu, zákazníka cílová skupiny nebo obojí.
 Interní komentáře mohou zobrazit projektoví manažeři. Komentáře zákazníků jsou zahrnuty na fakturách.
 
 Chcete-li řádek uložit jako oblíbený, zaškrtněte políčko a poté klikněte **Uložit jako oblíbené**.
@@ -95,7 +95,7 @@ Klepněte na **Předložit** k odeslání časového rozvrhu do pracovního post
 
 ## <a name="review-timesheets"></a>Zkontrolujte časové rozvrhy
 
-Seznam časových výkazů, které je třeba zkontrolovat, je k dispozici v nabídce. Tato možnost je k dispozici, pouze pokud jste byli označeni jako schvalovatel pracovního postupu. Je podporováno schválení záhlaví i řádku. Schválení na úrovni řádků nabízí možnost označit jeden nebo více řádků ke schválení. Po kontrole informací časového rozvrhu klikněte na **Schválit** , **Delegovat** nebo **Vrátit se** k pokračování pracovního postupu.
+Seznam časových výkazů, které je třeba zkontrolovat, je k dispozici v nabídce. Tato možnost je k dispozici, pouze pokud jste byli označeni jako schvalovatel pracovního postupu. Je podporováno schválení záhlaví i řádku. Schválení na úrovni řádků nabízí možnost označit jeden nebo více řádků ke schválení. Po kontrole informací časového rozvrhu klikněte na **Schválit**, **Delegovat** nebo **Vrátit se** k pokračování pracovního postupu.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

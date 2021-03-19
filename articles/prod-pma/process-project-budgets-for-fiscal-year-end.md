@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073913"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289721"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Přenos projektových rozpočtů na konci fiskálního roku
 
@@ -41,7 +41,7 @@ Proveďte následující kroky, abyste zkontrolovali částky rozpočtu na konci
 4. V poli **Počáteční fiskální rok** vyberte fiskální rok, u kterého chcete zobrazit zbývající částku rozpočtu. 
 5. V poli **Z modelu prognózy** vyberte hodnotu **Zbývající rozpočet**. 
 6. Chcete-li zahrnout projekty, které splňují vámi vybraná kritéria a nemají zbývající rozpočet, vyberte **Zobrazit nulový zůstatek**.  
-7. Na kartě **Vyberte rozpočty** zvolte možnost **Načíst všechny rozpočty** , aby se načetly všechny rozpočty odpovídající vybraným kritériím, a poté vyberte **Zpracovat**. 
+7. Na kartě **Vyberte rozpočty** zvolte možnost **Načíst všechny rozpočty**, aby se načetly všechny rozpočty odpovídající vybraným kritériím, a poté vyberte **Zpracovat**. 
 8. Chcete-li navrhnout databázový dotaz, který do podokna načte konkrétní sadu rozpočtů, vyberte možnost **Načíst vybrané rozpočty**.
 
 Chcete-li další informace o konkrétním řádku v podokně, vyberte řádek a poté vyberte příkaz **Zobrazit podrobnosti rozpočtu** nebo **Zobrazit účty**.
@@ -59,10 +59,10 @@ Při zpracování zbývajících částek rozpočtu můžete v hlavní knize vyt
 2. Na stránce **Proces převedení projektového rozpočtu do dalšího období** vyberte **Konec roku** a poté povolte možnosti **Převést zbývající částky rozpočtu projektu** a **Vytvořit položky registru rozpočtu v hlavní knize**. 
 3. Na kartě **Parametry** ve skupině polí **Parametry projektu** vyberte následující:
 
-   - **Rozpočtový rok projektu** : Vyberte začátek fiskálního roku, u kterého chcete zobrazit zbývající částky rozpočtu. 
-   - **Zisk a ztráta** : Vytvořte transakce zisků a ztrát v hlavní knize. 
-   -  **NV** : Vytvořte transakce probíhajících prací (nedokončené výroby) v hlavní knize.
-   -  **Mzdy** : Vytvořte transakce přidělení mezd v hlavní knize. 
+   - **Rozpočtový rok projektu**: Vyberte začátek fiskálního roku, u kterého chcete zobrazit zbývající částky rozpočtu. 
+   - **Zisk a ztráta**: Vytvořte transakce zisků a ztrát v hlavní knize. 
+   -  **NV**: Vytvořte transakce probíhajících prací (nedokončené výroby) v hlavní knize.
+   -  **Mzdy**: Vytvořte transakce přidělení mezd v hlavní knize. 
 
 5. Ve skupině polí **Hlavní kniha** zadejte následující informace: 
 
@@ -73,10 +73,10 @@ Při zpracování zbývajících částek rozpočtu můžete v hlavní knize vyt
 
    - V poli **Z modelu prognózy** vyberte model prognózy projektového rozpočtu spojený se zbývajícími částkami rozpočtu, které chcete pro projekty převést. 
    - V poli **Do rozpočtového modelu hlavní knihy** vyberte model rozpočtu hlavní knihy spojený s částkami rozpočtu, které chcete převést do hlavní knihy. 
-   -  Vyberte příkaz **Převést prodejní měnu** , chcete-li použít prodejní měnu projektu pro transakce hlavní knihy, které se vytvoří při přenosu částek rozpočtu pro projekty. Pokud tato možnost není vybrána, transakce používají účetní měnu. 
-   -  Vyberte možnost **Zobrazit nulový zůstatek** , chcete-li zahrnout projekty, které nemají žádné zbývající částky rozpočtu, ale splňují další kritéria, která vyberete v projektech zobrazených v dolním podokně.
+   -  Vyberte příkaz **Převést prodejní měnu**, chcete-li použít prodejní měnu projektu pro transakce hlavní knihy, které se vytvoří při přenosu částek rozpočtu pro projekty. Pokud tato možnost není vybrána, transakce používají účetní měnu. 
+   -  Vyberte možnost **Zobrazit nulový zůstatek**, chcete-li zahrnout projekty, které nemají žádné zbývající částky rozpočtu, ale splňují další kritéria, která vyberete v projektech zobrazených v dolním podokně.
 
-7. Na kartě **Vyberte rozpočty** zvolte možnost **Načíst všechny rozpočty** , aby se načetly všechny rozpočty odpovídající vybraným kritériím. Dáváte-li přednost návrhu databázového dotazu, který do podokna načte konkrétní sadu projektových rozpočtů, vyberte možnost **Načíst vybrané rozpočty**.
+7. Na kartě **Vyberte rozpočty** zvolte možnost **Načíst všechny rozpočty**, aby se načetly všechny rozpočty odpovídající vybraným kritériím. Dáváte-li přednost návrhu databázového dotazu, který do podokna načte konkrétní sadu projektových rozpočtů, vyberte možnost **Načíst vybrané rozpočty**.
 8. U každého projektu, který chcete zpracovat, vyberte možnost na začátku řádku pro projekt.
 
     > [!TIP]
@@ -93,7 +93,7 @@ Při zpracování zbývajících částek rozpočtu můžete v hlavní knize vyt
 
    - V poli **Z modelu prognózy** vyberte model prognózy projektového rozpočtu, který je spojený se zbývajícími částkami rozpočtu, které chcete pro projekty převést. 
    - Chcete-li zahrnout projekty, které nemají zbývající rozpočtové částky, ale splňují jiná vámi vybraná kritéria, vyberte možnost **Zobrazit nulový zůstatek**.
-   - Ve skupině **Vyberte rozpočty** zvolte možnost **Načíst všechny rozpočty** , aby se načetly všechny rozpočty odpovídající vybraným kritériím. Chcete-li navrhnout databázový dotaz, který do podokna načte konkrétní sadu projektových rozpočtů, vyberte možnost **Načíst vybrané rozpočty**.
+   - Ve skupině **Vyberte rozpočty** zvolte možnost **Načíst všechny rozpočty**, aby se načetly všechny rozpočty odpovídající vybraným kritériím. Chcete-li navrhnout databázový dotaz, který do podokna načte konkrétní sadu projektových rozpočtů, vyberte možnost **Načíst vybrané rozpočty**.
 
 5. U každého projektu, který chcete zpracovat, vyberte možnost na začátku řádku pro projekt. 
 6. Výběrem příkazu **Zpracovat** převeďte zbývající částky rozpočtu pro vybrané projekty do vybraného fiskálního roku.

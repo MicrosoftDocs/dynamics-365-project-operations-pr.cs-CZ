@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2bab78628333f2d8a6996277ca3a9e63052e939
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073766"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289091"
 ---
 # <a name="project-resourcing-home-page"></a>Domovská stránka zajišťování zdrojů pro projekty
 
@@ -49,9 +49,9 @@ Následující témata poskytují informace o úkolech, které je třeba dokonč
 - [Nastavení projektových zdrojů](set-up-project-resources.md)
 - [Správa kompetencí zdrojů](manage-resource-competencies.md)
 - [Vytvoření nového projektu](create-new-project.md)
-- [Nastavení určování cen založeného na rolích](set-up-role-based-pricing.md)
+- [Nastavení cen na základě rolí](set-up-role-based-pricing.md)
 - [Vytvoření projektového týmu](create-project-team.md)
-- [Synchronizace kapacity zdroje](synchronize-resource-capacity.md)
+- [Synchronizace kapacity zdrojů](synchronize-resource-capacity.md)
 - [Výkon plánování zdrojů projektu](project-scheduling-performance.md)
 - [Nastavení rolí v šablonách strukturovaného rozpisu prací](set-up-roles-wbs-template.md)
 - [Plnění zdrojů pro plánované zdroje](resource-fulfillment-planned-resources.md)

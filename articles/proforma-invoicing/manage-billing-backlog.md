@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122335"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287725"
 ---
 # <a name="manage-the-billing-backlog"></a>Správa nedokončené fakturace
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Dynamics 365 Project Operations má dva vyhrazené pohledy, které vám pomohou pracovat a spravovat nevyřízené položky fakturace. Jsou to **Milníky pevné ceny** a **Nevyřízená fakturace času a materiálu**. Chcete-li vybrat pohled, v oblasti **Prodej** v Project Operations na levé navigační stránce vyberte **Fakturace**. Jsou zde uloženy odkazy na nevyřízenou fakturaci.
+Dynamics 365 Project Operations má dvě vyhrazená zobrazení, která pomáhají spravovat nedokončené fakturace. Jsou to **Milníky pevné ceny** a **Nevyřízená fakturace času a materiálu**. Chcete-li vybrat pohled, v oblasti **Prodej** v Project Operations na levé navigační stránce vyberte **Fakturace**. Jsou zde uloženy odkazy na nevyřízenou fakturaci.
 
 ## <a name="fixed-price-milestones"></a>Milníky s pevnou cenou
 

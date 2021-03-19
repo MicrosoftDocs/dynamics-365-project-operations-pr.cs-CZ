@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073764"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288956"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Dotaz Plán výdajů z federálních grantů
 
@@ -62,13 +62,13 @@ Musíte nastavit čísla CFDA, které lze přidat ke grantům a zahrnout do dota
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Nastavení grantů, které budou vykazovány v dotazu Plán výdajů z federálních grantů
 
 1. Přejděte do nabídky **Řízení projektů a účetnictví \> Granty \> Granty** a vyberte existující grant.
-2. Na pevné záložce **Nastavení** přiřaďte číslo CFDA v poli **Katalog federální domácí pomoci**. Číslo CFDA na grantu určuje cluster CFDA pro podávání zpráv.
+2. Na pevné záložce **Nastavení** přiřaďte číslo CFDA v poli **Katalog federální domácí pomoci**. Číslo CFDA na grantu určuje cluster CFDA pro podávání zpráv.
 3. Na pevné záložce **Kontaktní informace** zadejte informace o poskytovateli grantů pomocí následujícího postupu:
 
     1. V poli **Zákazník grantu** zadejte zákazníka, který je odpovědný za grant. U stávajícího grantu mohou být tyto informace již zadány.
     2. Uveďte, zda je zákazník grantu sám plátcem. Pokud je zákazník grantu plátcem, nechte zaškrtávací políčko **Předávací** vypnuté. Pokud je plátcem jiný zákazník a za utrácení a sledování peněz je odpovědný zákazník grantu, zapněte zaškrtávací políčko **Předávací**.
 
-4. Pokud jste v předchozím kroku zapnuli zaškrtávací políčko **Předávací** , zadejte v poli **Grantová agentura** zákazníka, který poskytl grant. Agentura poskytující granty a zákazník grantu nemohou být stejní zákazníci.
+4. Pokud jste v předchozím kroku zapnuli zaškrtávací políčko **Předávací**, zadejte v poli **Grantová agentura** zákazníka, který poskytl grant. Agentura poskytující granty a zákazník grantu nemohou být stejní zákazníci.
 
 Zde je příklad předávacího grantu:
 
@@ -79,8 +79,8 @@ Federální vláda financovala projekt infrastruktury pro stát. Federální vl�
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Vyloučení grantů z vykazování SEFA na základě typu grantu
 
-1. Přejděte do nabídky **Řízení projektů a účetnictví \> Nastavení \> Granty \> Typy grantů**.
-2. Na pevné záložce **Výchozí informace** zapněte zaškrtávací políčko **Vyloučit z plánu výdajů z federálních grantů**.
+1. Přejděte do nabídky **Řízení projektů a účetnictví \> Nastavení \> Granty \> Typy grantů**.
+2. Na pevné záložce **Výchozí informace** zaškrtněte políčko **Vyloučit z plánu výdajů z federálních grantů**.
 3. Výběrem možnosti **Uložit** uložte změny.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Spuštění dotazu Plán výdajů z federálních grantů

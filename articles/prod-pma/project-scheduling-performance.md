@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073763"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289001"
 ---
 # <a name="project-resource-scheduling-performance"></a>Výkon plánování zdrojů projektu
 
@@ -34,7 +34,7 @@ ms.locfileid: "4073763"
 Problémy s výkonem u plánování zdrojů mohou nastat, když počet projektů dosáhne tisíců. Chcete-li zlepšit výkon plánování zdrojů, je k dispozici funkce, která uživatelům umožňuje zkrátit čas potřebný ke spuštění formuláře dostupnosti zdrojů. Konkrétně dojde k odebrání procesu synchronizace shrnutí kapacity zdrojů a použije se tabulka **ResProjectResource** k urychlení vyhledávání zdrojů. Poznámka: tabulka **ResRollup** již nebude použita.
 
 > [!IMPORTANT]
-> Pokud existuje závislost buď na procesu synchronizace shrnutí kapacity zdrojů, nebo na tabulce **ResProjectResource** , nepoužívejte tuto funkci.
+> Pokud existuje závislost buď na procesu synchronizace shrnutí kapacity zdrojů, nebo na tabulce **ResProjectResource**, nepoužívejte tuto funkci.
 
 ## <a name="enable-resource-scheduling-performance-enhancement"></a>Jak povolit vylepšení výkonu plánování zdrojů
 Chcete-li povolit vylepšený výkon při plánování zdrojů, proveďte následující kroky.
@@ -54,7 +54,7 @@ Chcete-li povolit vylepšený výkon při plánování zdrojů, proveďte násle
  > [!NOTE]
  > Tato akce bude distribuovat obecná data do tabulky **ResCalendarCapacity** napříč všemi společnostmi ve vašem prostředí, takže dávkovou úlohu je třeba spustit pouze v jedné právnické osobě. Data v této dávkové úloze jsou potřebná k výpočtu kapacity zdrojů prostřednictvím přidruženého kalendáře.
 
-8. Přejděte do nabídky **Řízení projektů a účetnictví** > **Periodické** > **Zdroje projektu** > **Naplnit zdroje projektu napříč všemi společnostmi** a poté vyberte **OK**. Toto je skript pro aktualizaci obecných dat v tabulkách **ResProjectResource** , **ResCalendarDateTimeRange** a **ResEffectiveDateTimeRange**. Hodnoty pro pole **PSAPRojSchedRole.RootActivity** se také aktualizují. Pokud tato akce není spuštěna, obdržíte varování, když se pokusíte provést operace plánování zdrojů.
+8. Přejděte do nabídky **Řízení projektů a účetnictví** > **Periodické** > **Zdroje projektu** > **Naplnit zdroje projektu napříč všemi společnostmi** a poté vyberte **OK**. Toto je skript pro aktualizaci obecných dat v tabulkách **ResProjectResource**, **ResCalendarDateTimeRange** a **ResEffectiveDateTimeRange**. Hodnoty pro pole **PSAPRojSchedRole.RootActivity** se také aktualizují. Pokud tato akce není spuštěna, obdržíte varování, když se pokusíte provést operace plánování zdrojů.
  
 ## <a name="turn-off-resource-scheduling-performance-enhancement"></a>Jak vypnout vylepšení výkonu plánování zdrojů
 
