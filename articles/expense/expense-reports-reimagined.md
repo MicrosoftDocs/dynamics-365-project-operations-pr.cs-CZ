@@ -1,9 +1,9 @@
 ---
 title: Nová verze vyúčtování výdajů
-description: Toto téma poskytuje informace o přepracovaném prostředí pro záznam ve výkazu výdajů.
+description: Tento téma vysvětluje přepracované prostředí pro zadávání vyúčtování výdajů.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122785"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499708"
 ---
 # <a name="expense-reports-reimagined"></a>Nová verze vyúčtování výdajů
 
@@ -59,25 +59,22 @@ Video [Zkušenosti s výdaji v Dynamics 365 for Finance and Operations](https://
 | Snížení počtu zpráv na panelu zpráv| Počet zpráv Infolog byl snížen a bylo vynaloženo úsilí, aby se v mnoha případech zabránilo zobrazování duplicitních zpráv. |
 | Seskupené společné akce | Rozhraní bylo vyčištěno přidáním tlačítka nových akcí pro většinu běžných akcí na úrovni řádků a přidáním tlačítka se třemi tečkami (...) pro záhlaví a další méně časté akce. |
 | Nový pracovní prostor pro zvýšení viditelnosti | Nový pracovní prostor sjednocuje funkce a odkazy, které uživatelům umožňují přesouvat se do různých oblastí. |
-| Přidejte existující výdaje a příjmy během vytváření výdajů | Když vytváříte výkazy výdajů, můžete přidat všechny nebo vybrané výdaje a příjmy. |
+| Přidejte existující výdaje a příjmy během vytváření výdajů | Když vytváříte vyúčtování výdajů, můžete přidat všechny výdaje nebo vybrat nepřipojené výdaje. Nepřipojené výdaje jsou výdaje, které byly importovány z podnikového zdroje kreditní karty nebo výdaje, které byly ručně vytvořeny uživatelem, ale nebyly připojeny k vyúčtování výdajů.|
 | Kalkulátor směnných kurzů | Přidána je kalkulačka směnných kurzů, která umožňuje vypočítat směnný kurz pro transakce s více měnami. |
 | Uložte a přidejte nové výdajové řádky | Jsou k dipozici tlačítka **Uložit** a **Nový** při zadávání nových výdajů, která vám pomohou rychle zadat řádky výdajů. |
 | Lepší viditelnost na rozdělené a rozepsané řádky | Rozepsané a rozdělené řádky se přidávají přímo do seznamu výdajů, aby se zvýšila viditelnost a pomohlo vám snadno určit, zda nedošlo k chybám. |
 | Zobrazit účtenky při rozepisování | Při rozepisování lze zobrazit účtenky. |
+| Výběr hotovostní zálohy | Vyberte jednu nebo více peněžních záloh pro provedení transakce s jedním výdajem. |
+| Hotovostní zůstatek | Zkontrolujte zůstatek hotovostní zálohy v reálném čase, když vytvoříte položku výdajů oproti schváleným a zaplaceným peněžním zálohám. |
 
 Počáteční vydání je zaměřeno na scénáře zadávání výdajů. Jakýkoli scénář kontroly nebo schválení výkazu výdajů bude i nadále používat stávající stránku pro zadávání výdajů.
 
-Následující funkce jsou k dispozici na existující stránce, ale ještě nejsou k dispozici na nové stránce. Tyto funkce budou znovu zavedeny během několika příštích vydání:
+V přepracovaném pracovním prostoru výdajů nejsou podporovány následující funkce:
 
-- Schválení
-- Schválení závazků a možnost úpravy účetnictví
-- Více vstupních bodů
 - Integrace cestovních žádanek
-- Datová entita pro viditelnost výdajového pole
-- Zadávání výdajů na denní diety
-- Pracovní postup na úrovni řádků
+- Zadání výdajů za každý den
 - Prozatímní podpora schvalovatele
-- Rozšířené rozepisování
+- Schopnost zobrazit historii pracovního postupu
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,17 +3,17 @@ title: Chování uživatelského rozhraní při zadávání času
 description: Toto téma obsahuje informace o chování uživatelského rozhraní při zadávání času.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124495"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499606"
 ---
 # <a name="time-entry-ui-behavior"></a>Chování uživatelského rozhraní při zadávání času
 
@@ -21,6 +21,19 @@ _**Platí pro:** Project Operations scénáře založené na zdrojích / položk
 
 
 Nová mřížka pro **týdenní zadávání času** je vlastní ovládací prvek, který obsahuje panel nástrojů a dvě hlavní části **Dimenze** a **Doba trvání**.
+
+## <a name="keyboard-shortcuts"></a>Klávesové zkratky
+| Akce        | Zástupce                  |
+|------------   |------------------------   |
+| Nové           | Alt + Shift + n           |
+| Kopírovat řádek      | Alt + Shift + c           |
+| Upravit záznam    | Alt + Shift + e           |
+| Upravit řádek      | Alt + Shift + Ctrl + e    |
+| Otevřít záznam    | Alt + Shift + o           |
+| Odeslat        | Alt + Shift + s           |
+| Odvolat        | Alt + Shift + r           |
+| Odstranění        | Alt + Shift + d           |
+| Kopírovat týden     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Dimenze
 Část **Dimenze** znázorňuje dimenze, pro které lze zadat čas. Následující dimenze jsou podporovány ve výchozím nastavení:

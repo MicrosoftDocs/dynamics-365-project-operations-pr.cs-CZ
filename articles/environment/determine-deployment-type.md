@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401210"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479556"
 ---
 # <a name="determine-your-deployment-type"></a>Určení typu nasazení
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
 > [!IMPORTANT]
-> Po zakoupení licence začněte zde a určete nejlepší model nasazení Dynamics 365 Project Operations pomocí [Řízený průběh instalace](https://aka.ms/provisionprojectoperations).
+> Po zakoupení licence začněte zde a určete nejlepší model nasazení Dynamics 365 Project Operations za použití [Řízeného toku instalace](https://aka.ms/provisionprojectoperations).
 > Poté, co dokončíte postup instalace s průvodcem, budete přesměrováni na správný portál pro správu, abyste dokončili instalaci. Dokončete instalaci podle informací o nasazení.
 
 
@@ -31,6 +31,9 @@ Project Operations zahrnuje funkce dodávané s Project Service Automation. Pro 
 
 Stávající zákazníci řešení Finance, kteří používají funkce správy projektů a účetnictví, je mohou i nadále používat tak, jak jsou. Viz [Project Operations pro scénáře se skladovým materiálem a výrobními příkazy](#pma)
 
+
+## <a name="deployment-regions"></a>Oblasti nasazení
+Chcete-li zjistit, které regiony podporují nasazení Project Operations, přečtěte si sestavu [ Geografická dostupnost pro Dynamics 365 a Power Platform](https://dynamics.microsoft.com/en-us/geographic-availability/). Vyberte **Zobrazit sestavu** a rozbalte **Dynamics 365> Provozní aplikace> Dynamics 365 Project Operations** k zobrazení podporovaných regionů.
 
 ## <a name="deployment-types"></a>Typy nasazení
 Project Operations podporuje více možností nasazení, aby odpovídaly vašim požadavkům. Ať už jste novým nebo stávajícím zákazníkem Dynamics 365, Project Operations může podpořit vaše potřeby.

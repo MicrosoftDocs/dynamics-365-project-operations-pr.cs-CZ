@@ -24,12 +24,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e8ec1b5f7760b21ca3f0a85952820bdf6d0a5da
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a8e1c7233de5705c928308431738060cca454e89
+ms.sourcegitcommit: 7e39fc1d50681850175428c909755204b08f0a77
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144270"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556615"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Plán vydávání aktualizací pro Project Service 3.x
 
@@ -39,7 +39,7 @@ ms.locfileid: "5144270"
 
 | Řešení  | Nejnovější verze |
 |-------|----|
-| Project Service Automation    | 3.10.46.87 |
+| Project Service Automation    | 3.10.47.7 |
 | Desktopový doplněk Project Service Automation                | 3.15          |
 
 Vydání: Informace o dalších aktualizacích služby Project Service naleznete v části [Plány vydání Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/). 
@@ -47,28 +47,28 @@ Vydání: Informace o dalších aktualizacích služby Project Service naleznete
 | Stanice  | Oblast | Aktuální verze | Další verze |  Plánované datum
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stanice 1</strong> | |  |  | |
-| | <i>První vydání</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 19. února 2021
+| | <i>První vydání</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2. dubna 2021
 |<strong>Stanice 2</strong> | |  |  | |
-| | <i>Jižní Amerika</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26. února 2021
-| | <i>Kanada</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26. února 2021
-| | <i>Indie</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26. února 2021
-| | <i>Francie</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26. února 2021
-| | <i>Spojené arabské emiráty</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26. února 2021
-| | <i>Jižní Afrika</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26. února 2021
-| | <i>Německo</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26. února 2021
-| | <i>Švýcarsko</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26. února 2021
+| | <i>Jižní Amerika</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2. dubna 2021
+| | <i>Kanada</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2. dubna 2021
+| | <i>Indie</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2. dubna 2021
+| | <i>Francie</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2. dubna 2021
+| | <i>Spojené arabské emiráty</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2. dubna 2021
+| | <i>Jižní Afrika</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2. dubna 2021
+| | <i>Německo</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2. dubna 2021
+| | <i>Švýcarsko</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2. dubna 2021
 |<strong>Stanice 3</strong> | |  |  | |
-| | <i>Japonsko</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 05. března 2021
-| | <i>Asie a Tichomoří</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 05. března 2021
-| | <i>Velká Británie (GBR)</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 05. března 2021
-| | <i>Oceana</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 05. března 2021
+| | <i>Japonsko</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 9. dubna 2021
+| | <i>Asie a Tichomoří</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 9. dubna 2021
+| | <i>Velká Británie (GBR)</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 9. dubna 2021
+| | <i>Oceana</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 9. dubna 2021
 |<strong>Stanice 4</strong> | |  |  | |
-| | <i>Evropě</i> | [3.10.45.119](whats-new-ur-27-5.md) | [3.10.46.87](whats-new-ur-28-5.md) | 19. února 2021
+| | <i>Evropě</i> | [3.10.46.147](whats-new-ur-28-6.md) | [3.10.47.7](whats-new-ur-29.md) | 12. března 2021
 |<strong>Stanice 5</strong> | |  |  | |
-| | <i>Severní Amerika</i> | [3.10.44.59](whats-new-ur-26.md) | [3.10.45.119](whats-new-ur-27-5.md) | 12. února 2021
+| | <i>Severní Amerika</i> | [3.10.46.147](whats-new-ur-28-6.md) | [3.10.47.7](whats-new-ur-29.md) | 19. března 2021
 |<strong>Stanice 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.44.59](whats-new-ur-26.md) | [3.10.45.119](whats-new-ur-27-5.md) | 12. února 2021
-| | <i>Vyhrazené skupiny škálování</i> | [3.10.44.59](whats-new-ur-26.md) | [3.10.45.119](whats-new-ur-27-5.md) | 19. února 2021
+| | <i>Government Community Cloud</i> | [3.10.46.147](whats-new-ur-28-6.md) | [3.10.47.7](whats-new-ur-29.md) | 19. března 2021
+| | <i>Vyhrazené skupiny škálování</i> | [3.10.45.120](whats-new-ur-27-6.md) | [3.10.46.147](whats-new-ur-28-6.md) | 05. března 2021
 
 >[!Note]
 > - Data ve všech regionech kromě cloudu komunity státní správy (GCC) označují načasování další automatické aktualizace. Data v GCC označují dostupnost verze; v současné době pro tyto oblasti neexistuje žádná automatická aktualizace.
