@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 595fda369fe19a69604fc4ab694cb844f45076b5
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 463c1e206090b8c85ff67f4fc38a15932749a834
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175613"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290216"
 ---
 # <a name="start-a-new-lcs-project"></a>Zahájení nového projektu LCS
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-Pomocí služby Lifecycle Services (LCS) můžete spravovat prostředí Dynamics 365 Project Operations. Pomocí následujících kroků vytvořte nový projekt LCS.
+Ke správě prostředí Dynamics 365 Project Operations použijte službu LCS (Lifecycle Services). Pomocí následujících kroků vytvořte nový projekt LCS.
 
 1. Přejděte na [LCS](https://lcs.dynamics.com/Logon/Index) a vyberte **Přihlásit se** pomocí účtu, který jste použili k přihlášení k odběru.
 2. Na výzvu přijměte právní podmínky a podmínky ochrany osobních údajů.
