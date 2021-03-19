@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133306"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287230"
 ---
 # <a name="integration-journal-in-project-operations"></a>Deník integrace v Project Operations
 
@@ -28,9 +28,9 @@ Položky času a výdajů vytvářejí **Skutečné** transakce, které předsta
 Záznamy v deníku integrace Project Operations jsou vytvářeny pomocí periodického procesu **Import z pracovní tabulky**. Tento proces můžete spustit přechodem na **Dynamics 365 Finance** > **Řízení projektů a účetnictví** > **Periodické** > **Integrace Project Operations** > **Import z pracovní tabulky**. Proces můžete spustit interaktivně nebo jej nakonfigurovat tak, aby běžel na pozadí podle potřeby.
 
 Když se periodický proces spustí, budou nalezeny všechny skutečné hodnoty, které ještě nejsou přidány do deníku integrace Project Operations. Vytvoří se řádek deníku pro každou transakci skutečné hodnoty.
-Systém seskupuje řádky deníku do samostatných deníků na základě hodnoty vybrané v poli **Jednotka období v deníku integrace Project Operations** (**Finance** > **Řízení projektů a účetnictví** > **Nastavení** > **Parametry řízení projektů a účetnictví**, karta **Project Operations v Dynamics 365 Customer Engagement** _). Možné hodnoty pro toto pole zahrnují:
+Systém seskupuje řádky deníku do samostatných deníků na základě hodnoty vybrané v poli **Jednotka období v deníku integrace Project Operations** (**Finance** > **Řízení projektů a účetnictví** > **Nastavení** > **Parametry řízení projektů a účetnictví**, karta **Project Operations v Dynamics 365 Customer Engagement**). Možné hodnoty pro toto pole zahrnují:
 
-  - _*Dny**: Skutečné údaje jsou seskupeny podle data transakce. Pro každý den se vytvoří samostatný deník.
+  - **Dny**: Skutečné hodnoty jsou seskupeny podle data transakce. Pro každý den se vytvoří samostatný deník.
   - **Měsíce**: Skutečné hodnoty jsou seskupeny podle kalendářních měsíců. Pro každý měsíc se vytvoří samostatný deník.
   - **Roky**: Skutečné hodnoty jsou seskupeny podle kalendářních let. Pro každý rok se vytvoří samostatný deník.
   - **Vše**: Všechny skutečné transakce jsou zahrnuty ve stejném deníku integrace. Pokud deník není k dispozici při spuštění periodického procesu, například pokud je deník v procesu účtování transakcí, vytvoří se nový deník.

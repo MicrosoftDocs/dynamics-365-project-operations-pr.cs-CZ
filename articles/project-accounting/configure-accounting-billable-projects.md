@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131965"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287635"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurace účetnictví pro fakturovatelné projekty
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Dynamics 365 Project Operations podporuje různé možnosti účtování pro fakturovatelné projekty, které zahrnují časové a materiálové transakce a transakce s pevnou cenou.
+Dynamics 365 Project Operations podporuje různé možnosti účtování pro fakturovatelné projekty, které zahrnují časové a věcné transakce a transakce s pevnou cenou.
 
 - **Časové a materiálové transakce**: Tyto transakce jsou fakturovány podle postupu práce na základě spotřeby hodin, výdajů, položek nebo poplatků na projektu. Tyto transakční náklady lze porovnat s výnosy z každé transakce a projekt je fakturován podle postupu práce. Výnosy z projektu lze také akumulovat v době, kdy k transakci dojde. Během fakturace jsou výnosy uznány a časově rozlišené výnosy jsou případně stornovány.
 - **Transakce s pevnou cenou**: tyto transakce fakturovány podle plánu fakturace, který je založen na smlouvě o projektu. Výnosy z transakcí s pevnou cenou lze uznat při fakturaci nebo vypočítat a zaúčtovat pravidelně podle metody **Dokončená smlouva** nebo **Dokončené procento**.
