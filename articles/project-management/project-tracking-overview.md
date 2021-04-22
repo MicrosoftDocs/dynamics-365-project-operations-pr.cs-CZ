@@ -1,21 +1,21 @@
 ---
-title: Přehled sledování projektů
-description: Toto téma obsahuje informace o způsobu sledování pokroku projektu a spotřeby nákladů.
+title: Sledování projektového úsilí
+description: Toto téma obsahuje informace o způsobu sledování projektového úsilí a postupu prací.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286600"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5710932"
 ---
-# <a name="project-tracking-overview"></a>Přehled sledování projektů
+# <a name="project-effort-tracking"></a>Sledování projektového úsilí
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
@@ -26,50 +26,28 @@ Potřeba sledovat pokrok oproti plánu se liší podle odvětví. Některá odv�
 Zobrazení **Sledování úsilí** sleduje průběh úkolů v plánu porovnáním skutečných hodin úsilí vynaložených na úkol s hodinami plánovaného úsilí. Dynamics 365 Project Operations pro výpočet metrik sledování používá následující vzorce:
 
 - **Procento pokroku**: Skutečné úsilí vynaložené doposud ÷ Odhad při dokončení (EAC) 
-- **Odhad dokončení (ETC)**: Plánované úsilí – Skutečné úsilí vynaložené doposud 
+- **Zbývající úsilí**: Odhadované úsilí při dokončení – skutečné doposud vynaložené úsilí 
 - **Odhad nákladů při dokončení (EAC)**: Zbývající úsilí + Skutečné úsilí vynaložené doposud 
 - **Očekávaná odchylka úsilí**: Plánované úsilí – EAC
 
 Project Operations u daného úkolu zobrazuje očekávanou odchylku úsilí. Je-li EAC větší než plánované úsilí, předpokládá se, že úkol zabere více času, než bylo původně plánováno a je pozadu za plánem. Je-li EAC menší než plánované úsilí, předpokládá se, že úkol zabere méně času, než bylo původně plánováno a je před plánem v předstihu.
 
-## <a name="reprojecting-effort"></a>Přeplánování úsilí
+## <a name="reprojecting-effort-on-leaf-node-tasks"></a>Přeprojektování úsilí u úkolů v uzlech typu list
 
-Projektoví manažeři často revidují původní odhady u úkolu. Předpovědi projektu jsou vnímání odhadů projektového manažera podle aktuálního stavu projektu. Nedoporučujeme však projektovým manažerům, aby změnili směrná čísla. Důvodem je to, že směrný plán projektu představuje stanovený zdroj pravdy pro odhady plánů a nákladů projektu a všichni účastníci projektu se na něm shodli.
+Projektoví manažeři často revidují původní odhady u úkolu. Předpovědi projektu jsou vnímání odhadů projektového manažera podle aktuálního stavu projektu. Nedoporučujeme však projektovým manažerům měnit plánovaná čísla úsilí. A to proto, že plánované projektové úsilí představuje zavedený zdroj pravdivých údajů pro harmonogram projektu a odhad nákladů, a všichni účastníci projektu s ním souhlasili.
 
-Projektový manažer může předpovědět úsilí na úkoly dvěma způsoby:
-
-- Přepsat výchozí hodnotu ETC novým odhadem skutečně zbývajícího úsilí na úkol. 
-- Přepsat výchozí procento pokroku novým odhadem skutečného pokroku u úkolu.
-
-Každý přístup způsobí přepočet hodnot ETC, EAC, procenta pokroku a očekávané odchylky úsilí daného úkolu. Rovněž se přepočítají hodnoty EAC, ETC a procento pokroku souhrnných úkolů a vytvoří se nová projekce odchylky úsilí.
+Manažer projektu může přeprojektovat úsilí uplatněné na úkoly aktualizací výchozí hodnoty pole **Zbývající úsilí** za nový odhad pro úkol. Tato aktualizace způsobí přepočet odhadu úsilí na úkol při dokončení (EAC), procenta pokroku a očekávané odchylky úsilí na úkolu. Rovněž se přepočítají hodnoty EAC, ETC a procento pokroku souhrnných úkolů a vytvoří se nová projekce odchylky úsilí.
 
 ## <a name="reprojection-of-effort-on-summary-tasks"></a>Přeplánování úsilí na souhrnné úkoly
 
-Úsilí na souhrnné úkoly nebo úkoly kontejneru je možné přeplánovat. Bez ohledu na to, zda uživatel provede přeplánování pomocí zbývajícího úsilí nebo procenta pokroku souhrnných úkolů, spustí se následující sada výpočtů:
+Úsilí na souhrnné úkoly nebo úkoly kontejneru je možné přeplánovat. Vedoucí projektů mohou aktualizovat zbývající úsilí u souhrnných úkolů. Aktualizace zbývajícího úsilí spustí v aplikaci následující sadu výpočtů:
 
-- Vypočítá se hodnota EAC, ETC a procento pokroku úkolu.
+- Vypočítá se hodnota EAC a procento pokroku na úkolu.
 - Nová hodnota EAC se na podřízené úkoly rozdělí ve stejném poměru jako původní EAC úkolu.
 - Dojde k výpočtu nové hodnoty EAC u jednotlivých úkolů, až po úkoly uzlů typu list. 
-- Ovlivněné podřízené úkoly směrem k úkolům uzlů typu list mají hodnotu ETC a procentuální hodnotu pokroku přepočítány na základě hodnoty EAC. Výsledkem je nový odhad odchylky úsilí na úkol. 
+- Ovlivněné podřízené úkoly směrem k úkolům uzlů typu list mají zbývající úsilí a procentuální hodnotu pokroku přepočítány na základě hodnoty EAC. Výsledkem je nový odhad odchylky úsilí na úkol. 
 - Přepočítají se hodnoty EAC souhrnných úkolů všech cest ke kořenovému uzlu.
 
-### <a name="cost-tracking-view"></a>Zobrazení Sledování nákladů 
-
-Zobrazení **Sledování nákladů** porovnává skutečné náklady, které byly vynaloženy na úkol, s plánovanými náklady na úkol. 
-
-> [!NOTE]
-> Toto zobrazení ukazuje pouze náklady práce a nezahrnuje náklady z odhadů výdajů. Aplikace Project Operations používá pro výpočet metrik sledování následující vzorce:
-
-- **Procento spotřebovaných nákladů**: Skutečné náklady vynaložené doposud ÷ Odhadované náklady při dokončení
-- **Náklady na dokončení (CTC)**: Plánované náklady – Skutečné náklady vynaložené doposud
-- **Odhad nákladů při dokončení (EAC)**: Zbývající náklady + Skutečné dosud vynaložené náklady
-- **Očekávaná odchylka nákladů**: Plánované náklady – EAC
-
-U úkolu je zobrazen odhad odchylky nákladů. Je-li EAC větší než plánované náklady, předpokládá se, že náklady na úkol budou vyšší, než bylo původně plánováno. Proto vykazuje vývoj trendu nad rozpočet. Je-li EAC menší než plánované náklady, předpokládá se, že náklady na úkol budou nižší, než bylo původně plánováno. Proto vykazuje vývoj trendu pod rozpočtem.
-
-## <a name="project-managers-reprojection-of-cost"></a>Přeplánování nákladů projektového manažera
-
-Při přeplánování úsilí se hodnoty CTC, EAC, procento spotřebovaných nákladů a očekávaná odchylka nákladů přepočítají v zobrazení **Sledování nákladů**.
 
 ## <a name="project-status-summary"></a>Souhrn stavu projektu
 

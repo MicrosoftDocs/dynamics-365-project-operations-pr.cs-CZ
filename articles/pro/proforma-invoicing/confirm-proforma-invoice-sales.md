@@ -1,26 +1,26 @@
 ---
-title: Potvrzení proforma faktury – omezené
-description: Toto téma poskytuje informace o tom, jak potvrzovat proforma faktury v aplikaci Project Operations.
+title: Potvrzení proforma faktury projektu
+description: Tento téma poskytuje informace o potvrzování projektových proforma faktur v Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b1818f20a0d54848939b689f87986154943c57a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 144c1b6a49951af8be0c619f41808e7617e59c92
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274270"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867078"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>Potvrzení proforma faktury – omezené
+# <a name="confirm-a-proforma-project-invoice"></a>Potvrzení proforma faktury projektu 
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
 
-Po potvrzení proforma faktury se stav projektové faktury aktualizuje na **Potvrzeno**. Když je faktura potvrzena, stane se pouze pro čtení. Do budoucna bude možné fakturu opravit, pouze pokud dojde k opravám nebo kreditům zahájeným zákazníkem nebo pokud je faktura označena jako zaplacená.
+Po potvrzení proforma faktury se stav projektové faktury aktualizuje na **Potvrzeno**. Když je faktura potvrzena, stane se pouze pro čtení. Do budoucna bude možné fakturu opravit pouze v případě, že dojde k opravám nebo kreditům zahájeným zákazníkem.
 
 V následující tabulce jsou uvedeny skutečné hodnoty vytvořené systémem. Tyto skutečné hodnoty se vytvoří, když se na faktuře konceptu projektu provedou určité operace, než se potvrdí.
 
@@ -225,6 +225,70 @@ Nevyfakturované storno prodeje pro množství a částku při původním schvá
             <td width="408" valign="top">
                 <p>
 Nový nevyfakturovaný skutečný prodej, který je účtovatelný za množství a částku na upraveném detailu řádku faktury, zrušení skutečného nevyfakturovaného prodeje a ekvivalentní fakturovaný skutečný prodej. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fakturace významné transakce bez jakýchkoli úprav konceptu faktury.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Nevyfakturované vrácení prodeje a množství a částky na původním schválení použití materiálu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Vyfakturovaný skutečný prodej a množství a částky na původním schválení použití materiálu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Fakturace materiálové transakce, která byla upravena, aby se snížilo množství.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Nevyfakturované vrácení prodeje a množství a částky na původním schválení času.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nový nevyfakturovaný skutečný prodej, který je účtovatelný za množství a částku na upraveném detailu řádku faktury, zrušení skutečného nevyfakturovaného prodeje a ekvivalentní fakturovaný skutečný prodej.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nový nevyfakturovaný skutečný prodej, který je neúčtovatelný za zbývající množství a částku po odečtení korigovaných čísel na upraveném detailu řádku faktury, zrušení skutečného nevyfakturovaného prodeje a ekvivalentní fakturovaný skutečný prodej.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fakturace materiálové transakce, která byla upravena, aby se zvýšilo množství.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Nevyfakturované vrácení prodeje a množství a částky na původním schválení použití materiálu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nový nevyfakturovaný skutečný prodej, který je účtovatelný za množství a částku na upraveném detailu řádku faktury, zrušení skutečného nevyfakturovaného prodeje a ekvivalentní fakturovaný skutečný prodej.
                 </p>
             </td>
         </tr>

@@ -1,29 +1,27 @@
 ---
-title: Konfigurace automatického vytváření faktur – omezená
-description: Toto téma poskytuje informace o konfiguraci automatického vytváření proforma faktur.
+title: Nastavení automatického vytváření faktur
+description: Tento téma poskytuje informace o nastavení a konfiguraci automatického vytváření proforma faktur.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274315"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866809"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Konfigurace automatického vytváření faktur – omezená
+# <a name="set-up-automatic-invoice-creation"></a>Nastavení automatického vytváření faktur 
  
-_**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
+_**Platí pro:** omezené nasazení – dohoda o pro forma fakturaci, Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
 V Dynamics 365 Project Operations můžete konfigurovat automatické vytváření faktur. Systém vytvoří koncept proforma faktury na základě rozpisu faktury pro každou projektovou smlouvu a řádek smlouvy. Rozpisy faktur jsou konfigurovány na úrovni řádku smlouvy. Každý řádek ve smlouvě může mít odlišný rozpis faktury nebo stejný rozpis faktury může být obsažen v každém řádku smlouvy.
 
-Když vytvoříte fakturu, systém vždy vytvoří alespoň jednu fakturu na projektovou smlouvu. V některých případech může být vytvořeno více faktur.
-
-Například pokud má smlouva více zákazníků, bude vytvořen stejný počet faktur jako počet zákazníků, kteří mají fakturovatelné transakce k fakturaci na danou smlouvu projektu.
+Když vytvoříte fakturu, systém vždy vytvoří alespoň jednu fakturu na projektovou smlouvu. V některých případech může být vytvořeno více faktur. Například pokud má smlouva více zákazníků, bude vytvořen stejný počet faktur jako počet zákazníků, kteří mají fakturovatelné transakce k fakturaci na danou smlouvu projektu.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Pochopení, jak jsou transakce zahrnuty na faktuře 
 

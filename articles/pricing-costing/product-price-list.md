@@ -3,7 +3,7 @@ title: Produktové ceníky
 description: Tento téma poskytuje informace o cenících v katalogových cenách používaných pro projektové nabídky a smlouvy.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -14,23 +14,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0f30bec159254c078024549b7b0dd0c048ef65d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e37f0bf9eef946ab4ebd658cef4e1269cbaf686d
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275350"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877482"
 ---
 # <a name="product-price-lists"></a>Produktové ceníky
 
-_**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
+_**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
-Ceníky a entity položek ceníku podporují oceněn v katalogu produktů. Tato funkce se většinou používá pro řádky založené na katalogu v nabídkách projektů a projektových smlouvách.
-
-U řádků založených na projektu představuje smlouva dohodu po jejím získání. Vzhledem k tomu, že proces vyjednávání obvykle předchází získání, je ocenění připojené k nabídce vždy zkopírováno tak, jak je, do nového ceníku a připojeno ke smlouvě. Tento nový ceník nelze změnit mimo rozsah smlouvy. Toto omezení pomáhá chránit kartu se sazbami před jakýmikoli změnami cen, které se vyskytují v hlavním ceníku.
+ V Project Operations podporují **Ceníky produktů** a související entity položek ceníku funkčnost pro oceňování produktů na základě řádků nabídek a smluv založených na produktu. U produktů použitých na projektech se používají záznamy položek ceníku pro projektové ceníky. 
 
 Produkty by měly být nastaveny tak, aby měly v katalogu produktů výchozí nákladové ceníky a ceníky. Ke konfiguraci výchozích nákladových cen a ceníků použijte ceníkovou cenu, standardní cenu a aktuální cenu. Výchozí ceníky se používají na řádku nabídky nebo řádku projektové smlouvy pouze v případě, že systém nemůže pro tento produkt najít řádek ceníku v produktovém ceníku pro nabídku nebo projektovou smlouvu.
 
@@ -40,9 +38,7 @@ Nákladová cena řádků katalogu produktů může být změněna mezi nabídka
 
 Produkty z katalogu produktů můžete přidat do různých ceníků. Řádky ceníku pro produkty vždy odkazují na určitou jednotku. Ocenění produktu v položkách ceníku lze konfigurovat jako částku v měně. Alternativně může být nakonfigurována jako funkce ceníku, aktuální ceny nebo standardní ceny.
 
-PSA podporuje různé možnosti zaokrouhlení, pokud jsou ceny konfigurovány jako funkce ceníku, standardní ceny nebo aktuální ceny. Kromě využití více způsobů ocenění a možností zaokrouhlení můžete k položkám ceníku přidružit seznamy slev. 
-
-Když vytvoříte nový vlastní ceník pro nabídku pomocí výběru **Vytvořit vlastní ceny** na stránce **Projektová nabídka**, vytvoří se kopie ceníku a pole **Entita** v záhlaví nového ceníku bude nastaveno na **Entita prodeje**. K názvu nového ceníku je připojen název nabídky a časové razítko. Název nového ceníku a název nabídky ve vlastních pracovních postupech můžete také použít k aktivaci další kontroly a schválení pro nabídky, které používají vlastní ceny.
+Funkčnost ocenění podporuje různé možnosti zaokrouhlení, pokud jsou ceny produktů konfigurovány jako funkce ceníku, standardní ceny nebo aktuální ceny. Kromě využití více způsobů ocenění a možností zaokrouhlení můžete k položkám ceníku přidružit seznamy slev. 
 
  
 ## <a name="default-product-price-list"></a>Výchozí ceník produktu
@@ -57,7 +53,7 @@ Entity Příležitost, Nabídka a Projektová smlouva používají k zadávání
 
 Ve výchozím nastavení uvádí pole **Produkt** na řádku nabídky všechny aktivní produkty v ceníku produktu nabídky. Pokud byl produkt inaktivován nebo pokud se jedná o koncept produktu, není v seznamu uveden, i když je v ceníku. 
 
-Řádky katalogu produktů jsou přidány jako řádky faktury v první faktuře, která je vytvořena pro projektovou smlouvu. Tyto řádky faktury lze v konceptu faktury odstranit. V takovém případě se řádky objeví na následující faktuře, dokud nebudou fakturovány nebo dokud nebude faktura odeslána zákazníkovi. Nelze fakturovat částečné množství z řádku faktury za produkt. Při fakturaci řádků produktu z projektové smlouvy se vytvoří skutečné hodnoty. Tyto skutečné hodnoty však nejsou propojeny se související entitou projektu. Jinými slovy, řádky projektové smlouvy založené na produktu jsou nezávislé na jakémkoli použití založeném na projektu. U projektů nesleduje spotřebu materiálu.
+Řádky katalogu produktů jsou přidány jako řádky faktury v první faktuře, která je vytvořena pro projektovou smlouvu. Tyto řádky faktury lze v konceptu faktury odstranit. V takovém případě se řádky objeví na následující faktuře, dokud nebudou fakturovány nebo dokud nebude faktura odeslána zákazníkovi. Nelze fakturovat částečné množství z řádku faktury za produkt. Při fakturaci řádků produktu z projektové smlouvy se vytvoří skutečné hodnoty. Tyto skutečné hodnoty však nejsou propojeny se související entitou projektu. Jinými slovy, řádky projektové smlouvy založené na produktu jsou nezávislé na jakémkoli použití založeném na projektu. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

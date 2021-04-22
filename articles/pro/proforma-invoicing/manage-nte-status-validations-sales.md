@@ -3,17 +3,17 @@ title: Správa nepřekročitelných stavů a ověření
 description: Tohle téma poskytuje informace o kontrolách nepřekročitelného limitu prováděných v Project Project.
 author: rumant
 manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c491d4014ffc2568d7df72b542761ec9b1a90b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7026ff654a9db8e8a22bcef544b043af39865559
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274003"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866719"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Správa nepřekročitelných stavů a ověření 
 
@@ -21,7 +21,7 @@ _**Platí pro:** Project Operations scénáře založené na zdrojích / položk
 
 ## <a name="not-to-exceed-on-approvals"></a>Nepřekročitelný limit při schválení
 
-Po zadání položky času nebo výdaje se vytvoří záznam o schválení. Pokud je schválení účtovatelné a mapuje se na řádek smlouvy času a materiálu, systém provede kontrolu ověření nepřekročitelného limitu na následujících úrovních:
+Když odešlete záznam o čase, výdaji nebo použití materiálu, vytvoří se záznam o schválení. Pokud je schválení účtovatelné a mapuje se na řádek smlouvy času a materiálu, systém provede kontrolu ověření nepřekročitelného limitu na následujících úrovních:
 
   - Kontrola limitu nastaveného pro zákazníka na řádku projektové smlouvy
   - Kontrola limitu nastaveného na řádku smlouvy
@@ -34,11 +34,11 @@ Pokud kontrola projde, bude schválení udělen stav ověření **Úspěch**.
 
 Pokud kontrola selže, bude schválení udělen stav ověření **Chyba**. Podrobnosti ověření nepřekročitelného limitu informují uživatele, na jaké úrovni se ověření nezdařilo.
 
-Pokud je předaná položka času nebo výdajů považována za neúčtovatelnou, stav ověření nepřekročitelného limitu je nastaven na **Nelze použít** s podrobnostmi o ověření, které jsou stejné jako u **Nelze použít**.
+Když je zadaný čas, výdaje nebo položka využití materiálu považována za neúčtovatelnou, je stav ověření nepřekročitelnosti nastaven na **Nelze použít** s údaji ověření rovnými **Nelze použít**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Nepřekročitelný limit u nefakturovaných skutečných hodnot prodeje
 
-Po schválení položky času nebo výdajů se vytvoří záznamy skutečných hodnot nákladů a nefakturovaných prodejů. Pokud je vytvářená skutečná hodnota nefakturovaného prodeje účtovatelná a mapuje se na řádek smlouvy času a materiálu, aplikace provede kontrolu ověření nepřekročitelného limitu na následujících úrovních:
+Po schválení záznamu o čase, výdaji nebo použití materiálu se vytvoří záznamy skutečných nákladů a nevyfakturovaných prodejů. Pokud je vytvářená skutečná hodnota nefakturovaného prodeje účtovatelná a mapuje se na řádek smlouvy času a materiálu, aplikace provede kontrolu ověření nepřekročitelného limitu na následujících úrovních:
 
   - Kontrola limitu nastaveného pro zákazníka na řádku projektové smlouvy
   - Kontrola limitu nastaveného na řádku smlouvy
@@ -55,9 +55,9 @@ Když je skutečná hodnota nefakturovaného prodeje považována za neúčtovat
 
 ## <a name="reset-the-not-to-exceed-status"></a>Obnovení nepřekročitelného stavu
 
-Můžete provést hromadné obnovení nepřekročitelného stavu. To umožňuje projektovým manažerům upravit ověření nepřekročitelného limitu, aby byla upřednostněna fakturace jednoho konkrétního souboru práce, času nebo výdajů před ostatními, které jsou již potvrzeny z dostupné nepřekročitelné částky.
+Můžete provést hromadné obnovení nepřekročitelného stavu. Projektoví manažeři mohou upravit ověření nepřekročení tak, aby upřednostňovalo fakturaci jednoho konkrétního souboru práce, času, výdajů nebo využití materiálu před ostatními, které jsou již potvrzeny z dostupné nepřekročitelné částky.
 
-Poté, co se u nefakturovaných skutečných hodnot prodeje obnoví nepřekročitelný stav, potvrzená částka se sníží. Manažer projektu může vybrat jiný soubor práce, času nebo výdajů, které dříve neprošly ověřením nepřekročitelného limitu, a znovu je vyhodnotit. Se snížením potvrzené částky nyní tyto skutečné částky projdou ověřením. To pomáhá projektovému manažeru uplatňovat větší vliv a kontrolu nad fakturovatelnými transakcemi za dané období.
+Poté, co se u nefakturovaných skutečných hodnot prodeje obnoví nepřekročitelný stav, potvrzená částka se sníží. Manažer projektu může vybrat jinou položku práce, času, výdajů nebo použití materiálu, u které se dříve nepodařilo nepřekročit ověření a přehodnotit. Se snížením přidělené částky tyto skutečné hodnoty nyní procházejí ověřováním, které pomáhá vedoucímu projektu uplatňovat větší vliv a kontrolu nad fakturovatelnými transakcemi za dané období.
 
 Chcete-li obnovit nepřekročitelný stav, vyberte jednu nebo více skutečných hodnot ze zobrazení **Nedokončená fakturace času a materiálu** nebo **Skutečné hodnoty** a poté vyberte **Resetovat stav nepřekročení**.
 

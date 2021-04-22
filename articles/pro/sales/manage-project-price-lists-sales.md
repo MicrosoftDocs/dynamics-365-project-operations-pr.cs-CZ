@@ -1,27 +1,27 @@
 ---
-title: Správa ceníků projektů v nabídkách projektů – omezené
-description: Toto téma poskytuje informace o práci s projektovými ceníky v nabídkách. (Sales)
+title: Správa projektových ceníků v projektových nabídkách
+description: Toto téma poskytuje informace o práci s projektovými ceníky v nabídkách.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273010"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858600"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Správa ceníků projektů v nabídkách projektů – omezené
+# <a name="manage-project-price-lists-on-project-quotes"></a>Správa ceníků projektů v nabídkách projektů 
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
 Projektové nabídky projektu jsou navrženy tak, aby podporovaly prodejní ceníky s více daty účinnosti. S Dynamics 365 Project Operations je přidána nová přidružená entita s názvem **Ceníky projektu**. Tato entita má vztah 1:N k projektové nabídce.
 
-Projektové ceníky se používají k oceňování časových a výdajových transakcí na projektu. Pokud má nabídka jeden nebo více projektových ceníků, používají se tyto ceníky ke stanovení odhadů času a výdajů a skutečných hodnot u projektů, které jsou přidruženy k nabídce prostřednictvím řádku nabídky.
+Ceníky projektu se používají k oceňování časových, materiálových a výdajových transakcí na projektu. Pokud má cenová nabídka jeden nebo více ceníků projektu, tyto ceníky se používají k ocenění ceny za čas, materiálu, odhadů výdajů a skutečné hodnoty u projektů, které jsou spojeny s cenovou nabídkou prostřednictvím řádku cenové nabídky.
 
 Pokud v projektové nabídce nejsou žádné projektové ceníky, zobrazí se varovná zpráva. Zpráva uvádí, že kvůli neexistenci projektových ceníků nebudou vaše odhadované a skutečné práce a výdaje na projekt oceněny. Místo toho budou mít prodejní hodnoty nulovou (0) cenu.
 

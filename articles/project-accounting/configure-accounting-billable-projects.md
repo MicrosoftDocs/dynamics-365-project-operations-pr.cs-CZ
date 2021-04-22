@@ -3,17 +3,17 @@ title: Konfigurace účetnictví pro fakturovatelné projekty
 description: Toto téma poskytuje informace o možnostech účtování pro fakturovatelné projekty.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287635"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858645"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurace účetnictví pro fakturovatelné projekty
 
@@ -58,13 +58,25 @@ Pomocí následujících kroků vytvořte nový profil nákladů a výnosů proj
 
          - **Zůstatek** : Při zaúčtování deníku integrace Project Operations budou náklady výdajových transakcí odečteny z účtu hlavní knihy typem *Nedokončená práce - hodnota nákladů*, jak je definováno na kartě **Náklady** na stránce **Nastavení účtování hlavní knihy** a připsány na offsetový účet na řádku deníku. Výchozí offsetové účty pro výdaj jsou definovány v **Řízení projektů a účetnictví** > **Nastavení** \> **Účtování** \> **Výchozí offsetový účet pro výdaje**. Účetní bude pomocí funkce **Zaúčtovat náklady** pravidelně přesouvat tyto náklady z účtu zůstatku na účet zisků a ztrát.
         - **Zisk a ztráta**: Při zaúčtování deníku integrace Project Operations budou náklady výdajových transakcí odečteny z účtu hlavní knihy typem *Náklady*, jak je definováno na kartě **Náklady** na stránce **Nastavení účtování hlavní knihy** a připsány na offsetový účet na řádku deníku. Výchozí offsetové účty pro výdaj jsou definovány v **Řízení projektů a účetnictví** \> **Nastavení** \> **Účtování** \> **Výchozí offsetový účet pro výdaje**.
+      
+    - **Zaúčtovat náklady – položka**:
+
+         - **Zůstatek**: Při zaúčtování deníku Project Operations Integration budou náklady transakce položky odečteny z typu účtu hlavní knihy *WIP – hodnota nákladů – položka*, jak je definováno na kartě **Náklady** na stránce **Nastavení účtování hlavní knihy** a připsány na následující:
+    
+              - Při typu dokumentu použití: Účet **Náklad – položka** účet na **Nastavení účtování hlavní knihy**.  
+              - Při typu dokumentu nákup: **Účet integrace nákupu** na **Parametry projektového řízení a účetnictví**.
+           Účetní bude pomocí funkce **Zaúčtovat náklady** pravidelně přesouvat tyto náklady z účtu zůstatku na účet zisků a ztrát.
+        - **Zisk a ztráta**: Při zaúčtování deníku Project Operations Integration budou náklady transakce položky odečteny z typu účtu hlavní knihy *Náklad*, jak je definováno na kartě **Náklady** na stránce **Nastavení účtování hlavní knihy** a připsány na následující:
+         
+             - Při typu dokumentu použití: Účet **Náklad – položka** účet na **Nastavení účtování hlavní knihy**.  
+             - Při typu dokumentu nákup: **Účet integrace nákupu** na **Parametry projektového řízení a účetnictví**.
        
     - **Fakturace na účet**:
 
         - **Zůstatek** : Při zaúčtování návrhu faktury projektu bude transakce na účtu (milník fakturace) připsána na typ účtu hlavní knihy *Fakturovaná nedokončená práce - na účet*, jak je definováno na kartě **Výnosy** na stránce **Nastavení účtování hlavní knihy** a odečtena z účtu zůstatku zákazníka.
          - **Zisk a ztráta**: Při zaúčtování návrhu faktury projektu bude transakce na účtu (milník fakturace) připsána na typ účtu hlavní knihy *Fakturované výnosy - na účet*, jak je definováno na kartě **Výnosy** na stránce **Nastavení účtování hlavní knihy** a odečtena z účtu zůstatku zákazníka. Účty zůstatku zákazníka jsou definovány v **Pohledávky** \> **Nastavení** \> **Profily účtování zákazníků**.
 
-   Když definujete profily účtování pro metody účtování času a materiálu, máte možnost časové rozložit výnosy podle typu transakce (hodina, výdaj a poplatek). Pokud je možnost **Časové rozložzit výnosy** nastavena na **Ano**, nevyfakturované prodejní transakce v deníku integrace Project Operations budou zaznamenány do hlavní knihy. Hodnota prodeje je odepsána z **Nedokončené práce - účet hodnoty prodeje** a připsána na účet **Časově rozložené příjmy - hodnota prodeje**, který byl zřízen na stránce **Nastavení účtování hlavní knihy** na kartě **Výnosy**. 
+   Když definujete profily účtování pro metody účtování času a materiálu, máte možnost seskupit výnosy podle typu transakce (hodina, výdaj, položka a poplatek). Pokud je možnost **Časové rozložzit výnosy** nastavena na **Ano**, nevyfakturované prodejní transakce v deníku integrace Project Operations budou zaznamenány do hlavní knihy. Hodnota prodeje je odepsána z **Nedokončené práce - účet hodnoty prodeje** a připsána na účet **Časově rozložené příjmy - hodnota prodeje**, který byl zřízen na stránce **Nastavení účtování hlavní knihy** na kartě **Výnosy**. 
   
   > [!NOTE]
   > Možnost **Časově rozložit příjmy** je k dispozici pouze v případě, že příslušný typ transakce **Náklady** se zaúčtuje na účet zisků a ztrát.

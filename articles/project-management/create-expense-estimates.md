@@ -1,28 +1,24 @@
 ---
-title: Odhady výdajů
+title: Finanční odhady pro výdaje na projektech
 description: Tento téma poskytuje informace o definování nebo odhadu nákladů na projekt.
-author: ruhercul
+author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: ad4901b1264289f1da881154bc147fc3f8da698f
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287050"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701774"
 ---
-# <a name="expense-estimates"></a>Odhady výdajů
+# <a name="financial-estimates-for-expenses-on-projects"></a>Finanční odhady pro výdaje na projektech
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Spolu s definováním odhadů založených na zdrojích Dynamics 365 Project Operations umožňuje projektovým manažerům definovat projektové výdaje pro každý projekt. Každá výdajová položka může být spojena s konkrétním úkolem projektu nebo kategorií výdajů. Kategorie výdajů jsou obvykle definovány na úrovni organizace. Cena pro každou kategorii výdajů je obvykle definována v následující hierarchii:
-
-- Organizace
-- Zákazník
-- Nabídka / smlouva
+Dynamics 365 Project Operations umožňuje projektovým manažerům definovat výdaje na základě projektu pro každý projekt nebo úkol. Každá položka výdajů může být spojena s konkrétním úkolem projektu. Výdaje jsou rozděleny do různých kategorií výdajů, které jsou definovány na organizační úrovni. Ceny a kalkulace pro každou kategorii výdajů jsou definovány v ceníku. 
 
 Chcete-li zobrazit, přidat nebo odstranit náklady na projekt, proveďte následující kroky.
 
@@ -30,14 +26,20 @@ Chcete-li zobrazit, přidat nebo odstranit náklady na projekt, proveďte násle
 2. Vyberte kartu **Odhady projektu** a zobrazte seznam výdajů projektu.
 3. Vyberte **Nový výdaj**, chcete-li přidat výdaj. Nebo vyberte výdaj, který chcete odstranit, a poté vyberte **Smazat výdaj**.
 
-Pro každou položku řádku výdajů jsou definovány následující atributy:
+Následující tabulka poskytuje informace o polích na stránce **Řádek odhadu výdajů** v projektu. 
 
-- **Kategorie**: Společná seskupení používaná k popisu všech nákladů vynaložených na projekt.
-- **Počáteční datum**: Datum, kdy se předpokládá vznik výdajů.
-- **Množství**: Odhadovaný počet výdajových položek pro konkrétní kategorii.
-- **Nákladová cena jednotky**: Jednotková cena použitá k výpočtu nákladů.
-- **Prodejní cena jednotky**: Jednotková cena použitá k výpočtu prodejní ceny výdaje.
-
+| **Pole** | **Popis** | **Dopad na příjem dat** |
+| --- | --- | --- |
+| Úkol | Seznam úkolů v projektu. To zahrnuje souhrnné úkoly a úkoly v uzlech typu list. | Výběr úkolu pro řádek odhadu výdajů ovlivní odhadované náklady a prodej odhadovaných výdajů na úkol. Pokud je toto pole prázdné, je odhad výdajů je sledován a shrnut pouze na úrovni projektu. |
+| Kategorie | Seznam kategorií transakcí, které mají v aplikaci propojené kategorie výdajů. | Výběr kategorie zvyšuje ceny a náklady na řádku odhadu výdajů. |
+| Počáteční datum | Předpokládané datum, kdy dojde k výdaji. | Neexistuje žádný následný dopad na toto pole. |
+| Skupina jednotek | Výchozí hodnota v tomto poli pochází ze skupiny jednotek, která je nastavena jako výchozí na vybrané kategorii. Toto pole můžete aktualizovat a vybrat jinou skupinu jednotek. | Neexistuje žádný následný dopad na toto pole. |
+| Jednotka | Výchozí hodnota v tomto poli je výchozí jednotka vybrané kategorie. Toto pole můžete aktualizovat a vybrat jinou jednotku. | Změna jednotky má za následek jinou výchozí jednotkovou cenu a náklad. |
+| Množství | Množství odhadovaných výdajů, které vám vzniknou. | Neexistuje žádný následný dopad na toto pole. |
+| Jednotkové náklady | Jednotkové náklady na vybranou kombinaci kategorie a jednotky stanovené v příslušném ceníku nákladů | Jednotkové náklady se vždy zobrazují v měně nákladů projektu. |
+| Cena za jednotku | Cena vybrané kombinace kategorie jednotky stanovené v příslušném ceníku prodeje. | Jednotková cena se vždy zobrazuje v měně prodeje projektu. |
+| Celkové náklady | Částka nákladů, která se počítá jako množství \* jednotková cena.| Částka nákladů se vždy zobrazuje v měně nákladů projektu. |
+| Prodej celkem | Částka prodeje, která se počítá jako množství \* jednotková cena. | Částka prodeje se vždy zobrazuje v měně prodeje projektu. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

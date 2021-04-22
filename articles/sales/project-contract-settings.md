@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ba005d82e0ce4fae58543401e34da5a24345dc4
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277600"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663856"
 ---
-# <a name="project-contract-settings"></a>Nastavení projektové smlouvy
+# <a name="header-details-for-project-based-contracts"></a>Podrobnosti záhlaví pro smlouvy založené na projektu
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 

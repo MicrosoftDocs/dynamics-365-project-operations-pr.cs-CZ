@@ -3,17 +3,17 @@ title: Určení typu nasazení
 description: Tento téma poskytuje informace, které vám pomůžou určit hlavní typ nasazení Project Operations pro vaši společnost.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479556"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663586"
 ---
 # <a name="determine-your-deployment-type"></a>Určení typu nasazení
 
@@ -44,7 +44,7 @@ Náš [Dotazník o nasazení](https://aka.ms/provisionprojectoperations) vám po
 - [Project Operations pro scénáře se zdroji bez skladových materiálů](#integrated)
 - [Project Operations pro scénáře se skladovým materiálem a výrobními příkazy](#pma)
 
-Project Operation podporují scénáře zásob / výrobní zakázky a scénáře bez zásob / zdrojů ve stejném prostředí prostřednictvím konfigurací na úrovni právnických osob. Například společnost Contoso může využívat možnosti skladového materiálu / výrobní objednávky ve svém výrobním závodě v USA (právnická osoba = Contoso Manufacturing United States). Společnost Contoso může ve svém servisním zařízení Contoso Robotics Arms ve Velké Británii využívat funkce, které nejsou skladové / založené na zdrojích (právnická osoba = Contoso Robotics United Kingdom).
+Project Operation podporují scénáře zásob / výrobní zakázky a scénáře bez zásob / zdrojů ve stejném prostředí prostřednictvím konfigurací na úrovni právnických osob. Například Contoso mohou využívat možnosti skladové/výrobní zakázky ve svém výrobním závodě v USA (právnická osoba =Contoso Manufacturing United States). Contoso může využívat možnosti, které nejsou na základě skladu/prostředků, ve svém servisním závodě Contoso Robotics Arms ve Velké Británii (právnická osoba = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Omezené nasazení – od obchodu po pro forma fakturaci
 
@@ -56,7 +56,7 @@ Omezené nasazení zahrnuje následující funkce:
 - Sjednocené řízení zdrojů
 - Sledování času
 - Základní výdaje
-- Proforma a fakturace zaměřená na zákazníka 
+- Proforma faktura pro kontrolu a úpravy projektového manažera 
 
 #### <a name="deployment-steps"></a>Postup nasazení
 Určete nejlepší model nasazení Project Operations pomocí [Dotazník o nasazení](https://aka.ms/provisionprojectoperations).
@@ -87,14 +87,14 @@ Pro toto nasazení viz [Zaregistrujte se k odběru náhledu](resource-sign-up-pr
 ### <a name="project-operations-for-stockedproduction-order-scenarios"></a><a name="pma"></a>Project Operations pro scénáře se skladovým materiálem a výrobními příkazy
 
 - Plánování projektu pomocí strukturovaného rozpisu prací
-- Správa zdrojů
-- Doba sledování
+- Řízení zdrojů
+- Sledování času
 - Plné výdaje
 - OCR účtenky
-- Plná fakturace
+- Úplná fakturace
 - Uznání výnosů
 - Výrobní zakázky
-- Podpora materiálů
+- Podpora skladovaných materiálů s inventářem
 
 #### <a name="deployment-steps"></a>Postup nasazení
 Určete nejlepší model nasazení Project Operations pomocí [Dotazník o nasazení](https://aka.ms/provisionprojectoperations).

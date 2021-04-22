@@ -1,22 +1,22 @@
 ---
-title: Řešení nákladových cen pro odhady a skutečnosti – omezené
-description: Tento téma poskytuje informace o tom, jak se řeší nákladové ceny pro odhady a skutečné hodnoty.
+title: Řešení nákladových cen pro odhady projektu a skutečné hodnoty
+description: Tento téma poskytuje informace o řešení nákladových cen na základě projektových odhadů a skutečností.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274541"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877257"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Řešení nákladových cen pro odhady a skutečnosti – omezené
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Řešení nákladových cen pro odhady projektu a skutečné hodnoty 
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
@@ -36,6 +36,12 @@ Po vyřešení ceníku nákladů budou pole **Role** a **Jednotka zdroje** na ř
 Řádky odhadu pro výdaje odkazují na detaily řádku nabídky a smlouvy pro výdaje a řádky odhadu výdaje v projektu.
 
 Po vyřešení ceníku nákladů systém použije kombinaci polí **Kategorie** a **Jednotka** na řádku odhadu výdajů ke srovnání s řádky **Cena kategorie** na vyřešeném ceníku. Pokud systém najde řádek ceny kategorie, který má nákladovou sazbu pro kombinaci polí **Kategorie** a **Jednotka**, pak je nákladová sazba výchozí. Pokud systém nedokáže spárovat hodnoty **Kategorie** a **Jednotka** nebo pokud dokáže najít odpovídající cenový řádek kategorie, ale metoda stanovení cen není **Cena za jednotku**, výchozí cena je nula (0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Řešení nákladových sazeb na řádcích skutečností a odhadů pro materiál
+
+Řádky odhadu pro materiál označují údaje řádku nabídky a řádku smlouvy u materiálů a řádky odhadu materiálu na projektu.
+
+Po vyřešení ceníku nákladů systém použije kombinaci polí **Produkt** a **Jednotka** na řádku odhadu, aby se odhad materiálu shodoval s řádky **Ceník položek** na vyřešeném ceníku. Pokud systém najde cenový řádek produktu, která má nákladovou sazbu pro kombinaci polí **Produkt** a **Jednotka**, je nákladová cena výchozí. Pokud systém nedokáže spárovat hodnoty **Produkt** a **Jednotka** nebo pokud je schopen najít odpovídající řádek položky ceníku, ale metoda stanovení ceny je založena na standardních nákladech nebo aktuálních nákladech a ani jedna z nich není na produktu definována, výchozí cena jednotky je nula.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

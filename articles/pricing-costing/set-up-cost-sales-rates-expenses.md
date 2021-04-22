@@ -3,17 +3,17 @@ title: Nastavení nákladových a prodejních sazeb pro výdaje
 description: Toto téma poskytuje informace o tom, jak nastavit nákladové a prodejní sazby u kategorií transakcí a výdajů.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274900"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877212"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Nastavení nákladových a prodejních sazeb pro výdaje
 
@@ -23,9 +23,10 @@ Pro kategorie transakcí můžete nastavit náklady a prodejní ceny v Dynamics 
 
 Chcete-li nastavit nákladové a prodejní sazby pro kategorie transakcí, proveďte následující kroky. 
 
-1. Vytvořte ceník na základě záhlaví ceníku. 
-2. V **Ceny kategorií** v nabídce podmřížky vyberte **+ Nová cena kategorie**. 
-3. Na stránce **Vytvořit** zadejte kategorii transakce a jednotku, pro kterou vytváříte novou cenu.
+1. Přejděte do nabídky **Prodeje** > **Zákazníci** > **Ceníky**.
+2. Chcete-li vytvořit nový ceník, vyberte možnost **Nový**. 
+3. V části **Ceny kategorií** v nabídce podmřížky vyberte možnost **+ Nová cena kategorie**. 
+4. Na stránce **Vytvořit** zadejte kategorii transakce a jednotku, pro kterou vytváříte novou cenu.
 
 V následující tabulce je uveden seznam polí na kartě **Všeobecné** a stránce **Vytvořit** řádku ceny kategorie, na které byste měli pamatovat při vytváření cen kategorií v prodejním nebo nákladovém ceníku.
 

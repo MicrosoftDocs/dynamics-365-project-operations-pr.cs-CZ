@@ -3,17 +3,17 @@ title: Vyřešení prodejních cen pro odhady a skutečnosti
 description: Tento téma poskytuje informace o tom, jak vyřešit prodejní sazby pro odhady a skutečnosti.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274945"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877437"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Vyřešení prodejních cen pro odhady a skutečnosti
 
@@ -54,6 +54,17 @@ Po vyřešení prodejního ceníku systém provede následující kroky a nastav
     | &nbsp; | Přirážka k nákladům | Aplikováním přirážky definované v řádku ceny kategorie na sazbu jednotkové ceny související skutečné ceny |
 
 4. Pokud systém není schopen spárovat hodnoty polí **Kategorie** a **Jednotka**, je výchozí hodnota prodejní sazby nula (0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Řešení prodejních sazeb na řádcích skutečností a odhadů pro materiál
+
+V aplikaci Project Operations se řádky odhadu pro materiál používají k označení podrobností řádku nabídky a řádku smlouvy u materiálů a řádky odhadu materiálu na projektu.
+
+Po vyřešení prodejního ceníku systém provede následující kroky a nastaví výchozí prodejní cenu jednotky.
+
+1. Systém používá kombinaci polí **Produkt** a **Jednotka** na řádku odhadu materiálu pro spárování s řádky položky ceníku v ceníku, který byl vyřešen.
+2. Pokud systém najde řádek položky ceníku, který má sazbu prodeje pro kombinaci polí **Produkt** a **Jednotka** a metoda ocenění je **Částka měny**, použije se prodejní cena uvedená v řádku ceníku.
+3. Pokud se hodnoty polí **Produkt** a **Jednotka** neshodují, výchozí sazba prodeje je nula.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

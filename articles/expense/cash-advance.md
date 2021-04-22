@@ -3,19 +3,19 @@ title: Hotovostní záloha
 description: Toto téma poskytuje informace o hotovostních zálohách.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276700"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715552"
 ---
 # <a name="cash-advance"></a>Hotovostní záloha
 
@@ -60,7 +60,22 @@ Následující postup obvykle dokončí účetní nebo uživatel s účetními o
 
 Když vytvoříte a odešlete zprávu o výdajích pro hotovostní zálohu, kterou jste již obdrželi, budou náklady automaticky upraveny oproti této záloze. Pokud je vaše hotovostní záloha větší než vyúčtovaná částka, musíte zůstatek společnosti vrátit pomocí kategorie výdajů **Návrat hotovosti**. Pokud je hotovostní záloha zaplacená společností nižší než částka, kterou jste vynaložili, společnost vám musí zůstatek uhradit. 
 
-### <a name="example"></a>Příklad
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Vyberte hotovostní zálohy, které se vztahují na vaše výdaje
+Před odesláním výkazu výdajů můžete vybrat hotovostní zálohu, která odpovídá transakcím výdajů v přehledu. Chcete-li použít tuto funkci, musí být povoleny následující dvě funkce v pracovním prostoru **Správa funkcí**:
+
+  - Nová verze výkazů výdajů
+  - Schopnost mapovat peněžní zálohy na výdajové řádky
+ 
+ Když jsou povoleny tyto funkce:
+ 
+  - Pro každý výdajový řádek můžete přidat jednu nebo více peněžních záloh.
+  - Dostupný zůstatek hotovostní zálohy je viditelný v reálném čase, když je uložena sestava výdajů. To vám umožňuje zpracovávat výdajové transakce a současně vracet hotovostní transakce.
+  - Pro jednu výdajovou transakci můžete přidat více peněžních záloh.
+  - Data odsouhlasení zálohy v hotovosti jsou k dispozici pomocí dotazu. 
+ 
+Pokud tyto funkce nepoužíváte, funkce zůstanou stejné, přičemž stávající peněžní zálohy se po odeslání výdajů automaticky sníží.
+
+### <a name="example"></a>Příklad 
 Plánujete cestovat ze Seattlu do New Yorku na konferenci. Požadavek na hotovostní zálohu pro 3000,00 USD vytvoříte na základě odhadovaných nákladů na vstupenku na konferenci, lety, hotel, stravu a taxi. Nebudete dostávat platby, dokud váš nadřízený neschválí tuto žádost. Poté, co ji váš manažer schválí, bude požadovaná hotovostní záloha vyplacena jako 3000,00 USD na váš bankovní účet. Poté se zúčastníte konference. Po dokončení cesty zjistíte, že celkové výdaje byly pouze 2790,00 USD. Vyberte **Hotovost** v poli **Způsob platby** pole a zadejte své výdaje 2790,00 USD. Odeslaná částka výdajů se automaticky upraví proti hotovostní záloze 3000,00 USD, která vám byla zapůjčena. Nyní dlužíte zůstatek 210,00 USD (3000,00 - 2790,00), který můžete společnosti vrátit pomocí kategorie výdajů **Vrácení hotovosti**.
 
 

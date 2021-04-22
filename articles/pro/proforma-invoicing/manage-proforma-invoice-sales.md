@@ -1,21 +1,21 @@
 ---
-title: Správa proforma faktury – omezené
-description: Toto téma obsahuje informace, jak pracovat s proforma fakturami.
+title: Správa proforma faktury projektu
+description: Tento téma poskytuje informace o tom, jak pracovat s projektovými proforma fakturami.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274014"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866898"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Správa proforma faktury – omezené
+# <a name="manage-a-proforma-project-invoice"></a>Správa proforma faktury projektu 
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
@@ -69,9 +69,9 @@ V Project Operations je vždy jeden řádek faktury pro každý řádek projekto
 
 Každý řádek faktury projektu zahrnuje podrobnosti daného řádku. Tyto podrobnosti řádku souvisejí s nefakturovanými skutečnými hodnotami a milníky prodeje, které se vztahují k řádku smlouvy, na který odkazuje řádek faktury. Všechny tyto transakce jsou označeny jako **Připraveno k fakturaci**.
 
-Pro řádek **faktury času a materiálu** jsou podrobnosti řádku faktury seskupeny do skupin **Účtovatelné**, **Neúčtovatelné** a **Neplacené** na stránce **Řádek faktury**. Podrobnosti **účtovaného řádku faktury** se přičítají k celkovému součtu řádku faktury. **Neplacené** a **Neúčtovatelné skutečné hodnoty** se nepřičítají k celkovému součtu řádku faktury.
+Pro řádek **Faktura za čas a materiál** jsou údaje řádku faktury seskupeny do skupin **Účtovatelné**, **Neúčtovatelné** a **Zdarma** na stránce **Řádek faktury**. Podrobnosti **účtovaného řádku faktury** se přičítají k celkovému součtu řádku faktury. **Zdarma** a **Neúčtovatelné skutečné hodnoty** se nepřičítají k součtovému řádku faktury.
 
-Pro řádek **faktury s pevnou cenou** jsou podrobnosti řádku faktury vytvořeny z milníků, které jsou označeny jako **Připraveno k fakturaci** na souvisejícím řádku smlouvy. Po vytvoření podrobnosti řádku faktury z milníku se stav fakturace u milníku aktualizuje na **Faktura zákazníka vytvořena**.
+Pro řádek **Faktura s pevnou cenou** jsou údaje řádku faktury vytvořeny z milníků, které jsou označeny jako **Připraveno k fakturaci** na souvisejícím řádku smlouvy. Po vytvoření podrobnosti řádku faktury z milníku se stav fakturace u milníku aktualizuje na **Faktura zákazníka vytvořena**.
 
 ### <a name="edit-invoice-line-details"></a>Úprava podrobností řádku faktury
 
@@ -98,8 +98,12 @@ Následující pole jsou k dispozici v podrobnostech řádku faktury, které vyc
 | **Daň** | Hodnota je standardně nastavena podle skutečné hodnoty zdroje. Toto pole může uživatel upravit. | Toto pole může uživatel upravit při vytvoření nové podrobnosti řádku faktury, která nevychází ze skutečné hodnoty. |
 | **Rozšířená částka** | Počítané pole, počítáno jako **Částka + daň**. Pole jen pro čtení, když je uzamčeno pro úpravy. | &nbsp; |
 | **Typ fakturace** | Hodnota je standardně nastavena podle skutečné hodnoty zdroje. Toto pole může uživatel upravit. | Volba **Účtovatelné** připočítá řádek k součtu řádku faktury. **Neplacené** a **Neúčtovatelné** jej vyloučí ze součtu řádku faktury. |
+| **Vybrat produkt** | Toto pole je nastaveno ve výchozím nastavení ze zdrojové skutečné hodnoty a je jen pro čtení. | Když vytvoříte nový údaj řádku faktury bez podkladové skutečné hodnoty, lze toto pole upravit. |
+| **Produkt** | Toto pole je nastaveno ve výchozím nastavení ze zdrojové skutečné hodnoty a je jen pro čtení. | Když vytvoříte nový údaj řádku faktury bez podkladové skutečné hodnoty, lze toto pole upravit, pokud je pole **Vybrat produkt** nastaveno na **Stávající produkt**. |
+| **Název produktu** | Toto pole je nastaveno ve výchozím nastavení ze zdrojové skutečné hodnoty a je jen pro čtení. | V novém detailu řádku faktury, kde je ID produktu vybráno z katalogu, je toto pole nastaveno na název produktu. U produktu, který je není v katalogu, je pole nastaveno na název pro zápis. |
+| **Popis produktu nezahrnutého do katalogu** | Toto pole je nastaveno ve výchozím nastavení ze zdrojové skutečné hodnoty a je jen pro čtení. | Když vytvoříte nový údaj řádku faktury bez podkladové skutečné hodnoty, můžete k produktu přidat popis. |
 | **Typ transakce** | Hodnota je standardně nastavena podle skutečné hodnoty zdroje. Pole jen pro čtení, když je uzamčeno pro úpravy. | Hodnota je standardně nastavena na **Fakturovaný prodej** a uzamčena při vytváření nové **podrobnosti řádku faktury**, která nevychází ze skutečné hodnoty.  |
-| **Třída transakce** | Hodnota je standardně nastavena podle skutečné hodnoty zdroje. Pole jen pro čtení, když je uzamčeno pro úpravy. | Hodnota je standardně nastavena podle toho, zda uživatel vybere podrobnost řádku faktury **Čas**, **Výdaj** nebo **Poplatek** a zároveň vytvoří novou **Podrobnost řádku faktury**, která nevychází ze skutečné hodnoty. Uzamčeno pro úpravy. |
+| **Třída transakce** | Hodnota je standardně nastavena podle skutečné hodnoty zdroje. Pole jen pro čtení, když je uzamčeno pro úpravy. | Nastaveno ve výchozím nastavení podle toho, zda se uživatel rozhodne vytvořit údaj řádku faktury **Čas**, **Výdaje**, **Materiál** nebo **Poplatek** a zároveň vytvořit nový **Údaj řádku faktury** bez skutečné podkladové hodnoty. Uzamčeno pro úpravy. |
 
 Následující pole jsou k dispozici v podrobnosti řádku faktury, která vychází z milníku.
 

@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f3f18644a51d87cf3bb5b4effba2236eaf3d81a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0aedaa2ec77bb54031fccd0db2872e0aa5fea5e0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273415"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858240"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Import odhadů projektu do řádku nabídky založeného na projektu – omezené
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Import odhadů projektu do řádku nabídky založeného na projektu 
 
-_**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
+_**Platí pro:** omezené nasazení – dohoda o pro forma fakturaci, Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
 Pokud je projekt vytvořen během fáze předprodeje, můžete vybrat import finančního odhadu z projektu do řádku nabídky na základě projektu.
 
@@ -30,7 +30,7 @@ Pokud je projekt vytvořen během fáze předprodeje, můžete vybrat import fin
   - **Role** 
   - **Projektový úkol**
 
-Na základě vašeho výběru se zkopíruje odhad z projektu pro všechny třídy transakcí zahrnutých v tomto řádku nabídky. Chcete-li zkontrolovat, které třídy transakcí jsou zahrnuty, vyberte kartu **Všeobecné** na řádku nabídky na základě projektu a zkontrolujte hodnoty pro **Zahrnout čas**, **Zahrnout výdaje** a **Zahrnout poplatky**.  Chcete-li zjistit, jaké úkoly jsou zahrnuty, vyberte kartu **Účtovatelné úkoly** na řádku nabídky.
+Na základě vašeho výběru se zkopíruje odhad z projektu pro všechny třídy transakcí zahrnutých v tomto řádku nabídky. Chcete-li zkontrolovat, které třídy transakcí jsou zahrnuty, vyberte kartu **Všeobecné** na řádku nabídky na základě projektu a zkontrolujte hodnoty pro **Zahrnout čas**, **Zahrnout výdaje**, **Zahrnout materiály** a **Zahrnout poplatky**.  Chcete-li zjistit, jaké úkoly jsou zahrnuty, vyberte kartu **Účtovatelné úkoly** na řádku nabídky.
 
 V závislosti na přidružených úkolech a zahrnutých třídách transakcí se všechny odhady pro tyto kombinace úkolů a tříd transakcí importují do řádku nabídky.
 

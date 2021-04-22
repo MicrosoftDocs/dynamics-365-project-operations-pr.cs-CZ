@@ -3,7 +3,7 @@ title: Skutečné hodnoty
 description: Tento téma poskytuje informace o tom, jak pracovat s aktuálními údaji v Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,18 +16,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291791"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852536"
 ---
 # <a name="actuals"></a>Skutečné hodnoty 
 
-_**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
+_**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Skutečné hodnoty jsou množství práce dokončené v projektu. Jsou vytvářeny jako výsledek časových a výdajových záznamů, záznamů deníku a faktur.
+Skutečné hodnoty představují zkontrolovaný a schválený finanční a časový plán postupu v projektu. Jsou vytvářeny na základě schválení času, výdajů, záznamů o použití materiálu a záznamů faktur a deníku.
 
 ## <a name="journal-lines-and-time-submission"></a>Řádky deníku a časové záznamy
 
@@ -45,7 +45,7 @@ Při odeslání časového záznamu propojeného s projektem, který je namapova
 
 Logika pro vytváření výchozích cen je umístěna na řádku deníku. Hodnoty polí z časového záznamu jsou zkopírovány do řádku deníku. Tyto hodnoty obsahují datum transakce, řádek smlouvy, na který je projekt namapován, a výsledek měny v příslušném ceníku.
 
-Pole, která ovlivňují výchozí ceny, jako jsou **Role** a **Organizační jednotka** se používají k tomu, aby byla do řádku deníku zadána odpovídající cena. K časovému záznamu můžete přidat vlastní pole. Pokud chcete, aby byla hodnota pole přenesena do skutečných hodnot, vytvořte v entitě Skutečnost pole a pomocí mapování polí zkopírujte pole z časového záznamu do skutečného záznamu.
+Pole, která ovlivňují výchozí ceny, jako jsou **Role** a **Jednotka prostředků** se používají k určení odpovídající ceny na řádku deníku. K časovému záznamu můžete přidat vlastní pole. Pokud chcete, aby se hodnota pole rozšířila na skutečné hodnoty, vytvořte pole v tabulkách **Skutečné hodnoty** a **Řádek deníku**. Pomocí vlastního kódu můžete šířit vybranou hodnotu pole z položky Zadání na Skutečné hodnoty prostřednictvím řádku deníku pomocí původů transakcí. Další informace o původu transakcí a propojení najdete v tématu [Propojení skutečných hodnot s původními záznamy](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Řádky deníku a zadávání základních výdajů
 
@@ -57,24 +57,42 @@ Když je zadaný záznam základního výdaje propojen s projektem, který je na
 
 ### <a name="fixed-price"></a>Pevná cena
 
-Při odeslání základního záznamu o výdajích propojeného s projektem, který je namapovaný na řádek smlouvy s pevnou cenou, systém vytvoří jeden řádek deníku pro náklady.
+Když je odeslaný záznam základního výdaje spojen s projektem, který je namapovaný na řádek smlouvy s pevnou cenou, systém vytvoří jeden řádek deníku na náklad.
 
 ### <a name="default-pricing"></a>Výchozí cena
 
-Logika pro zadávání výchozích cen výdajů je založena na kategorii výdajů. Datum transakce, řádek smlouvy, na který je projekt namapován, a měna jsou použity k určení příslušného ceníku. Avšak ve výchozím nastavení je zadaná částka pro samotnou cenu nastavena přímo na souvisejících výdajových řádcích deníku pro náklady a prodej ve výchozím nastavení.
+Logika pro zadávání výchozích cen výdajů je založena na kategorii výdajů. Datum transakce, řádek smlouvy, na který je projekt namapován, a měna jsou použity k určení příslušného ceníku. Pole, která ovlivňují výchozí ceny, jako jsou **Kategorie transakce** a **Jednotka prostředků** se používají k určení odpovídající ceny na řádku deníku. To však funguje pouze v případě, že cenová metoda v ceníku je **Cena za jednotku**. Pokud je způsob stanovení cen **Za cenu** nebo **Přirážka nad náklady**, pro náklady se použije cena zadaná při vytvoření položky výdajů a cena na řádku prodejního deníku se vypočítá na základě metody stanovení cen. 
 
-Položka založená na kategoriích výchozích jednotkových cen na výdajových položkách.
+K záznamu výdajů můžete přidat vlastní pole. Pokud chcete, aby se hodnota pole rozšířila na skutečné hodnoty, vytvořte pole v tabulkách **Skutečné hodnoty** a **Řádek deníku**. Pomocí vlastního kódu můžete šířit vybranou hodnotu pole z položky Zadání na Skutečné hodnoty prostřednictvím řádku deníku pomocí původů transakcí. Další informace o původu transakcí a propojení najdete v tématu [Propojení skutečných hodnot s původními záznamy](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+
+## <a name="journal-lines-and-material-usage-log-submission"></a>Řádky deníku a odeslání protokolu o použití materiálu
+
+Další informace o zadávání výdajů najdete v části [Protokol použití materiálu](../material/material-usage-log.md).
+
+### <a name="time-and-materials"></a>Čas a materiál
+
+Když je zadaná položka protokolu o použití materiálu propojena s projektem, který je mapován na řádek smlouvy o čase a materiálech, systém vytvoří dva řádky deníku, jeden pro náklady a druhý pro nevyfakturované prodeje.
+
+### <a name="fixed-price"></a>Pevná cena
+
+Když je odeslaný záznam protokolu využití materiálu spojen s projektem, který je namapovaný na řádek smlouvy s pevnou cenou, systém vytvoří jeden řádek deníku na náklad.
+
+### <a name="default-pricing"></a>Výchozí cena
+
+Logika pro zadání výchozích cen materiálu je založena na kombinaci produktu a jednotky. Datum transakce, řádek smlouvy, na který je projekt namapován, a měna jsou použity k určení příslušného ceníku. Pole, která ovlivňují výchozí ceny, jako jsou **ID produktu** a **Jednotka prostředků** se používají k určení odpovídající ceny na řádku deníku. To však funguje pouze u katalogových produktů. U produktů, které nejsou v katalogu, se pro náklady a prodejní cenu na řádcích deníku použije cena zadaná při vytvoření položky protokolu o použití materiálu. 
+
+K záznamu **Protokol využití materiálu** můžete přidat vlastní pole. Pokud chcete, aby se hodnota pole rozšířila na skutečné hodnoty, vytvořte pole v tabulkách **Skutečné hodnoty** a **Řádek deníku**. Pomocí vlastního kódu můžete šířit vybranou hodnotu pole z položky Zadání na Skutečné hodnoty prostřednictvím řádku deníku pomocí původů transakcí. Další informace o původu transakcí a propojení najdete v tématu [Propojení skutečných hodnot s původními záznamy](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="use-entry-journals-to-record-costs"></a>Použití deníků k zaznamenání nákladů
 
 Deníky záznamů můžete použít a zaznamenávat náklady nebo výnosy do tříd materiálu, poplatků, času, výdajů nebo daňových transakcí. Deníky lze použít k následujícím účelům:
 
-- Záznam skutečných nákladů na materiál a prodej projektu.
 - Skutečné hodnoty transakcí z jiného systému je nutné přesunout do Microsoft Dynamics 365 Project Operations.
 - Zaznamenejte náklady, ke kterým došlo v jiném systému. Tyto náklady mohou zahrnovat náklady na pořízení nebo subdodávky.
 
 > [!IMPORTANT]
 > Aplikace neověřuje typ řádku deníku ani související ceny, které jsou zadány na řádku deníku. Proto by měl k vytváření skutečných hodnot používat deníky pouze uživatel, který si je plně vědom účetního dopadu skutečných hodnot na projekt. Z důvodu dopadu tohoto typu deníku byste měli pečlivě zvolit, kdo má přístup k vytváření deníků záznamů.
+
 ## <a name="record-actuals-based-on-project-events"></a>Záznam skutečných hodnot na základě událostí projektu
 
 Project Operations zaznamenává finanční transakce, které nastanou během projektu. Tyto transakce jsou zaznamenány jako skutečné hodnoty. V následujících tabulkách jsou zobrazeny různé typy skutečných hodnot, které jsou vytvořeny v závislosti na tom, zda je projekt časově materiálovým projektem nebo projektem s pevnou cenou, je v předprodejní fázi nebo jde o interní projekt.

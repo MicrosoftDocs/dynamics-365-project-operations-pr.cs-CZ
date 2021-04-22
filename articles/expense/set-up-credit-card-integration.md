@@ -1,9 +1,9 @@
 ---
 title: Nastavení integrace kreditní karty
-description: Toto téma vysvětluje, jak importovat a udržovat transakce kreditních karet související s výdaji.
+description: Tento téma vysvětluje, jak pracovat s transakcemi kreditních karet, které souvisejí s výdaji.
 author: suvaidya
 manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,38 +15,47 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cd60d338e2b2a2d74d4d7f55bb5a1723f10c29ab
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 72ff98f5985af4362cde3c9914e0d20247f1f09a
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276160"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866675"
 ---
 # <a name="set-up-credit-card-integration"></a>Nastavení integrace kreditní karty
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Transakce kreditních karet související s výdaji lze nastavit tak, aby se automaticky importovaly podle opakujícího se plánu. Alternativně lze transakce podle potřeby importovat ručně. Transakce kreditní kartou se importují prostřednictvím datové entity transakce kreditní kartou.
+Transakce kreditních karet související s výdaji lze nastavit tak, aby se automaticky importovaly podle opakujícího se plánu. Alternativně lze transakce podle potřeby importovat ručně. Transakce kreditní kartou se importují prostřednictvím datové entity transakcí kreditní kartou.
 
 ## <a name="import-credit-card-transactions"></a>Import transakcí kreditní kartou
 
+Chcete-li importovat transakce kreditní kartou, postupujte takto:
+
 1. Na stránce **Transakce kreditní kartou** vyberte **Importovat transakce**. Pokud otevíráte správu dat poprvé, musí systém aktualizovat seznam datových entit, než budete moci pokračovat.
-2. Do pole **Název** zadejte jedinečný popis úlohy importu.
+2. V poli **Název** zadejte jedinečný popis úlohy importu.
 3. V poli **Formát zdrojových dat** vyberte formát souboru k importu, který obsahuje transakce kreditní kartou.
 4. Vyberte **Odeslat** a poté vyhledejte a vyberte soubor, který chcete importovat.
 5. Po odeslání souboru ověřte mapování souboru transakcí kreditní karty a sloupců datové entity transakce kreditní karty výběrem odkazu na dlaždici **Zobrazit mapu**. Pokud existují chyby mapování nebo pokud musíte změnit mapování, proveďte změny mapování buď z karty **Vizualizace mapování** nebo **Podrobnosti mapování**.
 6. Chcete-li automatizovat transakce kreditní kartou, vyberte **Vytvořit opakující se datovou úlohu**. Poté můžete nastavit opakování, které definuje, jak často se mají transakce kreditní kartou importovat. Jakmile budete hotovi, zvolte **OK**.
 7. Chcete-li nyní importovat vybraný soubor, vyberte **Importovat**.
-8. Pokud se během importu vyskytnou chyby, můžete si prohlédnout protokol provádění nebo pracovní data a zobrazit chyby, které musíte opravit, abyste mohli zaručit úspěšný import.
+8. Pokud se během importu vyskytnou chyby, můžete si prohlédnout protokol provádění nebo pracovní data, ve kterých najdete chyby, které musíte opravit, abyste zajistili úspěšný import.
 
 > [!NOTE]
-> Pokud musíte importovat více než jeden formát souboru, musíte vytvořit samostatné úlohy importu pro každý typ formátu.
+> Pokud potřebujete importovat více než jeden formát souboru, musíte pro každý typ formátu vytvořit samostatné úlohy importu.
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Změna přiřazení transakcí kreditní kartou pro ukončené zaměstnance
 
-Po ukončení záznamu zaměstnance je účet zaměstnance služby Active Directory Domain Services (AD DS) deaktivován. Mohou však existovat aktivní transakce kreditních karet, které je třeba stále proplatit a uhradit. Ze stránky **Transakce kreditní kartou** můžete zaměstnanci znovu přiřadit jakékoli transakce kreditní kartou, kde byl přidružený zaměstnanec ukončen.
+Po ukončení záznamu zaměstnance je účet zaměstnance služby Active Directory Domain Services (AD DS) deaktivován. Mohou však existovat aktivní transakce kreditních karet, které je třeba stále proplatit a uhradit. Na stránce **Transakce kreditní kartou** můžete znovu přiřadit zaměstnance u jakékoli transakce kreditní kartou, kde byl přidružený zaměstnanec ukončen.
 
 Vyberte jednu nebo více transakcí kreditní kartou a poté vyberte **Znovu přiřadit transakce**. Poté můžete vybrat dalšího zaměstnance, kterému chcete přiřadit transakce kreditní kartou. Poté, co byly transakce s kreditními kartami znovu přiřazeny, mohou být vybrány pro výkazy výdajů a zaplaceny obvyklým postupem pro refundaci výkazu výdajů.
 
+## <a name="delete-credit-card-transactions"></a>Odstranění transakcí kreditní kartou 
+
+Někdy po importu transakcí kreditní kartou může být nutné některé transakce odstranit. Důvodem může být například fakt, že transakce jsou duplikáty, nebo protože jejich data nejsou přesná. Správci mohou použít funkci **„Odstranění transakcí kreditní kartou“** k výběru a odstranění transakcí kreditní karty, které **nejsou připojeny** k sestavě výdajů. 
+
+1. Přejděte do nabídky **Pravidelné úkoly** > **Odstranit transakce kreditní kartou**.
+2. Vyberte **Filtr** a zadejte informace identifikující záznamy, které mají být odstraněny.
+3. Výběrem tlačítka **OK** záznamy odstraníte. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

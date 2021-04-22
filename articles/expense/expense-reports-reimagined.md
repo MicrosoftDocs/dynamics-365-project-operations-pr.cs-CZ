@@ -3,7 +3,7 @@ title: Nová verze vyúčtování výdajů
 description: Tento téma vysvětluje přepracované prostředí pro zadávání vyúčtování výdajů.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499708"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717687"
 ---
 # <a name="expense-reports-reimagined"></a>Nová verze vyúčtování výdajů
 
@@ -41,11 +41,7 @@ Chcete-li zapnout nové prostředí, použijte pracovní prostředíá **Správa
 - Žádné existující položky nabídky pro výkazy výdajů (stávající stránka) nebo pole výkazu výdajů nejsou odstraněny.
 - Pracovní postupy a veškerá schválení vás stále budou zavádět na existujíc stránku s výkazy výdajů.
 
-## <a name="getting-started-video-for-new-users"></a>Video Začínáme pro nové uživatele
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-Video [Zkušenosti s výdaji v Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (zobrazeno výše) je zahrnuto v [playlistu Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) k dispozici na YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>Nové funkce
 
