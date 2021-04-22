@@ -3,60 +3,63 @@ title: Přehled schválení
 description: Toto téma poskytuje informace o práci se schváleními ve službě Project Operations.
 author: stsporen
 manager: Annbe
-ms.date: 10/05/2020
+ms.date: 03/31/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: a7573b95998387453b72dbcb73c3de977ed7d913
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b2da22e10cf6c40a2c84bcd32437b2830f830d07
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290350"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852491"
 ---
-# <a name="approvals-overview"></a><span data-ttu-id="093bb-103">Přehled schválení</span><span class="sxs-lookup"><span data-stu-id="093bb-103">Approvals overview</span></span>
+# <a name="approvals-overview"></a><span data-ttu-id="29fbf-103">Přehled schválení</span><span class="sxs-lookup"><span data-stu-id="29fbf-103">Approvals overview</span></span>
 
-<span data-ttu-id="093bb-104">_**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_</span><span class="sxs-lookup"><span data-stu-id="093bb-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="29fbf-104">_**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_</span><span class="sxs-lookup"><span data-stu-id="29fbf-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="093bb-105">Odeslání času a výdajů prochází schvalovacím pracovním postupem.</span><span class="sxs-lookup"><span data-stu-id="093bb-105">Time and Expense submissions move through an approval workflow.</span></span> <span data-ttu-id="093bb-106">Po schválení položek jsou transakce zaznamenány ve skutečných hodnotách nebo je čas zaúčtován v rozvrhu.</span><span class="sxs-lookup"><span data-stu-id="093bb-106">After the entries are approved, transactions are recorded in actuals or time is booked in the schedule.</span></span>
+<span data-ttu-id="29fbf-105">Odeslání času, výdajů a využití materiálu prochází schvalovacím pracovním postupem.</span><span class="sxs-lookup"><span data-stu-id="29fbf-105">Time, expense, and material usage submissions move through an approval workflow.</span></span> <span data-ttu-id="29fbf-106">Po schválení položek jsou transakce zaznamenány ve skutečných hodnotách nebo je čas zaúčtován v rozvrhu.</span><span class="sxs-lookup"><span data-stu-id="29fbf-106">After the entries are approved, transactions are recorded in actuals or time is booked in the schedule.</span></span>
 
-## <a name="approvals-workflow"></a><span data-ttu-id="093bb-107">Pracovní postup schválení</span><span class="sxs-lookup"><span data-stu-id="093bb-107">Approvals workflow</span></span>
-<span data-ttu-id="093bb-108">Když vytvoříte a odešlete položku času nebo výdajů, vytvoří se položka schválení.</span><span class="sxs-lookup"><span data-stu-id="093bb-108">When you create and submit a time or expense entry, an approval entry is created.</span></span> <span data-ttu-id="093bb-109">Schvalovatel projektu nebo váš nadřízený váš vstup zkontroluje a schválí.</span><span class="sxs-lookup"><span data-stu-id="093bb-109">The Project approver or your manager reviews and approves your entry.</span></span> <span data-ttu-id="093bb-110">Pokud položka souvisí s projektem, po schválení budou vytvořeny skutečné údaje.</span><span class="sxs-lookup"><span data-stu-id="093bb-110">If the entry is related to a project, when it's approved, the actuals will be created.</span></span> <span data-ttu-id="093bb-111">To umožňuje sledování nákladů a fakturace.</span><span class="sxs-lookup"><span data-stu-id="093bb-111">This allows the cost and billing to be tracked.</span></span> 
+## <a name="approvals-workflow"></a><span data-ttu-id="29fbf-107">Pracovní postup schválení</span><span class="sxs-lookup"><span data-stu-id="29fbf-107">Approvals workflow</span></span>
+<span data-ttu-id="29fbf-108">Když vytvoříte a odešlete záznam o čase, výdaji nebo použití materiálu, vytvoří se záznam o schválení.</span><span class="sxs-lookup"><span data-stu-id="29fbf-108">When you create and submit a time, expense, or material usage entry, an approval record is created.</span></span> <span data-ttu-id="29fbf-109">Schvalovatel nebo manažer projektu záznam zkontroluje a schválí.</span><span class="sxs-lookup"><span data-stu-id="29fbf-109">The project approver or manager reviews and approves the entry.</span></span> <span data-ttu-id="29fbf-110">Pokud položka souvisí s projektem, skutečné údaje se vytvoří, až bude schválen.</span><span class="sxs-lookup"><span data-stu-id="29fbf-110">If the entry is related to a project, the actuals will be created when it's approved.</span></span> <span data-ttu-id="29fbf-111">To umožňuje sledování nákladů a fakturace.</span><span class="sxs-lookup"><span data-stu-id="29fbf-111">This allows the cost and billing to be tracked.</span></span>
 
-## <a name="approve-an-entry"></a><span data-ttu-id="093bb-112">Schválit záznam</span><span class="sxs-lookup"><span data-stu-id="093bb-112">Approve an entry</span></span>
-<span data-ttu-id="093bb-113">Formulář **Schválení** umožňuje přepínat mezi různými pohledy, takže můžete prohlížet různé typy schválení.</span><span class="sxs-lookup"><span data-stu-id="093bb-113">The **Approvals** form allows you to switch between different views so that you can view the different types of approvals.</span></span>
+## <a name="approve-an-entry"></a><span data-ttu-id="29fbf-112">Schválit záznam</span><span class="sxs-lookup"><span data-stu-id="29fbf-112">Approve an entry</span></span>
+<span data-ttu-id="29fbf-113">Stránka **Schválení** umožňuje přepínat mezi různými pohledy, takže můžete prohlížet různé typy schválení.</span><span class="sxs-lookup"><span data-stu-id="29fbf-113">The **Approvals** page allows you to switch between different views so that you can view the different types of approvals.</span></span>
   
-1. <span data-ttu-id="093bb-114">Přejděte na formulář **Schválení** a vyberte **Výdaje**, **Čas** nebo **Odvolání**.</span><span class="sxs-lookup"><span data-stu-id="093bb-114">Go to the **Approvals** form and select **Expenses**, **Time**, or **Recalls**.</span></span>
-2. <span data-ttu-id="093bb-115">Zkontrolujte každé schválení a vyberte ty, které chcete schválit.</span><span class="sxs-lookup"><span data-stu-id="093bb-115">Review each approval, and select the ones you want to approve.</span></span>
-3. <span data-ttu-id="093bb-116">Vyberte **Schvalovat**, chcete-li schválit vybrané položky.</span><span class="sxs-lookup"><span data-stu-id="093bb-116">Select **Approve** to approve the selected entries.</span></span>
-<span data-ttu-id="093bb-117">Systém tyto záznamy zpracuje a vytvoří skutečné hodnoty nebo rezervaci.</span><span class="sxs-lookup"><span data-stu-id="093bb-117">The system will process these entries and create actuals or a booking.</span></span>
+1. <span data-ttu-id="29fbf-114">Přejděte na stránku **Schválení** a vyberte **Výdaje**, **Čas**, **Využití materiálu** nebo **Odvolání**.</span><span class="sxs-lookup"><span data-stu-id="29fbf-114">Go to the **Approvals** page and select **Expenses**, **Time**, **Material Usage**, or **Recalls**.</span></span>
+2. <span data-ttu-id="29fbf-115">Zkontrolujte každé schválení a vyberte ty, které chcete schválit.</span><span class="sxs-lookup"><span data-stu-id="29fbf-115">Review each approval, and select the ones you want to approve.</span></span>
+3. <span data-ttu-id="29fbf-116">Vyberte **Schvalovat**, chcete-li schválit vybrané položky.</span><span class="sxs-lookup"><span data-stu-id="29fbf-116">Select **Approve** to approve the selected entries.</span></span>
+<span data-ttu-id="29fbf-117">Systém tyto záznamy zpracuje a vytvoří skutečná data.</span><span class="sxs-lookup"><span data-stu-id="29fbf-117">The system processes these entries and create actuals.</span></span>
 
-## <a name="reject-an-entry"></a><span data-ttu-id="093bb-118">Odmítnout záznam</span><span class="sxs-lookup"><span data-stu-id="093bb-118">Reject an entry</span></span>
-<span data-ttu-id="093bb-119">Jako schvalovatel projektu možná budete muset zaslat záznam zpět uživateli k opravě.</span><span class="sxs-lookup"><span data-stu-id="093bb-119">As the Project approver, you may have to send an entry back to a user for correction.</span></span>
+## <a name="reject-an-entry"></a><span data-ttu-id="29fbf-118">Odmítnout záznam</span><span class="sxs-lookup"><span data-stu-id="29fbf-118">Reject an entry</span></span>
+<span data-ttu-id="29fbf-119">Jako schvalovatel projektu možná budete muset zaslat záznam zpět uživateli k opravě.</span><span class="sxs-lookup"><span data-stu-id="29fbf-119">As the Project approver, you may have to send an entry back to a user for correction.</span></span>
   
-1. <span data-ttu-id="093bb-120">Přejděte na formulář **Schválení** a vyberte záznam, který chcete odmítnout.</span><span class="sxs-lookup"><span data-stu-id="093bb-120">Go to the **Approvals** form and select the entry to reject.</span></span> 
-2. <span data-ttu-id="093bb-121">Vyberte **Odmítnout**.</span><span class="sxs-lookup"><span data-stu-id="093bb-121">Select **Reject**.</span></span>
-3. <span data-ttu-id="093bb-122">Volitelné - Přidejte komentář do dialogového okna **Komentáře k odmítnutí** informující uživatele, proč je záznam odmítnut.</span><span class="sxs-lookup"><span data-stu-id="093bb-122">Optional - Add a comment in the **Rejection Comments** dialog to inform the user why the entry is being rejected.</span></span>
-4. <span data-ttu-id="093bb-123">Vyberte **OK**.</span><span class="sxs-lookup"><span data-stu-id="093bb-123">Select **OK**.</span></span> <span data-ttu-id="093bb-124">Záznam bude vrácen uživateli.</span><span class="sxs-lookup"><span data-stu-id="093bb-124">The entry will be returned to the user.</span></span>
+1. <span data-ttu-id="29fbf-120">Přejděte na stránku **Schválení** stránka a vyberte záznam, který chcete odmítnout.</span><span class="sxs-lookup"><span data-stu-id="29fbf-120">Go to the **Approvals** page and select the entry to reject.</span></span> 
+2. <span data-ttu-id="29fbf-121">Vyberte **Odmítnout**.</span><span class="sxs-lookup"><span data-stu-id="29fbf-121">Select **Reject**.</span></span>
+3. <span data-ttu-id="29fbf-122">Volitelně přidejte komentář do dialogového okna **Komentáře k odmítnutí** k informování uživatele, proč je položka odmítnuta.</span><span class="sxs-lookup"><span data-stu-id="29fbf-122">Optional, add a comment in the **Rejection Comments** dialog box to inform the user why the entry is being rejected.</span></span>
+4. <span data-ttu-id="29fbf-123">Vyberte **OK**.</span><span class="sxs-lookup"><span data-stu-id="29fbf-123">Select **OK**.</span></span> <span data-ttu-id="29fbf-124">Záznam bude vrácen uživateli.</span><span class="sxs-lookup"><span data-stu-id="29fbf-124">The entry will be returned to the user.</span></span>
   
-## <a name="recall-entries"></a><span data-ttu-id="093bb-125">Odvolání záznamů</span><span class="sxs-lookup"><span data-stu-id="093bb-125">Recall entries</span></span>
-<span data-ttu-id="093bb-126">V určitém okamžiku možná budete muset odeslaný záznam odvolat.</span><span class="sxs-lookup"><span data-stu-id="093bb-126">At some point, you might need to recall a submitted entry.</span></span> <span data-ttu-id="093bb-127">Pokud záznam nebyl schválen, bude okamžitě vrácen.</span><span class="sxs-lookup"><span data-stu-id="093bb-127">If the entry has not been approved, it will be returned immediately.</span></span> <span data-ttu-id="093bb-128">Schválená položka však může mít podstatný dopad.</span><span class="sxs-lookup"><span data-stu-id="093bb-128">An approved entry however, may have a material impact.</span></span> <span data-ttu-id="093bb-129">Schvalovatel projektu je povinen schválit odvolání, aby se transakce dále nepromítala do skutečných hodnot.</span><span class="sxs-lookup"><span data-stu-id="093bb-129">The Project approver is required to approve the recall in order to reverse the transaction in Actuals.</span></span>
+## <a name="cancel-approval"></a><span data-ttu-id="29fbf-125">Zrušit schválení</span><span class="sxs-lookup"><span data-stu-id="29fbf-125">Cancel approval</span></span>
+<span data-ttu-id="29fbf-126">V některých případech možná budete muset zrušit dříve schválený záznam.</span><span class="sxs-lookup"><span data-stu-id="29fbf-126">In some cases, you might need to cancel a previously approved entry.</span></span> <span data-ttu-id="29fbf-127">Zrušení dříve schváleného záznamu bude mít finanční dopad.</span><span class="sxs-lookup"><span data-stu-id="29fbf-127">Canceling a previously approved entry will have a financial impact.</span></span> 
 
-## <a name="specify-project-approvers"></a><span data-ttu-id="093bb-130">Zadejte schvalovatele projektu</span><span class="sxs-lookup"><span data-stu-id="093bb-130">Specify Project approvers</span></span>
-<span data-ttu-id="093bb-131">Každý projekt má několik členů projektového týmu.</span><span class="sxs-lookup"><span data-stu-id="093bb-131">Each project has a number of project team members.</span></span> <span data-ttu-id="093bb-132">Můžete určit, kteří členové týmu jsou také schvalovateli projektu.</span><span class="sxs-lookup"><span data-stu-id="093bb-132">You can specify which team members are also Project approvers.</span></span>
+## <a name="approving-recall-requests"></a><span data-ttu-id="29fbf-128">Schvalování požadavků na odvolání</span><span class="sxs-lookup"><span data-stu-id="29fbf-128">Approving recall requests</span></span>
+<span data-ttu-id="29fbf-129">V některých případech může být nutné, aby konzultant odvolal dříve schválený záznam.</span><span class="sxs-lookup"><span data-stu-id="29fbf-129">In some cases, a consultant may need to recall a previously approved entry.</span></span> <span data-ttu-id="29fbf-130">Zrušení dříve schváleného záznamu bude mít finanční dopad.</span><span class="sxs-lookup"><span data-stu-id="29fbf-130">Canceling a previously approved entry will have a financial impact.</span></span> <span data-ttu-id="29fbf-131">Schvalovatel projektu je povinen schválit odvolání, aby transakci vrátil ve skutečných hodnotách.</span><span class="sxs-lookup"><span data-stu-id="29fbf-131">The project approver is required to approve the recall to reverse the transaction in Actuals.</span></span>
 
-1. <span data-ttu-id="093bb-133">Přejděte na formulář **Projekty** a otevřete projekt ze seznamu.</span><span class="sxs-lookup"><span data-stu-id="093bb-133">Go to the **Projects** form and open the project from the list.</span></span>
-2. <span data-ttu-id="093bb-134">Na kartě **Tým** vyberte člena týmu, který bude schvalovatelem projektu, a poté vyberte **Upravit**.</span><span class="sxs-lookup"><span data-stu-id="093bb-134">On the **Team** tab, select the team member who will be a Project approver and then select **Edit**.</span></span>
-3. <span data-ttu-id="093bb-135">Nastavte pole **Schvalovatel projektu** na **Ano**.</span><span class="sxs-lookup"><span data-stu-id="093bb-135">Set the **Project Approver** field to **Yes**.</span></span>
-4. <span data-ttu-id="093bb-136">Zvolte **Uložit**.</span><span class="sxs-lookup"><span data-stu-id="093bb-136">Select **Save**.</span></span>
-5. <span data-ttu-id="093bb-137">Opakováním kroků 2 a 4 přidejte další schvalovatele projektu.</span><span class="sxs-lookup"><span data-stu-id="093bb-137">Repeat steps 2-4 to add additional Project approvers.</span></span>
+## <a name="specify-project-approvers"></a><span data-ttu-id="29fbf-132">Zadejte schvalovatele projektu</span><span class="sxs-lookup"><span data-stu-id="29fbf-132">Specify Project approvers</span></span>
+<span data-ttu-id="29fbf-133">Každý projekt má několik členů projektového týmu.</span><span class="sxs-lookup"><span data-stu-id="29fbf-133">Each project has a number of project team members.</span></span> <span data-ttu-id="29fbf-134">Můžete určit, kteří členové týmu jsou také schvalovateli projektu.</span><span class="sxs-lookup"><span data-stu-id="29fbf-134">You can specify which team members are also Project approvers.</span></span>
 
-## <a name="configure-the-users-manager"></a><span data-ttu-id="093bb-138">Nakonfigurujte správce uživatele</span><span class="sxs-lookup"><span data-stu-id="093bb-138">Configure the user's manager</span></span>
+1. <span data-ttu-id="29fbf-135">Přejděte na stránku **Projekty** stránku a otevřete projekt ze seznamu.</span><span class="sxs-lookup"><span data-stu-id="29fbf-135">Go to the **Projects** page and open the project from the list.</span></span>
+2. <span data-ttu-id="29fbf-136">Na kartě **Tým** vyberte člena týmu, který bude schvalovatelem projektu, a poté vyberte **Upravit**.</span><span class="sxs-lookup"><span data-stu-id="29fbf-136">On the **Team** tab, select the team member who will be a Project approver and then select **Edit**.</span></span>
+3. <span data-ttu-id="29fbf-137">Nastavte pole **Schvalovatel projektu** na **Ano**.</span><span class="sxs-lookup"><span data-stu-id="29fbf-137">Set the **Project Approver** field to **Yes**.</span></span>
+4. <span data-ttu-id="29fbf-138">Zvolte **Uložit**.</span><span class="sxs-lookup"><span data-stu-id="29fbf-138">Select **Save**.</span></span>
+5. <span data-ttu-id="29fbf-139">Opakováním kroků 2 a 4 přidejte další schvalovatele projektu.</span><span class="sxs-lookup"><span data-stu-id="29fbf-139">Repeat steps 2-4 to add additional Project approvers.</span></span>
 
-1. <span data-ttu-id="093bb-139">Přejděte na **Nastavení** > **Zabezpečení** > **Uživatelé**.</span><span class="sxs-lookup"><span data-stu-id="093bb-139">Go to **Settings** > **Security** > **Users**.</span></span>
-2. <span data-ttu-id="093bb-140">Vyberte uživatele, kterému přiřazujete manažera, a v oblasti **Informace o organizaci** vyberte správce ze seznamu.</span><span class="sxs-lookup"><span data-stu-id="093bb-140">Select the user to whom you are assigning a manager and in the **Organization Information** area, select the manager from the list.</span></span> 
-3. <span data-ttu-id="093bb-141">Zvolte **Uložit**.</span><span class="sxs-lookup"><span data-stu-id="093bb-141">Select **Save**.</span></span>
+## <a name="configure-the-users-manager"></a><span data-ttu-id="29fbf-140">Nakonfigurujte správce uživatele</span><span class="sxs-lookup"><span data-stu-id="29fbf-140">Configure the user's manager</span></span>
+
+1. <span data-ttu-id="29fbf-141">Přejděte na **Nastavení** > **Zabezpečení** > **Uživatelé**.</span><span class="sxs-lookup"><span data-stu-id="29fbf-141">Go to **Settings** > **Security** > **Users**.</span></span>
+2. <span data-ttu-id="29fbf-142">Vyberte uživatele, kterému přiřazujete manažera, a v oblasti **Informace o organizaci** vyberte správce ze seznamu.</span><span class="sxs-lookup"><span data-stu-id="29fbf-142">Select the user to whom you are assigning a manager and in the **Organization Information** area, select the manager from the list.</span></span> 
+3. <span data-ttu-id="29fbf-143">Zvolte **Uložit**.</span><span class="sxs-lookup"><span data-stu-id="29fbf-143">Select **Save**.</span></span>
 
 
 

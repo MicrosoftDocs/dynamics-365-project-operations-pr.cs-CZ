@@ -1,5 +1,5 @@
 ---
-title: Práce s řádky smlouvy založené na projektu – omezené
+title: Přehled řádků smlouvy založené na projektu
 description: Tohle téma poskytuje informace o práci s řádky smlouvy na základě projektu.
 author: rumant
 manager: Annbe
@@ -8,64 +8,628 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b0ff564c2cf9bc5681e14efbfa7983d6959c155
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 824fdd54d7b513b49afd1a6d76d3387df81418e2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273280"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858150"
 ---
-# <a name="work-with-projectbased-contract-lines---lite"></a><span data-ttu-id="a1776-103">Práce s řádky smlouvy založené na projektu – omezené</span><span class="sxs-lookup"><span data-stu-id="a1776-103">Work with project–based contract lines - lite</span></span>
+# <a name="project-based-contract-lines-overview"></a><span data-ttu-id="03075-103">Přehled řádků smlouvy založené na projektu</span><span class="sxs-lookup"><span data-stu-id="03075-103">Project-based contract lines overview</span></span>
 
-<span data-ttu-id="a1776-104">_**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_</span><span class="sxs-lookup"><span data-stu-id="a1776-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="03075-104">_**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_</span><span class="sxs-lookup"><span data-stu-id="03075-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="a1776-105">Řádky smlouvy na základě projektu v Dynamics 365 Project Operations jsou navrženy tak, aby obsahovaly odhad a řešení fakturace pro konkrétní součásti projektové práce na aktivitě.</span><span class="sxs-lookup"><span data-stu-id="a1776-105">Project-based contract lines in Dynamics 365 Project Operations are designed to hold the estimate and billing agreements for specific components of project work on an engagement.</span></span> <span data-ttu-id="a1776-106">Struktura řádku smlouvy na základě projektu je rozšířena pro odhady projektu a scénáře fakturace o následující koncepty:</span><span class="sxs-lookup"><span data-stu-id="a1776-106">The structure of a project–based contract line is extended for project estimates and billing scenarios with the following concepts:</span></span>
+<span data-ttu-id="03075-105">Řádky smlouvy na základě projektu v Dynamics 365 Project Operations jsou navrženy tak, aby obsahovaly odhad a řešení fakturace pro konkrétní součásti projektové práce na aktivitě.</span><span class="sxs-lookup"><span data-stu-id="03075-105">Project-based contract lines in Dynamics 365 Project Operations are designed to hold the estimate and billing agreements for specific components of project work on an engagement.</span></span> <span data-ttu-id="03075-106">Struktura řádku smlouvy na základě projektu je rozšířena pro odhady projektu a scénáře fakturace o následující koncepty:</span><span class="sxs-lookup"><span data-stu-id="03075-106">The structure of a project–based contract line is extended for project estimates and billing scenarios with the following concepts:</span></span>
 
-- <span data-ttu-id="a1776-107">Způsob fakturace</span><span class="sxs-lookup"><span data-stu-id="a1776-107">Billing method</span></span>
-- <span data-ttu-id="a1776-108">Projekt a mapování úkolů</span><span class="sxs-lookup"><span data-stu-id="a1776-108">Project and task mapping</span></span>
-- <span data-ttu-id="a1776-109">Zahrnuté třídy transakcí</span><span class="sxs-lookup"><span data-stu-id="a1776-109">Included transaction classes</span></span>
-- <span data-ttu-id="a1776-110">Nepřekročitelný limit</span><span class="sxs-lookup"><span data-stu-id="a1776-110">Not-to-exceed limit</span></span>
-- <span data-ttu-id="a1776-111">Nastavení účtovatelnosti</span><span class="sxs-lookup"><span data-stu-id="a1776-111">Chargeability setup</span></span>
-- <span data-ttu-id="a1776-112">Odhady pomocí podrobností řádku smlouvy</span><span class="sxs-lookup"><span data-stu-id="a1776-112">Estimates using contract line details</span></span>
-- <span data-ttu-id="a1776-113">Zákazníci řádku smlouvy</span><span class="sxs-lookup"><span data-stu-id="a1776-113">Contract line customers</span></span>
+- <span data-ttu-id="03075-107">Způsob fakturace</span><span class="sxs-lookup"><span data-stu-id="03075-107">Billing method</span></span>
+- <span data-ttu-id="03075-108">Projekt a mapování úkolů</span><span class="sxs-lookup"><span data-stu-id="03075-108">Project and task mapping</span></span>
+- <span data-ttu-id="03075-109">Zahrnuté třídy transakcí</span><span class="sxs-lookup"><span data-stu-id="03075-109">Included transaction classes</span></span>
+- <span data-ttu-id="03075-110">Nepřekročitelný limit</span><span class="sxs-lookup"><span data-stu-id="03075-110">Not-to-exceed limit</span></span>
+- <span data-ttu-id="03075-111">Nastavení účtovatelnosti</span><span class="sxs-lookup"><span data-stu-id="03075-111">Chargeability setup</span></span>
+- <span data-ttu-id="03075-112">Odhady pomocí podrobností řádku smlouvy</span><span class="sxs-lookup"><span data-stu-id="03075-112">Estimates using contract line details</span></span>
+- <span data-ttu-id="03075-113">Zákazníci řádku smlouvy</span><span class="sxs-lookup"><span data-stu-id="03075-113">Contract line customers</span></span>
 
-<span data-ttu-id="a1776-114">Následující tabulka obsahuje pole na kartě **Obecné** pro řádky smlouvy založené na projektu, které pomáhají připravit základ pro podrobný odhad a řešení fakturace pro projektovou práci.</span><span class="sxs-lookup"><span data-stu-id="a1776-114">The following table includes the fields on the **General** tab of project–based contract lines that help set up the basis for a detailed, ground–up estimate and billing arrangements for project–based work.</span></span>
+<span data-ttu-id="03075-114">Následující tabulka obsahuje pole na kartě **Obecné** pro řádky smlouvy založené na projektu, které pomáhají připravit základ pro podrobný odhad a řešení fakturace pro projektovou práci.</span><span class="sxs-lookup"><span data-stu-id="03075-114">The following table includes the fields on the **General** tab of project–based contract lines that help set up the basis for a detailed, ground–up estimate and billing arrangements for project–based work.</span></span>
 
-| <span data-ttu-id="a1776-115">Pole</span><span class="sxs-lookup"><span data-stu-id="a1776-115">Field</span></span> | <span data-ttu-id="a1776-116">Popis</span><span class="sxs-lookup"><span data-stu-id="a1776-116">Description</span></span> | <span data-ttu-id="a1776-117">Dopad na následné složky</span><span class="sxs-lookup"><span data-stu-id="a1776-117">Downstream impact</span></span> |
+| <span data-ttu-id="03075-115">Pole</span><span class="sxs-lookup"><span data-stu-id="03075-115">Field</span></span> | <span data-ttu-id="03075-116">Popis</span><span class="sxs-lookup"><span data-stu-id="03075-116">Description</span></span> | <span data-ttu-id="03075-117">Dopad na následné složky</span><span class="sxs-lookup"><span data-stu-id="03075-117">Downstream impact</span></span> |
 | --- | --- | --- |
-| <span data-ttu-id="a1776-118">**Jméno**</span><span class="sxs-lookup"><span data-stu-id="a1776-118">**Name**</span></span> | <span data-ttu-id="a1776-119">Název řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="a1776-119">Name of the contract line.</span></span> <span data-ttu-id="a1776-120">Tento název označuje diskrétní složku smlouvy, která se odhaduje.</span><span class="sxs-lookup"><span data-stu-id="a1776-120">This identifies the discrete component of the contract that is being estimated.</span></span> <span data-ttu-id="a1776-121">U smlouvy projektu vytvořené z nabídky je tato hodnota zkopírována z odpovídající hodnoty řádku nabídky na základě projektu.</span><span class="sxs-lookup"><span data-stu-id="a1776-121">For a project contract created from a quote, this value is copied from a corresponding value of the project-based quote line.</span></span> | <span data-ttu-id="a1776-122">Tento název je zkopírován do řádku faktury projektu, který je vytvořen z tohoto řádku smlouvy při vytváření faktury.</span><span class="sxs-lookup"><span data-stu-id="a1776-122">The name copied over to the project invoice line that is created from this contract line when the invoice is created.</span></span> |
-| <span data-ttu-id="a1776-123">**Způsob fakturace**</span><span class="sxs-lookup"><span data-stu-id="a1776-123">**Billing Method**</span></span> | <span data-ttu-id="a1776-124">U smlouvy projektu vytvořené z nabídky je tato hodnota zkopírována z odpovídajícího pole na řádku nabídky.</span><span class="sxs-lookup"><span data-stu-id="a1776-124">On a project contract created from a quote, this value is copied from the corresponding field on the quote line.</span></span> <span data-ttu-id="a1776-125">Toto je sada možností, která představuje dva hlavní smluvní modely podporované v Project Operations:</span><span class="sxs-lookup"><span data-stu-id="a1776-125">This is an option set that represents the two main contracting models supported by Project Operations:</span></span></br><span data-ttu-id="a1776-126">- **Pevná cena**</span><span class="sxs-lookup"><span data-stu-id="a1776-126">- **Fixed Price**</span></span></br><span data-ttu-id="a1776-127">- **Čas a materiál**</span><span class="sxs-lookup"><span data-stu-id="a1776-127">- **Time and Material**</span></span> | <span data-ttu-id="a1776-128">Na základě způsobu fakturace odkazované řádky smlouvy bude zpracována samotná transakce.</span><span class="sxs-lookup"><span data-stu-id="a1776-128">Based on the billing method of the referenced contract line, the actual transaction will be processed.</span></span> <span data-ttu-id="a1776-129">Pokud má řádka smlouvy odkazovaná skutečnou hodnotou metodu fakturace času a materiálu, vytvoří se záznamy skutečných nákladů a nefakturovaného prodeje.</span><span class="sxs-lookup"><span data-stu-id="a1776-129">If the contract line referenced by the actual has a time and material billing method, cost and unbilled sales actual records are created.</span></span> <span data-ttu-id="a1776-130">Pokud má řádek smlouvy, na který odkazuje skutečná hodnota, způsob fakturace s pevnou cenou, vytvoří se pouze skutečné náklady.</span><span class="sxs-lookup"><span data-stu-id="a1776-130">If the contract line referenced by the actual has a fixed price billing method, only a cost actual is created.</span></span> |
-| <span data-ttu-id="a1776-131">**Project**</span><span class="sxs-lookup"><span data-stu-id="a1776-131">**Project**</span></span> | <span data-ttu-id="a1776-132">Toto pole použijte k identifikaci projektu, který bude použit k provedení práce na této aktivitě.</span><span class="sxs-lookup"><span data-stu-id="a1776-132">Use this field to identify the project that will be used to deliver the work on this engagement.</span></span> | <span data-ttu-id="a1776-133">Tato hodnota se použije v souvislosti s poli **Zahrnuté úkoly** a **Zahrnuté třídy transakcí** ke čtení odkazu na řádek smlouvy v záznamu skutečného nebo odhadovaného řádku.</span><span class="sxs-lookup"><span data-stu-id="a1776-133">This value will be used in conjunction with **Included Tasks** and **Included Transaction Classes** to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="a1776-134">**Zahrnuté úkoly**</span><span class="sxs-lookup"><span data-stu-id="a1776-134">**Included Tasks**</span></span> | <span data-ttu-id="a1776-135">Označuje, zda tento řádek smlouvy zahrnuje všechny projektové úkoly pro vybraný projekt nebo pouze podmnožinu úkolů.</span><span class="sxs-lookup"><span data-stu-id="a1776-135">Indicates if this contract line includes all project tasks for the selected project or only a subset of the tasks.</span></span> <span data-ttu-id="a1776-136">Jedná se o sadu možností s následujícími možnými hodnotami:</span><span class="sxs-lookup"><span data-stu-id="a1776-136">This is an option set that has the following possible values:</span></span></br><span data-ttu-id="a1776-137">- **Všechny projektové úkoly**</span><span class="sxs-lookup"><span data-stu-id="a1776-137">- **All Project Tasks**</span></span></br><span data-ttu-id="a1776-138">- **Pouze vybrané úkoly projektu**.</span><span class="sxs-lookup"><span data-stu-id="a1776-138">- **Selected Project Tasks Only**.</span></span> <span data-ttu-id="a1776-139">Prázdná hodnota v tomto poli se rovná výběru **Všechny projektové úkoly**.</span><span class="sxs-lookup"><span data-stu-id="a1776-139">A blank value in this field is equal to selecting **All Project Tasks**.</span></span> | <span data-ttu-id="a1776-140">Pokud je vybrána možnost **Pouze vybrané úkoly**, můžete vybrat konkrétní úkoly a přidružit je k tomuto řádku smlouvy na kartě **Nastavení účtování úkolů** na stránce **Projekt**.</span><span class="sxs-lookup"><span data-stu-id="a1776-140">If **Selected Tasks Only** is selected, you can select specific tasks and associate them to this contract line on the **Task Billing Setup** tab on the **Project** page.</span></span> <span data-ttu-id="a1776-141">Tato hodnota se použije v souvislosti s poli **Projekt** a **Zahrnuté třídy transakcí** ke čtení odkazu na řádek smlouvy v záznamu skutečného nebo odhadovaného řádku.</span><span class="sxs-lookup"><span data-stu-id="a1776-141">The value will be used in conjunction with **Project** and **Included Transaction** classes to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="a1776-142">**Zahrnout čas**</span><span class="sxs-lookup"><span data-stu-id="a1776-142">**Include Time**</span></span> | <span data-ttu-id="a1776-143">Příznak označuje, zda budou na tomto řádku smlouvy zahrnuty časové transakce nebo mzdové náklady u vybraného projektu.</span><span class="sxs-lookup"><span data-stu-id="a1776-143">A flag indicates if time transactions or labor costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="a1776-144">Hodnota **Ne** označuje, že časové transakce nebo mzdové náklady nebudou zahrnuty do tohoto řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="a1776-144">A **No** value indicates that the time transactions or labor cost will not be included on this contract line.</span></span> <span data-ttu-id="a1776-145">Hodnota **Ano**, znamená že ano.</span><span class="sxs-lookup"><span data-stu-id="a1776-145">A **Yes** value indicates that they will.</span></span> | <span data-ttu-id="a1776-146">Tohle pole se používá ve spojení s projektem ke čtení odkazu na řádek smlouvy v záznamu skutečného nebo odhadovaného řádku.</span><span class="sxs-lookup"><span data-stu-id="a1776-146">This value is used in conjunction with project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="a1776-147">**Zahrnout výdaj**</span><span class="sxs-lookup"><span data-stu-id="a1776-147">**Include Expense**</span></span> | <span data-ttu-id="a1776-148">Příznak označuje, zda budou na tomto řádku smlouvy zahrnuty výdajové náklady u vybraného projektu.</span><span class="sxs-lookup"><span data-stu-id="a1776-148">A flag indicates if expense costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="a1776-149">Hodnota **Ne** označuje, že výdajové náklady nebudou zahrnuty do tohoto řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="a1776-149">A **No** value indicates that the expense cost will not be included on this contract line.</span></span> <span data-ttu-id="a1776-150">Hodnota **Ano**, znamená že ano.</span><span class="sxs-lookup"><span data-stu-id="a1776-150">A **Yes** value indicates that it will.</span></span> | <span data-ttu-id="a1776-151">Tohle pole se používá ve spojení s projektem ke čtení odkazu na řádek smlouvy v záznamu skutečného nebo odhadovaného řádku.</span><span class="sxs-lookup"><span data-stu-id="a1776-151">This value is used in conjunction with project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="a1776-152">**Zahrnout poplatek**</span><span class="sxs-lookup"><span data-stu-id="a1776-152">**Include Fee**</span></span> | <span data-ttu-id="a1776-153">Příznak označuje, zda budou na tomto řádku smlouvy zahrnuty poplatky u vybraného projektu.</span><span class="sxs-lookup"><span data-stu-id="a1776-153">A flag indicates if fees on the selected project will be included on this contract line.</span></span> <span data-ttu-id="a1776-154">Hodnota **Ne** označuje, že poplatky nebudou zahrnuty do tohoto řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="a1776-154">A **No** value indicates that the fees will not be included on this contract line.</span></span> <span data-ttu-id="a1776-155">Hodnota **Ano**, znamená že ano.</span><span class="sxs-lookup"><span data-stu-id="a1776-155">A **Yes** value indicates that they will.</span></span> | <span data-ttu-id="a1776-156">Tohle pole se používá ve spojení s projektem ke čtení odkazu na řádek smlouvy v záznamu skutečného nebo odhadovaného řádku.</span><span class="sxs-lookup"><span data-stu-id="a1776-156">This value is used in conjunction with project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="a1776-157">**Nasmlouvaná částka**</span><span class="sxs-lookup"><span data-stu-id="a1776-157">**Contracted Amount**</span></span> | <span data-ttu-id="a1776-158">Na řádku smlouvy s pevnou cenou je tato částka dohodnutá hodnota, která bude zákazníkovi fakturována za všechny součásti práce přidružené k tomuto řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="a1776-158">On a fixed price contract line, this amount is the agreed-on value that will be invoiced to the customer for all the work components associated to this contract line.</span></span> <span data-ttu-id="a1776-159">Na řádku smlouvy času a materiálu je tato částka odhadnutá hodnota, co bude zákazníkovi fakturováno za všechny součásti práce přidružené k tomuto řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="a1776-159">On a time and material contract line, this amount is an estimated value of what will be invoiced to the customer for all the work components associated to this contract line.</span></span> <span data-ttu-id="a1776-160">U smlouvy projektu vytvořené z nabídky je tato hodnota zkopírována z odpovídajícího pole na řádku nabídky.</span><span class="sxs-lookup"><span data-stu-id="a1776-160">On a project contract that is created from a quote, this value is copied from the corresponding field on the quote line.</span></span> <span data-ttu-id="a1776-161">Pokud má řádek smlouvy na základě projektu podrobnosti, je toto pole uzamčeno pro úpravy a shrnuto z částky v podrobnostech řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="a1776-161">When a project–based contract line has line details, this field is locked for editing and is summarized from the amount on the contract line details.</span></span> | <span data-ttu-id="a1776-162">Pokud řádek smlouvy obsahuje podrobnosti, lze tuto hodnotu upravit změnou částek v podrobnostech řádku.</span><span class="sxs-lookup"><span data-stu-id="a1776-162">When the contract line has line details, this value can be modified by changing the amounts on the line details.</span></span> <span data-ttu-id="a1776-163">Na řádku smlouvy s pevnou cenou se tato hodnota používá ke generování částky před daní z milníků periodické fakturace.</span><span class="sxs-lookup"><span data-stu-id="a1776-163">On a fixed price contract line, this value is used to generate the amount before tax on periodic billing milestones.</span></span> |
-| <span data-ttu-id="a1776-164">**Odhad daně**</span><span class="sxs-lookup"><span data-stu-id="a1776-164">**Estimated Tax**</span></span> | <span data-ttu-id="a1776-165">Uživatel může toto pole upravit a zadat odhadovanou částku daně na řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="a1776-165">The user can edit this field to input the estimated tax amount on the contract line.</span></span> <span data-ttu-id="a1776-166">Pokud má řádek smlouvy na základě projektu podrobnosti, je toto pole uzamčeno pro úpravy a shrnuto z částky daně v podrobnostech řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="a1776-166">When a project–based contract line has line details, this field is locked for editing and is summarized from the tax amount on the contract line details.</span></span> | <span data-ttu-id="a1776-167">Pokud řádek smlouvy obsahuje podrobnosti, lze tuto hodnotu upravit změnou částek daně v podrobnostech řádku.</span><span class="sxs-lookup"><span data-stu-id="a1776-167">When the contract line has line details, this value can be modified by changing the tax amounts on the line details.</span></span> <span data-ttu-id="a1776-168">Na řádku smlouvy s pevnou cenou se tato hodnota používá ke generování daně z milníků periodické fakturace.</span><span class="sxs-lookup"><span data-stu-id="a1776-168">On a fixed price contract line, this value is used to generate the tax on periodic billing milestones.</span></span> |
-| <span data-ttu-id="a1776-169">**Nasmlouvaná částka včetně daně**</span><span class="sxs-lookup"><span data-stu-id="a1776-169">**Contracted Amount after Tax**</span></span> | <span data-ttu-id="a1776-170">Řádka smlouvy s částkou včetně daně</span><span class="sxs-lookup"><span data-stu-id="a1776-170">The contract line amount after tax.</span></span> <span data-ttu-id="a1776-171">Toto pole je jen pro čtení a počítá se jako **Nasmlouvaná částka + daň**.</span><span class="sxs-lookup"><span data-stu-id="a1776-171">This field is read-only and is calculated as **Contracted Amount + Tax**.</span></span> | <span data-ttu-id="a1776-172">Na řádku smlouvy s pevnou cenou se tato hodnota používá ke generování milníků periodické fakturace.</span><span class="sxs-lookup"><span data-stu-id="a1776-172">On a fixed price contract line, this value is used to generate periodic billing milestones.</span></span> |
-| <span data-ttu-id="a1776-173">**Nepřekročitelný limit**</span><span class="sxs-lookup"><span data-stu-id="a1776-173">**Not-to-Exceed Limit**</span></span> | <span data-ttu-id="a1776-174">Uživatel může toto pole upravit a je k dispozici pouze na řádcích smlouvy založené na projektu se způsobem fakturace nastaveným na čas a materiál.</span><span class="sxs-lookup"><span data-stu-id="a1776-174">The user can edit this field and it is only available on project-based contract lines that have the billing method set as time and material.</span></span> | <span data-ttu-id="a1776-175">Uživatel může toto pole upravit.</span><span class="sxs-lookup"><span data-stu-id="a1776-175">The user can edit this field.</span></span> <span data-ttu-id="a1776-176">Když skutečná hodnota času a materiálu odkazuje na tento řádek smlouvy pro čas a materiál, skutečná částka je vyhodnocena vůči nepřekročitelnému limitu na tomto řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="a1776-176">When an actual for time and material references this contract line for time and material, the amount on the actual is evaluated against the not-to-exceed limit on the contract line.</span></span> <span data-ttu-id="a1776-177">Toto vyhodnocení je dokončeno po započítání již utracených a potvrzených částek.</span><span class="sxs-lookup"><span data-stu-id="a1776-177">This evaluation is completed after  the already spent and committed amounts are accounted for.</span></span> |
-| <span data-ttu-id="a1776-178">**Rozpočet zákazníka**</span><span class="sxs-lookup"><span data-stu-id="a1776-178">**Customer Budget**</span></span> | <span data-ttu-id="a1776-179">Toto pole je upravitelné a je zkopírováno z odpovídajícího pole na řádku nabídky, pokud byla smlouva vytvořena z nabídky.</span><span class="sxs-lookup"><span data-stu-id="a1776-179">This field is editable and is copied from the corresponding field on the quote line if the contract was created from a quote.</span></span> | <span data-ttu-id="a1776-180">Toto pole slouží pouze pro informaci a nemá žádný následný význam.</span><span class="sxs-lookup"><span data-stu-id="a1776-180">This field is only used for information and does not have any downstream significance.</span></span> |
+| <span data-ttu-id="03075-118">**Jméno**</span><span class="sxs-lookup"><span data-stu-id="03075-118">**Name**</span></span> | <span data-ttu-id="03075-119">Název řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="03075-119">Name of the contract line.</span></span> <span data-ttu-id="03075-120">Tento název označuje diskrétní složku smlouvy, která se odhaduje.</span><span class="sxs-lookup"><span data-stu-id="03075-120">This identifies the discrete component of the contract that is being estimated.</span></span> <span data-ttu-id="03075-121">U smlouvy projektu vytvořené z nabídky je tato hodnota zkopírována z odpovídající hodnoty řádku nabídky na základě projektu.</span><span class="sxs-lookup"><span data-stu-id="03075-121">For a project contract created from a quote, this value is copied from a corresponding value of the project-based quote line.</span></span> | <span data-ttu-id="03075-122">Tento název je zkopírován do řádku faktury projektu, který je vytvořen z tohoto řádku smlouvy při vytváření faktury.</span><span class="sxs-lookup"><span data-stu-id="03075-122">The name copied over to the project invoice line that is created from this contract line when the invoice is created.</span></span> |
+| <span data-ttu-id="03075-123">**Způsob fakturace**</span><span class="sxs-lookup"><span data-stu-id="03075-123">**Billing Method**</span></span> | <span data-ttu-id="03075-124">U smlouvy projektu vytvořené z nabídky je tato hodnota zkopírována z odpovídajícího pole na řádku nabídky.</span><span class="sxs-lookup"><span data-stu-id="03075-124">On a project contract created from a quote, this value is copied from the corresponding field on the quote line.</span></span> <span data-ttu-id="03075-125">Toto je sada možností, která představuje dva hlavní smluvní modely podporované v Project Operations:</span><span class="sxs-lookup"><span data-stu-id="03075-125">This is an option set that represents the two main contracting models supported by Project Operations:</span></span></br><span data-ttu-id="03075-126">- **Pevná cena**</span><span class="sxs-lookup"><span data-stu-id="03075-126">- **Fixed Price**</span></span></br><span data-ttu-id="03075-127">- **Čas a materiál**</span><span class="sxs-lookup"><span data-stu-id="03075-127">- **Time and Material**</span></span> | <span data-ttu-id="03075-128">Na základě způsobu fakturace odkazované řádky smlouvy bude zpracována samotná transakce.</span><span class="sxs-lookup"><span data-stu-id="03075-128">Based on the billing method of the referenced contract line, the actual transaction will be processed.</span></span> <span data-ttu-id="03075-129">Pokud má řádka smlouvy odkazovaná skutečnou hodnotou metodu fakturace času a materiálu, vytvoří se záznamy skutečných nákladů a nefakturovaného prodeje.</span><span class="sxs-lookup"><span data-stu-id="03075-129">If the contract line referenced by the actual has a time and material billing method, cost and unbilled sales actual records are created.</span></span> <span data-ttu-id="03075-130">Pokud má řádek smlouvy, na který odkazuje skutečná hodnota, způsob fakturace s pevnou cenou, vytvoří se pouze skutečné náklady.</span><span class="sxs-lookup"><span data-stu-id="03075-130">If the contract line referenced by the actual has a fixed price billing method, only a cost actual is created.</span></span> |
+| <span data-ttu-id="03075-131">**Project**</span><span class="sxs-lookup"><span data-stu-id="03075-131">**Project**</span></span> | <span data-ttu-id="03075-132">Toto pole použijte k identifikaci projektu, který bude použit k provedení práce na této aktivitě.</span><span class="sxs-lookup"><span data-stu-id="03075-132">Use this field to identify the project that will be used to deliver the work on this engagement.</span></span> | <span data-ttu-id="03075-133">Tato hodnota bude použita ve spojení se **Zahrnutými úkoly** a **Zahrnutými třídami transakcí** k vyřešení odkazu na řádek smlouvy na záznamu řádku skutečné nebo odhadované hodnoty.</span><span class="sxs-lookup"><span data-stu-id="03075-133">This value will be used in conjunction with **Included Tasks** and **Included Transaction Classes** to resolve the contract line reference on an actual or estimate line record.</span></span> |
+| <span data-ttu-id="03075-134">**Zahrnuté úkoly**</span><span class="sxs-lookup"><span data-stu-id="03075-134">**Included Tasks**</span></span> | <span data-ttu-id="03075-135">Označuje, zda tento řádek smlouvy zahrnuje všechny projektové úkoly pro vybraný projekt nebo pouze podmnožinu úkolů.</span><span class="sxs-lookup"><span data-stu-id="03075-135">Indicates if this contract line includes all project tasks for the selected project or only a subset of the tasks.</span></span> <span data-ttu-id="03075-136">Jedná se o sadu možností s následujícími možnými hodnotami:</span><span class="sxs-lookup"><span data-stu-id="03075-136">This is an option set that has the following possible values:</span></span></br><span data-ttu-id="03075-137">- **Všechny projektové úkoly**</span><span class="sxs-lookup"><span data-stu-id="03075-137">- **All Project Tasks**</span></span></br><span data-ttu-id="03075-138">- **Pouze vybrané úkoly projektu**.</span><span class="sxs-lookup"><span data-stu-id="03075-138">- **Selected Project Tasks Only**.</span></span> <span data-ttu-id="03075-139">Prázdná hodnota v tomto poli se rovná výběru **Všechny projektové úkoly**.</span><span class="sxs-lookup"><span data-stu-id="03075-139">A blank value in this field is equal to selecting **All Project Tasks**.</span></span> | <span data-ttu-id="03075-140">Pokud je vybrána možnost **Pouze vybrané úkoly**, můžete vybrat konkrétní úkoly a přidružit je k tomuto řádku smlouvy na kartě **Nastavení účtování úkolů** na stránce **Projekt**.</span><span class="sxs-lookup"><span data-stu-id="03075-140">If **Selected Tasks Only** is selected, you can select specific tasks and associate them to this contract line on the **Task Billing Setup** tab on the **Project** page.</span></span> <span data-ttu-id="03075-141">Tato hodnota se použije v souvislosti s poli **Projekt** a **Zahrnuté třídy transakcí** ke čtení odkazu na řádek smlouvy v záznamu skutečného nebo odhadovaného řádku.</span><span class="sxs-lookup"><span data-stu-id="03075-141">The value will be used in conjunction with **Project** and **Included Transaction** classes to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="03075-142">**Zahrnout čas**</span><span class="sxs-lookup"><span data-stu-id="03075-142">**Include Time**</span></span> | <span data-ttu-id="03075-143">Hodnota **Ano**/**Ne** označuje, zda budou do na tomto řádku smlouvy zahrnuty časové transakce nebo náklady práce na vybraném projektu.</span><span class="sxs-lookup"><span data-stu-id="03075-143">A **Yes**/**No** value indicates if time transactions or labor costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="03075-144">Hodnota **Ne** označuje, že časové transakce nebo mzdové náklady nebudou zahrnuty do tohoto řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="03075-144">A **No** value indicates that the time transactions or labor cost will not be included on this contract line.</span></span> <span data-ttu-id="03075-145">Hodnota **Ano**, znamená že ano.</span><span class="sxs-lookup"><span data-stu-id="03075-145">A **Yes** value indicates that they will.</span></span> | <span data-ttu-id="03075-146">Tato hodnota se používá ve spojení s projektem k vyřešení odkazu na řádek smlouvy na záznamu řádku skutečné nebo odhadované hodnoty.</span><span class="sxs-lookup"><span data-stu-id="03075-146">This value is used in conjunction with the project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="03075-147">**Zahrnout výdaj**</span><span class="sxs-lookup"><span data-stu-id="03075-147">**Include Expense**</span></span> | <span data-ttu-id="03075-148">Hodnota **Ano**/**Ne** označuje, zda budou do tohoto řádku smlouvy zahrnuty náklady výdajů na vybraném projektu.</span><span class="sxs-lookup"><span data-stu-id="03075-148">A **Yes**/**No** value indicates if expense costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="03075-149">Hodnota **Ne** označuje, že výdajové náklady nebudou zahrnuty do tohoto řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="03075-149">A **No** value indicates that the expense cost will not be included on this contract line.</span></span> <span data-ttu-id="03075-150">Hodnota **Ano**, znamená že ano.</span><span class="sxs-lookup"><span data-stu-id="03075-150">A **Yes** value indicates that it will.</span></span> | <span data-ttu-id="03075-151">Tato hodnota se používá ve spojení s projektem k vyřešení odkazu na řádek smlouvy na záznamu řádku skutečné nebo odhadované hodnoty.</span><span class="sxs-lookup"><span data-stu-id="03075-151">This value is used in conjunction with the project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="03075-152">**Zahrnout materiály**</span><span class="sxs-lookup"><span data-stu-id="03075-152">**Include Materials**</span></span> | <span data-ttu-id="03075-153">Hodnota **Ano**/**Ne** označuje, zda budou do tohoto řádku smlouvy zahrnuty náklady materiálu na vybraném projektu.</span><span class="sxs-lookup"><span data-stu-id="03075-153">A **Yes**/**No** value indicates if material costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="03075-154">Hodnota **Ne** označuje, že nebudou do řádku smlouvy zahrnuty náklady na materiál.</span><span class="sxs-lookup"><span data-stu-id="03075-154">A **No** value indicates that the material costs will not be included on this contract line.</span></span> <span data-ttu-id="03075-155">Hodnota **Ano**, znamená že ano.</span><span class="sxs-lookup"><span data-stu-id="03075-155">A **Yes** value indicates that it will.</span></span> | <span data-ttu-id="03075-156">Tato hodnota se používá ve spojení s projektem k vyřešení odkazu na řádek smlouvy na záznamu řádku skutečné nebo odhadované hodnoty.</span><span class="sxs-lookup"><span data-stu-id="03075-156">This value is used in conjunction with the project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="03075-157">**Zahrnout poplatek**</span><span class="sxs-lookup"><span data-stu-id="03075-157">**Include Fee**</span></span> | <span data-ttu-id="03075-158">Hodnota **Ano**/**Ne** označuje, zda budou do tohoto řádku smlouvy zahrnuty poplatky na vybraném projektu.</span><span class="sxs-lookup"><span data-stu-id="03075-158">A **Yes**/**No** value indicates if fees on the selected project will be included on this contract line.</span></span> <span data-ttu-id="03075-159">Hodnota **Ne** označuje, že poplatky nebudou zahrnuty do tohoto řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="03075-159">A **No** value indicates that the fees will not be included on this contract line.</span></span> <span data-ttu-id="03075-160">Hodnota **Ano**, znamená že ano.</span><span class="sxs-lookup"><span data-stu-id="03075-160">A **Yes** value indicates that they will.</span></span> | <span data-ttu-id="03075-161">Tato hodnota se používá ve spojení s projektem k vyřešení odkazu na řádek smlouvy na záznamu řádku skutečné nebo odhadované hodnoty.</span><span class="sxs-lookup"><span data-stu-id="03075-161">This value is used in conjunction with the project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="03075-162">**Nasmlouvaná částka**</span><span class="sxs-lookup"><span data-stu-id="03075-162">**Contracted Amount**</span></span> | <span data-ttu-id="03075-163">Na řádku smlouvy s pevnou cenou je tato částka dohodnutá hodnota, která bude zákazníkovi fakturována za všechny součásti práce přidružené k tomuto řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="03075-163">On a fixed price contract line, this amount is the agreed-on value that will be invoiced to the customer for all the work components associated to this contract line.</span></span> <span data-ttu-id="03075-164">Na řádku smlouvy času a materiálu je tato částka odhadnutá hodnota, co bude zákazníkovi fakturováno za všechny součásti práce přidružené k tomuto řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="03075-164">On a time and material contract line, this amount is an estimated value of what will be invoiced to the customer for all the work components associated to this contract line.</span></span> <span data-ttu-id="03075-165">U smlouvy projektu vytvořené z nabídky je tato hodnota zkopírována z odpovídajícího pole na řádku nabídky.</span><span class="sxs-lookup"><span data-stu-id="03075-165">On a project contract that is created from a quote, this value is copied from the corresponding field on the quote line.</span></span> <span data-ttu-id="03075-166">Pokud má řádek smlouvy na základě projektu podrobnosti, je toto pole uzamčeno pro úpravy a shrnuto z částky v podrobnostech řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="03075-166">When a project–based contract line has line details, this field is locked for editing and is summarized from the amount on the contract line details.</span></span> | <span data-ttu-id="03075-167">Pokud řádek smlouvy obsahuje podrobnosti, lze tuto hodnotu upravit změnou částek v podrobnostech řádku.</span><span class="sxs-lookup"><span data-stu-id="03075-167">When the contract line has line details, this value can be modified by changing the amounts on the line details.</span></span> <span data-ttu-id="03075-168">Na řádku smlouvy s pevnou cenou se tato hodnota používá ke generování částky před daní z milníků periodické fakturace.</span><span class="sxs-lookup"><span data-stu-id="03075-168">On a fixed price contract line, this value is used to generate the amount before tax on periodic billing milestones.</span></span> |
+| <span data-ttu-id="03075-169">**Odhad daně**</span><span class="sxs-lookup"><span data-stu-id="03075-169">**Estimated Tax**</span></span> | <span data-ttu-id="03075-170">Uživatel může toto pole upravit a zadat odhadovanou částku daně na řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="03075-170">The user can edit this field to input the estimated tax amount on the contract line.</span></span> <span data-ttu-id="03075-171">Pokud má řádek smlouvy na základě projektu podrobnosti, je toto pole uzamčeno pro úpravy a shrnuto z částky daně v podrobnostech řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="03075-171">When a project–based contract line has line details, this field is locked for editing and is summarized from the tax amount on the contract line details.</span></span> | <span data-ttu-id="03075-172">Pokud řádek smlouvy obsahuje podrobnosti, lze tuto hodnotu upravit změnou částek daně v podrobnostech řádku.</span><span class="sxs-lookup"><span data-stu-id="03075-172">When the contract line has line details, this value can be modified by changing the tax amounts on the line details.</span></span> <span data-ttu-id="03075-173">Na řádku smlouvy s pevnou cenou se tato hodnota používá ke generování daně z milníků periodické fakturace.</span><span class="sxs-lookup"><span data-stu-id="03075-173">On a fixed price contract line, this value is used to generate the tax on periodic billing milestones.</span></span> |
+| <span data-ttu-id="03075-174">**Nasmlouvaná částka včetně daně**</span><span class="sxs-lookup"><span data-stu-id="03075-174">**Contracted Amount after Tax**</span></span> | <span data-ttu-id="03075-175">Řádka smlouvy s částkou včetně daně</span><span class="sxs-lookup"><span data-stu-id="03075-175">The contract line amount after tax.</span></span> <span data-ttu-id="03075-176">Toto pole je jen pro čtení a počítá se jako **Nasmlouvaná částka + daň**.</span><span class="sxs-lookup"><span data-stu-id="03075-176">This field is read only and is calculated as **Contracted Amount + Tax**.</span></span> | <span data-ttu-id="03075-177">Na řádku smlouvy s pevnou cenou se tato hodnota používá ke generování milníků periodické fakturace.</span><span class="sxs-lookup"><span data-stu-id="03075-177">On a fixed price contract line, this value is used to generate periodic billing milestones.</span></span> |
+| <span data-ttu-id="03075-178">**Nepřekročitelný limit**</span><span class="sxs-lookup"><span data-stu-id="03075-178">**Not-to-Exceed Limit**</span></span> | <span data-ttu-id="03075-179">Uživatel může toto pole upravit a je k dispozici pouze na řádcích smlouvy založené na projektu se způsobem fakturace nastaveným na čas a materiál.</span><span class="sxs-lookup"><span data-stu-id="03075-179">The user can edit this field and it is only available on project-based contract lines that have the billing method set as time and material.</span></span> | <span data-ttu-id="03075-180">Uživatel může toto pole upravit.</span><span class="sxs-lookup"><span data-stu-id="03075-180">The user can edit this field.</span></span> <span data-ttu-id="03075-181">Když skutečná hodnota času a materiálu odkazuje na tento řádek smlouvy pro čas a materiál, skutečná částka je vyhodnocena vůči nepřekročitelnému limitu na tomto řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="03075-181">When an actual for time and material references this contract line for time and material, the amount on the actual is evaluated against the not-to-exceed limit on the contract line.</span></span> <span data-ttu-id="03075-182">Toto vyhodnocení je dokončeno po započítání již utracených a potvrzených částek.</span><span class="sxs-lookup"><span data-stu-id="03075-182">This evaluation is completed after  the already spent and committed amounts are accounted for.</span></span> |
+| <span data-ttu-id="03075-183">**Rozpočet zákazníka**</span><span class="sxs-lookup"><span data-stu-id="03075-183">**Customer Budget**</span></span> | <span data-ttu-id="03075-184">Toto pole je upravitelné a je zkopírováno z odpovídajícího pole na řádku nabídky, pokud byla smlouva vytvořena z nabídky.</span><span class="sxs-lookup"><span data-stu-id="03075-184">This field is editable and is copied from the corresponding field on the quote line if the contract was created from a quote.</span></span> | <span data-ttu-id="03075-185">Toto pole slouží pouze pro informaci a nemá žádný následný význam.</span><span class="sxs-lookup"><span data-stu-id="03075-185">This field is only used for information and does not have any downstream significance.</span></span> |
 
-## <a name="validation-rules-for-the-options-on-the-general-tab-of-project-based-contract-lines"></a><span data-ttu-id="a1776-181">Pravidla ověření pro možnosti na kartě Obecné pro řádky smlouvy založené na projektu</span><span class="sxs-lookup"><span data-stu-id="a1776-181">Validation rules for the options on the General tab of project-based contract lines</span></span>
+## <a name="validation-rules-for-the-options-on-the-general-tab-of-project-based-contract-lines"></a><span data-ttu-id="03075-186">Pravidla ověření pro možnosti na kartě Obecné pro řádky smlouvy založené na projektu</span><span class="sxs-lookup"><span data-stu-id="03075-186">Validation rules for the options on the General tab of project-based contract lines</span></span>
 
-<span data-ttu-id="a1776-182">Pravidlo 1: Pokud je pole **Zahrnuté úkoly** prázdné nebo nastavené na **Všechny projektové úkoly**, všechny projektové úkoly jsou zahrnuty na řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="a1776-182">Rule 1: If the **Included Tasks** field is blank or set to **All Project Tasks**, all tasks of the project are included on the contract line.</span></span>
+<span data-ttu-id="03075-187">Pravidlo 1: Pokud je pole **Zahrnuté úkoly** prázdné nebo nastavené na **Všechny projektové úkoly**, všechny projektové úkoly jsou zahrnuty na řádku smlouvy.</span><span class="sxs-lookup"><span data-stu-id="03075-187">Rule 1: If the **Included Tasks** field is blank or set to **All Project Tasks**, all tasks of the project are included on the contract line.</span></span>
 
-<span data-ttu-id="a1776-183">Pravidlo 2: Když je pole **Zahrnuté úkoly** prázdné nebo explicitně nastaveno na **Všechny projektové úkoly**, projekt a určitou třídu transakcí lze zahrnout pouze do jedné řádky smlouvy na základě projektu.</span><span class="sxs-lookup"><span data-stu-id="a1776-183">Rule 2: When the **Included Tasks** field is blank or explicitly set to **All Project Tasks**, a project and a certain transaction class can only be included on one project-based contract line of a contract.</span></span>
+<span data-ttu-id="03075-188">Pravidlo 2: Když je pole **Zahrnuté úkoly** prázdné nebo explicitně nastaveno na **Všechny projektové úkoly**, projekt a určitou třídu transakcí lze zahrnout pouze do jedné řádky smlouvy na základě projektu.</span><span class="sxs-lookup"><span data-stu-id="03075-188">Rule 2: When the **Included Tasks** field is blank or explicitly set to **All Project Tasks**, a project and a certain transaction class can only be included on one project-based contract line of a contract.</span></span>
 
-<span data-ttu-id="a1776-184">Pravidlo 3: Když je pole **Zahrnuté úkoly** nastaveno na **Pouze vybrané projektové úkoly**, projekt a určitou třídu transakcí lze zahrnout pouze do více řádek smlouvy na základě projektu.</span><span class="sxs-lookup"><span data-stu-id="a1776-184">Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Only**, a project and a certain transaction class can be included on multiple project-based contract lines of a contract.</span></span>
+<span data-ttu-id="03075-189">Pravidlo 3: Když je pole **Zahrnuté úkoly** nastaveno na **Pouze vybrané projektové úkoly**, projekt a určitou třídu transakcí lze zahrnout pouze do více řádek smlouvy na základě projektu.</span><span class="sxs-lookup"><span data-stu-id="03075-189">Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Only**, a project and a certain transaction class can be included on multiple project-based contract lines of a contract.</span></span>
 
-| <span data-ttu-id="a1776-185">Smlouva</span><span class="sxs-lookup"><span data-stu-id="a1776-185">Contract</span></span> | <span data-ttu-id="a1776-186">Řádek smlouvy</span><span class="sxs-lookup"><span data-stu-id="a1776-186">Contract line</span></span> | <span data-ttu-id="a1776-187">Project</span><span class="sxs-lookup"><span data-stu-id="a1776-187">Project</span></span> | <span data-ttu-id="a1776-188">Zahrnuté úkoly</span><span class="sxs-lookup"><span data-stu-id="a1776-188">Included tasks</span></span>      | <span data-ttu-id="a1776-189">Zahrnout čas</span><span class="sxs-lookup"><span data-stu-id="a1776-189">Include time</span></span> | <span data-ttu-id="a1776-190">Zahrnout výdaj</span><span class="sxs-lookup"><span data-stu-id="a1776-190">Include expense</span></span> | <span data-ttu-id="a1776-191">Zahrnout poplatek</span><span class="sxs-lookup"><span data-stu-id="a1776-191">Include fee</span></span> | <span data-ttu-id="a1776-192">Platné/neplatné</span><span class="sxs-lookup"><span data-stu-id="a1776-192">Valid/not valid</span></span> | <span data-ttu-id="a1776-193">Důvod</span><span class="sxs-lookup"><span data-stu-id="a1776-193">Reason</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|----------|---------------|---------|---------------------|--------------|-----------------|-------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="a1776-194">S1</span><span class="sxs-lookup"><span data-stu-id="a1776-194">C1</span></span>       | <span data-ttu-id="a1776-195">ŘS1</span><span class="sxs-lookup"><span data-stu-id="a1776-195">CL1</span></span>           | <span data-ttu-id="a1776-196">O1</span><span class="sxs-lookup"><span data-stu-id="a1776-196">P1</span></span>      | <span data-ttu-id="a1776-197">Prázdný</span><span class="sxs-lookup"><span data-stu-id="a1776-197">Blank</span></span>               | <span data-ttu-id="a1776-198">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-198">Yes</span></span>          | <span data-ttu-id="a1776-199">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-199">Yes</span></span>             | <span data-ttu-id="a1776-200">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-200">Yes</span></span>         | <span data-ttu-id="a1776-201">Neplatný</span><span class="sxs-lookup"><span data-stu-id="a1776-201">Not valid</span></span>       | <span data-ttu-id="a1776-202">Porušení pravidla č. 2.</span><span class="sxs-lookup"><span data-stu-id="a1776-202">Violation of Rule #2.</span></span> <span data-ttu-id="a1776-203">Čas, výdaje a poplatky za projekt P1 jsou zahrnuty v obou řádcích smluv ŘS1 a ŘS2.</span><span class="sxs-lookup"><span data-stu-id="a1776-203">Time,   expense, and fees on project P1 are included on both contract lines, CL1 and   CL2.</span></span>                                                                                                                                                                                                                                                                                                              |
-| <span data-ttu-id="a1776-204">S1</span><span class="sxs-lookup"><span data-stu-id="a1776-204">C1</span></span>       | <span data-ttu-id="a1776-205">ŘS2</span><span class="sxs-lookup"><span data-stu-id="a1776-205">CL2</span></span>           | <span data-ttu-id="a1776-206">O1</span><span class="sxs-lookup"><span data-stu-id="a1776-206">P1</span></span>      | <span data-ttu-id="a1776-207">Prázdný</span><span class="sxs-lookup"><span data-stu-id="a1776-207">Blank</span></span>               | <span data-ttu-id="a1776-208">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-208">Yes</span></span>          | <span data-ttu-id="a1776-209">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-209">Yes</span></span>             | <span data-ttu-id="a1776-210">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-210">Yes</span></span>         | <span data-ttu-id="a1776-211">Neplatný</span><span class="sxs-lookup"><span data-stu-id="a1776-211">Not valid</span></span>       | <span data-ttu-id="a1776-212">Porušení pravidla č. 2.</span><span class="sxs-lookup"><span data-stu-id="a1776-212">Violation of Rule #2.</span></span> <span data-ttu-id="a1776-213">Čas, výdaje a poplatky za projekt P1 jsou zahrnuty v obou řádcích smluv ŘS1 a ŘS2.</span><span class="sxs-lookup"><span data-stu-id="a1776-213">Time,   expense, and fees on project P1 are included on both contract lines, CL1 and   CL2.</span></span>                                                                                                                                                                                                                                                                                                              |
-| <span data-ttu-id="a1776-214">S1</span><span class="sxs-lookup"><span data-stu-id="a1776-214">C1</span></span>       | <span data-ttu-id="a1776-215">ŘS1</span><span class="sxs-lookup"><span data-stu-id="a1776-215">CL1</span></span>           | <span data-ttu-id="a1776-216">O1</span><span class="sxs-lookup"><span data-stu-id="a1776-216">P1</span></span>      | <span data-ttu-id="a1776-217">Prázdný</span><span class="sxs-lookup"><span data-stu-id="a1776-217">Blank</span></span>               | <span data-ttu-id="a1776-218">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-218">Yes</span></span>          | <span data-ttu-id="a1776-219">No</span><span class="sxs-lookup"><span data-stu-id="a1776-219">No</span></span>              | <span data-ttu-id="a1776-220">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-220">Yes</span></span>         | <span data-ttu-id="a1776-221">Neplatný</span><span class="sxs-lookup"><span data-stu-id="a1776-221">Not valid</span></span>       | <span data-ttu-id="a1776-222">Porušení pravidla č. 2.</span><span class="sxs-lookup"><span data-stu-id="a1776-222">Violation of Rule #2.</span></span> <span data-ttu-id="a1776-223">Čas,a poplatky za projekt P1 jsou zahrnuty v obou řádcích smluv ŘS1 a ŘS2.</span><span class="sxs-lookup"><span data-stu-id="a1776-223">Time and   fees on project P1 are included on both contract lines, CL1 and CL2.</span></span>                                                                                                                                                                                                                                                                                                                          |
-| <span data-ttu-id="a1776-224">S1</span><span class="sxs-lookup"><span data-stu-id="a1776-224">C1</span></span>       | <span data-ttu-id="a1776-225">ŘS2</span><span class="sxs-lookup"><span data-stu-id="a1776-225">CL2</span></span>           | <span data-ttu-id="a1776-226">O1</span><span class="sxs-lookup"><span data-stu-id="a1776-226">P1</span></span>      | <span data-ttu-id="a1776-227">Prázdný</span><span class="sxs-lookup"><span data-stu-id="a1776-227">Blank</span></span>               | <span data-ttu-id="a1776-228">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-228">Yes</span></span>          | <span data-ttu-id="a1776-229">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-229">Yes</span></span>             | <span data-ttu-id="a1776-230">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-230">Yes</span></span>         | <span data-ttu-id="a1776-231">Neplatný</span><span class="sxs-lookup"><span data-stu-id="a1776-231">Not valid</span></span>       | <span data-ttu-id="a1776-232">Porušení pravidla č. 2.</span><span class="sxs-lookup"><span data-stu-id="a1776-232">Violation of Rule #2.</span></span> <span data-ttu-id="a1776-233">Čas,a poplatky za projekt P1 jsou zahrnuty v obou řádcích smluv ŘS1 a ŘS2.</span><span class="sxs-lookup"><span data-stu-id="a1776-233">Time and   fees on project P1 are included on both contract lines, CL1 and CL2.</span></span>                                                                                                                                                                                                                                                                                                                          |
-| <span data-ttu-id="a1776-234">S1</span><span class="sxs-lookup"><span data-stu-id="a1776-234">C1</span></span>       | <span data-ttu-id="a1776-235">ŘS1</span><span class="sxs-lookup"><span data-stu-id="a1776-235">CL1</span></span>           | <span data-ttu-id="a1776-236">O1</span><span class="sxs-lookup"><span data-stu-id="a1776-236">P1</span></span>      | <span data-ttu-id="a1776-237">Prázdný</span><span class="sxs-lookup"><span data-stu-id="a1776-237">Blank</span></span>               | <span data-ttu-id="a1776-238">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-238">Yes</span></span>          | <span data-ttu-id="a1776-239">No</span><span class="sxs-lookup"><span data-stu-id="a1776-239">No</span></span>              | <span data-ttu-id="a1776-240">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-240">Yes</span></span>         | <span data-ttu-id="a1776-241">Platná</span><span class="sxs-lookup"><span data-stu-id="a1776-241">Valid</span></span>           | <span data-ttu-id="a1776-242">Čas a poplatky v projektu P1 jsou zahrnuty na řádku ŘS1.</span><span class="sxs-lookup"><span data-stu-id="a1776-242">Time and fees on project P1 are   included on the CL1.</span></span> <span data-ttu-id="a1776-243">Výdaje v projektu P1 jsou zahrnuty na řádku ŘS2.</span><span class="sxs-lookup"><span data-stu-id="a1776-243">Expense on project P1 is included on CL2.</span></span> </br>   <span data-ttu-id="a1776-244">Neexistuje žádné překrývání toho, co je zahrnuto na každém řádku smlouvy, a proto je platné.</span><span class="sxs-lookup"><span data-stu-id="a1776-244">There is no overlap in what is being included on each contract line and is   therefore valid.</span></span>                                                                                                                                                                                                                         |
-| <span data-ttu-id="a1776-245">S1</span><span class="sxs-lookup"><span data-stu-id="a1776-245">C1</span></span>       | <span data-ttu-id="a1776-246">ŘS2</span><span class="sxs-lookup"><span data-stu-id="a1776-246">CL2</span></span>           | <span data-ttu-id="a1776-247">O1</span><span class="sxs-lookup"><span data-stu-id="a1776-247">P1</span></span>      | <span data-ttu-id="a1776-248">Prázdný</span><span class="sxs-lookup"><span data-stu-id="a1776-248">Blank</span></span>               | <span data-ttu-id="a1776-249">No</span><span class="sxs-lookup"><span data-stu-id="a1776-249">No</span></span>           | <span data-ttu-id="a1776-250">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-250">Yes</span></span>             | <span data-ttu-id="a1776-251">No</span><span class="sxs-lookup"><span data-stu-id="a1776-251">No</span></span>          | <span data-ttu-id="a1776-252">Platná</span><span class="sxs-lookup"><span data-stu-id="a1776-252">Valid</span></span>           | <span data-ttu-id="a1776-253">Čas a poplatky v projektu P1 jsou zahrnuty na řádku ŘS1.</span><span class="sxs-lookup"><span data-stu-id="a1776-253">Time and fees on project P1 are   included on the CL1.</span></span> <span data-ttu-id="a1776-254">Výdaje v projektu P1 jsou zahrnuty na řádku ŘS2.</span><span class="sxs-lookup"><span data-stu-id="a1776-254">Expense on project P1 is included on CL2.</span></span> </br>   <span data-ttu-id="a1776-255">Neexistuje žádné překrývání toho, co je zahrnuto na každém řádku smlouvy, a proto je platné.</span><span class="sxs-lookup"><span data-stu-id="a1776-255">There is no overlap in what is being included on each contract line and is   therefore valid.</span></span>                                                                                                                                                                                                                         |
-| <span data-ttu-id="a1776-256">S1</span><span class="sxs-lookup"><span data-stu-id="a1776-256">C1</span></span>       | <span data-ttu-id="a1776-257">ŘS1</span><span class="sxs-lookup"><span data-stu-id="a1776-257">CL1</span></span>           | <span data-ttu-id="a1776-258">O1</span><span class="sxs-lookup"><span data-stu-id="a1776-258">P1</span></span>      | <span data-ttu-id="a1776-259">Pouze vybrané úkoly projektu</span><span class="sxs-lookup"><span data-stu-id="a1776-259">Selected tasks only</span></span> | <span data-ttu-id="a1776-260">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-260">Yes</span></span>          | <span data-ttu-id="a1776-261">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-261">Yes</span></span>             | <span data-ttu-id="a1776-262">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-262">Yes</span></span>         | <span data-ttu-id="a1776-263">Neplatný</span><span class="sxs-lookup"><span data-stu-id="a1776-263">Not valid</span></span>       | <span data-ttu-id="a1776-264">Porušení pravidla č. 2.</span><span class="sxs-lookup"><span data-stu-id="a1776-264">Violation of Rule #2.</span></span>   </br><span data-ttu-id="a1776-265">- S1 zahrnuje čas, výdaje a poplatky za podmnožinu úkolů v projektu P1.</span><span class="sxs-lookup"><span data-stu-id="a1776-265">- C1 includes time, expenses, and fees on a subset of tasks on   project P1.</span></span> </br><span data-ttu-id="a1776-266">- ŘS2 zahrnuje čas, výdaje a poplatky za celý projekt P1, a proto se překrývá s tím, co je zahrnuto v S1.</span><span class="sxs-lookup"><span data-stu-id="a1776-266">- CL2 includes time, expenses, and fees for the whole   project P1 and therefore overlaps with what is included on C1.</span></span>                                                                                                                                                                                          |
-| <span data-ttu-id="a1776-267">S1</span><span class="sxs-lookup"><span data-stu-id="a1776-267">C1</span></span>       | <span data-ttu-id="a1776-268">ŘS2</span><span class="sxs-lookup"><span data-stu-id="a1776-268">CL2</span></span>           | <span data-ttu-id="a1776-269">O1</span><span class="sxs-lookup"><span data-stu-id="a1776-269">P1</span></span>      | <span data-ttu-id="a1776-270">Prázdný</span><span class="sxs-lookup"><span data-stu-id="a1776-270">Blank</span></span>               | <span data-ttu-id="a1776-271">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-271">Yes</span></span>          | <span data-ttu-id="a1776-272">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-272">Yes</span></span>             | <span data-ttu-id="a1776-273">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-273">Yes</span></span>         | <span data-ttu-id="a1776-274">Neplatný</span><span class="sxs-lookup"><span data-stu-id="a1776-274">Not valid</span></span>       | <span data-ttu-id="a1776-275">Porušení pravidla č. 2.</span><span class="sxs-lookup"><span data-stu-id="a1776-275">Violation of Rule #2.</span></span>   </br><span data-ttu-id="a1776-276">- S1 zahrnuje čas, výdaje a poplatky za podmnožinu úkolů v projektu P1.</span><span class="sxs-lookup"><span data-stu-id="a1776-276">- C1 includes time, expenses, and fees on a subset of tasks on   project P1.</span></span> </br><span data-ttu-id="a1776-277">- ŘS2 zahrnuje čas, výdaje a poplatky za celý projekt P1, a proto se překrývá s tím, co je zahrnuto v S1.</span><span class="sxs-lookup"><span data-stu-id="a1776-277">- CL2 includes time, expenses, and fees for the whole   project P1 and therefore overlaps with what is included on C1.</span></span>                                                                                                                                                                                          |
-| <span data-ttu-id="a1776-278">S1</span><span class="sxs-lookup"><span data-stu-id="a1776-278">C1</span></span>       | <span data-ttu-id="a1776-279">ŘS1</span><span class="sxs-lookup"><span data-stu-id="a1776-279">CL1</span></span>           | <span data-ttu-id="a1776-280">O1</span><span class="sxs-lookup"><span data-stu-id="a1776-280">P1</span></span>      | <span data-ttu-id="a1776-281">Pouze vybrané úkoly projektu</span><span class="sxs-lookup"><span data-stu-id="a1776-281">Selected tasks only</span></span> | <span data-ttu-id="a1776-282">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-282">Yes</span></span>          | <span data-ttu-id="a1776-283">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-283">Yes</span></span>             | <span data-ttu-id="a1776-284">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-284">Yes</span></span>         | <span data-ttu-id="a1776-285">Platná</span><span class="sxs-lookup"><span data-stu-id="a1776-285">Valid</span></span>           | <span data-ttu-id="a1776-286">Podle pravidla č. 3</span><span class="sxs-lookup"><span data-stu-id="a1776-286">Per Rule #3</span></span></br><span data-ttu-id="a1776-287">- S1 zahrnuje čas, výdaje a poplatky za podmnožinu úkolů v projektu P1.</span><span class="sxs-lookup"><span data-stu-id="a1776-287">-  C1 includes time, expenses, and fees on a   subset of tasks on project P1.</span></span> </br> <span data-ttu-id="a1776-288">- ŘN2 zahrnuje čas, výdaje a poplatky za podmnožinu úkolů v projektu P1.</span><span class="sxs-lookup"><span data-stu-id="a1776-288">- CL2 includes time, expenses, and   fees for a subset of tasks on project P1.</span></span> </br> <span data-ttu-id="a1776-289">Jediné další ověření je u podmnožiny úkolů na řádku smlouvy ŘS1, které se liší od podmnožiny úkolů na ŘS2, aby se zajistilo, že nedojde k žádnému překrývání.</span><span class="sxs-lookup"><span data-stu-id="a1776-289">The only additional   validation is on the subset of tasks on CL1, which is different from the subset of tasks on CL2 to ensure that there are no overlaps.</span></span> <span data-ttu-id="a1776-290">Toto ověření systém provede, když jsou přidruženy úkoly.</span><span class="sxs-lookup"><span data-stu-id="a1776-290">This validation   is completed by the system when tasks are associated.</span></span> |
-| <span data-ttu-id="a1776-291">S1</span><span class="sxs-lookup"><span data-stu-id="a1776-291">C1</span></span>       | <span data-ttu-id="a1776-292">ŘS2</span><span class="sxs-lookup"><span data-stu-id="a1776-292">CL2</span></span>           | <span data-ttu-id="a1776-293">O1</span><span class="sxs-lookup"><span data-stu-id="a1776-293">P1</span></span>      | <span data-ttu-id="a1776-294">Pouze vybrané úkoly projektu</span><span class="sxs-lookup"><span data-stu-id="a1776-294">Selected tasks only</span></span> | <span data-ttu-id="a1776-295">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-295">Yes</span></span>          | <span data-ttu-id="a1776-296">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-296">Yes</span></span>             | <span data-ttu-id="a1776-297">Ano</span><span class="sxs-lookup"><span data-stu-id="a1776-297">Yes</span></span>         | <span data-ttu-id="a1776-298">Platná</span><span class="sxs-lookup"><span data-stu-id="a1776-298">Valid</span></span>           | <span data-ttu-id="a1776-299">Podle pravidla č. 3</span><span class="sxs-lookup"><span data-stu-id="a1776-299">Per Rule #3</span></span></br><span data-ttu-id="a1776-300">- S1 zahrnuje čas, výdaje a poplatky za podmnožinu úkolů v projektu P1.</span><span class="sxs-lookup"><span data-stu-id="a1776-300">-  C1 includes time, expenses, and fees on a   subset of tasks on project P1.</span></span> </br> <span data-ttu-id="a1776-301">- ŘN2 zahrnuje čas, výdaje a poplatky za podmnožinu úkolů v projektu P1.</span><span class="sxs-lookup"><span data-stu-id="a1776-301">- CL2 includes time, expenses, and   fees for a subset of tasks on project P1.</span></span> </br> <span data-ttu-id="a1776-302">Jediné další ověření je u podmnožiny úkolů na řádku smlouvy ŘS1, které se liší od podmnožiny úkolů na ŘS2, aby se zajistilo, že nedojde k žádnému překrývání.</span><span class="sxs-lookup"><span data-stu-id="a1776-302">The only additional   validation is on the subset of tasks on CL1, which is different from the subset of tasks on CL2 to ensure that there are no overlaps.</span></span> <span data-ttu-id="a1776-303">Toto ověření systém provede, když jsou přidruženy úkoly.</span><span class="sxs-lookup"><span data-stu-id="a1776-303">This validation   is completed by the system when tasks are associated.</span></span> |
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="43" valign="top">
+                <p><span data-ttu-id="03075-190">
+                    <strong>Smlouva</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="03075-190">
+                    <strong>Contract</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="03075-191">
+                    <strong>Řádek smlouvy</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="03075-191">
+                    <strong>Contract line</strong>
+                </span></span></p>
+            </td>
+            <td width="42" valign="top">
+                <p><span data-ttu-id="03075-192">
+                    <strong>Project</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="03075-192">
+                    <strong>Project</strong>
+                </span></span></p>
+            </td>
+            <td width="67" valign="top">
+                <p><span data-ttu-id="03075-193">
+                    <strong>Zahrnuté úkoly</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="03075-193">
+                    <strong>Included tasks</strong>
+                </span></span></p>
+            </td>
+            <td width="48" valign="top">
+                <p><span data-ttu-id="03075-194">
+                    <strong>Zahrnout čas</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="03075-194">
+                    <strong>Include Time</strong>
+                </span></span></p>
+            </td>
+            <td width="48" valign="top">
+                <p><span data-ttu-id="03075-195">
+                    <strong>Zahrnout výdaj</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="03075-195">
+                    <strong>Include Expense</strong>
+                </span></span></p>
+            </td>
+            <td width="42" valign="top">
+                <p><span data-ttu-id="03075-196">
+                    <strong>Zahrnout materiály</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="03075-196">
+                    <strong>Include Materials</strong>
+                </span></span></p>
+            </td>
+            <td width="42" valign="top">
+                <p><span data-ttu-id="03075-197">
+                    <strong>Zahrnout</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="03075-197">
+                    <strong>Include</strong>
+                </span></span></p>
+                <p><span data-ttu-id="03075-198">
+                    <strong>Poplatek</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="03075-198">
+                    <strong>Fee</strong>
+                </span></span></p>
+            </td>
+            <td width="53" valign="top">
+                <p><span data-ttu-id="03075-199">
+                    <strong>Platné / Neplatné</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="03075-199">
+                    <strong>Valid/ Not valid</strong>
+                </span></span></p>
+            </td>
+            <td width="250" valign="top">
+                <p><span data-ttu-id="03075-200">
+                    <strong>Důvod</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="03075-200">
+                    <strong>Reason</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="03075-201">S1</span><span class="sxs-lookup"><span data-stu-id="03075-201">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="03075-202">ŘS1</span><span class="sxs-lookup"><span data-stu-id="03075-202">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-203">O1</span><span class="sxs-lookup"><span data-stu-id="03075-203">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="03075-204">prázdnou</span><span class="sxs-lookup"><span data-stu-id="03075-204">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-205">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-205">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-206">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-206">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-207">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-207">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-208">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-208">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="03075-209">Neplatný</span><span class="sxs-lookup"><span data-stu-id="03075-209">Not valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="03075-210">Porušení pravidla č. 2.</span><span class="sxs-lookup"><span data-stu-id="03075-210">Violation of Rule #2.</span></span> <span data-ttu-id="03075-211">Čas, náklady, materiály a poplatky za projekt P1 jsou zahrnuty v řádcích nabídky ŘN1 i ŘN2.</span><span class="sxs-lookup"><span data-stu-id="03075-211">Time, Expense, Materials, and Fees on P1 project are included on both Contract lines CL1 and CL2.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="03075-212">S1</span><span class="sxs-lookup"><span data-stu-id="03075-212">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="03075-213">ŘS2</span><span class="sxs-lookup"><span data-stu-id="03075-213">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-214">O1</span><span class="sxs-lookup"><span data-stu-id="03075-214">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="03075-215">prázdnou</span><span class="sxs-lookup"><span data-stu-id="03075-215">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-216">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-216">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-217">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-217">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-218">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-218">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-219">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-219">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="03075-220">S1</span><span class="sxs-lookup"><span data-stu-id="03075-220">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="03075-221">ŘS1</span><span class="sxs-lookup"><span data-stu-id="03075-221">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-222">O1</span><span class="sxs-lookup"><span data-stu-id="03075-222">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="03075-223">prázdnou</span><span class="sxs-lookup"><span data-stu-id="03075-223">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-224">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-224">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-225">No</span><span class="sxs-lookup"><span data-stu-id="03075-225">No</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-226">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-226">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-227">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-227">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="03075-228">Neplatný</span><span class="sxs-lookup"><span data-stu-id="03075-228">Not valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="03075-229">Porušení pravidla č. 2.</span><span class="sxs-lookup"><span data-stu-id="03075-229">Violation of Rule #2.</span></span> <span data-ttu-id="03075-230">Čas, materiály a poplatky za projekt P1 jsou zahrnuty v řádcích nabídky ŘN1 i ŘN2.</span><span class="sxs-lookup"><span data-stu-id="03075-230">Time, Materials, and Fees on P1 project are included on both Contract lines CL1 and CL2.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="03075-231">S1</span><span class="sxs-lookup"><span data-stu-id="03075-231">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="03075-232">ŘS2</span><span class="sxs-lookup"><span data-stu-id="03075-232">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-233">O1</span><span class="sxs-lookup"><span data-stu-id="03075-233">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="03075-234">prázdnou</span><span class="sxs-lookup"><span data-stu-id="03075-234">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-235">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-235">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-236">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-236">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-237">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-237">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-238">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-238">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="03075-239">S1</span><span class="sxs-lookup"><span data-stu-id="03075-239">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="03075-240">ŘS1</span><span class="sxs-lookup"><span data-stu-id="03075-240">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-241">O1</span><span class="sxs-lookup"><span data-stu-id="03075-241">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="03075-242">prázdnou</span><span class="sxs-lookup"><span data-stu-id="03075-242">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-243">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-243">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-244">No</span><span class="sxs-lookup"><span data-stu-id="03075-244">No</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-245">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-245">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-246">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-246">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="03075-247">Platné</span><span class="sxs-lookup"><span data-stu-id="03075-247">Valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="03075-248">Čas, materiály a poplatky za projekt P1 jsou zahrnuty na ŘN1.</span><span class="sxs-lookup"><span data-stu-id="03075-248">Time, Materials, and Fees on P1 project are included on CL1.</span></span>
+                </p>
+                <ul>
+                    <li>
+<span data-ttu-id="03075-249">Výdaje v projektu P1 jsou zahrnuty na řádku ŘS2.</span><span class="sxs-lookup"><span data-stu-id="03075-249">Expense on P1 project is included on CL2.</span></span>
+                    </li>
+                </ul>
+                <p>
+<span data-ttu-id="03075-250">Žádné překrývání toho, co je zahrnuto na každém řádku smlouvy, a proto je zadání platné.</span><span class="sxs-lookup"><span data-stu-id="03075-250">No overlap in what is being included on each Contract line and therefore valid.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="03075-251">S1</span><span class="sxs-lookup"><span data-stu-id="03075-251">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="03075-252">ŘS2</span><span class="sxs-lookup"><span data-stu-id="03075-252">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-253">O1</span><span class="sxs-lookup"><span data-stu-id="03075-253">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="03075-254">prázdnou</span><span class="sxs-lookup"><span data-stu-id="03075-254">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-255">No</span><span class="sxs-lookup"><span data-stu-id="03075-255">No</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-256">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-256">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-257">No</span><span class="sxs-lookup"><span data-stu-id="03075-257">No</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-258">No</span><span class="sxs-lookup"><span data-stu-id="03075-258">No</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="03075-259">S1</span><span class="sxs-lookup"><span data-stu-id="03075-259">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="03075-260">ŘS1</span><span class="sxs-lookup"><span data-stu-id="03075-260">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-261">O1</span><span class="sxs-lookup"><span data-stu-id="03075-261">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="03075-262">Pouze vybrané úkoly projektu</span><span class="sxs-lookup"><span data-stu-id="03075-262">Selected tasks only</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-263">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-263">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-264">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-264">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-265">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-265">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-266">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-266">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="03075-267">Neplatný</span><span class="sxs-lookup"><span data-stu-id="03075-267">Not valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="03075-268">Porušení pravidla č. 2</span><span class="sxs-lookup"><span data-stu-id="03075-268">Violation of Rule #2</span></span> </p>
+                <p>
+<span data-ttu-id="03075-269">Č1 zahrnuje čas, materiály, výdaje a poplatky za podmnožinu úkolů v projektu P1.</span><span class="sxs-lookup"><span data-stu-id="03075-269">C1 includes Time, Materials, Expenses and Fees on a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="03075-270">ŘN2 zahrnuje čas, materiály, výdaje a poplatky za celý projekt P1, a proto se překrývá s tím, co je zahrnuto v S1.</span><span class="sxs-lookup"><span data-stu-id="03075-270">CL2 includes Time, Materials, Expenses and Fees for the whole project P1 and therefore overlaps with what is included on C1.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="03075-271">S1</span><span class="sxs-lookup"><span data-stu-id="03075-271">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="03075-272">ŘS2</span><span class="sxs-lookup"><span data-stu-id="03075-272">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-273">O1</span><span class="sxs-lookup"><span data-stu-id="03075-273">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="03075-274">prázdnou</span><span class="sxs-lookup"><span data-stu-id="03075-274">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-275">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-275">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-276">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-276">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-277">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-277">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-278">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-278">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="03075-279">S1</span><span class="sxs-lookup"><span data-stu-id="03075-279">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="03075-280">ŘS1</span><span class="sxs-lookup"><span data-stu-id="03075-280">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-281">O1</span><span class="sxs-lookup"><span data-stu-id="03075-281">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="03075-282">Pouze vybrané úkoly projektu</span><span class="sxs-lookup"><span data-stu-id="03075-282">Selected tasks only</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-283">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-283">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-284">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-284">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-285">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-285">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-286">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-286">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="03075-287">Platné</span><span class="sxs-lookup"><span data-stu-id="03075-287">Valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="03075-288">Podle pravidla č. 3</span><span class="sxs-lookup"><span data-stu-id="03075-288">Per Rule #3</span></span> </p>
+                <p>
+<span data-ttu-id="03075-289">Č1 zahrnuje čas, výdaje, materiály, výdaje a poplatky za podmnožinu úkolů v projektu P1.</span><span class="sxs-lookup"><span data-stu-id="03075-289">C1 includes Time, Expenses, Materials, and Fees on a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="03075-290">ŘN2 zahrnuje čas, výdaje, materiály a poplatky za podmnožinu úkolů v projektu P1.</span><span class="sxs-lookup"><span data-stu-id="03075-290">CL2 includes Time, Expenses, Materials, and Fees for a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="03075-291">Jediná další validace je kolem podmnožiny úkolů na ŘN1, která se liší od podmnožiny úkolů na ŘN2, aby se zajistilo, že nedojde k překrývání.</span><span class="sxs-lookup"><span data-stu-id="03075-291">The only additional validation is around the subset of tasks on CL1 is different from the subset of tasks on CL2 to ensure that there are no overlaps there.</span></span> <span data-ttu-id="03075-292">Toto provádí systém, když jsou přidruženy úkoly.</span><span class="sxs-lookup"><span data-stu-id="03075-292">This is done by the system when tasks are associated.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="03075-293">S1</span><span class="sxs-lookup"><span data-stu-id="03075-293">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="03075-294">ŘS2</span><span class="sxs-lookup"><span data-stu-id="03075-294">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-295">O1</span><span class="sxs-lookup"><span data-stu-id="03075-295">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="03075-296">Pouze vybrané úkoly projektu</span><span class="sxs-lookup"><span data-stu-id="03075-296">Selected tasks only</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-297">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-297">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="03075-298">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-298">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-299">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-299">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="03075-300">Ano</span><span class="sxs-lookup"><span data-stu-id="03075-300">Yes</span></span> </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
