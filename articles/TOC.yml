@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: Konfigurace integrace Project Operations podle právnické osoby
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: Konfigurace integrace duálního zápisu
+          items:
+            - name: Přehled integrace duálního zápisu
+              href: environment/resource-dual-write-overview.md
+            - name: Verze mapování duálního zápisu Project Operations
+              href: environment/resource-dual-write-maps.md
+            - name: Nastavení Project Operations a integrace dat konfigurace
+              href: environment/resource-dual-write-setup-integration.md
+            - name: Integrace odhadů projektu a skutečností
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: Integrace projektové faktury
+              href: environment/resource-dual-write-project-invoice.md
+            - name: Integrace správy výdajů
+              href: environment/resource-dual-write-expense.md
+            - name: Integrace faktury dodavatele
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: Co je nového
       items:
         - name: 'Duben 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: Definování kalendářů projektů
           href: project-management/define-project-calendars.md
+        - name: Režimy plánování
+          href: project-management/scheduling-modes.md
         - name: Aktualizace projektu
           href: project-management/update-project.md
         - name: Kopírování projektu
@@ -404,6 +422,12 @@
           items:
             - name: Vytváření a potvrzení deníků oprav
               href: actuals/create-confirm-correction-journals.md
+    - name: Zásobování
+      items:
+        - name: Konfigurace neskladovaných materiálů a nevyřízené faktury dodavatele
+          href: procurement/configure-materials-nonstocked.md
+        - name: Pořízení neskladovaných materiálů pro projekty pomocí nevyřízených faktur dodavatele
+          href: procurement/pending-vendor-invoices.md
     - name: Fakturace
       items:
         - name: Přehled fakturovacího procesu
@@ -428,6 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Konfigurace automatizace faktury založené na projektu
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Správa návrhů faktury projektu
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Účetnictví projektu
       items:
         - name: Výchozí hodnoty finanční dimenze
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: Definování kalendářů projektů
           href: project-management/define-project-calendars.md
+        - name: Režimy plánování
+          hreF: project-management/scheduling-modes.md
         - name: Aktualizace projektu
           href: project-management/update-project.md
         - name: Kopírování projektu
@@ -848,6 +876,8 @@
   items:
     - name: Co je nového
       items:
+        - name: 'Co je nového, duben 2021 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 'Co je nového, březen 2021 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: 'Co je nového, leden 2021 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
@@ -871,9 +901,9 @@
     - name: Nastavení a použití zaplacení dodavatele po uhrazení platby
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Časové rozlišení nákladů projektu na příjemkách nákupu
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: Projektová fakturace
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: Výkon návrhů faktury projektu
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Projektové smlouvy
@@ -998,6 +1028,8 @@
       items:
         - name: Plán vydávání aktualizací pro Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 31, V3'
+          href: psa/whats-new-ur-31.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 30, V3'
           href: psa/whats-new-ur-30.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 29.5, oprava hotfix, V3'
@@ -1327,7 +1359,7 @@
             - name: Zobrazení využití zdrojů
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: Průvodce pro projektového manažera
           items:
             - name: Příručka manažera projektu (Project Service)
