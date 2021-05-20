@@ -3,17 +3,17 @@ title: Vytváření mezipodnikových transakcí
 description: Toto téma obsahuje informace, jak vytvářet mezipodnikové transakce.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287410"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880440"
 ---
 # <a name="create-intercompany-transactions"></a>Vytváření mezipodnikových transakcí
 
@@ -94,7 +94,7 @@ Molly Clarková, vývojářka zaměstnaná v GBPM, zaznamenává 10 hodin práce
     Tento nevyfakturovaný prodej je nyní připraven k fakturaci. Fakturu pro zákazníka Adventure Works lze v případě potřeby finančně zaúčtovat.
 
 10. Přihlaste se jako účetní **GBPM**. Otevřete instanci Finance Project Operations a otevřete společnost **GBPM**. 
-11. Přejděte na **Řízení projektů a účetnictví** > **Periodické** > **Project Operations v Customer Engagement** > **Import z fáze** a spusťte periodický proces pro vyplnění deníku integrace Project Operations.
+11. Přejděte do nabídky **Řízení projektů a účetnictví** > **Periodické** > **Integrace Project Operations** > **Import z pracovní tabulky** a spusťte periodický proces k vyplnění deníku integrace Project Operations.
 12. Přejděte na **Řízení projektů a účetnictví** > **Deníky** > **Integrační deník Project Operations** a zkontrolujte řádky. Systém vytvoří následující řádky.
 
     | **Typ transakce** | **Cena** | **Měna transakce** | **Množství** |

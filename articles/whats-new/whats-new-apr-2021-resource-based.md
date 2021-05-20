@@ -3,18 +3,18 @@ title: Co je nového, duben 2021 - Project Operations pro scénáře založené 
 description: Tento téma poskytuje informace o aktualizacích kvality, které jsou k dispozici v omezeném nasazení Project Operations z dubna 2021 pro scénáře založené na zdrojích / položkách, které nejsou na skladě.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867985"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935466"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového, duben 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
@@ -33,8 +33,26 @@ V této vydané verzi jsou zahrnuty následující funkce:
   - Odhad a stanovení ceny neuskladněných materiálů během prodejního cyklu projektu. Více informací najdete v tématu [Nastavení nákladových a prodejních sazeb pro produkty katalogu - omezené](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Sledování využití neskladovaných materiálů během dodání projektu. Více informací najdete v tématu [Záznam využití materiálu na projektech a projektových úkolech](../material/material-usage-log.md).
   - Fakturace použitého materiálu, který není na skladě. Více informací najdete v tématu [Správa nedokončené fakturace](../proforma-invoicing/manage-billing-backlog.md).
+  - Informace o konfiguraci této funkce najdete v části [Konfigurace neskladovaných materiály a nevyřízených faktur dodavatele](../procurement/configure-materials-nonstocked.md)
 - Fakturace na základě úkolů: Přidána možnost přidružit projektové úkoly k řádkům projektových smluv, čímž je vystavíte stejné metodě fakturace, četnosti fakturace a zákazníkům jako na řádku smlouvy. Toto přidružení zajišťuje přesnou fakturaci, účetnictví, odhad výnosů a uznání tak, aby fungovaly v souladu s tímto nastavením na projektových úkolech.
 - Nová rozhraní API v Dynamics 365 Dataverse umožňují operace vytváření, aktualizace a odstraňování **entit plánování**. Více informací najdete v tématu [Používání rozhraní Schedule API k provádění operací s entitami plánování](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Aktualizace map duálního zápisu Project Operations
+
+Následující seznam ukazuje mapy duálního zápisu, které byly upraveny nebo přidány ve verzi Project Operations z dubna 2021.
+
+| **Mapování entity** | **Aktualizovaná verze** | **Komentáře** |
+| --- | --- | --- |
+| Skutečné hodnoty integrace Project Operations (ms\_dynactuals) | 1.0.0.14 | Mapa byla upravena tak, aby synchronizovala skutečné hodnoty materiálu. |
+| Entita integrace Project Operations pro odhady výdajů (msdyn\_estimateslines) | 1.0.0.2 | Přidána synchronizace řádku smlouvy s projektem do aplikací Finance and Operations pro podporu fakturace podle úkolů. |
+| Entita integrace Project Operations pro odhady hodin (msdyn\_resourceassignments) | 1.0.0.5 | Přidána synchronizace řádku smlouvy s projektem do aplikací Finance and Operations pro podporu fakturace podle úkolů. |
+| Tabulka integrace Project Operations pro odhady materiálu (msdyn\_estimatelines) | 1.0.0.0 | Nová mapa tabulky pro synchronizaci odhadů materiálu z Dataverse do aplikací Finance and Operations. |
+| Entita exportu faktury dodavatele projektu integrace Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nová mapa tabulky pro synchronizaci záhlaví faktury dodavatele z aplikací Finance and Operations do Dataverse. |
+| Entita exportu řádku faktury dodavatele projektu integrace Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nová mapa tabulky pro synchronizaci řádků faktury dodavatele z aplikací Finance and Operations do Dataverse. |
+
+Měli byste vždy spustit nejnovější verzi mapy ve svém prostředí a povolit všechny související mapy tabulky při aktualizaci verze řešení Project Operations Dataverse a řešení Finance and Operations. Pokud není aktivována nejnovější verze mapy, některé funkce a možnosti nemusí fungovat správně. Aktivní verzi mapy můžete vidět ve sloupci **Verze** na stránce **Duální zápis**. Novou verzi mapy můžete aktivovat výběrem **Verze mapy tabulky** výběrem nejnovější verze a poté uložením vybrané verze. Pokud jste přizpůsobili připravenou mapu tabulky, změny znovu použijte. Další informace: [Správa životního cyklu aplikace](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Pokud narazíte na problém se spuštěním mapy, postupujte podle pokynů v části [Problém s chybějícími sloupci tabulky na mapách](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) příručky pro řešení potíží s duálním zápisem.
 
 ## <a name="quality-updates"></a>Aktualizace pro zvýšení kvality
 
@@ -67,7 +85,7 @@ V této vydané verzi jsou zahrnuty následující funkce:
 
 | **Oblast funkcí** | **Referenční číslo** | **Aktualizace pro zvýšení kvality** |
 | --- | --- | --- |
-| Přehled řízení projektů a účetnictví | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Zpětné odstranění odhadu nefunguje v části **Periodické**.  |
+| Přehled řízení projektů a účetnictví | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Odstranění zpětného odhadu nefunguje v části **Pravidelné**.  |
 | Přehled řízení projektů a účetnictví | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | Funkce **Úprava účetnictví** vytváří problém u účtů hlavní knihy, které mají vybranou možnost **Nepovolit ruční zadání**. |
 | Přehled řízení projektů a účetnictví | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Přidána obchodní logika ke zpracování opravných faktur, včetně částky zálohy nebo použité částky zálohy. |
 | Přehled řízení projektů a účetnictví | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | WIP - zaúčtování prodejní hodnoty ve fakturaci mezipodnikového projektu vybere neočekávaný účet. |

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5a1ab3b506ae94bba3a6ca96b164437d3fd3a035
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877527"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948231"
 ---
 # <a name="project-operations-updates"></a>Aktualizace Project Operations
 
@@ -49,23 +49,23 @@ Aktualizace Project Operations v prostředí Dataverse jsou k dispozici měsíč
 | Stanice   | Oblast        | Aktuální verze | Další verze | Obecně dostupné |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Stanice 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | První vydání |  4.9.0.221       | TBD     | 23-dub-21           |
+|   &nbsp;  | První vydání |  4.9.0.221       | TBD     | 30-dub-21           |
 | Stanice 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Jižní Amerika |  4.9.0.221       | TBD     | 23-dub-21           |
-|    &nbsp; | Kanada        |  4.9.0.221       | TBD     | 23-dub-21           |
-|   &nbsp;  | Indie         |  4.9.0.221       | TBD     | 23-dub-21           |
-|   &nbsp;  | Francie         |  4.9.0.221       | TBD     | 23-dub-21           |
-|   &nbsp;  | Spojené arabské emiráty         |  4.9.0.221       | TBD     | 23-dub-21           |
-|   &nbsp;  | Jižní Afrika         |  4.9.0.221       | TBD     | 23-dub-21           |
+|   &nbsp;  | Jižní Amerika |  4.9.0.221       | TBD     | 30-dub-21           |
+|    &nbsp; | Kanada        |  4.9.0.221       | TBD     | 30-dub-21           |
+|   &nbsp;  | Indie         |  4.9.0.221       | TBD     | 30-dub-21           |
+|   &nbsp;  | Francie         |  4.9.0.221       | TBD     | 30-dub-21           |
+|   &nbsp;  | Spojené arabské emiráty         |  4.9.0.221       | TBD     | 30-dub-21           |
+|   &nbsp;  | Jižní Afrika         |  4.9.0.221       | TBD     | 30-dub-21           |
 | Stanice 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japonsko         |  4.9.0.221       | TBD     | 30-dub-21           |
-|   &nbsp;  | Asie a Tichomoří  |  4.9.0.221       | TBD     | 30-dub-21           |
-|   &nbsp;  | Velká Británie (GBR) |  4.9.0.221       | TBD     | 30-dub-21           |
-|   &nbsp;  | Oceánie       |  4.9.0.221       | TBD     | 30-dub-21           |
+|   &nbsp;  | Japonsko         |  4.9.0.221       | TBD     | 07-Kvě-21           |
+|   &nbsp;  | Asie a Tichomoří  |  4.9.0.221       | TBD     | 07-Kvě-21           |
+|   &nbsp;  | Velká Británie (GBR) |  4.9.0.221       | TBD     | 07-Kvě-21           |
+|   &nbsp;  | Oceánie       |  4.9.0.221       | TBD     | 07-Kvě-21           |
 | Stanice 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Evropě        |  4.8.0.92       | 4.9.0.221     | 16-dub-21           |
+|   &nbsp;  | Evropě        |  4.9.0.221       | TBD     | 14-Kvě-21           |
 | Stanice 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Severní Amerika |  4.8.0.92       | 4.9.0.221     | 23-dub-21           |
+|   &nbsp;  | Severní Amerika |  4.9.0.221       | TBD     | 21-Kvě-21           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Plán vydávání pro správu projektů a účetnictví v prostředí aplikace Finance and Operations
 
@@ -73,15 +73,15 @@ Aktualizace pro správu projektů a účetnictví jsou vydávány osmkrát ročn
 
 | Podporované vydání | Obecně dostupné (ruční aktualizace) |
 | --- | --- |
+| 10.0.18 | 16. dubna 2021 |
 | 10.0.17 | 19. března 2021 |
 | 10.0.16 | 22. ledna 2021 |
 
 
-Cílová data vydání se mohou změnit. Další informace naleznete v části [Dostupnost aktualizace služby](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
+Cílová data vydání se mohou změnit. Další informace naleznete v části [Dostupnost aktualizace služby](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 | Cílové datum vydání | Obecně dostupné (ruční aktualizace) |
 | --- | --- |
-| 10.0.18 | 16. dubna 2021 |
 | 10.0.19 | 18. června 2021 |
 | 10.0.20 | 16. července 2021 |
 

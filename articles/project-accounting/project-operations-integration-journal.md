@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287230"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948322"
 ---
 # <a name="integration-journal-in-project-operations"></a>Deník integrace v Project Operations
 
@@ -38,7 +38,7 @@ Systém seskupuje řádky deníku do samostatných deníků na základě hodnoty
 Řádky deníku jsou vytvářeny na základě skutečných hodnot projektu. Následující seznam obsahuje některá z nejvýznamnějších výchozích pravidel a pravidel transformace:
 
   - Každá skutečná transakce projektu má řádek v deníku integrace Project Operations. Náklady a nefakturované prodejní transakce pro typ fakturace času a materiálu jsou zobrazeny na samostatných řádcích.
-  - Pole **Datum** představuje datum transakce. Pole **Datum účtování** představuje datum, kdy je transakce zaznamenána do hlavní knihy. Pokud je datum účtování v [uzavřeném finanční období](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) a parametr **Automaticky nastavit datum účtování na otevřené období hlavní knihy** je nastaven na kartě **Finanční služby** na stránce **Parametry řízení projektů a účetnictví**, systém upraví datum účtování transakce na první datum v příštím otevřeném období hlavní knihy.
+  - Pole **Datum** představuje datum transakce. Pole **Datum účtování** představuje datum, kdy je transakce zaznamenána do hlavní knihy. Pokud je datum účtování v [uzavřeném finanční období](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) a parametr **Automaticky nastavit datum účtování na otevřené období hlavní knihy** je nastaven na kartě **Finanční služby** na stránce **Parametry řízení projektů a účetnictví**, systém upraví datum účtování transakce na první datum v příštím otevřeném období hlavní knihy.
   - Pole **Poukaz** pole zobrazuje číslo poukazu pro každou skutečnou transakci. Pořadí čísel poukazů je definováno na kartě **Číselné řady** na stránce **Parametry řízení projektů a účetnictví**. Každému řádku je přiřazeno nové číslo. Po odeslání poukazu můžete zobrazit, jak souvisí cena a nefakturovaná prodejní transakce, výběrem možnosti **Související poukazy** na stránce **Transakce poukazů**.
   - Pole **Kategorie** představuje transakci projektu a výchozí hodnoty na základě kategorie transakcí pro související skutečnou hodnotu projektu.
     - Pokud je **Kategorie transakce** nastavena ve skutečné hodnotě projektu a existuje související **Kategorie projektu** v dané právnické osobě, kategorie se automaticky nastaví na kategorii tohoto projektu.

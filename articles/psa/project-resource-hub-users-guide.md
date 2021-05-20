@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283765"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948127"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Uživatelská příručka pro Project Resource Hub
 
@@ -48,7 +48,7 @@ Existují dva typy [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn
 ## <a name="install-the-mobile-app"></a>Instalace mobilní aplikace
 Dříve než můžete začít aplikaci Project Resource Hub používat, musíte do svého zařízení nainstalovat mobilní aplikaci. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Instalace aplikace Dynamics 365 pro telefony a tablety](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Instalace aplikace Dynamics 365 pro telefony a tablety](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Základní navigace
 1.  Při přihlášení do mobilní aplikace se zobrazí stránka MyApps se seznamem aplikací, ke kterým máte přístup. 
@@ -99,7 +99,7 @@ Zadejte vaše výdaje alespoň jednou za týden – nebo tak často, jak požadu
 5. Pokračujte v zadávání výdajů za týden. Pokud jste hotovi a vše vypadá v pořádku, klepněte na tlačítko **Odeslat**. Manažer zkontroluje a schválí vaše výdaje.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Obecné informace o způsobu používání mobilní aplikace 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Příručka se základy používání mobilní aplikace](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Příručka se základy používání mobilní aplikace](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>Viz také  
  [Přehled aplikace Project Service](../psa/overview.md)   
