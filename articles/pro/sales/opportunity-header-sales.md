@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6631e136572b958ca616d708a5e3c3c2d9f2675c
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: ed82cb511337d9f6286e13b244d049022a184eef
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663811"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950616"
 ---
 # <a name="header-details-for-project-opportunities"></a>Podrobnosti záhlaví pro projektové příležitosti
 
@@ -33,7 +33,7 @@ Následující tabulka obsahuje pole v příležitosti založené na projektu, k
 | Manažer obchodních vztahů | Karta Obecné | Jméno správce účtu pro tuto příležitost založenou na projektu. | Manažer obchodních vztahů je zodpovědný za řízení vztahu se zákazníkem až do dokončení tohoto projektu. Smluvní jednotka je nastavena na výchozí hodnoty na základě záznamu rezervovatelného zdroje svázaného se správcem účtu. |
 | Smluvní jednotka | Karta Obecné | Organizační jednotka, která je odpovědná za realizaci projektu či projektů asociovaných s tímto obchodem. | Smluvní jednotka je divize společnosti, která dokončí projekty po uzavření obchodu. Každá smluvní jednotka má měnu a tato měna se používá k vykazování odhadovaných a skutečných nákladů vzniklých během projektu. |
 
-Další informace o všech ostatních polích a sekcích na kartě **Souhrn** příležitosti najdete v tématu [Vytváření nebo úprava příležitostí (Sales a Centrum prodeje)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales).
+Další informace o všech ostatních polích a sekcích na kartě **Souhrn** příležitosti najdete v tématu [Vytváření nebo úprava příležitostí (Sales a Centrum prodeje)](/dynamics365/sales-enterprise/create-edit-opportunity-sales).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e66177e92e701c2dc09bed005f748ca19ae980d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ad5c5deca1964d57f22459c129f9936be0c30fde
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283360"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951516"
 ---
 # <a name="dashboards"></a>Řídicí panely
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automation obsahuje dva systémové řídicí panel
 
 ## <a name="practice-manager"></a>Správce postupů 
 
-Řídicí **panel Správce** postupů poskytuje manažerům cvičení grafické možnosti pro sledování nákladů, prodeje a hrubé marže a využití. Manažeři také mohou rozdělit informace podle různých dimenzí, jako jsou například zákazník, projekt nebo zdroje role. Další informace o tom, jak panely vytvořit a upravit viz [Vytvoření nebo úprava řídicích panelů](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
+Řídicí **panel Správce** postupů poskytuje manažerům cvičení grafické možnosti pro sledování nákladů, prodeje a hrubé marže a využití. Manažeři také mohou rozdělit informace podle různých dimenzí, jako jsou například zákazník, projekt nebo zdroje role. Další informace o tom, jak panely vytvořit a upravit viz [Vytvoření nebo úprava řídicích panelů](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
 
 ## <a name="resource-manager"></a>Správce zdrojů 
 

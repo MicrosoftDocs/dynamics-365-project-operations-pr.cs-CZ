@@ -1,6 +1,6 @@
 ---
 title: Vytvoření šablony pracovní doby
-description: Postup vytvoření šablony pracovní doby v Project Service
+description: Toto téma popisuje postup vytvoření šablony pracovní doby v Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,51 +18,51 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285025"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981247"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Vytvoření šablony pracovní doby (Project Service)
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Před vytvořením plánů projektu je třeba nastavit kalendář projektu, který definuje počet pracovních hodin denně v plánu a všechny zavírací dny. Provedete to pomocí šablony pracovní doby, která obsahuje podrobnosti o počtu pracovních hodin za den, dnech volna a jiných zavíracích dnech.  
-  
- Při vytváření projektu přiřadíte šablonu ke kalendáři projektu a použijete plán pro projekt.  
-  
- Šablony pracovních hodin můžete vytvořit dvěma způsoby:  
-  
--   Vytvořte šablonu pracovní doby na základě kalendáře zdroje.  
-  
--   Vytvořte novou šablonu pracovní doby.  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a>Vytvoření šablony pracovní doby na základě kalendáře zdroje  
-  
-1.  Přejděte do nabídky **Project Service > Zdroje**.  
-  
-2.  Vyberte zdroj, na kterém chcete založit svou pracovní dobu.  
-  
-3.  Klikněte na tlačítko **Uložit kalendář jako**, zadejte název šablony pracovní doby a potom klikněte na tlačítko **Uložit**.  
-  
-4.  Po dokončení úprav možností klikněte na tlačítko **Uložit a zavřít**.  
-  
-5.  Klikněte na tlačítko **Uložit** v pravém dolním rohu obrazovky.  
-  
-#### <a name="to-create-a-new-work-hours-template"></a>Vytvoření nové šablony pracovní doby  
-  
-1.  Přejděte do nabídky **Project Service > Šablona pracovní doby**.  
-  
-2.  Klikněte na tlačítko **Nový**.  
-  
-3.  Zadejte název šablony pracovní doby.  
-  
-4.  Vyberte zdroj, na kterém chcete pracovní dobu založit, a klikněte na tlačítko **Uložit**.  
-  
+Chcete-li vytvořit a spravovat projekt, musíte na projekt použít šablonu kalendáře. Šablona kalendáře definuje následující atributy projektu:
+
+- Pracovní doba, včetně času zahájení a ukončení
+- Pracovní dny
+- Výjimky v kalendáři, například nepracovní dny
+
+Šablona kalendáře, která se použije na projekt, je kopií šablony kalendáře definované v nastavení vaší organizace.
+
+> [!NOTE]
+> Pokud změníte šablonu kalendáře, tyto změny se nebudou šířit do pracovní doby projektu. Chcete-li změnit pracovní dobu projektu, je nutné použít novou šablonu.
+
+K vytvoření šablony kalendáře pro vaši organizaci existují dva klíčové požadavky:
+
+- Definujte požadovanou pracovní dobu šablony pomocí nového nebo existujícího rezervovatelného zdroje.
+- Vytvořte novou šablonu kalendáře a přidružte ji k rezervovatelnému prostředku.
+
+**Definujte pracovní dobu šablony**
+
+1. Přejděte na **Zdroje** \> **Zdroje**.
+2. Vytvořte nový prostředek, který bude odkazovat v šabloně kalendáře, nebo vyberte existující prostředek.
+3. Vyberte kartu **Pracovní doba** zdroje a postupujte podle pokynů v části [Nastavení pracovní doby zdroje](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) ke konfiguraci pravidel kalendáře.
+
+**Vytvořit novou šablonu kalendáře**
+
+1. Přejděte na **Nastavení** \> **Šablona kalendáře**.
+2. Vyberte **Nový** a zadejte název, popis a prostředek šablony.
+
+
+> [!NOTE]
+> Když je prostředek odkazován v šabloně kalendáře, je kopie kalendáře prostředku přidružena k šabloně kalendáře. Pokud se změní pracovní doba kopírované šablony, tyto změny se nebudou šířit do šablony kalendáře.
+
+
 ### <a name="see-also"></a>Viz také  
  [Nastavení zdrojů](../psa/set-up-resources.md)
 

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e5bfd3c790dac51895cde04e08d1fa62f4457e8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ece05f1f551b18a5b30610af57d68baa120948fb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5292061"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950976"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového, leden 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
@@ -88,7 +88,7 @@ Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 36
 
 ## <a name="regulatory-updates"></a>Povinné aktualizace
 
-Informace o povinných aktualizacích pro aplikace Finance and Operations viz [Povinné aktualizace](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Můžete se také přihlásit do LCS a zobrazit plánované povinné aktualizace pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
+Informace o povinných aktualizacích pro aplikace Finance and Operations viz [Povinné aktualizace](/dynamics365/finance/localizations/regulatory-updates). Můžete se také přihlásit do LCS a zobrazit plánované povinné aktualizace pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

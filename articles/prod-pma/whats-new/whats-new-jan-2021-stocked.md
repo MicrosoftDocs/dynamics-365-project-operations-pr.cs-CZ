@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 82787d13c6c2e662841a4f8eebe5638933f0958d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 43816d1dbcbea608eb675b037f8956cd44e8a063
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288040"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950841"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Co je nového nebo změněného v Project Operations, leden 2021, pro scénáře založené na skladovém materiálu / výrobě
 
@@ -144,7 +144,7 @@ Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 36
 | Cestování a výdaje                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | V Project Operations čas s mezipodnikovými úkoly v Dataverse nelze vytvořit ani schválit.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Povinné aktualizace
-Informace o povinných aktualizacích pro aplikace Finance and Operations viz [Povinné aktualizace](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Můžete se také přihlásit do LCS a zobrazit plánované povinné aktualizace pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
+Informace o povinných aktualizacích pro aplikace Finance and Operations viz [Povinné aktualizace](/dynamics365/finance/localizations/regulatory-updates). Můžete se také přihlásit do LCS a zobrazit plánované povinné aktualizace pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

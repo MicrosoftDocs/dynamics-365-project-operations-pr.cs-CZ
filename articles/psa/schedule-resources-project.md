@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282640"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951426"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Plánování zdrojů pro projekt (Project Service)
 
@@ -35,7 +35,7 @@ Můžete zkontrolovat dostupnost zdrojů, chcete-li získat celkový přehled o 
   
 Plánovací vývěska zobrazuje seznam zdrojů a jejich dostupnost. Vyberte režim zobrazení pro zobrazení dostupnosti podle **Hodin**, **Dne**, **Týdne** nebo **Měsíce**.  
   
-Před použitím plánovací vývěsky je třeba ji nastavit. Další informace naleznete v tématu [Konfigurace plánovací vývěsky (Field Service nebo Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Před použitím plánovací vývěsky je třeba ji nastavit. Další informace naleznete v tématu [Konfigurace plánovací vývěsky (Field Service nebo Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Pokud používáte starší verzi, naleznete informace o dostupnosti zdrojů v části [Zobrazení dostupnosti zdrojů](../psa/view-resource-availability.md).  
 

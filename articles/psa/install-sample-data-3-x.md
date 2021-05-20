@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275080"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950571"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalace ukázkových dat pro aplikaci Project Service
 
@@ -136,7 +136,7 @@ Balíček ukázkových dat vyžaduje šest uživatelů. Pro správnou instalaci 
     - Celé jméno uživatele = Molly Clark jako manažerka obchodních vztahů   
     - Celé jméno uživatele = Spencer Low jako projektový manažer  
     - Celé jméno uživatele = Veronica Quek jako členka týmu   
-    - Celé jméno uživatele = William Contoso
+    - Celé jméno uživatele = "William Contoso"
   
 2. Pro účely importu ukázkových dat přiřaďte výše uvedeným šesti uživatelům roli správce, aby se záznamy importovaly správně. 
 
@@ -149,7 +149,7 @@ Balíček ukázkových dat vyžaduje šest uživatelů. Pro správnou instalaci 
 
 5. Kalendář prvního uživatele (ve značce **userstocreateandconfigure**) slouží k naplnění pracovní doby pro všechny rezervovatelné prostředky při importu ukázkových dat. Přejděte do **Nastavení** > **Zabezpečení** > **Uživatelé**, vyhledeje uživatele Spencer Low a otevřete možnost Pracovní doba. Upravte existující pracovní dobu výběrem možnosti **Celý opakovaný týdenní plán od začátku do konce**. Ujistěte se, že **pracovní doba je nastavena na 8:00 - 17:00 (9 hodin), od pondělí do pátku a v časovém pásmu Tichomoří (USA a Kanada)**. To je nutné proto, aby se , aby se Projekt a Plánovací vývěska zobrazovaly podle očekávání.
 
-**Doporučení:** Nyní zvažte vytvoření zálohy organizace pro případ, že budete potřebovat obnovit počáteční bod, pokud dojde k chybě při instalaci ukázkových dat. Další informace získáte v části [Instance zálohování a obnovení](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Doporučení:** Nyní zvažte vytvoření zálohy organizace pro případ, že budete potřebovat obnovit počáteční bod, pokud dojde k chybě při instalaci ukázkových dat. Další informace získáte v části [Instance zálohování a obnovení](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Spusťte Package Deployer
 

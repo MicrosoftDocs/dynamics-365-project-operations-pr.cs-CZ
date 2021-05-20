@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 8d1755b308a415deff1fd1a35122197476673988
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a208ed98a5549030bd663e18b1b490d1a42ee33
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288130"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950211"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Co je nového nebo změněného v Project Operations, prosinec 2020, pro scénáře založené na skladovém materiálu / výrobě
 
@@ -141,7 +141,7 @@ Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 36
 
 ## <a name="regulatory-updates"></a>Povinné aktualizace
 
-Informace o povinných aktualizacích pro Dynamics 365 Finance viz [Povinné aktualizace](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Dalším způsobem, jak se dozvědět o aktualizacích předpisů, je přihlásit se do služby Lifecycle Services (LCS) a zobrazit plánované aktualizace předpisů pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
+Informace o povinných aktualizacích pro Dynamics 365 Finance viz [Povinné aktualizace](/dynamics365/finance/localizations/regulatory-updates). Dalším způsobem, jak se dozvědět o aktualizacích předpisů, je přihlásit se do služby Lifecycle Services (LCS) a zobrazit plánované aktualizace předpisů pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

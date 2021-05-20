@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1df4864ca8dbf6948ca88a7c82a6c0a676e3bd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ebfadf8a331fd6a8a86a9cc040dc8957db3b82
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275035"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950301"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Správa projektů a rezervací v kalendáři (Project Service)
 
@@ -52,7 +52,7 @@ Pomocí kalendáře služeb [!INCLUDE[pn_office_365](../includes/pn-office-365.m
   
 - Budete muset mít přihlašovací údaje globálního správce [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] nebo správce systému .  
   
-- Správce bude muset nakonfigurovat profil e-mailového serveru a každý uživatel bude muset nakonfigurovat svou poštovní schránku. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Nastavení zpracování e-mailů prostřednictvím synchronizace na straně serveru](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Správce bude muset nakonfigurovat profil e-mailového serveru a každý uživatel bude muset nakonfigurovat svou poštovní schránku. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Nastavení zpracování e-mailů prostřednictvím synchronizace na straně serveru](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Zapnutí synchronizace pro organizaci (úloha správce)  
   

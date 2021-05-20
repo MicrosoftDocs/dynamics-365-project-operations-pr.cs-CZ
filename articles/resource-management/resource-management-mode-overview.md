@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279445"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949941"
 ---
 # <a name="resource-management-modes-overview"></a>Přehled režimů správy zdrojů
 
@@ -29,11 +29,11 @@ Organizacím, které centralizují přidělení zdrojů k projektům, poskytuje 
 
 Chcete-li spravovat zdroje v centrálním režimu, přečtěte si:
 
-- [Přiřazení obecných rezervovatelných zdrojů k úkolu a vygenerování požadavků na zdroj](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Rezervace pojmenovaných zdrojů z požadavků na zdroje](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Odeslání žádosti o zdroj](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Splnění požadavku na zdroj](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Přijetí nebo zamítnutí navrženého zdroje projektu z žádosti o zdroj](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Přiřazení obecných rezervovatelných zdrojů k úkolu a vygenerování požadavků na zdroj](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Rezervace pojmenovaných zdrojů z požadavků na zdroje](/dynamics365/project-service/book-named-resource)
+- [Odeslání žádosti o zdroj](/dynamics365/project-service/submit-resource-request)
+- [Splnění požadavku na zdroj](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Přijetí nebo zamítnutí navrženého zdroje projektu z žádosti o zdroj](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Hybridní režim
 U organizací, které vyžadují při přidělování zdrojů flexibilitu, umožňuje hybridní režim projektovým manažerům i správcům zdrojů rezervovat prostředky.
@@ -43,11 +43,11 @@ U organizací, které vyžadují při přidělování zdrojů flexibilitu, umož
 Kromě podporovaného procesu v centrálním režimu najdete v následujících tématech přehled správy všech ostatních podporovaných toků rezervací v hybridním režimu:
 
 Rezervace zdroje přímo k projektu:
-- [Rezervujte pro projektový tým pojmenované rezervovatelné zdroje a přiřaďte úkoly](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Rezervujte pro projektový tým pojmenované rezervovatelné zdroje a přiřaďte úkoly](/dynamics365/project-service/assign-named-bookable-resource)
 
 Rezervace zdroje z požadavku na zdroj:
-- [Přiřazení obecných rezervovatelných zdrojů k úkolu a vygenerování požadavků na zdroj](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Rezervace pojmenovaných zdrojů z požadavků na zdroje](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Přiřazení obecných rezervovatelných zdrojů k úkolu a vygenerování požadavků na zdroj](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Rezervace pojmenovaných zdrojů z požadavků na zdroje](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

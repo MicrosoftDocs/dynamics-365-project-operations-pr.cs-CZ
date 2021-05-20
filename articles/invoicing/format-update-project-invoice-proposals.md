@@ -3,17 +3,17 @@ title: Správa návrhů faktury projektu
 description: Toto téma obsahuje informace o zpracování faktur pro zákazníky se systémem Project Operations pro scénáře se zdroji bez skladových materiálů.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275845"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950706"
 ---
 # <a name="manage-project-invoice-proposals"></a>Správa návrhů faktury projektu
 
@@ -80,7 +80,8 @@ Hodnoty **Skupina daně z prodeje** a **Skupina daně z prodeje položek** mají
     - **Zákazník** bude vždy mít vždy výchozí hodnotu skupinu fakturace daně z prodeje ze zákazníka.
     - **Vyhledávání** prohledá všechny výše uvedené entity v tomto seznamu a vybere první dostupnou hodnotu. Hledání začíná na entitě **Projekt**, pak na entitě **Smlouva projektu** a nakonec entitě **Zákazník**.
 
-- **Skupina daně z prodeje položky s pevnou cenou** se používá jako výchozí hodnota pole **Skupina daně z prodeje položky**.
+- **Skupina DPH položky milníku s pevnou cenou** se používá jako výchozí hodnota v poli **Skupina DPH položky** pro milník fakturace. Účetní může tuto hodnotu zkontrolovat a upravit na stránce **Transakce na účet**. Systém používá hodnotu z transakce na účtu při vytváření řádku návrhu faktury projektu.
+ 
 
 ### <a name="financial-dimensions"></a>Finanční dimenze
 
@@ -132,7 +133,7 @@ Stránka **Formátovat návrhy faktur** umožňuje zobrazení vlastních seskupo
 
 Správa tisku používá různé soubory se sestavami k tisku, určení cílů a přizpůsobení textu zápatí pro fakturu. Správa tisku může být nastavena na úrovni modulu, ale tato nastavení lze přepsat pro konkrétního zákazníka, smlouvu nebo návrh faktury. Pro přístup k této funkci na stránce **Návrh faktury projektu** vyberte možnost **Vytisknout** > **Správa tisku**.
 
-Nastavení správy tisku se zobrazuje jako stromové zobrazení, kde každá úroveň uzlu zobrazuje dostupné dokumenty, které lze upravit. Můžete přiřadit vlastní výtisky na úrovni modulu, zákazníka, smlouvy nebo faktury. Chcete-li upravit výtisk původního dokumentu, rozbalte požadovaný uzel a vyberte **Originální položka**. V poli **Formát zprávy** vyberte formát zprávy, který se má použít pro tisk. Můžete použít vlastní formáty zpráv pomocí [Rámec správy obchodních dokumentů](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Nastavení správy tisku se zobrazuje jako stromové zobrazení, kde každá úroveň uzlu zobrazuje dostupné dokumenty, které lze upravit. Můžete přiřadit vlastní výtisky na úrovni modulu, zákazníka, smlouvy nebo faktury. Chcete-li upravit výtisk původního dokumentu, rozbalte požadovaný uzel a vyberte **Originální položka**. V poli **Formát zprávy** vyberte formát zprávy, který se má použít pro tisk. Můžete použít vlastní formáty zpráv pomocí [Rámec správy obchodních dokumentů](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Zaúčtování návrhů faktur
 

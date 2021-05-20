@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289586"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950391"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synchronizace projektových smluv a projektů přímo z Project Service Automation do Finance 
 
@@ -109,8 +109,8 @@ Když je použito řešení integrace Project Service Automation do Finance, nas
 ## <a name="prerequisites-and-mapping-setup"></a>Předpoklady a nastavení mapování
 
 - Než může dojít k synchronizaci projektových smluv a projektů, musíte synchronizovat účty.
-- V sadě připojení přidejte mapování pole integračního klíče pro **msdyn\_organizationalunits** na **msdyn\_name \[Název\]**. Možná budete muset nejprve přidat projekt do sady připojení. Další informace viz článek [Integrace dat do Common Data Service pro aplikace](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- V sadě připojení přidejte mapování pole integračního klíče pro **msdyn\_projects** na **msdynce\_projectnumber \[Číslo projektu\]**. Možná budete muset nejprve přidat projekt do sady připojení. Další informace viz článek [Integrace dat do Common Data Service pro aplikace](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- V sadě připojení přidejte mapování pole integračního klíče pro **msdyn\_organizationalunits** na **msdyn\_name \[Název\]**. Možná budete muset nejprve přidat projekt do sady připojení. Další informace viz článek [Integrace dat do Common Data Service pro aplikace](/powerapps/administrator/data-integrator).
+- V sadě připojení přidejte mapování pole integračního klíče pro **msdyn\_projects** na **msdynce\_projectnumber \[Číslo projektu\]**. Možná budete muset nejprve přidat projekt do sady připojení. Další informace viz článek [Integrace dat do Common Data Service pro aplikace](/powerapps/administrator/data-integrator).
 - Pole **SourceDataID** u projektových smluv a projektů lze aktualizovat na jinou hodnotu nebo odebrat z mapování. Výchozí hodnota šablony je **Project Service Automation**.
 - Mapování **Platební podmínky** musí být aktualizováno tak, aby odráželo platné platební podmínky ve Finance. Můžete také odebrat mapování z projektové úlohy. Mapa výchozích hodnot má výchozí hodnoty pro ukázková data. V následující tabulce jsou uvedeny hodnoty v Project Service Automation.
 
@@ -131,7 +131,7 @@ K filtrování dat použijte Microsoft Power Query pro Excel, pokud jsou splněn
 Pokud musíte použít Power Query, postupujte podle těchto pokynů:
 
 - Šablona Projekty a smlouvy (PSA do Fin a Ops) má výchozí filtr, který zahrnuje pouze prodejní objednávky typu **Pracovní položka (msdyn\_ordertype = 192350001)**. Tento filtr pomáhá zaručit, že projektové smlouvy nejsou vytvořeny pro prodejní objednávky ve Finance. Pokud vytvoříte vlastní šablonu, musíte přidat tento filtr.
-- Vytvořte filtr Power Query, který zahrnuje pouze smluvní organizace, které by se měly synchronizovat s právní entitou sady integračních připojení. Například projektové smlouvy uzavřené se smluvní organizační jednotkou společnosti Contoso USA by měly být synchronizovány s právním subjektem USSI, ale projektové smlouvy se smluvní organizační jednotkou společnosti Contoso Global by měly být synchronizovány s právním subjektem USMF. Pokud tento filtr nepřidáte do svého mapování úkolů, budou všechny projektové smlouvy synchronizovány s právním subjektem, který je definován pro sadu připojení, bez ohledu na smluvní organizační jednotku.
+- Vytvořte filtr Power Query, který zahrnuje pouze smluvní organizace, které by se měly synchronizovat s právní entitou sady integračních připojení. Například smlouvy o projektu, které máte s organizační jednotkou smlouvy Contoso USA by měly být synchronizovány s právním subjektem USSI, ale projektové smlouvy, které máte s organizační jednotkou smlouvy Contoso Global by měl být synchronizovány s právním subjektem USMF. Pokud tento filtr nepřidáte do svého mapování úkolů, budou všechny projektové smlouvy synchronizovány s právním subjektem, který je definován pro sadu připojení, bez ohledu na smluvní organizační jednotku.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapování šablon v integraci dat
 
