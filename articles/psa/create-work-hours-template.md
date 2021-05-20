@@ -1,6 +1,6 @@
 ---
 title: Vytvoření šablony pracovní doby
-description: Postup vytvoření šablony pracovní doby v Project Service
+description: Toto téma popisuje postup vytvoření šablony pracovní doby v Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285025"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981247"
 ---
-# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="f40ee-103">Vytvoření šablony pracovní doby (Project Service)</span><span class="sxs-lookup"><span data-stu-id="f40ee-103">Create a work hours template (Project Service)</span></span>
+# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="dc608-103">Vytvoření šablony pracovní doby (Project Service)</span><span class="sxs-lookup"><span data-stu-id="dc608-103">Create a work hours template (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="f40ee-104">Před vytvořením plánů projektu je třeba nastavit kalendář projektu, který definuje počet pracovních hodin denně v plánu a všechny zavírací dny.</span><span class="sxs-lookup"><span data-stu-id="f40ee-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="f40ee-105">Provedete to pomocí šablony pracovní doby, která obsahuje podrobnosti o počtu pracovních hodin za den, dnech volna a jiných zavíracích dnech.</span><span class="sxs-lookup"><span data-stu-id="f40ee-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
-  
- <span data-ttu-id="f40ee-106">Při vytváření projektu přiřadíte šablonu ke kalendáři projektu a použijete plán pro projekt.</span><span class="sxs-lookup"><span data-stu-id="f40ee-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
-  
- <span data-ttu-id="f40ee-107">Šablony pracovních hodin můžete vytvořit dvěma způsoby:</span><span class="sxs-lookup"><span data-stu-id="f40ee-107">There are two ways you can create a work hours template:</span></span>  
-  
--   <span data-ttu-id="f40ee-108">Vytvořte šablonu pracovní doby na základě kalendáře zdroje.</span><span class="sxs-lookup"><span data-stu-id="f40ee-108">Create a work hours template based on a resource’s calendar.</span></span>  
-  
--   <span data-ttu-id="f40ee-109">Vytvořte novou šablonu pracovní doby.</span><span class="sxs-lookup"><span data-stu-id="f40ee-109">Create a new work hours template.</span></span>  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="f40ee-110">Vytvoření šablony pracovní doby na základě kalendáře zdroje</span><span class="sxs-lookup"><span data-stu-id="f40ee-110">To create a work hours template based on a resource’s calendar</span></span>  
-  
-1.  <span data-ttu-id="f40ee-111">Přejděte do nabídky **Project Service > Zdroje**.</span><span class="sxs-lookup"><span data-stu-id="f40ee-111">Go to **Project Service > Resources**.</span></span>  
-  
-2.  <span data-ttu-id="f40ee-112">Vyberte zdroj, na kterém chcete založit svou pracovní dobu.</span><span class="sxs-lookup"><span data-stu-id="f40ee-112">Select the resource you want to base your work hours on.</span></span>  
-  
-3.  <span data-ttu-id="f40ee-113">Klikněte na tlačítko **Uložit kalendář jako**, zadejte název šablony pracovní doby a potom klikněte na tlačítko **Uložit**.</span><span class="sxs-lookup"><span data-stu-id="f40ee-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
-  
-4.  <span data-ttu-id="f40ee-114">Po dokončení úprav možností klikněte na tlačítko **Uložit a zavřít**.</span><span class="sxs-lookup"><span data-stu-id="f40ee-114">When you’re done changing options, click **Save and Close**.</span></span>  
-  
-5.  <span data-ttu-id="f40ee-115">Klikněte na tlačítko **Uložit** v pravém dolním rohu obrazovky.</span><span class="sxs-lookup"><span data-stu-id="f40ee-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
-  
-#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="f40ee-116">Vytvoření nové šablony pracovní doby</span><span class="sxs-lookup"><span data-stu-id="f40ee-116">To create a new work hours template</span></span>  
-  
-1.  <span data-ttu-id="f40ee-117">Přejděte do nabídky **Project Service > Šablona pracovní doby**.</span><span class="sxs-lookup"><span data-stu-id="f40ee-117">Go to **Project Service > Work Hours Templates**.</span></span>  
-  
-2.  <span data-ttu-id="f40ee-118">Klikněte na tlačítko **Nový**.</span><span class="sxs-lookup"><span data-stu-id="f40ee-118">Click **New**.</span></span>  
-  
-3.  <span data-ttu-id="f40ee-119">Zadejte název šablony pracovní doby.</span><span class="sxs-lookup"><span data-stu-id="f40ee-119">Enter a name for the work hours template.</span></span>  
-  
-4.  <span data-ttu-id="f40ee-120">Vyberte zdroj, na kterém chcete pracovní dobu založit, a klikněte na tlačítko **Uložit**.</span><span class="sxs-lookup"><span data-stu-id="f40ee-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
-  
-### <a name="see-also"></a><span data-ttu-id="f40ee-121">Viz také</span><span class="sxs-lookup"><span data-stu-id="f40ee-121">See Also</span></span>  
- [<span data-ttu-id="f40ee-122">Nastavení zdrojů</span><span class="sxs-lookup"><span data-stu-id="f40ee-122">Set up resources</span></span>](../psa/set-up-resources.md)
+<span data-ttu-id="dc608-104">Chcete-li vytvořit a spravovat projekt, musíte na projekt použít šablonu kalendáře.</span><span class="sxs-lookup"><span data-stu-id="dc608-104">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="dc608-105">Šablona kalendáře definuje následující atributy projektu:</span><span class="sxs-lookup"><span data-stu-id="dc608-105">The calendar template defines the following project attributes:</span></span>
+
+- <span data-ttu-id="dc608-106">Pracovní doba, včetně času zahájení a ukončení</span><span class="sxs-lookup"><span data-stu-id="dc608-106">Working hours, including start and end time</span></span>
+- <span data-ttu-id="dc608-107">Pracovní dny</span><span class="sxs-lookup"><span data-stu-id="dc608-107">Working days</span></span>
+- <span data-ttu-id="dc608-108">Výjimky v kalendáři, například nepracovní dny</span><span class="sxs-lookup"><span data-stu-id="dc608-108">Calendar exceptions such as non-working days</span></span>
+
+<span data-ttu-id="dc608-109">Šablona kalendáře, která se použije na projekt, je kopií šablony kalendáře definované v nastavení vaší organizace.</span><span class="sxs-lookup"><span data-stu-id="dc608-109">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="dc608-110">Pokud změníte šablonu kalendáře, tyto změny se nebudou šířit do pracovní doby projektu.</span><span class="sxs-lookup"><span data-stu-id="dc608-110">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="dc608-111">Chcete-li změnit pracovní dobu projektu, je nutné použít novou šablonu.</span><span class="sxs-lookup"><span data-stu-id="dc608-111">To change the working hours of the project, a new template must be applied.</span></span>
+
+<span data-ttu-id="dc608-112">K vytvoření šablony kalendáře pro vaši organizaci existují dva klíčové požadavky:</span><span class="sxs-lookup"><span data-stu-id="dc608-112">To create a calendar template for your organization, there are two key requirements:</span></span>
+
+- <span data-ttu-id="dc608-113">Definujte požadovanou pracovní dobu šablony pomocí nového nebo existujícího rezervovatelného zdroje.</span><span class="sxs-lookup"><span data-stu-id="dc608-113">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="dc608-114">Vytvořte novou šablonu kalendáře a přidružte ji k rezervovatelnému prostředku.</span><span class="sxs-lookup"><span data-stu-id="dc608-114">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="dc608-115">**Definujte pracovní dobu šablony**</span><span class="sxs-lookup"><span data-stu-id="dc608-115">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="dc608-116">Přejděte na **Zdroje** \> **Zdroje**.</span><span class="sxs-lookup"><span data-stu-id="dc608-116">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="dc608-117">Vytvořte nový prostředek, který bude odkazovat v šabloně kalendáře, nebo vyberte existující prostředek.</span><span class="sxs-lookup"><span data-stu-id="dc608-117">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="dc608-118">Vyberte kartu **Pracovní doba** zdroje a postupujte podle pokynů v části [Nastavení pracovní doby zdroje](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) ke konfiguraci pravidel kalendáře.</span><span class="sxs-lookup"><span data-stu-id="dc608-118">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="dc608-119">**Vytvořit novou šablonu kalendáře**</span><span class="sxs-lookup"><span data-stu-id="dc608-119">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="dc608-120">Přejděte na **Nastavení** \> **Šablona kalendáře**.</span><span class="sxs-lookup"><span data-stu-id="dc608-120">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="dc608-121">Vyberte **Nový** a zadejte název, popis a prostředek šablony.</span><span class="sxs-lookup"><span data-stu-id="dc608-121">Select **New**, and enter a name, description, and template resource.</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="dc608-122">Když je prostředek odkazován v šabloně kalendáře, je kopie kalendáře prostředku přidružena k šabloně kalendáře.</span><span class="sxs-lookup"><span data-stu-id="dc608-122">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="dc608-123">Pokud se změní pracovní doba kopírované šablony, tyto změny se nebudou šířit do šablony kalendáře.</span><span class="sxs-lookup"><span data-stu-id="dc608-123">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+
+### <a name="see-also"></a><span data-ttu-id="dc608-124">Viz také</span><span class="sxs-lookup"><span data-stu-id="dc608-124">See Also</span></span>  
+ [<span data-ttu-id="dc608-125">Nastavení zdrojů</span><span class="sxs-lookup"><span data-stu-id="dc608-125">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

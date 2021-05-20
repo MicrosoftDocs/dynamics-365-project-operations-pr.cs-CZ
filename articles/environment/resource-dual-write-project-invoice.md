@@ -1,0 +1,30 @@
+---
+title: Integrace projektové faktury
+description: Toto téma poskytuje informace o integraci fakturaci zákazníka Project Operations s použitím duálního zápisu.
+author: sigitac
+ms.date: 04/26/2021
+ms.topic: article
+ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: 102a7cdba467a2071119c5b32d2e75e48170c783
+ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
+ms.translationtype: HT
+ms.contentlocale: cs-CZ
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5955723"
+---
+# <a name="project-invoice-integration"></a><span data-ttu-id="c8636-103">Integrace projektové faktury</span><span class="sxs-lookup"><span data-stu-id="c8636-103">Project invoice integration</span></span>
+
+<span data-ttu-id="c8636-104">Toto téma poskytuje informace o integraci fakturaci zákazníka Project Operations s použitím duálního zápisu.</span><span class="sxs-lookup"><span data-stu-id="c8636-104">This topic provides information about Project Operations dual-write integration for customer invoicing.</span></span>
+
+<span data-ttu-id="c8636-105">V Project Operations projektový manažer spravuje nevyřízené účty fakturace projektu a vytváří proforma fakturu pro zákazníka v Microsoft Dataverse.</span><span class="sxs-lookup"><span data-stu-id="c8636-105">In Project Operations, the Project manager manages the project billing backlog and creates a proforma invoice for the customer in Microsoft Dataverse.</span></span> <span data-ttu-id="c8636-106">Na základě této proforma faktury vytvoří účetní pohledávek nebo účetní projektu zákaznickou fakturu.</span><span class="sxs-lookup"><span data-stu-id="c8636-106">Based on this proforma invoice, the Accounts receivable clerk or Project accountant creates a customer-facing invoice.</span></span> <span data-ttu-id="c8636-107">Integrace duálního zápisu zajišťuje synchronizaci údajů proforma faktury do aplikace Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="c8636-107">Dual-write integration ensures that the proforma invoice details are synchronized to Finance and Operations apps.</span></span> <span data-ttu-id="c8636-108">Po zaúčtování faktury orientované na zákazníka systém aktualizuje příslušné skutečné hodnoty projektu Dataverse s údaji účetnictví.</span><span class="sxs-lookup"><span data-stu-id="c8636-108">After the customer-facing invoice is posted, the system updates the relevant project actuals in Dataverse with the accounting detail.</span></span> <span data-ttu-id="c8636-109">Následující obrázek poskytuje koncepční přehled této integrace na vysoké úrovni.</span><span class="sxs-lookup"><span data-stu-id="c8636-109">The following graphic provides a high-level conceptual overview of this integration.</span></span>
+
+   ![Integrace projektové faktury](./media/DW5Invoicing.png)
+
+<span data-ttu-id="c8636-111">Poté, co vedoucí projektu potvrdí proforma fakturu v Dataverse, údaje záhlaví proforma faktury se synchronizují do aplikace Finance and Operations pomocí mapu tabulky se duálním zápisem **Návrh faktury projektu V2 (faktury)**.</span><span class="sxs-lookup"><span data-stu-id="c8636-111">After the Project manager confirms the proforma invoice in Dataverse, the proforma invoice header information synchronizes to Finance and Operations apps using the dual-write table map, **Project invoice proposal V2 (invoices)**.</span></span> <span data-ttu-id="c8636-112">Toto je jednosměrná integrace z Dataverse do aplikací Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="c8636-112">This is a one-way integration from Dataverse to Finance and Operations apps.</span></span> <span data-ttu-id="c8636-113">Vytváření nebo mazání návrhů faktur projektu přímo v aplikacích Finance and Operations není podporováno.</span><span class="sxs-lookup"><span data-stu-id="c8636-113">Creating or deleting Project invoice proposals directly in Finance and Operations apps isn't supported.</span></span>
+
+<span data-ttu-id="c8636-114">Potvrzení faktury v Dataverse také spustí obchodní logiku k vytvoření záznamů souvisejících s fakturací v entitě **Skutečné hodnoty**.</span><span class="sxs-lookup"><span data-stu-id="c8636-114">Invoice confirmation in Dataverse also triggers the business logic to create billing-related records in the **Actuals** entity.</span></span> <span data-ttu-id="c8636-115">Tyto záznamy jsou synchronizovány do aplikací Finance and Operations pomocí mapy tabulky s duálním zápisem **Skutečné hodnoty integrace Project Operations (msdyn\_actuals)**.</span><span class="sxs-lookup"><span data-stu-id="c8636-115">These records are synchronized to Finance and Operations using the dual-write table map, **Project Operations integration actuals (msdyn\_actuals).**</span></span> <span data-ttu-id="c8636-116">Další informace viz [Odhady a skutečné hodnoty projektu](resource-dual-write-estimates-actuals.md).</span><span class="sxs-lookup"><span data-stu-id="c8636-116">For more information, see [Project estimates and actuals](resource-dual-write-estimates-actuals.md).</span></span> 
+
+<span data-ttu-id="c8636-117">Řádky návrhu faktury projektu jsou vytvářeny periodickým procesem **Import pracovního formuláře**.</span><span class="sxs-lookup"><span data-stu-id="c8636-117">Project invoice proposal lines are created by the periodic process, **Import form staging**.</span></span> <span data-ttu-id="c8636-118">Tento proces je založen na údajích fakturovaných skutečných hodnot prodeje v tabulce **Skutečné pracovní hodnoty**.</span><span class="sxs-lookup"><span data-stu-id="c8636-118">This process is based on the billed sales actuals details in the **Actuals staging** table.</span></span> <span data-ttu-id="c8636-119">Další informace viz [Správa návrhů faktur projektu](../invoicing/format-update-project-invoice-proposals.md#create-project-invoice-proposals).</span><span class="sxs-lookup"><span data-stu-id="c8636-119">For more information, see [Manage project invoice proposals](../invoicing/format-update-project-invoice-proposals.md#create-project-invoice-proposals).</span></span> 
