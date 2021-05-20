@@ -1,9 +1,9 @@
 ---
 title: Definování kalendářů projektů
-description: Toto téma poskytuje informace o používání kalendáře projektu ke sledování plánu projektu.
+description: Tento téma poskytuje informace o tom, jak použít šablonu kalendáře na projekt ke sledování harmonogramu projektu.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286960"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981292"
 ---
 # <a name="define-project-calendars"></a>Definování kalendářů projektů
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Chcete-li vytvořit plán projektu, vytvořte šablonu projektového kalendáře, který definuje počet pracovních hodin denně a všechny zavírací dny. Chcete-li vytvořit šablonu kalendáře projektu, přidružte šablonu práce k poli **Šablona kalendáře** pro projekt. Při vytváření šablony práce postupujte takto.
+Chcete-li vytvořit a spravovat projekt, musíte na projekt použít šablonu kalendáře. Šablona kalendáře definuje následující atributy projektu:
 
-1. V levém navigačním podokně vyberte **Zdroje**. 
-2. Na stránce se seznamem **Zdroje** otevřete záznam uživatele a pak vyberte **Zobrazit pracovní dobu**.
+- Pracovní doba, včetně času zahájení a ukončení
+- Pracovní dny
+- Výjimky v kalendáři, například nepracovní dny
 
-  > [!NOTE]
-  > Ujistěte se, že na stránce prohlížeče povolíte automaticky otevíraná okna. To vám umožní zobrazit pracovní hodiny nastavené pro daný zdroj.
-  
-3. Na kartě **Měsíční zobrazení** vyberte **Nastavit**. Zobrazí se seznam se třemi možnostmi: 
+Šablona kalendáře, která se použije na projekt, je kopií šablony kalendáře definované v nastavení vaší organizace.
 
-  - Nový týdenní plán
-  - Pracovní plán na jeden den
-  - Volno
+> [!NOTE]
+> Pokud změníte šablonu kalendáře, tyto změny se nebudou šířit do pracovní doby projektu. Chcete-li změnit pracovní dobu projektu, je nutné použít novou šablonu.
 
-4. Vyberte **Nový týdenní plán** a pak nastavte možnosti pro tento plán zdrojů. Můžete nastavit opakovaný týdenní plán, parametry denní hodiny, zavírací dny a další.
-5. Nastavte rozsah kalendářních dat, vyberte **Uložit** a vyberte **Zavřít**. 
-6. Vraťte se zpět na se seznamem **Zdroje** a vyberte zdroj, pro který jste nastavili pracovní dobu. 
-7. Chcete-li nastavit šablonu práce vyberte **Nastavit kalendář jako**. 
-8. V dialogovém **Šablona práce** zadejte název šablony práce a pak vyberte **Použít**. 
+K vytvoření šablony kalendáře pro vaši organizaci existují dva klíčové požadavky:
+
+- Definujte požadovanou pracovní dobu šablony pomocí nového nebo existujícího rezervovatelného zdroje.
+- Vytvořte novou šablonu kalendáře a přidružte ji k rezervovatelnému prostředku.
+
+**Definujte pracovní dobu šablony**
+
+1. Přejděte na **Zdroje** \> **Zdroje**.
+2. Vytvořte nový prostředek, který bude odkazovat v šabloně kalendáře, nebo vyberte existující prostředek.
+3. Vyberte kartu **Pracovní doba** zdroje a postupujte podle pokynů v části [Nastavení pracovní doby zdroje](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) ke konfiguraci pravidel kalendáře.
+
+**Vytvořit novou šablonu kalendáře**
+
+1. Přejděte na **Nastavení** \> **Šablona kalendáře**.
+2. Vyberte **Nový** a zadejte název, popis a prostředek šablony.
+
+> [!NOTE]
+> Když je prostředek odkazován v šabloně kalendáře, je kopie kalendáře prostředku přidružena k šabloně kalendáře. Pokud se změní pracovní doba kopírované šablony, tyto změny se nebudou šířit do šablony kalendáře.
 
 Nyní můžete šablonu práce přidružit k šabloně kalendáře projektu.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
