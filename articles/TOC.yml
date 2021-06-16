@@ -52,7 +52,9 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Co je nového
       items:
-        - name: 'Duben 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+        - name: 'Květen 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-may-2021-resource-based.md
+        - name: 'Duben 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 'Březen 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
           href: whats-new/whats-new-mar-2021-resource-based.md
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Nastavení kategorií výdajů
               href: expense/set-up-expense-categories.md
+            - name: Nastavení najetých kilometrů pomocí úrovní najetých kilometrů
+              href: expense/set-up-mileage.md
         - name: Osobní výdaje
           href: expense/personal-expenses-expense-report.md
         - name: Mezipodnikové výdaje
@@ -502,15 +506,17 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: Nasazení Project Operations - omezené
           href: environment/lite-deployment.md
-        - name: Použití ukázkového nastavení a dat konfigurace - omezené
+        - name: Použití ukázkového nastavení a dat konfigurace – omezené
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Model zabezpečení
           href: environment/security-model.md
     - name: Co je nového
       items:
-        - name: 'Co je nového, duben 2021 - omezené nasazení'
+        - name: 'Co je nového, květen 2021 – omezené nasazení'
+          href: pro/whats-new/whats-new-may-2021-lite.md
+        - name: 'Co je nového, duben 2021 – omezené nasazení'
           href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: 'Co je nového, březen 2021 - omezené nasazení'
+        - name: 'Co je nového, březen 2021 – omezené nasazení'
           href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: 'Co je nového, únor 2021 - omezené nasazení'
           href: pro/whats-new/whats-new-feb-2021-lite.md
@@ -1028,6 +1034,8 @@
       items:
         - name: Plán vydávání aktualizací pro Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 30, V3'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Přizpůsobení týdenních časových záznamů
               href: psa/time-entry-extensibility-v3.md
+            - name: Sady schválení
+              href: psa/approval-set.md
     - name: Nejčastější dotazy a poradce při potížích (3.x)
       items:
         - name: Proč je výchozí cena skutečných výdajových nákladů nastavena na nulu?
