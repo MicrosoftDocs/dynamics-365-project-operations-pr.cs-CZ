@@ -2,19 +2,17 @@
 title: Konfigurace neskladovaných materiálů a nevyřízené faktury dodavatele
 description: Tento téma vysvětluje, jak povolit neskladované materiály a nevyřízené faktury dodavatele.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880631"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993903"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurace neskladovaných materiálů a nevyřízené faktury dodavatele
 
@@ -61,11 +59,11 @@ Pokud používáte standardní demo data, možná budete muset zastavit a restar
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktivujte pracovní postup a vytvářejte účty založené na entitě dodavatele
 
-Řešení orchestrace duálního zápisu poskytuje [hlavní integraci dodavatelů](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Jako předpoklad pro tuto funkci musí být data dodavatele vytvořena v entitě **Účty**. Aktivujte proces pracovního postupu šablony a vytvořte dodavatele v tabulce **Účty**, jak je popsáno v [přepínání mezi návrhy prodejců](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Řešení orchestrace duálního zápisu poskytuje [hlavní integraci dodavatelů](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Jako předpoklad pro tuto funkci musí být data dodavatele vytvořena v entitě **Účty**. Aktivujte proces pracovního postupu šablony a vytvořte dodavatele v tabulce **Účty**, jak je popsáno v [přepínání mezi návrhy prodejců](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Nastavení produktů, které mají být vytvořeny jako aktivní
 
-Neskladované materiály musí být nakonfigurovány jako **Vydané produkty** ve Finance. Řešení orchestrace duálního zápisu poskytuje připravenou [integraci vydaných produktů do produktového katalogu Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Ve výchozím nastavení jsou produkty z Finance synchronizovány do Dataverse ve stavu konceptu. Chcete-li produkt synchronizovat do aktivního stavu, aby jej bylo možné přímo použít v dokumentech o použití materiálu nebo nevyřízených fakturách dodavatele, přejděte na **Systém** > **Správa** > **Správa systému** > **Nastavení systému** a na kartě **Prodej** nastavte **Vytvářet produkty v aktivním stavu** na **Ano**.
+Neskladované materiály musí být nakonfigurovány jako **Vydané produkty** ve Finance. Řešení orchestrace duálního zápisu poskytuje připravenou [integraci vydaných produktů do produktového katalogu Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Ve výchozím nastavení jsou produkty z Finance synchronizovány do Dataverse ve stavu konceptu. Chcete-li produkt synchronizovat do aktivního stavu, aby jej bylo možné přímo použít v dokumentech o použití materiálu nebo nevyřízených fakturách dodavatele, přejděte na **Systém** > **Správa** > **Správa systému** > **Nastavení systému** a na kartě **Prodej** nastavte **Vytvářet produkty v aktivním stavu** na **Ano**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Konfigurace předpokladů ve Finance
 

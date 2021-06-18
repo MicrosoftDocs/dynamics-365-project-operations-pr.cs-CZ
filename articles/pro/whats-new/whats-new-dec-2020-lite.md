@@ -2,19 +2,17 @@
 title: Co je nového, prosinec 2020 – omezené nasazení Project Operations – od obchodu po proforma fakturaci
 description: Tohle téma poskytuje informace o aktualizacích pro zvýšení kvality, které jsou k dispozici v omezeném nasazení Project Operations z prosince 2020 – od obchodu po proforma fakturaci.
 author: sigitac
-manager: Annbe
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 383fa01a7d79989aef041a8fd68749446aeba367
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8b813d0fc99b8bce9000c983f51f919adbe1aaac
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272200"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994038"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Co je nového, prosinec 2020 – omezené nasazení Project Operations – od obchodu po proforma fakturaci
 

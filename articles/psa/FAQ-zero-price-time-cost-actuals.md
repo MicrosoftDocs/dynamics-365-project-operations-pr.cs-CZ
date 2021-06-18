@@ -2,8 +2,6 @@
 title: Proč je výchozí cena skutečných časových nákladů nastavena na nulu?
 description: Odstranění problému, kdy je výchozí cena skutečných časových nákladů nastavena na nulu.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 65f2bc773a376800928cc3746691061d8e290f74
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffe915a48f088bde457121a323325ba490c24e45
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285790"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993048"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-time-cost-actuals"></a>Proč je výchozí cena skutečných časových nákladů nastavena na nulu?
 
