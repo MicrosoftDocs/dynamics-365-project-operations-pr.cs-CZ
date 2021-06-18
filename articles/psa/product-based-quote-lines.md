@@ -2,8 +2,6 @@
 title: Řádky nabídky založené na produktu
 description: Toto téma poskytuje informace o řádcích nabídky založených na produktu.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8bde88f5f2d00c09129c6a9363c09f6f6ad1dd90
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284080"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998493"
 ---
 # <a name="product-based-quote-lines"></a>Řádky nabídky založené na produktu
 
