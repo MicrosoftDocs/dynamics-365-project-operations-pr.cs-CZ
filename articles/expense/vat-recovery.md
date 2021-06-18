@@ -2,18 +2,16 @@
 title: Vratka DPH ve správě výdajů
 description: Toto téma vysvětluje, jak získat vrácení peněz za transakce způsobilé k dani z přidané hodnoty (DPH).
 author: suvaidya
-manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1c7bd2cb3b200ef3be735484d4e831a7a5793d58
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a840c808a76c96dd5f9dfb863c230801718c203c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275935"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001688"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Vratka DPH ve správě výdajů
 
@@ -35,25 +33,25 @@ Po splnění nezbytných předpokladů je třeba provést následující kroky k
 4. Zašlete údaje o vratkách DPH prodejci třetí strany a podejte mezinárodní přiznání k vrácení.
 5. Zpracujte výdaje na tuzemské vrácení DPH.
 
-V následujících částech jsou uvedeny příklady, které ukazují, jak zaměstnanci společnosti Contoso dokončují jednotlivé kroky.
+V následujících částech jsou uvedeny příklady, které ukazují, jak zaměstnanci Contoso provádějí jednotlivé kroky.
 
 ## <a name="enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Zadejte daňové údaje o transakcích kreditní kartou, abyste identifikovali nároky na vrácení DPH.
 
-Nancy, obchodní zástupkyně společnosti Contoso se sídlem ve Spojených státech, se nedávno vrátila z obchodní cesty do Spojeného království. Během výletu Nancy vznikly nějaké soukromé výdaje na kreditní kartě za jídlo. Nancy nyní musí vytvořit vyúčtování výdajů, aby sesouhlasila výdaje.
+Petra, obchodní zástupkyně Contoso se sídlem v USA, se nedávno vrátila z prodejní cesty do Velké Británie. Během výletu Nancy vznikly nějaké soukromé výdaje na kreditní kartě za jídlo. Nancy nyní musí vytvořit vyúčtování výdajů, aby sesouhlasila výdaje.
 
 Když Nancy zadá informace ve vyúčtování výdajů, vybere v poli **Země/region** na stránce **Upravit vyúčtování výdajů** možnost **Spojené království**. Seznam skupin DPH je poté filtrován, takže zobrazuje pouze skupiny, které se vztahují na Spojené království. Nancy vybere skupinu DPH **Spojené království 001** a poté vybere skupinu DPH **Jídla**. Dále Nancy přidá novou transakci pro ubytování. Protože pro ubytování ve Spojeném království existuje pouze jedna skupina DPH a jedna skupina daně z prodeje zboží, tyto informace se automaticky vyplní v Nancyně vyúčtování výdajů.
 
-Podle zásad společnosti Contoso musí mít všechny výdaje odpovídající potvrzení. Když tedy Nancy uloží vyúčtování výdajů, obdrží zprávu, která uvádí, že musí připojit potvrzení o každé transakci, kterou uvedla ve svém vyúčtování výdajů. Nancy ověří, že ke svému vyúčtování výdajů připojila digitální snímek potvrzení každé transakce, a poté odešle vyúčtování ke schválení. Poté odešle papírové příjemky týmu zpracování back-office. Tento tým odešle údaje o vratce DPH dodavateli třetí strany, který pro společnost Contoso podává mezinárodní přiznání k vrácení DPH.
+Podle zásad Contoso musí mít všechny výdaje odpovídající potvrzení. Když tedy Nancy uloží vyúčtování výdajů, obdrží zprávu, která uvádí, že musí připojit potvrzení o každé transakci, kterou uvedla ve svém vyúčtování výdajů. Nancy ověří, že ke svému vyúčtování výdajů připojila digitální snímek potvrzení každé transakce, a poté odešle vyúčtování ke schválení. Poté odešle papírové příjemky týmu zpracování back-office. Tento tým odešle údaje o vrácení DPH dodavateli třetí strany, který podává mezinárodní přiznání k vrácení DPH za Contoso.
 
 ## <a name="verify-tax-information-and-post-an-expense-report"></a>Ověření daňových údajů a zaúčtování vyúčtování výdajů
 
-Než bude moci April, koordinátorka účtů pro společnost Contoso zaúčtovat vyúčtování výdajů, musí zadat všechny daňové informace, které v něm chybí. Otevře stránku **Podrobnosti vyúčtování výdajů** a uvidí schválené vyúčtování výdajů Nancy. April poté otevře vyúčtování výdajů a zobrazí podrobnosti transakcí. Vidí, že Nancy pro jednu z transakcí nezadala skupinu DPH. Protože tyto informace nejsou poskytnuty, April nemůže zaúčtovat vyúčtování výdajů. Proto přejde na stránku **Daňové konfigurace** v okně Správa výdajů a najde příslušnou skupinu DPH pro danou zemi / region a typ transakce. April nyní může zaúčtovat vyúčtování výdajů do hlavní knihy.
+Než může April, koordinátorka závazků pro Contoso, odeslat přehled o výdajích, musí zadat všechny daňové údaje, které v sestavě výdajů chybí. Otevře stránku **Podrobnosti vyúčtování výdajů** a uvidí schválené vyúčtování výdajů Nancy. April poté otevře vyúčtování výdajů a zobrazí podrobnosti transakcí. Vidí, že Nancy pro jednu z transakcí nezadala skupinu DPH. Protože tyto informace nejsou poskytnuty, April nemůže zaúčtovat vyúčtování výdajů. Proto přejde na stránku **Daňové konfigurace** v okně Správa výdajů a najde příslušnou skupinu DPH pro danou zemi / region a typ transakce. April nyní může zaúčtovat vyúčtování výdajů do hlavní knihy.
 
 Když April zaúčtuje vyúčtování výdajů, vytvoří se pracovní položka s možností vrácení DPH. Tato pracovní položka je přiřazena členovi týmu zpracování back-office. April obdrží zprávu, která potvrzuje, že zaúčtování bylo úspěšné. Tato zpráva také uvádí počet transakcí s DPH, které byly identifikovány k vrácení.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Zpracování výdajů, které jsou způsobilé pro mezinárodní vratky DPH
 
-Arnie, člen týmu pro zpracování back-office společnosti Contoso, je odpovědný za ověření, zda jsou ve vyúčtováních výdajů zahrnuty všechny požadované informace pro vrácení DPH. Otevře stránku **Vratka daně z výdajů** a vybere vyúčtování výdajů, které Nancy odeslala. Arnie poté ověří, zda jsou připojeny všechny požadované příjemky a zda byly zadány správné kódy skupiny DPH a položky DPH.
+Arnie, člen kancelářského týmu zpracování Contoso, je odpovědný za ověření, že všechny požadované informace pro vrácení DPH jsou zahrnuty ve výkazech výdajů. Otevře stránku **Vratka daně z výdajů** a vybere vyúčtování výdajů, které Nancy odeslala. Arnie poté ověří, zda jsou připojeny všechny požadované příjemky a zda byly zadány správné kódy skupiny DPH a položky DPH.
 
 Když Arnie obdrží papírové příjemky od Nancy, ověří je proti digitálním stvrzenkám a poté změní stav vyúčtování výdajů na **Připraveno k vratce**.
 

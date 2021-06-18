@@ -2,18 +2,16 @@
 title: Nastavení a použití konfiguračních dat v Common Data Service
 description: Toto téma poskytuje informace o tom, jak nastavit a použít konfigurační data v aplikaci Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289811"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001283"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Nastavení a použití konfiguračních dat v Common Data Service 
 
@@ -33,7 +31,7 @@ Než začnete konfigurovat data v Common Data Service (CDS), musí být splněny
 
 ## <a name="install-setup-and-configuration-data"></a>Instalace nastavení a dat konfigurace
 
-1. Stáhněte, odblokujte a rozbalte soubor [Balíček údajů o nastavení a konfiguraci](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Stáhněte, odblokujte a rozbalte soubor [Balíček údajů o nastavení a konfiguraci](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Přejděte do rozbalené složky a spusťte soubor *DataMigrationUtility*.
 3. Na straně 1 Průvodce konfigurací migrace (CMT) Common Data Service, vyberte **Importovat data** a poté vyberte **Pokračovat**.
 
@@ -57,13 +55,20 @@ Než začnete konfigurovat data v Common Data Service (CDS), musí být splněny
 ![Importovat data](./media/5ImportData.png)
 
 10. Import bude probíhat přibližně dvě až deset minut v závislosti na rychlosti vaší sítě. Po dokončení importu ukončete průvodce CMT. 
-11. Zkontrolujte ve své organizaci data v následujících 19 entitách:
+11. Zkontrolujte ve své organizaci data v následujících 26 entitách:
 
   - Měna
+  - Účtová osnova
+  - Fiskální kalendář
+  - Typy směnného kurzu měny
+  - Datum platby
+  - Plán plateb
+  - Platební podmínka
   - Organizační jednotka
   - Kontakt
   - Daňová skupina
   - Skupina zákazníků
+  - Skupina prodejců
   - Jednotka
   - Skupina jednotek
   - Ceník
