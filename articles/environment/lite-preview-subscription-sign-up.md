@@ -2,95 +2,93 @@
 title: Registrace k odběru verze Preview – omezené
 description: Toto téma obsahuje informace o tom, jak se přihlásit k odběru a nasadit omezené nasazení Project Operations - od obchodu po pro forma fakturaci.
 author: sigitac
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4de51277e5a08690cc16497e3916f40498b39fb8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290036"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997413"
 ---
-# <a name="sign-up-for-a-preview-subscription---lite"></a><span data-ttu-id="e9cfc-103">Registrace k odběru verze Preview – omezené</span><span class="sxs-lookup"><span data-stu-id="e9cfc-103">Sign up for a preview subscription - lite</span></span> 
+# <a name="sign-up-for-a-preview-subscription---lite"></a><span data-ttu-id="b1d87-103">Registrace k odběru verze Preview – omezené</span><span class="sxs-lookup"><span data-stu-id="b1d87-103">Sign up for a preview subscription - lite</span></span> 
 
-<span data-ttu-id="e9cfc-104">Toto téma vysvětluje, jak se přihlásit k odběru nabídky a nasazení partnerské nabídky a nasazení Dynamics 365 Project Operations Lite - dohoda o proforma fakturaci.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-104">This topic explains how to subscribe to the preview partner offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.</span></span>
+<span data-ttu-id="b1d87-104">Toto téma vysvětluje, jak se přihlásit k odběru nabídky a nasazení partnerské nabídky a nasazení Dynamics 365 Project Operations Lite - dohoda o proforma fakturaci.</span><span class="sxs-lookup"><span data-stu-id="b1d87-104">This topic explains how to subscribe to the preview partner offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e9cfc-105">Tento proces se v nadcházejících verzích Project Operations změní.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-105">This process will change in upcoming releases of Project Operations.</span></span>
+> <span data-ttu-id="b1d87-105">Tento proces se v nadcházejících verzích Project Operations změní.</span><span class="sxs-lookup"><span data-stu-id="b1d87-105">This process will change in upcoming releases of Project Operations.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="e9cfc-106">Požadavky</span><span class="sxs-lookup"><span data-stu-id="e9cfc-106">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="b1d87-106">Požadavky</span><span class="sxs-lookup"><span data-stu-id="b1d87-106">Prerequisites</span></span>
 
-- <span data-ttu-id="e9cfc-107">Obdržíte e-mail s výzvou k účasti v programu Preview.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-107">You'll receive an email inviting you to participate in the preview.</span></span> <span data-ttu-id="e9cfc-108">O preview můžete požádat na [webu Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span><span class="sxs-lookup"><span data-stu-id="e9cfc-108">You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span></span>
-- <span data-ttu-id="e9cfc-109">Uživatel, který nasadí preview, musí mít práva globálního správce klienta Azure.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-109">The user who deploys the preview must have Azure tenant global administrator rights.</span></span>
-- <span data-ttu-id="e9cfc-110">Přečtěte si všechny smluvní podmínky.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-110">Review all terms and conditions.</span></span>
+- <span data-ttu-id="b1d87-107">Obdržíte e-mail s výzvou k účasti v programu Preview.</span><span class="sxs-lookup"><span data-stu-id="b1d87-107">You'll receive an email inviting you to participate in the preview.</span></span> <span data-ttu-id="b1d87-108">O preview můžete požádat na [webu Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span><span class="sxs-lookup"><span data-stu-id="b1d87-108">You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span></span>
+- <span data-ttu-id="b1d87-109">Uživatel, který nasadí preview, musí mít práva globálního správce klienta Azure.</span><span class="sxs-lookup"><span data-stu-id="b1d87-109">The user who deploys the preview must have Azure tenant global administrator rights.</span></span>
+- <span data-ttu-id="b1d87-110">Přečtěte si všechny smluvní podmínky.</span><span class="sxs-lookup"><span data-stu-id="b1d87-110">Review all terms and conditions.</span></span>
 
-## <a name="subscribe"></a><span data-ttu-id="e9cfc-111">Odebírat</span><span class="sxs-lookup"><span data-stu-id="e9cfc-111">Subscribe</span></span>
+## <a name="subscribe"></a><span data-ttu-id="b1d87-111">Odebírat</span><span class="sxs-lookup"><span data-stu-id="b1d87-111">Subscribe</span></span>
 
-<span data-ttu-id="e9cfc-112">Když obdržíte schválení [požadavku na preview](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), dostanete od společnosti Microsoft e-mailem dvě nabídky.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-112">When you receive a [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) approval, you'll receive two offers from Microsoft by email.</span></span> <span data-ttu-id="e9cfc-113">Tyto nabídky vám umožňují nasadit Project Operations Preview:</span><span class="sxs-lookup"><span data-stu-id="e9cfc-113">These offers allow you to deploy the Project Operations Preview:</span></span>
+<span data-ttu-id="b1d87-112">Když obdržíte schválení [požadavku na preview](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), dostanete od společnosti Microsoft e-mailem dvě nabídky.</span><span class="sxs-lookup"><span data-stu-id="b1d87-112">When you receive a [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) approval, you'll receive two offers from Microsoft by email.</span></span> <span data-ttu-id="b1d87-113">Tyto nabídky vám umožňují nasadit Project Operations Preview:</span><span class="sxs-lookup"><span data-stu-id="b1d87-113">These offers allow you to deploy the Project Operations Preview:</span></span>
 
-- <span data-ttu-id="e9cfc-114">Zkušební verze Preview Dynamics 365 Project Operations (CRM)</span><span class="sxs-lookup"><span data-stu-id="e9cfc-114">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span>
-- <span data-ttu-id="e9cfc-115">Office 365 Project Operations – zkušební verze Preview</span><span class="sxs-lookup"><span data-stu-id="e9cfc-115">Office 365 Project Operations - Preview Trial</span></span>
+- <span data-ttu-id="b1d87-114">Zkušební verze Preview Dynamics 365 Project Operations (CRM)</span><span class="sxs-lookup"><span data-stu-id="b1d87-114">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span>
+- <span data-ttu-id="b1d87-115">Office 365 Project Operations – zkušební verze Preview</span><span class="sxs-lookup"><span data-stu-id="b1d87-115">Office 365 Project Operations - Preview Trial</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="e9cfc-116">Tuto úlohu musí v organizaci provést pouze jedna osoba, správce tenanta.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-116">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="e9cfc-117">Pokud nejste předplatitelem tohoto vydání, počkejte, dokud nebude vaše organizace zaregistrována a neobdržíte přihlašovací údaje uživatele.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-117">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
+> <span data-ttu-id="b1d87-116">Tuto úlohu musí v organizaci provést pouze jedna osoba, správce tenanta.</span><span class="sxs-lookup"><span data-stu-id="b1d87-116">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="b1d87-117">Pokud nejste předplatitelem tohoto vydání, počkejte, dokud nebude vaše organizace zaregistrována a neobdržíte přihlašovací údaje uživatele.</span><span class="sxs-lookup"><span data-stu-id="b1d87-117">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a><span data-ttu-id="e9cfc-118">Zkušební verze Preview Dynamics 365 Project Operations (CRM)</span><span class="sxs-lookup"><span data-stu-id="e9cfc-118">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span> 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a><span data-ttu-id="b1d87-118">Zkušební verze Preview Dynamics 365 Project Operations (CRM)</span><span class="sxs-lookup"><span data-stu-id="b1d87-118">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span> 
 
-<span data-ttu-id="e9cfc-119">Než začnete, ujistěte se, že jste přihlášeni do prohlížeče s pracovním účtem uživatele v klientu, kde chcete Project Operations Preview mít.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-119">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
+<span data-ttu-id="b1d87-119">Než začnete, ujistěte se, že jste přihlášeni do prohlížeče s pracovním účtem uživatele v klientu, kde chcete Project Operations Preview mít.</span><span class="sxs-lookup"><span data-stu-id="b1d87-119">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
 
-1. <span data-ttu-id="e9cfc-120">Uplatněte první kód nabídky **Dynamics 365 Project Operations (CRM) - zkušební verze náhledu** vložením do adresy URL prohlížeče.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-120">Redeem the first offer code, **Dynamics 365 Project Operations (CRM) - Preview Trial** by pasting it into the browser URL.</span></span>
+1. <span data-ttu-id="b1d87-120">Uplatněte první kód nabídky **Dynamics 365 Project Operations (CRM) - zkušební verze náhledu** vložením do adresy URL prohlížeče.</span><span class="sxs-lookup"><span data-stu-id="b1d87-120">Redeem the first offer code, **Dynamics 365 Project Operations (CRM) - Preview Trial** by pasting it into the browser URL.</span></span>
 
 ![Uplatnění nabídky](./media/16RedeemFirstOfferNew.png)
 
-2. <span data-ttu-id="e9cfc-122">Objednávku potvrďte.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-122">Confirm your order.</span></span>
-<span data-ttu-id="e9cfc-123">![Potvrďte objednávku](./media/17ConfirmOrderNew.png)</span><span class="sxs-lookup"><span data-stu-id="e9cfc-123">![Confirm the order](./media/17ConfirmOrderNew.png)</span></span>
+2. <span data-ttu-id="b1d87-122">Objednávku potvrďte.</span><span class="sxs-lookup"><span data-stu-id="b1d87-122">Confirm your order.</span></span>
+<span data-ttu-id="b1d87-123">![Potvrďte objednávku](./media/17ConfirmOrderNew.png)</span><span class="sxs-lookup"><span data-stu-id="b1d87-123">![Confirm the order](./media/17ConfirmOrderNew.png)</span></span>
 
-<span data-ttu-id="e9cfc-124">Uvidíte, že nabídka potvrzení byla úspěšně uplatněna.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-124">You'll see confirmation offer was successfully redeemed.</span></span>
+<span data-ttu-id="b1d87-124">Uvidíte, že nabídka potvrzení byla úspěšně uplatněna.</span><span class="sxs-lookup"><span data-stu-id="b1d87-124">You'll see confirmation offer was successfully redeemed.</span></span>
 
 ![Potvrzení](./media/18OrderConfirmationNew.png)
 
-### <a name="office-365-project-operations---preview-trial"></a><span data-ttu-id="e9cfc-126">Office 365 Project Operations – zkušební verze Preview</span><span class="sxs-lookup"><span data-stu-id="e9cfc-126">Office 365 Project Operations - Preview Trial</span></span>
+### <a name="office-365-project-operations---preview-trial"></a><span data-ttu-id="b1d87-126">Office 365 Project Operations – zkušební verze Preview</span><span class="sxs-lookup"><span data-stu-id="b1d87-126">Office 365 Project Operations - Preview Trial</span></span>
 
-<span data-ttu-id="e9cfc-127">Opakujte stejné kroky jako u prvního nabídkového kódu.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-127">Repeat the same steps as with the first offer code.</span></span> <span data-ttu-id="e9cfc-128">Přidejte druhý kód nabídky pomocí stejného uživatelského účtu, který byl použit s prvním kódem nabídky.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-128">Make sure to add the second offer code using the same user account that was used with the first offer code.</span></span>
+<span data-ttu-id="b1d87-127">Opakujte stejné kroky jako u prvního nabídkového kódu.</span><span class="sxs-lookup"><span data-stu-id="b1d87-127">Repeat the same steps as with the first offer code.</span></span> <span data-ttu-id="b1d87-128">Přidejte druhý kód nabídky pomocí stejného uživatelského účtu, který byl použit s prvním kódem nabídky.</span><span class="sxs-lookup"><span data-stu-id="b1d87-128">Make sure to add the second offer code using the same user account that was used with the first offer code.</span></span>
 
-## <a name="assign-licenses"></a><span data-ttu-id="e9cfc-129">Přiřazení licencí</span><span class="sxs-lookup"><span data-stu-id="e9cfc-129">Assign licenses</span></span>
+## <a name="assign-licenses"></a><span data-ttu-id="b1d87-129">Přiřazení licencí</span><span class="sxs-lookup"><span data-stu-id="b1d87-129">Assign licenses</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="e9cfc-130">Budete potřebovat přístup správce k portálu Microsoft 365 vaší organizace, abyste mohli dokončit následující kroky.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-130">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
+> <span data-ttu-id="b1d87-130">Budete potřebovat přístup správce k portálu Microsoft 365 vaší organizace, abyste mohli dokončit následující kroky.</span><span class="sxs-lookup"><span data-stu-id="b1d87-130">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
 
 
-1. <span data-ttu-id="e9cfc-131">Přejděte do [Centra pro správu Microsoft 365](https://portal.office.com/), kde přiřadíte licence vašim uživatelům.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-131">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
+1. <span data-ttu-id="b1d87-131">Přejděte do [Centra pro správu Microsoft 365](https://portal.office.com/), kde přiřadíte licence vašim uživatelům.</span><span class="sxs-lookup"><span data-stu-id="b1d87-131">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
 
 ![Domovská stránka centra pro správu](./media/14AdminPortal.png)
 
-2. <span data-ttu-id="e9cfc-133">Na stránce **Aktivní uživatelé** vyberte uživatele, kterým chcete přiřadit licenci.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-133">On the **Active users** page, select the users that you want to assign a license to.</span></span>
+2. <span data-ttu-id="b1d87-133">Na stránce **Aktivní uživatelé** vyberte uživatele, kterým chcete přiřadit licenci.</span><span class="sxs-lookup"><span data-stu-id="b1d87-133">On the **Active users** page, select the users that you want to assign a license to.</span></span>
 
 ![Přiřazení licencí](./media/15AssignLicenses.png)
 
-3. <span data-ttu-id="e9cfc-135">Ověřte, že jsou vybrány licence **Dynamics 365 Project Operations (CRM) Preview** a **Office 365 Project Operations - Preview**.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-135">Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** licenses are selected.</span></span> 
-4. <span data-ttu-id="e9cfc-136">Vyberte volbu **Uložit změny**.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-136">Select **Save changes**.</span></span>
+3. <span data-ttu-id="b1d87-135">Ověřte, že jsou vybrány licence **Dynamics 365 Project Operations (CRM) Preview** a **Office 365 Project Operations - Preview**.</span><span class="sxs-lookup"><span data-stu-id="b1d87-135">Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** licenses are selected.</span></span> 
+4. <span data-ttu-id="b1d87-136">Vyberte volbu **Uložit změny**.</span><span class="sxs-lookup"><span data-stu-id="b1d87-136">Select **Save changes**.</span></span>
 
-## <a name="create-a-new-cds-environment"></a><span data-ttu-id="e9cfc-137">Vytvoření nového prostředí CDS</span><span class="sxs-lookup"><span data-stu-id="e9cfc-137">Create a new CDS environment</span></span>
+## <a name="create-a-new-cds-environment"></a><span data-ttu-id="b1d87-137">Vytvoření nového prostředí CDS</span><span class="sxs-lookup"><span data-stu-id="b1d87-137">Create a new CDS environment</span></span>
 
-1. <span data-ttu-id="e9cfc-138">Nové prostředí pro nasazení Project Operations CDS zřiďte podle pokynů v tématu [Model nasazení CDS](lite-deployment.md).</span><span class="sxs-lookup"><span data-stu-id="e9cfc-138">Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md).</span></span> <span data-ttu-id="e9cfc-139">Když vyberete typ prostředí, ujistěte se, že používáte **Zkušební verze (na základě předplatného)**.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-139">When you select the environment type, make sure to use **Trial (Subscription based)**.</span></span>
-<span data-ttu-id="e9cfc-140">![Nové prostředí](./media/19CreateEnvironment.png)</span><span class="sxs-lookup"><span data-stu-id="e9cfc-140">![New environment](./media/19CreateEnvironment.png)</span></span>
+1. <span data-ttu-id="b1d87-138">Nové prostředí pro nasazení Project Operations CDS zřiďte podle pokynů v tématu [Model nasazení CDS](lite-deployment.md).</span><span class="sxs-lookup"><span data-stu-id="b1d87-138">Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md).</span></span> <span data-ttu-id="b1d87-139">Když vyberete typ prostředí, ujistěte se, že používáte **Zkušební verze (na základě předplatného)**.</span><span class="sxs-lookup"><span data-stu-id="b1d87-139">When you select the environment type, make sure to use **Trial (Subscription based)**.</span></span>
+<span data-ttu-id="b1d87-140">![Nové prostředí](./media/19CreateEnvironment.png)</span><span class="sxs-lookup"><span data-stu-id="b1d87-140">![New environment](./media/19CreateEnvironment.png)</span></span>
 
-2. <span data-ttu-id="e9cfc-141">Vyberte nastavení **Povolit aplikace Dynamics 365** a nechte možnost **Automaticky nasadit tyto aplikace** prázdnou.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-141">Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.</span></span>  
-3. <span data-ttu-id="e9cfc-142">Výběrem možnosti **Uložit** vytvořte prostředí.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-142">Select **Save** to create the environment.</span></span>
+2. <span data-ttu-id="b1d87-141">Vyberte nastavení **Povolit aplikace Dynamics 365** a nechte možnost **Automaticky nasadit tyto aplikace** prázdnou.</span><span class="sxs-lookup"><span data-stu-id="b1d87-141">Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.</span></span>  
+3. <span data-ttu-id="b1d87-142">Výběrem možnosti **Uložit** vytvořte prostředí.</span><span class="sxs-lookup"><span data-stu-id="b1d87-142">Select **Save** to create the environment.</span></span>
 
 ![Přidat databázi](./media/20CreateEnvironment1.png)
 
-4. <span data-ttu-id="e9cfc-144">Po vytvoření prostředí nainstalujte řešení **Microsoft Dynamics 365 Project Operations**.</span><span class="sxs-lookup"><span data-stu-id="e9cfc-144">After the environment is created, install **Microsoft Dynamics 365 Project Operations** solution.</span></span> 
+4. <span data-ttu-id="b1d87-144">Po vytvoření prostředí nainstalujte řešení **Microsoft Dynamics 365 Project Operations**.</span><span class="sxs-lookup"><span data-stu-id="b1d87-144">After the environment is created, install **Microsoft Dynamics 365 Project Operations** solution.</span></span> 
 
 ![Instalace řešení](./media/21InstallSolution.png)
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a><span data-ttu-id="e9cfc-146">Nainstalujte konfiguraci CDS a nastavte ukázková data</span><span class="sxs-lookup"><span data-stu-id="e9cfc-146">Install a CDS configuration and setup demo data</span></span>
+## <a name="install-a-cds-configuration-and-setup-demo-data"></a><span data-ttu-id="b1d87-146">Nainstalujte konfiguraci CDS a nastavte ukázková data</span><span class="sxs-lookup"><span data-stu-id="b1d87-146">Install a CDS configuration and setup demo data</span></span>
 
-<span data-ttu-id="e9cfc-147">Nainstalujte konfiguraci CDS a nastavte ukázková data podle pokynů v tématu [Použití ukázkového nastavení a konfiguračních dat](lite-apply-demo-setup-config-data.md).</span><span class="sxs-lookup"><span data-stu-id="e9cfc-147">Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).</span></span>
+<span data-ttu-id="b1d87-147">Nainstalujte konfiguraci CDS a nastavte ukázková data podle pokynů v tématu [Použití ukázkového nastavení a konfiguračních dat](lite-apply-demo-setup-config-data.md).</span><span class="sxs-lookup"><span data-stu-id="b1d87-147">Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
