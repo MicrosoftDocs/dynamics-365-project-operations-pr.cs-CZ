@@ -2,11 +2,9 @@
 title: Vypnutí cenové dimenze
 description: Toto téma obsahuje informace o tom, jak vypnout cenové dimenze.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d2e10c9ce782697fa4cbbe6eb63491ebb573a6f6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274720"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004523"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Vypnutí cenové dimenze
 
@@ -38,10 +36,10 @@ Když to však uděláte, může se zobrazit chybová zpráva **Cenovou dimenzi 
 
 Tato chybová zpráva značí, že existují cenové záznamy, které byly dříve nastaveny pro dimenzi, která je vypnuta. Všechny záznamy **Cena role** a **Přirážka ceny role**, které odkazují na dimenzi, musí být odstraněny dříve, než bude možné použitelnost dimenze nastavit na **Ne.** Toto pravidlo platí pro předem připravené i vlastní cenové dimenze, které jste vytvořili. Důvodem tohoto ověření je, že záznam **Cena role** musí mít jedinečnou kombinaci dimenzí. Například v ceníku s názvem **Nákladové sazby USA 2018** máte následující řádky **Cena role**. 
 
-| Standardní název         | Organizační jednotka    |Jednotka   |Cena  |Měna  |
+| Standardní funkce         | Organizační jednotka    |Jednotka   |Cena  |Měna  |
 | -----------------------|-------------|-------|-------|----------|
-| Systémový inženýr|Contoso US|Hour| 100|USD|
-| Senior systémový inženýr|Contoso US|Hour| 150| USD|
+| Systémový inženýr|Contoso (USA)|hod| 100|USD|
+| Senior systémový inženýr|Contoso (USA)|hod| 150| USD|
 
 
 Pokud jako cenovou dimenzi vypnete **Standardní název** a modul ocenění vyhledává cenu, použije pouze hodnotu **Organizační jednotka** ze zadání. Pokud je **Organizační jednotka** v zadání „Contoso US“, výsledek bude nedeterministický, protože oba řádky budou shodné. Chcete-li se vyhnout tomuto scénáři, při vytváření záznamů **Cena role** systém ověří, zda je kombinace dimenzí jedinečná. Pokud je dimenze po vytvoření záznamů **Cena role** vypnutá, může být toto omezení porušeno. Proto je nutné, aby před vypnutím dimenze byly odstraněny všechny řádky **Cena role** a **Přirážka ceny role**, které mají tuto hodnotu dimenze vyplněnou.

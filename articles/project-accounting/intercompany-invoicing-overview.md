@@ -2,18 +2,16 @@
 title: Přehled mezipodnikové fakturace
 description: Toto téma poskytuje informace a příklady o mezipodnikové fakturaci projektů.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287320"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002633"
 ---
 # <a name="intercompany-invoicing-overview"></a>Přehled mezipodnikové fakturace
 
@@ -21,7 +19,7 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 
 Vaše organizace může mít více divizí, dceřiných společností a dalších právnických subjektů, které si navzájem přenášejí produkty a služby pro účely projektů. Právnická osoba, která poskytuje službu nebo produkt, se nazývá *půjčující právnická osoba*. Právnická osoba, která získává službu nebo produkt, se nazývá *vypůjčující právnická osoba*.
 
-Následující obrázek ukazuje typický scénář, kdy dvé právnické osoby, Contoso Robotics USA (vypůjčující právnická osoba) a Contoso Robotics UK (půjčující právnická osoba), sdílejí prostředky na dodání projektu pro zákazníka Adventure Works. V tomto scénáři se společnost Contoso Robotics USA smluvně zavazuje dodat dílo do Adventure Works.
+Následující obrázek ukazuje typický scénář, kdy dva právní subjekty, Contoso Robotics USA (právnická osoba, která si půjčuje) a Contoso Robotics UK (půjčující právnická osoba) sdílí zdroje na realizaci projektu pro zákazníka, Adventure works. Pro tento scénář Contoso Robotics USA uzavřela smlouvu na dodání díla společnosti Adventure Works.
 
 ![Mezipodniková fakturace](./media/IntercompanyScenario.png) 
 
