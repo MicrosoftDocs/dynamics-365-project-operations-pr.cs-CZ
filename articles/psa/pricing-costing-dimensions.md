@@ -2,12 +2,10 @@
 title: Domovská stránka cenových a nákladových dimenzí
 description: Toto téma obsahuje přehled cenových dimenzí.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284125"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009248"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Domovská stránka cenových a nákladových dimenzí
 
@@ -67,16 +65,16 @@ Následující příklad zobrazuje sazby fakturace, nastavené na základě role
 
 | Role        | Organizační jednotka    |Jednotka      |Cena      |Měna  |
 | ------------|-------------|----------|----------:|----------|
-| Vývojář   | Contoso US  |Hour | 200|USD     |
-| Vývojář   | Contoso India |Hour|   112|USD     |
+| Vývojář   | Contoso (USA)  |hod | 200|USD     |
+| Vývojář   | Contoso India |hod|   112|USD     |
 
 
 **Příklad nákladových sazeb**
 
 | Mzdové pásmo     | Organizační jednotka    |Jednotka      |Cena      |Měna  |
 | ----------------|-------------|----------|----------:|----------|
-| Moje company_Band1 | Contoso US  |Hour | 145|USD     |
-| Moje company_Band2 | Contoso India |Hour|   67|USD     |
+| Moje company_Band1 | Contoso (USA)  |hod | 145|USD     |
+| Moje company_Band2 | Contoso India |hod|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

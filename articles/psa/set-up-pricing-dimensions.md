@@ -2,12 +2,10 @@
 title: Nastavení vlastních polí jako cenových dimenzí
 description: Toto téma obsahuje informace o nastavení vlastních cenových dimenzí.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282460"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008303"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Nastavení vlastních polí jako cenových dimenzí 
 
@@ -75,7 +73,7 @@ Existují dva typy cenových dimenzí:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|U zákazníka            |                    |Přesčas                 |15     |
 |             | Contoso India|Místní             |                    |Přesčas                 |10     |
-|             | Contoso US   |Místní             |                    |Přesčas                 |20     |
+|             | Contoso (USA)   |Místní             |                    |Přesčas                 |20     |
 
 
 Pokud zdroj ze společnosti Contoso India, jehož základní sazba je 100 USD, pracuje u zákazníka a zaznamenává do časového záznamu 8 hodin pravidelného času a 2 hodiny přesčasu, použije modul ocenění Project Service k zaznamenání 800 USD základní sazbu 100 za 8 hodin. Pro dobu 2 hodin přesčasové práce se na základní sazbu 100 použije přirážka ve výši 15 % pro získání jednotkové ceny 115 USD a zaznamenají se celkové náklady na 230 USD.

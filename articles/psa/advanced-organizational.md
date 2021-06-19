@@ -2,8 +2,6 @@
 title: Organizační jednotky
 description: Toto téma poskytuje informace o organizačních jednotkách v Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89ff652e186601ccdf75d99dc08a4f082e576cb0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291656"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009608"
 ---
 # <a name="organizational-units"></a>Organizační jednotky 
 
@@ -96,7 +94,7 @@ Organizační jednotka je interní skupina nebo divize ve společnosti, která s
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Příklad organizačních jednotek a prodejních oblastí
 
-Společnost Contoso, Ltd. má dvě vývojová centra: Contoso US a Contoso India. Náklady na zdroje se mezi těmito dvěma vývojovými centry značně liší.
+Společnost Contoso, Ltd., má dvě vývojová centra: Contoso US a Contoso India. Náklady na zdroje se mezi těmito dvěma vývojovými centry značně liší.
 
 Společnost Contoso prodává své IT služby na mnoha mezinárodních trzích, jako jsou Latinská Amerika, Severní Amerika, Asie a Tichomoří, západní Evropa a Střední Východ. Fakturační sazby za stejné projektové role se mohou na těchto trzích značně lišit.
 
@@ -124,7 +122,7 @@ Nákladové ceníky jsou přidruženy k organizačním jednotkám. Transakční 
 Pokud máte složitou hierarchii nákladových středisek, divizí, fakturačních kanceláří atd., nastavte uzly typu list této hierarchie jako samostatné organizační jednotky.
 Následující příklad ukazuje typickou hierarchii:
 
-**Contoso India**
+**ContosoIndie**
 
   - Postupy pro SAP 
 

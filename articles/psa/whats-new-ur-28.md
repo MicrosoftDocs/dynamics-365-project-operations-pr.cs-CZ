@@ -2,8 +2,6 @@
 title: Novinky a změny v aplikaci Project Service Automation, aktualizace verze 28, V3
 description: Tohle téma uvádí seznam funkcí a oprav, které jsou k dispozici v Project Service Automation, aktualizace verze 28, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/26/2021
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2d5e8c629f8108ed039948ca70842c9d8afebfa6
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: b06a5ee6d0e2da76801a36701f38f1885d6c7562
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948662"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010508"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-28-v3"></a>Novinky a změny v aplikaci Project Service Automation, aktualizace verze 28, V3
 
