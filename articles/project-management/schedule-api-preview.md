@@ -2,18 +2,16 @@
 title: Používání rozhraní Schedule API k provádění operací s entitami plánování
 description: Tento téma poskytuje informace a ukázky pro používání rozhraní Schedule API.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950796"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116789"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Používání rozhraní Schedule API k provádění operací s entitami plánování
 
@@ -268,7 +266,6 @@ Následuje seznam omezení a známých problémů:
 - Každý uživatel může mít maximálně 10 otevřených sad **OperationSet**.
 - Project Operations v současné době podporuje maximálně 500 úkolů v jednom projektu.
 - Stav selhání a protokoly selhání nejsou u sad **OperationSet** aktuálně k dispozici.
-- Rozhraní Schedule API jsou nyní ve fázi Public Preview. Společnost Microsoft nepodporuje používání těchto API v produkčním prostředí.
 - [Meze a hranice projektů a úkolů](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Zpracování chyb

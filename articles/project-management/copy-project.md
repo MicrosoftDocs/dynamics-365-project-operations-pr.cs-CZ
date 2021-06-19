@@ -2,30 +2,29 @@
 title: Kopírování projektu
 description: Toto téma obsahuje informace o kopírování projektů v Dynamics 365 Project Operations.
 author: ruhercul
-manager: AnnBe
-ms.date: 02/22/2021
+ms.date: 05/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: c3055ab5b8c07faa2bc9167956d283e2a66029dd
+ms.sourcegitcommit: 173f2b1f4e063c440a5f78d76d456c62aadbd89e
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479511"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6091246"
 ---
 # <a name="copy-a-project"></a>Kopírování projektu
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-V Dynamics 365 Project Operations můžete rychle vytvářet nové projekty výběrem volby **Kopírovat projekt** ve formuláři **Projekty**. Chcete-li zkopírovat projekt, otevřete projekt, který chcete zkopírovat, a poté vyberte **Kopírovat projekt**. Akce zkopíruje:
+V Dynamics 365 Project Operations můžete rychle vytvářet nové projekty výběrem volby **Kopírovat projekt** ve formuláři **Projekty**. Chcete-li zkopírovat projekt, otevřete projekt, který chcete zkopírovat, a poté vyberte **Kopírovat projekt**. Akce zkopíruje následující:
 
-- Vlastnosti projektu (odhadované datum zahájení je zkopírováno ze zdrojového projektu)
+- Vlastnosti projektu 
 - Strukturovaný rozpis prací
 - Členové projektových týmů
 - Odhady projektů
 - Odhady projektových výdajů
+- Odhady materiálu projektu
 
 ## <a name="project-properties"></a>Vlastnosti projektu
 
@@ -42,11 +41,15 @@ Při kopírování projektu se zkopírují hodnoty v následujících polích:
 - Celkový stav projektu
 - Komentáře
 - Odhady
-- Odhadované počáteční datum
-- Datum ukončení
+- Odhadované datum zahájení: Toto je datum, kdy je projekt vytvořen z kopie.
+- Odhadované datum dokončení: Toto datum je upraveno na základě data zahájení nového projektu, který byl vytvořen z kopie.
 - Úsilí (hodiny)
 - Odhadované pracovní náklady
 - Odhadované výdajové náklady
+- Odhadované náklady na materiál
+
+> [!NOTE]
+> Projekt kopírování je dlouhá operace. Kopírují se také záznamy projektu, jejich příslušné atributy a mnoho souvisejících entit. Z důvodu dlouhodobé povahy operace je po spuštění kopírování cílová stránka projektu uzamčena pro úpravy, dokud není operace kopírování dokončena.
 
 ## <a name="work-breakdown-structure"></a>Strukturovaný rozpis prací
 
@@ -58,7 +61,7 @@ Když se projektový tým zkopíruje ze zdrojového projektu, zkopírují se obe
 
 ## <a name="estimates"></a>Odhady
 
-Při kopírování projektu se zkopírují řádky odhadu zdrojů a výdajů ze zdrojového projektu. 
+Při kopírování projektu se zkopírují řádky odhadu zdrojů, výdajů a materiálu ze zdrojového projektu. 
 
 Informace o tom, jak programátorsky přistupovat ke kopírování projektu, najdete v části [Vývoj projektových šablon pomocí nástroje kopírovat projekt](dev-copy-project.md).
 

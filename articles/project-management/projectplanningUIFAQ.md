@@ -2,19 +2,17 @@
 title: Řešení potíží s prací v mřížce úloh
 description: Tento téma poskytuje potřebné informace o odstraňování potíží při práci v mřížce úloh.
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: dedd989cc7c959d9ea97a0abfb13f8f1b2150a56
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286555"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213392"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Řešení potíží s prací v mřížce úloh 
 
@@ -57,7 +55,7 @@ Project Operations vyžaduje, aby parametr projektu odkazoval na PEX koncový bo
  ![Pole PEX koncového bodu v parametru projektu](media/projectparameter.png)
 
 1. Přidejte pole **Koncový bod PEX** na stránku **Parametry projektu**.
-2. Aktualizujte pole následující hodnotou: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+2. Aktualizujte pole následující hodnotou: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
 3. Odeberte pole ze stránky **Parametry projektu**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Oprávnění pro Projekt pro web
