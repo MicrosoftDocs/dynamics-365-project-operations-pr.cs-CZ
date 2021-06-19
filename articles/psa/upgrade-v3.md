@@ -1,9 +1,7 @@
 ---
 title: Zvažování upgradu - Microsoft Dynamics 365 Project Service Automation verze 2.x nebo 1.x na verzi 3
 description: Toto téma obsahuje důležité informace, které je třeba zvážit při upgradu aplikace Project Service Automation verze 2.x nebo 1.x na verzi 3.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281650"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014873"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Důležité informace o upgradu – PSA verze 2.x nebo 1.x na verzi 3
 
@@ -106,7 +104,7 @@ Organizační jednotku můžete zobrazit v zobrazení odhadů.
  
 Po dokončení upgradu bude organizační jednotka v úkolu na řádku, který odpovídá obecnému členovi týmu, přidána k obecnému členovi týmu a úkol na řádku bude odebrán. Proto doporučujeme před upgradem vygenerovat nebo znovu vygenerovat tým pro každý projekt, který obsahuje obecné zdroje.
 
-Pro úkoly, které jsou přiřazeny k roli s organizační jednotkou, která se liší od organizační jednotky smluvního projektu, a ve kterých nebyl vygenerován tým, bude při upgradu vytvořen obecný člen týmu pro roli, ale použije se smluvní jednotka projektu pro organizační jednotku člena týmu. S ohledem na příklad Project Z byla smluvní organizační jednotce Contoso US a úkolům testování plánu projektu v rámci fáze implementace přiřazena role Technický poradce s organizační jednotkou přiřazenou společnosti Contoso India. Úkol testování integrace bude dokončen poté, co bude fáze implementace přiřazena k roli Technický poradce. Organizační jednotka je Contoso US a tým nebyl vygenerován. Upgrade vytvoří jednoho obecného člena týmu, technického poradce, který má přiřazené hodiny všech tří úkolů, a organizační jednotku Contoso US, což je smluvní organizační jednotka projektu.   
+Pro úkoly, které jsou přiřazeny k roli s organizační jednotkou, která se liší od organizační jednotky smluvního projektu, a ve kterých nebyl vygenerován tým, bude při upgradu vytvořen obecný člen týmu pro roli, ale použije se smluvní jednotka projektu pro organizační jednotku člena týmu. S ohledem na příklad Project Z smluvní organizační jednotce Contoso US a úkolům testování plánu projektu v rámci fáze implementace byla přiřazena role Technický poradce s organizační jednotkou přiřazenou společnosti Contoso India. Úkol testování integrace bude dokončen poté, co bude fáze implementace přiřazena k roli Technický poradce. Organizační jednotka je Contoso US a tým nebyl vygenerován. Upgrade vytvoří jednoho obecného člena týmu, technického poradce, který má přiřazené hodiny všech tří úkolů, a organizační jednotku Contoso US, což je smluvní organizační jednotka projektu.   
  
 Změna výchozího nastavení různých organizačních jednotek zdroje u nevygenerovaných členů týmu je důvodem, proč doporučujeme vygenerovat nebo znovu vygenerovat tým pro každý projekt, který obsahuje obecné zdroje, ještě před upgradem, aby nedošlo ke ztrátě přiřazení organizační jednotky.
 

@@ -2,18 +2,16 @@
 title: Odeslání žádosti o zdroj
 description: Vygenerovaný požadavek na zdroj můžete odeslat jako žádost o zdroj. Žádost se pak odešle správci zdrojů ke splnění.
 author: ruhercul
-manager: Annbe
 ms.date: 10/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: bc97af1ec90e60417c502eb329a85004e769e05b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6ac0044a27d1e506c9c62c477014017fd0ca06cb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279130"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014018"
 ---
 # <a name="submit-a-resource-request"></a>Odeslání žádosti o zdroj
 

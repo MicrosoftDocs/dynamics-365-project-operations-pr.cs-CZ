@@ -2,18 +2,16 @@
 title: Finanční odhady pro výdaje na projektech
 description: Tento téma poskytuje informace o definování nebo odhadu nákladů na projekt.
 author: rumant
-manager: Annbe
 ms.date: 03/19/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ad4901b1264289f1da881154bc147fc3f8da698f
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: 18d8568fae35fc251d9cf48d900b8a436e2e4500
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701774"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014153"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>Finanční odhady pro výdaje na projektech
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
