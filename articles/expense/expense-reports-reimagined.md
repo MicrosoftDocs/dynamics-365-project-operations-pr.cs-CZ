@@ -2,7 +2,7 @@
 title: Nová verze vyúčtování výdajů
 description: Tento téma vysvětluje přepracované prostředí pro zadávání vyúčtování výdajů.
 author: suvaidya
-ms.date: 03/26/2021
+ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76073d5c58398b2c296fdca05ba7bdf7f01951bb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
+ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995343"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6250996"
 ---
 # <a name="expense-reports-reimagined"></a>Nová verze vyúčtování výdajů
 
@@ -32,7 +32,7 @@ Přepracován byl záznam ve výkazu výdajů, aby se zjednodušil proces a zkr�
 - Nová stránka k určení povinných polí, volitelných polí a polí, která by neměla být zahrnuta. Tato stránka pomáhá snížit počet polí, která je třeba nastavit.
 - Nový vzhled a dojem pro výkazy výdajů, aby výkazy již nevypadali, jako by byly navrženy pro pracovníky účtárny.
 
-Chcete-li zapnout nové prostředí, použijte pracovní prostředíá **Správa funkcí** pro zapnutí funkce **Přepracovaný výkaz výdajů**. Po zapnutí této funkce dojde k následujícím akcím:
+Chcete-li zapnout nové prostředí, použijte pracovní prostor **Správa funkcí** pro zapnutí funkce **Přepracovaný pracovní prostor Výkazy výdajů**. Po zapnutí této funkce dojde k následujícím akcím:
 
 - Existující pracovní prostor pro výdaje je nahrazen novým pracovním prostorem.
 - Je přidána nová položka nabídky pro viditelnost pole výdajů.
@@ -45,7 +45,7 @@ Chcete-li zapnout nové prostředí, použijte pracovní prostředíá **Správa
 
 | Nová funkce | Popis |
 |---|----|
-| Viditelnost pole výdajů | Nová stránka nastavení umožňuje určit, která pole by měla být pro organizaci zakázána, která pole by měla být vyžadována a která pole jsou doporučena. |
+| Viditelnost pole výdajů | Nová stránka nastavení umožňuje určit, která pole by měla být pro organizaci zakázána. Můžete také určit, která pole by měla být povinná a která pole se doporučují. |
 | Povinná pole | Nová jednoduchá konfigurace umožňuje provést některá pole, aniž byste museli používat rámec zásad. |
 | Nepovinná pole | Byla přidána druhá stránka pro volitelná pole. Tímto způsobem nebudou mít zaměstnanci pocit, že musí nastavovat pole, ale pole jsou stále snadno přístupná. |
 | Přidejte nepřipojené účtenky | Možnost přidat nepřipojené účtenky do výkazu výdajů je viditelnější z pracovního prostoru a na výkazu výdajů. |
@@ -57,13 +57,14 @@ Chcete-li zapnout nové prostředí, použijte pracovní prostředíá **Správa
 | Kalkulátor směnných kurzů | Přidána je kalkulačka směnných kurzů, která umožňuje vypočítat směnný kurz pro transakce s více měnami. |
 | Uložte a přidejte nové výdajové řádky | Jsou k dipozici tlačítka **Uložit** a **Nový** při zadávání nových výdajů, která vám pomohou rychle zadat řádky výdajů. |
 | Lepší viditelnost na rozdělené a rozepsané řádky | Rozepsané a rozdělené řádky se přidávají přímo do seznamu výdajů, aby se zvýšila viditelnost a pomohlo vám snadno určit, zda nedošlo k chybám. |
+| Zobrazit podrobnosti podkategorie v rozepsaných řádcích | Rozepsané řádky nadřazeného výdaje zobrazují štítky podkategorií ve výkazu výdajů, což vám pomůže na první pohled zkontrolovat podrobnosti.|
 | Zobrazit účtenky při rozepisování | Při rozepisování lze zobrazit účtenky. |
 | Výběr hotovostní zálohy | Vyberte jednu nebo více peněžních záloh pro provedení transakce s jedním výdajem. |
 | Hotovostní zůstatek | Zkontrolujte zůstatek hotovostní zálohy v reálném čase, když vytvoříte položku výdajů oproti schváleným a zaplaceným peněžním zálohám. |
 
 Počáteční vydání je zaměřeno na scénáře zadávání výdajů. Jakýkoli scénář kontroly nebo schválení výkazu výdajů bude i nadále používat stávající stránku pro zadávání výdajů.
 
-V přepracovaném pracovním prostoru výdajů nejsou podporovány následující funkce:
+Následující funkce nejsou podporovány v přepracovaném pracovním prostoru Sestavy výdajů, ale jsou plánovány pro budoucí vydání: 
 
 - Integrace cestovních žádanek
 - Zadání výdajů za každý den

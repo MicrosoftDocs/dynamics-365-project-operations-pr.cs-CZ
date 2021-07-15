@@ -2,17 +2,17 @@
 title: Konfigurace neskladovaných materiálů a nevyřízené faktury dodavatele
 description: Tento téma vysvětluje, jak povolit neskladované materiály a nevyřízené faktury dodavatele.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 41191384c688c3b77d08a0e7990ddf0d9a48545c
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993903"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293039"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurace neskladovaných materiálů a nevyřízené faktury dodavatele
 
@@ -59,11 +59,11 @@ Pokud používáte standardní demo data, možná budete muset zastavit a restar
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktivujte pracovní postup a vytvářejte účty založené na entitě dodavatele
 
-Řešení orchestrace duálního zápisu poskytuje [hlavní integraci dodavatelů](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Jako předpoklad pro tuto funkci musí být data dodavatele vytvořena v entitě **Účty**. Aktivujte proces pracovního postupu šablony a vytvořte dodavatele v tabulce **Účty**, jak je popsáno v [přepínání mezi návrhy prodejců](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Řešení orchestrace duálního zápisu poskytuje [hlavní integraci dodavatelů](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Jako předpoklad pro tuto funkci musí být data dodavatele vytvořena v entitě **Účty**. Aktivujte proces pracovního postupu šablony a vytvořte dodavatele v tabulce **Účty**, jak je popsáno v [přepínání mezi návrhy prodejců](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch).
 
 ### <a name="set-products-to-be-created-as-active"></a>Nastavení produktů, které mají být vytvořeny jako aktivní
 
-Neskladované materiály musí být nakonfigurovány jako **Vydané produkty** ve Finance. Řešení orchestrace duálního zápisu poskytuje připravenou [integraci vydaných produktů do produktového katalogu Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Ve výchozím nastavení jsou produkty z Finance synchronizovány do Dataverse ve stavu konceptu. Chcete-li produkt synchronizovat do aktivního stavu, aby jej bylo možné přímo použít v dokumentech o použití materiálu nebo nevyřízených fakturách dodavatele, přejděte na **Systém** > **Správa** > **Správa systému** > **Nastavení systému** a na kartě **Prodej** nastavte **Vytvářet produkty v aktivním stavu** na **Ano**.
+Neskladované materiály musí být nakonfigurovány jako **Vydané produkty** ve Finance. Řešení orchestrace duálního zápisu poskytuje připravenou [integraci vydaných produktů do produktového katalogu Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Ve výchozím nastavení jsou produkty z Finance synchronizovány do Dataverse ve stavu konceptu. Chcete-li produkt synchronizovat do aktivního stavu, aby jej bylo možné přímo použít v dokumentech o použití materiálu nebo nevyřízených fakturách dodavatele, přejděte na **Systém** > **Správa** > **Správa systému** > **Nastavení systému** a na kartě **Prodej** nastavte **Vytvářet produkty v aktivním stavu** na **Ano**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Konfigurace předpokladů ve Finance
 
@@ -88,7 +88,7 @@ V Project Operations můžete zaznamenávat odhady materiálu a využití pro ka
 2. V poli **Typ produktu** vyberte **Položka** a v **Podtyp produktu** vyberte **Produkt**.
 3. Zadejte číslo produktu (WRITEIN) a název produktu (produkt pro zápis).
 4. Vyberte skupinu modelů položek. Ujistěte se, že vybraná skupina modelů položek má pole **Inventarizační zásady skladového produktu** nastaveno na **False**.
-5. Vyberte hodnoty v polích **Skupina položek**, **Skupina dimenzí úložiště** a **Sledování skupiny dimenzí**. Použijte **Skladovací dimenze** pouze pro **Pracoviště** a nenastavujte žádné dimenze sledování.
+5. Vyberte hodnoty v polích **Skupina položek**, **Skupina dimenzí úložiště** a **Sledování skupiny dimenzí**. Použijte **Dimenze úložiště** pouze pro **Web** a v poli **Sledování dimenzí** vyberte **Žádné**.
 6. Vyberte hodnoty v poli **Inventarizační jednotka**, **Nákupní jednotka** a **Prodejní jednotka** a poté uložte provedené změny.
 7. Na kartě **Plán** nastavte výchozí nastavení pořadí a na kartě **Sklad** nastavte výchozí místo a sklad.
 8. Přejděte na **Řízení projektů a účetnictví** > **Nastavit** > **Parametry řízení projektu a účetnictví** a otevřete **Project Operations na Dynamics 365 Dataverse**. 
