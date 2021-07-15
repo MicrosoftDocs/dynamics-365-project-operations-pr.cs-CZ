@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Nasazení prostředí
           items:
+            - name: Ruční nasazení aplikace Project Operations Dataverse s podporou duálního zápisu
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Zřízení nového prostředí
               href: environment/resource-provision-new-environment.md
             - name: Model zabezpečení
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Co je nového
       items:
+        - name: 'Červenec 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: 'Červen 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: 'Květen 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: 'Duben 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
@@ -282,7 +288,7 @@
           items:
             - name: Vývoj šablon projektů pomocí kopírování projektu
               href: project-management/dev-copy-project.md
-            - name: Použití rozhraní API plánu (Public Preview)
+            - name: Použití rozhraní API projektového plánu (Public Preview)
               href: project-management/schedule-api-preview.md
     - name: Správa zdrojů
       items:
@@ -436,8 +442,6 @@
       items:
         - name: Přehled fakturovacího procesu
           href: invoicing/post-project-invoices.md
-        - name: Správa návrhů faktury projektu
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Proforma fakturace
           items:
             - name: Správa nedokončené fakturace na základě projektu
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Konfigurace automatizace faktury založené na projektu
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Správa návrhů faktury projektu
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Fakturace zákazníka
+          items:
+            - name: Správa návrhů faktury projektu
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Správné účtování návrhů konceptů faktur projektu
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Mezipodniková fakturace
+          items:
+            - name: Přehled mezipodnikové fakturace
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Konfigurace mezipodnikové fakturace
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Vytváření mezipodnikových transakcí
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Vytváření mezipodnikových faktur zákazníků a dodavatelů
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Účetnictví projektu
       items:
         - name: Výchozí hodnoty finanční dimenze
@@ -470,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Deník integrace v Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: Mezipodniková fakturace
-          items:
-            - name: Přehled mezipodnikové fakturace
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Konfigurace mezipodnikové fakturace
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Vytváření mezipodnikových transakcí
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Vytváření mezipodnikových faktur zákazníků a dodavatelů
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Uznání výnosů
       items:
         - name: Přehled uznání výnosů
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: Co je nového
       items:
+        - name: 'Co je nového, červenec 2021 – omezené nasazení'
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: 'Co je nového, červen 2021 – omezené nasazení'
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: 'Co je nového, květen 2021 – omezené nasazení'
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: 'Co je nového, duben 2021 – omezené nasazení'
@@ -762,7 +774,7 @@
           items:
             - name: Vývoj šablon projektů pomocí kopírování projektu
               href: project-management/dev-copy-project.md
-            - name: Použití rozhraní API plánu (Public Preview)
+            - name: Použití rozhraní API projektového plánu (Public Preview)
               href: project-management/schedule-api-preview.md
     - name: Správa zdrojů
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Co je nového
       items:
+        - name: 'Co je nového, červenec 2021 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: 'Co je nového, květen 2021 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: 'Co je nového, duben 2021 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 'Co je nového, březen 2021 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
@@ -1034,6 +1050,10 @@
       items:
         - name: Plán vydávání aktualizací pro Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 32, V3'
           href: psa/whats-new-ur-32.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 31, V3'
