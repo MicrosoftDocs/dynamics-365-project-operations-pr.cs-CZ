@@ -832,6 +832,16 @@
           items:
             - name: Přehled využití zdroje
               href: resource-management/resource-utilization-overview.md
+    - name: Správa subdodávek ve službě Project Operations
+      items:
+        - name: Přehled správy subdodávek
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Klíčové pojmy v subdodávkách
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Správa prodejců a ceníků projektů
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Subdodavatelé jako rezervovatelné zdroje
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Čas
       items:
         - name: Přehled času
@@ -1050,6 +1060,8 @@
       items:
         - name: Plán vydávání aktualizací pro Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 34, V3'
+          href: psa/whats-new-ur-34.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 33, V3'
           href: psa/whats-new-ur-33.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 32.5, V3'
