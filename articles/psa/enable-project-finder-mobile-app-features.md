@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f068c32ac957dc5921ccabc989b3b7a347585c19
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8651ba591853faf648587dcbd4c50625ba94360958d7b418e89aa0bf09464a89
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007718"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004888"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Povolení funkcí aplikace Project Finder Mobile (Project Service)
 
@@ -47,11 +47,11 @@ Vaše zdroje mohou pomocí aplikace Project Finder Mobile na svých telefonech o
   
 4. Nastavte možnost **Umožnit zdroji aktualizovat dovednosti** na **Ano**.  
   
-   ![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    Toto je globální nastavení. Vedoucí projektu mohou nastavit, zda budou jednotlivé projekty zobrazeny na stránce **Projektový tým** daného projektu.  
   
-   ![ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>E-mailová oznámení  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] odešle e-maily týkající se požadavků na zdroje následujícím příjemcům v následujících časech:  

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009158"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002548"
 ---
 # <a name="project-costs-and-revenue"></a>Projektové náklady a výnosy
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009158"
 
 Projektové odhady poskytují finanční přehled odhadované a plánované práce v plánu projektu. Karta **Odhady** na stránce **Projekty** zobrazuje dopad nákladů a výnosů plánované práce. Poskytuje také informace o mnoha předdefinovaných dimenzích. 
 
-> ![Karta Odhady](media/project-5.png)
+> ![Karta Odhady.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Nákladová a prodejní hodnota projektu
 
@@ -66,13 +66,13 @@ Pokud systém nenajde cenu pro roli, nastaví se prodejní cena na řádku odhad
 
 Karta **Odhady** obsahuje tabulkové zobrazení, které zobrazuje řádky odhadu. Mřížka obsahuje sloupce pro jednotku, celkovou nákladovou cenu a celkovou prodejní cenu, jak je znázorněno na následujícím obrázku. 
 
-> ![Zobrazení mřížky na kartě Odhady](media/project-6.png)
+> ![Zobrazení mřížky na kartě Odhady.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Zobrazení časového uspořádání odhadů projektu
 
 Zobrazení odhadů projektu s časovým uspořádáním zobrazuje data odhadu ze zobrazení mřížky na časové ose v časovém měřítku, které vyberete. Ve výchozím nastavení jsou data odhadu uspořádána dle dimenze **Role**.
 
-> ![Zobrazení časového uspořádání odhadů projektu](media/project-7.png)
+> ![Zobrazení časového uspořádání odhadů projektu.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Přidělení odhadu úsilí na základě režimu úkolu
 

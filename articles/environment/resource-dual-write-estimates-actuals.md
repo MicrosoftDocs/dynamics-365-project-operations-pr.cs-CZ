@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000023"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006283"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Integrace odhadů projektu a skutečností
 
@@ -30,7 +30,7 @@ Vytváření odhadů vyžaduje platnou účetní konfiguraci projektu. Projekty,
 
 Odhady pracovní síly jsou vytvářeny projektovým manažerem nebo Resource managerem, který projektovému úkolu také přiřadí obecný nebo pojmenovaný prostředek. Záznamy o přiřazení zdrojů lze zkontrolovat na kartě **Přiřazení zdrojů** na stránce **Detaily projektu** v Dataverse. Záznamy přiřazení zdrojů v Dataverse vytvářejí záznamy předpovědi hodin v aplikacích Finance and Operations využívající pomocí **entity integrace Project Operations pro hodinové odhady (msdyn\_resourceassignments)**.
 
-   ![Integrace odhadů práce](./Media/DW4LaborEstimates.png)
+   ![Integrace odhadů práce.](./Media/DW4LaborEstimates.png)
 
 Duální zápis synchronizuje záznamy přiřazení prostředků do pracovní tabulky (**ProjCDSEstimateHoursImport**) a poté pomocí obchodní logiky vytváří a aktualizuje záznamy předpovědí hodin (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ Duální zápis synchronizuje záznamy přiřazení prostředků do pracovní ta
 
 Odhady výdajů vytváří projektový manažer na kartě **Odhady výdajů** na stránce **Detaily projektu** v Dataverse. Záznamy o odhadu výdajů jsou uloženy v entitě **Řádek odhadu** v Dataverse. Tyto záznamy odhadů mají transakční třídu **Výdaje** a jsou synchronizovány se záznamy prognózy výdajů v aplikacích Finance and Operations pomocí **entity integrace Project Operations pro odhady výdajů (msdyn\_estimatelines)**.
 
-   ![Integrace odhadů výdajů](./Media/DW4ExpenseEstimates.png)
+   ![Integrace odhadů výdajů.](./Media/DW4ExpenseEstimates.png)
 
 Duální zápis synchronizuje záznamy odhadů výdajů do pracovní tabulky **ProjCDSEstimateExpenseImport** a poté pomocí obchodní logiky vytváří a aktualizuje záznamy předpovědí výdajů (**ProjForecastCost**). Řádky odhadu ukládají odhady prodeje a odhady nákladů samostatně. Obchodní logika v aplikacích Finance and Operations naplní jeden záznam prognózy výdajů pomocí tohoto detailu v pracovní tabulce.
 
@@ -50,7 +50,7 @@ Duální zápis synchronizuje záznamy odhadů výdajů do pracovní tabulky **P
 
 Odhady materiálu vytváří projektový manažer na kartě **Odhady materiálu** na stránce **Detaily projektu** v Dataverse. Záznamy o odhadu materiálu jsou uloženy v entitě **Řádek odhadu** v Dataverse. Tyto záznamy odhadů mají transakční třídu **Materiál** a jsou synchronizovány se záznamy prognózy položek v aplikacích Finance and Operations pomocí **tabulky integrace projektu pro odhady výdajů (msdyn\_estimatelines)**.
 
-   ![Integrace odhadů materiálu](./Media/DW4MaterialEstimates.png)
+   ![Integrace odhadů materiálu.](./Media/DW4MaterialEstimates.png)
 
 Duální zápis synchronizuje záznamy odhadů materiálu do pracovní tabulky **ProjForecastSalesImpor** a poté pomocí obchodní logiky vytváří a aktualizuje záznamy předpovědí položek (**ForecastSales**). Řádky odhadu ukládají odhady prodeje a odhady nákladů samostatně. Obchodní logika v aplikacích Finance and Operations naplní jeden záznam prognózy položek pomocí tohoto detailu v pracovní tabulce.
 
@@ -60,7 +60,7 @@ Duální zápis synchronizuje záznamy odhadů materiálu do pracovní tabulky *
 
 Skutečné hodnoty projektu jsou vytvořeny v Dataverse na základě času, výdajů, materiálu a fakturační činnosti. V této entitě Dataverse jsou zachyceny všechny provozní atributy těchto transakcí, včetně množství, nákladové ceny, prodejní ceny a projektu. Další informace najdete v části [Skutečné hodnoty](../actuals/actuals-overview.md). Záznamy skutečných hodnot jsou synchronizovány do aplikací Finance and Operations pomocí mapy tabulky s duálním zápisem **Skutečné hodnoty integrace Project Operations (msdyn\_actuals)** pro následné účetnictví.
 
-   ![Integrace skutečných hodnot](./Media/DW4Actuals.png)
+   ![Integrace skutečných hodnot.](./Media/DW4Actuals.png)
 
 Mapa tabulky **Skutečné hodnoty integrace Project Operations** synchronizuje všechny záznamy z entity **Skutečné hodnoty** v Dataverse s atributem **Přeskočit synchronizaci (pouze interní použití)** nastaveným na **False**. Tato hodnota atributu je nastavena v Dataverse automaticky při vytvoření záznamu. Příklady, kde je tento atribut nastaven na **True**, jsou:
 

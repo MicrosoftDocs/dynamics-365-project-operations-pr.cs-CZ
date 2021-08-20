@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025766"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003808"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Verze mapování duálního zápisu Project Operations
 
@@ -32,7 +32,7 @@ Následující mapy jsou požadovanými předpoklady pro řešení Project Opera
 
 1. Ze seznamu map vyberte mapu Hlavní kniha **(msdyn\_ledgers)** se všemi předpoklady a zaškrtněte **Počáteční synchronizace**. V poli **Předloha pro počáteční synchronizaci** vyberte **Aplikace Finance and Operations** pro mapu hlavní knihy i všechny nezbytné mapy. Vyberte **Spustit**.
 
-![Synchronizace mapy registru](media/DW6.png)
+![Synchronizace mapy registru.](media/DW6.png)
 
 2. Stejným způsobem postupujte u všech zbývajících map tabulek uvedených v tabulce výše. Nevybírejte políčko **Počáteční synchronizace** při spuštění těchto map.
 
@@ -65,7 +65,7 @@ Chcete-li spustit uvedené mapy, proveďte následující kroky.
 
 1. Aktivujte role prostředků projektu pro mapu tabulky **všechny společnosti (bookableresourcecategories)**, protože tato mapa vyžaduje počáteční synchronizaci. V poli **Předloha pro počáteční synchronizaci** vyberte **Common data service**. 
 
- ![Synchronizace mapy tabulek rolí zdrojů](media/6ResourceInitialSync.jpg)
+ ![Synchronizace mapy tabulek rolí zdrojů.](media/6ResourceInitialSync.jpg)
 
  Počkejte, až bude stav mapy **Spuštěná**, než přejdete k dalšímu kroku.
 

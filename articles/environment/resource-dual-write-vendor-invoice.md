@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d4f1b0ad94b71dc4adc5b2b3423340c5fdb171eb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002249"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986483"
 ---
 # <a name="vendor-invoice-integration"></a>Integrace faktury dodavatele
 
@@ -36,7 +36,7 @@ V Project Operations se řádky faktury dodavatele související s projektem za�
 
 Daňová podřízená kniha, podřízená kniha dodavatele a další finanční zaúčtování se zaznamenávají podle potřeby v Dynamics 365 Finance v době zaúčtování faktury dodavatele.
 
-![Integrace faktury dodavatele](media/DW7VendorInvoice.png)
+![Integrace faktury dodavatele.](media/DW7VendorInvoice.png)
 
 Když jsou záznamy zapsány do a entity **Faktura dodavatele** v Dataverse, začíná automatizovaný schvalovací proces záznamů. V případě potřeby lze stav automatizovaného schvalovacího procesu zkontrolovat v Dataverse tím, že půjdete do **Pokročilé nastavení** > **Systém** > **Systémové úlohy**. Po dokončení schválení se v systému vytvoří záznamy třídy transakcí materiálu v entitě **Skutečné hodnoty**.
 

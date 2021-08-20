@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997503"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005608"
 ---
 # <a name="synchronize-resource-capacity"></a>Synchronizace kapacity zdroje
 
@@ -29,7 +29,7 @@ ms.locfileid: "5997503"
 
 Procesy pro synchronizaci zdrojů pomáhají zaručit, že informace kalendáře a základního kalendáře se postupně dostávají do plánování zdrojů projektu. Pokud se kalendář změní, procesy provedou požadované aktualizace plánování projektových zdrojů. Procesy také pomáhají zlepšit výkon, protože informace o zdrojích kalendáře jsou synchronizovány předem. Aktualizace informací o plánování prostředků proto probíhají rychleji. Doporučujeme naplánovat spouštění procesů v dávce namísto po jednom. V opačném případě existuje riziko, že někdo zapomene hraniční datumy období, kdy byly informace naposledy synchronizovány. Pokud se nepoužívají správné hraniční datumy, mohou se během synchronizace datumů objevit mezery.
 
-![Synchronizace kalendáře](./media/projectresourcing04-1024x471.jpg)
+![Synchronizace kalendáře.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Synchronizace souhrnů kapacity zdrojů
 
@@ -46,7 +46,7 @@ Doporučujeme vám použít dávkovou aktualizaci. Možnosti jsou k dispozici b�
     | Počáteční datum  | Zadejte počáteční datum procesu synchronizace souhrnů kapacity zdrojů. |
     | Koncové datum    | Zadejte koncové datum procesu synchronizace souhrnů kapacity zdrojů. |
 
-[![Proces synchronizace](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Proces synchronizace.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

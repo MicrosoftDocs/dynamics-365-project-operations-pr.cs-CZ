@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004703"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003583"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Nastavení vlastních polí jako cenových dimenzí
 
@@ -42,11 +42,11 @@ Aby se pole stalo cenovou dimenzí, musí být:
 
 - Vytvořeno jako řádek v tabulce **Cenová dimenze**. Můžete například přidat řádky cenové dimenze, jak je znázorněno na následujícím obrázku. 
 
-![Řádky cenové dimenze založené na částce](media/Amt-based-PD.png)
+![Řádky cenové dimenze založené na částce.](media/Amt-based-PD.png)
 
 Pracovní doba zdroje (**msdyn_resourceworkhours**) je přidána jako dimenze založená na přirážce a byla přidána do mřížky na kartě **Cenová dimenze založená na přirážce**.
 
-![Řádky cenové dimenze založené na přirážce](media/Markup-based-PD.png)
+![Řádky cenové dimenze založené na přirážce.](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]

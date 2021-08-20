@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b067f900fa49bba04536b49600dbe80a2167f707
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 548ee7db1c8ca14f1b88d76a534d2922549eba138659e67a84cd89e6f7ee2170
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997818"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998498"
 ---
 # <a name="manage-resources"></a>Správa zdrojů
 
@@ -58,34 +58,34 @@ Chcete-li pro vývojáře zadat požadované dovednosti u obecného zdroje, post
 
 1. Chcete-li rezervovat obecný zdroj, vyberte na stránce **Projekty** na kartě **Tým** **Nový**.
 
-    ![Obecný zdroj rezervovaná v týmu](media/Resource-Management-image9.png)
+    ![Obecný zdroj rezervovaná v týmu.](media/Resource-Management-image9.png)
 
 2. V zobrazení **Všichni členové týmu**, ve sloupci **Požadavek na zdroj** vyberte odkaz pro přidání požadovaných požadovaných dovedností pro obecný zdroj.
 
-    ![Odkaz na požadavek](media/Resource-Management-image10.png)
+    ![Odkaz na požadavek.](media/Resource-Management-image10.png)
 
 3. Na stránce **Požadavek na zdroj**, která se zobrazí, vyberte v mřížce **Dovednosti** výpustku (**…**) a pak vyberte **Přidat novou charakteristiku požadavku**, chcete-li přidat požadované dovednosti pro vývojáře.
 
-    ![Příkaz Přidat novou charakteristiku požadavku](media/Resource-Management-image11.png)
+    ![Příkaz Přidat novou charakteristiku požadavku.](media/Resource-Management-image11.png)
 
 4. V dialogovém okně **Vytvořit: Charakteristika požadavku**, které se zobrazí, vyberte v poli **Charakteristika** požadovanou dovednost. Potom v poli **Hodnota hodnocení** vyberte úroveň odborné způsobilosti pro tuto dovednost. Nakonec v poli **Požadavek na zdroj** nastavte požadavek na zdrojové zdroje z organizačních jednotek nebo dokonce pojmenovaných zdrojů. Jakmile budete hotovi, zvolte tlačítko **Uložit**.
 
-    ![Dialogové okno Vytvořit: Charakteristika požadavku](media/Resource-Management-image12.png)
+    ![Dialogové okno Vytvořit: Charakteristika požadavku.](media/Resource-Management-image12.png)
 
 5. Chcete-li splnit požadavek na zdroj, vyberte na stránce **Požadavek na zdroj** **Rezervovat**.
 
-    ![Tlačítko Rezervovat na stránce požadavek na zdroj](media/Resource-Management-image13.png)
+    ![Tlačítko Rezervovat na stránce požadavek na zdroj.](media/Resource-Management-image13.png)
 
     Můžete také vybrat obecný zdroj v mřížce **Všichni členové týmu** a pak vybrat **Rezervovat**.
 
-    ![Tlačítko Rezervovat nad mřížkou Všichni členové týmu](media/Resource-Management-image14.png)
+    ![Tlačítko Rezervovat nad mřížkou Všichni členové týmu.](media/Resource-Management-image14.png)
 
     > [!NOTE]
     > V tomto příkladu je požadováno 40 hodin, ale žádné skutečné rezervované hodiny, protože obecné zdroje nemají rezervace. Navíc nejsou přiřazeny žádné hodiny, protože obecný zdroj byl přidán přímo do týmu. Nebyl přidáno pomocí přiřazení úkolu.
 
     Na stránce **Pomocník plánování** můžete filtrovat dostupné zdroje podle požadavků, které jsou specifikovány u požadavku na zdroj. Zdroje jsou seřazeny podle parametrů řazení, které jsou specifikovány v Plánovací vývěsce.
 
-    ![Stránka Pomocník plánování](media/Resource-Management-image15.png)
+    ![Stránka Pomocník plánování.](media/Resource-Management-image15.png)
 
     Zde jsou některé filtry, které se často používají:
 
@@ -95,23 +95,23 @@ Chcete-li pro vývojáře zadat požadované dovednosti u obecného zdroje, post
 
 6. Pokud nejste spokojeni s výsledky počátečního hledání požadavku, můžete kritéria filtru změnit. Chcete-li najít další zdroje, rozbalte podokno **Filtrovat zobrazení** a pak vyberte **Hledat**.
 
-    ![Podokno Filtrovat zobrazení](media/Resource-Management-image16.png)
+    ![Podokno Filtrovat zobrazení.](media/Resource-Management-image16.png)
 
 7. Chcete-li změnit způsob řazení výsledků, vyberte **Řadit**.
 
-    ![Příkaz Řadit](media/Resource-Management-image17.png)
+    ![Příkaz Řadit.](media/Resource-Management-image17.png)
 
 8. Vyberte zdroje podle poptávky, která je určena u požadavku, jak je uvedeno v horní části mřížky. Výběr buněk v mřížce můžete vymazat a ponechat tuto kapacitu zdroje otevřenou. Jako rezervovaný lze najednou vybrat pouze jeden zdroj.
 
 9. Chcete-li vybraný zdroj rezervovat, vyberte **Rezervovat** a ponechejte Plánovací vývěsku otevřenou, aby bylo možné vybrat další zdroje. Případně vyberte **Rezervovat a ukončit**, chcete-li rezervovat vybraný zdroj a zavřít Plánovací vývěsku.
 
-    ![Zdroj k rezervaci](media/Resource-Management-image19.png)
+    ![Zdroj k rezervaci.](media/Resource-Management-image19.png)
 
     Obdržíte oznámení o rezervovaných hodinách. Ukazatele poptávky ukazují, z jaké části je požadavek na rezervaci splněn a kolik zbývá. Můžete také zobrazit, jak velká část kapacity vybraného zdroje je spotřebována. Chcete-li zobrazit další podrobnosti o rezervaci zdrojů, vyberte možnost **Rozbalit**.
 
 9. Vraťte se do zobrazení **Všichni členové týmu**. V mřížce si všimněte, že obecný zdroj byl nahrazen pojmenovaným zdrojem, a že je u tohoto zdroje uvedeno 40 hodin jako rezervovaných.
 
-    ![Aktualizovaná mřížka Všichni členové týmu](media/Resource-Management-image20.png)
+    ![Aktualizovaná mřížka Všichni členové týmu.](media/Resource-Management-image20.png)
 
     > [!NOTE]
     > Nejsou zobrazeny žádné přidělené hodiny, protože byly rezervováni přímo v týmu. Nebyli rezervováni pomocí přiřazení úkolu.
@@ -122,72 +122,72 @@ V PSA můžete vytvářet úkoly a poté k nim přiřazovat obecné zdroje. Tím
 
 1. Chcete-li vytvořit úlohu, vyberte na stránce **Projekty** na kartě **Plán** **Přidat**.
 
-    ![Byl vytvořen nový úkol](media/Resource-Management-image21.png)
+    ![Byl vytvořen nový úkol.](media/Resource-Management-image21.png)
 
 2. V poli **Zdroje** vyberte symbol **Výběr zdroje**. Zobrazí se dialogové okno Výběr zdroje zobrazující existující členy týmu pro projekt.
 
-    ![Výběr zdroje](media/Resource-Management-image22.png)
+    ![Výběr zdroje.](media/Resource-Management-image22.png)
 
 3. Zadejte název nového obecného zdroje a pak vyberte **Vytvořit**.
 
-    ![Byl zadán název nového obecného zdroje](media/Resource-Management-image23.png)
+    ![Byl zadán název nového obecného zdroje.](media/Resource-Management-image23.png)
 
 4. V dialogovém okně **Vytvořit: Člen projektového týmu**, které se zobrazí, vyberte v poli **Role** roli obecného zdroje. V poli **Jednotka zdroje** vyberte organizační jednotku pro obecný zdroj. Pak vyberte **Uložit**.
 
-    ![Dialogové okno Vytvořit: Člen projektového týmu](media/Resource-Management-image24.png)
+    ![Dialogové okno Vytvořit: Člen projektového týmu.](media/Resource-Management-image24.png)
 
     Obecný člen týmu je nyní přiřazen k úkolu.
 
-    ![Obecný člen týmu přiřazený k úkolu](media/Resource-Management-image25.png)
+    ![Obecný člen týmu přiřazený k úkolu.](media/Resource-Management-image25.png)
 
     Na kartě **Tým** se zobrazí nový obecný člen týmu. Povšimněte si, že má přiřazené pouze hodiny. Tyto hodiny představují součet všech úkolů, které jsou přiřazeny k obecnému členu týmu. Obecný člen týmu ještě nemá požadované hodiny ani požadavek na zdroj.
 
-    ![Obecný člen týmu na kartě Tým](media/Resource-Management-image26.png)
+    ![Obecný člen týmu na kartě Tým.](media/Resource-Management-image26.png)
 
 5. Obecného člena týmu můžete nyní přiřadit k jiným úkolům pomocí symbolu Výběr zdroje.
 
-    ![Obecný člen týmu ve Výběru zdroje](media/Resource-Management-image27.png)
+    ![Obecný člen týmu ve Výběru zdroje.](media/Resource-Management-image27.png)
 
     Po dokončení přiřazení obecného zdroje k úkolům můžete generovat požadavek na zdroj pro obecný zdroj.
 
 5. Na kartě **Tým** vyberte obecný zdroj a pak vyberte **Generate Requirement**.
 
-    ![Příkaz Generovat požadavek](media/Resource-Management-image28.png)
+    ![Příkaz Generovat požadavek.](media/Resource-Management-image28.png)
 
     Po vygenerování požadavku bude mít obecný člen týmu požadované hodiny a odkaz na požadavek na zdroj.
 
-    ![Odkaz Požadavek na zdroj](media/Resource-Management-image29.png)
+    ![Odkaz Požadavek na zdroj.](media/Resource-Management-image29.png)
 
     Jakmile provedete rezervaci pojmenovaného zdroje, je obecný zdroj odebrán z týmu a nahrazen pojmenovaným zdrojem.
 
-    ![Obecný zdroj nahrazený pojmenovaným zdrojem](media/Resource-Management-image30.png)
+    ![Obecný zdroj nahrazený pojmenovaným zdrojem.](media/Resource-Management-image30.png)
 
     Na kartě **Plán** jsou odebrána přiřazení obecných zdrojů a nahrazena pojmenovaným zdrojem.
 
-    ![Přiřazení obecných zdrojů nahrazená pojmenovaným zdrojem na kartě Plán](media/Resource-Management-image31.png)
+    ![Přiřazení obecných zdrojů nahrazená pojmenovaným zdrojem na kartě Plán.](media/Resource-Management-image31.png)
 
     > [!NOTE]
     > K tomuto chování dochází pouze v případě, že je pojmenovaný zdroj plně rezervovaný pro obecný požadavek na zdroj. Pokud některý pojmenovaný zdroj částečně nahradí požadavek na obecný zdroj nebo více pojmenovaných zdrojů nahradí požadavek na obecný zdroj, zůstane obecný zdroj přiřazen k úkolu.
 
     Na následujícím obrázku byl naplánován úkol v rozsahu 80 hodin, s pětidenní dobu trvání (16 hodin denně po dobu pěti dní) a přiřazen obecnému zdroji s názvem **Funkční**.
 
-    ![80hodinový, pětidenní úkol, přiřazený obecnému zdroji Funkční](media/Resource-Management-image32.png)
+    ![80hodinový, pětidenní úkol, přiřazený obecnému zdroji Funkční.](media/Resource-Management-image32.png)
 
     Když vygenerujete požadavek, je na 80 hodin po dobu pěti dní.
 
-    ![Požadavek vygenerovaný pro 80 hodin po dobu pěti dní](media/Resource-Management-image33.png)
+    ![Požadavek vygenerovaný pro 80 hodin po dobu pěti dní.](media/Resource-Management-image33.png)
 
     Vzhledem k tomu, že dostupné zdroje pracují pouze osm hodin denně, je nutné ke splnění požadavku použít dva zdroje.
 
-    ![Druhý zdroj](media/Resource-Management-image35.png)
+    ![Druhý zdroj.](media/Resource-Management-image35.png)
 
     Na kartě **Tým** nyní můžete vidět, že obecný zdroj nemá žádné požadované hodiny, ale přiřazené hodiny jsou stále zobrazeny společně se dvěma pojmenovanými zdroji, které tvoří splnění.
 
-    ![Dva pojmenované zdroje na kartě Tým](media/Resource-Management-image36.png)
+    ![Dva pojmenované zdroje na kartě Tým.](media/Resource-Management-image36.png)
 
     Obecný zdroj zůstává na kartě **Plán** přiřazený k úkolu.
 
-    ![Obecné zdroje na kartě Plán](media/Resource-Management-image37.png)
+    ![Obecné zdroje na kartě Plán.](media/Resource-Management-image37.png)
 
 PSA nepřiřazuje k úkolu oba zdroje, protože toto chování by vyvolalo méně předvídatelný plán. V tomto jednoduchém příkladu je snadné rozdělit hodiny rovnoměrně mezi dva zdroje. Ve složitějších scénářích, které zahrnují více úkolů a více zdrojů, by však aplikace PSA musela učinit předpoklady, jak by měla rozdělit rezervace přijaté pro více zdrojů ve více úkolech.
 
@@ -219,13 +219,13 @@ Po přidání obecného nebo pojmenovaného zdroje do projektového týmu může
 
 1. Na stránce **Projekty** vyberte na kartě **Tým** člena týmu a poté vyberte **Zachovat rezervace**.
 
-    ![Otevřená Plánovací vývěska pro vybraného člena týmu](media/Resource-Management-image40.png)
+    ![Otevřená Plánovací vývěska pro vybraného člena týmu.](media/Resource-Management-image40.png)
 
     Zobrazí se Plánovací vývěska a zobrauje rezervace členů projektového týmu. Rozbalte záznam člena týmu a zobrazte hodiny, které byly zarezervovány pro tento projekt a další projekty, které spotřebovávají kapacitu tohoto člena týmu.
 
 2. Výběrem a přetažením rezervace ji prodlouhujte nebo zkrátíte. Zobrazí se dialogové okno **Vytvořit rezervaci zdroje**, které vám umožní upravit rezervaci.
 
-    ![Dialogové okno Vytvořit rezervaci zdroje](media/Resource-Management-image41.png)
+    ![Dialogové okno Vytvořit rezervaci zdroje.](media/Resource-Management-image41.png)
 
 3. Klepněte na rezervaci pravým tlačítkem myši. Potom můžete pomocí místní nabídky provést následující akce:
 
@@ -237,7 +237,7 @@ Po přidání obecného nebo pojmenovaného zdroje do projektového týmu může
 
 Můžete změnit libovolný výchozí nebo vlastní stav rezervace.
 
-![Příkaz Změnit stav](media/Resource-Management-image42.png)
+![Příkaz Změnit stav.](media/Resource-Management-image42.png)
 
 Následující stavy jsou k dispozici v PSA:
 
@@ -257,25 +257,25 @@ Požadavky na zdroj se používají k přenosu poptávky (požadavku na zdroj), 
 
 Při generování požadavku na zdroj může projektový manažer odeslat žádost o zdroj pro obecný zdroj výběrem zdroje a následným výběrem **Odeslat žádost**.
 
-![Tlačítko Odeslat žádost](media/Resource-Management-image45.png)
+![Tlačítko Odeslat žádost.](media/Resource-Management-image45.png)
 
 Komentáře ke zdroji mohou být poskytnuty správci zdroje, který požadavek plní. Po odeslání požadavku se pole **Stav** pro člena týmu změní na **Odesláno**.
 
-![Zadání nepovinných komentářů](media/Resource-Management-image46.png)
+![Zadání nepovinných komentářů.](media/Resource-Management-image46.png)
 
 Jakmile správce prostředku splní požadavek, bude obecný člen týmu v mřížce **Všichni členové výmu** nahrazen pojmenovaným zdrojem.
 
-![Obecný člen týmu nahrazený pojmenovaným zdrojem v mřížce Všichni členové týmu](media/Resource-Management-image47.png)
+![Obecný člen týmu nahrazený pojmenovaným zdrojem v mřížce Všichni členové týmu.](media/Resource-Management-image47.png)
 
 #### <a name="use-a-resource-proposal-for-resource-requests"></a>Použití návrhu zdroje pro žádosti o zdroje
 
 Namísto přímého rezervování zdroje na základě žádosti o zdroj může správce prostředku navrhnout zdroj projektovému manažerovi. Správce prostředku může tuto možnost použít, pokud není k dispozici přesná shoda požadavků. Když správce prostředku navrhne zdroj, projektový manažer uvidí, že je pole **Stav** pro obecného člena týmu změněno na **Potřebuje kontrolu**.
 
-![Stav obecného člena týmu byl změněn na Potřebuje kontrolu](media/Resource-Management-image48.png)
+![Stav obecného člena týmu byl změněn na Potřebuje kontrolu.](media/Resource-Management-image48.png)
 
 Chcete-li navržený zdroj zobrazit společně s vizualizací účinku rezervace návrhu, klikněte dvakrát na člena týmu, který má stav **Potřebuje kontrolu**. Pak vyberte kartu **Navržené zdroje**.
 
-![Karta Navržené zdroje](media/Resource-Management-image49.png)
+![Karta Navržené zdroje.](media/Resource-Management-image49.png)
 
 Vyberte **Přijmout všechny návrhy**, abyste přijali všechny navržené zdroje nebo **Zamítnout všechny návrhy**, abyste je zamítli. Přijmete-li navržené zdroje, budou v projektu závazně zarezervovány jako členové týmu a nahradí obecné zdroje.
 
@@ -289,30 +289,30 @@ Projektový manažer někdy musí v projektu nahradit rezervovaného člena tým
 1. Na stránce **Projekty** vyberte na kartě **Tým** zdroj, který vyžaduje náhradu a poté vyberte **Zachovat rezervace**.
 2. Chcete-li zobrazit projekty, ke kterým je zdroj přiřazen, rozbalte ho.
 
-    ![Zdroj rozbalený pro zobrazení přiřazených projektů](media/Resource-Management-image50.png)
+    ![Zdroj rozbalený pro zobrazení přiřazených projektů.](media/Resource-Management-image50.png)
 
 3. Klepněte pravým tlačítkem myši na projekt a vyberte **Nahradit zdroj**.
 4. Pokud znáte zdroj, kterým chcete nahradit aktuální zdroj, vyberte ho nebo zadejte jeho název a pak vyberte **Znovu přiřadit**.
 
-    ![Zadání náhradního zdroje](media/Resource-Management-image51.png)
+    ![Zadání náhradního zdroje.](media/Resource-Management-image51.png)
 
     Můžete také vyhledat zdroj pomocí následujícího postupu:
 
     1. Vyberte **Najít náhradu**.
 
-        ![Hledání náhradního zdroje](media/Resource-Management-image52.png)
+        ![Hledání náhradního zdroje.](media/Resource-Management-image52.png)
 
         Pomocník plánování vrátí seznam dostupných náhrad. V Pomocníkovi plánování můžete dále filtrovat dostupné zdroje a najít vhodnou náhradu.
 
-        ![Seznam dostupných náhrad](media/Resource-Management-image53.png)
+        ![Seznam dostupných náhrad.](media/Resource-Management-image53.png)
 
     2. Chcete-li nahradit zdroj, vyberte zdroj, který chcete a pak vyberte **Nahradit**.
 
-        ![Nahradit vybraný zdroj](media/Resource-Management-image54.png)
+        ![Nahradit vybraný zdroj.](media/Resource-Management-image54.png)
 
     Rezervace a přiřazení budou nahrazeny novým zdrojem.
 
-    ![Rezervace a přiřazení nahrazené novým zdrojem](media/Resource-Management-image55.png)
+    ![Rezervace a přiřazení nahrazené novým zdrojem.](media/Resource-Management-image55.png)
 
 ## <a name="reconcile-team-member-bookings-and-assignments"></a>Spárování rezervací a přiřazení člena týmu
 
@@ -320,7 +320,7 @@ Pro členy týmu jsou rezervace a přiřazení volně provázené. Jinými slovy
 
 PSA obsahuje kartu **Vyrovnání** která projektovým manažerům umožňuje vyrovnat rezervace a přiřazení členů týmů pro projektové týmy.
 
-![Karta Vyrovnání](media/Resource-Management-image56.png)
+![Karta Vyrovnání.](media/Resource-Management-image56.png)
 
 Karta **Vyrovnání** zobrazuje rezervace a přiřazení až k úrovni jednotlivých přiřazení úkolů pro každého člena týmu. Zobrazuje hodiny v buňkách reprezentujících časová období od měsíců po dny.
 
@@ -335,11 +335,11 @@ Pokud v některých případech zobrazíte čas na vyšší úrovni než denní 
 
 Když zobrazíte čas na vyšších úrovních, buňky na kartě **Vyrovnání** mají indikátor, který vás upozorní, že se na nižších úrovních vyskytují rozdíly. Dvojitým kliknutím do buňky můžete provést přiblížení a zobrazit rozdíl. Kliknutím pravým tlačítkem myši můžete zobrazení oddálit. Výběrem zdroje a následným použitím ovládacího prvku **Další rozdíl** na panelu nástrojů mřížky můžete přejít na další rozdíl mezi rezervacemi a přiřazeními pro daný zdroj. Poté můžete použít ovládací prvek **Předchozí rozdíl** a vrátit se zpět. V **Nastavení** také můžete vypnout ukazatel rozdílu a chování navigace.
 
-![Ukazatel rozdílu](media/Resource-Management-image57.png)
+![Ukazatel rozdílu.](media/Resource-Management-image57.png)
 
 Pokud máte pro zdroj přiřazení úkolů, ale nemáte žádné rezervace, vyberte na stránce **Projekty**, na kartě **Vyrovnání** nedostatečnou rezervaci a pak vyberte **Prodloužit rezervaci**. Zobrazí se dialogové okno **Prodloužit rezervaci**, ve kterém je uvedena rezervace potřebná k vyřešení nedostatku zdroje. Zobrazuje také existující rezervace zdroje ve všech projektech nebo jiných plánovatelných entitách. Pokud vyberete **OK** pro vytvoření rezervace pro zdroj bez ohledu na dostupnost zdroje, můžete způsobit přerezervaci.
 
-![Dialogové okno Prodloužit rezervaci](media/Resource-Management-image58.png)
+![Dialogové okno Prodloužit rezervaci.](media/Resource-Management-image58.png)
 
 Projektový manažer nebo správce prostředku pak může pomocí Plánovací vývěsky spravovat všechny situace, ve kterých je zdroj přerezervovaný nad svoji kapacitu.
 

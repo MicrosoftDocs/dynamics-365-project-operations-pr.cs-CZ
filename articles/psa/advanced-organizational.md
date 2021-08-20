@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009608"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005068"
 ---
 # <a name="organizational-units"></a>Organizační jednotky 
 
@@ -53,7 +53,7 @@ Organizační jednotka hraje v PSA dvě role:
 - **Smluvní jednotka** – organizační jednotka, která zastupuje skupinu nebo divizi společnosti, která je primárně zodpovědná za získání prodeje a řízení dodávky práce a služeb zákazníkovi. Smluvní jednotka je identifikována pomocí pole **Smluvní jednotka** v části hlavičky stránek **Příležitost**, **Nabídka**, **Projektová smlouva** a **Projekt**.
 - **Jednotka zdroje** – organizační jednotka, k níž zdroj náleží nebo je přiřazen. Tato organizační jednotka může poskytnout své zdroje pro některé role v prohlášeních o práci (SOWs) a projektech vlastněných smluvní jednotkou.
 
-> ![Smluvní jednotky a financování jednotek](media/advanced-1.png)
+> ![Smluvní jednotky a financování jednotek.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Nejčastější dotazy k organizační jednotce
 

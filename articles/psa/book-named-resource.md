@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2f97107de938975491770ab4e2ed18a3145d0e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e929a5fb4c307d3b64d0f7f70203fe20bc6dd4f99e89e039fae0ce8276c69c52
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013388"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000478"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Rezervace pojmenovaných zdrojů z požadavků na zdroje
 
@@ -35,33 +35,33 @@ Pro nahrazení obecného zdroje, který obsahuje požadavek na zdroj, můžete r
 2. Vyberte ze seznamu obecný zdroj, který obsahuje požadavek na zdroj, a pak klikněte na **Rezervovat**. Nebo otevřete požadavek na zdroj a pak klikněte na **Rezervovat**.
 
 
-![Rezervace obecného člena týmu](media/RM-how-to-14.png)
+![Rezervace obecného člena týmu.](media/RM-how-to-14.png)
 
 
 3. Na stránce **Pomocník plánování** vyberte pojmenovaný zdroj, který chcete rezervovat pro projektový tým, a klikněte na tlačítko **Rezervovat**.
 
-![Rezervace obecného člena týmu pomocí pomocníka pro plánování](media/RM-how-to-15.png)
+![Rezervace obecného člena týmu pomocí pomocníka pro plánování.](media/RM-how-to-15.png)
 
 Pokud je rezervace dokončena a vyplněna pojmenovaným zdrojem, je obecný zdroj nahrazen pojmenovaným zdrojem.
 
-![Nahrazení obecného člena týmu pojmenovaným členem týmu](media/RM-how-to-16.png)
+![Nahrazení obecného člena týmu pojmenovaným členem týmu.](media/RM-how-to-16.png)
 
 Přiřazení v plánu jsou aktualizována také pomocí pojmenovaného zdroje.
 
-![Pojmenovaný člen týmu přiřazený k úkolům projektu](media/RM-how-to-17.png)
+![Pojmenovaný člen týmu přiřazený k úkolům projektu.](media/RM-how-to-17.png)
 
 ## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a>Vyplnění obecného zdroje pomocí několika pojmenovaných zdrojů
 Vyplnění požadavku na obecný zdroj pomocí několika pojmenovaných zdrojů je podobné přiřazení jednoho pojmenovaného zdroje. Existuje například úkol s dobou trvání pět dní a úsilím 120 hodin. Tento úkol nemůže být dokončen jedním zdrojem, který pracuje typicky osm hodin denně, pět dní v týdnu. 
 
-![Úkol, který potřebuje 120 hodin úsilí po dobu pěti dnů](media/RM-how-to-21.png)
+![Úkol, který potřebuje 120 hodin úsilí po dobu pěti dnů.](media/RM-how-to-21.png)
 
 Požadavek je na 120 hodin robotického inženýrství po dobu pěti dní, což je 24 hodin denně.
 
-![Požadavek na den](media/RM-how-to-22.png)
+![Požadavek na den.](media/RM-how-to-22.png)
 
 Toto je příklad, kdy je k naplnění obecného požadavku na zdroj potřeba více pojmenovaných zdrojů. Pro splnění požadavku budete potřebovat rezervovat více zdrojů.
 
-![Rezervace více zdrojů pro splnění požadavku](media/RM-how-to-23.png)
+![Rezervace více zdrojů pro splnění požadavku.](media/RM-how-to-23.png)
 
 Hlavní rozdíl v tomto scénáři spočívá v tom, že obecný zdroj zůstává v týmu přiřazeném k úkolu, a že zarezervovaní pojmenovaní členové týmu zdrojů nejsou přiřazeni jako součást pozice. Projektový manažer může přiřadit práci odpovídající pojmenovaným zdrojům. Zobrazení **Vyrovnání** může projektovému manažerovi pomoci při rozdělování rezervací mezi více zdrojů pro přiřazení úkolů. Není to prováděno automaticky, protože v libovolném scénáři, který je složitější než výše uvedený jednoduchý příklad, kdy například máte balík úkolů, které tvoří požadavek, musí být záměr, jak chce projektový manažer přiřazení provést, vypočten systémem. Protože systém nedokáže pochopit záměr, je pravděpodobné, že předpoklady budou jiné, než je zamýšleno, a dojde k nesprávnému nebo nepředvídatelnému výsledku. Předvídatelným výsledkem je, že obecný zdroj zůstává přiřazen, dokud projektový manažer záměrně nevytvoří přiřazení pomocí zobrazení **Vyrovnání**.
 

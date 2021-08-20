@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995478"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988553"
 ---
 # <a name="provision-a-new-environment"></a>Zřízení nového prostředí
 
@@ -52,12 +52,12 @@ Pomocí následujících kroků povolíte tok automatického zřizování Projec
 
 6. Vyberte typ prostředí pro vaše nasazení. Zkušební verze založená na předplatném vám umožní nasadit prostředí CDS po dobu 30 dnů. 
 
-![Nastavení nasazení](./media/1DeploymentSettings.png)
+![Nastavení nasazení.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Výběrem možnosti **Souhlasím** potvrďte podmínky služby a poté se výběrem možnosti **Hotovo** vraťte do nastavení nasazení.
 
-![Souhlas s nasazením](./media/2DeploymentConsent.png)
+![Souhlas s nasazením.](./media/2DeploymentConsent.png)
 
 7. Volitelné – použití ukázkových dat na prostředí. Přejdete do **Pokročilé nastavení**, vyberte **Přizpůsobte konfiguraci databáze SQL** a nastavte **Určete datovou sadu pro databázi aplikací** na **Ukázka**.
 
@@ -67,7 +67,7 @@ Pomocí následujících kroků povolíte tok automatického zřizování Projec
 
 9. Chcete-li potvrdit, že se prostředí úspěšně nasadilo, vyberte **Přihlásit se** a potvrďte přihlášením do prostředí.
 
-![Podrobnosti prostředí ](./media/3EnvironmentDetails.png)
+![Podrobnosti prostředí.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Použití aktualizací v prostředí Finance
 
@@ -77,19 +77,19 @@ K získání této verze možná budete muset na svém prostředí Finance použ
 
 1. V LCS, na stránce **Podrobnosti o prostředí** v sekci **Dostupné aktualizace** vyberte možnost **Zobrazit aktualizaci**.
 
-![Zobrazení aktualizací](./media/5ViewUpdates.png)
+![Zobrazení aktualizací.](./media/5ViewUpdates.png)
 
 2. Na stránce **Binární aktualizace** vyberte možnost **Uložit balíček.**
 
-![Uložení balíčku](./media/6SavePackage.png)
+![Uložení balíčku.](./media/6SavePackage.png)
 
 3. Klikněte na položku **Vybrat vše** a pak vyberte příkaz **Uložit balíček**.
 
-![Kontrola a ukládání aktualizací](./media/7ReviewAndSaveUpdates.png)
+![Kontrola a ukládání aktualizací.](./media/7ReviewAndSaveUpdates.png)
 
 4. Zadejte název a popis balíčku a poté vyberte příkaz **Uložit**. Tento proces může nějakou dobu trvat (v závislosti na rychlosti připojení k internetu).
 
-![Nahrání balíčku do knihovny prostředků](./media/8UploadPackageToAssetsLibrary.png)
+![Nahrání balíčku do knihovny prostředků.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Po uložení balíčku vyberte možnost **Hotovo** a uložte tento balíček do knihovny prostředků ve vašem projektu LCS.
 
@@ -97,15 +97,15 @@ Uložení a ověření balíčku může trvat až 15 minut.
 
 6. Chcete-li použít aktualizaci, přejděte na stránku **Podrobnosti o prostředí** v LCS a vyberte příkaz **Údržba** > **Použít aktualizace**.
 
-![Údržba prostředí](./media/9MaintainEnvironment.png)
+![Údržba prostředí.](./media/9MaintainEnvironment.png)
 
 7. V seznamu aktualizací vyberte balíček, který jste vytvořili, a vyberte příkaz **Použít**.
 
-![Instalace aktualizací](./media/10ApplyUpdates.png)
+![Instalace aktualizací.](./media/10ApplyUpdates.png)
 
 Údržba prostředí bude nějakou dobu trvat. Po dokončení se prostředí vrátí do nasazeného stavu.
 
-![Nasazené prostředí](./media/11EnvironmentDeployed.png)
+![Nasazené prostředí.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Vytvoření připojení s duálním zápisem 
 
@@ -113,41 +113,41 @@ Uložení a ověření balíčku může trvat až 15 minut.
 2. V části **Informace o prostředí Common Data Service** vyberte možnost **Odkaz na CDS pro aplikace**.
 3. Po vytvoření odkazu vyberte znovu možnost **Odkaz na CDS pro aplikace**. Budete přesměrováni na duální zápis ve Finance.
 
-![Odkaz na CDS](./media/12LinktoCDS.png)
+![Odkaz na CDS.](./media/12LinktoCDS.png)
 
 4. Výběrem položky **Použít řešení** získáte přístup k entitám, které budou mapovány v integraci.
 
-![Použít řešení](./media/13ApplySolutions.png)
+![Použít řešení.](./media/13ApplySolutions.png)
 
 5. Vyberte obě řešení, **Mapa entit duálního zápisu Dynamics 365 Finance and Operations** a **Mapa entit duálního zápisu Dynamics 365 Project Operations** a potom vyberte **Použít**.
 
-![Potvrzení řešení](./media/14ConfirmSolutions.png)
+![Potvrzení řešení.](./media/14ConfirmSolutions.png)
 
 Poté, co je řešení použito, se na prostředí použijí entity duálního zápisu.
 
-![Použití řešení](./media/15ApplyingSolutions.png)
+![Použití řešení.](./media/15ApplyingSolutions.png)
 
 Po použití entit se v prostředí zobrazí všechna dostupná mapování.
 
-![Mapy duálního zápisu](./media/15DWMappings.png)
+![Mapy duálního zápisu.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Po aktualizaci aktualizujte datové entity
 
 1. Ve Finance přejděte do pracovního prostoru **Správa dat**.
 
-![Pracovní prostor správy dat](./media/16DataManagement.png)
+![Pracovní prostor správy dat.](./media/16DataManagement.png)
 
 2. Vyberte dlaždici **Parametry architektury**.
 
-![Parametry architektury](./media/17FrameworkParameters.png)
+![Parametry architektury.](./media/17FrameworkParameters.png)
 
 3. Na stránce **Nastavení entity** vyberte možnost **Aktualizovat seznam entit**.
 
-![Aktualizovat seznam entit](./media/18RefreshEntityList.png)
+![Aktualizovat seznam entit.](./media/18RefreshEntityList.png)
 
 Aktualizace bude trvat přibližně 20 minut. Po dokončení obdržíte upozornění.
 
-![Potvrzení aktualizace](./media/19RefreshConfirmation.png)
+![Potvrzení aktualizace.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Aktualizovat nastavení zabezpečení v Project Operations na Dataverse
 
@@ -188,17 +188,17 @@ Aktualizace bude trvat přibližně 20 minut. Po dokončení obdržíte upozorn
 4. Chcete-li entitu aktualizovat, vyberte název mapy a poté vyberte příkaz **Aktualizovat entity**. 
 
 
-![Aktualizovat mapu](./media/20RefreshMapping.png)
+![Aktualizovat mapu.](./media/20RefreshMapping.png)
 
 5. Po dokončení aktualizace spusťte mapu. Před povolením další mapy ověřte, zda je mapa v tabulce ve stavu **Běh**. Spuštění map s větším počtem předpokladů může trvat delší dobu.
 
 Chcete-li spustit mapu s předpoklady, zapněte přepínač **Zobrazit související mapy entit**. Pokud je v tabulce **Počáteční synchronizace požadavků** nastavena na **Ne**, ověřte, zda příznak **Počáteční synchronizace** má hodnotu **Vypnuto** ve všech mapách požadavků, než ji spustíte.
 
-![Spuštění mapy](./media/21RunMap.png)
+![Spuštění mapy.](./media/21RunMap.png)
 
 6. Ověřte, zda jsou všechny mapy související s projektem v běžícím stavu.
 
-![Všechny mapy běží](./media/22AllMapsRunning.png)
+![Všechny mapy běží.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Použití dat konfigurace v prostředí CDS pro Project Operations (volitelně)

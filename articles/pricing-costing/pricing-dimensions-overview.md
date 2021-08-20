@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368468"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001963"
 ---
 # <a name="pricing-dimensions-overview"></a>Přehled cenových dimenzí
 
@@ -33,7 +33,7 @@ Z tohoto důvodu jsou k dispozici dva typy hodnot cenové dimenze:
 
 Dynamics 365 Project Operations se dodává s výchozí sadou cenových dimenzí. Tyto cenové dimenze můžete zobrazit přechodem na **Project Operations** > **Parametry**. V záznamu parametru na kartě **Cenové dimenze založené na částce** ověřte, že role **msdyn_resourcecategory** a organizační jednotka zdroje **msdyn_organizationalunit** mají pole **Použitelné pro prodej** a **Použitelné pro náklady** nastavená na **Ano**. Když jsou tato pole povolena, můžete nastavit cenu a náklady pro každou kombinaci role a organizační jednotky.
 
-![Snímek obrazovky parametrů Project Service se zvýrazněním „Použitelné na prodej”](media/PS-OOB-parameters.png)
+![Snímek obrazovky parametrů Project Service se zvýrazněním „Použitelné na prodej”.](media/PS-OOB-parameters.png)
 
 Potřebujete-li své zdroje ocenit nebo vyjádřit náklady na ně pomocí dalších atributů, můžete vytvořit přizpůsobená pole, entity a dimenze. Další informace naleznete v následujících tématech: 
   

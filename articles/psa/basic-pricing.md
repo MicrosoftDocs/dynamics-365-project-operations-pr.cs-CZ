@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014963"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000568"
 ---
 # <a name="project-pricing"></a>Ocenění projektů 
 
@@ -46,7 +46,7 @@ Entita Ceník obsahuje tři související tabulky, ve kterých jsou uloženy cen
   - **Cena kategorie transakce** – tato tabulka uchovává ceny podle kategorie transakcí a používá se k nastavení cen kategorií výdajů.
   - **Položky ceníku** – tato tabulka uchovává ceny pro katalogové produkty.
 
-> ![Konfigurace cen pomocí ceníku](media/basic-guide-12.png)
+> ![Konfigurace cen pomocí ceníku.](media/basic-guide-12.png)
  
 Ceník je karta se sazbami. Karta se sazbami je kombinací entity Ceník a souvisejících řádků v tabulkách Cena role, Cena kategorie transakce a Položky ceníku.
 
@@ -58,7 +58,7 @@ Termín *Role zdroje* odkazuje na sadu dovedností, kompetencí a certifikací, 
 
 Skupina jednotek **Čas** se vytvoří při instalaci PSA. Obsahuje výchozí jednotku **Hodina**. Atributy skupiny jednotek **Čas** nebo jednotky **Hodina** nelze odstranit, přejmenovat ani upravit. Do skupiny jednotek **Čas** však můžete přidat další jednotky. Pokud se pokusíte odstranit skupinu jednotek **Čas** nebo jednotku **Hodina**, můžete způsobit selhání v obchodní logice PSA.
 
-> ![Konfigurace cen podle role](media/basic-guide-13.png)
+> ![Konfigurace cen podle role.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategorie transakcí a kategorie výdajů
 
@@ -68,7 +68,7 @@ Cestovné a další výdaje, které vzniknou projektovým konzultantům, jsou ob
 - **Procento přirážky** – procentní podíl nad skutečné náklady je fakturován zákazníkovi. 
 - **Cena za jednotku** – fakturační cena je nastavena pro každou jednotku kategorie výdajů. Částka, která je fakturována zákazníkovi, je vypočtena na základě počtu výdajových jednotek, které konzultant hlásí. Mílovné používá metodu ocenění cena za jednotku. Kategorie výdajů na mílovné může být nakonfigurována pro 30 amerických dolarů (USD) za den nebo 2 USD na míli. Když konzultant ohlásí mílovné na projekt, fakturovaná částka se vypočte na základě počtu mil, které konzultant ohlásil.
 
-> ![Konfigurace oceňování kategorií výdajů](media/basic-guide-14.png)
+> ![Konfigurace oceňování kategorií výdajů.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Oceňování a přepisy projektových prodejů
 
@@ -114,7 +114,7 @@ V nabídce je však možné použít hlavní ceník. Můžete také zkopírovat 
 
 Při vytváření vlastního projektového ceníku se zkopírují pouze projektové komponenty ceníku. Jinými slovy, nový ceník vytvořený jako kopie existujícího projektového ceníku, který je připojen k nabídce, a tento nový ceník obsahuje pouze související ceny rolí a ceny kategorií transakcí.
 
-> ![Zobrazení a konfigurace vlastních cen pro projektovou smlouvu](media/basic-guide-15.png)
+> ![Zobrazení a konfigurace vlastních cen pro projektovou smlouvu.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Sledování nákladů
 

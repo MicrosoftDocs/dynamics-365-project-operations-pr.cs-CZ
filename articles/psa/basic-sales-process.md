@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f01ba14baa0a2378b0a230a46aed3a682342ce6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014198"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000523"
 ---
 # <a name="sales-processes"></a>Prodejní procesy
 
@@ -39,7 +39,7 @@ Prodejní procesy používané v organizaci založené na projektech se liší o
 
 Následující ilustrace znázorňuje typický prodejní proces v organizaci založené na projektech.
 
-> ![Prodejní proces v organizaci založené na projektech](media/basic-guide-1.png)
+> ![Prodejní proces v organizaci založené na projektech.](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Odhad prodeje
 Hodnotu prodeje lze odhadnout na základě dříve dodaných projektů a složitosti projektů. U projektů, které zahrnují rozšíření do předchozích projektů, nebo projektů, u kterých je odbornost dodavatele vysoká a jsou používány dobře známé šablony práce, můžete použít jednodušší proces odhadu. Složitější projekty obvykle mají delší proces nákupu. Proto je v procesu odhadu prodeje více fází. Na začátku procesu používá prodejní tým k zahájení vytváření odhadu na vysoké úrovni pro každou jednotlivou komponentu práce, která je nabízena, vstup manažerů zákaznických účtů a odborníků na konkrétní problematiku (SMEs). Tyto komponenty práce jsou reprezentovány řádky nabídky. 
@@ -50,7 +50,7 @@ Můžete vytvořit více nabídek pro projekt a seskupit je pod jedním typem en
 
 Pod jedním typem entity příležitosti můžete také vytvořit alternativní nabídky nebo nastavit systém tak, aby se při získání nabídky vytvořila projektová smlouva. V tomto případě můžete k záznamu projektové smlouvy připojit dokument aplikace Word, který představuje popis práce.
 
-![Uzavření nabídky za účelem vytvoření projektové smlouvy](media/basic-guide-2.png)
+![Uzavření nabídky za účelem vytvoření projektové smlouvy.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Konfigurace prodejního procesu
 V Microsoft Dynamics 365 můžete použít toky obchodních procesů (BPFs) pro konfiguraci vašeho prodejního procesu. BPFs poskytuje vašim prodejcům vizuální rozhraní s průvodcem, které mohou použít k přesunu obchodů v rámci fází, které jsou pro vaši firmu typické.
@@ -66,7 +66,7 @@ Vaše společnost může mít například v prodejním procesu následujících 
 
 Těchto šest fází je reprezentováno dvojitými šipkami (\>), které vyberete pro rozbalení v každém typu entity příležitosti, který vytvoříte.
 
-![Konfigurace obchodního procesu v Dynamics 365](media/basic-guide-3.png)
+![Konfigurace obchodního procesu v Dynamics 365.](media/basic-guide-3.png)
  
 Vaše organizace může v průběhu vývoje používat k reprezentaci stejného obchodu různé entity. Počátkem prodejního procesu je obchod reprezentován entitou Příležitost. Jak plyne čas a objeví se další podrobnosti, můžete k vytvoření jedné nebo více nabídek použít odhady na vysoké úrovni. Pokud je jedna z těchto nabídek zkontrolována interními a zákaznickými zúčastněnými stranami, představuje entita Nabídka obchod. Poté, co zákazník nabídku přijme, představuje projektová smlouva nebo SOW obchod. Pro podporu tohoto chování jsou toky obchodních procesů strukturovány tak, aby každá fáze procesu byla propojena s jinou databázovou tabulkou.
 
@@ -77,7 +77,7 @@ Při přesouvání obchodů napříč fázemi se zobrazí výzva k vytvoření p
 > [!NOTE]
 > PSA obsahuje pro entity Příležitost, Nabídka, Objednávka a Faktura specifické stránky. Pro tyto entity musíte pomocí stránek informací o projektu vytvořit příležitosti, nabídky, objednávky a faktury služby Project Service. Pokud k vytvoření záznamu použijete jinou stránku, nebudete tento záznam moci otevřít ze stránky **Informace o projektu**. Chcete-li otevřít záznam ze stránky **Informace o projektu**, je nutné záznam odstranit a znovu jej vytvořit pomocí stránky **Informacemi o projektu**. Obchodní logika na stránce **Informace o projektu** pro každý z těchto typů entit zaručuje, že pole **Typ** záznamu je správně nastaveno, a že jsou správně inicializovány všechny povinné koncepty.
 
-> ![Informace o projektu pro novou objednávku](media/basic-guide-4.png)
+> ![Informace o projektu pro novou objednávku.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Rozdíly mezi Project Service Automation a Sales
 Ačkoli prodejní proces v PSA používá základní funkce prodejního procesu v Sales, obsahuje kvůli variantám v obchodních praktikách organizací založených na projektech několik klíčových rozdílů. Zde je uvedeno několik příkladů:

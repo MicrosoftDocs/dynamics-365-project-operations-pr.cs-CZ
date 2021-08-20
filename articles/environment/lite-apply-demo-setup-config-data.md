@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997143"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993278"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Použití ukázkového nastavení a data konfigurace pro Project Operations – omezené 
 
@@ -30,24 +30,24 @@ Před zahájením konfigurace musíte mít mít zřízeno prostředí  Common Da
 2. Přejděte do složky *ProjOpsSampleSetupData – pouze CMT CE* a spusťte spustitelný soubor *DataMigrationUtility*.
 3. Na straně 1 Průvodce konfigurací migrace (CMT) Common Data Service, vyberte **Importovat data** a poté vyberte **Pokračovat**.
 
-    ![Migrace konfigurace](./media/1ConfigurationMigration.png)
+    ![Migrace konfigurace.](./media/1ConfigurationMigration.png)
 
 4. Na stránce 2 průvodce CMT vyberte **Microsoft 365** jako **Typ nasazení**.
 5. Zaškrtněte políčka **Zobrazit seznam dostupných organizací** a **Zobrazit pokročilé**.
 6. Vyberte oblast vašeho klienta, zadejte své přihlašovací údaje a pak vyberte **Přihlásit se**.
 
-   ![Přihlášení do konfigurace](./media/2ConfigurationSignin.png)
+   ![Přihlášení do konfigurace.](./media/2ConfigurationSignin.png)
 
 7. Na stránce 3 ze seznamu organizací v klientovi vyberte, do které organizace chcete importovat ukázková data, a poté vyberte **Přihlásit se**.
 8. Na stránce 4 vyberte soubor zip *SampleSetupAndConfigData* z rozbalené složky *ProjOpsSampleSetupData – CE pouze CMT*.
 
-   ![Soubor ZIP](./media/3ZipFile.png)
+   ![Soubor ZIP.](./media/3ZipFile.png)
 
-   ![Vyberte soubor](./media/4SelectAFile.png)
+   ![Vyberte soubor.](./media/4SelectAFile.png)
 
 9. Po výběru souboru zip vyberte **Importovat data**.
 
-   ![Import dat](./media/5ImportData.png)
+   ![Importovat data.](./media/5ImportData.png)
 
 10. Import bude probíhat přibližně dvě až deset minut v závislosti na rychlosti vaší sítě. Po dokončení ukončete průvodce CMT. 
 11. Zkontrolujte ve své organizaci data v následujících 18 entitách:
@@ -71,7 +71,7 @@ Před zahájením konfigurace musíte mít mít zřízeno prostředí  Common Da
     -   Přidružení kategorie rezervovatelného zdroje
     -   Charakteristika rezervovatelného zdroje
 
-    ![Dokončit import](./media/6CompleteImport.png)
+    ![Dokončit import.](./media/6CompleteImport.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

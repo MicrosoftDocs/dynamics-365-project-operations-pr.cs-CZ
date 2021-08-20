@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368873"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998453"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Domovská stránka cenových a nákladových dimenzí
 
@@ -41,7 +41,7 @@ Vzhledem k typické povaze těchto atributů práce a osob vyžadovaných k prov
 
 PSA se dodává s výchozí sadou cenových dimenzí. Můžete je zobrazit pomocí **Project Service** > **Parametry**. V záznamu parametru na kartě **Cenové dimenze založené na částce** ověřte, že role **msdyn_resourcecategory** a organizační jednotka zdroje **msdyn_organizationalunit** mají pole **Použitelné pro prodej** a **Použitelné pro náklady** nastavená na **Ano**. To vám umožní nastavit cenu a náklady pro každou kombinaci role a organizační jednotky.
 
-![Snímek obrazovky parametrů Project Service se zvýrazněním „Použitelné na prodej”](media/PS-OOB-parameters.png)
+![Snímek obrazovky parametrů Project Service se zvýrazněním „Použitelné na prodej”.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Pokud jste před verzí 3 PSA jako cenové dimenze používali připravená pole role a organizační jednotky, nezaznamenáte žádné zjistitelné změny. Službu Project Service můžete nadále používat obvyklým způsobem. 

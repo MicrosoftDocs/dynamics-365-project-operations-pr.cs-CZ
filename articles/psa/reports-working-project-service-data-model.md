@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008798"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002413"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Práce s datovým modelem Project Service Automation
 
@@ -53,7 +53,7 @@ PSA datového modelu Dynamics 365 také přidává nové entity související s 
 
 Dalšími entitami, které PSA do nabídek přidává, jsou **Projektový ceník řádku nabídky**, **Kategorie zdroje řádku nabídky** a **Kategorie transakce řádku nabídky**.
 
-![Diagram zobrazující nabídku, řádek nabídky a vztahy projektů](media/PS-Reporting-image2.png "Diagram zobrazující nabídku, řádek nabídky a vztahy projektů")
+![Diagram zobrazující nabídku, řádek nabídky a vztahy projektů.](media/PS-Reporting-image2.png "Diagram zobrazující nabídku, řádek nabídky a vztahy projektů")
 
 ## <a name="reporting-on-project-contracts"></a>Podávání zpráv o projektových smlouvách
 
@@ -69,7 +69,7 @@ PSA také přidává nové entity, které jsou navrženy pro projektové smlouvy
 
 Dalšími entitami, které PSA do smluv přidává, jsou **Projektový ceník řádku projektové smlouvy**, **Kategorie zdroje řádku projektové smlouvy** a **Kategorie transakce řádku projektové smlouvy**.
 
-![Diagram zobrazující objednávku, řádek objednávky a vztahy projektů](media/PS-Reporting-image3.png "Diagram zobrazující objednávku, řádek objednávky a vztahy projektů")
+![Diagram zobrazující objednávku, řádek objednávky a vztahy projektů.](media/PS-Reporting-image3.png "Diagram zobrazující objednávku, řádek objednávky a vztahy projektů")
 
 ## <a name="reporting-on-projects"></a>Podávání zpráv o projektech
 
@@ -81,7 +81,7 @@ Entita **Projekty** a související entity jsou výhradní pro PSA. **Projekt** 
 - **Požadavek na zdroj** – tato entita obsahuje požadavky na libovolné obecné zdroje členů týmu.
 - **Odhad** a **Řádek odhadu** – tyto entity mají vztah záhlaví/řádek a obsahují odhady výdajů pro projekt. Odhady úkolů jsou uloženy v entitě **Odhad zdroje**.
 
-![Diagram zobrazující požadavek na zdroj a vztahy projektů](media/PS-Reporting-image4.png "Diagram zobrazující požadavek na zdroj a vztahy projektů")
+![Diagram zobrazující požadavek na zdroj a vztahy projektů.](media/PS-Reporting-image4.png "Diagram zobrazující požadavek na zdroj a vztahy projektů")
 
 ## <a name="reporting-on-resources"></a>Podávání zpráv o zdrojích
 
@@ -92,7 +92,7 @@ Zdroje projektu používají entity **Rezervovatelný zdroj** z aplikace Univers
 - **Kategorie rezervovatelného zdroje** – tato entita představuje roli rezervovatelného zdroje.
 - **Rezervace rezervovatelného zdroje** – tato entita představuje čas, který je v projektech rezervovaný pro daný zdroj. Každá rezervace obsahuje jak entitu záhlaví, tak entity řádků a každý řádek obsahuje stav, který představuje stav rezervace.
 
-![Diagram ukazující vztahy rezervovatelných charakteristik zdroje](media/PS-Reporting-image5.png "Diagram ukazující vztahy rezervovatelných charakteristik zdroje")
+![Diagram ukazující vztahy rezervovatelných charakteristik zdroje.](media/PS-Reporting-image5.png "Diagram ukazující vztahy rezervovatelných charakteristik zdroje")
 
 ## <a name="reporting-on-actual-transactions"></a>Vykazování skutečných transakcí
 
@@ -120,7 +120,7 @@ Při práci s entitou **Skutečnost** je důležité porozumět, jaká transakce
 
 Entita **Původ transakce** zaznamenává původ záznamu **Skutečnost** a entita **Propojení transakce** zaznamenává související záznamy pro záznam **Skutečnost**. Záznam **Skutečnost** dále obsahuje odkazy na projekt, projektovou smlouvu (objednávky), rezervovatelné prostředky a zákazníka.
 
-![Diagram zobrazující transakční připojení, původ a skutečné vztahy](media/PS-Reporting-image6.png "Diagram zobrazující transakční připojení, původ a skutečné vztahy")
+![Diagram zobrazující transakční připojení, původ a skutečné vztahy.](media/PS-Reporting-image6.png "Diagram zobrazující transakční připojení, původ a skutečné vztahy")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

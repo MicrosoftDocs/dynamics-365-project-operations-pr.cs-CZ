@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7d9ebc0b283731356e0b9b26f2d665a12183519f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28dc05d50850fed5241c5360ccbeaeb1f4d9d7fc3916bd2a3cd1bb6f43457dd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014828"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000748"
 ---
 # <a name="recording-actuals"></a>Záznam skutečných hodnot 
 
@@ -31,7 +31,7 @@ ms.locfileid: "6014828"
 
 Jsou zaznamenávány všechny finanční transakce, které nastanou během projektu. Tyto transakce jsou zaznamenány jako **skutečné hodnoty**. Následující tabulka zobrazuje různé typy skutečných hodnot, které jsou vytvořeny v závislosti na tom, zda je projekt časově materiálovým projektem, projektem s pevnou cenou nebo interním projektem nebo je v předprodejní fázi.
 
-> ![Tabulka znázorňující způsob, jakým jsou zaznamenávány skutečné hodnoty](media/advanced-table2.png)
+> ![Tabulka znázorňující způsob, jakým jsou zaznamenávány skutečné hodnoty.](media/advanced-table2.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

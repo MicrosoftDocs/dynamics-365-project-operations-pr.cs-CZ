@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998493"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008578"
 ---
 # <a name="product-based-quote-lines"></a>Řádky nabídky založené na produktu
 
@@ -58,7 +58,7 @@ Pokud toto pole nastavíte na **Přepsat ocenění**, Dynamics 365 nenastaví v�
 
 Po instalaci PSA jsou do řádků na nabídce založených na produktu vloženy výchozí prodejní ceny. Pole **Ocenění** je pak nastaveno na **Přepsat ocenění**, takže můžete upravit výchozí cenu na řádcích nabídky.
 
-> ![Nastavení přepisu ocenění](media/basic-guide-10.png)
+> ![Nastavení přepisu ocenění.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Množstevní faktory pro výrobky
 
@@ -78,7 +78,7 @@ Dynamics 365 může mít například následující vlastnosti:
 
 Vlastnosti **Poč. uživatelů** a **Poč. měsíců** lze pomocí úpravy vlastností řádku produktu označit jako množstevní faktory. 
 
-> ![Označení vlastností Poč. uživatelů a Poč. měsíců jako množstevní faktory](media/basic-guide-11.png)
+> ![Označení vlastností Poč. uživatelů a Poč. měsíců jako množstevní faktory.](media/basic-guide-11.png)
  
 
 

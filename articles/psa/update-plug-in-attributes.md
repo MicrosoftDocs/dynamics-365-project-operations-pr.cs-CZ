@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b0d50733340f277453f4ef5b52bdd3ee089449cd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012803"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988778"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Aktualizace atributů modulů plug-in tak, aby zahrnovaly nové cenové dimenze
 
@@ -42,25 +42,25 @@ Následující postup vysvětluje proces registrace modulů plug-in.
 1. Otevřete **PluginRegistrationTool** a připojte se k online instanci.
 2. Klikněte na tlačítko **Hledat** a vyhledejte modul plug-in, který chcete aktualizovat.
 
- ![Snímek obrazovky vyhledávacího stromu](media/PRT-1.png)
+ ![Snímek obrazovky vyhledávacího stromu.](media/PRT-1.png)
 
 3. Po nalezení modulu plug-in jej vyberte a klikněte na tlačítko **Vybrat v hlavním formuláři**.
 
 4. Vyberte krok modulu plug-in, který chcete aktualizovat, klikněte pravým tlačítkem myši a vyberte položku **Aktualizovat**.
 
- ![Snímek obrazovky modulu plug-in, který má být aktualizován](media/PRT-2.png)
+ ![Snímek obrazovky modulu plug-in, který má být aktualizován.](media/PRT-2.png)
  
 5. V okně aktualizace klikněte na tři tečky (**...**) v atributech filtrování.
 
- ![Snímek obrazovky aktualizace existujících informací kroku konfigurace](media/PRT-3.png)
+ ![Snímek obrazovky aktualizace existujících informací kroku konfigurace.](media/PRT-3.png)
  
 6. Zaškrtněte políčka atributu ceny.
 
- ![Snímek obrazovky zaškrtnutí políčka pro atributy ceny](media/PRT-4.png)
+ ![Snímek obrazovky zaškrtnutí políčka pro atributy ceny.](media/PRT-4.png)
 
 7. Kliknutím na tlačítko **OK** zavřete stránku a pak vyberte možnost **Aktualizovat krok**.
 
- ![Snímek obrazovky s tlačítkem „Aktualizovat krok“](media/PRT-5.png)
+ ![Snímek obrazovky s tlačítkem „Aktualizovat krok“.](media/PRT-5.png)
  
 8. Tento postup zopakujte pro druhý modul plug-in **PreOperationQuoteLineDetail – Aktualizace msdyn_quotelinetransaction**.
 

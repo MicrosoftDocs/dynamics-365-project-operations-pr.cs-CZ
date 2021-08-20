@@ -2,7 +2,7 @@
 title: Nová verze vyúčtování výdajů
 description: Tento téma vysvětluje přepracované prostředí pro zadávání vyúčtování výdajů.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6250996"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997823"
 ---
 # <a name="expense-reports-reimagined"></a>Nová verze vyúčtování výdajů
 
@@ -57,12 +57,13 @@ Chcete-li zapnout nové prostředí, použijte pracovní prostor **Správa funkc
 | Kalkulátor směnných kurzů | Přidána je kalkulačka směnných kurzů, která umožňuje vypočítat směnný kurz pro transakce s více měnami. |
 | Uložte a přidejte nové výdajové řádky | Jsou k dipozici tlačítka **Uložit** a **Nový** při zadávání nových výdajů, která vám pomohou rychle zadat řádky výdajů. |
 | Lepší viditelnost na rozdělené a rozepsané řádky | Rozepsané a rozdělené řádky se přidávají přímo do seznamu výdajů, aby se zvýšila viditelnost a pomohlo vám snadno určit, zda nedošlo k chybám. |
-| Zobrazit podrobnosti podkategorie v rozepsaných řádcích | Rozepsané řádky nadřazeného výdaje zobrazují štítky podkategorií ve výkazu výdajů, což vám pomůže na první pohled zkontrolovat podrobnosti.|
+| Zobrazit podrobnosti podkategorie v rozepsaných řádcích | Řádky s položkou nadřazeného výdaje zobrazují popisky podkategorií ve zprávě o výdajích. Rozdělení položek vám umožní zkontrolovat podrobné informace na první pohled.|
 | Zobrazit účtenky při rozepisování | Při rozepisování lze zobrazit účtenky. |
 | Výběr hotovostní zálohy | Vyberte jednu nebo více peněžních záloh pro provedení transakce s jedním výdajem. |
 | Hotovostní zůstatek | Zkontrolujte zůstatek hotovostní zálohy v reálném čase, když vytvoříte položku výdajů oproti schváleným a zaplaceným peněžním zálohám. |
 
 Počáteční vydání je zaměřeno na scénáře zadávání výdajů. Jakýkoli scénář kontroly nebo schválení výkazu výdajů bude i nadále používat stávající stránku pro zadávání výdajů.
+
 
 Následující funkce nejsou podporovány v přepracovaném pracovním prostoru Sestavy výdajů, ale jsou plánovány pro budoucí vydání: 
 

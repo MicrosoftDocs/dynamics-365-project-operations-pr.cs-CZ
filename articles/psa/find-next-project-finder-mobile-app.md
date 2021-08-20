@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007493"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990759"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Vyhledání vašeho dalšího projektu pomocí aplikace Project Finder Mobile (Project Service)
 
@@ -38,12 +38,12 @@ Pomocí aplikace Project Finder Mobile na vašem telefonu [!INCLUDE[tn_iphone](.
   
  Klepnutím na šipku vpravo u projektu, který vás zajímá, zobrazíte podrobnější informace a budete se moci do projektu zaregistrovat.  
   
- ![Seznam projektů odpovídajících dovedností v projektu aplikace Finder Mobile](../psa/media/project-service-project-finder-list.png "Seznam projektů odpovídajících dovedností v projektu aplikace Finder Mobile")  
+ ![Seznam projektů odpovídajících dovedností v aplikaci Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Seznam projektů odpovídajících dovedností v projektu aplikace Finder Mobile")  
   
 ## <a name="update-your-skills"></a>Aktualizace vašich dovedností  
  Chcete-li aktualizovat úroveň svých dovedností a odborných znalostí, klepněte na tlačítko profilu v pravém dolním rohu obrazovky.  
   
- ![Tlačítko profilu v projektu aplikace Finder Mobile](../psa/media/project-service-project-finder-profile.png "Tlačítko profilu v projektu aplikace Finder Mobile")  
+ ![Tlačítko profilu v aplikaci Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Tlačítko profilu v projektu aplikace Finder Mobile")  
   
 ### <a name="see-also"></a>Viz také  
  [Příručka – Čas, výdaje a spolupráce](../psa/time-expense-collaboration-guide.md)

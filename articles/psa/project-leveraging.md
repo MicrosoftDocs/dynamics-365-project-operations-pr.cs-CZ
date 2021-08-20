@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998403"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995168"
 ---
 # <a name="sales-estimates-and-projects"></a>Odhady prodeje a projekty
 
@@ -35,11 +35,11 @@ Během prodejního procesu můžete vytvořit odhady prodeje propojením projekt
 
 Při vytváření řádku nabídky založeného na projektu můžete vytvořit nový projekt nebo přidružit existující projekt na stránce **Řádek nabídky**. 
 
-> ![Formulář Řádek nabídky](media/project-8.png)
+> ![Formulář Řádek nabídky.](media/project-8.png)
  
 Při vytváření nového projektu z podrobností řádku nabídky můžete využít šablony projektů. Šablony projektů jsou modelové projekty, které představují standardní plány projektů a finanční odhady, které jsou v organizaci typické. Mohou také představovat kopie projektových plánů a odhadů z minulých projektů.
 
-> ![Podrobnosti řádku nabídky](media/project-9.png)
+> ![Podrobnosti řádku nabídky.](media/project-9.png)
   
 Při vytváření projektu z nabídky bude projekt automaticky přidružen k řádku nabídky.
 

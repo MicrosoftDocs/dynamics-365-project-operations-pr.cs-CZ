@@ -6,12 +6,12 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3b403d9432720a4fe2f9b818600a00e250ea918
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000113"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994583"
 ---
 # <a name="navigate-project-operations"></a>Procházení Project Operations
 
@@ -28,11 +28,11 @@ Po zřízení Project Operations, jak je popsáno v tomto tématu, poskytuje str
 
 Použijte název prostředí v sekci **Název prostředí Common Data Service** pro přechod k Project Operations v prostředí CDS. 
 
-  ![Název prostředí Common Data Service](./media/environment-name.PNG)
+  ![Název prostředí Common Data Service.](./media/environment-name.PNG)
 
 Vyberte **Přihlášení** > **Přihlášením se do prostředí** předete na modul **Řízení projektů a účetnictví** ve Finance.  
 
-   ![Přihlásení k Finance](./media/environment-login.PNG)
+   ![Přihlásení k Finance.](./media/environment-login.PNG)
 
 > [!NOTE]
 > K Project Operations můžete přistoupit v Common Data Service a modulu **Řízení projektů a účetnictví** přímo pomocí příslušných adres URL. 

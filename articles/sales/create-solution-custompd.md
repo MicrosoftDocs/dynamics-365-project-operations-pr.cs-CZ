@@ -6,12 +6,12 @@ ms.date: 11/09/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010328"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992198"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Vytvoření řešení pro vlastní cenové dimenze
 
@@ -26,7 +26,7 @@ ms.locfileid: "6010328"
 2.  Pojmenujte řešení *Cenové dimenze <your organization name>*.
 3. Zadejte zbývající požadované informace a zvolte **Uložit**.
 
-  ![Vytvoření řešení pro vlastní cenové dimenze](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Vytvoření řešení pro vlastní cenové dimenze.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Přidání všech požadovaných entit a souvisejících komponent do řešení cenové dimenze
 
@@ -49,19 +49,19 @@ Přidejte do svého cenového řešení následující entity Project Service, a
    - **Cena role**
    - **Časový záznam**
  
-   ![Přidat existující entity k vlastnímu řešení cenových dimenzí](./media/Existing-entities-to-PD-solution.png)
+   ![Přidat existující entity k vlastnímu řešení cenových dimenzí.](./media/Existing-entities-to-PD-solution.png)
  
  4. U každé entity zkontrolujte přidávané komponenty a konečný seznam prostředků entit pro každou entitu. 
 
    >[!NOTE]
    > Zahrňte všechny formuláře a zobrazení pro všechny vybrané entity.
 
-  ![Přidané entity](./media/solution-component-selection.png)
+  ![Přidané entity.](./media/solution-component-selection.png)
 
 
 5.  Po zobrazení výzvy k zahrnutí jakýchkoli závislých entit pro vybrané entity vyberte **Ne, nezahrnovat požadované součásti.**
 
-    ![Včetně závislých entit](./media/Do-not-include-required.png)
+    ![Včetně závislých entit.](./media/Do-not-include-required.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

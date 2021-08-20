@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 400d817ee7cbae6f6da95db4286ad6c4d6ff349a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007988"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995213"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Přidat nové vlastní formuláře entit (Project Service Automation 2.x)
 
@@ -57,7 +57,7 @@ Chcete-li vytvořit vlastní verzi formuláře **Informace o projektu**, postupu
     - Exportujte formulář **Mé informace o projektu** jako součást nespravovaného řešení a potom vyhledejte v souboru customization.xml exportovaného řešení hodnotu **formId**.
     - Otevřete formulář **Mé informace o projektu** v editoru formulářů a potom vyhledejte globálně jedinečný identifikátor (GUID) vedle parametru **fromId** v adrese URL, jak je znázorněno na následujícím obrázku.
 
-    ![Hodnota formId nového formuláře v adrese URL](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Hodnota formId nového formuláře v adrese URL.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Vytvořte mapování **msdyn\_ordertype** pro hodnotu **formId** pomocí úprav webového prostředku msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Odeberte kód ze zdroje a nahraďte jej následujícím kódem.
 

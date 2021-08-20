@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011048"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986753"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Aktualizace Project Operations v prostředí Finance
 
@@ -33,7 +33,7 @@ Tohle téma poskytuje informace, jak aktualizovat Dynamics 365 Project Operation
 4. Ověřte, že prostředí běží. Pokud není spuštěno, spusťte prostředí.
 5. V části **Nová verze** pod **Dostupné aktualizace** vyberte **Zobrazit aktualizaci** u 10.0.15.
 
-![Tlačítko Zobrazit aktualizaci](media/view-update.png)
+![Tlačítko Zobrazit aktualizaci.](media/view-update.png)
 
 6. Na stránce **Binární aktualizace** vyberte možnost **Uložit balíček**.
 7. Na stránce **Zkontrolovat a uložit aktualizace** vyberte možnost **Uložit balíček**.
@@ -47,11 +47,11 @@ Tohle téma poskytuje informace, jak aktualizovat Dynamics 365 Project Operation
 2. Ze seznamu vyberte balíček, který jste dříve uložili, a poté vyberte **Použít**.
 3. Vyberte **Ano** k potvrzení, že chcete balíček nasadit.
 
-![Dialogové okno Potvrdit nasazení balíčku](media/confirm-package-deployment.png)
+![Dialogové okno Potvrdit nasazení balíčku.](media/confirm-package-deployment.png)
 
 4. Vyberte **Ano** k potvrzení, že chcete aplikaci aktualizovat.
 
-![Dialogové okno Potvrdit aktualizaci aplikace](media/confirm-application-update.png)
+![Dialogové okno Potvrdit aktualizaci aplikace.](media/confirm-application-update.png)
 
 Spustí se nasazení a aktualizace aplikace. 
 
@@ -84,7 +84,7 @@ Následující aktualizace bezpečnostních oprávnění pro entity jsou vyžado
 
 1. V prostředí Dataverse přejděte do **Nastavení** a ve skupině **Systém** vyberte **Zabezpečení**.
 
-![Nastavení prostředí Dataverse](media/Picture21.png)
+![Nastavení prostředí Dataverse.](media/Picture21.png)
 
 2. Vyberte **Role zabezpečení**.
 3. Ze seznamu rolí vyberte **uživatel aplikace duálního zápisu** a vyberte kartu **Vlastní entity**. 
@@ -121,7 +121,7 @@ Následující aktualizace bezpečnostních oprávnění pro entity jsou vyžado
 6. Ze seznamu map vyberte mapu **Registr (msdyn_ledgers)** se všemi předpoklady a zaškrtněte **Počáteční synchronizace**. 
 7. V poli **Předloha pro počáteční synchronizaci** vyberte **Aplikace Finance and Operations** a poté vyberte **Spustit**.
  
- ![Synchronizace mapy registru](media/DW6.png)
+ ![Synchronizace mapy registru.](media/DW6.png)
  
 
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007583"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992378"
 ---
 # <a name="estimates"></a>Odhady
 
@@ -83,16 +83,16 @@ Pokud jste na řádku podrobností nabídky přidali vlastní pole a chcete, aby
 1. Otevřete PluginRegistrationTool a připojte se k vaší online instanci.
 2. Vyberte **Hledat** a vyhledejte modul plug-in, který chcete aktualizovat.
 
-    ![Dialogové okno stromu vyhledávání](media/basic-guide-19.png)
+    ![Dialogové okno stromu vyhledávání.](media/basic-guide-19.png)
 
 3. Vyberte modul plug-in a poté na hlavní stránce vyberte **Vybrat**.
 4. Vyberte krok modulu plug-in, který chcete aktualizovat, klikněte pravým tlačítkem myši a vyberte **Aktualizovat**.
 
-    ![Výběr kroku v modulu plug-in](media/basic-guide-20.png)
+    ![Výběr kroku v modulu plug-in.](media/basic-guide-20.png)
 
 5. V dialogovém okně **Aktualizovat existující krok** vyberte v poli **Atributy filtrování** tlačítko se třemi tečkami (**…**):
  
-    ![Dialogové okno Aktualizovat existující krok](media/basic-guide-21.png)
+    ![Dialogové okno Aktualizovat existující krok.](media/basic-guide-21.png)
 
 6. V dialogovém **Vybrat atributy** zaškrtněte zaškrtávací políčka u vlastních atributů.
 
@@ -100,7 +100,7 @@ Pokud jste na řádku podrobností nabídky přidali vlastní pole a chcete, aby
 
 7. Klepnutím na **OK** zavřete dialogové okno a pak vyberte **Aktualizovat krok**.
  
-    ![Tlačítko Aktualizovat krok](media/basic-guide-23.png)
+    ![Tlačítko Aktualizovat krok.](media/basic-guide-23.png)
 
 8. Opakujte kroky 1 až 7 pro druhý modul plug-in.
 9. Zavřete PluginRegistrationTool.

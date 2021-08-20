@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21721a9b0af820df10c4fa965d000e85098e0dea
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999033"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007408"
 ---
 # <a name="manage-resource-competencies"></a>Správa kompetencí zdrojů
 
@@ -29,7 +29,7 @@ ms.locfileid: "5999033"
 
 Kompetence zdrojů jsou podstatnou součástí správy zdrojů. Kompetence lze použít jako základ pro určení zdrojů, které mají správnou rovnováhu dovedností, vzdělání, certifikace a projektových zkušeností. Tyto informace byste měli nastavit pro každý zdroj a pravidelně je aktualizovat. Tímto způsobem můžete maximalizovat schopnosti, když se během přiřazování projektových zdrojů shodují konkrétní kompetence zdrojů.
 
-[![Příklady dovedností, certifikací, vzdělání a projektových zkušeností](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Příklady dovedností, certifikací, vzdělání a projektových zkušeností.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Následující postupy vysvětlují, jak nastavit některé kompetence pro zdroj.
 

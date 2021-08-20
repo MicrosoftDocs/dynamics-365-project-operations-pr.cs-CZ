@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997953"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995033"
 ---
 # <a name="propose-project-resources"></a>Navrhování projektových zdrojů
 
@@ -32,21 +32,21 @@ Správci zdrojů mohou navrhnout zdroj projektovému manažerovi pomocí žádos
 1. Z mřížky žádosti nebo ze samotné žádosti vyberte **Najít zdroje**.
 2. Na stránce **Pomocník plánování** vyberte zdroj a potom v podokně **Vytvořit rezervaci zdroje** v poli **Stav rezervace** vyberte **Rezervovat**.
 
-    ![Vybraný navržený zdroj](media/Resource-Management-image62.png)
+    ![Vybraný navržený zdroj.](media/Resource-Management-image62.png)
 
 Dojde k následujícím aktualizacím stavu:
 
 - Na stránce **Pomocník plánování** jsou ukazatele stavu aktualizovány tak, aby označovaly, že rezervace je navržena, že není závazně rezervována.
 
-    ![Ukazatele stavu pro navrženou rezervaci na stránce Pomocník plánování](media/Resource-Management-image63.png)
+    ![Ukazatele stavu pro navrženou rezervaci na stránce Pomocník plánování.](media/Resource-Management-image63.png)
 
 - U žádosti o zdroj se stav změní na **Potřebuje kontrolu**.
 
-    ![Stav žádosti o zdroj změněný na Potřebuje kontrolu](media/Resource-Management-image64.png)
+    ![Stav žádosti o zdroj změněný na Potřebuje kontrolu.](media/Resource-Management-image64.png)
 
 - Na kartě **Tým** projektu je změněna hodnota **Stav žádosti** obecného člena týmu na **Potřebuje kontrolu**.
 
-    ![Stav žádosti obecného člena týmu změněný na Potřebuje kontrolu na kartě Tým](media/Resource-Management-image48.png)
+    ![Stav žádosti obecného člena týmu změněný na Potřebuje kontrolu na kartě Tým.](media/Resource-Management-image48.png)
 
 Projektový manažer může návrh buď přijmout, nebo zamítnout.
 
@@ -70,7 +70,7 @@ K výpočtu využití se používají následující vzorce:
 
 Zobrazení **Využití zdroje** naleznete v podokně **Zdroje**.
 
-![Zobrazení Využití zdroje](media/Resource-Management-image65.png)
+![Zobrazení využití zdrojů.](media/Resource-Management-image65.png)
 
 Každá buňka v tabulce představuje procentuální hodnotu fakturovatelného využití zdroje v určitém období, například den, týden nebo měsíc. K obarvení buněk se používají následující vzorce:
 
@@ -84,7 +84,7 @@ Mřížka vyžaduje, abyste nastavili cílové využití buď u role, nebo u kon
 
 Navíc musí být ke každému rezervovatelnému zdroji přiřazena výchozí role. Přejděte na **Zdroje** \> **Zdroje**. Na kartě **Project Service** ověřte, zda je definována role zdroje a zda pole **Je výchozí** je pro ni nastaveno na **Ano**. Můžete přidat další role, kde **Je výchozí = Ne**. Role, ve které **Je výchozí = Ano**, slouží k vyhodnocení využití prostředku vůči cíli pro danou roli.
 
-![Nastavení výchozí role](media/Resource-Management-image67.png)
+![Nastavení výchozí role.](media/Resource-Management-image67.png)
 
 Na kartě **Project Service** můžete také nastavit individuální cílové využití zdroje. Výpočet využití pak používá toto cílové využití k vyhodnocení cíle zdroje namísto cíle výchozí role zdroje.
 
@@ -96,21 +96,21 @@ Je důležité, aby správci zdrojů mohli zobrazit dostupnost zdrojů a aktuali
 
 Jako základ pro výpočet dostupnosti zdroje slouží pracovní doba zdroje. Rezervace zdrojů spotřebovávají kapacitu zdrojů.
 
-![Plánovací vývěska](media/Resource-Management-image68.png)
+![Plánovací vývěska.](media/Resource-Management-image68.png)
 
 Plánovací vývěska používá barvy a stínování k zobrazení rezervací, dostupnosti a přerezervace a také stavu rezervací. Nastavení v Plánovací vývěsce umožňuje zobrazit legendu.
 
 Pokud se vedle konkrétního rezervovatelného zdroje v plánovací vývěsce zobrazí šipka vpravo, lze zdroj rozbalit, aby se zobrazily podrobnosti o práci, pro kterou je zdroj rezervovaný.
 
-![Rozbalený rezervovatelný zdroj v Plánovací vývěsce](media/Resource-Management-image69.png)
+![Rozbalený rezervovatelný zdroj v Plánovací vývěsce.](media/Resource-Management-image69.png)
 
 Protože Dynamics 365 Project Service Automation používá modul Universal Resource Scheduling, tak pokud máte nainstalovanou aplikaci Dynamics 365 Field Service můžete také zobrazit podrobnosti o rezervacích zdrojů pro projekty, pracovní objednávky a všechny další entity, na které jste rozšířili plánování.
 
-![Podrobnosti rezervací zdrojů pro projekty a pracovní objednávky](media/Resource-Management-image70.png)
+![Podrobnosti rezervací zdrojů pro projekty a pracovní objednávky.](media/Resource-Management-image70.png)
 
 Chcete-li zobrazit další podrobnosti o konkrétním zdroji, klepněte na něj pravým tlačítkem myši a otevřete kartu zdroje.
 
-![Karta zdroje](media/Resource-Management-image71.png)
+![Karta zdroje.](media/Resource-Management-image71.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

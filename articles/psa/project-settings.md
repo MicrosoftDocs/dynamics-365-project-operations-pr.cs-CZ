@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24032a77834005c444972f8d234d3acb33d19135
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998313"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996923"
 ---
 # <a name="project-settings"></a>Nastavení projektu
 
@@ -45,9 +45,9 @@ Chcete-li vytvořit plán projektu, vytvořte šablonu projektového kalendáře
 
   - Nový týdenní plán
   - Pracovní plán na jeden den
-  - Volno
+  - Time Off
 
-> ![Možnosti nastavení](media/project-13.png)
+> ![Možnosti nastavení.](media/project-13.png)
 
 4. Vyberte **Nový týdenní plán** a pak nastavte možnosti pro tento plán zdrojů. Můžete nastavit opakovaný týdenní plán, parametry denní hodiny, zavírací dny a další.
 5. Nastavte rozsah kalendářních dat, vyberte **Uložit** a klikněte na tlačítko **Zavřít**. 

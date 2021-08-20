@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433645"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009208"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Co je nového v červenci 2021 - Project Operations omezené
 
@@ -20,7 +20,7 @@ _Platí pro: Omezené nasazení – od obchodu po pro forma fakturaci_
 
 Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
 
-  - Project Operations v prostředí Dataverse verze 4.12.0.148.
+  - Project Operations v prostředí Dataverse verze 4.12.0.148 nebo 4.12.0.152.
 
 ## <a name="quality-updates"></a>Aktualizace pro zvýšení kvality
 | **Oblast funkcí**              | **Referenční číslo** | **Aktualizace pro zvýšení kvality**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 36
 | Obecná                       | 2296857              | Sledování pokroku pro dlouho běžící úlohy.                                                                                                                                                                        |
 | Obecná                       | 2253682              | Řešení duálního zápisu Project Operations by se nemělo instalovat, když je jádro duálního zápisu nainstalováno v prostředí bez řešení orchestrace duálního zápisu.                                                |
 | Obecná                       | 2316420              | Zřízení jádra projektové služby selže, pokud se změní obchodní jednotka uživatele aplikace.                                                                                                                     |
+| Obecná                       | 2376405              | Opravený problém s aktualizací řízenou vydavatelem (aktualizace kvality je k dispozici ve verzi 4.12.0.152)                                                                                                                     |

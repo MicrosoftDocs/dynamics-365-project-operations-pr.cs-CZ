@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999978"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986573"
 ---
 # <a name="expense-management-integration"></a>Integrace správy výdajů
 
@@ -28,7 +28,7 @@ Při plném nasazení výdajů se vytvářejí a udržují kategorie výdajů v 
 2. Ve Finance přejděte na **Správa výdajů** > **Nastavení** > **Sdílené kategorie** a vyberte sdílenou kategorii s třídou transakcí **Výdaje**. Nastavte parametr **Lze použít ve výdajích** na **True** a definujte typ výdajů, který se má použít.
 3. Pomocí tohoto záznamu sdílené kategorie vytvořte novou kategorii výdajů přechodem na **Správa výdajů** > **Nastavení** > **Kategorie výdajů** a výběrem **Nový**. Když je záznam uložen, dvojitý zápis používá mapu tabulky **Entita exportu kategorií výdajů projektu integrace Project Operations (msdyn\_expensecategories)** k synchronizaci tohoto záznamu do Dataverse.
 
-  ![Integrace kategorií výdajů](./media/DW6ExpenseCategories.png)
+  ![Integrace kategorií výdajů.](./media/DW6ExpenseCategories.png)
 
 Kategorie výdajů v aplikacích Finance and Operations jsou specifické pro společnost nebo právnickou osobu. Existují samostatné odpovídající záznamy týkající se konkrétních právnických osob Dataverse. Když projektový manažer odhaduje výdaje, nemůže vybrat kategorie výdajů, které byly vytvořeny pro projekt, který vlastní jiná společnost, než společnost, která vlastní projekt, na kterém pracuje. 
 
@@ -40,7 +40,7 @@ Sestavy výdajů jsou vytvářeny a schvalovány v aplikacích Finance and Opera
   - Duální zápis se synchronizuje do Dataverse pomocí mapy tabulky **Entita exportu výdajů projektu integrace Project Operations (msdyn\_expenses)**.
   - Daňová podřízená kniha, podřízená kniha dodavatele a další finanční zaúčtování se zaznamenávají podle potřeby v době zaúčtování sestavy výdajů.
 
-  ![Integrace sestav výdajů](./media/DW6ExpenseReports.png)
+  ![Integrace sestav výdajů.](./media/DW6ExpenseReports.png)
 
 Když je záznam zapsán do entity **Výdaje** v Dataverse, systém spustí automatizovaný proces schválení záznamu. V případě potřeby lze stav automatizovaného schvalovacího procesu zkontrolovat v Dataverse tím, že půjdete do **Pokročilé nastavení** > **Systém** > **Systémové úlohy**. Po dokončení schválení se v systému vytvoří záznamy třídy výdajových transakcí v entitě **Skutečné hodnoty**.
 

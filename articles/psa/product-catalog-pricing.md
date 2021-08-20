@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009203"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000163"
 ---
 # <a name="product-catalog-pricing"></a>Ceny v katalogu produktů 
 
@@ -44,7 +44,7 @@ Produkty z katalogu produktů můžete přidat do různých ceníků. Řádky ce
 
 PSA podporuje různé možnosti zaokrouhlení, pokud jsou ceny konfigurovány jako funkce ceníku, standardní ceny nebo aktuální ceny. Kromě využití více způsobů ocenění a možností zaokrouhlení můžete k položkám ceníku přidružit seznamy slev. 
 
-> ![Přidání produktů z katalogu do různých ceníků](media/basic-guide-16.png)
+> ![Přidání produktů z katalogu do různých ceníků.](media/basic-guide-16.png)
 
 Když vytvoříte nový vlastní ceník pro nabídku pomocí výběru **Vytvořit vlastní ceny** na stránce **Projektová nabídka**, PSA vytvoří kopii ceníku a pole **Entita** v záhlaví nového ceníku bude nastaveno na **Entita prodeje**. K názvu nového ceníku je připojen název nabídky a časové razítko. Název nového ceníku a název nabídky ve vlastních pracovních postupech můžete také použít k aktivaci další kontroly a schválení pro nabídky, které používají vlastní ceny.
 

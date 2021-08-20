@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f4f93ee0c0bdb9fc6a9a3c6a75f6c3d178766d0b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009068"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987248"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Uživatelská příručka pro Project Resource Hub
 
@@ -52,28 +52,28 @@ Dříve než můžete začít aplikaci Project Resource Hub používat, musíte 
 1.  Při přihlášení do mobilní aplikace se zobrazí stránka MyApps se seznamem aplikací, ke kterým máte přístup. 
 2.  Vyberte **Project Resource Hub**.
 
-![Zvolit aplikaci](media/chooseApp_1.png "Zvolit aplikaci")
+![Zvolte aplikaci.](media/chooseApp_1.png "Zvolit aplikaci")
 
 **Navigační panel**
 
-Pomocí navigačního panelu můžete přejít do pracovní oblasti, vytvořit nový záznam, vyhledávat nebo provádět jiné úkoly. Pro přístup k dalším příkazům klepněte na ![Tlačítko Další](media/MoreButton.png "Tlačítko Další").
+Pomocí navigačního panelu můžete přejít do pracovní oblasti, vytvořit nový záznam, vyhledávat nebo provádět jiné úkoly. Pro přístup k dalším příkazům klepněte na ![Tlačítko Další.](media/MoreButton.png "Tlačítko Další")
 
-![Navigační panel](media/NavBar_2.png "Navigační panel")
+![Navigační panel.](media/NavBar_2.png "Navigační panel")
 
 **Oblíbené a nedávno použité záznamy**
 
 Sekce Oblíbené a nedávno použité záznamy poskytuje rychlý přístup k záznamům, zobrazením a řídicím panelům. 
 
-- Chcete-li získat přístup k těmto sekcím, klepněte na tlačítko **Nabídka** ![Tlačítko Nabídka](media/MenuButton.png "Tlačítko nabídky") na navigačním panelu a pak klepněte na tlačítko **Oblíbené a nedávné** ![Tlačítko Oblíbené](media/FavButton.png "Tlačítko Fav").
+- Do těchto sekcí se dostanete klepnutím na **Nabídku** ![Tlačítko nabídky.](media/MenuButton.png "Tlačítko nabídky") Na navigačním panelu a potom klepněte na tlačítko **Oblíbené a Nedávné** ![Tlačítko Oblíbené](media/FavButton.png "Tlačítko Fav").
 
 - Chcete-li připnout položku jako oblíbenou položku ze seznamu **Nedávno použitých** položek, klepněte na připínáček. Tím připnete položku a přesunete ji do oblíbených položek.
 
-  ![Oblíbené a nedávné položky](media/Favs_3.png "Oblíbené a nedávné položky")
+  ![Oblíbené a nedávné položky.](media/Favs_3.png "Oblíbené a nedávné položky")
  
 ## <a name="enter-time"></a>Zadání času
 Zadejte vaše hodiny alespoň jednou za týden – nebo tak často, jak požadují vaši nadřízení, aby bylo možné zajistit, že vaši klienti budou správně fakturováni a zúčtování.
 
-1. Klepněte na tlačítko nabídky ![Tlačítko nabídky](media/MenuButton.png "Tlačítko nabídky") a pak klepněte na položku **Časové záznamy**. Po výběru této možnosti se zobrazí kalendář.
+1. Klepněte na nabídku ![Tlačítko nabídky.](media/MenuButton.png "Tlačítko nabídky") tlačítko a potom klepněte na **Časové záznamy**. Po výběru této možnosti se zobrazí kalendář.
 
 2. Klepnutím na tlačítko **Předchozí** nebo **Další** zobrazíte kalendář pro předchozí nebo příští týden. Klepnutím na tlačítko **Dnes** se můžete vrátit zpět na aktuální týden.
 

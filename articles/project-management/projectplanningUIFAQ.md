@@ -2,17 +2,17 @@
 title: Řešení potíží s prací v mřížce úloh
 description: Tento téma poskytuje potřebné informace o odstraňování potíží při práci v mřížce úloh.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213392"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989093"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Řešení potíží s prací v mřížce úloh 
 
@@ -24,7 +24,7 @@ Tento téma popisuje, jak opravit problémy, se kterými se můžete setkat při
 
 Aby bylo možné vykreslit strukturu rozpisu práce, vyžaduje Project Operations povolení souborů cookie třetích stran. Pokud nejsou povoleny soubory cookie třetích stran, místo zobrazení úkolů se zobrazí prázdná stránka po výběru karty **Úkoly** na stránce **Projekt**.
 
-![Prázdná karta, pokud nejsou povoleny soubory cookie třetích stran](media/blankschedule.png)
+![Prázdná karta, pokud nejsou povoleny soubory cookie třetích stran.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Zástupné řešení
@@ -52,11 +52,22 @@ U prohlížečů Microsoft Edge a Google Chrome následující postupy popisuj�
 Project Operations vyžaduje, aby parametr projektu odkazoval na PEX koncový bod. Tento koncový bod je vyžadován pro komunikaci se službou používanou k vykreslování strukturovaného rozpisu prací. Pokud parametr není povolen, zobrazí se chyba „Parametr projektu není platný“. 
 
 ### <a name="workaround"></a>Zástupné řešení
- ![Pole PEX koncového bodu v parametru projektu](media/projectparameter.png)
 
 1. Přidejte pole **Koncový bod PEX** na stránku **Parametry projektu**.
-2. Aktualizujte pole následující hodnotou: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Odeberte pole ze stránky **Parametry projektu**.
+2. Identifikujte typ produktu, který používáte. Tato hodnota se používá, když je nastaven PEX koncový bod. Po načtení je typ produktu již definován v PEX koncovém bodě. Hodnotu uchovejte. 
+   
+    ![Pole PEX koncového bodu v parametru projektu.](media/pex-endpoint.png)
+
+3. Aktualizujte pole následující hodnotou: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Typ produktu                         | Typ parametru |
+   |--------------------------------------|----------------|
+   | Project for the Web ve výchozí oganizaci   | type=0         |
+   | Project for the Web ve oganizaci pojmenovanou CDS | type=1         |
+   | Project Operations                   | type=2         |
+   
+4. Odeberte pole ze stránky **Parametry projektu**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Oprávnění pro Projekt pro web
 
@@ -67,7 +78,7 @@ Project Operations spoléhá na externí plánovací službu. Služba vyžaduje,
 
 1. Přejděte na **Nastavení > Zabezpečení > >Uživatelé aplikace**.  
 
-   ![Čtečka aplikace](media/applicationuser.jpg)
+   ![Čtečka aplikace.](media/applicationuser.jpg)
    
 2. Dvojitým kliknutím na záznam uživatele aplikace ověřte následující:
 
@@ -76,7 +87,7 @@ Project Operations spoléhá na externí plánovací službu. Služba vyžaduje,
  
 3. Pokud tento uživatel neexistuje, můžete vytvořit nový záznam uživatele. Vyberte možnost **Noví uživatelé**. Změňte formulář zadání na **Uživatel aplikace** a poté přidejte **ID aplikace**.
 
-   ![Uživatelské údaje aplikace](media/applicationuserdetails.jpg)
+   ![Uživatelské údaje aplikace.](media/applicationuserdetails.jpg)
 
 4. Ověřte, že uživateli byla přiřazena správná licence a že je služba povolena v podrobnostech servisních plánů licence.
 5. Ověřte, že uživatel může otevřít project.microsoft.com.

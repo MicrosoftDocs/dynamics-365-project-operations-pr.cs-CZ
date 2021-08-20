@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993282"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987698"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Jak přiřadit rezervovatelný zdroj k úkolu ve webové aplikaci (aplikace Project Service v2.x)?
 
@@ -43,7 +43,7 @@ Při použití této metody přidáte zdroj do projektového týmu a poté při�
 3.  Zvolte data **Od** a **Do**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Screenshot znázorňující přidání člena týmu](media/FAQ-Resources-to-Tasks2-1.png "Screenshot znázorňující přidání člena týmu")
+    > ![Screenshot znázorňující přidání člena týmu.](media/FAQ-Resources-to-Tasks2-1.png "Screenshot znázorňující přidání člena týmu")
  
 4.  Vyberte jednu z následujících metod přidělení pro rezervaci zdroje:
     - **Plná kapacita** rezervuje plnou kapacitu zdroje pro zadaná počáteční a koncová data.
@@ -63,12 +63,12 @@ Při použití této metody přidáte zdroj do projektového týmu a poté při�
     3. Vyberte **OK**. Člen týmu je nyní přiřazen k úkolu.
 
     > [!div class="mx-imgBorder"] 
-    > ![Screenshot znázorňující přidání zdrojů pomocí WBS](media/FAQ-Resources-to-Tasks2-2.png "Screenshot znázorňující přidání zdrojů pomocí WBS")
+    > ![Screenshot znázorňující přidání zdrojů pomocí WBS.](media/FAQ-Resources-to-Tasks2-2.png "Screenshot znázorňující přidání zdrojů pomocí WBS")
  
 V mřížce člena týmu uvidíte agregaci přiřazených hodin zdroje pod položkou Přiřazené hodiny. Bude menší nebo rovna rezervovaným hodinám pro daný zdroj. 
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot znázorňující přiřazené hodiny zdroje](media/FAQ-Resources-to-Tasks2-3.png "Screenshot znázorňující přiřazené hodiny zdroje")
+> ![Screenshot znázorňující přiřazené hodiny zdroje.](media/FAQ-Resources-to-Tasks2-3.png "Screenshot znázorňující přiřazené hodiny zdroje")
  
 Pokud úloha, kterou se pokoušíte přiřadit zdroji, začíná po datu ukončení rezervace zdrojů, nebude zdroj v rozevíracím seznamu zobrazen.
 
@@ -92,22 +92,22 @@ Tato metoda zajišťuje, že zdroje mají dostatek rezervací pro úkoly. Nejprv
 4. Vyberte **OK**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Screenshot znázorňující přidání zdroje pomocí WBS](media/FAQ-Resources-to-Tasks2-4.png "Screenshot znázorňující přidání zdroje pomocí WBS")
+    > ![Screenshot znázorňující přidání zdroje pomocí WBS.](media/FAQ-Resources-to-Tasks2-4.png "Screenshot znázorňující přidání zdroje pomocí WBS")
  
 Po dokončení přiřazování rolí k úkolům ve strukturovaném rozpisu prací vyberte **Vygenerovat projektový tým**. Project Service vytvoří minimální počet obecných členů týmu založený na rolích, organizačních jednotkách zdrojů a kalendáři projektu pomocí agregace přiřazení úkolů.
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot znázorňující generování projektového týmu](media/FAQ-Resources-to-Tasks2-5.png "Screenshot znázorňující generování projektového týmu")
+> ![Screenshot znázorňující generování projektového týmu.](media/FAQ-Resources-to-Tasks2-5.png "Screenshot znázorňující generování projektového týmu")
  
 Na mřížce Člen týmu se zobrazí zdroje typu Obecný zdroj s názvem role a pozice. Pokud jsou potřebné dva zdroje pro roli k dokončení práce, funkce Vygenerovat tým vytvoří dva členy týmu a použije název pozice, aby je nastavila odděleně.
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot znázorňující přidání dvou obecných zdrojů](media/FAQ-Resources-to-Tasks2-6.png "Screenshot znázorňující přidání dvou obecných zdrojů")
+> ![Screenshot znázorňující přidání dvou obecných zdrojů.](media/FAQ-Resources-to-Tasks2-6.png "Screenshot znázorňující přidání dvou obecných zdrojů")
  
 Požadavek na podpůrný zdroj pro obecného člena týmu můžete otevřít výběrem odkazu v části Požadavek na zdroj.
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot znázorňující požadavek na podpůrný zdroj](media/FAQ-Resources-to-Tasks2-7.png "Screenshot znázorňující požadavek na podpůrný zdroj")
+> ![Screenshot znázorňující požadavek na podpůrný zdroj.](media/FAQ-Resources-to-Tasks2-7.png "Screenshot znázorňující požadavek na podpůrný zdroj")
 
 Vyberte možnost **Rezervovat** pro obecný zdroj a pak můžete použít plánovací vývěsku pro nalezení a rezervaci skutečného zdroje. Je také možné odeslat požadavek na splnění manažerem zdrojů volbou **Odeslat požadavek**.
 
