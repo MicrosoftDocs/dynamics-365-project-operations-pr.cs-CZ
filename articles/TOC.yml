@@ -4,9 +4,11 @@
   items:
     - name: Určení typu nasazení
       href: environment/determine-deployment-type.md
+    - name: Registrace ke zkušební verzi Project Operations
+      href: environment/admin-trials.md
     - name: Aktualizace Project Operations
       href: whats-new/project-operations-updates.md
-- name: 'Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+- name: 'Project Operations pro scénáře založené na zdrojích/položkách, které nejsou na skladě'
   items:
     - name: Začínáme
       items:
@@ -54,7 +56,9 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Co je nového
       items:
-        - name: 'Červenec 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+        - name: 'Srpen 2021 – Project Operations pro scénáře založené na zdrojích/položkách, které nejsou na skladě'
+          href: whats-new/whats-new-august-2021-resource-based.md
+        - name: 'Červenec 2021 – Project Operations pro scénáře založené na zdrojích/položkách, které nejsou na skladě'
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: 'Červen 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
           href: whats-new/whats-new-june-2021-resource-based.md
@@ -418,6 +422,8 @@
       items:
         - name: Přehled schválení
           href: approvals/approvals-overview.md
+        - name: Sady schválení
+          href: approvals/approval-sets.md
         - name: Poznámky vývojáře
           items:
             - name: Poznámky pro vývojáře ke schválení
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Co je nového
       items:
+        - name: Co je nového ve vlně 2 roku 2021 pro dřívější přístup - omezené nasazení
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 'Co je nového, srpen 2021 – omezené nasazení'
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: 'Co je nového, červenec 2021 – omezené nasazení'
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: 'Co je nového, červen 2021 – omezené nasazení'
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Správa subdodávek ve službě Project Operations
       items:
-        - name: Přehled správy subdodávek
+        - name: Správa subdodávek ve službě Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Subdodávky v dřívějším přístupu v říjnu 2021
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Klíčové pojmy v subdodávkách
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Správa prodejců a ceníků projektů
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Subdodavatelé jako rezervovatelné zdroje
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Podrobnosti záhlaví pro subdodávky
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Řádky subdodávky pro čas
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Řádky subdodávky pro výdaje
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Řádky subdodávky pro produkty
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Zdroje řádku subdodávky
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Milníky řádku subdodávky
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Čas
       items:
         - name: Přehled času
@@ -868,6 +892,8 @@
       items:
         - name: Přehled schválení
           href: approvals/approvals-overview.md
+        - name: Sady schválení
+          href: approvals/approval-sets.md
         - name: Poznámky vývojáře
           items:
             - name: Poznámky pro vývojáře ke schválení
@@ -1060,6 +1086,8 @@
       items:
         - name: Plán vydávání aktualizací pro Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 35, V3'
+          href: psa/whats-new-ur-35.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 34, V3'
           href: psa/whats-new-ur-34.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 33, V3'
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: Přizpůsobení týdenních časových záznamů
               href: psa/time-entry-extensibility-v3.md
-            - name: Sady schválení
+            - name: Sady schválení v Project Service Automation
               href: psa/approval-set.md
     - name: Nejčastější dotazy a poradce při potížích (3.x)
       items:
