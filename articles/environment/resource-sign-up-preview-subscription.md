@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 75ee31e67018fe2a7655d8a8f11e40b433a9a5db6f8f2addac27844f18fffe8d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007858"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323408"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Přihlášení k odběru preview Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
@@ -23,7 +23,7 @@ Tento téma vysvětluje, jak se přihlásit k nabídce zkušební verze a nasadi
 
 ## <a name="prerequisites"></a>Požadavky
 - Uživatel, který nasadí preview, musí mít práva globálního správce klienta Azure. Během prvního uplatnění nabídky můžete vytvořit nájemce. 
-- Nasazení prostředí Finance vyžaduje platné předplatné Azure, kterému bude účtováno každé prostředí zvlášť. V začátcích můžete použít stávající předplatné vaší organizace nebo [zkušební verzi Azure](https://azure.microsoft.com/en-us/free/). Prostředí CDS bude poskytováno zdarma po omezenou dobu 30 dnů.
+- Nasazení prostředí Finance vyžaduje platné předplatné Azure, kterému bude účtováno každé prostředí zvlášť. V začátcích můžete použít stávající předplatné vaší organizace nebo [zkušební verzi Azure](https://azure.microsoft.com/free/). Prostředí CDS bude poskytováno zdarma po omezenou dobu 30 dnů.
 
 > [!IMPORTANT]
 > Tuto úlohu musí v organizaci provést pouze jedna osoba, správce tenanta. Pokud nejste předplatitelem tohoto vydání, počkejte, dokud nebude vaše organizace zaregistrována a neobdržíte přihlašovací údaje uživatele.

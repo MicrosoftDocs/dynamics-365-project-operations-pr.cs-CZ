@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001648"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440769"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Správa více zákazníků v nabídkách projektů – omezené
 
@@ -37,7 +37,7 @@ Zákazník nabídky může být vytvořen, aktualizován nebo odstraněn na kart
 
 | **Pole** | **Umístění** | **Popis** | **Dopad na příjem dat** |
 | --- | --- | --- | --- |
-| Účet | Upravitelná mřížka na kartě **Zákazníci nabídky** a formuláře **Hlavní** a **Vytvořit** pro zákazníka nabídky. | Vypíše seznam všech aktivních účtů. Po vytvoření záznamu je toto pole uzamčeno. Chcete-li jej aktualizovat, odstraňte záznam a znovu jej vytvořte. Pokud jste zaznamenali nějaké skutečnosti nebo pokud je záznam zákazníka nabídky primárním zákazníkem, budete moci záznam odstranit. | Po vytvoření řádku nabídky se zákazníci nabídky zkopírují k zákazníkům řádku nabídky. Po získání nabídky se také zákazníci nabídky zkopírují k zákazníkům projektové smlouvy. |
+| Účet | Upravitelná mřížka na kartě **Zákazníci nabídky** a formuláře **Hlavní** a **Vytvořit** pro zákazníka nabídky. | Vypíše seznam všech aktivních účtů. Po vytvoření záznamu je toto pole uzamčeno. Chcete-li jej aktualizovat, odstraňte záznam a znovu jej vytvořte. Pokud jste zaznamenali nějaké skutečné údaje nebo pokud je záznam zákaznické nabídky záznamem primárního zákazníka, nebudete moci záznam odstranit. | Po vytvoření řádku nabídky se zákazníci nabídky zkopírují k zákazníkům řádku nabídky. Po získání nabídky se také zákazníci nabídky zkopírují k zákazníkům projektové smlouvy. |
 | Procento rozdělení fakturace | Upravitelná mřížka na kartě **Zákazníci nabídky** a formuláře **Hlavní** a **Vytvořit** pro zákazníka nabídky. | Představuje procento z každé nevyfakturované prodejní transakce, která bude připsána tomuto zákazníkovi nabídky. | Zkopírováno do nových řádků nabídek a do zákazníků projektové smlouvy. |
 | Fakturační adresa – jméno kontaktu | Upravitelná mřížka na kartě **Zákazníci nabídky** a formuláře **Hlavní** a **Vytvořit** pro zákazníka nabídky. | Toto je textové pole a mělo by se použít k identifikaci kontaktní osoby faktury pro tohoto zákazníka. Výchozí hodnoty jsou brány ze záznamu souvisejícího účtu | Zkopírováno do zákazníků projektové smlouvy po získání nabídky, a následně do pole Fakturační adresa – jméno kontaktu na faktuře, která je generována pro tohoto zákazníka. |
 | Fakturační adresa – jméno | Upravitelná mřížka na kartě **Zákazníci nabídky** a formuláře **Hlavní** a **Vytvořit** pro zákazníka nabídky. | Toto textové pole by se mělo použít k identifikaci kontaktní osoby faktury pro tohoto zákazníka. | Zkopírováno do zákazníků projektové smlouvy po získání nabídky, a následně do pole **Fakturační adresa – jméno kontaktu** na faktuře, která je generována pro tohoto zákazníka. |
