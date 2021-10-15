@@ -56,7 +56,11 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Co je nového
       items:
-        - name: 'Srpen 2021 – Project Operations pro scénáře založené na zdrojích/položkách, které nejsou na skladě'
+        - name: 'Říjen 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: 'Září 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-sept-2021-resource-based.md
+        - name: 'Srpen 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: 'Červenec 2021 – Project Operations pro scénáře založené na zdrojích/položkách, které nejsou na skladě'
           href: whats-new/whats-new-july-2021-resource-based.md
@@ -292,7 +296,7 @@
           items:
             - name: Vývoj šablon projektů pomocí kopírování projektu
               href: project-management/dev-copy-project.md
-            - name: Použití rozhraní API projektového plánu (Public Preview)
+            - name: Použití rozhraní API projektového plánu
               href: project-management/schedule-api-preview.md
     - name: Správa zdrojů
       items:
@@ -442,8 +446,16 @@
       items:
         - name: Konfigurace neskladovaných materiálů a nevyřízené faktury dodavatele
           href: procurement/configure-materials-nonstocked.md
-        - name: Pořízení neskladovaných materiálů pro projekty pomocí nevyřízených faktur dodavatele
+        - name: Pořízení neskladových materiálů pro projekty pomocí nevyřízených faktur dodavatele
           href: procurement/pending-vendor-invoices.md
+        - name: Objednávka neskladových materiálů pro projekty pomocí nákupních objednávek projektu
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Udržení dodavatele
+          items:
+            - name: Přehled udržení dodavatele
+              href: procurement/vendor-retention-overview.md
+            - name: Nastavení udržení dodavatele
+              href: procurement/set-up-vendor-retention.md
     - name: Fakturace
       items:
         - name: Přehled fakturovacího procesu
@@ -526,8 +538,12 @@
           href: environment/security-model.md
     - name: Co je nového
       items:
-        - name: Co je nového ve vlně 2 roku 2021 pro dřívější přístup - omezené nasazení
+        - name: Co je nového ve vlně 2 roku 2021 pro dřívější přístup – omezené nasazení
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 'Co je nového, říjen 2021 – omezené nasazení'
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: 'Co je nového, září 2021 – omezené nasazení'
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: 'Co je nového, srpen 2021 – omezené nasazení'
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: 'Co je nového, červenec 2021 – omezené nasazení'
@@ -784,7 +800,7 @@
           items:
             - name: Vývoj šablon projektů pomocí kopírování projektu
               href: project-management/dev-copy-project.md
-            - name: Použití rozhraní API projektového plánu (Public Preview)
+            - name: Použití rozhraní API projektového plánu
               href: project-management/schedule-api-preview.md
     - name: Správa zdrojů
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Řádky subdodávky pro čas
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Řádky subdodávky pro výdaje
+        - name: Řádky subdodávky pro kategorie výdajů
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Řádky subdodávky pro produkty
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Plán vydávání aktualizací pro Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 34, V3'
