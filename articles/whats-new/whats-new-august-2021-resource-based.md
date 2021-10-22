@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cd5a7e74fc90c6138cd672ff6109b59a8d2ae916
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323453"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501363"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového v srpnu 2021 - Project Operations pro scénáře založené na zdrojích/položkách, které nejsou na skladě
 
@@ -31,7 +31,7 @@ V této vydané verzi jsou zahrnuty následující funkce:
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Aktualizace map duálního zápisu Project Operations
 
-V této verzi nejsou k dispozici žádné aktualizace map duálního zápisu Project Operations. 
+V této verzi nejsou k dispozici žádné aktualizace map duálního zápisu Project Operations.
 
 Aktuální seznam a verze map duálního zápisu Project Operations najdete v části [Verze map duálního zápisu Project Operations](../environment/resource-dual-write-maps.md).
 

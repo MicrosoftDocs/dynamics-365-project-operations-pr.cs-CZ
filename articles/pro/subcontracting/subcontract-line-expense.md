@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323813"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506091"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Řádky subdodávky pro kategorie výdajů
 
@@ -29,23 +29,23 @@ Chcete-li vytvořit řádek subdodávky pro kategorie výdajů v Project Operat
 
 Následující tabulka poskytuje informace o polích na stránce s podrobnostmi **Řádky subdodávky** a stránce **Rychlé vytvoření**.
 
-| **Pole** |  **Popis** |
-| ----------| ---------------- |
-| Jméno | Název řádku subdodávky. |
-| Popis | Stručný popis služeb a kategorií produktů, které jsou nakupovány na řádku subdodávky. |
-| Typ linky | Toto pole má výchozí hodnotu **Na základě množství**.  |
-| Fakturační metoda | Fakturační metoda řádku subdodávky. Na základě fakturační metody řádku je pro fakturační metodu s pevnou cenou k dispozici plán faktur založený na milníku.  |
-| Třída transakce | Toto pole má výchozí hodnotu **Čas**. Chcete-li pro nákup produktů vytvářet řádky subdodávky, nastavte pole **Transakční třída** na **Výdaje**. Tato hodnota pole označuje, že se řádek subdodávky používá k záznamu nákupu kategorie produktů nebo služeb, které mají být použity pro projekty. |
-| Kategorie transakce | Vyberte kategorii transakce. |
-| Požadované počáteční datum | Datum, kdy musejí být kategorie nákupu k dispozici u dodavatele. Požadovaný začátek slouží k výběru ceníku projektu z ceníků projektu připojených k subdodávce. Náklady na kategorii na řádku subdodávky jsou výchozí podle tohoto ceníku. |
-| Požadované koncové datum | Datum, kdy kategorie nákupů již nejsou potřeba. Toto datum vyvolá upozornění, když vedoucí projektu přidruží tento řádek subdodávky ke konkrétním odhadům výdajů na projekty, které jsou datovány po tomto datu. |
-| Objednané množství | Množství kategorie, které bylo zakoupeno od dodavatele. Když projektový manažer přečerpá ze zakoupeného množství, dojde k varování.  |
-| Skupina jednotek | Tato hodnota pole je výchozí na základě výchozí skupiny jednotek, která je nastavena pro vybranou kategorii. |
-| Jednotka | Tato hodnota pole je výchozí na základě výchozí skupiny jednotek, která je nastavena pro vybranou kategorii. Kombinace kategorie a jednotky se používá k výchozímu nastavení jednotkové ceny na řádku subdodávky. |
-| Jednotková cena | Hodnota pole jednotkové ceny je výchozí jako kombinace kategorie a jednotky z cen kategorie vztažených k ceníku projektu, který je použitelný pro požadované spuštění řádku subdodávky.  |
-| Dílčí součet | Toto pole pouze pro čtení se automaticky vypočítá jako jednotková cena množství, pokud jsou zadány hodnoty množství i jednotkové ceny. Pokud je jedno nebo obě pole prázdná, můžete do tohoto pole zadat hodnotu ručně.  |
-| DPH | Zadejte částku prodejní daně.  |
-| Celková částka | Celkové množství řádku subdodávky včetně daní. Toto pole se počítá jako mezisoučet + daň z obratu.  |
+| **Pole** | **Popis** | **Funkční dopad** |
+| --- | --- | --- |
+| Jméno | Název řádku subdodávky pro jeho identifikaci. | Toto se zobrazí jako první sloupec ve všech vyhledáváních podle řádků subdodávek. |
+| Popis | Stručný popis kategorií nákladů, které jsou nakupovány na řádku subdodávky. | Nic |
+|Typ linky | Toto pole má výchozí hodnotu **Na základě množství**. |Nic |
+| Fakturační metoda | Toto je sada možností, který představuje dva hlavní smluvní modely podporované aplikací Project Operations: **Pevná cena** a **Čas a materiál**. | Pokud je vybrána metoda fakturování s pevnou cenou, pro řádky subdodávky je zpřístupněn plán faktur založený na milnících. |
+| Třída transakce | Toto pole má výchozí hodnotu **Čas**. Chcete-li pro nákup produktů vytvářet řádky subdodávky, nastavte pole **Třída transakce** na **Výdaje**.  | To znamená, že k zadání nákupu v rámci kategorie výdajů, které mají být použity na projekty, se použije řádek subdodávky. |
+| Kategorie transakce | Zobrazuje seznam aktivních kategorií transakcí v systému. |Nic |
+| Požadované počáteční datum | Zadejte datum, kdy musí být od dodavatele dostupná kategorie nákupu. | Požadovaný začátek slouží k výběru ceníku projektu z ceníků projektu připojených k subdodávce. Náklady na kategorii na řádku subdodávky pocházejí z tohoto ceníku. |
+| Požadovaný konec | Zadejte datum, kdy již nebudou potřeba kategorie nákupu. | Toto bude použito k zobrazení varování, když vedoucí projektu přidruží tento řádek subdodávky ke konkrétním odhadům výdajů projektu, které jsou vyžadovány po tomto datu. |
+| Objednané množství | Množství kategorie nakupované od dodavatele. | Toto bude použito k zobrazení varování, když projektový manažer překročí toto množství.|
+| Skupina jednotek | Výchozí hodnota je založena na výchozí skupině jednotek, která je nastavena pro vybranou kategorii. |Nic |
+| Jednotka | Výchozí hodnota je založena na výchozí jednotce, která je nastavena pro vybranou kategorii.  | Kombinace **Kategorie** a **Jednotka** bude použita jako výchozí nebo vypočítaná pro jednotkovou cenu pro řádek subdodávky.  |
+| Jednotková cena | Výchozí hodnota používá kombinaci **Kategorie** a **Jednotka** z cenových kategorií souvisejících s ceníkem projektu, který platí pro požadovaný začátek řádku subdodávky. |Nic |
+| Dílčí součet | Toto pole je pouze pro čtení a počítá se jako jednotková cena množství X, pokud jsou zadány hodnoty množství i jednotkové ceny. Pokud je jedno nebo obě pole prázdná, můžete do tohoto pole zadat hodnotu. |Nic |
+| DPH | Zadejte částku prodejní daně. |Nic |
+| Celková částka | Celkové množství řádku subdodávky včetně daní. Toto pole se počítá jako mezisoučet + prodejní daň. |Nic |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

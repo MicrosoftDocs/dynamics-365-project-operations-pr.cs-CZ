@@ -2,16 +2,16 @@
 title: Registrace ke zkušební verzi Project Operations
 description: Toto téma obsahuje informace o tom, jak nasadit zkušební verzi projektu Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418449"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599205"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrace ke zkušební verzi Project Operations 
 
@@ -85,15 +85,9 @@ Než začnete, přihlaste se do prohlížeče pomocí uživatelského pracovníh
 
    Po spuštění zřizování budete přesměrováni na seznam prostředí v centru pro správu Power Platform. Zatímco zřizování probíhá, stav vašeho prostředí je **Příprava instance**.
  
-  Po zřízení je stav vašeho prostředí **Připraveno**.
+  Když je zřizování dokončeno, stav vašeho prostředí je **Připraveno**. Zřizování prostředí zahrnuje nasazení ukázkových dat.
  
-4.  Po dokončení zřizování vyberte příslušné adresy URL Microsoft Dataverse a Finance and Operations adresy URL aplikací k ověření nasazení.
-
-## <a name="demo-data-installation"></a>Instalace ukázkových dat
-
-Pomocí následujících odkazů získáte přístup k balíčkům ukázkových dat jak pro neskladované materiály, tak pro scénáře nasazení Lite. 
-- [Podpora ukázkových dat neskladových materiálů](resource-apply-pro-setup-config-data.md)
-- [Použití ukázkových dat Lite](lite-apply-demo-setup-config-data.md)
+4.  Vyberte příslušnou adresu URL aplikace Microsoft Dataverse a adresy URL aplikací Finance and Operations k ověření nasazení.
 
 ## <a name="configuring-dual-write"></a>Jak konfigurovat duální zápis.
 Pouze pro nasazení materiálů, které nejsou na skladě. Nakonfigurujte svá mapování duálního zápisu. Další informace viz [Verze map duálního zápisu Project Operations](resource-dual-write-maps.md).

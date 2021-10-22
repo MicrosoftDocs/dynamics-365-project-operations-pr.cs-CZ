@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323768"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558494"
 ---
 # <a name="subcontract-line-milestones"></a>Milníky řádku subdodávky
 
@@ -50,15 +50,15 @@ Milníky s pevnou cenou na řádku subdodávky lze generovat ručně, pokud nejs
 3. Na kartě **Milníky řádku subdodávky** na dílčí mřížce vyberte **+ nový milník řádku subdodávky**.
 4. Na stránce **Nový milník řádku subdodávky** zadejte požadované informace na základě následující tabulky.
 
-    | Pole | Popis |
-    | --- | --- |
-    | Název milníku | Název milníku. |
-    | Popis | Popis milníku.  |
-    | Datum milníku | Datum, kdy by měl proces automatického vytváření faktur hledat stav tohoto milníku, aby bylo možné jej zohlednit při fakturaci. Tato hodnota je zahrnuta v řádku faktury dodavatele při fakturaci této subdodávky. |
-    | Výše | Částka nebo hodnota milníku, která bude zákazníkovi fakturována. Tato hodnota je zahrnuta v řádku faktury dodavatele při fakturaci této subdodávky. |
-    | Daň | Částka daně použitá u milníku. Tato hodnota je zahrnuta v řádku faktury dodavatele při fakturaci této subdodávky. |
-    | Částka po zdanění | Toto pole pouze pro čtení se počítá jako částka + daň. Tato hodnota je zahrnuta v řádku faktury dodavatele při fakturaci této subdodávky. |
-    | Stav faktury | Při vytváření milníku je tento stav vždy nastaven na **Není připraveno k fakturaci**.  Když je stav **Připraveno k fakturaci**, vytvoření faktury dodavatele zahrnuje tento milník na faktuře dodavatele. |
+    | Pole | Popis |Funkční dopad|
+    | --- | --- |----------------------|
+    | Název milníku | Název milníku. |Toto se zobrazí jako první sloupec ve všech vyhledáváních podle milníků řádků subdodávek. Řádek faktury dodavatele, který je vytvořen na základě tohoto milníku, bude také používat název milníku řádku subdodávky jako výchozí název řádku faktury dodavatele.|
+    | Popis | Popis milníku. |Řádek faktury dodavatele, který je vytvořen na základě tohoto milníku, bude také používat popis milníku řádku subdodávky jako výchozí popis řádku faktury dodavatele.|
+    | Datum milníku | Datum, kdy by měl proces automatického vytváření faktur hledat stav tohoto milníku, aby bylo možné jej zohlednit při fakturaci.| Tato hodnota bude použita jako výchozí datum řádku faktury dodavatele při fakturaci pro tento řádek subdodávky. |
+    | Výše | Částka nebo hodnota milníku, která bude zákazníkovi fakturována. |Tato hodnota je použita jako výchozí částka na řádku faktury dodavatele při fakturaci pro tento řádek subdodávky. |
+    | Daň | Částka daně použitá u milníku.| Tato hodnota je použita jako výchozí částka daně na řádku faktury dodavatele při fakturaci pro tento řádek subdodávky. |
+    | Částka po zdanění | Toto pole je jen pro čtení a počítá se jako částka + daň.|Tato hodnota je použita jako výchozí na řádku faktury dodavatele při fakturaci pro tento řádek subdodávky. |
+    | Stav faktury | Při vytváření milníku je tento stav vždy nastaven na **Není připraveno k fakturaci**.|  Když je stav **Připraveno k fakturaci**, vytvoření faktury dodavatele zahrnuje tento milník na faktuře dodavatele. |
 
 5. Zvolte **Uložit a zavřít**.
 

@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323858"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547236"
 ---
 # <a name="subcontract-lines-for-time"></a>Řádky subdodávky pro čas
 
@@ -30,23 +30,22 @@ Chcete-li vytvořit řádek subdodávky pro čas v Project Operations, proveďt
 
   Následující tabulka poskytuje informace o polích na stránce s podrobnostmi **Řádky subdodávky** a stránce **Rychlé vytvoření**.
 
-| **Pole** | **Popis** |
-| --- | --- |
-| Jméno | Název řádku subdodávky. |
-| Popis | Stručný popis služeb, které jsou nakupovány na řádku subdodávky. | 
-| Typ linky | Toto pole je výchozí hodnota.  |
-| Fakturační metoda | Vyberte fakturační metodu. Na základě fakturační metody odkazovaného řádku subdodávky je k dispozici plán faktur založený na milníku, dostupný pro fakturační metodu s pevnou cenou. |
-| Třída transakce | Toto pole je výchozí hodnota, která udává, zda se k záznamu nákupu času subdodavatele používá řádek subdodávky. |
-| Role | Role zdrojů subdodávky, jejichž čas se nakupuje. Role přiřazená zdrojům subdodávky určuje náklady na nákup. |
-| Požadované počáteční datum | Datum, kdy jsou zdroje subdodávky nutné k zahájení práce. Požadovaný začátek slouží k výběru ceníku projektu z ceníků projektu připojených k subdodávce. Náklady na roli na řádku subdodávky jsou potom výchozí podle tohoto ceníku. |
-| Požadované koncové datum | Datum, kdy skončí přiřazení zdrojů subdodavatele. Toto datum se používá k zobrazení varování, když projektový manažer čerpá z této kapacity pro požadavky na zdroje, které nastanou po tomto datu. |
-| Objednané množství | Množství hodin role, které bylo zakoupeno od dodavatele. Tato hodnota se používá k zobrazení varování, když projektový manažer čerpá z této kapacity pro požadavky na zdroje, které nastanou po tomto datu. |
-| Skupina jednotek | Tato hodnota pole je výchozí pro skupinu jednotek času a nelze ji změnit.  |
-| Jednotka | Toto pole je výchozí pro základní jednotku hodin ze skupiny jednotek času. Tuto hodnotu můžete změnit a koupit jakoukoli jednotku času skupiny časových jednotek, například den nebo týden. Kombinace role a jednotky se používá k výpočtu jednotkové ceny na řádek subdodávky. |
-| Jednotková cena | Výchozí hodnoty jednotkové ceny z kombinace role a jednotky z ceníku projektu, který je použitelný pro požadované datum spuštění řádku subdodávky. Pokud má příslušný ceník projektu cenu nastavenu v jiné jednotce, než je jednotka na řádku subdodávky, systém použije přepočet jednotek k výpočtu jednotkové ceny. |
-| Dílčí součet | Toto pole pouze pro čtení se automaticky vypočítá jako **jednotková cena x množství**, pokud jsou zadány hodnoty množství i jednotkové ceny. Pokud jsou množství, jednotková cena nebo obě prázdné, můžete do tohoto pole zadat hodnotu. |
-| DPH |  Zadejte částku prodejní daně. |
-| Celková částka | Celkové množství řádku subdodávky po zdanění je zahrnuto. |
-
+| **Pole** | **Popis** | **Funkční dopad** |
+| --- | --- | --- |
+| Jméno | Název řádku subdodávky pro jeho identifikaci. | Toto se zobrazí jako první sloupec ve všech vyhledáváních podle řádků subdodávek. |
+| Popis | Stručný popis služeb, které jsou nakupovány na řádku subdodávky. |Nic |
+| Typ linky |   Toto pole má výchozí hodnotu **Na základě množství**.| Nic |
+| Fakturační metoda | Toto je sada možností, který představuje dva hlavní smluvní modely podporované aplikací Project Operations: **Pevná cena** a **Čas a materiál**. | Na základě vybrané metody fakturování je pro řádky subdodávky zpřístupněn plán faktur založený na milnících. |
+| Třída transakce | Výchozí hodnotou je **Čas**. | To znamená, že řádek subdodávky slouží k záznamu nákupu času subdodavatele. |
+| Role | Vyberte roli zdrojů subdodavatele, jejichž čas se nakupuje. | Role vykonávaná zdroji subdodavatele určuje náklady na nákup. |
+| Požadované počáteční datum | Zadejte datum, kdy jsou zdroje subdodavatele nutné k zahájení práce. | Toto slouží k výběru ceníku projektu z ceníků projektu připojených k subdodávce. Náklady na roli na řádku subdodávky pocházejí z tohoto ceníku. |
+| Požadovaný konec | Zadejte datum, kdy skončí přiřazení zdroje subdodavatele. | Toto bude použito k zobrazení varování, když projektový manažer čerpá z kapacity pro požadavky na zdroje, ke kterým dochází po tomto datu. |
+| Objednané množství | Zadejte počet hodin role kupované od dodavatele. | Toto bude použito k zobrazení varování, když projektový manažer přečerpá tuto kapacitu pro požadavky na zdroje. |
+| Skupina jednotek | Výchozí hodnota je **Skupina časových jednotek**, kterou nelze změnit. | Nic|
+| Jednotka | Výchozí hodnota pro toto pole je základní jednotka hodin ze **Skupina časových jednotek**. Tuto hodnotu můžete změnit a koupit jakoukoli jednotku času **skupiny časových jednotek**, například den nebo týden. | Kombinace **Role** a **Jednotka** bude použita jako výchozí nebo vypočítaná pro jednotkovou cenu pro řádek subdodávky. |
+| Jednotková cena | Výchozí cenová jednotka používá kombinaci **Role** a **Jednotka** z ceníku projektu, který platí pro datum **Požadovaný začátek** na řádku subdodávky. | Pokud má příslušný ceník projektu cenu nastavenu v jiné jednotce, než je jednotka na řádku subdodávky, systém použije přepočet jednotek k výpočtu jednotkové ceny. |
+| Dílčí součet |    Toto pole je pouze pro čtení a počítá se jako jednotková cena množství X, pokud jsou zadány hodnoty množství i jednotkové ceny. Pokud jsou množství, jednotková cena nebo obě prázdné, můžete do tohoto pole zadat hodnotu. | Nic|
+| DPH |   Zadejte částku prodejní daně. |Nic |
+| Celková částka | Celkové množství řádku subdodávky včetně daní. Toto pole se počítá jako mezisoučet + prodejní daň.|Nic |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003808"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547101"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Verze mapování duálního zápisu Project Operations
 
@@ -49,8 +49,8 @@ Následující mapy jsou požadované pro řešení Project Operations. Verze ma
 | Tabulka integrace Project Operations pro odhady materiálu (msdyn\_estimatelines) | 1.0.0.0 | Není nutné pro zřizování. |
 | Návrhy faktury projektu V2 (faktury) | 1.0.0.3 | Není nutné pro zřizování. |
 | Skutečné hodnoty integrace Project Operations (msdyn_actuals) | 1.0.0.14 | Není nutné pro zřizování. |
-| Milníky řádku smlouvy integrace Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Není nutné pro zřizování. |
-| Entita integrace Project Operations pro odhady výdajů (msdyn_estimateslines) | 1.0.0.2 | Není nutné pro zřizování. |
+| Milníky řádku smlouvy integrace Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Není nutné pro zřizování. |
+| Entita integrace Project Operations pro odhady nákladů (msdyn_estimatelines) | 1.0.0.2 | Není nutné pro zřizování. |
 | Entita integrace Project Operations pro odhady hodin (msdyn_resourceassignments) | 1.0.0.5 | Není nutné pro zřizování. |
 | Entita exportu kategorie výdajů projektu integrace Project Operations (msdyn_expensecategories) | 1.0.0.1 | Není nutné pro zřizování. |
 | Entita exportu výdajů projektu integrace Project Operations (msdyn_expenses) | 1.0.0.2 | Není nutné pro zřizování. |
