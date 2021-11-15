@@ -1,23 +1,23 @@
 ---
-title: Aktualizace projektu
+title: Vytvoření a aktualizace projektu
 description: Toto téma poskytuje informace o aktualizaci projektů v aplikaci Project Operations.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 10/20/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: b0ec03a2c4dd7bc833b22b7a93fed810b4998a2788f4ff40234e3dd163bd9eb6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
+ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000883"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7678341"
 ---
-# <a name="update-a-project"></a>Aktualizace projektu
+# <a name="create-and-update-a-project"></a>Vytvoření a aktualizace projektu
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Níže je uveden souhrn polí, která lze aktualizovat na projektu po jeho vytvoření, a všechny příslušné důsledky aktualizací.
+Následuje souhrn polí, která lze v projektu po jeho vytvoření aktualizovat. Patří sem také jakékoli použitelné důsledky založené na těchto aktualizacích.
 
 ## <a name="project-detail-fields"></a>Pole podrobností projektu
 
@@ -25,8 +25,8 @@ Níže je uveden souhrn polí, která lze aktualizovat na projektu po jeho vytvo
 - **Popis**: Přehled projektu.
 - **Zákazník**: Společnost, do které bude projekt dodán.
 - **Šablona kalendáře**: Pracovní doba projektu. Když se pole změní, přepočítá se celý plán.
-- **Měna**: Měna projektu. Toto pole je výchozí na základě měny definované ve smluvní jednotce. Při aktualizaci smluvní jednotky se aktualizuje také pole.
-- **Smluvní jednotka**: Organizační jednotka, která zastupuje skupinu nebo divizi společnosti, která je primárně zodpovědná za získání prodeje a řízení dodávky práce a služeb zákazníkovi. 
+- **Měna**: Měna projektu. Výchozí hodnota pro toto pole je založena na měně definované ve smluvní jednotce. Při aktualizaci smluvní jednotky se aktualizuje také pole.
+- **Smluvní jednotka**: Organizační jednotka, která zastupuje skupinu nebo divizi společnosti, která je primárně zodpovědná za získání prodeje a řízení dodávky práce a služeb zákazníkovi.  Pokud není definována organizační jednotka projektového manažera, má toto pole výchozí hodnotu definovanou v parametrech projektu.
 - **Projektový manažer**: Člen projektového týmu, který má oprávnění kontrolovat a schvalovat časové údaje a výdaje.
 
 ## <a name="estimate-fields"></a>Odhad polí

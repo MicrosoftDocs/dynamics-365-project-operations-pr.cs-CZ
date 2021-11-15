@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 483992768f8b8a02dd0d56b9479c7d591fa676d1eca41161e68b7cf3f97107af
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
+ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003853"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7679201"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového - červen 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
@@ -30,6 +30,7 @@ V této vydané verzi jsou zahrnuty následující funkce:
 - Možnost mazání [Řádků návrhu faktury projektu pro scénáře úprav](../invoicing/correct-project-invoice-proposals.md).
 - Rozepsané řádky výdajů odrážejí názvy podkategorií ve výkazu výdajů [Přepracované sestavy výdajů - nové funkce](../expense/expense-reports-reimagined.md#new-features).
 - Způsob platby je k dispozici v novém podokně výdajů při vytváření nového nákladu.
+- Obecná dostupnost rozhraní API Plánu projektu. Tato nová funkce umožňuje zákazníkům provádět programově operace vytváření, aktualizace a odstraňování projektových úkolů, přiřazení zdrojů, závislostí úkolů a záznamů členů projektového týmu. Více informací najdete v tématu [Používání rozhraní API Plánu projektu k provádění operací s entitami plánování](../project-management/schedule-api-preview.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Aktualizace map duálního zápisu Project Operations
 

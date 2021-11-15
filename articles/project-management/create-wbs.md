@@ -2,16 +2,16 @@
 title: Vytvoření strukturovaného rozpisu prací
 description: Tento téma vysvětluje, jak vytvořit strukturovaný rozpis práce (WBS) včetně základních ovládacích prvků v novém plánovacím rozhraní.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998723"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655409"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Vytvoření strukturovaného rozpisu prací (WBS)
 
@@ -117,5 +117,26 @@ Režim úkolu nemá žádný vliv na aktualizace dat zahájení a ukončení př
 
 Mřížka **Plán** je plně přístupná a lze ji použít se čtečkami obrazovky, jako jsou např. Narrator, JAWS nebo NVDA. Oblast mřížky můžete procházet pomocí kláves se šipkami (jako v aplikaci Microsoft Excel), pomocí klávesy Tab můžete procházet interaktivní prvky uživatelského rozhraní a pomocí klávesy se šipkou dolů, klávesy Enter nebo mezerníku vybrat a otevřít rozevírací nabídky.
 
+## <a name="project-limitations"></a>Projektová omezení 
+Pokud používáte strukturovaný rozpis prací v aplikaci Project Operations, měli byste si být vědomi následujících omezení. Tato omezení se vztahují na projekty a úkoly. Více informací viz [Limity a omezení aplikace Project for the web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Pole**                                          |  **Omezení**           |
+|----------------------------------------------------|----------------------|
+| Maximální celkový počet úkolů v projektu                  | 500                  |
+| Maximální celková doba trvání projektu               | 3650 dní (10 let) |
+| Maximální celkový počet zdrojů v projektu              | 150                  |
+| Maximální celkový počet odkazů (pouze následovník) v projektu | 600                  |
+| Maximální celkový počet vlastních polí v projektu          | 10                   |
+
+**Omezení úkolu**
+
+| **Pole**                               |   **Omezení**           |
+|-----------------------------------------|-----------------------|
+| Maximální úroveň hierarchie                 | 10 úrovní             |
+| Maximální počet odkazů (následovník + předchůdce) | 20                    |
+| Maximální doba trvání koncového úkolu           | 1250 dní             |
+| Maximální doba trvání souhrnného úkolu      | 3650 dní (10 let)  |
+| Maximální počet zdrojů přiřazených k úkolu    | 20 zdrojů          |
+| Podporované časové období pro úkol         | 1. 1. 2000 - 31. 12. 2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

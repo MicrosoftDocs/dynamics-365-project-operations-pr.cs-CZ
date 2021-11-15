@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 970fcc71b3ebe1489c676727598ebbb296e9c989
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
+ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
+ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623316"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7783415"
 ---
 # <a name="project-operations-updates"></a>Aktualizace Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations se skládá ze dvou komponent:
 
 | Project Operations v prostředí Dataverse | Řízení projektů a účetnictví v prostředí aplikací Finance and Operations | 
 | --- | --- |
-| 4.25.0.91 | 10.0.20 |
+| 4.26.0.145 | 10.0.21 |
 
 U scénářů Project Operations se zdroji bez skladových materiálů doporučujeme použít orchestraci duálního zápisu ve verzi 2.2.2.83 nebo vyšší.
 
@@ -47,23 +47,23 @@ Aktualizace Project Operations v prostředí Dataverse jsou k dispozici měsíč
 | Stanice | Oblast | Aktuální číslo verze | Automatické aktualizace pro omezené nasazení | Automatické aktualizace pro nasazení prostředků / bez zásob | Číslo příští verze | Další obecně dostupná verze |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stanice 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | První vydání         |  4.25.0.91      | Dokončit           | Dokončit            | TBD                 | 29. října 2021    |
+|   &nbsp;  | První vydání         |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 03. prosince 2021   |
 | Stanice 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Jižní Amerika         |  4.25.0.91      | Dokončit           | 15. října 2021    | TBD                 | 29. října 2021    |
-|   &nbsp;  | Kanada                |  4.25.0.91      | Dokončit           | 15. října 2021    | TBD                 | 29. října 2021    |
-|   &nbsp;  | Indie                 |  4.25.0.91      | Dokončit           | 15. října 2021    | TBD                 | 29. října 2021    |
-|   &nbsp;  | Francie                |  4.25.0.91      | Dokončit           | 15. října 2021    | TBD                 | 29. října 2021    |
-|   &nbsp;  | Jižní Afrika          |  4.25.0.91      | Dokončit           | 15. října 2021    | TBD                 | 29. října 2021    |
+|   &nbsp;  | Jižní Amerika         |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 03. prosince 2021   |
+|   &nbsp;  | Kanada                |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 03. prosince 2021   |
+|   &nbsp;  | Indie                 |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 03. prosince 2021   |
+|   &nbsp;  | Francie                |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 03. prosince 2021   |
+|   &nbsp;  | Jižní Afrika          |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 03. prosince 2021   |
 | Stanice 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonsko                 |  4.25.0.91      | 15. října 2021   | 22. října 2021    | TBD                 | 05. listopadu 2021   |
-|   &nbsp;  | Asie a Tichomoří          |  4.25.0.91      | 15. října 2021   | 22. října 2021    | TBD                 | 05. listopadu 2021   |
-|   &nbsp;  | Velká Británie         |  4.25.0.91      | 15. října 2021   | 22. října 2021    | TBD                 | 05. listopadu 2021   |
-|   &nbsp;  | Oceánie               |  4.25.0.91      | 15. října 2021   | 22. října 2021    | TBD                 | 05. listopadu 2021   |
-|   &nbsp;  | Spojené arabské emiráty  |  4.25.0.91      | 15. října 2021   | 22. října 2021    | TBD                 | 05. listopadu 2021   |
+|   &nbsp;  | Japonsko                 |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 10. prosince 2021   |
+|   &nbsp;  | Asie a Tichomoří          |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 10. prosince 2021   |
+|   &nbsp;  | Velká Británie         |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 10. prosince 2021   |
+|   &nbsp;  | Oceánie               |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 10. prosince 2021   |
+|   &nbsp;  | Spojené arabské emiráty  |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 10. prosince 2021   |
 | Stanice 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Evropě                |  4.14.0.99      | Dokončit           | Dokončit            | 4.25.0.91           | 15. října 2021    |
+|   &nbsp;  | Evropě                |  4.25.0.91      | Dokončit           | Dokončit            | 4.26.0.145          | 12. listopadu 2021   |
 | Stanice 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Severní Amerika         |  4.14.0.99      | Dokončit           | 08. října 2021    | 4.25.0.91           | 22. října 2021    |
+|   &nbsp;  | Severní Amerika         |  4.25.0.91      | Dokončit           | Dokončit            | 4.26.0.145          | 19. listopadu 2021   |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Plán vydávání pro správu projektů a účetnictví v prostředí aplikace Finance and Operations
@@ -72,14 +72,15 @@ Aktualizace pro správu projektů a účetnictví jsou vydávány osmkrát ročn
 
 |Podporovaná verze| Dostupnost Preview (PEAP) | Obecně dostupné (ruční aktualizace) | Počáteční datum vytvoření časového plánu automatické aktualizace (prostřednictvím nastavení aktualizace LCS) |   Ukončení služby   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      3. září 2021      |        22. října 2021           |                          5. listopadu 2021                            | 14. ledna 2022   |
 |    10.0.21      |         02. srpna 2021     |           17. září 2021      |                             1. října 2021                          |  10. prosince 2021 |
-|    10.0.20      |         28. května 2021        |           16. července 2021           |                             30. července 2021                            |  22. října 2021  |
+
 
 Cílová data vydání se mohou změnit. Další informace naleznete v části [Dostupnost aktualizace služby](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Cílová verze | Dostupnost Preview (PEAP) | Obecně dostupné (ruční aktualizace) | Počáteční datum vytvoření časového plánu automatické aktualizace (prostřednictvím nastavení aktualizace LCS) |   Ukončení služby   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.22     |      3. září 2021      |          22. října 2021         |                           5. listopadu 2021                           |  14. ledna 2022  |
 |     10.0.23     |      15. října 2021       |        10. prosince 2021          |                          31. prosince 2021                           | 18. března 2022     |
+|     10.0.24     |      3. prosince 2021       |        14. ledna 2022           |                          4. února 2022                            | 15. dubna 2022     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
