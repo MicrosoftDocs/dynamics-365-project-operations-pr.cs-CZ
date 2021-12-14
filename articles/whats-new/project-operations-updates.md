@@ -2,17 +2,17 @@
 title: Aktualizace Project Operations
 description: Toto téma poskytuje informace o uvolněných verzích Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 10/04/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e4cafde5e866690f31452eceffdd81ffeb14e635
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783415"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892167"
 ---
 # <a name="project-operations-updates"></a>Aktualizace Project Operations
 
@@ -28,17 +28,17 @@ Dynamics 365 Project Operations se skládá ze dvou komponent:
 - Řízení projektů a účetnictví v prostředí Dynamics 365 Finance pokrývá funkce správy výdajů, účtování projektů a uznání výnosů. Prostředí aplikace Finance and Operations je použito v Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě, a pro scénáře založené na skladovém materiálu / výrobě.
 
 ## <a name="project-operations-release-notes"></a>Poznámky k verzi Project Operations
-- Nejnovější poznámky k verzi Project Operations z prosince 2020 pro scénář [zdroje / položky, které nejsou na skladě](whats-new-oct-2021-resource-based.md).
-- Nejnovější poznámky k verzi Project Operations z prosince 2020 pro scénář [nasazení Lite](../pro/whats-new/whats-new-oct-2021-lite.md).
-- Nejnovější poznámky k verzi Project Operations z prosince 2020 pro scénář [skladové materiály/výroba](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
+- Nejnovější poznámky k verzi Project Operations z prosince 2020 pro scénář [zdroje / položky, které nejsou na skladě](whats-new-nov-2021-resource-based.md).
+- Nejnovější poznámky k verzi Project Operations z prosince 2020 pro scénář [nasazení Lite](../pro/whats-new/whats-new-nov-2021-lite.md).
+- Nejnovější poznámky k verzi Project Operations z prosince 2020 pro scénář [skladové materiály/výroba](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Nejnovější verze Project Operations
 
 | Project Operations v prostředí Dataverse | Řízení projektů a účetnictví v prostředí aplikací Finance and Operations | 
 | --- | --- |
-| 4.26.0.145 | 10.0.21 |
+| 4.26.0.150 | 10.0.22 |
 
-U scénářů Project Operations se zdroji bez skladových materiálů doporučujeme použít orchestraci duálního zápisu ve verzi 2.2.2.83 nebo vyšší.
+U scénářů Project Operations se zdroji bez skladových materiálů doporučujeme použít orchestraci duálního zápisu ve verzi 2.3.1.15 nebo vyšší.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Plán vydání pro Project Operations v prostředí Dataverse
 
@@ -47,23 +47,23 @@ Aktualizace Project Operations v prostředí Dataverse jsou k dispozici měsíč
 | Stanice | Oblast | Aktuální číslo verze | Automatické aktualizace pro omezené nasazení | Automatické aktualizace pro nasazení prostředků / bez zásob | Číslo příští verze | Další obecně dostupná verze |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stanice 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | První vydání         |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 03. prosince 2021   |
+|   &nbsp;  | První vydání         |  4.26.0.150     | Dokončit           | Dokončit            | TBD                 | 06. prosince 2021   |
 | Stanice 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Jižní Amerika         |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 03. prosince 2021   |
-|   &nbsp;  | Kanada                |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 03. prosince 2021   |
-|   &nbsp;  | Indie                 |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 03. prosince 2021   |
-|   &nbsp;  | Francie                |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 03. prosince 2021   |
-|   &nbsp;  | Jižní Afrika          |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 03. prosince 2021   |
+|   &nbsp;  | Jižní Amerika         |  4.26.0.150     | Dokončit           | Dokončit            | TBD                 | 06. prosince 2021   |
+|   &nbsp;  | Kanada                |  4.26.0.150     | Dokončit           | Dokončit            | TBD                 | 06. prosince 2021   |
+|   &nbsp;  | Indie                 |  4.26.0.150     | Dokončit           | Dokončit            | TBD                 | 06. prosince 2021   |
+|   &nbsp;  | Francie                |  4.26.0.150     | Dokončit           | Dokončit            | TBD                 | 06. prosince 2021   |
+|   &nbsp;  | Jižní Afrika          |  4.26.0.150     | Dokončit           | Dokončit            | TBD                 | 06. prosince 2021   |
 | Stanice 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonsko                 |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 10. prosince 2021   |
-|   &nbsp;  | Asie a Tichomoří          |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 10. prosince 2021   |
-|   &nbsp;  | Velká Británie         |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 10. prosince 2021   |
-|   &nbsp;  | Oceánie               |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 10. prosince 2021   |
-|   &nbsp;  | Spojené arabské emiráty  |  4.26.0.145     | 12. listopadu 2021  | 19. listopadu 2021   | TBD                 | 10. prosince 2021   |
+|   &nbsp;  | Japonsko                 |  4.26.0.150     | Dokončit           | Dokončit            | TBD                 | 10. prosince 2021   |
+|   &nbsp;  | Asie a Tichomoří          |  4.26.0.150     | Dokončit           | Dokončit            | TBD                 | 10. prosince 2021   |
+|   &nbsp;  | Velká Británie         |  4.26.0.150     | Dokončit           | Dokončit            | TBD                 | 10. prosince 2021   |
+|   &nbsp;  | Oceánie               |  4.26.0.150     | Dokončit           | Dokončit            | TBD                 | 10. prosince 2021   |
+|   &nbsp;  | Spojené arabské emiráty  |  4.26.0.150     | Dokončit           | Dokončit            | TBD                 | 10. prosince 2021   |
 | Stanice 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Evropě                |  4.25.0.91      | Dokončit           | Dokončit            | 4.26.0.145          | 12. listopadu 2021   |
+|   &nbsp;  | Evropě                |  4.26.0.150     | Dokončit           | 10. prosince 2021   | TBD                 | 17. prosince 2021   |
 | Stanice 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Severní Amerika         |  4.25.0.91      | Dokončit           | Dokončit            | 4.26.0.145          | 19. listopadu 2021   |
+|   &nbsp;  | Severní Amerika         |  4.26.0.150     | 10. prosince 2021  | 17. prosince 2021   | TBD                 | 07. ledna 2022    |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Plán vydávání pro správu projektů a účetnictví v prostředí aplikace Finance and Operations

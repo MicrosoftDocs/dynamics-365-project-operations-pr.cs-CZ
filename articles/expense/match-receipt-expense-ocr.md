@@ -2,7 +2,7 @@
 title: Pořízení účtenky pomocí OCR
 description: Toto téma poskytuje informace o zpracování optického rozpoznávání znaků (OCR) pro účtenky.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3cfd88acec9df8468668bedbb55b399d100650e765a6ed647ed528ecca9f1554
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007723"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798032"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Pořízení účtenky pomocí OCR
 
@@ -85,7 +85,18 @@ Ne, společnost Microsoft vytvořila obecný model strojové učení pro svou sl
 
 **Kde je tato funkce dostupná a zpracována?**
 
-V současné době jsou podporovány Spojené státy.
+Dostupnost této funkce v různých oblastech je uvedena v následující tabulce. Pokud vaše oblast aktuálně není podporována, odešlete žádost o upřednostnění dostupnosti služby OCR ve vaší oblasti. 
+
+| Oblast | Podporováno                         |
+|--------|-----------------------------------|
+| USA    | Ano                               |
+| Kanada    | Ano                               |
+| Velká Británie     | Ano                               |
+| Austrálie    | Ano                               |
+| EU     | Částečně. Účtenky pouze v angličtině. |
+| Asie   | No                                |
+| Japonsko  | No                                |
+| Afrika | No                                |
 
 **Kam jdou moje účtenky?**
 

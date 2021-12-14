@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Co je nového
       items:
+        - name: 'Listopad 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: 'Říjen 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: 'Září 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Výkonnost API rozhraní projektového plánu
               href: project-management/project-schedule-api-performance.md
+            - name: Protokoly plánování projektu
+              href: project-management/schedule-api-logs.md
     - name: Správa zdrojů
       items:
         - name: Klíčové koncepty
@@ -544,6 +548,8 @@
       items:
         - name: Co je nového ve vlně 2 roku 2021 pro dřívější přístup – omezené nasazení
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 'Co je nového, listopad 2021 - omezené nasazení'
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: 'Co je nového, říjen 2021 – omezené nasazení'
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: 'Co je nového, září 2021 – omezené nasazení'
@@ -952,6 +958,10 @@
   items:
     - name: Co je nového
       items:
+        - name: 'Co je nového, říjen 2021 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: 'Co je nového, září 2021 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: 'Co je nového, červenec 2021 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: 'Co je nového, květen 2021 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
@@ -1108,6 +1118,8 @@
       items:
         - name: Plán vydávání aktualizací pro Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 37, V3'
           href: psa/whats-new-ur-37.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 36, V3'
