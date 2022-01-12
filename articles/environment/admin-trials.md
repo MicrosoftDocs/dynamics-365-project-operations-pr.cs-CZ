@@ -2,16 +2,16 @@
 title: Registrace ke zkušební verzi Project Operations
 description: Toto téma obsahuje informace o tom, jak nasadit zkušební verzi projektu Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599205"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901609"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrace ke zkušební verzi Project Operations 
 
@@ -90,7 +90,8 @@ Než začnete, přihlaste se do prohlížeče pomocí uživatelského pracovníh
 4.  Vyberte příslušnou adresu URL aplikace Microsoft Dataverse a adresy URL aplikací Finance and Operations k ověření nasazení.
 
 ## <a name="configuring-dual-write"></a>Jak konfigurovat duální zápis.
-Pouze pro nasazení materiálů, které nejsou na skladě. Nakonfigurujte svá mapování duálního zápisu. Další informace viz [Verze map duálního zápisu Project Operations](resource-dual-write-maps.md).
+- Chcete-li konfigurovat role zabezpečení pro duální zápis, pročtěte si článek [Aktualizace nastavení zabezpečení u Project Operations v Dataverse](resource-provision-new-environment.md).
+- Chcete-li konfigurovat mapy duálního zápisu, pročtěte si článek [Spuštění mapování duálního zápisu Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Přiřazení licencí
 

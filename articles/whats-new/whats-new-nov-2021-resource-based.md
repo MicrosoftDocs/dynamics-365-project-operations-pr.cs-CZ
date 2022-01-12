@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 20f277bc9b6f571c0144eaaa867bb97c0cf30ddb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827318"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942877"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového v listopadu 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
@@ -20,7 +20,7 @@ ms.locfileid: "7827318"
 
 Toto téma se vztahuje na následující součásti a verze aplikace Microsoft Dynamics 365 Project Operations:
 
-- Project Operations v prostředí Dataverse verze 4.26.0.145, 4.26.0.148 nebo 4.26.0.150
+- Project Operations v prostředí Dataverse verze 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
 - Řízení projektů a účetnictví v Dynamics 365 Finance, verze prostředí 10.0.22
 
 ## <a name="features-included-in-this-release"></a>Funkce v této vydané verzi

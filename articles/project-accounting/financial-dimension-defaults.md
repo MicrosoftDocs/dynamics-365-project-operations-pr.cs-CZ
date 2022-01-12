@@ -2,16 +2,16 @@
 title: Výchozí hodnoty finanční dimenze
 description: Tohle téma poskytuje informace, jak nastavit výchozí finanční dimenze.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8a7845b7f6b7256edad6efc7b20872078f8c5ab0b60477d2a42b5b9d61104bff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005428"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922930"
 ---
 # <a name="financial-dimension-defaults"></a>Výchozí hodnoty finanční dimenze
 
@@ -60,6 +60,15 @@ Projekty jsou vytvářeny a spravovány v CDS. Atributy účetnictví pro projek
 4. Nastavte výchozí hodnoty finanční dimenze. Všimněte si, že finanční dimenze vychází z účtu zákazníka. Pokud je projekt přidružen k řádku smlouvy s více zákazníky projektové smlouvy, primární zákazník se použije k nastavení výchozích finančních dimenzí.
 
 Výchozí finanční dimenze projektu se používají k nastavení výchozích hodnot řádků deníku pro transakce času, výdajů a poplatků v **Deníku integrace Project Operations** a na souvisejících řádcích faktury projektu.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Použití finančních dimenzí na časové záznamy projektu
+Chcete-li použít finanční dimenze na časové položky projektu, mějte na paměti, že výchozí hodnota dimenze je založena na následujícím pořadí:
+
+1. Prostředek
+2. Project
+3. Zdroj financování
+
+Pokud je například výchozí dimenze zadaná u zdroje, použije se na výchozí hodnotu zadanou v projektu. Podobně bude použita výchozí dimenze projektu na výchozí, která je uvedena ve zdroji financování.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

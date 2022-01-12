@@ -1,8 +1,8 @@
 ---
-title: Nová verze vyúčtování výdajů
+title: Nová verze vyúčtování výdajů (obsahuje video)
 description: Tento téma vysvětluje přepracované prostředí pro zadávání vyúčtování výdajů.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997823"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941023"
 ---
 # <a name="expense-reports-reimagined"></a>Nová verze vyúčtování výdajů
 
@@ -58,6 +58,7 @@ Chcete-li zapnout nové prostředí, použijte pracovní prostor **Správa funkc
 | Uložte a přidejte nové výdajové řádky | Jsou k dipozici tlačítka **Uložit** a **Nový** při zadávání nových výdajů, která vám pomohou rychle zadat řádky výdajů. |
 | Lepší viditelnost na rozdělené a rozepsané řádky | Rozepsané a rozdělené řádky se přidávají přímo do seznamu výdajů, aby se zvýšila viditelnost a pomohlo vám snadno určit, zda nedošlo k chybám. |
 | Zobrazit podrobnosti podkategorie v rozepsaných řádcích | Řádky s položkou nadřazeného výdaje zobrazují popisky podkategorií ve zprávě o výdajích. Rozdělení položek vám umožní zkontrolovat podrobné informace na první pohled.|
+|Rychlý rozpis opakujících se výdajů | Přepracovaný pracovní prostor výdajů poskytuje možnost rychle rozepisovat opakující se výdaje přidáním podkategorie, data zahájení a množství. Množství znamená počet opakování platby v souvislém období. |
 | Zobrazit účtenky při rozepisování | Při rozepisování lze zobrazit účtenky. |
 | Výběr hotovostní zálohy | Vyberte jednu nebo více peněžních záloh pro provedení transakce s jedním výdajem. |
 | Hotovostní zůstatek | Zkontrolujte zůstatek hotovostní zálohy v reálném čase, když vytvoříte položku výdajů oproti schváleným a zaplaceným peněžním zálohám. |

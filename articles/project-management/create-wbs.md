@@ -2,16 +2,16 @@
 title: Vytvoření strukturovaného rozpisu prací
 description: Tento téma vysvětluje, jak vytvořit strukturovaný rozpis práce (WBS) včetně základních ovládacích prvků v novém plánovacím rozhraní.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655409"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928607"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Vytvoření strukturovaného rozpisu prací (WBS)
 
@@ -95,7 +95,7 @@ Jako správce můžete definovat vlastní pole v entitě úlohy. Pole však nelz
 
 ## <a name="staffing-attributes"></a>Personální atributy
 
-K atributům personálního obsazení se přistupuje prostřednictvím pole **Zdroje** v plánu. Můžete buď vyhledat existující zdroj, nebo vybrat **Vytvořit** a v podokně **Vytvořit** přidat člena projektového týmu jako nový zdroj.
+K atributům personálního obsazení se přistupuje prostřednictvím pole **Zdroje** v plánu. Můžete buď vyhledat existující zdroj, nebo vybrat **Vytvořit** a v podokně **Vytvořit** přidat člena projektového týmu jako nový zdroj.  Když hledáte zdroj pomocí nástroje pro výběr zdrojů v mřížce úkolů, zobrazení vývěsky nebo Ganttově diagramu, vyhledávání vrátí buď stávající členy projektového týmu, nebo aktivní rezervovatelné zdroje.
 
 Pole **Role**, **Jednotka zdroje** a **Název pozice** slouží k popisu požadavků na personální obsazení úkolu. Tyto atributy personálního obsazení se společně s plánem úkolů používají k nalezení dostupných zdrojů pro vykonání tohoto úkolu.
 
@@ -127,6 +127,7 @@ Pokud používáte strukturovaný rozpis prací v aplikaci Project Operations, m
 | Maximální celkový počet zdrojů v projektu              | 150                  |
 | Maximální celkový počet odkazů (pouze následovník) v projektu | 600                  |
 | Maximální celkový počet vlastních polí v projektu          | 10                   |
+| Maximální počet položek kontrolního seznamu na úkol                   | 20                   |
 
 **Omezení úkolu**
 

@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: Aktualizace Project Operations
       href: whats-new/project-operations-updates.md
+    - name: Odstraněné nebo zastaralé funkce
+      items:
+        - name: "Odstraněné nebo zastaralé funkce v\_aplikaci Project Operations"
+          href: whats-new/removed-depreciated-features-project.md
 - name: 'Project Operations pro scénáře založené na zdrojích/položkách, které nejsou na skladě'
   items:
     - name: Začínáme
@@ -58,6 +62,8 @@
           href: environment/uninstall-project-operations.md
     - name: Co je nového
       items:
+        - name: 'Prosinec 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: 'Listopad 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: 'Říjen 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Nastavení najetých kilometrů pomocí úrovní najetých kilometrů
               href: expense/set-up-mileage.md
+        - name: Rozpis výdajů
+          href: prod-exp/expense-itemization.md
         - name: Osobní výdaje
           href: expense/personal-expenses-expense-report.md
         - name: Mezipodnikové výdaje
@@ -530,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Správa odhadů výnosů
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Řešení problémů
+      items:
+        - name: Prodejní proces projektu
+          items:
+            - name: 'Chyba nesouladu měn při vytváření projektu, smlouvy, nabídky nebo rezervovatelného zdroje'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Omezené nasazení – od obchodu po pro forma fakturaci
   items:
     - name: Začínáme
@@ -548,6 +562,8 @@
       items:
         - name: Co je nového ve vlně 2 roku 2021 pro dřívější přístup – omezené nasazení
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 'Co je nového, prosinec 2021 - omezené nasazení'
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: 'Co je nového, listopad 2021 - omezené nasazení'
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: 'Co je nového, říjen 2021 – omezené nasazení'
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Milníky řádku subdodávky
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Subdodávky členů projektových týmů
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Možnosti subdodávky pro členy projektových týmů
+          href: pro/subcontracting/subcon-options.md
+        - name: Odhad nákladů na přiřazení zdrojů subdodávky
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Konfigurace plánovací vývěsky pro zobrazení smluvních pracovníků a subdodavatelské kapacity
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Personální zajištění projektu smluvními pracovníky a subdodavatelskou kapacitou
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Evidence času, nákladů a spotřeby materiálu pro subdodavatelské komponenty'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Přechody stavu v subdodávce
+          href: pro/subcontracting/subcon-states.md
     - name: Čas
       items:
         - name: Přehled času
@@ -1118,6 +1148,8 @@
       items:
         - name: Plán vydávání aktualizací pro Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 38, V3'
+          href: psa/whats-new-ur-38.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 37.5, V3'
           href: psa/whats-new-ur-37-5.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 37, V3'
@@ -1204,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Příručka pro generování sestav
           href: psa/implementation-guides/reporting-guide.md
+    - name: Upgrade z Project Service Automation na Project Operations - omezená verze
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Upgrade aplikace Project Service Automation (aplikace verze 3.x)
       items:
         - name: Upgrade Project Service Automation
