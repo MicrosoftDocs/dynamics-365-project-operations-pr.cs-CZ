@@ -2,6 +2,8 @@
 title: Organizační jednotky
 description: Toto téma poskytuje informace o organizačních jednotkách v Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005068"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145621"
 ---
 # <a name="organizational-units"></a>Organizační jednotky 
 
@@ -53,7 +55,7 @@ Organizační jednotka hraje v PSA dvě role:
 - **Smluvní jednotka** – organizační jednotka, která zastupuje skupinu nebo divizi společnosti, která je primárně zodpovědná za získání prodeje a řízení dodávky práce a služeb zákazníkovi. Smluvní jednotka je identifikována pomocí pole **Smluvní jednotka** v části hlavičky stránek **Příležitost**, **Nabídka**, **Projektová smlouva** a **Projekt**.
 - **Jednotka zdroje** – organizační jednotka, k níž zdroj náleží nebo je přiřazen. Tato organizační jednotka může poskytnout své zdroje pro některé role v prohlášeních o práci (SOWs) a projektech vlastněných smluvní jednotkou.
 
-> ![Smluvní jednotky a financování jednotek.](media/advanced-1.png)
+> ![Smluvní jednotky a financování jednotek](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Nejčastější dotazy k organizační jednotce
 
@@ -94,7 +96,7 @@ Organizační jednotka je interní skupina nebo divize ve společnosti, která s
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Příklad organizačních jednotek a prodejních oblastí
 
-Společnost Contoso, Ltd., má dvě vývojová centra: Contoso US a Contoso India. Náklady na zdroje se mezi těmito dvěma vývojovými centry značně liší.
+Společnost Contoso, Ltd. má dvě vývojová centra: Contoso US a Contoso India. Náklady na zdroje se mezi těmito dvěma vývojovými centry značně liší.
 
 Společnost Contoso prodává své IT služby na mnoha mezinárodních trzích, jako jsou Latinská Amerika, Severní Amerika, Asie a Tichomoří, západní Evropa a Střední Východ. Fakturační sazby za stejné projektové role se mohou na těchto trzích značně lišit.
 
@@ -122,7 +124,7 @@ Nákladové ceníky jsou přidruženy k organizačním jednotkám. Transakční 
 Pokud máte složitou hierarchii nákladových středisek, divizí, fakturačních kanceláří atd., nastavte uzly typu list této hierarchie jako samostatné organizační jednotky.
 Následující příklad ukazuje typickou hierarchii:
 
-**ContosoIndie**
+**Contoso India**
 
   - Postupy pro SAP 
 
@@ -165,6 +167,3 @@ Pokud vaše společnost pracuje jako jedna jednotka, která má jeden nákladov�
 Pokud je projekt vytvořen samostatně, je výchozí smluvní jednotka projektu založena na uživateli, který jej vytvořil. Tento uživatel je také výchozím projektovým manažerem. Pokud je projekt namapován na prodejní entitu, jako je například nabídka nebo projektová smlouva, je smluvní jednotka v projektu založena na prodejní entitě. V takovém případě mohou být odhady projektu přepočítány, protože nákladový ceník se používá k výpočtu změn odhadu nákladů při změně smluvní jednotky. Prodejní ceník se používá k výpočtu odhadů prodeje, které budou změněny, aby byly synchronizovány s projektovým ceníkem v nabídce.
 
 Pole **Smluvní jednotka** a **Měna** v projektu jsou uzamčeny pro úpravy, protože musí být synchronizovány s hodnotami prodejní entity (nabídka nebo projektová smlouva), na kterou je projekt namapován.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

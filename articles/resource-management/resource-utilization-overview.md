@@ -2,17 +2,18 @@
 title: Přehled využití zdroje
 description: Tohle téma obsahuje informace o využití zdrojů v Project Operations.
 author: ruhercul
+manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 152f85669b56d128a7bb2317ee2cf0857c90ade1273d47ad1f0f387e00a6bbd8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002053"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401368"
 ---
 # <a name="resource-utilization-overview"></a>Přehled využití zdroje
 
@@ -44,6 +45,3 @@ Navíc musí být ke každému rezervovatelnému zdroji přiřazena výchozí ro
 Na kartě **Project Service** můžete také nastavit individuální cílové využití zdroje. Výpočet využití pak používá toto cílové využití k vyhodnocení cíle zdroje namísto cíle výchozí role zdroje.
 
 Využití je pro zdroj zobrazeno pouze v případě, že tento zdroj má schválenou fakturovatelnou dobu během období zobrazeného v mřížce.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

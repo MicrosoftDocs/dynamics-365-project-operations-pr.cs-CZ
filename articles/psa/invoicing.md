@@ -2,10 +2,12 @@
 title: Fakturace v Project Service Automation
 description: Toto téma poskytuje informace o fakturaci.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985493"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151380"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturace v Project Service Automation
 
@@ -50,7 +52,7 @@ Chcete-li vytvořit fakturu pro konkrétní projektovou smlouvu, postupujte podl
 
 - Na stránce se seznamem **Projektových smluv** otevřete projektovou smlouvu a pak vyberte **Vytvořit fakturu**.
 
-    ![Vytvoření projektových faktur pro konkrétní projektovou smlouvu.](media/CreateProjectInvoicesOneByOne.png)
+    ![Vytvoření projektových faktur pro konkrétní projektovou smlouvu](media/CreateProjectInvoicesOneByOne.png)
 
     Je vygenerována faktura pro všechny transakce vybrané projektové smlouvy, které mají stav **Připraveno k fakturaci**. Tyto transakce zahrnují čas, výdaje, milníky a řádky smlouvy založené na produktu.
 
@@ -58,7 +60,7 @@ Chcete-li vytvořit faktury hromadně, postupujte následovně.
 
 1. Na stránce se seznamem **Projektových smluv** vyberte jednu nebo více projektových smluv, pro které musíte vytvořit fakturu, a pak vyberte **Vytvořit projektové faktury**.
 
-    ![Hromadné vytvoření projektových faktur.](media/CreateProjectInvoicesBulk.png)
+    ![Hromadné vytvoření projektových faktur](media/CreateProjectInvoicesBulk.png)
 
     Zobrazí se zpráva s upozorněním, že před vytvořením faktur může dojít k prodlevě. Tento proces je také zobrazen.
 
@@ -115,6 +117,3 @@ Po potvrzení opravné faktury se původní skutečná hodnota fakturovaného pr
 
 - Fakturovaná skutečná hodnota prodeje pro 6 hodin.
 - Skutečná hodnota nefakturovaného prodeje pro zbývající dvě hodiny. Tato transakce může být buď fakturována později, nebo označena jako neúčtovatelná, v závislosti na jednáních se zákazníkem.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Kopírování projektových smluv – omezené
 description: Toto téma poskytuje informace o kopírování projektových smluv v Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006013"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181399"
 ---
 # <a name="copy-project-contracts---lite"></a>Kopírování projektových smluv – omezené
 
@@ -43,6 +45,3 @@ Následující informace se nekopírují ze **zdrojové** do **cílové smlouvy*
   - Rozpočtové údaje zákazníka
 
 Protože tyto informace jsou specifické pro každou smlouvu, tato pole a záznamy se nekopírují. Zkopírují se řádky smlouvy u projektů a produktů, odhady u podrobností řádků smlouvy a hodnoty, které nesmějí být překročeny na úrovni smlouvy. Výchozí sazby cen a nákladů jsou závislé na výběru v poli **Kopírovat ceny**, vybrané na stránce dialogu **Kopírovat parametry**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

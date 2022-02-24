@@ -2,6 +2,8 @@
 title: Použití plánovací vývěsky k rezervaci zdrojů projektu
 description: Toto téma obsahuje informace o způsobu rezervace zdrojů.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e4516d13a30ddfb5763fe600b0c1fc675ba6cf980730912e1795cc3d6f4991f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9c9db2e602ca97d63ba237fd2c0eb757583caebc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998228"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144405"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Použití plánovací vývěsky k rezervaci zdrojů projektu
 
@@ -34,23 +36,20 @@ Před tím, než si můžete rezervovat z Plánovací vývěsky, musíte vytvoř
 1. Pokud je podokno **Požadavky na rezervaci** v dolní části stránky sbaleno, rozbalte ho výběrem ovládacího prvku rozbalení.
 2. V podokně **Požadavky na rezervace** na kartě **Projekt** vyberte požadavek na rezervaci.
 
-    ![Požadavek vybraný na kartě Projekt.](media/Resource-Management-image73.png)
+    ![Požadavek vybraný na kartě Projekt](media/Resource-Management-image73.png)
 
 3. Vyberte **Najít dostupnost** pro filtrování rezervovatelných zdrojů a zobrazení dostupných zdrojů. 
 4. Vyberte jeden nebo více zdrojů z Plánovací vývěsky. 
 5. V podokně **Vytvořit rezervaci zdroje** na pravé straně stránky zadejte informace o rezervaci a pak vyberte **Rezervovat a ukončit**.
 
-    ![Podokno Vytvořit rezervaci zdroje pro vybraný rezervovatelný zdroj.](media/Resource-Management-image74.png)
+    ![Podokno Vytvořit rezervaci zdroje pro vybraný rezervovatelný zdroj](media/Resource-Management-image74.png)
 
 6. Zatímco je v podokně **Vytvořit rezervaci zdroje** vybrán požadavek, vyberte jednu nebo více buněk zdroje pro vytvoření rezervace.
 
-    ![Výběr více buněk pro zdroj.](media/Resource-Management-image75.png)
+    ![Výběr více buněk pro zdroj](media/Resource-Management-image75.png)
 
 7. Vyberte **Rezervovat**.
 
 Požadavek je splněn pomocí vybraného zdroje. V podokně **Požadavky na rezervace** si všimněte, že požadavek byl aktualizován a zdroj je v projektu zobrazen jako rezervovaný.
 
-![Rezervovaný zdroj v projektu.](media/Resource-Management-image76.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Rezervovaný zdroj v projektu](media/Resource-Management-image76.png)

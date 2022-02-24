@@ -2,17 +2,19 @@
 title: Nastavení Project Operations a integrace dat konfigurace
 description: Tento téma poskytuje informace o nastavení a konfiguraci map duálního zápisu Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5fe81dca30039f99d5d7b9bb459214e540db945
+ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986528"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938964"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Nastavení Project Operations a integrace dat konfigurace
 
@@ -24,7 +26,7 @@ Tento téma poskytuje informace o integraci duálního zápisu Project Operation
 
 Smlouvy o projektu, řádky smlouvy a projekty jsou vytvářeny v Dataverse a synchronizovány do aplikací Finance and Operations pro další účetnictví. Záznamy v těchto entitách lze vytvářet a mazat pouze v Dataverse. K těmto záznamům v účtu však lze v aplikacích Finance and Operations přidat účetní atributy, jako jsou výchozí hodnoty skupiny DPH a finanční dimenze.
 
-  ![Koncepty integrace projektových smluv.](./media/1ProjectContract.jpg)
+  ![Koncepty integrace projektových smluv](./media/1ProjectContract.jpg)
 
 Sledují se potenciální zákazníci, příležitosti a nabídky prodejní aktivity v Dataverse a nesynchronizují se do aplikací Finance and Operations, protože s touto aktivitou není spojeno žádné následné účetnictví.
 
@@ -51,7 +53,7 @@ Projekt je spojen se smlouvou o projektu prostřednictvím entity **Řádek smlo
 
 Řádky smlouvy projektu využívající metodu fakturace s pevnou cenou jsou fakturovány prostřednictvím milníků fakturace. Milníky fakturace se synchronizují s projektem transakcí na účtu v aplikacích Finance and Operations pomocí mapy tabulky **Milníky řádku smlouvy integrace Project Operations (msdyn\_contractlinescheduleofvalues)**.
 
-  ![Integrace fakturačních milníků.](./media/2Milestones.jpg)
+  ![Integrace fakturačních milníků](./media/2Milestones.jpg)
 
 Účetní může zkontrolovat transakce na účtu a upravit účetní atributy těchto transakcí přechodem na **Řízení projektů a účetnictví** > **Projektové smlouvy** > **Údržba** > **Transakce na účet** nebo **Řízení projektů a účetnictví** > **Všechny projekty** > **Údržba** > **Transakce na účet**.
 
@@ -61,13 +63,13 @@ Když poprvé vytvoříte milník fakturace pro daný řádek smlouvy projektu, 
 
 Úkoly projektu jsou synchronizovány do aplikací Finance and Operations prostřednictvím mapy tabulky **Projektové úkoly (msdyn\_projecttasks)** pouze pro referenční účely. Vytváření, aktualizace a mazání nejsou podporovány prostřednictvím aplikací Finance and Operations.
 
-  ![Integrace úloh projektu.](./media/3Tasks.jpg)
+  ![Integrace úloh projektu](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Zdroje projektu
 
 Entita **Role zdrojů projektu** je synchronizována s aplikacemi Finance and Operations pomocí mapy tabulky **Role projektových zdrojů pro všechny společnosti (bookableresourcecategories)** pouze pro referenční účely. Protože role zdrojů v Dataverse nejsou specifické pro společnost, systém automaticky vytvoří příslušné záznamy o rolích zdrojů specifické pro společnost v aplikacích Finance and Operations pro všechny právnické osoby zahrnuté do rozsahu integrace duálního zápisu.
 
-![Integrace rolí zdrojů.](./media/5Resources.jpg)
+![Integrace rolí zdrojů](./media/5Resources.jpg)
 
 Zdroje projektu v Project Operations jsou udržovány v Dataverse a nejsou synchronizovány do aplikací Finance and Operations.
 
@@ -75,6 +77,6 @@ Zdroje projektu v Project Operations jsou udržovány v Dataverse a nejsou synch
 
 Kategorie transakcí jsou udržovány v Dataverse a synchronizováno do aplikací Finance and Operations pomocí mapy tabulky **Kategorie transakcí projektu (msdyn\_transactioncategories)**. Po synchronizaci záznamu kategorie transakce systém automaticky vytvoří čtyři sdílené záznamy kategorie. Každý záznam odpovídá typu transakce v aplikacích Finance and Operations a propojí je se záznamem kategorie transakcí.
 
-![Integrace kategorií transakcí.](./media/4TransactionCategories.jpg)
+![Integrace kategorií transakcí](./media/4TransactionCategories.jpg)
 
 Použití kategorií transakcí pro odhady a skutečné hodnoty vyžaduje, aby účetní projektu nebo správce systému vytvořil odpovídající kategorie projektu u každé právnické osoby. Další informace viz [Konfigurace kategorií projektu](../project-accounting/configure-project-categories.md).

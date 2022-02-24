@@ -2,6 +2,8 @@
 title: Příručka pro manažera obchodních vztahů
 description: Příručka pro manažera obchodního vztahu pro aplikaci Project Service, který vás provede procesem prodeje a smluv pro obchodní vztahy založené na projektech.
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/30/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4792d3438216a850b0b4afdb38f26b85adb81960c5984217c76c9954ca36b884
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b1908fdf012b470a2954191d4428a58241b33752
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985808"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146071"
 ---
 # <a name="account-manager-guide-project-service"></a>Příručka pro manažera obchodních vztahů (Project Service)
 
@@ -46,6 +48,3 @@ Možnosti [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto
  [Příručka pro projektového manažera](../psa/project-manager-guide.md)   
  [Příručka pro manažera zdrojů](../psa/resource-manager-guide.md)   
  [Příručka – Čas, výdaje a spolupráce](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

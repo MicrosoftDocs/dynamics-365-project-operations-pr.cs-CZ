@@ -2,16 +2,18 @@
 title: Deník integrace v Project Operations
 description: Tohle téma poskytuje informace o práci s deníkem integrace v Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987923"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948322"
 ---
 # <a name="integration-journal-in-project-operations"></a>Deník integrace v Project Operations
 
@@ -19,7 +21,7 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 
 Položky času a výdajů vytvářejí **Skutečné** transakce, které představují provozní zobrazení práce provedenou v rámci projektu. Dynamics 365 Project Operations poskytuje účetním nástroj pro kontrolu transakcí a úpravu účetních atributů podle potřeby. Po dokončení kontroly a úprav jsou transakce zaúčtovány do dílčí hlavní knihy a hlavní knihy projektu. Účetní může tyto činnosti provádět pomocí **deníku integrace Project Operations** (**Dynamics 365 Finance** > **Řízení projektů a účetnictví** > **Deníky** > **Deník integrace Project Operations**.
 
-![Tok deníku integrace.](./media/IntegrationJournal.png)
+![Tok deníku integrace](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Vytvoření záznamů v deníku integrace Project Operations
 

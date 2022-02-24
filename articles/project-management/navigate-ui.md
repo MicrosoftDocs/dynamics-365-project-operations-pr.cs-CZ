@@ -2,16 +2,18 @@
 title: Navigace v uživatelském rozhraní
 description: Toto téma poskytuje informace o správě projektů v Dynamics 365 Project Operations.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 97483a53163edbbe6dfe383d6a6a60183a17e6e9df9ec3c47c9f33aef88aea3e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: deedfe0c6601fd09e09460034c9a0db936b6566e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989138"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127510"
 ---
 # <a name="navigating-the-user-interface"></a>Navigace v uživatelském rozhraní
 
@@ -23,37 +25,37 @@ Hlavní formulář projektu je rozdělen do několika karet. Každá karta před
 
 - **Souhrn** : Poskytuje popis projektu a agreguje plánovaný i skutečný výkon projektu.
 
-    ![Karta Souhrn a pole.](media/navigation7.png)
+    ![Karta Souhrn a pole](media/navigation7.png)
 
 - **Úkoly** : Poskytuje podrobnosti týkající se strukturovaného rozpisu prací vyjádřeného jako zobrazení mřížky, plánovací vývěska nebo Ganttův diagram.
 
-    ![Karta Úkol a pole.](media/navigation8.png)
+    ![Karta Úkol a pole](media/navigation8.png)
 
 - **Tým** : Poskytuje podrobnosti o účastnících projektu. V tomto zobrazení je také shrnuto přidělené úsilí každého člena týmu.
 
-    ![Karta Tým a pole.](media/navigation9.png)
+    ![Karta Tým a pole](media/navigation9.png)
 
 - **Přiřazení zdrojů** : Poskytuje časově odstupňovaný pohled na úsilí každého zdroje v projektu.
 
-    ![Karta Přiřazení zdrojů a pole.](media/navigation10.png)
+    ![Karta Přiřazení zdrojů a pole](media/navigation10.png)
 
 - **Vyrovnání zdrojů**: Poskytuje časově odstupňovaný pohled na rozdíly mezi přiřazením každého pojmenovaného zdroje a jejich rezervacemi.
 
-    ![Karta Vyrovnání zdrojů a pole.](media/navigation11.png)
+    ![Karta Vyrovnání zdrojů a pole](media/navigation11.png)
 
 - **Odhady** : Poskytuje časově odstupňovaný pohled na odhady nákladů a prodejů projektu.
 
-    ![Karta Odhady a pole.](media/navigation12.png)
+    ![Karta Odhady a pole](media/navigation12.png)
 
 - **Sledování** : Poskytuje pohled zobrazující průběh úkolů ve strukturovaném rozpisu prací pro úsilí, náklady a prodej.
 
-    ![Karta Sledování a pole.](media/navigation13.png)
+    ![Karta Sledování a pole](media/navigation13.png)
 
 - **Prodej** : Poskytuje přímé odkazy na nabídky a smlouvy přidružené k projektu.
 
 - **Odhady výdajů** : Poskytuje mřížku definující výdaje projektu na základě kategorií výdajů organizace.
 
-    ![Karta Odhady výdajů a pole.](media/navigation14.png)
+    ![Karta Odhady výdajů a pole](media/navigation14.png)
 
 ## <a name="grid-controls"></a>Ovládací prvky mřížky
 
@@ -63,43 +65,40 @@ Následuje stručný přehled typických ovládacích prvků na různých kartá
 
 **Obnovit** : Načte nejnovější data ze serveru, pokud po načtení mřížky došlo k jakýmkoli změnám.
 
-![Tlačítko Aktualizovat.](media/navigation7.png)
+![Tlačítko Aktualizovat](media/navigation7.png)
 
 ### <a name="group-by"></a>Seskupit podle
 
 **Seskupit podle** : Aktualizuje seskupení řádků v mřížce tak, aby odrážely buď zdroje, role nebo kategorie na základě potřeb uživatele.
 
-![Tlačítko Seskupit podle.](media/navigation6.png)
+![Tlačítko Seskupit podle](media/navigation6.png)
 
 ### <a name="previousnext"></a>Předchozí/Další
 
 **Předchozí**/**Další** : Aktualizujte viditelná časová období na časově rozložených mřížkách.
 
-![Tlačítka Předchozí a Další.](media/navigation2.png)
+![Tlačítka Předchozí a Další](media/navigation2.png)
 
 ### <a name="timescale"></a>Časové měřítko
 
 **Časové měřítko** : Změní agregaci časově rozložených dat mezi dny, týdny, měsíci a roky.
 
-![Tlačítko Časové měřítko.](media/navigation3.png)
+![Tlačítko Časové měřítko](media/navigation3.png)
 
-### <a name="expand"></a>Rozšíření
+### <a name="expand"></a>Rozšířit
 
 **Rozšířit** : Vykreslí viditelnou mřížku na celou obrazovku a nabídne tak zobrazení dalších rolí.
 
-![Tlačítko Rozbalit.](media/navigation4.png)
+![Tlačítko Rozbalit](media/navigation4.png)
 
 ### <a name="time-phase-by"></a>Časově uspořádat podle
 
 **Časově uspořádat podle** : Aktualizujte seskupení řádků v mřížce tak, aby odráželo odhady nákladů pro odhady prodejů. Tento ovládací prvek se vztahuje také na skript odhadu a sledovací mřížku.
 
-![Tlačítko Časově uspořádat podle.](media/navigation0.png)
+![Tlačítko Časově uspořádat podle](media/navigation0.png)
 
 ### <a name="add-column"></a>Přidat sloupec
 
 **Přidat sloupec** : Umožňuje uživateli definovat viditelné sloupce v mřížce. Do mřížek ve formuláři **Plánování projektu** lze přidat pouze předem připravené sloupce.
 
-![Tlačítko Přidat sloupec.](media/navigation5.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Tlačítko Přidat sloupec](media/navigation5.png)

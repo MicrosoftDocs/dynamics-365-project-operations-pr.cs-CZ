@@ -2,16 +2,18 @@
 title: Správa více zákazníků v nabídkách projektů – omezené
 description: Toto téma poskytuje informace o práci na nabídkách s více zákazníky, kteří budou financovat projekt. (Sales)
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
-ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
+ms.openlocfilehash: bdda1a940e733270399d092e543c3982c47174d0
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440769"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181581"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Správa více zákazníků v nabídkách projektů – omezené
 
@@ -37,7 +39,7 @@ Zákazník nabídky může být vytvořen, aktualizován nebo odstraněn na kart
 
 | **Pole** | **Umístění** | **Popis** | **Dopad na příjem dat** |
 | --- | --- | --- | --- |
-| Účet | Upravitelná mřížka na kartě **Zákazníci nabídky** a formuláře **Hlavní** a **Vytvořit** pro zákazníka nabídky. | Vypíše seznam všech aktivních účtů. Po vytvoření záznamu je toto pole uzamčeno. Chcete-li jej aktualizovat, odstraňte záznam a znovu jej vytvořte. Pokud jste zaznamenali nějaké skutečné údaje nebo pokud je záznam zákaznické nabídky záznamem primárního zákazníka, nebudete moci záznam odstranit. | Po vytvoření řádku nabídky se zákazníci nabídky zkopírují k zákazníkům řádku nabídky. Po získání nabídky se také zákazníci nabídky zkopírují k zákazníkům projektové smlouvy. |
+| Účet | Upravitelná mřížka na kartě **Zákazníci nabídky** a formuláře **Hlavní** a **Vytvořit** pro zákazníka nabídky. | Vypíše seznam všech aktivních účtů. Po vytvoření záznamu je toto pole uzamčeno. Chcete-li jej aktualizovat, odstraňte záznam a znovu jej vytvořte. Pokud jste zaznamenali nějaké skutečnosti nebo pokud je záznam zákazníka nabídky primárním zákazníkem, budete moci záznam odstranit. | Po vytvoření řádku nabídky se zákazníci nabídky zkopírují k zákazníkům řádku nabídky. Po získání nabídky se také zákazníci nabídky zkopírují k zákazníkům projektové smlouvy. |
 | Procento rozdělení fakturace | Upravitelná mřížka na kartě **Zákazníci nabídky** a formuláře **Hlavní** a **Vytvořit** pro zákazníka nabídky. | Představuje procento z každé nevyfakturované prodejní transakce, která bude připsána tomuto zákazníkovi nabídky. | Zkopírováno do nových řádků nabídek a do zákazníků projektové smlouvy. |
 | Fakturační adresa – jméno kontaktu | Upravitelná mřížka na kartě **Zákazníci nabídky** a formuláře **Hlavní** a **Vytvořit** pro zákazníka nabídky. | Toto je textové pole a mělo by se použít k identifikaci kontaktní osoby faktury pro tohoto zákazníka. Výchozí hodnoty jsou brány ze záznamu souvisejícího účtu | Zkopírováno do zákazníků projektové smlouvy po získání nabídky, a následně do pole Fakturační adresa – jméno kontaktu na faktuře, která je generována pro tohoto zákazníka. |
 | Fakturační adresa – jméno | Upravitelná mřížka na kartě **Zákazníci nabídky** a formuláře **Hlavní** a **Vytvořit** pro zákazníka nabídky. | Toto textové pole by se mělo použít k identifikaci kontaktní osoby faktury pro tohoto zákazníka. | Zkopírováno do zákazníků projektové smlouvy po získání nabídky, a následně do pole **Fakturační adresa – jméno kontaktu** na faktuře, která je generována pro tohoto zákazníka. |
@@ -50,6 +52,3 @@ Zákazník nabídky může být vytvořen, aktualizován nebo odstraněn na kart
 Procenta rozdělení fakturace se dají upravit v prostředí in-line úprav v mřížce. Pokud součet procent rozdělení fakturace není 100%, dojde k chybě. Po aktualizaci procent rozdělení fakturace chybu odstraníte aktualizací stránky.
 
 Můžete také zkusit vybrat **Rovnoměrně rozdělit** v podmřížce zákazníků nabídky. Tato akce přiděluje rozdělení fakturace všem zákazníkům nabídky. Pokud existuje zaokrouhlovací faktor, bude přidán k zaokrouhlovacímu zákazníkovi. Jeden ze zákazníků nabídky je vždy označen jako zaokrouhlující zákazník. To znamená, že záznam zákazníka nabídky má příznak **Zaokrouhlování** nastaven na **Ano**. Obvykle se jedná o primárního zákazníka nabídky, ale lze to změnit.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

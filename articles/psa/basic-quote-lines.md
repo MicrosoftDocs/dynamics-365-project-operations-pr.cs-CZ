@@ -2,6 +2,8 @@
 title: Nabídky a řádky nabídky
 description: Toto téma poskytuje informace o nabídkách a řádcích nabídky.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995438"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145106"
 ---
 # <a name="quotes-and-quote-lines"></a>Nabídky a řádky nabídky
 
@@ -84,7 +86,7 @@ Profesionální servisní organizace svým zákazníkům obvykle předkládají 
 
 Ke každému řádku nabídky lze přidružit jednu nebo více těchto klasifikací transakcí. Po získání nabídky je mapování mezi klasifikací transakce a řádkem poptávky převedeno na řádek smlouvy.
  
-> ![Snímek obrazovky mapování typů transakcí na řádky nabídek a smluv.](media/basic-guide-5.png)
+> ![Snímek obrazovky mapování typů transakcí na řádky nabídek a smluv](media/basic-guide-5.png)
   
 Nabídka může například obsahovat následující dva řádky nabídky: 
 - Konzultační práce, která používá metodu fakturace času a materiálu, kdy jsou použitelné klasifikace transakcí času a poplatků. Například všechny transakce času a poplatků pro ukázkový projekt **Implementace Dynamics AX** jsou zákazníkovi fakturovány na základě času a použitých materiálů. 
@@ -129,6 +131,3 @@ Pro řádek nabídky s pevnou cenou můžete použít mřížku **Rozpis faktury
 - Chcete-li vytvořit fakturační milníky, které jsou rovnoměrně rozděleny, vyberte četnost faktury, zadejte na řádku nabídky počáteční datum fakturace a vyberte **Požadované datum dokončení** pro nabídku v části **Souhrn** v záhlaví nabídky. Chcete-li vytvořit rovnoměrně rozdělené milníky na základě vybrané četnosti faktury, vyberte poté **Vygenerovat pravidelné milníky**. 
 - Chcete-li vytvořit jednorázový fakturační milník, vytvořte milník a poté jako částku milníku zadejte hodnotu řádku nabídky.
 - Chcete-li vytvořit fakturační milníky založené na konkrétních úkolech v projektovém plánu, vytvořte milník a namapujte ho na prvek plánu projektu v uživatelském rozhraní fakturačního milníku.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,22 +2,24 @@
 title: Rozšíření časových záznamů
 description: Tento téma poskytuje informace o tom, jak jsou vývojáři schopni rozšířit řízení časových záznamů.
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993323"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124630"
 ---
 # <a name="extending-time-entries"></a>Rozšíření časových záznamů
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Dynamics 365 Project Operations obsahuje rozšiřitelný vlastní vstupní ovládací prvek. Tento ovládací prvek obsahuje následující funkce:
+Dynamics 365 Project Operations zahrnuje rozšiřitelný vlastní ovládací prvek pro časové záznamy. Tento ovládací prvek obsahuje následující funkce:
 
 - Zadávání času horizontálně přes týden
 - Součty za den, řádek nebo týden
@@ -142,6 +144,3 @@ Ověření modulu plug-in použijte pro jakákoli ověření vyžadující více
 
 ### <a name="copying-time-entries"></a>Kopírování časových záznamů
 Použijte pohled **Kopírování sloupců pro zadání času** k definování seznamu polí ke kopírování během zadávání času. **Datum** a **Doba trvání** jsou povinná pole a nesmí být ze zobrazení odstraněna.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

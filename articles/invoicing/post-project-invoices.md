@@ -2,17 +2,18 @@
 title: Přehled fakturovacího procesu
 description: Toto téma obsahuje přehled procesu fakturace v Project Operations pro scénáře se zdroji bez skladových materiálů.
 author: sigitac
+manager: Annbe
 ms.date: 01/29/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fbc1519b6cbcf231cfa89df8b7843d11a8904e49
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003763"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089220"
 ---
 # <a name="invoicing-process-overview"></a>Přehled fakturovacího procesu
 
@@ -20,7 +21,7 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 
 Project Operations pro scénáře se zdroji bez skladových materiálů nabízí komplexní funkce přizpůsobené tak, aby vyhovovaly potřebám projektového manažera i účetního. Pro proces fakturace projektový manažer spravuje nevyřízené položky fakturace projektu a účetní vytváří kompatibilní a přesný dokument faktury orientované na zákazníka.
 
-![Vývojový diagram fakturace.](./media/invoicing-flow.png)
+![Vývojový diagram fakturace](./media/invoicing-flow.png)
 
 Řádek smlouvy projektu definuje metodu fakturace pro související transakce projektu. Když projektový manažer schválí časové a výdajové transakce, systém zaznamená transakce do entity **Skutečné hodnoty projektu** a odešle informace do modulu **Řízení projektů a účetnictví** v Dynamics 365 Finance. Účetní projektu poté zkontroluje a zaúčtuje záznamy pomocí [deníku integrace Project Operations](../project-accounting/project-operations-integration-journal.md). Tento deník obsahuje důležité účetní údaje pro skutečná data projektu, jako je fakturace, skupina daně z prodeje, skupina daně z prodeje fakturační položky a finanční dimenze.
 
@@ -29,6 +30,3 @@ Projektový manažer může zkontrolovat nevyfakturované prodejní transakce po
 Můžete [ručně vytvořit proforma fakturu](../proforma-invoicing/create-manual-proforma-invoice.md) nebo použít [periodický proces](../proforma-invoicing/configure-automated-invoice-creation.md). Projektový manažer může [upravit návrh pro forma faktury](../proforma-invoicing/manage-proforma-invoice.md) podle potřeby a poté ho potvrdit.
 
 Potvrzená pro forma faktura je odeslána do modulu **Řízení projektů a účetnictví** ve Finance. Účetní projektu naformátuje a aktualizuje návrh faktury projektu a poté zaúčtuje a vytiskne dokument. Zaúčtované faktury projektu se zaznamenávají v hlavní knize i v podřízených knihách zákazníka a projektu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

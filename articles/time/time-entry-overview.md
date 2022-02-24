@@ -1,24 +1,25 @@
 ---
 title: Časový přehled
-description: Toto téma obsahuje informace o funkci času v Dynamics 365 Project Operations.
+description: Toto téma poskytuje informace o funkci čas v Dynamics 365 Project Operations.
 author: stsporen
+manager: AnnBe
 ms.date: 10/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.custom: intro-internal
-ms.openlocfilehash: 23697d7fedbf3edfef5099f615056162d2f8d6ce094884e20229123c17006311
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 291ca3cc6d995a9722fe3cd29ded95fb606888c6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999488"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124540"
 ---
-# <a name="time-overview"></a>Přehled času
+# <a name="time-overview"></a>Časový přehled
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Zadání času je proces zaznamenávání skutečného času, který zdroj spotřebuje. Časové údaje v Dynamics 365 Project Operations umožňují vypočítat náklady a prodejní ceny podle postupu úkolů. Tyto položky pomáhají vedoucímu projektu držet krok s projekty a úkoly. Časové položky také informují správce zdrojů o potenciálních prázdninách nebo nepřítomnostech, které se objeví na tabuli harmonogramu jako **Mimo**. Tato oznámení umožňují správcům zdrojů plánovat tyto události.
+Zadání času je proces zaznamenávání skutečného času, který zdroj spotřebuje. Časové položky v Dynamics 365 Project Operations umožňují vypočítat náklady a prodejní ceny v průběhu postupu úkolů. Tyto položky pomáhají vedoucímu projektu držet krok s projekty a úkoly. Časové položky také informují správce zdrojů o potenciálních prázdninách nebo nepřítomnostech, které se objeví na tabuli harmonogramu jako **Mimo**. Tato oznámení umožňují správcům zdrojů plánovat tyto události.
 
 Při záznamu času v Project Operations mohou uživatelé sledovat čas proti jakékoli úrovni v projektu. To zahrnuje úkol, souhrn nebo úroveň projektu.
 
@@ -26,6 +27,3 @@ Při záznamu času v Project Operations mohou uživatelé sledovat čas proti j
 
 Informace o tom, jak vytvořit, odeslat nebo vyvolat záznam a další nástroje, které vám pomohou dokončit vytváření přehledů, najdete v části [Chování uživatele při zadávání času](ui-behavior-time.md).
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

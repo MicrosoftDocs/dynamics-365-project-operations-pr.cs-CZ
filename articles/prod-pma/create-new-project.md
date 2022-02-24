@@ -2,9 +2,11 @@
 title: Vytvořit nový projekt
 description: Toto téma obsahuje informace o způsobu vytvoření nového projektu.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985943"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270715"
 ---
 # <a name="create-a-new-project"></a>Vytvořit nový projekt
 
@@ -51,9 +53,9 @@ Můžete také podle potřeby přiřadit kategorie ke zdroji. Typ kategorie je b
 
 Manažer projektu může použít funkci projektového zajišťování zdrojů k vytvoření rolí, které jsou pro projekt vyžadovány. Role lze použít, pokud jsou potvrzené zdroje stále neznámé, když probíhá rezervace zdrojů. Role lze dočasně rezervovat jako plánované zdroje, abyste mohli pokračovat ve fázích plánování projektu.
 
-[![Příklad role.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Příklad role](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Scénář:** Contoso byla najata k provedení projektu Čas a materiál, který má schválenou chartu projektu. Nižší projektový manažer stále dokončuje rozsah projektu. Správce prostředků aktuálně identifikuje konkrétní zdroje, které budou vyhrazeny pro práci na novém projektu. Vzhledem ke kritické povaze projektu si sponzor projektu požádal o přidělení role vyššího projektového manažera. Správce zdrojů musí získat nový zdroj a definovat roli v systému v případě, že nižší projektový manažer vyžaduje během plánování projektu informace o zdroji.
+**Scénář:** Společnost Contoso byla najata, aby dokončila projekt Čas a materiál, který má schválenou chartu projektu. Nižší projektový manažer stále dokončuje rozsah projektu. Správce prostředků aktuálně identifikuje konkrétní zdroje, které budou vyhrazeny pro práci na novém projektu. Vzhledem ke kritické povaze projektu si sponzor projektu požádal o přidělení role vyššího projektového manažera. Správce zdrojů musí získat nový zdroj a definovat roli v systému v případě, že nižší projektový manažer vyžaduje během plánování projektu informace o zdroji.
 
 Následující kroky ukazují, jak může správce zdrojů nastavit roli vyššího projektového manažera a asociovat s ním charakteristiky zdrojů. Později lze roli použít k vyhledání dostupných zdrojů, které odpovídají požadovaným kompetencím zdrojů.
 

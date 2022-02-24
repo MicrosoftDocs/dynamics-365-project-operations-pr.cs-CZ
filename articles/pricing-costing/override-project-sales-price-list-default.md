@@ -2,17 +2,19 @@
 title: Přepsání prodejních ceníků projektu
 description: Tohle téma poskytuje informace o vytváření vlastních prodejních ceníků.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009568"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672223"
 ---
 # <a name="override-project-sales-price-lists"></a>Přepsání prodejních ceníků projektu
 
@@ -50,6 +52,3 @@ Můžete použít každý z těchto ceníků a aktualizovat ceny práce (cena ro
 Na projektové smlouvě je cena projektu vždy výchozí jako vlastní ceník s názvem smlouvy a vytvořeným razítkem data a času připojeným k názvu. To platí, ať už byla smlouva vytvořena při získání nabídky, nebo pokud byla smlouva vytvořena úplně od začátku. V případě potřeby můžete toto přidružení k vlastnímu ceníku odebrat a místo toho přidružit standardní ceník k projektové smlouvě.
 
 Když přidružíte standardní ceník k projektovým ceníkům nabídky nebo smlouvy, jakékoli změny provedené v cenách v ceníku ovlivní všechny nabídky a smlouvy, které používají ceník.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

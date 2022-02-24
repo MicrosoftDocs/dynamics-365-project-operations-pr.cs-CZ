@@ -2,17 +2,19 @@
 title: Zřízení nového prostředí
 description: Toto téma poskytuje informace o zřízení nového prostředí Project Operations.
 author: sigitac
-ms.date: 09/13/2021
+manager: Annbe
+ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928653"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727782"
 ---
 # <a name="provision-a-new-environment"></a>Zřízení nového prostředí
 
@@ -29,16 +31,16 @@ Pomocí následujících kroků povolíte tok automatického zřizování Projec
 1. Přejděte do [LCS](https://lcs.dynamics.com/v2) a vyberte dlaždici **Správa funkce náhledu**.
 2. V seznamu **Funkce Preview** vyberte **Funkce Project Operations** a poté výběrem možnosti **Povolit funkci verze Preview** povolte aplikaci Project Operations.
 
-   > [!NOTE]
-   > Tento krok se provádí pouze jednou za projekt LCS.
+> [!NOTE]
+> Tento krok se provádí pouze jednou za projekt LCS.
 
 ## <a name="provision-a-project-operations-environment"></a>Zřízení prostředí Project Operations
 
-1. Otevřete nové [demo prostředí Dynamics 365 Finance](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) nebo nasazení [sandboxu / produkčního prostředí](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Otevřete nové [demo prostředí Dynamics 365 Finance](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) nebo nasazení [sandboxu / produkčního prostředí](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Projděte jednotlivé obrazovky průvodce **Zřízení prostředí**. 
 
-   > [!IMPORTANT]
-   > Zkontrolujte, zda je vybrána verze aplikace 10.0.13 nebo vyšší.
+> [!IMPORTANT]
+> Zkontrolujte, zda je vybrána verze aplikace 10.0.13 nebo vyšší.
 
 3. Chcete-li zřídit Project Operations, vyberte v části **Pokročilé nastavení** položku **Common Data Service**. 
 4. Povolte **Nastavení Common Data Service** výběrem **Ano** a poté zadejte informace do požadovaných polí:
@@ -49,23 +51,25 @@ Pomocí následujících kroků povolíte tok automatického zřizování Projec
   - Měna
  
 5. V poli **Šablona Common Data Service** vyberte **Project Operations** 
+
 6. Vyberte typ prostředí pro vaše nasazení. Zkušební verze založená na předplatném vám umožní nasadit prostředí CDS po dobu 30 dnů. 
 
-     ![Nastavení nasazení.](./media/1DeploymentSettings.png)
+![Nastavení nasazení](./media/1DeploymentSettings.png)
 
-    > [!IMPORTANT]
-    > Výběrem možnosti **Souhlasím** potvrďte podmínky služby a poté se výběrem možnosti **Hotovo** vraťte do nastavení nasazení.
-    >
-    >![Souhlas s nasazením.](./media/2DeploymentConsent.png)
+> [!IMPORTANT]
+> Výběrem možnosti **Souhlasím** potvrďte podmínky služby a poté se výběrem možnosti **Hotovo** vraťte do nastavení nasazení.
+
+![Souhlas s nasazením](./media/2DeploymentConsent.png)
 
 7. Volitelné – použití ukázkových dat na prostředí. Přejdete do **Pokročilé nastavení**, vyberte **Přizpůsobte konfiguraci databáze SQL** a nastavte **Určete datovou sadu pro databázi aplikací** na **Ukázka**.
+
 8. Vyplňte zbývající požadovaná pole v průvodci a potvrďte nasazení. Čas zřízení prostředí se liší v závislosti na typu prostředí. Zřizování může trvat až šest hodin.
 
-   Po úspěšném dokončení nasazení se prostředí zobrazí jako **Nasazeno**.
+  Po úspěšném dokončení nasazení se prostředí zobrazí jako **Nasazeno**.
 
 9. Chcete-li potvrdit, že se prostředí úspěšně nasadilo, vyberte **Přihlásit se** a potvrďte přihlášením do prostředí.
 
-    ![Podrobnosti prostředí.](./media/3EnvironmentDetails.png)
+![Podrobnosti prostředí ](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Použití aktualizací v prostředí Finance
 
@@ -75,35 +79,35 @@ K získání této verze možná budete muset na svém prostředí Finance použ
 
 1. V LCS, na stránce **Podrobnosti o prostředí** v sekci **Dostupné aktualizace** vyberte možnost **Zobrazit aktualizaci**.
 
-    ![Zobrazení aktualizací.](./media/5ViewUpdates.png)
+![Zobrazení aktualizací](./media/5ViewUpdates.png)
 
 2. Na stránce **Binární aktualizace** vyberte možnost **Uložit balíček.**
 
-    ![Uložení balíčku.](./media/6SavePackage.png)
+![Uložení balíčku](./media/6SavePackage.png)
 
 3. Klikněte na položku **Vybrat vše** a pak vyberte příkaz **Uložit balíček**.
 
-    ![Kontrola a ukládání aktualizací.](./media/7ReviewAndSaveUpdates.png)
+![Kontrola a ukládání aktualizací](./media/7ReviewAndSaveUpdates.png)
 
 4. Zadejte název a popis balíčku a poté vyberte příkaz **Uložit**. Tento proces může nějakou dobu trvat (v závislosti na rychlosti připojení k internetu).
 
-    ![Nahrání balíčku do knihovny prostředků.](./media/8UploadPackageToAssetsLibrary.png)
+![Nahrání balíčku do knihovny prostředků](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Po uložení balíčku vyberte možnost **Hotovo** a uložte tento balíček do knihovny prostředků ve vašem projektu LCS.
 
-   Uložení a ověření balíčku může trvat až 15 minut.
+Uložení a ověření balíčku může trvat až 15 minut.
 
 6. Chcete-li použít aktualizaci, přejděte na stránku **Podrobnosti o prostředí** v LCS a vyberte příkaz **Údržba** > **Použít aktualizace**.
 
-    ![Údržba prostředí.](./media/9MaintainEnvironment.png)
+![Údržba prostředí](./media/9MaintainEnvironment.png)
 
 7. V seznamu aktualizací vyberte balíček, který jste vytvořili, a vyberte příkaz **Použít**.
 
-    ![Instalace aktualizací.](./media/10ApplyUpdates.png)
+![Instalace aktualizací](./media/10ApplyUpdates.png)
 
-   Údržba prostředí bude nějakou dobu trvat. Po dokončení se prostředí vrátí do nasazeného stavu.
+Údržba prostředí bude nějakou dobu trvat. Po dokončení se prostředí vrátí do nasazeného stavu.
 
-    ![Nasazené prostředí.](./media/11EnvironmentDeployed.png)
+![Nasazené prostředí](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Vytvoření připojení s duálním zápisem 
 
@@ -111,55 +115,53 @@ K získání této verze možná budete muset na svém prostředí Finance použ
 2. V části **Informace o prostředí Common Data Service** vyberte možnost **Odkaz na CDS pro aplikace**.
 3. Po vytvoření odkazu vyberte znovu možnost **Odkaz na CDS pro aplikace**. Budete přesměrováni na duální zápis ve Finance.
 
-    ![Odkaz na CDS.](./media/12LinktoCDS.png)
+![Odkaz na CDS](./media/12LinktoCDS.png)
 
 4. Výběrem položky **Použít řešení** získáte přístup k entitám, které budou mapovány v integraci.
 
-    ![Použít řešení.](./media/13ApplySolutions.png)
+![Použít řešení](./media/13ApplySolutions.png)
 
 5. Vyberte obě řešení, **Mapa entit duálního zápisu Dynamics 365 Finance and Operations** a **Mapa entit duálního zápisu Dynamics 365 Project Operations** a potom vyberte **Použít**.
 
-    ![Potvrzení řešení.](./media/14ConfirmSolutions.png)
+![Potvrzení řešení](./media/14ConfirmSolutions.png)
 
-    Poté, co je řešení použito, se na prostředí použijí entity duálního zápisu.
+Poté, co je řešení použito, se na prostředí použijí entity duálního zápisu.
 
-    ![Použití řešení.](./media/15ApplyingSolutions.png)
+![Použití řešení](./media/15ApplyingSolutions.png)
 
-    Po použití entit se v prostředí zobrazí všechna dostupná mapování.
+Po použití entit se v prostředí zobrazí všechna dostupná mapování.
 
-    ![Mapy duálního zápisu.](./media/15DWMappings.png)
+![Mapy duálního zápisu](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Po aktualizaci aktualizujte datové entity
 
 1. Ve Finance přejděte do pracovního prostoru **Správa dat**.
 
-    ![Pracovní prostor správy dat.](./media/16DataManagement.png)
+![Pracovní prostor správy dat](./media/16DataManagement.png)
 
 2. Vyberte dlaždici **Parametry architektury**.
 
-    ![Parametry architektury.](./media/17FrameworkParameters.png)
+![Parametry architektury](./media/17FrameworkParameters.png)
 
 3. Na stránce **Nastavení entity** vyberte možnost **Aktualizovat seznam entit**.
 
-    ![Aktualizovat seznam entit.](./media/18RefreshEntityList.png)
+![Aktualizovat seznam entit](./media/18RefreshEntityList.png)
 
 Aktualizace bude trvat přibližně 20 minut. Po dokončení obdržíte upozornění.
 
-  ![Potvrzení aktualizace.](./media/19RefreshConfirmation.png)
+![Potvrzení aktualizace](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Aktualizovat nastavení zabezpečení v Project Operations na Dataverse
 
 1. Přejděte na Project Operations v prostředí Dataverse. 
 2. Přejděte do části **Nastavení** > **Zabezpečení** > **Role zabezpečení**. 
 3. Na stránce **Role zabezpečení** v seznamu rolí vyberte **uživatel aplikace dual-write** a vyberte kartu **Vlastní entity**.  
-4. Ověřte, že role má oprávnění **Čtení** a **Připojit k** pro následující entity:
+4. Ověřte, zda role má oprávnění **Číst** a **Připojit k** pro:
       
       - **Typ směnného kurzu měny**
       - **Účtová osnova**
       - **Fiskální kalendář**
       - **Registr**
-      - **Společnost**
-      - **Výdaje**
 
 5. Po aktualizaci role zabezpečení přejděte na **Nastavení** > **Bezpečnostní** > **týmy** a vyberte výchozí tým v zobrazení týmu **Místní vlastník firmy**.
 6. Vyberte **Správa rolí** a ověřte, že bezpečnostní oprávnění **uživatel aplikace dual-write** je tomuto týmu přiděleno.
@@ -168,10 +170,37 @@ Aktualizace bude trvat přibližně 20 minut. Po dokončení obdržíte upozorn
 
 1. V projektu LCS přejděte na stránku **Podrobnosti o prostředí**.
 2. V části **Informace o prostředí Common Data Service** vyberte možnost **Odkaz na CDS pro aplikace**. Poté, co vyberete odkaz, budete přesměrováni na seznam entit v mapováních.
-3. Spusťte mapy. Další informace viz [Verze map duálního zápisu Project Operations](resource-dual-write-maps.md#project-operations-dual-write-maps)
-4. Ověřte, zda jsou všechny mapy související s projektem v běžícím stavu.
+3. Spusťte mapování podle popisu v následující tabulce. Postupujte podle níže uvedené sekvence.
 
-    ![Všechny mapy běží.](./media/22AllMapsRunning.png)
+| **Mapování entity** | **Aktualizovat entity** | **Počáteční synchronizace** | **Předloha pro počáteční synchronizaci** | **Spustit požadavky** | **Počáteční synchronizace požadavků** |
+| --- | --- | --- | --- | --- | --- |
+| **Role zdrojů projektu pro všechny společnosti (bookableresourcecategories)** | No | Ano | Common Data Service | No | Neuvedeno |
+| **Právnické osoby (cdm\_companies)** | No | Ano | Aplikace Finance and Operations | No | Neuvedeno |
+| **Registr (msdyn_ledgers)** | No | Ano | Aplikace Finance and Operations | Ano | Ano, aplikace Finance and Operations |
+| **Skutečné hodnoty integrace Project Operations (msdyn\_actuals)** | No | No | Neuvedeno | Ano | No |
+| **Řádky smlouvy založené na projektu (salesorderdetails)** | No | No | Neuvedeno | No | No |
+| **Entita integrace pro vztahy projektových transakcí (msdyn\_transactionconnections)** | No | No | Neuvedeno | No | Neuvedeno |
+| **Milníky řádku smlouvy integrace Project Operations (msdyn\_contractlinesscheduleofvalues)** | No | No | Neuvedeno | No | Neuvedeno |
+| **Entita integrace Project Operations pro odhady výdajů (msdyn\_estimateslines)** | No | No | Neuvedeno | No | Neuvedeno |
+| **Entita exportu kategorie výdajů projektu integrace Project Operations (msdyn\_expensecategories)** | No | No | Neuvedeno | No | Neuvedeno |
+| **Entita exportu výdajů projektu integrace Project Operations (msdyn\_expenses)** | Ano | No | Neuvedeno | No | Neuvedeno |
+| **Entita integrace Project Operations pro odhady hodin (msdyn\_resourceassignments)** | Ano | No | Neuvedeno | No | Neuvedeno |
+
+
+4. Chcete-li entitu aktualizovat, vyberte název mapy a poté vyberte příkaz **Aktualizovat entity**. 
+
+
+![Aktualizovat mapu](./media/20RefreshMapping.png)
+
+5. Po dokončení aktualizace spusťte mapu. Před povolením další mapy ověřte, zda je mapa v tabulce ve stavu **Běh**. Spuštění map s větším počtem předpokladů může trvat delší dobu.
+
+Chcete-li spustit mapu s předpoklady, zapněte přepínač **Zobrazit související mapy entit**. Pokud je v tabulce **Počáteční synchronizace požadavků** nastavena na **Ne**, ověřte, zda příznak **Počáteční synchronizace** má hodnotu **Vypnuto** ve všech mapách požadavků, než ji spustíte.
+
+![Spuštění mapy](./media/21RunMap.png)
+
+6. Ověřte, zda jsou všechny mapy související s projektem v běžícím stavu.
+
+![Všechny mapy běží](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Použití dat konfigurace v prostředí CDS pro Project Operations (volitelně)
@@ -180,6 +209,3 @@ Pokud jste použili ukázková data v prostředí Finance, viz [Nastavení a pou
 
 
 Vaše prostředí Project Operations je nyní zřízeno a nakonfigurováno. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

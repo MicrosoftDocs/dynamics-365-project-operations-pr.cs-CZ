@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987608"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992958"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Vytvoření rezervace projektu z Plánovací vývěsky
 
@@ -43,7 +43,7 @@ Můžete vytvořit obecný zdroj a přiřadit k němu jeden nebo více úkolů v
 
 1.  Na Plánovací vývěsce se tento zdroj zobrazí na kartě **Otevřené požadavky**. Můžete chtít použít filtry sloupců na mřížce, pokud máte mnoho otevřených požadavků. 
 
-    ![Otevření karty Požadavky na plánovací vývěsce.](media/FAQ-Project-Booking-Schedule-Board-1.png "Snímek obrazovky tabulky rezervací a přiřazení")
+    ![Otevření karty Požadavky na plánovací vývěsce](media/FAQ-Project-Booking-Schedule-Board-1.png "Snímek obrazovky tabulky rezervací a přiřazení")
 
 2. Vyberte požadavek. Karta **Najít dostupnost** se zobrazí v horní části vybraného řádku.
  
@@ -53,7 +53,7 @@ Můžete vytvořit obecný zdroj a přiřadit k němu jeden nebo více úkolů v
 
     Výběr **Rezervace** zarezervuje zdroj na projektový tým.
 
-![Panel Vytvořit rezervaci zdroje.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Panel Vytvořit rezervaci zdroje](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Rezervace z primárního požadavku
@@ -62,7 +62,7 @@ Vytvoření projektu v aplikaci Project Service automaticky vytvoří požadavek
 
 1. Chcete-li rezervovat zdroj s Primárním požadavkem, zvolte na Plánovací vývěsce kartu **Projekt**. Možná budete chtít použít filtr sloupce ve sloupci **Projekt**, pokud máte příliš mnoho projektů.
 
-   ![Filtry sloupců na plánovací vývěsce.](media/FAQ-Project-Booking-Schedule-Board-2.png "Snímek obrazovky tabulky rezervací a přiřazení")
+   ![Filtry sloupců na plánovací vývěsce](media/FAQ-Project-Booking-Schedule-Board-2.png "Snímek obrazovky tabulky rezervací a přiřazení")
 
 2. Vyberte požadavek, který má pouze název projektu jako svůj název a má nulovou dobu trvání (0).
 

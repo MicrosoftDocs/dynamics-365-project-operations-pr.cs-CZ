@@ -2,6 +2,8 @@
 title: Šablony projektů
 description: Toto téma poskytuje informace o tom, jak používat šablony projektů pro rychlé nastavení projektu.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002503"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148050"
 ---
 # <a name="project-templates"></a>Šablony projektů 
 
@@ -47,7 +49,7 @@ Existuje několik způsobů, jak vytvořit projekt ze šablony projektu:
 
 - Při vytváření projektu z nabídky můžete vybrat šablonu projektu v dialogovém okně **Vytvořit: Projekt**.
 
-> ![Dialogové okno Vytvořit: Projekt.](media/project-11.png)
+> ![Dialogové okno Vytvořit: Projekt](media/project-11.png)
 
 - Při vytváření projektu výběrem **Nový projekt** se před uložením záznamu zobrazí stránka **Projekt**. V poli **Vybrat šablonu** vyberte jednu z předdefinovaných šablon projektů v organizaci.
 - Použijte **Vytvořit projekt ze šablony** na stránce **Entita šablona**.
@@ -67,6 +69,3 @@ Při kopírování mezi řádky odhadů projektu jsou ceníky aktualizovány. U 
 ### <a name="copying-a-project-team"></a>Kopírování projektového týmu
 
 Při kopírování projektového týmu ze šablony projektu do projektu jsou obecné zdroje zkopírovány spolu s dovednostmi a odbornými znalostmi, které jsou definovány v šabloně. Přiřazení obecných zdrojů jsou rovněž zachována tak, jako byla v šabloně projektu. V šablonách projektů nejsou podporovány pojmenované zdroje.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

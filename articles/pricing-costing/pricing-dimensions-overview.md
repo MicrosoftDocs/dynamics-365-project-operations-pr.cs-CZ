@@ -2,18 +2,19 @@
 title: Přehled cenových dimenzí
 description: Toto téma obsahuje informace o nastavení cenových dimenzí v Dynamics 365 Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001963"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650177"
 ---
 # <a name="pricing-dimensions-overview"></a>Přehled cenových dimenzí
 
@@ -33,7 +34,7 @@ Z tohoto důvodu jsou k dispozici dva typy hodnot cenové dimenze:
 
 Dynamics 365 Project Operations se dodává s výchozí sadou cenových dimenzí. Tyto cenové dimenze můžete zobrazit přechodem na **Project Operations** > **Parametry**. V záznamu parametru na kartě **Cenové dimenze založené na částce** ověřte, že role **msdyn_resourcecategory** a organizační jednotka zdroje **msdyn_organizationalunit** mají pole **Použitelné pro prodej** a **Použitelné pro náklady** nastavená na **Ano**. Když jsou tato pole povolena, můžete nastavit cenu a náklady pro každou kombinaci role a organizační jednotky.
 
-![Snímek obrazovky parametrů Project Service se zvýrazněním „Použitelné na prodej”.](media/PS-OOB-parameters.png)
+![Snímek obrazovky parametrů Project Service se zvýrazněním „Použitelné na prodej”](media/PS-OOB-parameters.png)
 
 Potřebujete-li své zdroje ocenit nebo vyjádřit náklady na ně pomocí dalších atributů, můžete vytvořit přizpůsobená pole, entity a dimenze. Další informace naleznete v následujících tématech: 
   
@@ -60,16 +61,13 @@ Následující příklad zobrazuje sazby fakturace, nastavené na základě role
 
 | Role        | Organizační jednotka    |Jednotka      |Cena      |Měna  |
 | ------------|-------------|----------|----------:|----------|
-| Vývojář   | Contoso (USA)  |hod | 200|USD     |
-| Vývojář   | Contoso India |hod|   112|USD     |
+| Vývojář   | Contoso US  |Hour | 200|USD     |
+| Vývojář   | Contoso India |Hour|   112|USD     |
 
 
 **Příklad nákladových sazeb**
 
 | Mzdové pásmo     | Organizační jednotka    |Jednotka      |Cena      |Měna  |
 | ----------------|-------------|----------|----------:|----------|
-| Moje company_Band1 | Contoso (USA)  |hod | 145|USD     |
-| Moje company_Band2 | Contoso India |hod|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Moje company_Band1 | Contoso US  |Hour | 145|USD     |
+| Moje company_Band2 | Contoso India |Hour|   67|USD     |

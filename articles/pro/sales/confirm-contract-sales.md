@@ -2,22 +2,24 @@
 title: Potvrzení projektové smlouvy
 description: Toto téma poskytuje informace o potvrzení smlouvy v Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0ca43eb6005948f440fca16e98a6d05db3493c82e518441bb50f9413da91ead
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989813"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128275"
 ---
 # <a name="confirm-a-project-contract"></a>Potvrzení projektové smlouvy
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Smlouva o projektu v Dynamics 365 Project Operations může být aktivní z důvodu **Potvrzeno**, nebo uzavřena z důvodu **Ztracená**. Když potvrdíte smlouvu o projektu, stav se aktualizuje z **Návrh** na **Aktivní** a důvod stavu je **Potvrzeno**. Aktivní nebo uzavřenou smlouvu nelze upravit ani znovu otevřít. 
+Smlouva projektu v Dynamics 365 Project Operations může být aktivní z důvodu **Potvrzeno** nebo uzavřena z důvodu **Ztraceno**. Když potvrdíte smlouvu o projektu, stav se aktualizuje z **Návrh** na **Aktivní** a důvod stavu je **Potvrzeno**. Aktivní nebo uzavřenou smlouvu nelze upravit ani znovu otevřít. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Finanční dopad potvrzení smlouvy o projektu
 
@@ -32,7 +34,4 @@ Když uzavřete smlouvu projektu jako ztracenou, stav smlouvy se aktualizuje na 
 Pokud smlouva projektu, která je uzavřena jako ztracená, odkazuje na projekt na svých řádcích, je tento projekt také označen jako uzavřený. Veškeré rezervace zdrojů od daného dne budou zrušeny. Jakékoli nevyfakturované prodejní údaje o projektové smlouvě, které ještě nejsou na faktuře, budou stornovány.
 
 > [!NOTE]
-> V Dynamics 365 Project Operations uzavření smlouvy o projektu jako ztracené nebude mít vliv na tento stav přidružené příležitosti. Příležitost zůstane otevřená a musí být ručně uzavřena.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+> V Dynamics 365 Project Operations nebude mít uzavření smlouvy o projektu jako ztracené vliv na stav přidružené příležitosti. Příležitost zůstane otevřená a musí být ručně uzavřena.

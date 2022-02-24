@@ -2,9 +2,11 @@
 title: Správa ceníků projektů v nabídce
 description: Tento téma poskytuje informace o entitě projektových ceníků.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003898"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177188"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Správa ceníků projektů v nabídce
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Dynamics 365 Project Operations rozšiřuje entitu Ceník v Dynamics 365 Sales. 
+Dynamics 365 Project Operations rozšiřuje entitu ceníku v Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Klíčové entity
 
@@ -118,6 +120,3 @@ Nákladové sazby pro lidské zdroje se stejně jako fakturační sazby také na
     1. Nákladový ceník, který je připojen k organizační jednotce.
     2. Nákladový ceník, který je připojen k parametrům Project Operations. Protože k parametrům lze připojit nákladové ceníky v mnoha různých měnách, je dokončena shoda měny mezi měnou smluvní organizační jednotky projektu, smlouvy nebo nabídky a měnou nákladového ceníku.
     3. U výdajů se metody ocenění podle nákladů a podle přirážky k nákladům na nákladové ceníky nepoužijí. I když se tyto metody ocenění používají v řádcích nákladových ceníků pro nastavení nákladů kategorie transakce, systém je ignoruje a nebude zadána výchozí nákladová cena.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Přidejte členy týmu z mřížky členů týmu
 description: Toto téma obsahuje informace o způsobu správy zdrojů členů týmů.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008398"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121525"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Přidejte členy týmu z mřížky členů týmu
 
@@ -198,6 +200,3 @@ Když zobrazíte čas na vyšších úrovních, buňky na kartě **Vyrovnání**
 Pokud máte pro zdroj přiřazení úkolů, ale nemáte žádné rezervace, vyberte ve formuláři **Projekty**, na kartě **Vyrovnání** nedostatečnou rezervaci a pak vyberte **Prodloužit rezervaci**. Zobrazí se dialogové okno **Prodloužit rezervaci**, ve kterém je uvedena rezervace potřebná k vyřešení nedostatku zdroje. Dialogové okno také zobrazuje existující rezervace zdroje ve všech projektech nebo jiných plánovatelných entitách. Pokud vyberete **OK** pro vytvoření rezervace pro zdroj bez ohledu na dostupnost zdroje, můžete způsobit přerezervaci.
 
 Projektový manažer nebo správce prostředku pak může pomocí Plánovací vývěsky spravovat všechny situace, ve kterých je zdroj přerezervovaný nad svoji kapacitu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

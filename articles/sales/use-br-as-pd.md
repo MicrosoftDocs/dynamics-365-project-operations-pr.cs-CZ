@@ -2,16 +2,18 @@
 title: Použití rezervovatelného zdroje jako cenové dimenze
 description: Toto téma obsahuje informace o používání rezervovatelného zdroje jako cenové dimenze.
 author: Rumant
+manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b0c5cb85f7c43f7b2fd9c367d7f7ac9c3250e0a1
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996248"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643075"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Použití rezervovatelného zdroje jako cenové dimenze
 
@@ -64,18 +66,15 @@ Záznam cenové dimenze pro **msydn_bookableresource** s musí být o tomto rozd
 1. Dvakrát klikněte na řádek v mřížce **Cenové dimenze**, aby se otevřela stránka dimenze **msdyn_bookableresource**.
 2. Na stránce dimenze na kartě **Související** vyberte **Názvy polí cenových dimenzí**.
 
-  ![Karta Názvy polí cenových dimenzí.](media/PD-fieldname.png)
+  ![Karta Názvy polí cenových dimenzí](media/PD-fieldname.png)
 
 3. V přidruženém zobrazení, které se otevře, vyberte **Přidat nový název pole cenové dimenze**.
 
-  ![Přidat nové názvy polí cenové dimenze.](media/Add-NewPD-fieldname.png)
+  ![Přidat nové názvy polí cenové dimenze](media/Add-NewPD-fieldname.png)
 
   Otevře se stránka **Nový název pole cenové dimenze** pro **msdyn_bookableresource**. 
 
 4. Na stránce **Název nového pole dimenze cen** přidejte **msdyn_projectteam** k **Logickému názvu entity**.
 5. Přidejte **msdyn_bookableresourceid** k **Názvu pole**.
 
- ![Nový formulář názvu pole cenové dimenze.](media/PD-fieldname-Added.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Nový formulář názvu pole cenové dimenze](media/PD-fieldname-Added.png)

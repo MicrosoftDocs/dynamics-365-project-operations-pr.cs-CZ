@@ -1,9 +1,9 @@
 ---
-ms.openlocfilehash: 735e49da839ed0f934681fafbb9536c2d00ac9fd698060753b433c47834276f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a89d3567e1fdeb1ee0f8fdc8a441bfcbf204d79e
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002008"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4069389"
 ---
 Aplikace Project Service verze 2.5.x nebo novější na aplikaci Dynamics 365 (online) verze 9.x

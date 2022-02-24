@@ -2,11 +2,12 @@
 title: Domovská stránka cenových a nákladových dimenzí
 description: Toto téma obsahuje přehled cenových dimenzí.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998453"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151290"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Domovská stránka cenových a nákladových dimenzí
 
@@ -41,7 +42,7 @@ Vzhledem k typické povaze těchto atributů práce a osob vyžadovaných k prov
 
 PSA se dodává s výchozí sadou cenových dimenzí. Můžete je zobrazit pomocí **Project Service** > **Parametry**. V záznamu parametru na kartě **Cenové dimenze založené na částce** ověřte, že role **msdyn_resourcecategory** a organizační jednotka zdroje **msdyn_organizationalunit** mají pole **Použitelné pro prodej** a **Použitelné pro náklady** nastavená na **Ano**. To vám umožní nastavit cenu a náklady pro každou kombinaci role a organizační jednotky.
 
-![Snímek obrazovky parametrů Project Service se zvýrazněním „Použitelné na prodej”.](media/PS-OOB-parameters.png)
+![Snímek obrazovky parametrů Project Service se zvýrazněním „Použitelné na prodej”](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Pokud jste před verzí 3 PSA jako cenové dimenze používali připravená pole role a organizační jednotky, nezaznamenáte žádné zjistitelné změny. Službu Project Service můžete nadále používat obvyklým způsobem. 
@@ -66,16 +67,13 @@ Následující příklad zobrazuje sazby fakturace, nastavené na základě role
 
 | Role        | Organizační jednotka    |Jednotka      |Cena      |Měna  |
 | ------------|-------------|----------|----------:|----------|
-| Vývojář   | Contoso (USA)  |hod | 200|USD     |
-| Vývojář   | Contoso India |hod|   112|USD     |
+| Vývojář   | Contoso US  |Hour | 200|USD     |
+| Vývojář   | Contoso India |Hour|   112|USD     |
 
 
 **Příklad nákladových sazeb**
 
 | Mzdové pásmo     | Organizační jednotka    |Jednotka      |Cena      |Měna  |
 | ----------------|-------------|----------|----------:|----------|
-| Moje company_Band1 | Contoso (USA)  |hod | 145|USD     |
-| Moje company_Band2 | Contoso India |hod|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Moje company_Band1 | Contoso US  |Hour | 145|USD     |
+| Moje company_Band2 | Contoso India |Hour|   67|USD     |

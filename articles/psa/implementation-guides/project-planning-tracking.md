@@ -2,6 +2,8 @@
 title: Plánování a sledování projektu
 description: Toto téma obsahuje odkaz na informace o plánování a sledování v Project Service Automation.
 author: kfend
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/04/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4dafe76864ac873c596381324ab6865b1b3adc24a495d828b552e7ac459954b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 363483d7a63ce028b3378e021a210b4c8d8e4623
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985381"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149085"
 ---
 # <a name="project-planning-and-tracking"></a>Plánování a sledování projektu
 
@@ -43,6 +45,3 @@ Odkaz na soubor PDF, který byl dříve v tomto tématu, byl odebrán a obsah by
 
 > [!NOTE]
 > Toto téma bude v budoucí aktualizaci dokumentace odebráno. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

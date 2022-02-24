@@ -2,9 +2,11 @@
 title: Nastavení a používání plateb dodavatelů zaplacených po uhrazení platby
 description: Toto téma vysvětluje, jak vytvořit podmínky zaplacení po zaplacení (pay-when-paid; PWP), abyste mohli uvolnit částečné platby dodavateli na základě plateb od zákazníka.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008848"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073759"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Nastavení a používání plateb dodavatelů zaplacených po uhrazení platby
 
@@ -78,6 +80,3 @@ Když dodavatel dokončí svou práci na projektu a pošle vám fakturu, musíte
 2. Na stránce **Faktury dodavatele se zaplacením po uhrazení platby** zadejte do vyhledávacího pole hodnoty a vyhledejte fakturu dodavatele, kterou chcete zkontrolovat. Poté vyberte možnost **Hledat**.
 3. Na pevné záložce **Řádky faktury dodavatele** vyberte řádky, které chcete změnit.
 4. Pokud jsou podmínky **Zaplatit po uhrazení platby** pro řádek faktury splněny, vyberte možnost **Uvolnit platbu dodavatele**. Možnost **Zaplatit po uhrazení platby** se vypne a hodnota pole **Připraveno k platbě** se změní na **Ano**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

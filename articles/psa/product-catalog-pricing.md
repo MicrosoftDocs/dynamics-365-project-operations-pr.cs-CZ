@@ -2,6 +2,8 @@
 title: Ceny v katalogu produktů
 description: Toto téma obsahuje informace o tom, jak v Dynamics 365 Project Service Automation (PSA) fungují ceny v katalogu produktů.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000163"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151200"
 ---
 # <a name="product-catalog-pricing"></a>Ceny v katalogu produktů 
 
@@ -44,7 +46,7 @@ Produkty z katalogu produktů můžete přidat do různých ceníků. Řádky ce
 
 PSA podporuje různé možnosti zaokrouhlení, pokud jsou ceny konfigurovány jako funkce ceníku, standardní ceny nebo aktuální ceny. Kromě využití více způsobů ocenění a možností zaokrouhlení můžete k položkám ceníku přidružit seznamy slev. 
 
-> ![Přidání produktů z katalogu do různých ceníků.](media/basic-guide-16.png)
+> ![Přidání produktů z katalogu do různých ceníků](media/basic-guide-16.png)
 
 Když vytvoříte nový vlastní ceník pro nabídku pomocí výběru **Vytvořit vlastní ceny** na stránce **Projektová nabídka**, PSA vytvoří kopii ceníku a pole **Entita** v záhlaví nového ceníku bude nastaveno na **Entita prodeje**. K názvu nového ceníku je připojen název nabídky a časové razítko. Název nového ceníku a název nabídky ve vlastních pracovních postupech můžete také použít k aktivaci další kontroly a schválení pro nabídky, které používají vlastní ceny.
 
@@ -62,6 +64,3 @@ Entity Příležitost, Nabídka a Projektová smlouva používají k zadávání
 Ve výchozím nastavení uvádí pole **Produkt** na řádku nabídky všechny aktivní produkty v ceníku produktu nabídky. Pokud byl produkt inaktivován nebo pokud se jedná o koncept produktu, není v seznamu uveden, i když je v ceníku. 
 
 Řádky katalogu produktů jsou přidány jako řádky faktury v první faktuře, která je vytvořena pro projektovou smlouvu. Tyto řádky faktury lze v konceptu faktury odstranit. V takovém případě se řádky objeví na následující faktuře, dokud nebudou fakturovány nebo dokud nebude faktura odeslána zákazníkovi. V PSA nelze fakturovat částečné množství z řádku faktury za produkt. Při fakturaci řádků produktu z projektové smlouvy se vytvoří skutečné hodnoty. Tyto skutečné hodnoty však nejsou propojeny se související entitou projektu. Jinými slovy, řádky projektové smlouvy založené na produktu jsou nezávislé na jakémkoli použití založeném na projektu. PSA u projektů nesleduje spotřebu materiálu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

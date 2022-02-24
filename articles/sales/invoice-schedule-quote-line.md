@@ -2,16 +2,18 @@
 title: Plány faktur na řácích nabídky založené na projektu
 description: Tento téma poskytuje informace o vytváření harmonogramů faktur a milníků pro řádky nabídek.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988598"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180814"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Plány faktur na řácích nabídky založené na projektu
 
@@ -66,6 +68,3 @@ Otevřete řádek nabídky fixní ceny, pro který potřebujete vytvořit milní
 | Stav faktury | Vytvořit | Když je vytvořen milník, je tento stav vždy nastaven na **Není připraveno na fakturaci**. | To je přeneseno na milník řádku smlouvy projektu a na fakturu. |
 | Částka řádku | Vytvořit | Částka nebo hodnota milníku, která bude zákazníkovi fakturována. | To je přeneseno na milník řádku smlouvy projektu a na fakturu. |
 | Daň | Vytvořit | Výše daně, která bude použita k milníku. | To je přeneseno na milník řádku smlouvy projektu a na fakturu. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

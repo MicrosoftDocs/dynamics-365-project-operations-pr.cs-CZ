@@ -2,9 +2,10 @@
 title: Co je služba Dynamics 365 Project Service Automation?
 description: Úvod a přehled aplikace Project Service
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000253"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150525"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Co je služba Dynamics 365 Project Service Automation?
 
@@ -46,10 +47,10 @@ Kromě toho mohou za účelem usnadnění sledování a řízení nákladů na p
 ## <a name="whats-new-in-psa"></a>Novinky v PSA
 Tým s radostí představuje naše nejnovější aktualizace! Od vylepšení uživatelského rozhraní, opravy chyb a přidání důležitých nových funkcí a funkcí. Vy jste se ptali; my jsme naslouchali.
 
-Naše nejnovější vylepšení a doplňky najdete zde: [Poznámky k verzi z října 2019](/dynamics365-release-plan/2019wave2/index).
+Naše nejnovější vylepšení a doplňky najdete zde: [Poznámky k verzi z října 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index).
 
 ### <a name="in-development"></a>Ve vývoji
-Chcete-li se podívat, co plánujeme pro blízkou budoucnost, přejděte do části [Dynamics 365: plán vlny vydání 1 pro rok 2020](/dynamics365-release-plan/2020wave1/index).
+Chcete-li se podívat, co plánujeme pro blízkou budoucnost, přejděte do části [Dynamics 365: plán vlny vydání 1 pro rok 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Získat nápovědu k PSA verze 3.x
 Hledáte zdroje, které vám usnadní plánování implementace? Prohlédněte si následující návody ke stažení.
@@ -82,9 +83,6 @@ Hledáte zdroje, které vám usnadní plánování implementace? Prohlédněte s
  [Poznámky pro vývojáře (verze aplikace 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Podívejte se na dvouminutové stručné video
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,10 +2,12 @@
 title: Vytvoření vlastních polí a entit
 description: Toto téma vysvětluje, jak vytvořit sady možností a entity ve vlastním řešení na platformě Power Apps.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992423"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144855"
 ---
 # <a name="create-custom-fields-and-entities"></a>Vytvoření vlastních polí a entit 
 
@@ -43,7 +45,7 @@ Cenová dimenze může být sada možností nebo entita. Obojí musí být vytvo
 2. V Průzkumníku řešení vyberte v levém navigačním podokně **Entity**.
 3. Kliknutím na **Nová** vytvoříte novou entitu nazvanou **Standardní funkce**. Zadejte zbývající požadované informace a klikněte na **Uložit**.
 
-> ![Definice entity Standardní funkce.](media/Standard-Title-entity-definition.png)
+> ![Definice entity Standardní funkce](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Dimenze založené na sadě možností 
@@ -54,9 +56,9 @@ Můžete vytvořit dvě dimenze založené na sadě možností. Ke sledování c
 2. V Průzkumníku řešení vyberte v levém navigačním podokně **Sady možností**. 
 3. Kliknutím na **Nový** vytvořte novou sadu možností, zadejte zbývající požadované informace a poté klikněte na **Uložit**.
 
-> ![Cenová dimenze založená na sadě možností s názvem Místo výkonu práce zdroje.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Cenová dimenze založená na sadě možností s názvem Místo výkonu práce zdroje ](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Cenová dimenze založená na sadě možností s názvem Pracovní doba zdroje.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Cenová dimenze založená na sadě možností s názvem Pracovní doba zdroje ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Vytvoření dat pro dimenze založené na entitě
@@ -68,9 +70,6 @@ Data lze pro dimenze založené na entitě vytvořit ručně nebo pomocí import
 3. Zavřete formulář. 
 4. Opakováním kroků 1–3 vytvořte další standardní funkci pro „Hlavního systémového technika”.
 
-> ![Ukázková data pro entitu Standardní funkce.](media/ST-data.png)
+> ![Ukázková data pro entitu Standardní funkce ](media/ST-data.png)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

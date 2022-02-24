@@ -2,16 +2,18 @@
 title: Denní diety
 description: Tento téma poskytuje informace o pravidlech pro denní diety, které se používají ve správě výdajů.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986393"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128500"
 ---
 # <a name="per-diems"></a>Denní diety
 
@@ -29,6 +31,3 @@ Denní dieta je příspěvek vyplácený pracovníkovi, který cestuje za prací
     
 ## <a name="submit-expenses-using-per-diem"></a>Odesílání výdajů na denní diety
 Chcete-li odeslat výdaje s využitím denních diet, použijte při vytváření sestavy výdajů kategorie výdajů **Denní diety**. Zadejte hodnoty **Denní diety od data**, **Denní diety do data** a **Umístění denních diet**. Částka bude vypočítána na základě sazeb denních diet pro vybrané místo a redukce diety za jídlo bude vypočítána na základě úrovní sazeb denních diet.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

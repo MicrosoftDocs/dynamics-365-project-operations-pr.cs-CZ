@@ -1,7 +1,9 @@
 ---
-title: Zvažování upgradu - Microsoft Dynamics 365 Project Service Automation verze 2.x nebo 1.x na verzi 3
+title: Důležité informace o upgradu – Microsoft Dynamics 365 Project Service Automation verze 2.x nebo 1.x na verzi 3
 description: Toto téma obsahuje důležité informace, které je třeba zvážit při upgradu aplikace Project Service Automation verze 2.x nebo 1.x na verzi 3.
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -16,12 +18,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000073"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144146"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Důležité informace o upgradu – PSA verze 2.x nebo 1.x na verzi 3
 
@@ -35,7 +37,7 @@ Obě aplikace Dynamics 365 Project Service Automation a Dynamics 365 Field Servi
 ## <a name="resource-assignments"></a>Přiřazení zdrojů
 Ve verzích 2 a 1 aplikace Project Service Automation byla přiřazení úkolů uložena jako podřízené úlohy (nazývané také jako řádkové úkoly) v **entitě Úkol** a nepřímo související s entitou **Přiřazení zdroje**. Úkol na řádku byl viditelný v automaticky otevřeném okně přiřazení ve strukturovaném rozpisu prací (WBS).
 
-![Úkoly na řádku pro WBS v aplikaci Project Service Automation verze 2 a 1.](media/upgrade-line-task-01.png)
+![Úkoly na řádku pro WBS v aplikaci Project Service Automation verze 2 a 1](media/upgrade-line-task-01.png)
 
 V aplikaci Project Service Automation verze 3 se změnilo základní schéma přiřazení rezervovatelných zdrojů k úkolům. Úkol na řádku byl zastaralý a mezi úlohou v **entitě Úkol** a členem týmu v entitě **Přiřazení zdroje** existuje přímá relace 1:1. Úkoly, které jsou přiřazeny členovi projektového týmu, jsou nyní uloženy přímo v entitě Přiřazení zdroje.  
 
@@ -46,26 +48,26 @@ Pomocí základní entity úkolu umožňovaly úkoly ve verzích 2 a 1 členů
 
 Pokud jste přiřadili zdroj k úkolu mimo jeho výchozí roli ve verzi 2 a 1, při upgradu bude pojmenovanému zdroji přiřazena výchozí role pro všechna přiřazení úkolů, bez ohledu na přiřazení role ve verzi 2. Výsledkem tohoto přiřazení budou rozdíly ve vypočtených odhadech ve verzích 2 nebo 1 a ve verzi 3, protože odhady se počítají na základě role zdroje, nikoli na základě přiřazení úkolu na řádku. Například ve verzi 2 byly Dagmar Stejskalové přiřazeny dva úkoly. Role v úkolu 1 na řádku je Vývojář a pro úkol 2 Programový manažer. Dagmar Stejskalová má výchozí roli Programový manažer.
 
-![Více rolí přiřazených jednomu zdroji.](media/upgrade-multiple-roles-02.png)
+![Více rolí přiřazených jednomu zdroji](media/upgrade-multiple-roles-02.png)
 
 Vzhledem k tomu, že role Vývojář a Programový manažer se liší, jsou odhady nákladů a prodeje následující:
 
-![Odhady nákladů pro role zdroje.](media/upggrade-cost-estimates-03.png)
+![Odhady nákladů pro role zdroje](media/upggrade-cost-estimates-03.png)
 
-![Odhady prodeje pro role zdroje.](media/upgrade-sales-estimates-04.png)
+![Odhady prodeje pro role zdroje](media/upgrade-sales-estimates-04.png)
 
 Při upgradu na verzi 3 jsou úkoly na řádku nahrazeny přiřazeními zdroje v úkolu rezervovatelného člena týmu zdroje. Přiřazení bude používat výchozí roli rezervovatelného zdroje. V následující grafice je zdrojem Dagmar Stejskalová, která má roli Programový manažer.
 
-![Přiřazení zdrojů.](media/resource-assignment-v2-05.png)
+![Přiřazení zdrojů](media/resource-assignment-v2-05.png)
 
 Vzhledem k tomu, že odhady jsou založeny na výchozí roli zdroje, mohou se odhady prodeje a nákladů změnit. V následující grafice již není zobrazena role **Vývojář**, protože tato role je nyní převzata z výchozí role rezervovatelného zdroje.
 
-![Odhady nákladů pro výchozí role.](media/resource-assignment-cost-estimate-06.png)
-![Odhad prodeje pro výchozí role.](media/resource-assignment-sales-estimate-07.png)
+![Odhady nákladů pro výchozí role](media/resource-assignment-cost-estimate-06.png)
+![Odhad prodeje pro výchozí role](media/resource-assignment-sales-estimate-07.png)
 
 Po dokončení upgradu můžete upravit roli člena týmu tak, aby byla jiná než přiřazená výchozí hodnota. Pokud však změníte roli členů týmu, bude změněna u všech jim přiřazených úkolů, protože členům týmu nelze přiřazovat více rolí ve verzi 3.
 
-![Aktualizace role zdroje.](media/resource-role-assignment-08.png)
+![Aktualizace role zdroje](media/resource-role-assignment-08.png)
 
 To platí také pro úkoly na řádku, které byly přiřazeny pojmenovaným zdrojům v případě, že změníte organizační jednotku zdroje z výchozí na jinou organizační jednotku. Po dokončení upgradu verze 3 bude přiřazení používat výchozí organizační jednotku zdroje namísto jednotky nastavené v úkolu na řádku.
 
@@ -83,31 +85,28 @@ U úkolů, které jsou přiřazeny obecným členům týmu vygenerovaným pomoc
 
 Například v projektu Project Z je smluvní organizační jednotkou Contoso US. V plánu projektu byla k testování úkolů v rámci fáze implementace přiřazena role Technický poradce a přiřazenou organizační jednotkou je Contoso India.
 
-![Přiřazení organizace v rámci fáze implementace.](media/org-unit-assignment-09.png)
+![Přiřazení organizace v rámci fáze implementace](media/org-unit-assignment-09.png)
 
 Po fázi implementace bude úkol testu integrace přiřazen k roli Technický poradce, ale organizace bude nastavena na Contoso US.  
 
-![Přiřazení organizace v úkolu testování integrace.](media/org-unit-generate-team-10.png)
+![Přiřazení organizace v úkolu testování integrace](media/org-unit-generate-team-10.png)
 
 Při generování týmu pro projekt budou z důvodu různých organizačních jednotek v úkolech vytvořeni dva obecní členové týmu. Technický poradce 1 bude přiřazen k úkolům Contoso India a Technický poradce 2 bude mít úkoly Contoso US.  
 
-![Vygenerovaní obecní členové týmu.](media/org-unit-assignments-multiple-resources-11.png)
+![Vygenerovaní obecní členové týmu](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > V aplikaci Project Service Automation verze 2 a 1 nedrží člen týmu organizační jednotku, která je spravována v úkolu na řádku.
 
-![Úkoly na řádku verze 2 a 1 v aplikaci Project Service Automation.](media/line-tasks-12.png)
+![Úkoly na řádku verze 2 a 1 v aplikaci Project Service Automation](media/line-tasks-12.png)
 
 Organizační jednotku můžete zobrazit v zobrazení odhadů. 
 
-![Odhady organizační jednotky.](media/org-unit-estimates-view-13.png)
+![Odhady organizační jednotky](media/org-unit-estimates-view-13.png)
  
 Po dokončení upgradu bude organizační jednotka v úkolu na řádku, který odpovídá obecnému členovi týmu, přidána k obecnému členovi týmu a úkol na řádku bude odebrán. Proto doporučujeme před upgradem vygenerovat nebo znovu vygenerovat tým pro každý projekt, který obsahuje obecné zdroje.
 
-Pro úkoly, které jsou přiřazeny k roli s organizační jednotkou, která se liší od organizační jednotky smluvního projektu, a ve kterých nebyl vygenerován tým, bude při upgradu vytvořen obecný člen týmu pro roli, ale použije se smluvní jednotka projektu pro organizační jednotku člena týmu. S ohledem na příklad Project Z smluvní organizační jednotce Contoso US a úkolům testování plánu projektu v rámci fáze implementace byla přiřazena role Technický poradce s organizační jednotkou přiřazenou společnosti Contoso India. Úkol testování integrace bude dokončen poté, co bude fáze implementace přiřazena k roli Technický poradce. Organizační jednotka je Contoso US a tým nebyl vygenerován. Upgrade vytvoří jednoho obecného člena týmu, technického poradce, který má přiřazené hodiny všech tří úkolů, a organizační jednotku Contoso US, což je smluvní organizační jednotka projektu.   
+Pro úkoly, které jsou přiřazeny k roli s organizační jednotkou, která se liší od organizační jednotky smluvního projektu, a ve kterých nebyl vygenerován tým, bude při upgradu vytvořen obecný člen týmu pro roli, ale použije se smluvní jednotka projektu pro organizační jednotku člena týmu. S ohledem na příklad Project Z byla smluvní organizační jednotce Contoso US a úkolům testování plánu projektu v rámci fáze implementace přiřazena role Technický poradce s organizační jednotkou přiřazenou společnosti Contoso India. Úkol testování integrace bude dokončen poté, co bude fáze implementace přiřazena k roli Technický poradce. Organizační jednotka je Contoso US a tým nebyl vygenerován. Upgrade vytvoří jednoho obecného člena týmu, technického poradce, který má přiřazené hodiny všech tří úkolů, a organizační jednotku Contoso US, což je smluvní organizační jednotka projektu.   
  
 Změna výchozího nastavení různých organizačních jednotek zdroje u nevygenerovaných členů týmu je důvodem, proč doporučujeme vygenerovat nebo znovu vygenerovat tým pro každý projekt, který obsahuje obecné zdroje, ještě před upgradem, aby nedošlo ke ztrátě přiřazení organizační jednotky.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Kopírovat ceníky
 description: Tento téma poskytuje informace o tom, jak kopírovat ceníky ve službě Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003718"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181489"
 ---
 # <a name="copy-price-lists"></a>Kopírovat ceníky
 
@@ -41,6 +43,3 @@ Chcete-li vytvořit kopii ceníku, proveďte následující kroky.
 1. Na kartách **Role**, **Kategorie** a **Položka ceníku** můžete vybrat **Aktualizovat ceny**, čímž použijete přirážku na všechny ceny v podmřížce. 
 2. Na dialogové stránce, která se otevře, zadejte přirážku. Můžete také zadat záporné procento přirážky a snížit ceny o určité procento. 
 3. Vyberte **OK** na stránce dialogového okna a poté ověřte, že ceny v podmřížce odpovídají provedeným změnám.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

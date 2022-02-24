@@ -2,16 +2,18 @@
 title: Správa projektových smluv
 description: Tohle téma poskytuje informace o prohlížení smluv na základě projektu.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001828"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177323"
 ---
 # <a name="manage-project-contracts"></a>Správa projektových smluv
 
@@ -31,6 +33,3 @@ Seznam všech smluv projektu se nachází na stránce se seznamem **Smlouvy**.
 2. Vyberte **Přepínač zobrazení** (šipka rozevíracího seznamu vedle názvu zobrazení), abyste mohli vybrat další filtrovaná zobrazení. Můžete si vytvořit vlastní zobrazení s vlastními kritérii filtru.
 
 Smlouvy lze vytvářet nebo mazat z této stránky seznamu nebo stránek podrobností.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

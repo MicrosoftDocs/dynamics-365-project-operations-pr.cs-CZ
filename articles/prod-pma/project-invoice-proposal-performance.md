@@ -2,9 +2,11 @@
 title: Výkon návrhů projektové faktury
 description: Tento téma poskytuje informace o vylepšeních výkonu u návrhů projektových faktur.
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8b6df8baf1013720778308ce536b037dec4775f040d2925a47508fb373900f81
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
+ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005698"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920294"
 ---
 # <a name="project-invoice-proposal-performance"></a>Výkon návrhů projektové faktury
 
@@ -44,6 +46,4 @@ Chcete-li vypnout funkci vylepšení výkonu návrhu projektové faktury, dokon�
 3.  Aktualizujte okno prohlížeče.
 
 > [!NOTE]
-> Jsou-li povolena pravidla fakturace, nelze použít výkon návrhu faktury.
-> 
-> Během dávkového procesu vytváření návrhů faktur počet dílčích úkolů rozdělí úkoly na maximální počet na základě počtu smluv s fakturovatelnými transakcemi, bez ohledu na to, co jste zadali. Například pokud zadáte **3** pro počet dílčích úkolů pro hromadné vytvoření návrhu faktury a existují pouze dvě smlouvy s fakturovatelnými transakcemi, jsou vytvořeny pouze dva dílčí úkoly.
+> Výkon návrhu faktury nelze použít, když jsou povolena pravidla fakturace nebo jsou spuštěny dávkové procesy.

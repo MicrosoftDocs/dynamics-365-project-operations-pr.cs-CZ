@@ -2,10 +2,12 @@
 title: Použití kategorie transakce jako cenové dimenze
 description: Toto téma obsahuje informace o použití kategorie transakce jako cenové dimenze.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988842"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150750"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Použití kategorie transakce jako cenové dimenze
 
@@ -51,6 +53,3 @@ Následující tabulka obsahuje úplný seznam připravených formulářů a zo
 2. Na stránce **Parametry** na kartě **Cenové dimenze založené na částce** si všimněte, že mřížka na této kartě zobrazuje záznamy v entitě **Cenové dimenze**.
 3. Do tohoto seznamu přidejte **Kategorii transakce** a pole **Použitelné na náklady** a **Použitelné na prodej** nastavte na **Ano**
 4. V poli **Typ dimenze** vyberte možnost **Založeno na částce** a pak vyberte prioritu pro **Kategorii transakce** související s náklady a prodejem.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Použití kategorie transakce jako cenové dimenze
 description: Toto téma obsahuje informace o použití pole Kategorie transakce jako cenové dimenze.
 author: rumant
+manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996113"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513970"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Použití kategorie transakce jako cenové dimenze
 
@@ -48,6 +50,3 @@ V následující tabulce jsou uvedeny všechny předpřipravené formuláře a z
 2. Na stránce **Parametry** na kartě **Cenové dimenze založené na částce** ověřte, že mřížka zobrazuje záznamy v entitě **Cenové dimenze**.
 3. Do tohoto seznamu přidejte **Kategorii transakce** a nastavte pole **Použitelné na náklady** a **Použitelné na prodej** na **Ano**.
 4. V poli **Typ dimenze** vyberte možnost **Založeno na částce** a pak vyberte prioritu pro **Kategorii transakce**, jelikož souvisí s náklady a prodejem.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Řídicí panely
 description: Toto téma poskytuje informace o řídicích panelech pro generování sestav, které jsou součástí Dynamics 365 Project Service Automation.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 975f88b671f1ce46888731cc2aef4ea07228a71abe8e7c520d4c4a6e7be3b537
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5573bdaf05cb430131d92be771fb91900fb5453a
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990533"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147780"
 ---
 # <a name="dashboards"></a>Řídicí panely
 
@@ -33,11 +35,8 @@ Dynamics 365 Project Service Automation obsahuje dva systémové řídicí panel
 
 ## <a name="practice-manager"></a>Správce postupů 
 
-Řídicí **panel Správce** postupů poskytuje manažerům cvičení grafické možnosti pro sledování nákladů, prodeje a hrubé marže a využití. Manažeři také mohou rozdělit informace podle různých dimenzí, jako jsou například zákazník, projekt nebo zdroje role. Další informace o tom, jak panely vytvořit a upravit viz [Vytvoření nebo úprava řídicích panelů](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
+Řídicí **panel Správce** postupů poskytuje manažerům cvičení grafické možnosti pro sledování nákladů, prodeje a hrubé marže a využití. Manažeři také mohou rozdělit informace podle různých dimenzí, jako jsou například zákazník, projekt nebo zdroje role. Další informace o tom, jak panely vytvořit a upravit viz [Vytvoření nebo úprava řídicích panelů](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
 
 ## <a name="resource-manager"></a>Správce zdrojů 
 
 Řídicí panel **Správce zdrojů** poskytuje správcům zdrojů možnosti grafického řídicího panelu pro monitorování požadavků na zdroje a poptávky po zdroji a využití. Správci zdrojů také umožňují rozdělit sledované informace pomocí různých dimenzí.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,10 +2,12 @@
 title: Přidání vlastních polí do nastavení ceny a transakčních entit
 description: Toto téma obsahuje informace o přidávání vlastních polí do nastavení ceny a transakčních entit.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3ca48b8d5d55b1b2178f9bd84e19d9599f057aa296a728cca57577c18fdaf307
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af2256e77c3ceeee9638f57d971137df1658687b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985763"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148455"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Přidání vlastních polí do nastavení ceny a transakčních entit 
 
@@ -47,7 +49,7 @@ Pokud je vlastní cenová dimenze založena na sadě možností, přidejte ji ja
 > [!IMPORTANT]
 > Přidáte-li pole do více než jedné entity, použijte stejný název pole ve všech entitách. 
 
-> ![Přidání Místa výkonu práce zdroje k Ceně role.](media/RWL-Field.png)
+> ![Přidání Místa výkonu práce zdroje k Ceně role](media/RWL-Field.png)
 
 Ve fázích prodeje a odhadu projektu se k odhadu hodnoty Nabídky/Projektu používají odhady pracovního úsilí, které je nutné k dokončení práce **Místní** a **U zákazníka**, v **Běžné pracovní době** a **Přesčasové pracovní době**. Pole **Místo výkonu práce zdroje** a **Pracovní doba zdroje** budou přidány do entit odhadu **Podrobnosti řádku nabídky**, **Podrobnosti řádku smlouvy**, **Projektový úkol**, **Člen projektového týmu** a **Řádek odhadu**.
 
@@ -59,7 +61,7 @@ Ve fázích prodeje a odhadu projektu se k odhadu hodnoty Nabídky/Projektu pou�
 6. Opakováním kroků 1–5 přidejte toto pole do entit **Podrobnosti řádku projektové smlouvy**, **Projektový úkol**, **Člen projektového týmu** a **Řádek odhadu**.
 7. Opakujte kroky 1–6 pro sadu možností **Pracovní doba zdroje**. 
 
-> ![Přidání Místa výkonu práce zdroje k Řádku odhadu.](media/RWL-Default-Value.png)
+> ![Přidání Místa výkonu práce zdroje k Řádku odhadu](media/RWL-Default-Value.png)
 
 
 Pro dodání a fakturaci musí být dokončená práce přesně oceněna, aby bylo možné ve Skutečnostech projektu vybrat, zda byla provedena **Místně** nebo **U zákazníka**, a zda byla dokončena v **Běžné pracovní době** nebo **Přesčasové pracovní době**. Pole **Místo výkonu práce zdroje** a **Pracovní doba zdroje** by měla být přidána do entit **Časový záznam**, **Skutečnost**, **Podrobnosti řádku faktury** a **Řádek deníku**.
@@ -72,7 +74,7 @@ Pro dodání a fakturaci musí být dokončená práce přesně oceněna, aby by
 6. Opakováním kroků 1–5 přidejte toto pole k entitám **Skutečnost**, **Podrobnosti řádku faktury** a **Řádek deníku**.
 7. Opakujte kroky 1–6 pro sadu možností **Pracovní doba zdroje**. 
 
-> ![Přidání Místa výkonu práce zdroje k Časovému záznamu.](media/RWL-time-entry.png)
+> ![Přidání Místa výkonu práce zdroje k Časovému záznamu](media/RWL-time-entry.png)
 
 Tím dokončíte změny schématu vyžadované pro vlastní dimenze založené na sadě možností.
 
@@ -85,7 +87,7 @@ Pokud je vlastní cenová dimenze entitou, přidáte mezi entitu dimenze a klí�
 3. Rozbalte entitu **Standardní funkce** a vyberte **Vztahy 1:N**.
 4. Kliknutím na **Nový** vytvoříte nový vztah 1:N nazvaný **Standardní funkce do Rezervovatelného zdroje**. Zadejte požadované informace a poté klikněte na **Uložit**.
 
-> ![Přidání Standardní funkce jako referenčního pole do Rezervovatelného zdroje.](media/ST-BR.png)
+> ![Přidání Standardní funkce jako referenčního pole do Rezervovatelného zdroje](media/ST-BR.png)
 
 Standardní funkci bude také nutné přidat k cenovým entitám Project Service **Cena role** a **Přirážka ceny role**. Toto se také provede pomocí vztahů 1:N mezi entitami **Standardní funkce** a **Cena role** a entitami **Standardní funkce** a **Přirážka ceny role**.
 
@@ -104,13 +106,13 @@ Ve fázích prodeje a odhadu projektu jsou pro ocenění Nabídky/Projektu vyža
 
 5. Opakujte kroky 1–5 pro vytvoření vztahů 1:N ze **Standardní funkce** do **Podrobnosti řádku nabídky**, **Podrobnosti řádku projektové smlouvy**, **Projektový úkol**, **Člen projektového týmu** a **Řádek odhadu**.
 
-> ![Přidání Standardní funkce jako referenčního pole do Řádku odhadu.](media/ST-Estimate-Line.png)
+> ![Přidání Standardní funkce jako referenčního pole do Řádku odhadu](media/ST-Estimate-Line.png)
 
 Ve fázích Dodání a Fakturace musí být práce dokončená každou Standardní funkcí přesně oceněna ve Skutečnostech projektu. To znamená, že zde musí být vztahy 1:N ze **Standardní funkce** do **Časový záznam**, **Skutečnost**, **Podrobnosti řádku faktury** a **Entity řádku deníku**.
 
 6. Opakováním kroků 1–6 vytvořte vztahy 1:N ze **Standardní funkce** do **Časový záznam**, **Skutečnost**, **Podrobnosti řádku faktury** a **Entity řádku deníku**.
 
-> ![Přidání Standardní funkce jako odkazovaného pole do Časového záznamu.](media/ST-Mapping.png)
+> ![Přidání Standardní funkce jako odkazovaného pole do Časového záznamu](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Nastavení výchozí hodnoty Dimenze pomocí funkcí mapování platformy
 V případě Časového záznamu by bylo užitečné mít systémovou výchozí hodnotou standardní funkci u Časového záznamu z Rezervovatelného zdroje, který časový záznam zaznamenává. Chcete-li přidat mapování polí u vztahu 1:N z **Rezervovatelný zdroj** do **Časový záznam**, použijte následující postup.
@@ -120,7 +122,7 @@ V případě Časového záznamu by bylo užitečné mít systémovou výchozí 
 3. Dvakrát klikněte na **Rezervovatelný zdroj do Časového záznamu**. Na stránce **Vztah** klikněte na **Použít mapování polí**. 
 4. Klepnutím na **Nové** vytvoříte nové mapování pole mezi polem **Standardní funkce** u entity **Rezervovatelný prostředek** do odkazovaného pole **Standardní funkce** u entity **Časový záznam**. 
 
-> ![Nastavení mapování polí, která umožní nastavení výchozí hodnoty Standardní funkce z Rezervovatelného zdroje do Časového záznamu.](media/ST-Mapping2.png)
+> ![Nastavení mapování polí, která umožní nastavení výchozí hodnoty Standardní funkce z Rezervovatelného zdroje do Časového záznamu](media/ST-Mapping2.png)
 
 
 Tím dokončíte změny schématu vyžadované pro vlastní dimenze založené na entitě.
@@ -148,6 +150,3 @@ Následující tabulka obsahuje úplný seznam připravených formulářů a zob
 |  Skutečnost|• Informace<br>• Aktivní skutečnosti|• Přidružené zobrazení skutečností|
 
 V závislosti na tom, co jste definovali, může být také nutné přidat vlastní pole do obchodních pravidel. Jeden z těchto připravených příkladů je pro obchodní pravidlo **Upravitelnost časového záznamu na základě stavu**. Toto pravidlo definuje, která pole je třeba uzamknout, pokud je Časový záznam v neupravitelném stavu, jako je např. **Schválen**. Přidejte pole do tohoto obchodního pravidla tak, aby byla tato pole uzamčena pro úpravy, pokud je Časový záznam v jiném stavu než **Koncept** nebo **Vrácen**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

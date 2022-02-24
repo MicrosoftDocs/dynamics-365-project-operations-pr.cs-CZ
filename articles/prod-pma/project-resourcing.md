@@ -2,26 +2,28 @@
 title: Domovská stránka zajišťování zdrojů pro projekty
 description: Toto téma obsahuje informace o zajišťování zdrojů pro projekt.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007318"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073766"
 ---
 # <a name="project-resourcing-home-page"></a>Domovská stránka zajišťování zdrojů pro projekty
 
@@ -38,7 +40,7 @@ Náročným úkolem ve fázi plánování projektu pro projektové manažery a m
 - Odhadněte počet zdrojů, které jsou potřebné pro celý životní cyklus projektu.
 - Navrhněte strukturovaný rozpis prací (WBS) s využitím počátečních přiřazení zdrojů.
 
-[![Životní cyklus projektu.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![Životní cyklus projektu](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 V průběhu plánování projektu lze plánované zdroje nahradit personálními zdroji. Vedoucí projektu se může také vrátit zpět a aktualizovat rezervace zdrojů během kterékoli fáze projektu.
 
@@ -47,12 +49,9 @@ Následující témata poskytují informace o úkolech, které je třeba dokonč
 - [Nastavení projektových zdrojů](set-up-project-resources.md)
 - [Správa kompetencí zdrojů](manage-resource-competencies.md)
 - [Vytvoření nového projektu](create-new-project.md)
-- [Nastavení cen na základě rolí](set-up-role-based-pricing.md)
+- [Nastavení určování cen založeného na rolích](set-up-role-based-pricing.md)
 - [Vytvoření projektového týmu](create-project-team.md)
-- [Synchronizace kapacity zdrojů](synchronize-resource-capacity.md)
+- [Synchronizace kapacity zdroje](synchronize-resource-capacity.md)
 - [Výkon plánování zdrojů projektu](project-scheduling-performance.md)
 - [Nastavení rolí v šablonách strukturovaného rozpisu prací](set-up-roles-wbs-template.md)
 - [Plnění zdrojů pro plánované zdroje](resource-fulfillment-planned-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

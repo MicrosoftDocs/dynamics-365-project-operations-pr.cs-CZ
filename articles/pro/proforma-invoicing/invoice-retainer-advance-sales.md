@@ -2,16 +2,18 @@
 title: Fakturace záloh
 description: Toto téma poskytuje informace o fakturaci záloh v aplikaci Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997463"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596184"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Fakturace záloh
 
@@ -49,6 +51,3 @@ To je vidět na mřížce **Použité zálohy** na stránce **Faktura**. Násled
 | Použitá částka | Mřížka **Použité zálohy** na stránce **Projektová faktura**.  | Toto pole jen pro čtení poskytuje vypočtenou hodnotu, která shrnuje, kolik ze zálohy bylo použito. | Toto pole lze zákazníkovi zobrazit na vytištěné faktuře, aby byla uvedena částka této zálohy, která byla již použita. |
 | Rozšířená částka | Mřížka **Použité zálohy** na stránce **Projektová faktura**.  | Toto upravitelné pole poskytuje částku zálohy, která se používá na projektové faktuře. Tato částka nemůže být vyšší než částka, která je k dispozici na zálohu. Systém to automaticky vypočítá jako rozdíl mezi poli **Množství** a **Použité množství** na mřížce. Tuto částku můžete snížit, abyste spotřebovali méně, než je k dispozici, ale nemůžete zvýšit částku, abyste použili více, než je k dispozici. | Toto pole lze zákazníkovi zobrazit na vytištěné faktuře, aby byla uvedena částka této zálohy, která se používá na faktuře. |
 | Částka zůstatku zálohy. | Mřížka **Použité zálohy** na stránce **Projektová faktura**.  | Toto pole jen pro čtení poskytuje hodnotu toho, kolik rezervy nebo zálohy zbude po potvrzení faktury. | Toto pole lze zákazníkovi zobrazit na vytištěné faktuře, aby byla uvedena částka této zálohy, která bude ponechána z této zálohy po potvrzení a zaplacení faktury. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

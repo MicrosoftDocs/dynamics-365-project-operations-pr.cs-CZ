@@ -2,6 +2,8 @@
 title: Práce s datovým modelem Project Service Automation
 description: Toto téma obsahuje informace o způsobu práce s datovým modelem.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002413"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147645"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Práce s datovým modelem Project Service Automation
 
@@ -53,7 +55,7 @@ PSA datového modelu Dynamics 365 také přidává nové entity související s 
 
 Dalšími entitami, které PSA do nabídek přidává, jsou **Projektový ceník řádku nabídky**, **Kategorie zdroje řádku nabídky** a **Kategorie transakce řádku nabídky**.
 
-![Diagram zobrazující nabídku, řádek nabídky a vztahy projektů.](media/PS-Reporting-image2.png "Diagram zobrazující nabídku, řádek nabídky a vztahy projektů")
+![Diagram zobrazující nabídku, řádek nabídky a vztahy projektů](media/PS-Reporting-image2.png "Diagram zobrazující nabídku, řádek nabídky a vztahy projektů")
 
 ## <a name="reporting-on-project-contracts"></a>Podávání zpráv o projektových smlouvách
 
@@ -69,7 +71,7 @@ PSA také přidává nové entity, které jsou navrženy pro projektové smlouvy
 
 Dalšími entitami, které PSA do smluv přidává, jsou **Projektový ceník řádku projektové smlouvy**, **Kategorie zdroje řádku projektové smlouvy** a **Kategorie transakce řádku projektové smlouvy**.
 
-![Diagram zobrazující objednávku, řádek objednávky a vztahy projektů.](media/PS-Reporting-image3.png "Diagram zobrazující objednávku, řádek objednávky a vztahy projektů")
+![Diagram zobrazující objednávku, řádek objednávky a vztahy projektů](media/PS-Reporting-image3.png "Diagram zobrazující objednávku, řádek objednávky a vztahy projektů")
 
 ## <a name="reporting-on-projects"></a>Podávání zpráv o projektech
 
@@ -81,7 +83,7 @@ Entita **Projekty** a související entity jsou výhradní pro PSA. **Projekt** 
 - **Požadavek na zdroj** – tato entita obsahuje požadavky na libovolné obecné zdroje členů týmu.
 - **Odhad** a **Řádek odhadu** – tyto entity mají vztah záhlaví/řádek a obsahují odhady výdajů pro projekt. Odhady úkolů jsou uloženy v entitě **Odhad zdroje**.
 
-![Diagram zobrazující požadavek na zdroj a vztahy projektů.](media/PS-Reporting-image4.png "Diagram zobrazující požadavek na zdroj a vztahy projektů")
+![Diagram zobrazující požadavek na zdroj a vztahy projektů](media/PS-Reporting-image4.png "Diagram zobrazující požadavek na zdroj a vztahy projektů")
 
 ## <a name="reporting-on-resources"></a>Podávání zpráv o zdrojích
 
@@ -92,7 +94,7 @@ Zdroje projektu používají entity **Rezervovatelný zdroj** z aplikace Univers
 - **Kategorie rezervovatelného zdroje** – tato entita představuje roli rezervovatelného zdroje.
 - **Rezervace rezervovatelného zdroje** – tato entita představuje čas, který je v projektech rezervovaný pro daný zdroj. Každá rezervace obsahuje jak entitu záhlaví, tak entity řádků a každý řádek obsahuje stav, který představuje stav rezervace.
 
-![Diagram ukazující vztahy rezervovatelných charakteristik zdroje.](media/PS-Reporting-image5.png "Diagram ukazující vztahy rezervovatelných charakteristik zdroje")
+![Diagram ukazující vztahy rezervovatelných charakteristik zdroje](media/PS-Reporting-image5.png "Diagram ukazující vztahy rezervovatelných charakteristik zdroje")
 
 ## <a name="reporting-on-actual-transactions"></a>Vykazování skutečných transakcí
 
@@ -120,7 +122,4 @@ Při práci s entitou **Skutečnost** je důležité porozumět, jaká transakce
 
 Entita **Původ transakce** zaznamenává původ záznamu **Skutečnost** a entita **Propojení transakce** zaznamenává související záznamy pro záznam **Skutečnost**. Záznam **Skutečnost** dále obsahuje odkazy na projekt, projektovou smlouvu (objednávky), rezervovatelné prostředky a zákazníka.
 
-![Diagram zobrazující transakční připojení, původ a skutečné vztahy.](media/PS-Reporting-image6.png "Diagram zobrazující transakční připojení, původ a skutečné vztahy")
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Diagram zobrazující transakční připojení, původ a skutečné vztahy](media/PS-Reporting-image6.png "Diagram zobrazující transakční připojení, původ a skutečné vztahy")

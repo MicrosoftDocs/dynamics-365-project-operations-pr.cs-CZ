@@ -1,19 +1,21 @@
 ---
-title: Správa nedokončené fakturace produktů
-description: Tento téma poskytuje informace o různých pohledech, které jsou k dispozici při správě nevyřízených fakturací u projektů.
+title: Správa nedokončené fakturace – omezené
+description: Tohle téma poskytuje informace o různých zobrazeních, která jsou k dispozici při správě nedokončené fakturace.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988283"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176962"
 ---
-# <a name="manage-project-billing-backlog"></a>Správa nedokončené fakturace produktů 
+# <a name="manage-the-billing-backlog---lite"></a>Správa nedokončené fakturace – omezené
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
@@ -58,6 +60,3 @@ Nefakturované skutečné prodeje se stavem **Nepřekročitelné** s hodnotou **
 Pokud řádky smlouvy pro více zákazníků mají metodu fakturace času a materiálu, je po schválení času a výdajů vytvořen jeden nefakturovaný skutečný prodej pro každého zákazníka na řádku smlouvy podle procentuálního rozdělení fakturace definovaného pro každého ze zákazníků. V zobrazení **Nedokončená fakturace času a materiálu** vidíte tyto nefakturované skutečné prodeje pro jednotlivé konkrétní zákazníky. Každý z nevyfakturovaných skutečných prodejů lze označit jako **Připraveno k fakturaci** odděleně z tohoto zobrazení.
 
 Nefakturovaný skutečný prodej, který je v konceptu faktury, je zobrazen v tomto zobrazení se stavem fakturace **Faktura zákazníka vytvořena**. Po potvrzení konceptu faktury se stav fakturace v tomto záznamu aktualizuje na **Faktura zákazníka zaúčtována**. Neaktualizujte tuto hodnotu stavu pomocí vlastního kódu. Pokud jsou tyto hodnoty stavu aktualizovány pomocí vlastního kódu, Project Operations nefunguje správně.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

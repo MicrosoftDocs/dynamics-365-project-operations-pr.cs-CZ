@@ -2,26 +2,28 @@
 title: Přehled řízení projektů a účetnictví
 description: Funkci řízení projektů a účetnictví lze použít v různých průmyslových odvětvích k poskytování služeb, výrobě produktu nebo dosažení výsledku.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007498"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073923"
 ---
 # <a name="project-management-and-accounting-overview"></a>Přehled řízení projektů a účetnictví
 
@@ -34,14 +36,14 @@ Projekt je skupina činností, která je určena k poskytování služeb, výrob
 ## <a name="projects-across-industries"></a>Projekty napříč průmyslovými odvětvími
 Funkci řízení a účetnictví projektu lze použít v různých průmyslových odvětvích, jak ukazuje následující obrázek.
 
-[![Projekty napříč průmyslovými odvětvími.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projekty napříč průmyslovými odvětvími](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 V call centru lze lístek použít k popisu souboru akcí, které jsou nutné k vyřešení hovoru. Poradenské společnosti, jako jsou organizace pro správu nebo technické poradenství nebo reklamní agentury, označují své činnosti jako projekty. V marketingu představuje kampaň soubor práce, kterou je třeba doručit. V projektové výrobě se výrobní zakázka týká různých prací, které je třeba provést k výrobě některých hotových výrobků. Ať se pro ně použije jakýkoli název, tyto projekty zahrnují zdroje, plány a náklady a funkce pro správu a účetnictví projektu mohou pomoci s plánováním, prováděním a analýzou těchto projektů.
 
 ## <a name="project-phases"></a>Fáze projektu
 Ačkoli je následující procesní proces zaměřen na externí projekty nebo projekty, které jsou dokončeny pro jednoho nebo více zákazníků, funkce se vztahuje také na interní projekty pouze za náklady. 
 
-![3 fáze projektu.](./media/3-stages-of-a-project.png) 
+![3 fáze projektu](./media/3-stages-of-a-project.png) 
 
 Jak je znázorněno na předchozím obrázku, projektové řízení a účetnictví lze rozdělit do tří fází:
 
@@ -50,7 +52,7 @@ Jak je znázorněno na předchozím obrázku, projektové řízení a účetnict
 3.  Analýza
 
 ## <a name="initiate-the-project"></a>Zahajte projekt
-Během zahájení projektu dochází k několika klíčovým procesům. Pomocí nabídky projektu můžete zákazníkovi sdělit odhadovanou práci, výdaje a materiál. Fakturační podmínky, limity a dohody můžete zaznamenat do smlouvy o projektu. K plánování a odhadu práce můžete použít strukturu rozpisu práce (WBS). K řízení spuštění projektu můžete nastavit prognózy a rozpočty. Následující obrázek ukazuje strukturu projektu.[![struktura projektu.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Během zahájení projektu dochází k několika klíčovým procesům. Pomocí nabídky projektu můžete zákazníkovi sdělit odhadovanou práci, výdaje a materiál. Fakturační podmínky, limity a dohody můžete zaznamenat do smlouvy o projektu. K plánování a odhadu práce můžete použít strukturu rozpisu práce (WBS). K řízení spuštění projektu můžete nastavit prognózy a rozpočty. Následující obrázek ukazuje strukturu projektu.[![struktura projektu](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Vtvoření projektových nabídek
 
@@ -203,7 +205,7 @@ Můžete si objednat položky z majetku společnosti pro spotřebu v projektu. P
 
 Způsob objednávání položek závisí na tom, odkud je objednáváte:
 
--   Chcete-li objednat položky z majetku společnosti, musíte zadat objednávku jako požadavek na položku. Pokud používáte stránku **Požadavky na položku**, můžete nastavit požadavek, abyste dostávali zboží jako dílčí dodávky. Proto můžete odložit spotřebu určitého množství položek, dokud položky nebudou vyžadovány.
+-   Chcete-li objednat položky z majetku společnosti, musíte zadat objednávku jako požadavek na položku. Pokud používáte stránku **Požadavky na položku**, můžete nastavit požadavek, abyste dostávali zboží jako dílčí dodávky.Proto můžete odložit spotřebu určitého množství položek, dokud položky nebudou vyžadovány.
 -   Chcete-li objednat zboží od externího dodavatele, musíte vytvořit objednávku jako nákupní objednávku na stránce **Nákupní objednávka**.
 
 > [!NOTE] 
@@ -225,7 +227,7 @@ Typ projektu určuje, který postup fakturace by se měl použít. Fakturovat lz
 Před vytvořením faktury zákazníka pro projekt můžete vytvořit předběžnou fakturu nebo návrh faktury. V návrhu faktury můžete vybrat transakce projektu, které chcete zahrnout do faktury projektu. Poté můžete zkontrolovat fakturační údaje, než odešlete fakturu projektu a odeslat ji zákazníkovi nebo jinému zdroji financování. 
 
 
-Další informace o zpracování faktur projektu naleznete v tématu [Fakturace projektu](/dynamics365/finance/accounts-payable/project-invoicing).
+Další informace o zpracování faktur projektu naleznete v tématu [Fakturace projektu](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Vypočítání nákladů na dokončení projektu
@@ -298,7 +300,7 @@ Na základě nastavení můžete předpovědět příliv hotovosti pro vybraný 
 -   **Datum projektu:** 5. března 2012.
 -   **Datum faktury:** 31. března 2012. Toto datum se určuje na základě četnosti faktur. V tomto příkladu nastavíte četnost fakturace na aktuální měsíc. Proto jsou všechny transakce zaúčtované v měsíci březnu fakturovány poslední den v měsíci.
 -   **Termín splnění:** 14. dubna 2012. Toto datum je určeno na základě platebních podmínek stanovených pro projekt. V tomto příkladu jste vybrali platební podmínky 14 dnů. Proto je k datu faktury přidáno 14 dní, aby se dospělo ke dni splatnosti 14. dubna 2012.
--   **Očekávané datum platby prodeje:** 27.dubna 2012. Toto datum se počítá sečtením počtu dnů v poli **Obecná data ukládání do vyrovnávací paměti** na stránce **Parametry řízení projektu a účetnictví** na počet dní v poli **Jednotlivé dny vyrovnávací paměti** na stránce **Smlouvy o projektu** a poté přidáním součtu k počtu dní v poli **Datum splatnosti**. V tomto příkladu jste zadali **3** v poli **Obecné dny ukládání do vyrovnávací paměti** a **10** v poli **Jednotlivé dny vyrovnávací paměti**. Proto je k datu faktury přidáno 13 dní, aby se dospělo k očekávanému datu platby z prodeje 27. dubna 2012.
+-   **Očekávané datum platby prodeje:** 27.dubna 2012. Toto datum se počítá sečtením počtu dnů v poli **Obecná data ukládání do vyrovnávací paměti** na stránce **Parametry řízení projektu a účetnictví** na počet dní v poli **Jednotlivé dny vyrovnávací paměti** na stránce **Smlouvy o projektu** a poté přidáním součtu k počtu dní v poli **Datum splatnosti**. V tomto příkladu jste zadali **3** v poli **Obecné dny ukládání do vyrovnávací paměti** a **10** v poli **Jednotlivé dny vyrovnávací paměti**. Proto je k datu faktury přidáno 13 dní, aby se dospělo k očekávanému datu platby z prodeje 27. dubna 2012.
 
 Obecné dny vyrovnávací paměti mohou buď nahradit jednotlivé dny vyrovnávací paměti, nebo je přidat k jednotlivým dnům vyrovnávací paměti:
 
@@ -438,6 +440,3 @@ Po výpočtu výpisu si můžete prohlédnout následující informace na různ�
 -   **Spotřeba** - Informace o spotřebě hodin, položek, výdajů a mzdových transakcí.
 -   **Faktura** - Informace o fakturách a fakturaci na účet.
 -   **Hodinová sazba** - Hodinové sazby za hodiny, které jsou zaúčtovány na účty výnosů a nákladů.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

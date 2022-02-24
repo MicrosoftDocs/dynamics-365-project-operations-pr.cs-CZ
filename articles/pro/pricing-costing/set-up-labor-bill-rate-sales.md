@@ -2,22 +2,24 @@
 title: Nastavení fakturačních sazeb za práci – omezené
 description: Toto téma poskytuje informace o tom, jak nastavit fakturační sazby za práci v aplikaci Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007588"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181172"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Nastavení fakturačních sazeb za práci – omezené
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
-Každý ceník obsahuje sadu cen rolí nebo pracovních sazeb, které jsou účinné pro kontext a datum účinnosti uvedené v záhlaví ceníku. Sazby faktur za čas v Dynamics 365 Project Operations lze nastavit pouze v jedné měně, což je měna v záhlaví ceníku.
+Každý ceník obsahuje sadu cen rolí nebo pracovních sazeb, které jsou účinné pro kontext a datum účinnosti uvedené v záhlaví ceníku. Pracovní sazby za čas v Dynamics 365 Project Operations lze nastavit pouze v jedné měně, což je měna v záhlaví ceníku.
 
 1. Chcete-li nastavit fakturační sazby za práci za prodejní ceník, vytvořte ceník na základě záhlaví ceníku. 
 2. Na kartě **Ceny rolí** vyberte v podmřížce položku **+ Nová cena role**. 
@@ -53,6 +55,3 @@ Například vývojáři ze společnosti Fabrikam Indie pracující na americkém
     | Developer | Fabrikam USA | 150 USD |
 
 3. Připojte prodejní ceník **Fakturační sazby společnosti Fabrikam USA** k projektovému ceníku projektové smlouvy nebo k určitému účtu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

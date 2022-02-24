@@ -2,9 +2,11 @@
 title: Vytváření rozšířených smluv pro fakturaci na základě pokroku
 description: Toto téma vysvětluje, jak vytvořit projektové smlouvy, abyste mohli generovat faktury pro zákazníky na základě procenta z dokončené práce.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000973"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073909"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Vytváření rozšířených smluv pro fakturaci na základě pokroku
 [!include [banner](../includes/banner.md)]
@@ -101,6 +103,3 @@ Rozpočtové kategorie se používají k automatickému výpočtu částek faktu
 8. Volitelné: Přiřaďte pravidlo fakturace k dalším projektům. Na pevné záložce **Projekt** v části **Dostupné projekty** vyberte projekt a poté kliknutím na tlačítko se šipkou doprava přidejte projekt do části **Vybrané projekty**.
 9. Volitelné: Vypočítejte procentní částku, kterou zákazník zadrží z plateb na faktuře. Na pevné záložce **Podmínky zadržení platby** vyberte zdroj financování a poté v poli **Procento zádržného** zadejte procento zádržného.
 10. Opakováním těchto kroků vytvoříte další fakturační pravidla pro projektovou smlouvu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

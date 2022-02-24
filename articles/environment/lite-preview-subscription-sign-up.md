@@ -2,40 +2,60 @@
 title: Registrace k odběru verze Preview – omezené
 description: Toto téma obsahuje informace o tom, jak se přihlásit k odběru a nasadit omezené nasazení Project Operations - od obchodu po pro forma fakturaci.
 author: sigitac
-ms.date: 07/02/2021
+manager: Annbe
+ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991523"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175883"
 ---
-# <a name="sign-up-for-a-preview-subscription---lite"></a>Registrace k odběru verze Preview - omezené 
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Registrace k odběru verze Preview – omezené 
 
-Tento téma vysvětluje, jak se přihlásit k odběru zkušební nabídky a nasadit Dynamics 365 Project Operations omezené nasazení – od obchodu po pro forma fakturaci
+Toto téma vysvětluje, jak se přihlásit k odběru preview nabídky partnera a nasadit omezené nasazení Dynamics 365 Project Operations - od obchodu po pro forma fakturaci.
 
 > [!NOTE]
 > Tento proces se v nadcházejících verzích Project Operations změní.
 
 ## <a name="prerequisites"></a>Požadavky
-- Uživatel, který nasadí preview, musí mít práva globálního správce klienta Azure. Během prvního uplatnění nabídky můžete vytvořit nájemce.
+
+- Obdržíte e-mail s výzvou k účasti v programu Preview. O preview můžete požádat na [webu Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
+- Uživatel, který nasadí preview, musí mít práva globálního správce klienta Azure.
+- Přečtěte si všechny smluvní podmínky.
+
+## <a name="subscribe"></a>Odebírat
+
+Když obdržíte schválení [požadavku na preview](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), dostanete od společnosti Microsoft e-mailem dvě nabídky. Tyto nabídky vám umožňují nasadit Project Operations Preview:
+
+- Dynamics 365 Project Operations (CRM) – zkušební verze Preview
+- Office 365 Project Operations – zkušební verze Preview
 
 > [!IMPORTANT]
 > Tuto úlohu musí v organizaci provést pouze jedna osoba, správce tenanta. Pokud nejste předplatitelem tohoto vydání, počkejte, dokud nebude vaše organizace zaregistrována a neobdržíte přihlašovací údaje uživatele.
-> 
-> Zkušební verze jsou na jedno použití v klientovi. Zkušební verzi můžete spustit pouze jednou. Pro účely zkušebního období vám doporučujeme vytvořit nového klienta.
 
-### <a name="dynamics-365-project-operations-trial"></a>Zkušební verze Dynamics 365 Project Operations 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – zkušební verze Preview 
 
 Než začnete, ujistěte se, že jste přihlášeni do prohlížeče s pracovním účtem uživatele v klientu, kde chcete Project Operations Preview mít.
 
-1. Přejděte na [Zkušební verze Project Operations](https://aka.ms/try-po), chcete-li uplatnit první nabídkový kód **Dynamics 365 Project Operations**.
-2. Objednávku potvrďte.
+1. Uplatněte první kód nabídky, **Dynamics 365 Project Operations (CRM) – zkušební verze Preview**, vložením do adresy URL prohlížeče.
 
-  Uvidíte, že nabídka potvrzení byla úspěšně uplatněna.
+![Uplatnění nabídky](./media/16RedeemFirstOfferNew.png)
+
+2. Objednávku potvrďte.
+![Potvrďte objednávku](./media/17ConfirmOrderNew.png)
+
+Uvidíte, že nabídka potvrzení byla úspěšně uplatněna.
+
+![Potvrzení](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – zkušební verze Preview
+
+Opakujte stejné kroky jako u prvního nabídkového kódu. Přidejte druhý kód nabídky pomocí stejného uživatelského účtu, který byl použit s prvním kódem nabídky.
 
 ## <a name="assign-licenses"></a>Přiřazení licencí
 
@@ -44,28 +64,30 @@ Než začnete, ujistěte se, že jste přihlášeni do prohlížeče s pracovní
 
 
 1. Přejděte do [Centra pro správu Microsoft 365](https://portal.office.com/), kde přiřadíte licence vašim uživatelům.
+
+![Domovská stránka centra pro správu](./media/14AdminPortal.png)
+
 2. Na stránce **Aktivní uživatelé** vyberte uživatele, kterým chcete přiřadit licenci.
-3. Ověřte, že je vybrána licence **Dynamics 365 Project Operations**. 
+
+![Přiřazení licencí](./media/15AssignLicenses.png)
+
+3. Ověřte, že je vybrána položka **Dynamics 365 Project Operations (CRM) – Preview** a licence **Office 365 Project Operations – Preview**. 
 4. Vyberte volbu **Uložit změny**.
 
-## <a name="create-a-new-dataverse-environment"></a>Vytvořte nové prostředí Dataverse
+## <a name="create-a-new-cds-environment"></a>Vytvoření nového prostředí CDS
 
-1. Nové prostředí pro nasazení Project Operations Dataverse zřiďte podle pokynů v tématu [Model nasazení Dataverse](lite-deployment.md). Když vyberete typ prostředí, ujistěte se, že používáte **Zkušební verze (na základě předplatného)**.
-
-  ![Nové prostředí.](./media/19CreateEnvironment.png)
+1. Nové prostředí pro nasazení Project Operations CDS zřiďte podle pokynů v tématu [Model nasazení CDS](lite-deployment.md). Když vyberete typ prostředí, ujistěte se, že používáte **Zkušební verze (na základě předplatného)**.
+![Nové prostředí](./media/19CreateEnvironment.png)
 
 2. Vyberte nastavení **Povolit aplikace Dynamics 365** a nechte možnost **Automaticky nasadit tyto aplikace** prázdnou.  
 3. Výběrem možnosti **Uložit** vytvořte prostředí.
 
-  ![Přidat databázi.](./media/20CreateEnvironment1.png)
+![Přidat databázi](./media/20CreateEnvironment1.png)
 
 4. Po vytvoření prostředí nainstalujte řešení **Microsoft Dynamics 365 Project Operations**. 
 
-![Instalace řešení.](./media/21InstallSolution.png)
+![Instalace řešení](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Nainstalujte konfiguraci CDS a nastavte ukázková data
 
 Nainstalujte konfiguraci CDS a nastavte ukázková data podle pokynů v tématu [Použití ukázkového nastavení a konfiguračních dat](lite-apply-demo-setup-config-data.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

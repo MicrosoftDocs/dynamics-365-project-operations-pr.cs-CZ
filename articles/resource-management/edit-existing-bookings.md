@@ -2,16 +2,18 @@
 title: Upravit rezervace
 description: Tento téma poskytuje informace o tom, jak aktualizovat a provádět změny v rezervacích.
 author: ruhercul
+manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008308"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841318"
 ---
 # <a name="edit-bookings"></a>Úprava rezervací
 
@@ -31,6 +33,3 @@ V mřížce **Člen týmu** manažer projektu může zvýraznit konkrétní zdro
 ## <a name="schedule-board"></a>Plánovací vývěska
 
 Na **plánovací vývěsce** má správce zdrojů pohled na portfolio všech rezervací v celé organizaci. Z tohoto pohledu může správce zdrojů rozšířit, zkrátit nebo přesunout stávající rezervace podobné funkcím nabízeným v **Zachovat rezervace**. Správce zdrojů může také nahradit stávající zdroje přidělené konkrétní rezervaci kliknutím pravým tlačítkem na rezervaci a výběrem **Nahradit zdroj**. Správci zdrojů mohou také upravit obrysy stávajících rezervací kliknutím pravým tlačítkem na rezervaci a výběrem **Upravit**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

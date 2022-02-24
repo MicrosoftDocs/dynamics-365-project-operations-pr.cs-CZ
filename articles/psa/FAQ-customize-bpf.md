@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002953"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993138"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Jak přizpůsobit tok obchodního procesu týkající se fází projektu?
 
@@ -60,11 +60,11 @@ Pokud upgrade není možností, můžete přizpůsobit tok obchodního procesu t
 1. Přidejte další fáze k výchozí konfiguraci při současném zachování anglických názvů fází pro možnosti **Quote**, **Plan** a **Close**.
 
 
-![Snímek obrazovky přidání fází k výchozí konfiguraci.](media/FAQ-Customize-BPF-1.png)
+![Snímek obrazovky přidání fází k výchozí konfiguraci](media/FAQ-Customize-BPF-1.png)
  
 2. Vytvořte svůj vlastní tok obchodního procesu a učiňte ho primárním tokem obchodního procesu pro entitu projektu, který umožňuje mít názvy fáze, které chcete. Pokud však chcete použít stejné standardní fáze projektu **Quote**, **Plan** a **Close**, je nutné provést některá přizpůsobení, která jsou vyvozena z vašich vlastních názvů fází. Složitější logika je v uzavření projektu, kterou můžete stále spustit pouze deaktivací záznamu projektu.
 
-![Vlastní nastavení BPF.](media/FAQ-Customize-BPF-2.png)
+![Vlastní nastavení BPF](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Další skutečnosti ke zvážení pro aplikaci Project Service verze 2.4.4.30 nebo starší na platformě 9.0
 
@@ -80,11 +80,11 @@ K vytvoření vlastního toku obchodního procesu pro entitu projektu proveďte 
 
 1. Přejděte na **Nastavení** > **Centrum zpracování**. Nekopírujte tok obchodního procesu týkajícího se fází projektu, protože ten rovněž kopíruje obchodní logiku aplikace Project Service.
 
-  ![Vytvořit proces.](media/FAQ-Customize-BPF-3.png)
+  ![Vytvořit proces](media/FAQ-Customize-BPF-3.png)
 
 2. Pomocí návrháře procesu vytvořte názvy fází, které chcete. Chcete-li stejnou funkci jako výchozí fáze pro **Quote**, **Plan** a **Close**, budete ji muset vytvořit na základě vlastních názvů fází toku obchodního procesu.
 
-   ![Snímek obrazovky návrháře procesu použitého k přizpůsobení BPF.](media/FAQ-Customize-BPF-4.png) 
+   ![Snímek obrazovky návrháře procesu použitého k přizpůsobení BPF](media/FAQ-Customize-BPF-4.png) 
 
 3. V návrháři procesu klikněte na **Seřadit tok procesu** a učiňte vlastní tok obchodního procesu primárním tokem obchodního procesu pro entitu projektu přesunutím nad tok obchodního procesu týkajícího se fází projektu do horní části seznamu.
 
@@ -95,15 +95,15 @@ K vytvoření vlastního toku obchodního procesu pro entitu projektu proveďte 
 
 4. Přidejte nové vlastní pole k entitě projektu pro zachycení vlastních fází ve svém vlastním toku obchodního procesu. Budete muset přidat obchodní logiku (modul plug-in/workflow) pro aktualizaci tohoto, když je fáze na vlastním toku obchodního procesu aktualizována.
 
-   ![Snímek obrazovky přizpůsobení entity projektu.](media/FAQ-Customize-BPF-6-720.png)
+   ![Snímek obrazovky přizpůsobení entity projektu](media/FAQ-Customize-BPF-6-720.png)
 
 5. Upravte graf **Projekt podle fáze** pro použití vašeho nového vlastního pole pro fáze.
 
-   ![Snímek obrazovky použití grafu Projekt podle fáze.](media/FAQ-Customize-BPF-7-720.png)
+   ![Snímek obrazovky použití grafu Projekt podle fáze](media/FAQ-Customize-BPF-7-720.png)
 
 6. Upravte jakékoliv zobrazení pro entitu projektu, aby zahrnovalo vaše nové vlastní pole pro fáze.
 
-   ![Snímek obrazovky úprav zobrazení na entitě projektu.](media/FAQ-Customize-BPF-8-720.png)
+   ![Snímek obrazovky úprav zobrazení na entitě projektu](media/FAQ-Customize-BPF-8-720.png)
 
 
 

@@ -1,10 +1,11 @@
 ---
 title: Upgrade domovské stránky
 description: Toto téma ukazuje, kde naleznete důležité informace o nových a změněných funkcích aplikace Dynamics 365 Project Service Automation a o procesu upgradu na nejnovější verzi.
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 05/30/2019
 ms.topic: article
 author: rumant
@@ -18,12 +19,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2b9b14d72157ae0046e1ca6abdc604b8dbc30377b5b24f5d79617a7201b1bf10
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006733"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150075"
 ---
 # <a name="upgrade-home-page"></a>Upgrade domovské stránky
 
@@ -64,6 +65,3 @@ Od 1. března 2020 již zákazníci Dynamics PSA nebudou moci vytvářet nové p
 
 > [!NOTE]
 > Chcete-li dosáhnout nejlepších výsledků, pokud používáte starší verze aplikací Field Service a PSA, přejděte na stránku **Nastavení systému** a pro pole **Používat jen nové Sjednocené rozhraní (doporučeno)** vyberte možnost **Ne**, protože tyto verze nejsou navrženy tak, aby byly v UCI správně načteny. Po vypnutí UCI můžete tyto verze aplikací Field Service a PSA otevřít a spustit pomocí starého webového klienta. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

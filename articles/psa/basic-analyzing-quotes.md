@@ -2,6 +2,8 @@
 title: Analýza projektových nabídek
 description: Toto téma poskytuje informace o analýze projektových nabídek.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b50f419d2c13cff4914f4b589c8d7ad9099c8734834d75f8d17104d2db40049b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 361a940261811467c46222c3d58c9504434ec882
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002818"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145215"
 ---
 # <a name="analysis-of-project-quotes"></a>Analýza projektových nabídek
 
@@ -58,6 +60,3 @@ Pokud zadáte hodnoty do následujících polí, můžete analyzovat nabídky a 
 Analýza očekávání zákazníka týkající se plánu je provedena porovnáním nejpozdějšího koncového data podrobnosti řádku nabídky s požadovaným datem dodání na všech řádcích nabídky v nabídce.
 
 Analýza očekávání zákazníka týkající se rozpočtu je provedena porovnáním součtu celkového rozpočtu zákazníka s nabízenou částkou na všech řádcích nabídky.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,17 +2,18 @@
 title: Přehled řádků smlouvy založené na projektu
 description: Tohle téma poskytuje informace o práci s řádky smlouvy na základě projektu.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 7da8a7f898e6f0bb46d4cf6de65812e3aabb7416a2fdf2f9d9c8bad07e77cd85
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 824fdd54d7b513b49afd1a6d76d3387df81418e2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999038"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858150"
 ---
 # <a name="project-based-contract-lines-overview"></a>Přehled řádků smlouvy založené na projektu
 

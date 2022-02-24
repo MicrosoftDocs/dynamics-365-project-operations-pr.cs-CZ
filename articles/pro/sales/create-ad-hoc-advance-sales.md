@@ -2,16 +2,18 @@
 title: Vytvoření ad hoc zálohy na smlouvě
 description: Tohle téma poskytuje informace o vytvoření zálohy na smlouvě podle potřeby.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999128"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4595941"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Vytvoření ad hoc zálohy na smlouvě
 
@@ -37,6 +39,3 @@ Chcete-li zákazníkovi fakturovat zálohu, proveďte následující kroky.
     | **Stav faktury** | Toto je nastavení možnosti, které označuje, zda je tato záloha přidána do konceptu faktury pro tohoto zákazníka. Možné hodnoty jsou:</br>- **Nepřipraveno k fakturaci**</br>- **Připraveno k fakturaci** | Když je záloha označena jako **Připraveno k fakturaci**, je přidána jako čas na řádku v konceptu faktury. K vyrovnání vůči nákladům projektu na další fakturační období lze použít pouze plně fakturovanou zálohu. |
 
 4. Vyberte **Uložit a zavřít** v dialogovém okně pro rychlé vytvoření, čímž zálohu zaznamenáte.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

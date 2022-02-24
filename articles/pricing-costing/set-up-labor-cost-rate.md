@@ -2,16 +2,18 @@
 title: Nastavení nákladových sazeb za práci
 description: Toto téma poskytuje informace o tom, jak nastavit sazby za náklady na práci v aplikaci Project Operations
 author: rumant
+manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c41bab8626087e3cadc075b02011ef974b5eecb16e83ed67f78f4e020a83dd8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986168"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180589"
 ---
 # <a name="set-up-labor-cost-rates"></a>Nastavení nákladových sazeb za práci
 
@@ -38,7 +40,7 @@ Následující tabulka obsahuje některá pole, která jsou důležitá při vyt
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Přenos cen a nákladů u zdrojů mimo vaši divizi nebo právnickou osobu
 
-Projektové společnosti běžně využívají k práci na projektech zaměstnance z jiných právnických osob nebo divizí. Projekty lze provádět jednou právnickou osobou, ale zaměstnanci nebo konzultanti, kteří na projektu pracují, mohou pocházet ze stejné nebo z jiné právnické osoby, případně může jít o kombinaci obou možností. V Dynamics 365 Project Operations je právnickou osobou, která vlastní dodávku projektu, **Vlastnická společnost** a divize, která vlastní dodávku, je **Smluvní jednotka**. Ostatní právnické osoby, které dodávají zdroje, se označují jako **Společnosti poskytující zdroje** a divize, které dodávají zdroje, se nazývají **Jednotky zdrojů**. Ve většině zemí jsou společnosti povinny zajistit, aby právnická osoba nebo divize zajišťující zdroje účtovala za použití zdrojů vlastnické společnosti a smluvní jednotce.
+Projektové společnosti běžně využívají k práci na projektech zaměstnance z jiných právnických osob nebo divizí. Projekty lze provádět jednou právnickou osobou, ale zaměstnanci nebo konzultanti, kteří na projektu pracují, mohou pocházet ze stejné nebo z jiné právnické osoby, případně může jít o kombinaci obou možností. V rámci Dynamics 365 Project Operations se právnická osoba, která vlastní dodávku projektu, nazývá **Vlastnická společnost** a divize, která vlastní dodávku, se nazývá **Smluvní jednotka**. Ostatní právnické osoby, které dodávají zdroje, se označují jako **Společnosti poskytující zdroje** a divize, které dodávají zdroje, se nazývají **Jednotky zdrojů**. Ve většině zemí jsou společnosti povinny zajistit, aby právnická osoba nebo divize zajišťující zdroje účtovala za použití zdrojů vlastnické společnosti a smluvní jednotce.
 
 Například společnost Fabrikam musí zajistit, aby společnost Fabrikam Indie - Robotics měla sjednaný nákladový tarif se společností Fabrikam USA - Robotics nebo Fabrikam UK - Robotics.
 
@@ -82,6 +84,3 @@ V nákladovém ceníku pro společnost Fabrikam UK - Robotics lze sazby náklad�
 | Developer | Fabrikam UK | 115 GBP |
 
 Nákladový ceník může poskytovat sazby práce ve více měnách. Při generování odhadu nákladů na projekt převede Project Operations tyto nákladové sazby na projektovou měnu a zobrazí ji uživateli. Když je časová položka schválena a je vytvořena skutečná cena, bude skutečná cena oceněna v měně tohoto odpovídajícího řádku ceny role v nákladovém ceníku. Skutečné náklady za čas na jednom projektu lze zaznamenat ve více měnách. Při shrnutí nebo sečtení skutečných pracovních nákladů na úrovni projektu však aplikace Project Operations převede všechny částky pracovních nákladů do měny projektu, kterou může uživatel zobrazit.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,10 @@
 title: Plán vydávání aktualizací pro Project Service 3.x
 description: Toto téma poskytuje informace o dostupných a nadcházejících vydáních Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 10/04/2021
+ms.date: 12/07/2020
 ms.reviewer: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -14,6 +15,7 @@ author: kfend
 ms.assetid: ''
 caps.latest.revision: 42
 ms.author: rumant
+manager: annbe
 search.audienceType:
 - admin
 - customizer
@@ -22,12 +24,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a82622a30804c0c4228ebd37b89c94580cfc89e9
-ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.openlocfilehash: 05111b51d482493a8c8a1d9c9da44d6cd95fc8d2
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940926"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981370"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Plán vydávání aktualizací pro Project Service 3.x
 
@@ -37,38 +39,36 @@ ms.locfileid: "7940926"
 
 | Řešení  | Nejnovější verze |
 |-------|----|
-| Project Service Automation    | 3.10.59.117 |
-| Desktopový doplněk Project Service Automation                | 3.60          |
+| Project Service Automation    | 3.10.52.77 |
+| Desktopový doplněk Project Service Automation                | 3.15          |
 
 Vydání: Informace o dalších aktualizacích služby Project Service naleznete v části [Plány vydání Dynamics 365](/dynamics365/release-plans/). 
 
 | Stanice  | Oblast | Aktuální verze | Další verze |  Plánované datum
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stanice 1</strong> | |  |  | |
-| | <i>První vydání</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 14. ledna 2022
+| | <i>První vydání</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 28. května 2021
 |<strong>Stanice 2</strong> | |  |  | |
-| | <i>Jižní Amerika</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21. ledna 2022
-| | <i>Kanada</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21. ledna 2022
-| | <i>Indie</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21. ledna 2022
-| | <i>Francie</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21. ledna 2022
-| | <i>Jižní Afrika</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21. ledna 2022
-| | <i>Německo</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21. ledna 2022
-| | <i>Švýcarsko</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21. ledna 2022
+| | <i>Jižní Amerika</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. června 2021
+| | <i>Kanada</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. června 2021
+| | <i>Indie</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. června 2021
+| | <i>Francie</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. června 2021
+| | <i>Spojené arabské emiráty</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. června 2021
+| | <i>Jižní Afrika</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. června 2021
+| | <i>Německo</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. června 2021
+| | <i>Švýcarsko</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4. června 2021
 |<strong>Stanice 3</strong> | |  |  | |
-| | <i>Japonsko</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28. ledna 2022
-| | <i>Asie a Tichomoří</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28. ledna 2022
-| | <i>Velká Británie</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28. ledna 2022
-| | <i>Oceana</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28. ledna 2022
-| | <i>Spojené arabské emiráty</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28. ledna 2022
+| | <i>Japonsko</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07. května 2021
+| | <i>Asie a Tichomoří</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07. května 2021
+| | <i>Velká Británie (GBR)</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07. května 2021
+| | <i>Oceana</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07. května 2021
 |<strong>Stanice 4</strong> | |  |  | |
-| | <i>Evropě</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 07. ledna 2022
+| | <i>Evropě</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 14. května 2021
 |<strong>Stanice 5</strong> | |  |  | |
-| | <i>Severní Amerika</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 14. ledna 2022
+| | <i>Severní Amerika</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 21. května 2021
 |<strong>Stanice 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 14. ledna 2022
-| | <i>Vyhrazené skupiny škálování</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 21. ledna 2022
-
-
+| | <i>Government Community Cloud</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 21. května 2021
+| | <i>Vyhrazené skupiny škálování</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 28. května 2021
 
 >[!Note]
 > - Data ve všech regionech kromě cloudu komunity státní správy (GCC) označují načasování další automatické aktualizace. Data v GCC označují dostupnost verze; v současné době pro tyto oblasti neexistuje žádná automatická aktualizace.

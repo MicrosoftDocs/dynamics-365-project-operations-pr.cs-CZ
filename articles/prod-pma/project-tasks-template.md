@@ -1,10 +1,12 @@
 ---
 title: Synchronizace projektových úkolů přímo z Project Service Automation do Finance and Operations
-description: Toto téma popisuje šablonu a základní úkol, který se používají k synchronizaci projektových úkolů přímo z Microsoft Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
+description: Toto téma popisuje šablonu a základní úkol, které se používají k synchronizaci projektových úkolů přímo z Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0383607a07def6c21562bf4b0893fe3ce3db6a04
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992783"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073762"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizace projektových úkolů přímo z Project Service Automation do Finance and Operations
 
@@ -39,7 +41,7 @@ Toto téma popisuje šablonu a základní úkol, který se používají k synchr
 
 Následující obrázek ukazuje, jak jsou data synchronizována mezi Project Service Automation a Finance.
 
-[![Datový tok pro integraci Project Service Automation s Finance.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Datový tok pro integraci Project Service Automation s Finance](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>Šablona a úkol
 
@@ -80,7 +82,4 @@ Pokud musíte použít Power Query, postupujte podle těchto pokynů:
 
 Následující obrázek ukazuje příklad mapování úlohy šablony v Integraci dat. Mapování zobrazuje informace pole, které budou synchronizovány z Project Service Automation do Finance.
 
-[![Mapování šablon.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Mapování šablon](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
