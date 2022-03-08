@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b1de330df8cf85ed30c0ee4e4f2f2fe74d05dbff
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073909"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289496"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Vytváření rozšířených smluv pro fakturaci na základě pokroku
 [!include [banner](../includes/banner.md)]
@@ -103,3 +103,6 @@ Rozpočtové kategorie se používají k automatickému výpočtu částek faktu
 8. Volitelné: Přiřaďte pravidlo fakturace k dalším projektům. Na pevné záložce **Projekt** v části **Dostupné projekty** vyberte projekt a poté kliknutím na tlačítko se šipkou doprava přidejte projekt do části **Vybrané projekty**.
 9. Volitelné: Vypočítejte procentní částku, kterou zákazník zadrží z plateb na faktuře. Na pevné záložce **Podmínky zadržení platby** vyberte zdroj financování a poté v poli **Procento zádržného** zadejte procento zádržného.
 10. Opakováním těchto kroků vytvoříte další fakturační pravidla pro projektovou smlouvu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

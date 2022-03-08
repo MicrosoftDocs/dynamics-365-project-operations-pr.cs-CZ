@@ -2,18 +2,16 @@
 title: Výchozí ceníky
 description: Tento téma poskytuje informace o výchozích prodejních a nákladových cenících ve službě Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c204a8f0364a4be39974b101e834d4465b99f769
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130930"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000473"
 ---
 # <a name="default-price-lists"></a>Výchozí ceníky
 
@@ -21,7 +19,7 @@ _**Platí pro:** Project Operations scénáře založené na zdrojích / položk
 
 ## <a name="sales-price-lists"></a>Prodejní ceníky
 
-Každá nabídka a smlouva o projektu v Dynamics 365 Project Operations obsahuje výchozí prodejní ceník. 
+Každá nabídka projektu a smlouva v Dynamics 365 Project Operations obsahuje výchozí prodejní ceník. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Ceník je výchozí pro nabídky projektu
 Systém provede následující proces, aby určil, který ceník má být v nabídce projektu nastaven jako výchozí:
@@ -57,3 +55,6 @@ Ceníky nákladů nemají výchozí žádnou entitu v Project Operations. Stanov
 5. Dále systém zkoumá datovou platnost ceníků, které odpovídají datu příchozího odhadu nebo skutečného řádku. 
 6. Pokud existuje více ceníků, které jsou platné pro datum v příchozím odhadu nebo skutečné hodnotě, je vybrán naposledy vytvořený ceník.
 7. Pokud k parametrům projektu nejsou připojeny žádné nákladové ceníky, které odpovídají měně a datu platnosti, systém nastaví výchozí hodnotu nákladové sazby na nulu (0) na příchozím odhadu nebo skutečném řádku.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

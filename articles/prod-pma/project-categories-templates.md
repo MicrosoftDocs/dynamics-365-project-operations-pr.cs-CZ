@@ -2,11 +2,9 @@
 title: Synchronizace kategorií výdajů projektu mezi aplikacemi Finance and Operations a Project Service Automation
 description: Toto téma popisuje šablony a základní úkoly, které se používají k synchronizaci kategorií výdajů projektu mezi aplikacemi Microsoft Dynamics 365 Finance a Dynamics 365 Project Service Automation.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073919"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001108"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synchronizace kategorií výdajů projektu mezi aplikacemi Finance and Operations a Project Service Automation
 
@@ -58,7 +56,7 @@ Pokud jsou kategorie výdajů na projekt řízeny v aplikaci Project Service Aut
 
 Následující obrázek ukazuje, jak jsou data synchronizována mezi Project Service Automation a Finance.
 
-[![Datový tok pro integraci Project Service Automation s Finance](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Datový tok pro integraci Project Service Automation s Finance.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>Synchronizace kategorií výdajů projektu z Finance do Project Service Automation
 
@@ -95,7 +93,7 @@ Když provádíte synchronizaci do Project Service Automation, musíte použít 
 
 Následující obrázek ukazuje příklad mapování úlohy šablony v Integraci dat. Mapování zobrazuje informace pole, které budou synchronizovány z Finance do Project Service Automation.
 
-[![Mapování šablon kategorií výdajů projektu na šablony Project Service Automation](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![Mapování šablon kategorií výdajů projektu na šablony Project Service Automation.](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>Synchronizace kategorií výdajů projektu z Project Service Automation do Finance
 
@@ -123,4 +121,7 @@ Následující obrázek ukazuje příklad mapování úlohy šablony v Integraci
 > [!NOTE]
 > Mapování zobrazuje informace pole, které budou synchronizovány z Project Service Automation do Finance.
 
-[![Mapování šablon Project Service Automation na šablony Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+[![Mapování šablon Project Service Automation na šablony Finance.](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

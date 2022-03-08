@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841319"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287005"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Vytvoření strukturovaného rozpisu prací (WBS)
 
@@ -93,6 +93,8 @@ V následující tabulce jsou uvedeny další atributy plánu.
 | Jméno | Název úkolu. |
 | ID | Identifikátor úkolu ve strukturovaném rozpisu prací. |
 
+Jako správce můžete definovat vlastní pole v entitě úlohy. Pole však nelze zobrazit v mřížce plánu. Chcete-li zobrazit svá vlastní pole, přidejte je na stránku s podrobnostmi **Projektový úkol**.
+
 ## <a name="staffing-attributes"></a>Personální atributy
 
 K atributům personálního obsazení se přistupuje prostřednictvím pole **Zdroje** v plánu. Můžete buď vyhledat existující zdroj, nebo vybrat **Vytvořit** a v podokně **Vytvořit** přidat člena projektového týmu jako nový zdroj.
@@ -116,3 +118,6 @@ Režim úkolu nemá žádný vliv na aktualizace dat zahájení a ukončení př
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Usnadnění a klávesové zkratky
 
 Mřížka **Plán** je plně přístupná a lze ji použít se čtečkami obrazovky, jako jsou např. Narrator, JAWS nebo NVDA. Oblast mřížky můžete procházet pomocí kláves se šipkami (jako v aplikaci Microsoft Excel), pomocí klávesy Tab můžete procházet interaktivní prvky uživatelského rozhraní a pomocí klávesy se šipkou dolů, klávesy Enter nebo mezerníku vybrat a otevřít rozevírací nabídky.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

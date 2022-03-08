@@ -1,42 +1,27 @@
 ---
-title: Vytvoření manuální proforma faktury
-description: Toto téma poskytuje informace o vytvoření proforma faktury.
+title: Proforma faktury
+description: Tento téma poskytuje informace o proforma fakturách v Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128050"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866853"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Vytvoření manuální proforma faktury
+# <a name="proforma-invoices"></a>Proforma faktury
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-Fakturace poskytuje projektovým manažerům druhou úroveň schválení před tím, než vytvoří faktury pro zákazníky. První úroveň schválení je dokončena schválením časových a výdajových záznamů, které odešlou členové projektového týmu.
+Proforma fakturace je užitečná, protože projektovým manažerům poskytuje druhou úroveň schválení před tím, než vytvoří faktury pro zákazníky. První úroveň schválení je dokončena schválením časových, výdajových a materiálových záznamů, které odešlou členové projektového týmu. Potvrzené proforma faktury jsou k dispozici v modulu Project Accounting v Project Operations. Účetní projektu mohou provádět další aktualizace, jako je například DPH, účtování a rozložení faktur.
 
-Řešení Dynamics 365 Project Operations není navrženo pro generování zákaznických faktur, a to z následujících důvodů:
-
-- Neobsahuje daňové informace.
-- Neumí pomocí správně nakonfigurovaných směnných kurzů převést jiné měny na fakturační měnu.
-- Neumí správně formátovat faktury, aby je bylo možné vytisknout.
-
-Místo toho můžete k vytvoření zákaznických faktur, které používají informace vygenerované z návrhů faktu, použít finanční nebo účetní systém.
 
 ## <a name="creating-project-invoices"></a>Vytvoření projektových faktur
 
@@ -50,7 +35,7 @@ Chcete-li vytvořit fakturu pro konkrétní projektovou smlouvu, postupujte podl
 
 - Na stránce se seznamem **Projektových smluv** otevřete projektovou smlouvu a pak vyberte **Vytvořit fakturu**.
 
-    Je vygenerována faktura pro všechny transakce vybrané projektové smlouvy, které mají stav **Připraveno k fakturaci**. Tyto transakce zahrnují čas, výdaje, milníky a řádky smlouvy založené na produktu.
+    Je vygenerována faktura pro všechny transakce vybrané projektové smlouvy, které mají stav **Připraveno k fakturaci**. Tyto transakce zahrnují čas, výdaje, materiály, milníky a další nevyfakturované řádky prodejního deníku.
 
 Chcete-li vytvořit faktury hromadně, postupujte následovně.
 
@@ -60,7 +45,7 @@ Chcete-li vytvořit faktury hromadně, postupujte následovně.
 
 2. Výběrem **OK** zavřete dialogové okno.
 
-    Je vygenerována faktura pro všechny transakce na řádku smlouvy, které mají stav **Připraveno k fakturaci**. Tyto transakce zahrnují čas, výdaje, milníky a řádky smlouvy založené na produktu.
+    Je vygenerována faktura pro všechny transakce na řádku smlouvy, které mají stav **Připraveno k fakturaci**. Tyto transakce zahrnují čas, výdaje, materiály, milníky a další nevyfakturované řádky prodejního deníku.
 
 3. Chcete-li zobrazit generované faktury, přejděte do **Prodej** \> **Fakturace** \> **Faktury**. Pro každou projektovou smlouvu se zobrazí jedna faktura.
 
@@ -93,11 +78,10 @@ Proces **ProcessRunner** po svém dokončení volá proces **ProcessRunCaller**,
  
 ### <a name="edit-a-draft-invoice"></a>Úprava konceptu faktury
 
-Když vytváříte koncept projektové faktury, jsou všechny nefakturované prodejní transakce, které byly vytvořeny při schválení časových a výdajových záznamů, načteny do faktury. Dokud je faktura stále ve fázi konceptu, můžete provést následující úpravy:
+Když vytváříte koncept projektové faktury, jsou všechny nefakturované prodejní transakce, které byly vytvořeny při schválení záznamů času, výdajů a využití materiálu, načteny do faktury. Dokud je faktura stále ve fázi konceptu, můžete provést následující úpravy:
 
 - Odstranit nebo upravit podrobnosti řádku faktury.
 - Upravit a přizpůsobit množství a typ fakturace.
-- Přímo přidat čas, náklady a poplatky jako transakce na faktuře. Tuto funkci můžete použít v případě, že je řádek faktury namapován na řádek smlouvy, který umožňuje tyto třídy transakcí.
 
 Chcete-li fakturu potvrdit, vyberte **Potvrdit**. Akce Potvrdit představuje jednosměrnou akci. Když vyberete **Potvrdit**, systém nastaví fakturu jen pro čtení a vytvoří skutečné fakturované hodnoty z každé podrobnosti řádku faktury pro každý řádek faktury. Pokud podrobnosti řádku faktury odkazují na nefakturovanou skutečnou hodnotu prodeje, tak systém také stornuje nefakturovanou skutečnou hodnotu prodeje. (Všechny podrobnosti řádku faktury vytvořené z časových nebo výdajových záznamů budou odkazovat na nefakturovanou skutečnou hodnotu prodeje.) Systémy integrace hlavní knihy mohou toto storno použít ke zrušení probíhající práce (WIP) pro účetní účely.
 
@@ -111,3 +95,6 @@ Po potvrzení opravné faktury se původní skutečná hodnota fakturovaného pr
 
 - Fakturovaná skutečná hodnota prodeje pro 6 hodin.
 - Skutečná hodnota nefakturovaného prodeje pro zbývající dvě hodiny. Tato transakce může být buď fakturována později, nebo označena jako neúčtovatelná, v závislosti na jednáních se zákazníkem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

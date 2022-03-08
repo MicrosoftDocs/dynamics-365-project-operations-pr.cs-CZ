@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 205363d2ea5f1f5bf5fa8879cedd5b3e857eb772
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181894"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278005"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Správa více zákazníků na řádcích smlouvy na základě projektu
 
@@ -44,3 +44,6 @@ Níže jsou pole v záznamu zákazníka na řádku smlouvy pro řádek smlouvy n
 Procenta rozdělení fakturace lze upravit v mřížce. Pokud procentuální rozdělení fakturace nedosáhne 100 procent, dojde k chybě. Po úpravě procentuálního rozdělení fakturace aktualizujte stránku, abyste chybu opravili.
 
 Můžete také zkusit vybrat **Rovnoměrně rozdělit** v podmřížce zákazníka na řádku smlouvy. Tato akce rovnoměrně rozdělí fakturaci všem zákazníkům na řádku smlouvy. Pokud existuje nějaký faktor zaokrouhlování, bude přidán k zákazníkovi pro zaokrouhlování. Jeden zákazník na řádku smlouvy je vždy označen jako zákazník pro **Zaokrouhlování** s příznakem **Zaokrouhlování** nastaveným na **Ano**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

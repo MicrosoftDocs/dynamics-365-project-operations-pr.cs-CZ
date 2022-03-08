@@ -2,24 +2,22 @@
 title: Konfigurace integrace Project Operations podle právnické osoby
 description: Toto téma poskytuje informace o tom, jak nastavit integraci podle právnické osoby v aplikaci Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122875"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999398"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfigurace integrace Project Operations podle právnické osoby 
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-Toto téma vás provede kroky potřebnými ke konfiguraci Dynamics 365 Project Operations podle právnické osoby.
+Toto téma vás provede kroky potřebnými ke konfiguraci Dynamics 365 Project Operations pro právnickou osobu.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Povolení klíče oprávnění v Dynamics 365 Finance
 
@@ -51,3 +49,6 @@ Každá právnická osoba využívající Project Operations v Dynamics 365 Cust
   - **Výchozí hodnoty typu účtování**: Project Operations používá pevnou sadu výchozích typů účtování, které musejí být mapovány na vlastnosti řádku ve Finance. Vytvořte záznam pro každý typ účtování: **Nezadáno**, **Účtovatelné**, **Neúčtovatelné**, **Doplňkové** a **Není dostupné**.
   - **Výchozí nastavení kategorie projektu**: Vyberte výchozí kategorie projektu, které se mají použít pro každý typ transakce. Tyto výchozí hodnoty budou použity v **Deníku integrace Project Operations** a v odhadech, kde není pro skutečný projekt zadána žádná kategorie transakcí.
   - **Prognózy** : Vyberte model prognózy, který se použije pro odhady času a výdajů.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

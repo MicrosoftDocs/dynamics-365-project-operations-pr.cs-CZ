@@ -2,18 +2,16 @@
 title: Mapování projektů a úkolů na řádek smlouvy na základě projektu – omezené
 description: Tohle téma poskytuje informace, jak přidávat a odebírat projekty a úkoly na řádek smlouvy.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4737f9870904bfc7adac11b8e2aa13bb8c610ca3
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 6ce99e6f770c5eb39e5f2740a861721cf3d210ac9743bbd9d2a1e1a7236f368c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858040"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989723"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Mapování projektů a úkolů na řádky smlouvy na základě projektů 
 

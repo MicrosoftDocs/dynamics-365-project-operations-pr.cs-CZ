@@ -1,21 +1,21 @@
 ---
-title: Správa více zákazníků na projektové nabídce
+title: Správa více zákazníků v projektových nabídkách
 description: Toto téma poskytuje informace o práci na nabídkách zahrnujících více zákazníků, kteří budou financovat projekt.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181984"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073634"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Správa více zákazníků na projektové nabídce
+# <a name="manage-multiple-customers-on-project-quotes"></a>Správa více zákazníků v projektových nabídkách
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
@@ -35,7 +35,7 @@ Primární zákazník by neměl být aktualizován ze seznamu zákazníků v nab
 
 Zákazník nabídky může být vytvořen, aktualizován nebo odstraněn na kartě **Zákazníci nabídky** na stránce **Nabídka**. Pole uvedená v následující tabulce se nacházejí v záznamu zákazníka nabídky patřícího do projektové nabídky.
 
-| **Pole** | **Umístění** | **Popis** | **Dopad na příjem dat** |
+| **Pole** | **Umístění** | **Relevance, účel a vedení** | **Dopad na následné složky** |
 | --- | --- | --- | --- |
 | Účet | Upravitelná mřížka na kartě **Zákazníci nabídky** a formuláře **Hlavní** a **Vytvořit** pro zákazníka nabídky. | Vypíše seznam všech aktivních účtů. Po vytvoření záznamu je toto pole uzamčeno. Chcete-li jej aktualizovat, odstraňte záznam a znovu jej vytvořte. Pokud jste zaznamenali nějaké skutečnosti nebo pokud je záznam zákazníka nabídky primárním zákazníkem, budete moci záznam odstranit. | Po vytvoření řádku nabídky se zákazníci nabídky zkopírují k zákazníkům řádku nabídky. Po získání nabídky se také zákazníci nabídky zkopírují k zákazníkům projektové smlouvy. |
 | Procento rozdělení fakturace | Upravitelná mřížka na kartě **Zákazníci nabídky** a formuláře **Hlavní** a **Vytvořit** pro zákazníka nabídky. | Představuje procento z každé nevyfakturované prodejní transakce, která bude připsána tomuto zákazníkovi nabídky. | Zkopírováno do nově vytvořených řádků nabídek a do zákazníků projektové smlouvy. |
@@ -50,4 +50,4 @@ Zákazník nabídky může být vytvořen, aktualizován nebo odstraněn na kart
 
 Procenta rozdělení fakturace se dají upravit v prostředí in-line úprav v mřížce. Pokud součet procent rozdělení fakturace není 100%, dojde k chybě. Po aktualizaci procent rozdělení fakturace chybu odstraníte aktualizací stránky.
 
-Můžete také zkusit vybrat **Rovnoměrně rozdělit** v podmřížce zákazníků nabídky. Tato akce přiděluje rozdělení fakturace všem zákazníkům nabídky. Pokud existuje zaokrouhlovací faktor, bude přidán k zaokrouhlovacímu zákazníkovi. Jeden ze zákazníků nabídky je vždy označen jako zaokrouhlující zákazník. To znamená, že záznam zákazníka nabídky má příznak **Zaokrouhlování** nastaven na **Ano**. Obvykle se jedná o primárního zákazníka nabídky, ale lze to změnit.
+Můžete také zkusit vybrat možnost **Rovnoměrně distribuovat** v podřízené mřížce zákazníků nabídky. Tato akce přiděluje rozdělení fakturace všem zákazníkům nabídky. Pokud existuje zaokrouhlovací faktor, bude přidán k zaokrouhlovacímu zákazníkovi. Jeden ze zákazníků nabídky je vždy označen jako zaokrouhlující zákazník. To znamená, že záznam zákazníka nabídky má příznak **Zaokrouhlování** nastaven na **Ano**. Obvykle se jedná o primárního zákazníka nabídky, ale lze to změnit.

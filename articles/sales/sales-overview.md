@@ -1,23 +1,29 @@
 ---
-title: Přehled prodejního procesu
+title: Přehled prodejních procesů
 description: Toto téma poskytuje informace o základních prodejních procesech.
 author: rumant
-manager: Annbe
-ms.date: 10/29/2020
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 09/23/2019
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.prod: ''
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app: ''
+ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177593"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073979"
 ---
-# <a name="sales-process-overview"></a>Přehled prodejního procesu
-
-_**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
+# <a name="sales-processes-overview"></a>Přehled prodejních procesů
 
 Prodejní procesy používané v organizaci založené na projektech se liší od prodejních procesů používaných v organizaci založené na produktech. K tomuto rozdílu dochází proto, že prodejní cykly pro organizace založené na projektech jsou delší a vyžadují pro analýzu a vytváření nabídek pro jednotlivé obchody přizpůsobené techniky odhadu. Dynamics 365 Project Operations používá některé z následujících funkcí, které se používají v prodejním procesu:
 

@@ -2,19 +2,17 @@
 title: Zřízení nového prostředí
 description: Toto téma poskytuje informace o zřízení nového prostředí Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727782"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995478"
 ---
 # <a name="provision-a-new-environment"></a>Zřízení nového prostředí
 
@@ -36,7 +34,7 @@ Pomocí následujících kroků povolíte tok automatického zřizování Projec
 
 ## <a name="provision-a-project-operations-environment"></a>Zřízení prostředí Project Operations
 
-1. Otevřete nové [demo prostředí Dynamics 365 Finance](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) nebo nasazení [sandboxu / produkčního prostředí](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Otevřete nové [demo prostředí Dynamics 365 Finance](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) nebo nasazení [sandboxu / produkčního prostředí](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Projděte jednotlivé obrazovky průvodce **Zřízení prostředí**. 
 
 > [!IMPORTANT]
@@ -209,3 +207,6 @@ Pokud jste použili ukázková data v prostředí Finance, viz [Nastavení a pou
 
 
 Vaše prostředí Project Operations je nyní zřízeno a nakonfigurováno. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,12 +2,10 @@
 title: Přidat nové vlastní formuláře entit (Project Service Automation 2.x)
 description: Toto téma obsahuje informace o způsobu přidávání vlastních formulářů entit pro příležitosti, nabídky, objednávky nebo faktury v Dynamics 365 Project Service Automation 2.x.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144585"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995213"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Přidat nové vlastní formuláře entit (Project Service Automation 2.x)
 
@@ -59,7 +57,7 @@ Chcete-li vytvořit vlastní verzi formuláře **Informace o projektu**, postupu
     - Exportujte formulář **Mé informace o projektu** jako součást nespravovaného řešení a potom vyhledejte v souboru customization.xml exportovaného řešení hodnotu **formId**.
     - Otevřete formulář **Mé informace o projektu** v editoru formulářů a potom vyhledejte globálně jedinečný identifikátor (GUID) vedle parametru **fromId** v adrese URL, jak je znázorněno na následujícím obrázku.
 
-    ![Hodnota formId nového formuláře v adrese URL](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Hodnota formId nového formuláře v adrese URL.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Vytvořte mapování **msdyn\_ordertype** pro hodnotu **formId** pomocí úprav webového prostředku msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Odeberte kód ze zdroje a nahraďte jej následujícím kódem.
 
@@ -96,3 +94,6 @@ Chcete-li vytvořit vlastní verzi formuláře **Informace o projektu**, postupu
     ```
 
 6. Uložte a poté publikujte vlastní nastavení.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

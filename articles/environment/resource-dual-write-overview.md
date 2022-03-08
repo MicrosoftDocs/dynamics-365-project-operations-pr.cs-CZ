@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 540b6f74d8e79116e5fdb2ceffaa4bbb487ff08f
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007903"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368423"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Přehled integrace duálního zápisu Project Operations
 
@@ -23,7 +23,7 @@ Project Operations používá [funkce duálního zápisu](/dynamics365/fin-ops-c
 
 Následující obrázek ukazuje, jak jsou data synchronizována jako součást této integrace mezi Dataverse a Finance.
 
-![Přehled toků dat Project Operations.](./media/ProjectOperationsFlows.jpg)
+![Přehled toků dat Project Operations](./media/ProjectOperationsFlows.jpg)
 
 Project Operations na Dataverse poskytuje moderní uživatelské rozhraní (UI) a snadnou rozšiřitelnost bez kódování / s malým množstvím kódování pomocí funkcí Power Platform. Projektoví manažeři, Resource manageři, členové projektového týmu a další personální pracovníci komunikující se zákazníky vykonávají své činnosti v Project Operations na Dataverse.
 

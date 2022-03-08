@@ -2,18 +2,16 @@
 title: Řádky příležitosti založené na projektu
 description: Toto téma poskytuje informace o práci s řádky příležitosti založené na projektu.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181939"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996338"
 ---
 # <a name="project-based-opportunity-lines"></a>Řádky příležitosti založené na projektu
 
@@ -33,3 +31,6 @@ Níže jsou vyjmenována pole v řádku příležitosti založené na projektu:
 | Jméno | Karta Obecné | Toto je upravitelné textové pole, ve kterém lze této řádkové položce zadat krátkou identitu | Tato hodnota se přenese do řádku nabídky, když vytvoříte nabídku z této příležitosti |
 | Rozpočet zákazníka | Karta Obecné | Toto upravitelné pole měny lze použít ke sledování částky, kterou je zákazník ochoten za tuto řádkovou položku utratit. | Tato hodnota se přenese do odpovídajícího pole v řádku nabídky, když vytvoříte nabídku z této příležitosti |
 | Způsob fakturace | Karta Obecné | Toto upravitelné pole může obsahovat následující hodnoty:</br>- Čas a materiál</br>- Pevná cena | Tato hodnota se přenese do odpovídajícího pole v řádku nabídky, když vytvoříte nabídku z této příležitosti. Po vytvoření řádku nabídky je pole uzamčeno a nelze jej změnit. Přiřaďte tuto hodnotu pole co nejpřesněji. Pokud potřebujete změnit hodnotu tohoto pole v řádku nabídky, odstraňte a znovu vytvořte řádek nabídky. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Nastavení ceníků
 description: Toto téma obsahuje informace o způsobu nastavení nákladových a prodejních ceníků.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180184"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009478"
 ---
 # <a name="set-up-price-lists"></a>Nastavení ceníků
 
@@ -40,3 +38,6 @@ Následující tabulka obsahuje pole na kartě **Všeobecné** ceníku, která j
 | Měna | Karta **Všeobecné** a formuláře **Vytvořit** | Toto pole se používá jako výchozí měna pro každý řádek role, kategorie nebo položky ceníku vztahující se k tomuto ceníku. | U ceníků s kontextem **Prodej** nelze řádky role, kategorie nebo položky ceníku vytvořit v jiné měně než v této. U ceníků s kontextem **Náklady** můžete vytvořit řádek ceny role v jakékoli měně. Zde definovaná měna se použije jako výchozí. Uživatelské nastavení, které souvisí s cenami rolí, může přepsat tuto hodnotu a povolit nastavení sazby nákladů práce v jakékoli měně. Sazby nákladů kategorie a náklady položky ceníku lze nastavit pouze v měně definované zde. |
 | Časová jednotka | Karta **Všeobecné** a formuláře **Vytvořit** | Toto pole se používá jako výchozí časová jednotka pro každý řádek role vztahující se k tomuto ceníku. | Tato hodnota pole se používá pouze při nastavení ceny související role. U ceníků s kontextem **Náklady** a **Prodej** můžete vytvořit řádek ceny role v jakékoli časové jednotce. Zde definovaná časová jednotka se použije jako výchozí. Uživatelské nastavení souvisejících cen rolí může přepsat tuto hodnotu a povolit nastavení sazby nákladů práce a fakturace v jakékoli časové jednotce. |
 | Popis | Karta **Všeobecné** a formuláře **Vytvořit** | Toto textové pole umožňuje vytvořit víceřádkový popis ceníku. | Toto pole je zobrazeno v **Přidružených** zobrazeních ceníků v různých entitách, které mají související ceníky. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Fáze projektu
 description: Tento téma poskytuje informace o projektových fázích dostupných v Microsoft Dynamics Project Operations.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: aa3d692a46165b01eafbd7619578cead8dd912d6
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 079c3d2d16cf802d2b9ecc779577e6e390d92ddc
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127465"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996918"
 ---
 # <a name="project-stages"></a>Fáze projektu
 
@@ -63,3 +61,6 @@ Po dokončení práce na projektu může projektový manažer aktualizovat fázi
 
 Jakmile jsou všechny transakce pro projekt zaznamenány, může projektový manažer aktualizovat fázi na **Zavřít**. V tomto okamžiku nelze zaznamenat žádné transakce a projekt je nastaven jen pro čtení.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

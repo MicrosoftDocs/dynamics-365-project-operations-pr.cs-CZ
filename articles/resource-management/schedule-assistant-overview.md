@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e14dbe5abb69a547e2d09ef9e6bcba48e1f89455
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073636"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279220"
 ---
 # <a name="schedule-assistant-overview"></a>Přehled pomocníka plánování
 
@@ -25,7 +25,7 @@ Poté, co jsou identifikovány vhodné zdroje, může manažer zdrojů nebo proj
 
 ## <a name="prerequisites"></a>Požadavky
 
-Pomocník plánování je součástí řešení Universal Resource Scheduling. Toto řešení je součástí a instalováno spolu s Dynamics 365 Project Operations, Dynamics 365 Field Service a Dynamics 365 Customer Service.
+Pomocník plánování je součástí řešení Universal Resource Scheduling. Toto řešení je součástí a je instalované s Dynamics 365 Project Operations, Dynamics 365 Field Service a Dynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>Odpovídající požadavky a zdroje
 
@@ -57,3 +57,6 @@ Podokno filtru zobrazuje možnosti související s prací, včetně:
 -   Společnost poskytující zdroje
 -   Typy zdrojů
 -   Preferované zdroje
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,25 +2,23 @@
 title: Nákladové řádky nabídky založené na produktu
 description: Toto téma poskytuje informace o použití nákladové ceny na řádku nabídky založené na produktu.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d21ab159294cac66ffeb8abcf0943b4babd7b360
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d9c03fa1a8f43cc110565efbafd7f5aba69f65f96bec7f15f2bd492123f639c7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118915"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001873"
 ---
 # <a name="costing-product-based-quote-lines"></a>Nákladové řádky nabídky založené na produktu
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
 
-Produktové řádky nabídek v Dynamics 365 Project Operations mají také pole **Nákladová cena**. Toto pole se používá ke sledování nákladové ceny produktu na řádku nabídky a pro výpočty následné ziskovosti.
+Produktové řádky nabídek v Dynamics 365 Project Operations mají také pole také **Ceník**. Toto pole se používá ke sledování nákladové ceny produktu na řádku nabídky a pro výpočty následné ziskovosti.
 
 Když je pro katalogový produkt vytvořen řádek nabídky založené na produktu, náklady na řádek nabídky založené na produktu jsou ve výchozím stavu přebírány z pole **Standardní náklady** v katalogu produktů. Pole standardních nákladů v katalogu produktů je nastaveno v základní měně organizace. Výchozí jednotková cena na řádku nabídky na základě produktu se převede na měnu prodeje v nabídce.
 
@@ -33,3 +31,6 @@ Příklad:
 Fabrikam Robotics instaluje robotická ramena na montážní linky společnosti A Datum Corporation. Fabrikam poskytuje instalační služby, ale robotická ramena jsou získávána z Trey Robotics. Pokud instalace robotických ramen ve společnosti A Datum Corporation otevře novou průmyslovou vertikálu pro robotická ramena společnosti Trey, mohl by Trey poskytnout speciální slevu na tento kontrakt společnosti Fabrikam.
 
 V tomto případě Fabrikam vytvoří produktovou nabídku pro robotická ramena a pro tuto nabídku zadá speciální cenu za jednotku. Tato cena se liší od standardní ceny společnosti Trey Robotic Arms.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

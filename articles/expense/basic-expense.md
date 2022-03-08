@@ -2,18 +2,16 @@
 title: Položka výdajů (omezené)
 description: Tento téma poskytuje informace o tom, jak pracovat se zadáním výdajů v omezeném nasazení.
 author: stsporen
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
-ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
+ms.openlocfilehash: e75a61c25be06a9db121e8165e8ccd25d4719d08
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4590938"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002183"
 ---
 # <a name="expense-entry-lite"></a>Položka výdajů (omezené)
 
@@ -55,3 +53,6 @@ Výdaje, které dosud nebyly odeslány, lze smazat. Chcete-li odstranit již ode
 ## <a name="see-also"></a>Viz také
 
 - [Přehled schválení](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

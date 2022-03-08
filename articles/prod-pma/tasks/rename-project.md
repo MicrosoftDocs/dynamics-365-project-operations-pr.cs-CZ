@@ -2,11 +2,9 @@
 title: Přejmenujte nebo upravte fázi projektu
 description: Tato úloha ukazuje, jak přejmenovat nebo upravit fázi projektu.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/07/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac9f18a62b21af930005b1c4a60428696ea470e3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 664c1044c1ff23e892d7f90d255517b22cfa1a5656670efa1bf15339c5ae2112
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073959"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998903"
 ---
 # <a name="rename-or-modify-a-project-stage"></a>Přejmenujte nebo upravte fázi projektu
 
@@ -35,3 +33,6 @@ Fáze projektu mohou sloužit jako vodítko pro životní cyklus projektu. Fáze
 4. Ze seznamu vyberte předdefinovanou nebo uživatelsky definovanou fázi, kterou si přejete změnit. 
 5. Do pole Fáze projektu zadejte nový název.
 6. Klikněte na tlačítko Uložit.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

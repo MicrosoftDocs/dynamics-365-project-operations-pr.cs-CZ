@@ -2,10 +2,9 @@
 title: Přehled skutečných hodnot
 description: Toto téma poskytuje informace o skutečných hodnotách projektu.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 08/03/2020
 ms.topic: article
 ms.author: rumant
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 63ad6544f0ec0a893aebd8d81f3ee895e51c294e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146115"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992468"
 ---
 # <a name="actuals-overview"></a>Přehled skutečných hodnot
 
@@ -33,7 +32,7 @@ ms.locfileid: "5146115"
 
 Skutečné hodnoty jsou množství práce dokončené v projektu. Skutečné hodnoty projektu lze sledovat zpět do jejich zdrojových dokumentů. Tyto zdrojové dokumenty obsahují čas, výdaje, položky deníku a také faktury.
 
-![Způsob sledování skutečných hodnot projektu do zdrojových dokumentů](media/basic-guide-18.png)
+![Způsob sledování skutečných hodnot projektu do zdrojových dokumentů.](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>Odeslání časového záznamu.
 
@@ -330,3 +329,6 @@ PSA zaznamenává finanční transakce, které nastanou během projektu. Tyto tr
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

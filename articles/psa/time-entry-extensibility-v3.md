@@ -2,8 +2,6 @@
 title: Přizpůsobení týdenních časových záznamů
 description: Toto téma obsahuje informace o způsobu implementace vlastních obchodních pravidel, která podporují postupy organizace.
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149625"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002278"
 ---
 # <a name="customize-weekly-time-entry"></a>Přizpůsobení týdenních časových záznamů 
 
@@ -132,3 +130,6 @@ Ověření modulu plug-in byste měli použít pro jakákoli ověření vyžaduj
 
 > [!IMPORTANT] 
 > V současné době je známý problém na stránkách TBX, který uživatelům brání v opravě informací a opětovném výběru položky Hotovo v případě, že aktualizace selže při ověřování modulu plug-in. Tento problém odstraníte, pokud nastavíte ověřování obchodních pravidel tak, aby této situaci v maximální možné míře zabránilo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992826"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007138"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Zobrazení fakturovatelného využití zdrojů
 
@@ -29,7 +29,7 @@ ms.locfileid: "5992826"
  
 **Zobrazení využití** na stránce **Využití zdrojů v Project Service** zobrazuje fakturovatelné využití pro každý rezervovatelný zdroj. Protože je zobrazení založeno na plánovací vývěsce, naleznete tam mnoho stejných funkcí.
 
-> ![Obrazovka Zobrazení využití](media/FAQ-utilization-1.png)
+> ![Obrazovka Zobrazení využití.](media/FAQ-utilization-1.png)
  
 
 Výpočet fakturovatelného využití probíhá takto:
@@ -48,7 +48,7 @@ Cílové využití může být nastaveno na výchozí roli zdroje nebo na samotn
 2. Vyberte zdroj pro otevření záznamu. 
 3. Na kartě **Project Service** můžete nastavit cílové využití zdroje.
 
-> ![Snímek obrazovky s použitím karty Project Service pro nastavení cílového využití](media/FAQ-utilization-2.png)
+> ![Snímek obrazovky s použitím karty Project Service pro nastavení cílového využití.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Nastavení cílového využití u role
 
@@ -56,7 +56,7 @@ Cílové využití může být nastaveno na výchozí roli zdroje nebo na samotn
 2. Vyberte roli a otevřete záznam. 
 3. Nastavte cílové využití pro roli.
 
-> ![Snímek obrazovky s použitím možnosti Role zdroje pro nastavení cílového využití](media/FAQ-utilization-3.png)
+> ![Snímek obrazovky s použitím možnosti Role zdroje pro nastavení cílového využití.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Výpočet fakturovatelného využití zdroje
 

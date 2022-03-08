@@ -2,24 +2,22 @@
 title: Uzavření nabídky
 description: Toto téma poskytuje informace o uzavření nabídek v aplikaci Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f46bf61bc3e492a648d65e86750a25609d5ab7a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124675"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995928"
 ---
 # <a name="close-a-quote"></a>Uzavření nabídky
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-Nabídku projektu lze uzavřít jako Získanou nebo Ztracenou. Vzhledem k tomu, že operace Aktivovat and Revidovat v nabídkách nejsou v Microsoft Dynamics 365 Project Operations podporovány, lze koncept nabídky uzavřít.
+Nabídku projektu lze uzavřít jako Získanou nebo Ztracenou. Koncept nabídky lze uzavřít, protože funkce Aktivace a Revize nabídek nejsou v Microsoft Dynamics 365 Project Operations podporovány.
 
 ## <a name="close-a-quote-as-won"></a>Uzavření nabídky jako získané
 
@@ -43,3 +41,6 @@ Pokud má projektová nabídka, která je uzavřená jako ztracená, obsahuje na
 
 > [!NOTE]
 > V Project Operations nebude mít uzavření nabídky jako získané nebo ztracené vliv na tento stav příležitosti, která zůstane otevřená, dokud nebude ručně uzavřena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

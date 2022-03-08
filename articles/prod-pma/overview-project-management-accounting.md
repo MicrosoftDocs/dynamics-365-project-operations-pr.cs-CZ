@@ -2,11 +2,9 @@
 title: Přehled řízení projektů a účetnictví
 description: Funkci řízení projektů a účetnictví lze použít v různých průmyslových odvětvích k poskytování služeb, výrobě produktu nebo dosažení výsledku.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a6d3b9eb97fce836e5b2310714d8f731b2c09e6c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073923"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008123"
 ---
 # <a name="project-management-and-accounting-overview"></a>Přehled řízení projektů a účetnictví
 
@@ -205,7 +203,7 @@ Můžete si objednat položky z majetku společnosti pro spotřebu v projektu. P
 
 Způsob objednávání položek závisí na tom, odkud je objednáváte:
 
--   Chcete-li objednat položky z majetku společnosti, musíte zadat objednávku jako požadavek na položku. Pokud používáte stránku **Požadavky na položku**, můžete nastavit požadavek, abyste dostávali zboží jako dílčí dodávky.Proto můžete odložit spotřebu určitého množství položek, dokud položky nebudou vyžadovány.
+-   Chcete-li objednat položky z majetku společnosti, musíte zadat objednávku jako požadavek na položku. Pokud používáte stránku **Požadavky na položku**, můžete nastavit požadavek, abyste dostávali zboží jako dílčí dodávky. Proto můžete odložit spotřebu určitého množství položek, dokud položky nebudou vyžadovány.
 -   Chcete-li objednat zboží od externího dodavatele, musíte vytvořit objednávku jako nákupní objednávku na stránce **Nákupní objednávka**.
 
 > [!NOTE] 
@@ -227,7 +225,7 @@ Typ projektu určuje, který postup fakturace by se měl použít. Fakturovat lz
 Před vytvořením faktury zákazníka pro projekt můžete vytvořit předběžnou fakturu nebo návrh faktury. V návrhu faktury můžete vybrat transakce projektu, které chcete zahrnout do faktury projektu. Poté můžete zkontrolovat fakturační údaje, než odešlete fakturu projektu a odeslat ji zákazníkovi nebo jinému zdroji financování. 
 
 
-Další informace o zpracování faktur projektu naleznete v tématu [Fakturace projektu](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Další informace o zpracování faktur projektu naleznete v tématu [Fakturace projektu](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Vypočítání nákladů na dokončení projektu
@@ -300,7 +298,7 @@ Na základě nastavení můžete předpovědět příliv hotovosti pro vybraný 
 -   **Datum projektu:** 5. března 2012.
 -   **Datum faktury:** 31. března 2012. Toto datum se určuje na základě četnosti faktur. V tomto příkladu nastavíte četnost fakturace na aktuální měsíc. Proto jsou všechny transakce zaúčtované v měsíci březnu fakturovány poslední den v měsíci.
 -   **Termín splnění:** 14. dubna 2012. Toto datum je určeno na základě platebních podmínek stanovených pro projekt. V tomto příkladu jste vybrali platební podmínky 14 dnů. Proto je k datu faktury přidáno 14 dní, aby se dospělo ke dni splatnosti 14. dubna 2012.
--   **Očekávané datum platby prodeje:** 27.dubna 2012. Toto datum se počítá sečtením počtu dnů v poli **Obecná data ukládání do vyrovnávací paměti** na stránce **Parametry řízení projektu a účetnictví** na počet dní v poli **Jednotlivé dny vyrovnávací paměti** na stránce **Smlouvy o projektu** a poté přidáním součtu k počtu dní v poli **Datum splatnosti**. V tomto příkladu jste zadali **3** v poli **Obecné dny ukládání do vyrovnávací paměti** a **10** v poli **Jednotlivé dny vyrovnávací paměti**. Proto je k datu faktury přidáno 13 dní, aby se dospělo k očekávanému datu platby z prodeje 27. dubna 2012.
+-   **Očekávané datum platby prodeje:** 27.dubna 2012. Toto datum se počítá sečtením počtu dnů v poli **Obecná data ukládání do vyrovnávací paměti** na stránce **Parametry řízení projektu a účetnictví** na počet dní v poli **Jednotlivé dny vyrovnávací paměti** na stránce **Smlouvy o projektu** a poté přidáním součtu k počtu dní v poli **Datum splatnosti**. V tomto příkladu jste zadali **3** v poli **Obecné dny ukládání do vyrovnávací paměti** a **10** v poli **Jednotlivé dny vyrovnávací paměti**. Proto je k datu faktury přidáno 13 dní, aby se dospělo k očekávanému datu platby z prodeje 27. dubna 2012.
 
 Obecné dny vyrovnávací paměti mohou buď nahradit jednotlivé dny vyrovnávací paměti, nebo je přidat k jednotlivým dnům vyrovnávací paměti:
 
@@ -440,3 +438,6 @@ Po výpočtu výpisu si můžete prohlédnout následující informace na různ�
 -   **Spotřeba** - Informace o spotřebě hodin, položek, výdajů a mzdových transakcí.
 -   **Faktura** - Informace o fakturách a fakturaci na účet.
 -   **Hodinová sazba** - Hodinové sazby za hodiny, které jsou zaúčtovány na účty výnosů a nákladů.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

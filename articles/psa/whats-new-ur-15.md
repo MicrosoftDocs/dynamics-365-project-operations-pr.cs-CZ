@@ -3,7 +3,7 @@ title: Novinky a změny v aplikaci Project Service Automation, aktualizace verz
 description: Tohle téma poskytuje informace o tom, co je nového v aktualizaci verze 15 pro aplikaci Project Service Automation V3.
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,16 +17,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ec6746c0d3a1a03ee56440c73d044df844046f8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 6112e4874025e528a2bb583cf215fd9eff681534
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143955"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073737"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Project Service Automation, vydání aktualizace 15, V3
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 S potěšením oznamujeme nejnovější aktualizaci aplikace Dynamics 365 Project Service Automation (PSA). Tato verze obsahuje některá důležitá vylepšení kvality, výkonu a použitelnosti. Tato verze je kompatibilní s Dynamics 365 9.x. Chcete-li aktualizovat tuto verzi, navštivte Centrum pro správu Dynamics 365 a na stránce řešení nainstalujte danou aktualizaci. Další informace viz [Instalace, aktualizace nebo odebrání preferovaného řešení](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 

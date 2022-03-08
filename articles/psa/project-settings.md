@@ -2,8 +2,6 @@
 title: Nastavení projektu
 description: Toto téma obsahuje informace o nastavení řízení projektu.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148140"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996923"
 ---
 # <a name="project-settings"></a>Nastavení projektu
 
@@ -47,9 +45,9 @@ Chcete-li vytvořit plán projektu, vytvořte šablonu projektového kalendáře
 
   - Nový týdenní plán
   - Pracovní plán na jeden den
-  - Volno
+  - Time Off
 
-> ![Možnosti nastavení](media/project-13.png)
+> ![Možnosti nastavení.](media/project-13.png)
 
 4. Vyberte **Nový týdenní plán** a pak nastavte možnosti pro tento plán zdrojů. Můžete nastavit opakovaný týdenní plán, parametry denní hodiny, zavírací dny a další.
 5. Nastavte rozsah kalendářních dat, vyberte **Uložit** a klikněte na tlačítko **Zavřít**. 
@@ -68,3 +66,6 @@ Každá organizace musí tyto role nastavit na stránce **Aktivní kategorie zdr
 ## <a name="price-lists"></a>Ceníky
 
 Ceníky vám umožní nastavit nákladové a prodejní ceny pro role zdrojů, kategorie výdajů, produkty a další položky v organizaci. Před nastavením finančních odhadů pro práci, která musí být dodána pro projekt, byste měli vytvořit pomocný nákladový a prodejní ceník. V sekci parametry byste měli také nastavit výchozí nákladový a prodejní ceník, který se vztahuje na všechny projekty vytvořené v organizaci. Na stránce **Aktivní projektové parametry** se ujistěte, že jste nastavili výchozí nákladový a prodejní ceník.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

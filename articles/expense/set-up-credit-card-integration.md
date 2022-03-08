@@ -2,11 +2,9 @@
 title: Nastavení integrace kreditní karty
 description: Tento téma vysvětluje, jak pracovat s transakcemi kreditních karet, které souvisejí s výdaji.
 author: suvaidya
-manager: AnnBe
-ms.date: 04/02/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 72ff98f5985af4362cde3c9914e0d20247f1f09a
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
+ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866675"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "7826248"
 ---
 # <a name="set-up-credit-card-integration"></a>Nastavení integrace kreditní karty
 
@@ -52,10 +50,18 @@ Vyberte jednu nebo více transakcí kreditní kartou a poté vyberte **Znovu př
 
 ## <a name="delete-credit-card-transactions"></a>Odstranění transakcí kreditní kartou 
 
-Někdy po importu transakcí kreditní kartou může být nutné některé transakce odstranit. Důvodem může být například fakt, že transakce jsou duplikáty, nebo protože jejich data nejsou přesná. Správci mohou použít funkci **„Odstranění transakcí kreditní kartou“** k výběru a odstranění transakcí kreditní karty, které **nejsou připojeny** k sestavě výdajů. 
+Někdy po importu transakcí kreditní kartou může být nutné některé transakce odstranit. Může to být způsobeno tím, že transakce jsou duplicitní nebo protože data nejsou přesná. Správci mohou použít funkci **„Odstranění transakcí kreditní kartou“** k výběru a odstranění transakcí kreditní karty, které **nejsou připojeny** k sestavě výdajů. 
 
 1. Přejděte do nabídky **Pravidelné úkoly** > **Odstranit transakce kreditní kartou**.
 2. Vyberte **Filtr** a zadejte informace identifikující záznamy, které mají být odstraněny.
 3. Výběrem tlačítka **OK** záznamy odstraníte. 
+
+## <a name="storing-credit-card-numbers"></a>Ukládání čísel platebních karet
+
+Pro uložení čísel kreditních karet jsou k dispozici tři možnosti. Čísla kreditních karet jsou uložena na stránce **Parametry správy výdajů**.
+
+- **Zabránit zadání čísla karty** – Čísla kreditních karet se neukládají.
+- **Hash čísla karty (uložit poslední 4 číslice)** – Poslední čtyři číslice čísel kreditních karet jsou uloženy v šifrovaném formátu.
+- **Uložit čísla karet** – Čísla kreditních karet jsou uložena v nešifrovaném formátu. Tato možnost není v souladu se standardem zabezpečení dat (DSS) odvětví platebních karet (PCI). Aby organizace dodržovala předpisy PCI DSS, měli by správci organizací rozhodnout buď čísla kreditních karet neukládat, nebo ukládat jen hashe čísel.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

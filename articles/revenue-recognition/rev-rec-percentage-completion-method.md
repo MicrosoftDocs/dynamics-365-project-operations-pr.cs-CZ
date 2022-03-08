@@ -2,18 +2,16 @@
 title: Projekty odhadu výnosů pevné ceny
 description: Toto téma obsahuje informace o výnosech s fixní cenou v projektech.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 80fe1d4171d80ca39e8b7ebb1eefaa524a4f2b07
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531390"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006418"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Projekty odhadu výnosů pevné ceny 
 
@@ -35,3 +33,6 @@ Chcete-li zkontrolovat projekty odhadů výnosů s pevnou cenou, proveďte násl
 
   Náklady na projekt, profil výnosů, šablonu nákladů a kód období lze nastavit ručně. Pokud nejsou nastaveny ručně, výchozí hodnoty jsou během prvního výpočtu odhadu pro projekt pomocí pravidel nakonfigurovaných pro profily nákladů a výnosů projektu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

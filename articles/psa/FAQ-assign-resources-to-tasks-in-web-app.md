@@ -2,6 +2,8 @@
 title: Jak přiřadit rezervovatelný zdroj k úkolu ve webové aplikaci
 description: Přehled způsobů, kterými můžete přiřadit rezervovatelné zdroje.
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993282"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125170"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Jak přiřadit rezervovatelný zdroj k úkolu ve webové aplikaci (aplikace Project Service v2.x)?
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1.x-2.x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -114,6 +114,3 @@ Vyberte možnost **Rezervovat** pro obecný zdroj a pak můžete použít pláno
 Když je obecný zdroj naplněn pojmenovaným zdrojem, obecný zdroj je odebrán z týmu a přiřazení úkolů pro obecný zdroj jsou přiřazena k pojmenovanému zdroji, který splnil požadavek na zdroj obecného zdroje.
  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

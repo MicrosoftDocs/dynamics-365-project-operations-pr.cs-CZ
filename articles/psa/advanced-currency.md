@@ -2,8 +2,6 @@
 title: Scénáře s více měnami (verze 3.x)
 description: Toto téma poskytuje informace o scénářích s více měnami.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145665"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005113"
 ---
 # <a name="multiple-currency-scenarios"></a>Scénáře s více měnami
 
@@ -105,3 +103,6 @@ Dynamics 365 automaticky zpracovává souhrny částek v různých měnách. Zde
 | Výdaj           | Nefakturovaný prodej   | 17. VI. | Kamil  | Pronájem auta           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 K výpočtu celkové nefakturované hodnoty prodeje projektu můžete vytvořit souhrnné pole pro pole **Částka** na všech souvisejících nefakturovaných skutečných hodnotách prodeje. Toto souhrnné pole je konstruktem aplikace Dynamics 365, která u souvisejících záznamů umožňuje rychlé vzorce.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

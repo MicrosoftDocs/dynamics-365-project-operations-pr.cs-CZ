@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073759"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288580"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Nastavení a používání plateb dodavatelů zaplacených po uhrazení platby
 
@@ -80,3 +80,6 @@ Když dodavatel dokončí svou práci na projektu a pošle vám fakturu, musíte
 2. Na stránce **Faktury dodavatele se zaplacením po uhrazení platby** zadejte do vyhledávacího pole hodnoty a vyhledejte fakturu dodavatele, kterou chcete zkontrolovat. Poté vyberte možnost **Hledat**.
 3. Na pevné záložce **Řádky faktury dodavatele** vyberte řádky, které chcete změnit.
 4. Pokud jsou podmínky **Zaplatit po uhrazení platby** pro řádek faktury splněny, vyberte možnost **Uvolnit platbu dodavatele**. Možnost **Zaplatit po uhrazení platby** se vypne a hodnota pole **Připraveno k platbě** se změní na **Ano**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

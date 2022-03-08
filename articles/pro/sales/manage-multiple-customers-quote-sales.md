@@ -2,18 +2,16 @@
 title: Správa více zákazníků v nabídkách projektů – omezené
 description: Toto téma poskytuje informace o práci na nabídkách s více zákazníky, kteří budou financovat projekt. (Sales)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bdda1a940e733270399d092e543c3982c47174d0
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181581"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001648"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Správa více zákazníků v nabídkách projektů – omezené
 
@@ -52,3 +50,6 @@ Zákazník nabídky může být vytvořen, aktualizován nebo odstraněn na kart
 Procenta rozdělení fakturace se dají upravit v prostředí in-line úprav v mřížce. Pokud součet procent rozdělení fakturace není 100%, dojde k chybě. Po aktualizaci procent rozdělení fakturace chybu odstraníte aktualizací stránky.
 
 Můžete také zkusit vybrat **Rovnoměrně rozdělit** v podmřížce zákazníků nabídky. Tato akce přiděluje rozdělení fakturace všem zákazníkům nabídky. Pokud existuje zaokrouhlovací faktor, bude přidán k zaokrouhlovacímu zákazníkovi. Jeden ze zákazníků nabídky je vždy označen jako zaokrouhlující zákazník. To znamená, že záznam zákazníka nabídky má příznak **Zaokrouhlování** nastaven na **Ano**. Obvykle se jedná o primárního zákazníka nabídky, ale lze to změnit.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

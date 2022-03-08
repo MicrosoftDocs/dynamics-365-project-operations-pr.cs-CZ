@@ -2,11 +2,9 @@
 title: Dotaz Plán výdajů z federálních grantů
 description: Toto téma poskytuje informace o dotazu Plán výdajů z federálních grantů.
 author: velofog
-manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -20,12 +18,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073764"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007228"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Dotaz Plán výdajů z federálních grantů
 
@@ -62,7 +60,7 @@ Musíte nastavit čísla CFDA, které lze přidat ke grantům a zahrnout do dota
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Nastavení grantů, které budou vykazovány v dotazu Plán výdajů z federálních grantů
 
 1. Přejděte do nabídky **Řízení projektů a účetnictví \> Granty \> Granty** a vyberte existující grant.
-2. Na pevné záložce **Nastavení** přiřaďte číslo CFDA v poli **Katalog federální domácí pomoci**. Číslo CFDA na grantu určuje cluster CFDA pro podávání zpráv.
+2. Na pevné záložce **Nastavení** přiřaďte číslo CFDA v poli **Katalog federální domácí pomoci**. Číslo CFDA na grantu určuje cluster CFDA pro podávání zpráv.
 3. Na pevné záložce **Kontaktní informace** zadejte informace o poskytovateli grantů pomocí následujícího postupu:
 
     1. V poli **Zákazník grantu** zadejte zákazníka, který je odpovědný za grant. U stávajícího grantu mohou být tyto informace již zadány.
@@ -79,8 +77,8 @@ Federální vláda financovala projekt infrastruktury pro stát. Federální vl�
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Vyloučení grantů z vykazování SEFA na základě typu grantu
 
-1. Přejděte do nabídky **Řízení projektů a účetnictví \> Nastavení \> Granty \> Typy grantů**.
-2. Na pevné záložce **Výchozí informace** zapněte zaškrtávací políčko **Vyloučit z plánu výdajů z federálních grantů**.
+1. Přejděte do nabídky **Řízení projektů a účetnictví \> Nastavení \> Granty \> Typy grantů**.
+2. Na pevné záložce **Výchozí informace** zaškrtněte políčko **Vyloučit z plánu výdajů z federálních grantů**.
 3. Výběrem možnosti **Uložit** uložte změny.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Spuštění dotazu Plán výdajů z federálních grantů
@@ -104,3 +102,6 @@ Dotaz Plán výdajů z federálních grantů zahrnuje následující sloupce:
 - Katalog federální domácí pomoci
 - Potvrzení
 - Výdaje
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

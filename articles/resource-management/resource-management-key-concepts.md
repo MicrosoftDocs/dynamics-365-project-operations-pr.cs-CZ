@@ -2,24 +2,22 @@
 title: Klíčové koncepty správy zdrojů
 description: Toto téma poskytuje informace o funkcích pro správu zdrojů v aplikaci Microsoft Dynamics Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123865"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994808"
 ---
 # <a name="resource-management-key-concepts"></a>Klíčové koncepty správy zdrojů
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Zdroje jsou nejdůležitějším majetkem organizace založené na službách. Schopnost najít správné zdroje ve správný čas, rezervovat tyto zdroje pro projekty a udržovat je využité pomáhá organizaci plnit výnosové cíle a cíle spokojenosti zákazníků. Funkci zajišťování zdrojů pro projekt v Dynamics 365 Project Operations můžete použít k provedení těchto úkolů:
+Zdroje jsou nejdůležitějším majetkem organizace založené na službách. Schopnost najít správné zdroje ve správný čas, rezervovat tyto zdroje pro projekty a udržovat je využité pomáhá organizaci plnit výnosové cíle a cíle spokojenosti zákazníků. Funkci zajišťování zdrojů pro projekt v Dynamics 365 Project Operations můžete použít k provedení následujících úkolů:
 
 - Vytvoření projektových týmů pomocí rezervace dostupných a kvalifikovaných zdrojů.
 - Vytvoření záznamů obecných členů týmu a definování jejich rolí a organizační jednotky zdroje.
@@ -35,3 +33,6 @@ Zdroje jsou nejdůležitějším majetkem organizace založené na službách. S
 
 
 Projekt můžete v Project Operations personálně obsadit týmem obecných nebo pojmenovaných zdrojů. Pro přidání a přiřazení členů týmu a ke správě jejich rezervací a přiřazení můžete použít různé metody. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

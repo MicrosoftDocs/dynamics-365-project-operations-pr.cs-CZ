@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af2256e77c3ceeee9638f57d971137df1658687b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e1a8d6319788ee73e0e2837a47cba89108c32572
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148455"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275305"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Přidání vlastních polí do nastavení ceny a transakčních entit 
 
@@ -150,3 +150,6 @@ Následující tabulka obsahuje úplný seznam připravených formulářů a zob
 |  Skutečnost|• Informace<br>• Aktivní skutečnosti|• Přidružené zobrazení skutečností|
 
 V závislosti na tom, co jste definovali, může být také nutné přidat vlastní pole do obchodních pravidel. Jeden z těchto připravených příkladů je pro obchodní pravidlo **Upravitelnost časového záznamu na základě stavu**. Toto pravidlo definuje, která pole je třeba uzamknout, pokud je Časový záznam v neupravitelném stavu, jako je např. **Schválen**. Přidejte pole do tohoto obchodního pravidla tak, aby byla tato pole uzamčena pro úpravy, pokud je Časový záznam v jiném stavu než **Koncept** nebo **Vrácen**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

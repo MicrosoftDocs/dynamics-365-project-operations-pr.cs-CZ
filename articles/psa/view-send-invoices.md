@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f67254267e1d6f5db3a1cdf4b9c0f4d44226a4f3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 55e94386ec086e369ec4e9df9f94572580d72325
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143910"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281200"
 ---
 # <a name="view-and-send-invoices-project-service"></a>Zobrazení a odeslání faktur (Project Service)
 
@@ -58,3 +58,6 @@ Při vytváření projektu budete nastavovat četnost generování faktur. Můž
   
 ### <a name="see-also"></a>Viz také  
  [Příručka pro projektového manažera](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

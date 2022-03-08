@@ -2,18 +2,16 @@
 title: Správa časových pásem
 description: Když je projekt vytvořen, jeho časové pásmo je založeno na časovém pásmu definovaném v použité šabloně pracovní doby.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119815"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988688"
 ---
 # <a name="manage-time-zones"></a>Správa časových pásem
 
@@ -34,13 +32,13 @@ Pro přesné a předvídatelné výsledky při používání funkce **Prodlouži
 
 - Uživatel musí konfigurovat časové pásmo svého zařízení tak, aby odpovídalo časovému pásmu definovanému v systémové možnosti **Nastavení přizpůsobení**.
  
-  ![Nastavení časového pásma v systému Windows 10](media/reconcile-assignments-03.png)
+  ![Nastavení časového pásma v systému Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Nastavení časového pásma v nastavení personalizace](media/reconcile-assignments-04.png)
+  ![Nastavení časového pásma v nastavení personalizace.](media/reconcile-assignments-04.png)
  
 - Rezervovatelný zdroj musí mít alespoň jednu minutu pracovní doby, která se překrývá s průběhovými křivkami, které slouží k definování požadovaného rozšíření. Například následující zdroje s pracovní dobou, která spadá mezi 9:00 a 19:00. 
 
-  ![Porovnání průběhových křivek zdroje](media/reconcile-assignments-05.png)
+  ![Porovnání průběhových křivek zdroje.](media/reconcile-assignments-05.png)
 
 Následující tabulka znázorňuje:
 
@@ -49,22 +47,25 @@ Následující tabulka znázorňuje:
 - Zdroj B: Tento prostředek se nachází v jiném časovém pásmu než projekt a začíná v 7:00 v jejich časovém pásmu. Rezervace však začnou v 9:00, protože to je nejčasnější počáteční čas průběhové křivky přiřazení.
 - Zdroje C a D: Zdroje jsou umístěny v různých časových pásmech, která se liší navzájem a také vůči projektu, a jejich rezervace začínají nejdříve v příslušných dostupných počátečních časech.
 
-|Entita  |Kalendář  |
+|Entity  |Kalendář  |
 |-|-|
-|Šablona kalendáře projektu   | ![kalendář projektu](media/reconcile-assignments-06.png) |
-|Zdroj A  | ![Kalendář zdroje A](media/reconcile-assignments-06.png) |
-|Zdroj B  |  ![Kalendář zdroje B](media/reconcile-assignments-07.png) |
-|Zdroj C  |  ![Kalendář zdroje C](media/reconcile-assignments-08.png) |
-|Zdroj D  | ![Kalendář zdroje D](media/reconcile-assignments-09.png)  |
+|Šablona kalendáře projektu   | ![kalendář projektu.](media/reconcile-assignments-06.png) |
+|Zdroj A  | ![Kalendář zdroje A.](media/reconcile-assignments-06.png) |
+|Zdroj B  |  ![Kalendář zdroje B.](media/reconcile-assignments-07.png) |
+|Zdroj C  |  ![Kalendář zdroje C.](media/reconcile-assignments-08.png) |
+|Zdroj D  | ![Kalendář zdroje D.](media/reconcile-assignments-09.png)  |
  
 Když přejdete na zobrazení **Vyrovnání**, zobrazí se přiřazení zdrojů a přidružené nedostatečné rezervace.
 
-![Zobrazení odsouhlasení před rozšířením](media/reconcile-assignments-10.png)
+![Zobrazení odsouhlasení před rozšířením.](media/reconcile-assignments-10.png)
 
 Poté, co byla u každého zdroje použita funkce rozšířené rezervace, jsou rezervace úspěšně rozšířeny u každého zdroje, protože pracovní doba každého zdroje se překrývala s průběhovými křivkami nedostatečné rezervace.
 
-![Zobrazení odsouhlasení po prodloužení rezervace](media/reconcile-assignments-11.png) 
+![Zobrazení odsouhlasení po prodloužení rezervace.](media/reconcile-assignments-11.png) 
 
 Všimněte si, že při detailnějším pohledu na podrobnosti rezervací se ukážou rozdíly v počátečním čase rezervací. Rezervace začínají nejdříve v počátečním čase průběhové křivky přiřazení a nejdříve v dostupném počátečním čase zdroje.
 
-![Nové rezervace zdrojů na plánovací vývěsce](media/reconcile-assignments-12.png)
+![Nové rezervace zdrojů na plánovací vývěsce.](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

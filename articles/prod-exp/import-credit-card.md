@@ -2,11 +2,9 @@
 title: Import a údržba transakcí kreditní kartou
 description: Toto téma vysvětluje, jak importovat a udržovat transakce kreditních karet související s výdaji. Tyto transakce lze nastavit tak, aby se automaticky importovaly podle opakujícího se plánu, nebo je lze podle potřeby ručně importovat.
 author: KimANelson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
@@ -18,18 +16,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c3a53d2ae4eae411364aaf68ac806b55335c75d4870a24715954ccae327f4358
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271570"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995843"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Import a údržba transakcí kreditní kartou
 
 Transakce kreditních karet související s výdaji lze nastavit tak, aby se automaticky importovaly podle opakujícího se plánu. Alternativně lze transakce podle potřeby importovat ručně. Transakce kreditní kartou se importují prostřednictvím datové entity transakce kreditní kartou.
 
-Další informace o datových entitách najdete v tématu [Datové entity ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
+Další informace o datových entitách najdete v tématu [Datové entity ](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
 
 ## <a name="import-credit-card-transactions"></a>Import transakcí kreditní kartou
 

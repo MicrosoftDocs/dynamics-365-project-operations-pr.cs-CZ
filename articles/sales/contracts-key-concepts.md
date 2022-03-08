@@ -1,27 +1,25 @@
 ---
-title: Projektové smlouvy – klíčové koncepty
+title: Klíčové koncepty – projektové smlouvy
 description: Toto téma poskytuje informace o klíčových konceptech projektových smluv v Dynamics 365 Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0e0280cb94e6f0186f59024c233e8fcb9e86abf
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 4ab43a9de6b27f0f0e9b8cbe6ea8b613ce81e08d
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663696"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073716"
 ---
-# <a name="concepts-unique-to-project-based-contracts"></a>Koncepty jedinečné pro smlouvy na základě projektu
+# <a name="key-concepts---project-contracts"></a>Klíčové koncepty – projektové smlouvy
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-Tento téma poskytuje klíčové koncepty, které musíte znát, než začnete používat projektové smlouvy v Dynamics 365 Project Operations:
+Toto téma obsahuje klíčové koncepty, které je nutné znát, než začnete používat projektové smlouvy v aplikaci Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Vlastnící společnost
 
@@ -88,6 +86,3 @@ Rozpisy faktur jsou specifické pro každý řádek smlouvy a jsou vyžadovány 
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Změny oproti objednávce aplikace Dynamics 365 Sales
 
 Smlouvy v Project Operations jsou postaveny na objednávkách v Dynamics 365 Sales. Existují však důležité odchylky a rozdíly ve funkčnosti. Smlouvy mají svůj vlastní formulář a prvky uživatelského rozhraní, obchodní pravidla, obchodní logiku v modulech plug-in, a skripty na straně klienta, díky nimž se liší od smluv. Z těchto důvodů nepoužívejte prodejní objednávku a smlouvu Project Operations záměnně.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

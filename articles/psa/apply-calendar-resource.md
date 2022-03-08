@@ -2,8 +2,6 @@
 title: Použití kalendáře u zdroje
 description: Postup použití kalendáře u zdroje v Project Service
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 94c646db684525cdc71bd935643a3b7ee2d40ea7
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 24d300df710850df329c9fbba2b6eeceaa7d29125aae23a42bf3f2a94bed131a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145485"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000658"
 ---
 # <a name="apply-a-calendar-to-a-resource-project-service"></a>Použití kalendáře u zdroje (Project Service)
 
@@ -45,3 +43,6 @@ Po vytvoření šablony pracovní doby je třeba ji přiřadit zdrojům tak, aby
   
 ### <a name="see-also"></a>Viz také  
  [Nastavení zdrojů](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Konfigurace parametrů správy výdajů
 description: Toto téma popisuje parametry, které řídí obecné chování ve správě výdajů.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121030"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007768"
 ---
 # <a name="configure-expense-management-parameters"></a>Konfigurace parametrů správy výdajů
 
@@ -83,3 +81,6 @@ Toto téma popisuje parametry, které řídí obecné chování ve správě výd
 | Zobrazit protikorupční osvědčení   | Vyberte tuto možnost, chcete-li zobrazit protikorupční text při vytváření výkazu výdajů. Poté lze povolit konkrétní kategorie výdajů, které budou vyžadovat, aby bylo ve výkazu výdajů vybráno protikorupční osvědčení. Například kategorie dárků, která souvisí s výdaji státních úředníků, může vyžadovat, aby zaměstnanec potvrdil, že výdaj splňuje zásady společnosti související s vládními úředníky. |
 | Protikorupční zpráva pro zadavatele | Zadejte text, který se má zobrazit zaměstnanci, který vytváří sestavu výdajů. Chcete-li zadat text specifický pro jazyk, který se zobrazí, na základě uživatelského jazyka vyberte **Překlady**. |
 | Protikorupční zpráva pro schvalovatele  | Zadejte text, který se má zobrazit schvalovateli při vytváření sestavy výdajů. Chcete-li zadat text specifický pro jazyk, který se zobrazí, na základě uživatelského jazyka vyberte **Překlady**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

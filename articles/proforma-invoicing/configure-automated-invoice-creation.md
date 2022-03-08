@@ -2,18 +2,16 @@
 title: Konfigurace automatického vytváření faktur
 description: Toto téma poskytuje informace o tom, jak nakonfigurovat systém pro automatické generování faktur.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122425"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992648"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Konfigurace automatického vytváření faktur
 
@@ -45,3 +43,6 @@ Proces **ProcessRunner** po svém dokončení volá proces **ProcessRunCaller**,
 
 > [!NOTE]
 > Dávková fakturace běží pouze pro řádky projektové smlouvy, které jsou konfigurovány podle plánů faktur. Řáeke smlouvy s metodou fakturace s pevnou cenou musí mít nakonfigurované milníky. Řádek smlouvy o projektu s metodou fakturace času a materiálu bude vyžadovat sestavení časového rozvrhu faktur. Totéž platí pro řádek smlouvy založené na projektu.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

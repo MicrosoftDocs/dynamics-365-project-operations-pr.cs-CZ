@@ -2,8 +2,6 @@
 title: Odvolání schválených časových nebo výdajových záznamů
 description: Toto téma obsahuje informace o tom, jak odvolat dříve schválený čas nebo výdajovou transakci.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f9bb25ac9ef7b400063c5f958311e475de6f6506
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147825"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998318"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Odvolání schválených časových nebo výdajových záznamů
 
@@ -100,10 +98,13 @@ Je-li žádost o odvolání zamítnuta, tak to na projekt nemá žádný finanč
 
 Následující obrázek zobrazuje změny, ke kterým dojde u schválených časových záznamů při jejich odvolání.
 
-![Stavové přechody časových záznamů](media/TimeEntryStateTransitions.png)
+![Stavové přechody časových záznamů.](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>Změny výdajových záznamů
 
 Následující obrázek zobrazuje změny, ke kterým dojde u schválených výdajových záznamů při jejich odvolání.
 
-![Stavové přechody výdajových záznamů](media/ExpenseEntryStateTransitions.png)
+![Stavové přechody výdajových záznamů.](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

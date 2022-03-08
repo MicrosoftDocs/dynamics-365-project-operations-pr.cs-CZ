@@ -2,8 +2,6 @@
 title: Plánování zdrojů pro projekt
 description: Postup plánování zdrojů pro projekt v Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150435"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998138"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Plánování zdrojů pro projekt (Project Service)
 
@@ -35,7 +33,7 @@ Můžete zkontrolovat dostupnost zdrojů, chcete-li získat celkový přehled o 
   
 Plánovací vývěska zobrazuje seznam zdrojů a jejich dostupnost. Vyberte režim zobrazení pro zobrazení dostupnosti podle **Hodin**, **Dne**, **Týdne** nebo **Měsíce**.  
   
-Před použitím plánovací vývěsky je třeba ji nastavit. Další informace naleznete v tématu [Konfigurace plánovací vývěsky (Field Service nebo Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Před použitím plánovací vývěsky je třeba ji nastavit. Další informace naleznete v tématu [Konfigurace plánovací vývěsky (Field Service nebo Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Pokud používáte starší verzi, naleznete informace o dostupnosti zdrojů v části [Zobrazení dostupnosti zdrojů](../psa/view-resource-availability.md).  
 
@@ -83,3 +81,6 @@ Pokud používáte starší verzi, naleznete informace o dostupnosti zdrojů v �
   
 ### <a name="additional-resources"></a>Další materiály  
  [Příručka pro manažera zdrojů](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

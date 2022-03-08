@@ -2,19 +2,17 @@
 title: Co je nového nebo změněného v Project Operations, leden 2021, pro scénáře založené na skladovém materiálu / výrobě
 description: Tohle téma poskytuje informace o aktualizacích pro zvýšení kvality, které jsou k dispozici ve verzi Project Operations z ledna 2021 pro scénáře založené na skladovém materiálu / výrobě.
 author: andchoi
-manager: tfehr
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: ce1c83e1e238d7919c38d2babea622ca59de86d3
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
+ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958640"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992738"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Co je nového nebo změněného v Project Operations, leden 2021, pro scénáře založené na skladovém materiálu / výrobě
 
@@ -144,4 +142,7 @@ Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 36
 | Cestování a výdaje                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | V Project Operations čas s mezipodnikovými úkoly v Dataverse nelze vytvořit ani schválit.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Povinné aktualizace
-Informace o povinných aktualizacích pro aplikace Finance and Operations viz [Povinné aktualizace](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Můžete se také přihlásit do LCS a zobrazit plánované povinné aktualizace pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
+Informace o povinných aktualizacích pro aplikace Finance and Operations viz [Povinné aktualizace](/dynamics365/finance/localizations/regulatory-updates). Můžete se také přihlásit do LCS a zobrazit plánované povinné aktualizace pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

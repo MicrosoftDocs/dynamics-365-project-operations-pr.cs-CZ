@@ -2,11 +2,9 @@
 title: Nastavení vlastních polí jako cenových dimenzí
 description: Toto téma obsahuje informace o tom, jak nastavit cenové dimenze pomocí vlastních polí.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650194"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003583"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Nastavení vlastních polí jako cenových dimenzí
 
@@ -44,11 +42,11 @@ Aby se pole stalo cenovou dimenzí, musí být:
 
 - Vytvořeno jako řádek v tabulce **Cenová dimenze**. Můžete například přidat řádky cenové dimenze, jak je znázorněno na následujícím obrázku. 
 
-![Řádky cenové dimenze založené na částce](media/Amt-based-PD.png)
+![Řádky cenové dimenze založené na částce.](media/Amt-based-PD.png)
 
 Pracovní doba zdroje (**msdyn_resourceworkhours**) je přidána jako dimenze založená na přirážce a byla přidána do mřížky na kartě **Cenová dimenze založená na přirážce**.
 
-![Řádky cenové dimenze založené na přirážce](media/Markup-based-PD.png)
+![Řádky cenové dimenze založené na přirážce.](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -77,7 +75,7 @@ Existují dva typy cenových dimenzí:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|U zákazníka            |                    |Přesčas                 |15     |
 |             | Contoso India|Místní             |                    |Přesčas                 |10     |
-|             | Contoso US   |Místní             |                    |Přesčas                 |20     |
+|             | Contoso (USA)   |Místní             |                    |Přesčas                 |20     |
 
 
 Pokud zdroj ze společnosti Contoso India, jehož základní sazba je 100 USD, pracuje u zákazníka a zaznamenává do časového záznamu 8 hodin pravidelného času a 2 hodiny přesčasu, použije modul ocenění k zaznamenání 800 USD základní sazbu 100 za 8 hodin. Pro dobu 2 hodin přesčasové práce se na základní sazbu 100 použije přirážka ve výši 15 % pro získání jednotkové ceny 115 USD a zaznamenají se celkové náklady na 230 USD.
@@ -96,3 +94,6 @@ Nastavení priority dimenze pomáhá při tvorbě ceny, a to i v případě, že
 
 - **Priorita nákladů**: hodnota priority nákladů dimenze bude označovat váhu této dimenze při párování s nastavením nákladových cen. Hodnota **Priorita nákladů** musí být jedinečná v rámci dimenzí, které jsou **Použitelné na náklady**.
 - **Priorita prodeje**: hodnota priority prodeje dimenze bude označovat váhu této dimenze při párování s nastavením prodejních cen nebo fakturačních sazeb. Hodnota **Priorita prodeje** musí být jedinečná v rámci dimenzí, které jsou **Použitelné na náklady**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

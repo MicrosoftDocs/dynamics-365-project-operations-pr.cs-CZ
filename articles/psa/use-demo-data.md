@@ -3,7 +3,7 @@ title: Experimentovat s ukázkovými daty
 description: Postup stažení a experimentování s ukázkovými daty pro Project Service Automation
 author: JohnPBurrows
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1f3ebf8d0cd6c8e25fcab6775cd92d544867af8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d0bc6d171f2f3080b7b1c34222de49e93415a139
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151110"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073859"
 ---
 # <a name="experiment-with-demo-data-project-service"></a>Experimentování s ukázkovými daty (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 V rámci seznámení s aplikací Dynamics 365 Project Service Automation je užitečné mít předem nakonfigurované prostředí pro prozkoumání. Pro tento účel jsme vytvořili samostatný instalační balíček ukázkových dat (tentokrát pouze v angličtině), který usnadní seznamování s těmito řešeními. 
 

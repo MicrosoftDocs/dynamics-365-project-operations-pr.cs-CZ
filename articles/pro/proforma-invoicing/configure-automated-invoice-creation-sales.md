@@ -1,29 +1,25 @@
 ---
-title: Konfigurace automatického vytváření faktur – omezená
-description: Toto téma poskytuje informace o konfiguraci automatického vytváření proforma faktur.
+title: Nastavení automatického vytváření faktur
+description: Tento téma poskytuje informace o nastavení a konfiguraci automatického vytváření proforma faktur.
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176558"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997508"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Konfigurace automatického vytváření faktur – omezená
+# <a name="set-up-automatic-invoice-creation"></a>Nastavení automatického vytváření faktur 
  
-_**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
+_**Platí pro:** omezené nasazení – dohoda o pro forma fakturaci, Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-V Dynamics 365 Project Operations můžete nakonfigurovat automatické vytváření faktur. Systém vytvoří koncept proforma faktury na základě rozpisu faktury pro každou projektovou smlouvu a řádek smlouvy. Rozpisy faktur jsou konfigurovány na úrovni řádku smlouvy. Každý řádek ve smlouvě může mít odlišný rozpis faktury nebo stejný rozpis faktury může být obsažen v každém řádku smlouvy.
+V Dynamics 365 Project Operations můžete konfigurovat automatické vytváření faktur. Systém vytvoří koncept proforma faktury na základě rozpisu faktury pro každou projektovou smlouvu a řádek smlouvy. Rozpisy faktur jsou konfigurovány na úrovni řádku smlouvy. Každý řádek ve smlouvě může mít odlišný rozpis faktury nebo stejný rozpis faktury může být obsažen v každém řádku smlouvy.
 
-Když vytvoříte fakturu, systém vždy vytvoří alespoň jednu fakturu na projektovou smlouvu. V některých případech může být vytvořeno více faktur.
-
-Například pokud má smlouva více zákazníků, bude vytvořen stejný počet faktur jako počet zákazníků, kteří mají fakturovatelné transakce k fakturaci na danou smlouvu projektu.
+Když vytvoříte fakturu, systém vždy vytvoří alespoň jednu fakturu na projektovou smlouvu. V některých případech může být vytvořeno více faktur. Například pokud má smlouva více zákazníků, bude vytvořen stejný počet faktur jako počet zákazníků, kteří mají fakturovatelné transakce k fakturaci na danou smlouvu projektu.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Pochopení, jak jsou transakce zahrnuty na faktuře 
 
@@ -91,3 +87,6 @@ Proces **ProcessRunner** po svém dokončení volá proces **ProcessRunCaller**,
 
 > [!NOTE]
 > Dávková fakturace v Project Operations běží pouze pro řádky projektové smlouvy, které jsou konfigurovány podle plánů faktur. Řáeke smlouvy s metodou fakturace s pevnou cenou musí mít nakonfigurované milníky. Řádek smlouvy o projektu s metodou fakturace času a materiálu bude vyžadovat sestavení časového rozvrhu faktur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

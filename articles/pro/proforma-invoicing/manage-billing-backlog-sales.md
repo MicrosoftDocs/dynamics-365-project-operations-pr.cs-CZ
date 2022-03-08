@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 77c4df8c4370017b9199eec3a21cd07dd0343fd9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176962"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274090"
 ---
 # <a name="manage-the-billing-backlog---lite"></a>Správa nedokončené fakturace – omezené
 
@@ -60,3 +60,6 @@ Nefakturované skutečné prodeje se stavem **Nepřekročitelné** s hodnotou **
 Pokud řádky smlouvy pro více zákazníků mají metodu fakturace času a materiálu, je po schválení času a výdajů vytvořen jeden nefakturovaný skutečný prodej pro každého zákazníka na řádku smlouvy podle procentuálního rozdělení fakturace definovaného pro každého ze zákazníků. V zobrazení **Nedokončená fakturace času a materiálu** vidíte tyto nefakturované skutečné prodeje pro jednotlivé konkrétní zákazníky. Každý z nevyfakturovaných skutečných prodejů lze označit jako **Připraveno k fakturaci** odděleně z tohoto zobrazení.
 
 Nefakturovaný skutečný prodej, který je v konceptu faktury, je zobrazen v tomto zobrazení se stavem fakturace **Faktura zákazníka vytvořena**. Po potvrzení konceptu faktury se stav fakturace v tomto záznamu aktualizuje na **Faktura zákazníka zaúčtována**. Neaktualizujte tuto hodnotu stavu pomocí vlastního kódu. Pokud jsou tyto hodnoty stavu aktualizovány pomocí vlastního kódu, Project Operations nefunguje správně.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

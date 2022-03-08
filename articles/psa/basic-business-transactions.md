@@ -2,8 +2,6 @@
 title: Obchodní transakce
 description: Toto téma poskytuje informace o obchodních transakcích.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149895"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987518"
 ---
 # <a name="business-transactions"></a>Obchodní transakce
 
@@ -90,7 +88,7 @@ Původ transakce a Propojení transakce vám společně pomáhají udržet přeh
 
 Následující příklad ukazuje typické zpracování časových záznamů v životním cyklu projektu PSA.
 
-> ![Zpracování časových záznamů v životním cyklu aplikace Project Service](media/basic-guide-17.png)
+> ![Zpracování časových záznamů v životním cyklu aplikace Project Service.](media/basic-guide-17.png)
  
 1. Odeslání časového záznamu způsobí vytvoření dvou řádků deníku: jeden pro náklady a jeden pro nefakturovaný prodej.
 2. Případné schválení časového záznamu způsobí vytvoření dvou skutečných hodnot: jedna pro náklady a jedna pro nefakturovaný prodej.
@@ -149,3 +147,6 @@ Následující tabulka zobrazuje záznamy v entitě Propojení transakce pro př
 | Oprava konceptu faktury       | GUID transakce řádku faktury | Nahrazení          | msdyn_invoicelinetransaction | GUID fakturovaného prodeje            | Původní           | msdyn_actual       |
 | Potvrdit opravu faktury     | GUID storna fakturovaného prodeje    | Stornování          | msdyn_actual                 | GUID fakturovaného prodeje            | Původní           | msdyn_actual       |
 | GUID skutečné hodnoty nového nefakturovaného prodeje | Nahrazení                     | msdyn_actual       | GUID fakturovaného prodeje            | Původní                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

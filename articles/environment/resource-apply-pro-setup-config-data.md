@@ -1,35 +1,23 @@
 ---
-title: Nastavení a použití konfiguračních dat v Common Data Service
+title: Nastavení a použití dat konfigurace ve službě Common Data Service pro Project Operations
 description: Toto téma poskytuje informace o tom, jak nastavit a použít konfigurační data v aplikaci Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 11/04/2020
+ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7742e81316b217066f9f3b8d5c23aa64f1a7efc4
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642220"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073653"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Nastavení a použití konfiguračních dat v Common Data Service 
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Nastavení a použití dat konfigurace ve službě Common Data Service pro Project Operations
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-## <a name="prerequisites"></a>Požadavky
-
-Než začnete konfigurovat data v Common Data Service (CDS), musí být splněny následující předpoklady:
-
-1.  Máte zřízeno prostředí CDS a Dynamics 365 Finance pro Project Operations.
-2.  V prostředí CDS jsou sdíleny informace o právnické osobě z Dynamics 365 Finance. To znamená, že entita **Společnost** v CDS má následující záznamy:
-  - THPM
-  - USPM
-  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Instalace nastavení a dat konfigurace
 

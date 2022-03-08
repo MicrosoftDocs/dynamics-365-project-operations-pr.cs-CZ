@@ -2,11 +2,9 @@
 title: Přehled struktur rozpisu prací
 description: Struktura rozpisu práce (WBS) je popis práce, která bude pro projekt provedena. Je to hierarchie úkolů, která představuje pochopení projektového týmu ohledně složení práce a velikosti, nákladů a doby trvání každé komponenty nebo úkolu.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 713e38f4218b980c4256e433e90c12adccd70e11
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073755"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012218"
 ---
 # <a name="work-breakdown-structures-overview"></a>Přehled struktur rozpisu prací
 
@@ -316,3 +314,6 @@ Případně můžete opravit chyby plánování jednotlivě kliknutím na ikonu 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

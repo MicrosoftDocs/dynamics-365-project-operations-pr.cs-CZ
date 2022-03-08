@@ -2,18 +2,16 @@
 title: Konfigurace účtovatelných součásti řádku nabídky na základě projektu
 description: Tento téma poskytuje informace o zahrnutých, účtovatelných a neúčtovatelných komponentách na řádcích nabídek založených na projektu.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 36765ab3687a8aaf3ae4a631516a1d61c14e981e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 251d0013b445d2f7d17fbe1908f0db2e05cfc2670ac667deb363c98f608a2aef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642535"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003988"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Konfigurace účtovatelných součásti řádku nabídky na základě projektu
 
@@ -53,3 +51,6 @@ Odhad nebo skutečná hodnota vytvořená pro výdaj bude považován za účtov
 | No | Ano | Nelze nastavit | Neúčtovatelné | Skutečná fakturace na čas: Není k dispozici </br>Typ fakturace při skutečných výdajích: Neúčtovatelné |
 | Ano | No | Účtovatelné | Nelze nastavit | Skutečná fakturace na čas: Účtovatelné </br>Typ fakturace při skutečných výdajích: Není k dispozici |
 | Ano | No | Neúčtovatelné | Nelze nastavit | Skutečná fakturace na čas: Neúčtovatelné </br> Typ fakturace při skutečných výdajích: Není k dispozici |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

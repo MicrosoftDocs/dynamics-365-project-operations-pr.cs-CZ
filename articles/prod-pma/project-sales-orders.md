@@ -2,11 +2,9 @@
 title: Projektujte prodejní objednávky pro časové a materiální projekty
 description: Toto téma vysvětluje, jak vytvořit prodejní objednávky založené na projektech času a materiálu.
 author: Yowelle
-manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073765"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992828"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Projektujte prodejní objednávky pro časové a materiální projekty
 
@@ -41,3 +39,6 @@ Zakázky prodeje založené na projektu můžete vytvořit dvěma způsoby:
 - Přejděte na projekt. V podokně akcí vyberte **Spravovat > Úkoly položek > Prodejní objednávka**. Informace o projektu budou výchozí pro prodejní objednávku z projektu. Pokud má projektová smlouva více než jeden zdroj financování, budete muset vybrat zdroj financování a nastavit zákazníka pro prodejní objednávku. Pokud pro projekt existuje pouze jeden zdroj financování, zákazník se nastaví automaticky.
 - Přejděte na stránku seznamu **Všechny prodejní objednávky** a vytvořte novou prodejní objednávku. Budete muset vybrat projekt pro prodejní objednávku. Po výběru projektu bude zákazník nastaven ze zdroje financování, nebo budete muset vybrat zdroj financování, pokud má projektová smlouva více zdrojů financování.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

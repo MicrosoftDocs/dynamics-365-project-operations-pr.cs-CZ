@@ -2,18 +2,17 @@
 title: Přehled mezipodnikové fakturace
 description: Toto téma poskytuje informace a příklady o mezipodnikové fakturaci projektů.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.custom: intro-internal
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595443"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005383"
 ---
 # <a name="intercompany-invoicing-overview"></a>Přehled mezipodnikové fakturace
 
@@ -21,9 +20,9 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 
 Vaše organizace může mít více divizí, dceřiných společností a dalších právnických subjektů, které si navzájem přenášejí produkty a služby pro účely projektů. Právnická osoba, která poskytuje službu nebo produkt, se nazývá *půjčující právnická osoba*. Právnická osoba, která získává službu nebo produkt, se nazývá *vypůjčující právnická osoba*.
 
-Následující obrázek ukazuje typický scénář, kdy dvé právnické osoby, Contoso Robotics USA (vypůjčující právnická osoba) a Contoso Robotics UK (půjčující právnická osoba), sdílejí prostředky na dodání projektu pro zákazníka Adventure Works. V tomto scénáři se společnost Contoso Robotics USA smluvně zavazuje dodat dílo do Adventure Works.
+Následující obrázek ukazuje typický scénář, kdy dva právní subjekty, Contoso Robotics USA (právnická osoba, která si půjčuje) a Contoso Robotics UK (půjčující právnická osoba) sdílí zdroje na realizaci projektu pro zákazníka, Adventure works. Pro tento scénář Contoso Robotics USA uzavřela smlouvu na dodání díla společnosti Adventure Works.
 
-![Mezipodniková fakturace](./media/IntercompanyScenario.png) 
+![Mezipodniková fakturace.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations používá následující tok ke zpracování mezipodnikových transakcí:
 
@@ -36,10 +35,13 @@ Dynamics 365 Project Operations používá následující tok ke zpracování me
 
 Následující diagram ilustruje mezipodnikovou fakturaci, protože se týká účetních událostí a očekávaných zaúčtování do hlavní knihy.
 
-![Mezipodnikový tok](./media/IntercompanyFlow.png)
+![Mezipodnikový tok.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Další materiály
 
 - [Konfigurace mezipodnikové fakturace](configure-intercompany-invoicing.md)
 - [Zaznamenávání mezipodnikových transakcí](create-intercompany-transactions.md)
 - [Vytváření mezipodnikových faktur zákazníků a dodavatelů](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

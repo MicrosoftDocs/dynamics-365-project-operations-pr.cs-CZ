@@ -2,11 +2,9 @@
 title: Nastavení pracovních postupů pro správu výdajů
 description: Můžete nastavit proces pracovního postupu, který se používá ke kontrole a schvalování cestovních a výdajových dokladů.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af6463b07e282ae1ff6aa7dc1a540ff7c8cc318a
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aab6e18d1ddcffa57cf7cd4cb09eec5a4b89c0fd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127690"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001013"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Nastavení pracovních postupů pro správu výdajů
 
@@ -48,3 +46,6 @@ Následující tabulka obsahuje typy pracovních postupů, které můžete vytv�
 |       <strong>Cestovní žádanka</strong>       |          Vytvořte pracovní postupy schválení pro cestovní žádanky.           |
 |      <strong>Požadavek na hotovostní zálohu</strong>      |         Vytvořte pracovní postupy schvalování požadavků na hotovostní zálohu.          |
 |        <strong>Vratka DPH</strong>        | Vytvořte pracovní postupy schválení pro vratku daně z přidané hodnoty (DPH).  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

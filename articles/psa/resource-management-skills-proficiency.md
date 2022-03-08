@@ -2,8 +2,6 @@
 title: Dovednosti a modely odborné způsobilosti
 description: Toto téma obsahuje informace o způsobu použití dovedností a modelů odborné způsobilosti.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/13/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c7da8b2a7eda51b2aa7cf04e325a92f33d834efc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147465"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990488"
 ---
 # <a name="skills-and-proficiency-models"></a>Dovednosti a modely odborné způsobilosti
 
@@ -35,7 +33,7 @@ Dovednosti jsou charakteristiky zdrojů, které jsou sdíleny mezi Dynamics 365 
 
 Chcete-li spravovat depozitář dovedností v Project Service Automation, přejděte na **Zdroje** \> **Dovednosti zdroje**. 
 
-> ![Dovednosti zdroje](media/Resource-Management-image84.png)
+> ![Dovednosti zdrojů.](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Použití modelů odborné způsobilosti k hodnocení zdrojů
 
@@ -45,6 +43,9 @@ Dovednosti pro zdroje jsou hodnoceny pomocí modelů odborné způsobilosti. Ind
 2. V novém modelu hodnocení uveďte minimální hodnotu hodnocení, maximální hodnotu hodnocení a hodnocenou entitu.
 3. V podmřížce **Hodnoty hodnocení** můžete definovat různé hodnoty hodnocení od minimálního po maximální.
 
-> ![Definované minimální a maximální hodnocení](media/Resource-Management-image85.png)
+> ![Definované minimální a maximální hodnocení.](media/Resource-Management-image85.png)
 
 Tyto hodnoty hodnocení jsou zobrazeny ve filtrech **Požadavky na zdroje**, **Plánovací vývěska** a **Pomocník plánování**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

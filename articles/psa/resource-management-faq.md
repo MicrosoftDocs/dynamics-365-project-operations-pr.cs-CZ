@@ -2,8 +2,6 @@
 title: Nejčastější dotazy ke správě zdrojů
 description: Toto téma poskytuje odpovědi na časté otázky týkající se správy zdrojů.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144360"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002368"
 ---
 # <a name="resource-management-faq"></a>Nejčastější dotazy ke správě zdrojů
 
@@ -54,3 +52,6 @@ Chcete-li provést libovolné požadované změny vyberte po rezervaci zdrojů v
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Jaký je rozdíl mezi přiřazením a rezervací?
 
 Přiřazení jsou přiřazení zdrojů k úkolům projektu v plánu projektu. Zdroje mohou být buď skutečné, nebo obecné. Rezervace jsou závazné nebo předběžné přidělení zdrojů k projektu. Závazné rezervace spotřebovávají kapacitu zdroje. V ideálním případě by se pro reálné zdroje měly dohodnout rezervace a přiřazení, protože se neliší. PSA však tuto dohodu nevynucuje. Zobrazení Vyrovnání ukazuje projektovému manažerovi místa, kde se neshodují rezervace a přiřazení zdroje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

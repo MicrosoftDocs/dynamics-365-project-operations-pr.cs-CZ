@@ -2,11 +2,9 @@
 title: Implementace vlastních polí pro mobilní aplikaci Microsoft Dynamics 365 Project Timesheet na systémech iOS a Android
 description: Toto téma poskytuje běžné vzory pro použití rozšíření k implementaci vlastních polí.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270985"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005743"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementace vlastních polí pro mobilní aplikaci Microsoft Dynamics 365 Project Timesheet na systémech iOS a Android
 
@@ -155,13 +153,13 @@ Pro pole typu **Datum** tato vlastnost předá datovou hodnotu pole mezi servere
 
 Níže je snímek obrazovky z mobilní aplikace vytvoření záznamu časového výkazu. Zobrazuje integrovaná pole a vlastní pole v sekci „Zadání času“ s názvem „Testovací řetězec“ s již nastavenou hodnotou výčtu „Druhá možnost“.
 
-![Otestujte vlastní pole řetězce v aplikaci](media/timesheet-entry.jpg)
+![Otestujte vlastní pole řetězce v aplikaci.](media/timesheet-entry.jpg)
 
 
 
 Níže je snímek obrazovky z mobilní aplikace uživatele, který si vybral jednu z možností výčtu dostupných pro vlastní pole „Testovací řetězec“.  Dvě možnosti jsou „První možnost“ a „Druhá možnost“ zobrazené jako přepínače. Druhá možnost je aktuálně vybrána.
 
-![Volitelná tlačítka (přepínače) pro vlastní pole Testovací řetězec](media/enum-option.jpg)
+![Volitelná tlačítka (přepínače) pro vlastní pole Testovací řetězec.](media/enum-option.jpg)
 
 
 
@@ -173,7 +171,7 @@ Všimněte si, že vlastní pole nemusí mít žádné záložní záznamy datab
 
 Níže je snímek obrazovky ze stromu aplikačních objektů Visual Studio. Zobrazuje rozšíření tabulky TSTimesheetLine s polem TestLineString přidaným jako vlastní pole.
 
-![Řádek řetězce](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Řádek řetězce.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Pomocí řetězce příkazů v metodě buildCustomFieldList třídy TSTimesheetSettings zobrazíte pole v části zadání časového výkazu
 
@@ -319,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 Níže je snímek obrazovky z mobilní aplikace uživatele, který prohlíží časový výkaz. V pravém horním rohu bylo vybráno tlačítko „Další informace“ pro zobrazení možnosti „Zobrazit další podrobnosti“.  
 
-![Příkaz Zobrazit více podrobností](media/show-more.png)
+![Příkaz Zobrazit více podrobností.](media/show-more.png)
 
 Níže je snímek obrazovky z mobilní aplikace zobrazující část Více časového výkazu. Do sekce záhlaví časového výkazu bylo přidáno vlastní pole s názvem „Míra využití tohoto časového výkazu (vypočítané vlastní pole)“. Ve vlastním poli je nastavena hodnota jen pro čtení „0,667“.
 
-![Sekce Další](media/more-section.jpg)
+![Sekce Další.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Rozšiřte tabulku TSTimesheetTable tak, aby měla vlastní pole
 
@@ -416,7 +414,7 @@ Existující logika funkce časového výkazu na úrovni databáze bude i nadál
 
 Z parametrů projektu můžete v mobilní aplikaci nastavit pole připravená k použití pouze ke čtení nebo skrytá. Nastavte možnosti v části **Mobilní časové rozvrhy** na kartě **Časový výkaz** stránky **Parametry řízení projektu a účetnictví**.
 
-![Parametry projektu](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Projektové parametry.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Změna aktivit, které jsou k dispozici pro výběr prostřednictvím rozšíření
 

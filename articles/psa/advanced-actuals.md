@@ -2,8 +2,6 @@
 title: Záznam skutečných hodnot
 description: Toto téma obsahuje informace o tom, jak jsou zaznamenávány skutečné hodnoty.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e417a24d5291fa88dee6583f11439eac0a44a574
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 28dc05d50850fed5241c5360ccbeaeb1f4d9d7fc3916bd2a3cd1bb6f43457dd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145710"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000748"
 ---
 # <a name="recording-actuals"></a>Záznam skutečných hodnot 
 
@@ -33,4 +31,7 @@ ms.locfileid: "5145710"
 
 Jsou zaznamenávány všechny finanční transakce, které nastanou během projektu. Tyto transakce jsou zaznamenány jako **skutečné hodnoty**. Následující tabulka zobrazuje různé typy skutečných hodnot, které jsou vytvořeny v závislosti na tom, zda je projekt časově materiálovým projektem, projektem s pevnou cenou nebo interním projektem nebo je v předprodejní fázi.
 
-> ![Tabulka znázorňující způsob, jakým jsou zaznamenávány skutečné hodnoty](media/advanced-table2.png)
+> ![Tabulka znázorňující způsob, jakým jsou zaznamenávány skutečné hodnoty.](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

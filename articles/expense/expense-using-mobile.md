@@ -2,11 +2,9 @@
 title: Aplikace mobilních výdajů
 description: Toto téma obsahuje informace o pracovním prostoru mobilní správy výdajů.
 author: suvaidya
-manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499888"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818175"
 ---
 # <a name="mobile-expense-app"></a>Aplikace mobilních výdajů
 
@@ -49,42 +47,9 @@ Můžete také použít tyto funkce:
 - Odeslat výkaz výdajů ke schválení a úhradě.
 - Schválit nebo zamítnout výkazy výdajů, pro které jste přiřazeným schvalovatelem.
 
-## <a name="prerequisites"></a>Požadavky
-Předpoklady se liší podle verze, která byla nasazena pro vaši organizaci.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Předpoklady, pokud používáte Dynamics 365 Finance
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Předpoklady, pokud používáte Dynamics 365 Finance 
 Pokud byl pro vaši organizaci nasazen Finance, musí správce systému publikovat mobilní pracovní prostor **Správa výdajů**. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Předpoklady, pokud používáte verzi 1611 s aktualizací platformy 3 nebo novější
-Pokud byla pro vaši organizaci nasazena verze 1611 s aktualizací platformy 3 nebo novější, musí správce systému splnit následující předpoklady. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Požadavek</th>
-<th>Role</th>
-<th>Popis</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Implementujte KB 4019015.</td>
-<td>Správce systému</td>
-<td>KB 4019015 je aktualizace X++ nebo opravná oprava metadat, která obsahuje mobilní pracovní prostor <strong>Správa výdajů</strong>. Chcete-li implementovat KB 4019015, musí váš správce systému postupovat podle těchto kroků.
-<ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Stáhněte si aktualizace ze služby Lifecycle Services</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Nainstalujte opravu hotfix metadat</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Vytvořte nasaditelný balíček</a>, který obsahuje modely <strong>ApplicationSuite</strong> a <strong>ExpenseMobile</strong> a poté nahrajte nasaditelný balíček do LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Použijte nasaditelný balíček</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Publikujte mobilní pracovní prostor <strong>Správa výdajů</strong>.</td>
-<td>Správce systému</td>
-<td>Pro pokyny viz <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publikujte mobilní pracovní prostor</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Stáhněte si a nainstalujte mobilní aplikaci Dynamics 365 Unified Ops
 Stáhněte si a nainstalujte mobilní aplikaci Dynamics 365 Unified Ops:
@@ -105,11 +70,11 @@ Stáhněte si a nainstalujte mobilní aplikaci Dynamics 365 Unified Ops:
 3. Vyberte **Pořídit fotografii** nebo **Zvolit obrázek**.
 4. Postupujte podle jednoho z těchto kroků:
 
-   - Pokud jste vybrali **Pořídit fotografii**, postupujte podle těchto kroků:
+    - Pokud jste vybrali **Pořídit fotografii**, postupujte podle těchto kroků:
 
-      1. Jste přesměrováni na fotoaparát na vašem mobilním zařízení, abyste mohli pořídit fotografii účtenky. 
-      2. Po dokončení fotografování vyberte **OK** pro přijetí fotografie.
-      3. Volitelné: Zadejte název fotografie a jakékoliv poznámky.
+        1. Jste přesměrováni na fotoaparát na vašem mobilním zařízení, abyste mohli pořídit fotografii účtenky. 
+        2. Po dokončení fotografování vyberte **OK** pro přijetí fotografie.
+        3. Volitelné: Zadejte název fotografie a jakékoliv poznámky.
 
     - Pokud jste vybrali **Zvolit fotografii**, postupujte podle těchto kroků:
 
@@ -122,11 +87,11 @@ Stáhněte si a nainstalujte mobilní aplikaci Dynamics 365 Unified Ops:
 
 1. Na svém mobilním zařízení otevřete pracovní prostor **Správa výdajů**.
 2. Vyberte **Rychlé zadání výdaje**.
-3. Vyberte kategorii výdaje. Uvidíte seznam kategorií výdajů, které jsou načteny do vaší aplikace pro offline použití. Ve výchozím nastavení je načteno 50 položek, ale vývojář může toto číslo změnit. Další informace naleznou vývojáři v části [Mobilní platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Pokud vaše kategorie není v seznamu, vyberte **Vyhledat** pro online hledání. Hledejte podle kategorie výdaje nebo přepněte na vyhledávání podle typu výdaje.
+3. Vyberte kategorii výdaje. Uvidíte seznam kategorií výdajů, které jsou načteny do vaší aplikace pro offline použití. Ve výchozím nastavení je načteno 50 položek, ale vývojář může toto číslo změnit. Další informace naleznou vývojáři v části [Mobilní platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Pokud vaše kategorie není v seznamu, vyberte **Vyhledat** pro online hledání. Hledejte podle kategorie výdaje nebo přepněte na vyhledávání podle typu výdaje.
 4. Zadejte datum transakce výdaje.
 5. Volitelné: Pro výdaj zadejte obchodníka.
 6. Zadejte částku výdaje.
-7. Vyberte měnu výdaje. Uvidíte seznam kódů měn, které jsou načteny do vaší aplikace pro offline použití. Ve výchozím nastavení je načteno 400 měn, ale vývojář může toto číslo změnit. Další informace naleznou vývojáři v části [Mobilní platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Pokud vaše měna není v seznamu, vyberte **Vyhledat** pro online hledání. Hledejte podle měny nebo přepněte na vyhledávání podle názvu kategorie.
+7. Vyberte měnu výdaje. Uvidíte seznam kódů měn, které jsou načteny do vaší aplikace pro offline použití. Ve výchozím nastavení je načteno 400 měn, ale vývojář může toto číslo změnit. Další informace naleznou vývojáři v části [Mobilní platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Pokud vaše měna není v seznamu, vyberte **Vyhledat** pro online hledání. Hledejte podle měny nebo přepněte na vyhledávání podle názvu kategorie.
 8. Vyberte **Pořídit fotografii** nebo **Zvolit obrázek**.
 9. Postupujte podle jednoho z těchto kroků:
 
@@ -135,20 +100,20 @@ Stáhněte si a nainstalujte mobilní aplikaci Dynamics 365 Unified Ops:
 
 10. Vyberte **Hotovo**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Schválení výkazu výdajů pomocí mobilního pracovního prostoru Správa výdajů (pokud používáte aktualizaci z července 2017)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Schválení sestavy výdajů pomocí mobilního pracovního prostoru správy výdajů
 
 1. Na svém mobilním zařízení otevřete pracovní prostor **Správa výdajů**.
 2. **Schválení výdajů** zobrazuje počet výkazů výdajů, které jsou vám přiřazeny ke schválení. Číslo se aktualizuje přibližně každých 30 minut. Vyberte **Schválení výdajů**.
 
     Zobrazí se výkazy výdajů, které jsou vám přiřazeny ke schválení.
-    
+
 3. Vyberte výkaz výdajů a zobrazte podrobnosti výdajů.
 4. Vyberte výdaj a zobrazte jeho podrobnosti. Informace, které se zobrazují u výdajů, zahrnují veškeré podrobnosti o účtence, hostech a položkách.
 5. Zpět na stránce **Výkaz výdajů** vyberte schválení nebo odmítnutí výkazu výdajů.
 6. Zadejte jakékoli komentáře k akci schválení.
 7. Vyberte **Hotovo**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Vytvoření nového výkazu výdajů a jeho odeslání ke schválení pomocí mobilního pracovního prostoru Správa výdajů (pokud používáte aktualizaci z července 2017)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Vytvoření nové sestavy výdajů a její odeslání ke schválení pomocí mobilního pracovního prostoru Správa výdajů
 
 1. Na svém mobilním zařízení otevřete pracovní prostor **Správa výdajů**.
 2. Vyberte **Zadání výdaje**.
@@ -159,11 +124,11 @@ Stáhněte si a nainstalujte mobilní aplikaci Dynamics 365 Unified Ops:
 7. Vyberte jeden nebo více výdajů v seznamu.
 8. Vyberte **Hotovo**.
 9. Chcete-li do výkazu výdajů přidat nový výdaj, vyberte **Nový výdaj**.
-10. Vyberte kategorii výdaje. Uvidíte seznam kategorií výdajů, které jsou načteny do vaší aplikace pro offline použití. Ve výchozím nastavení je načteno 50 položek, ale vývojář může toto číslo změnit. Další informace naleznou vývojáři v části [Mobilní platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Pokud vaše kategorie není v seznamu, vyberte **Vyhledat** pro online hledání. Hledejte podle kategorie výdaje nebo přepněte na vyhledávání podle typu výdaje.
+10. Vyberte kategorii výdaje. Uvidíte seznam kategorií výdajů, které jsou načteny do vaší aplikace pro offline použití. Ve výchozím nastavení je načteno 50 položek, ale vývojář může toto číslo změnit. Další informace naleznou vývojáři v části [Mobilní platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Pokud vaše kategorie není v seznamu, vyberte **Vyhledat** pro online hledání. Hledejte podle kategorie výdaje nebo přepněte na vyhledávání podle typu výdaje.
 11. Volitelné: Pro výdaj zadejte obchodníka.
 12. Zadejte datum transakce výdaje.
 13. Zadejte částku výdaje.
-14. Vyberte měnu výdaje. Uvidíte seznam kódů měn, které jsou načteny do vaší aplikace pro offline použití. Ve výchozím nastavení je načteno 400 měn, ale vývojář může toto číslo změnit. Další informace naleznou vývojáři v části [Mobilní platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Pokud vaše měna není v seznamu, vyberte **Vyhledat** pro online hledání. Hledejte podle měny nebo přepněte na vyhledávání podle názvu kategorie.
+14. Vyberte měnu výdaje. Uvidíte seznam kódů měn, které jsou načteny do vaší aplikace pro offline použití. Ve výchozím nastavení je načteno 400 měn, ale vývojář může toto číslo změnit. Další informace naleznou vývojáři v části [Mobilní platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Pokud vaše měna není v seznamu, vyberte **Vyhledat** pro online hledání. Hledejte podle měny nebo přepněte na vyhledávání podle názvu kategorie.
 15. Vyberte **Hotovo**.
 16. Chcete-li k výdaji přidat další podrobnosti, vyberte **Přidat další podrobnosti**. Pole, která jsou k dispozici, závisí na konfiguraci správy výdajů pro vaši společnost.
 17. Pokud zásady společnosti vyžadují účtenku pro výdaj, vyberte **Účtenky** a potom postupujte podle těchto kroků:
@@ -186,12 +151,12 @@ Stáhněte si a nainstalujte mobilní aplikaci Dynamics 365 Unified Ops:
                     1. V seznamu vyberte obrázek.
                     2. Volitelné: Zadejte název obrázku a jakékoliv poznámky.
 
-            3.  Vyberte **Hotovo**.
+            3. Vyberte **Hotovo**.
 
         - Pokud jste vybrali **Připojit účtenku**, postupujte podle těchto kroků:
 
-            1.  V seznamu vyberte jeden nebo více obrázků.
-            2.  Vyberte **Hotovo**.
+            1. V seznamu vyberte jeden nebo více obrázků.
+            2. Vyberte **Hotovo**.
 
     3. Vyberte tlačítko **Zpět** pro návrat k podrobnostem výdajů.
 
@@ -209,12 +174,12 @@ Stáhněte si a nainstalujte mobilní aplikaci Dynamics 365 Unified Ops:
 
         - Pokud jste vybrali **Předchozí hosté**, postupujte podle těchto kroků:
 
-            1. V seznamu vyberte jedno nebo více předchozích hostů. Zobrazí se seznam předchozích hostů, které jste přidali do předchozích výkazů výdajů načtených do vaší aplikace pro offline použití. Ve výchozím nastavení je načteno 50 položek, ale vývojář může toto číslo změnit. Další informace naleznou vývojáři v části [Mobilní platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Pokud váš předchozí host není v seznamu, vyberte **Vyhledat** pro online hledání. Hledejte podle názvu nebo přepněte na vyhledávání podle organizace, země nebo pracovní pozice.
+            1. V seznamu vyberte jedno nebo více předchozích hostů. Zobrazí se seznam předchozích hostů, které jste přidali do předchozích výkazů výdajů načtených do vaší aplikace pro offline použití. Ve výchozím nastavení je načteno 50 položek, ale vývojář může toto číslo změnit. Další informace naleznou vývojáři v části [Mobilní platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Pokud váš předchozí host není v seznamu, vyberte **Vyhledat** pro online hledání. Hledejte podle názvu nebo přepněte na vyhledávání podle organizace, země nebo pracovní pozice.
             2. Vyberte **Hotovo**.
 
         - Pokud jste vybrali **Spolupracovníci**, postupujte podle těchto kroků:
 
-            1. V seznamu vyberte jednoho nebo více spolupracovníků. Uvidíte seznam spolupracovníků, kteří jsou načteni do vaší aplikace pro offline použití. Ve výchozím nastavení je načteno 50 položek, ale vývojář může toto číslo změnit. Další informace naleznou vývojáři v části [Mobilní platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Pokud váš spolupracovník není v seznamu, vyberte **Vyhledat** pro online hledání. Hledejte podle názvu nebo přepněte na vyhledávání podle společnosti nebo pracovní pozice.
+            1. V seznamu vyberte jednoho nebo více spolupracovníků. Uvidíte seznam spolupracovníků, kteří jsou načteni do vaší aplikace pro offline použití. Ve výchozím nastavení je načteno 50 položek, ale vývojář může toto číslo změnit. Další informace naleznou vývojáři v části [Mobilní platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Pokud váš spolupracovník není v seznamu, vyberte **Vyhledat** pro online hledání. Hledejte podle názvu nebo přepněte na vyhledávání podle společnosti nebo pracovní pozice.
             2. Vyberte **Hotovo**.
 
     3. Vyberte tlačítko **Zpět** pro návrat k podrobnostem výdajů.
@@ -223,7 +188,7 @@ Stáhněte si a nainstalujte mobilní aplikaci Dynamics 365 Unified Ops:
 
     1. Vyberte první datum, které chcete rozepsat.
     2. Vyberte **Přidat rozepsání**.
-    3. Vyberte dílčí kategorii pro rozepsání výdaje. Uvidíte seznam dílčích kategorií výdajů, které jsou načteny do vaší aplikace pro offline použití. Ve výchozím nastavení je načteno 50 položek, ale vývojář může toto číslo změnit. Další informace naleznou vývojáři v části [Mobilní platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Pokud vaše dílčí kategorie není v seznamu, vyberte **Vyhledat** pro online hledání. Hledejte podle názvu dílčí kategorie výdajů.
+    3. Vyberte dílčí kategorii pro rozepsání výdaje. Uvidíte seznam dílčích kategorií výdajů, které jsou načteny do vaší aplikace pro offline použití. Ve výchozím nastavení je načteno 50 položek, ale vývojář může toto číslo změnit. Další informace naleznou vývojáři v části [Mobilní platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Pokud vaše dílčí kategorie není v seznamu, vyberte **Vyhledat** pro online hledání. Hledejte podle názvu dílčí kategorie výdajů.
     4. Zadejte částku transakce pro rozepsání.
     5. Pokud je to nutné, upravte datum transakce.
     6. Vyberte **Hotovo**.
@@ -237,5 +202,30 @@ Stáhněte si a nainstalujte mobilní aplikaci Dynamics 365 Unified Ops:
 23. Zadejte jakékoli komentáře pro schvalovatele.
 24. Vyberte **Hotovo**.
 
+## <a name="frequently-asked-questions"></a>Nejčastější dotazy
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Proč mobilní aplikace Výdaje ve výchozím nastavení nezadává způsob platby?
+
+Organizace mohou přizpůsobit nastavení **Výchozí způsob platby** pro každou kategorii výdajů při jejím vytvoření. Kromě toho, když nastavujete způsoby platby, můžete nastavit pole **Výchozí způsob platby** na **Pouze import**.
+
+Když je pro způsob platby zapnuta možnost **Pouze import**, není způsob platby ve výchozím nastavení zadán. V kategoriích výdajů, kde je tento způsob platby nastaven, bude prázdný. Toto chování je konzistentní ve webovém i mobilním prostředí.
+    
+Když pro způsob platby není zapnuta možnost **Pouze import**, nastavená hodnota se zadá implicitně pro kategorie výdajů, kde je tento způsob platby nastavena. Existuje však známý problém, kdy v mobilní aplikaci Výdaje není zadána výchozí hodnota. Chcete-li tento problém vyřešit, před uložením sestavy výdajů ručně vyberte způsob platby. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Proč nemohu přidávat nebo upravovat finanční dimenze v mobilní aplikaci Výdaje?
+
+Zadávání dimenzí a distribucí není podporováno. Chcete-li toto omezení obejít, můžete tato pole nastavit jako výchozí v mobilní aplikaci nastavením výchozích finančních dimenzí na projekt nebo zaměstnance.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Proč se mi někdy v mobilní aplikaci Výdaje zobrazuje chyba synchronizace?
+
+Pokud řádky výdajů nesplňují požadavky zásad a uživatel odešle sestavu výdajů, aniž by reagoval na upozornění zásad, mobilní data se nesynchronizují se serverem a dojde k chybě synchronizace. Všechny sestavy výdajů, které jsou odeslány poté, co dojde k selhání synchronizace, zůstanou ve stavu selhání a způsobí další selhání synchronizace. Jediným způsobem, jak tuto situaci vyřešit, je ručně odstranit oznámení o synchronizaci. Tento problém byl vyřešen zastavením odesílání sestav výdajů, když nebyla vyřešena upozornění zásad, aby se předešlo chybám synchronizace.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Proč se v mobilní aplikaci Výdaje správně neprojevuje ověřování projektů a kategorií?
+
+Toto ověřování není momentálně podporováno. V budoucnu však může být podpora přidána. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Jaké typy dokumentů jsou podporovány v mobilní aplikaci Výdaje?
+
+Mobilní aplikace Výdaje podporuje pouze obrázky. V současné době nepodporuje PDF ani jiné dokumenty.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

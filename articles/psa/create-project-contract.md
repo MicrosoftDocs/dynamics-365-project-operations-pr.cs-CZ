@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e26e5193353d7bbb594f9f31d95c18130d614517
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0544fbd9ebf4b36256849ba246572e8101a33748
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150840"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285250"
 ---
 # <a name="create-a-project-contract-project-service"></a>Vytvoření smlouvy projektu (Project Service)
 
@@ -47,3 +47,6 @@ Nyní, když jste získali nabídku pro projekt, je čas vytvořit smlouvu se z�
   
 ### <a name="see-also"></a>Viz také  
  [Příručka pro manažera obchodních vztahů](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

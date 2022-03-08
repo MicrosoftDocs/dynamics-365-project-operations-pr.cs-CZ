@@ -2,27 +2,25 @@
 title: Přehled odsouhlasení zdrojů
 description: Tento téma poskytuje informace, které vám pomohou zajistit, aby rezervace a přiřazení zdrojů pro projekty byly sladěny.
 author: ruhercul
-manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
-ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
+ms.openlocfilehash: 5c48589e745dbf6e3a51ae749b9b45491d26406e
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "4849616"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368198"
 ---
 # <a name="resource-reconciliation-overview"></a>Přehled odsouhlasení zdrojů
 
@@ -48,3 +46,6 @@ Pokud máte pro zdroj přiřazení úkolů, ale nemáte žádné rezervace, vybe
 Rezervace vytvořené prostřednictvím akce **Prodloužit rezervaci** jsou spojeny s požadavkem primárního projektu. Při zahájení rozšíření nelze určit konkrétní požadavek, který musí být rozšířen, protože prostředek může být přidružen k více než jednomu požadavku na projekt.
 
 Projektový manažer nebo správce prostředku pak může pomocí Plánovací vývěsky spravovat všechny situace, ve kterých je zdroj přerezervovaný nad svoji kapacitu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

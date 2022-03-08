@@ -2,6 +2,8 @@
 title: Přidání dovedností zdrojů
 description: Přiřazení dovedností ke zdrojům v Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e7b37c77c7ba688dc33ed382ec7ef610a5dee2d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 44b3d3cbb36a00e7f07160b6216ead183bc32422
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992742"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129625"
 ---
 # <a name="add-resource-skills-project-service"></a>Přidání dovedností zdroje (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -45,6 +45,3 @@ Projekty vašich klientů nepochybně vyžadují celou řadu různých dovednost
   
 ### <a name="see-also"></a>Viz také  
  [Nastavení zdrojů](../psa/set-up-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

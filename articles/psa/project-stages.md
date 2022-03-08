@@ -2,8 +2,6 @@
 title: Typy fází projektu
 description: Toto téma poskytuje informace o fázích projektu.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 61db23e19614f5c3be5c8b46fbf72463705e409c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ed725d8ea2f671c45a7a19bb017bbb08c41f42db
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148095"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008978"
 ---
 # <a name="project-stage-types"></a>Typy fází projektu 
 
@@ -65,3 +63,6 @@ Po dokončení práce na projektu může projektový manažer aktualizovat fázi
 ## <a name="close"></a>Close (Zavřít)
 
 Jakmile jsou všechny transakce pro projekt zaznamenány, může projektový manažer aktualizovat fázi na **Zavřít**. V tomto okamžiku nelze zaznamenat žádné transakce a projekt je nastaven jen pro čtení.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

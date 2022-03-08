@@ -3,7 +3,6 @@ title: Instalace ukázkových dat
 description: Tento téma poskytuje informace o instalaci ukázkových dat v Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144495"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985538"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalace ukázkových dat pro aplikaci Project Service
 
@@ -87,7 +86,7 @@ Měli byste naplánovat, aby počítač zůstal připojený k síti, a počítat
 Na počítači by měla být vypnuta funkce spořiče obrazovky. Jinak se můžou při aktivaci spořiče obrazovky ztratit přihlašovací údaje pro instalaci (pokud nezachováte relaci po celou dobu aktivní).
 
 > [!div class="mx-imgBorder"]
-> ![Snímek obrazovky nastavení spořiče obrazovky s vypnutým spořičem obrazovky](media/sample-data-1.png)
+> ![Snímek obrazovky nastavení spořiče obrazovky s vypnutým spořičem obrazovky.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Stažení a vybalení
 
@@ -136,20 +135,20 @@ Balíček ukázkových dat vyžaduje šest uživatelů. Pro správnou instalaci 
     - Celé jméno uživatele = Molly Clark jako manažerka obchodních vztahů   
     - Celé jméno uživatele = Spencer Low jako projektový manažer  
     - Celé jméno uživatele = Veronica Quek jako členka týmu   
-    - Celé jméno uživatele = William Contoso
+    - Celé jméno uživatele = "William Contoso"
   
 2. Pro účely importu ukázkových dat přiřaďte výše uvedeným šesti uživatelům roli správce, aby se záznamy importovaly správně. 
 
 3. Otevřete **PkgFolder** a potom vyhledejte a otevřete **ImportUserMapFile.xml**. Aktualizujte pole **Nová =** pro e-mailové adresy odpovídajících uživatelů ve vašem systému.
 
    > [!div class="mx-imgBorder"]
-   > ![Snímek obrazovky UserMapFile](media/sample-data-7.png)
+   > ![Snímek obrazovky UserMapFile.](media/sample-data-7.png)
 
 4. Pokud má celé jméno uživatele Spencer Low jiné ID uživatele než **"spencerl"**, je třeba aktualizovat další soubor. Otevřete **DemoDataPreImportConfig.xml** a potom vyhledejte značku **userstocreateandconfigure**. Aktualizujte značku **\<login\>** s loginId (rozlišuje velká a malá písmena). 
 
 5. Kalendář prvního uživatele (ve značce **userstocreateandconfigure**) slouží k naplnění pracovní doby pro všechny rezervovatelné prostředky při importu ukázkových dat. Přejděte do **Nastavení** > **Zabezpečení** > **Uživatelé**, vyhledeje uživatele Spencer Low a otevřete možnost Pracovní doba. Upravte existující pracovní dobu výběrem možnosti **Celý opakovaný týdenní plán od začátku do konce**. Ujistěte se, že **pracovní doba je nastavena na 8:00 - 17:00 (9 hodin), od pondělí do pátku a v časovém pásmu Tichomoří (USA a Kanada)**. To je nutné proto, aby se , aby se Projekt a Plánovací vývěska zobrazovaly podle očekávání.
 
-**Doporučení:** Nyní zvažte vytvoření zálohy organizace pro případ, že budete potřebovat obnovit počáteční bod, pokud dojde k chybě při instalaci ukázkových dat. Další informace získáte v části [Instance zálohování a obnovení](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Doporučení:** Nyní zvažte vytvoření zálohy organizace pro případ, že budete potřebovat obnovit počáteční bod, pokud dojde k chybě při instalaci ukázkových dat. Další informace získáte v části [Instance zálohování a obnovení](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Spusťte Package Deployer
 
@@ -173,7 +172,7 @@ Balíček ukázkových dat vyžaduje šest uživatelů. Pro správnou instalaci 
 5. Klikejte na **Další**, dokud se nezobrazí dialogové okno **Nastavení ukázkových dat**.
 
    > [!div class="mx-imgBorder"]
-   > ![Snímek obrazovky stavového okna instalačního programu ukázkových dat](media/sample-data-3.png)
+   > ![Screenshot stavového okna instalačního programu ukázkových dat.](media/sample-data-3.png)
 
 6. Než budete pokračovat, všimněte si, že instalace ukázkových dat může trvat až jednu hodinu (obvykle ~ 10 minut). Bude nutné ujistit se, že počítač zůstává zapnutý a připojený k síti během procesu instalace a že vaše relace zůstane aktivní.   
 
@@ -192,10 +191,10 @@ Poté, co se ukázková data zcela načtou, přihlaste se jako uživatel Spencer
 - Pokud je nainstalována aplikace Field Service, přejděte na **Project Service** > **Nastavení** > **Ceníky**. Ověřte, zda existují sazby fakturace a sazby nákladů. Přejděte na **Field Service** > **Nastavení** > **Ceníky** a zkontrolujte, že v datové sadě existují fakturované sazby a sazby nákladů, v příslušné měně pro každou zemi/oblast.
 
   > [!div class="mx-imgBorder"]
-  > ![Snímek obrazovky aktivních ceníků](media/sample-data-4.png)
+  > ![Screenshot aktivních ceníků.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Snímek obrazovky aktivních organizačních jednotek](media/sample-data-5.png)
+  > ![Screenshot aktivních organizačních jednotek.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Technické poznámky
 
@@ -296,4 +295,7 @@ Pokud potřebujete změnit pracovní dobu pro ukázkové rezervovatelné zdroje 
 Vyberte uživatele (například Spencer Low) a změňte pracovní dobu Spencera na hodiny, které chcete použít u více uživatelů. Přejděte na **Universal Resource Scheduling** > **Nastavení** > **Šablony pracovní doby** a upravte záznam **Výchozí šablona práce**. V poli **Šablona zdroje** vyberte uživatele s pracovní dobou, kterou chcete použít pro jiné zdroje. Přejděte k **Universal Resource Scheduling** > **Plánování** > **Zdroje** > **Aktivní rezervovatelné zdroje**. Vyberte zdroje, které chcete změnit, a potom vyberte **Nastavit kalendář**. V rozevíracím seznamu **Šablona práce** vyberte šablonu **výchozí pracovní doba** nebo jinou šablonu se správným zdrojem šablon. Při přechodu na plánovací vývěsku byste si měli všimnout, že zdroje teď mají aktualizovanou pracovní dobu.
 
 > [!div class="mx-imgBorder"]
-> ![Snímek obrazovky aktivních rezervovatelných zdrojů](media/sample-data-6.png)
+> ![Screenshot aktivních rezervovatelných zdrojů.](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

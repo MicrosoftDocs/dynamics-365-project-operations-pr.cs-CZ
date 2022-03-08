@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 46a678ac4486c99f11d74dbac07dedd08364cb2f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fa612696944082e179ab2484e2fdd76d1696b889
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123730"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275980"
 ---
 # <a name="travel-requisitions"></a>Cestovní žádanky
 
@@ -56,3 +56,6 @@ Vyberte cestovní žádanku, kterou chcete schválit, a poté vyberte **Pracovn�
 
 > [!NOTE]
 > Když mapujete vyúčtování výdajů na schválenou žádost o cestování, částka transakce nemůže být větší než autorizovaná částka. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Vytvoření časových záznamů
 description: Toto téma obsahuje informace o způsobu vytvoření časových záznamů.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149670"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990398"
 ---
 # <a name="create-time-entries"></a>Vytvoření časových záznamů
 
@@ -70,3 +68,6 @@ Můžete importovat data z rezervací projektů a přiřazení. Při importu dat
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Funkce seskupit podle, třídit, hledat a filtrovat
 
 Časové záznamy lze seskupit a filtrovat podle dimenzí zadaných ve sloupcích. V poli **Seskupit podle** vyberte dimenzi, kterou chcete použít k filtrování časových záznamů. Záznamy s položkami času lze také řadit vzestupně nebo sestupně pomocí šipky řazení v záhlavích sloupců. Tyto záznamy lze zobrazit nebo skrýt výběrem tlačítka **Filtrovat** v záhlavích sloupců a potom do políčka **Hledat** zadáním textu, který má být použit k hledání časových položek podle názvu projektu, úkolu projektu, času položku nebo zdroj.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

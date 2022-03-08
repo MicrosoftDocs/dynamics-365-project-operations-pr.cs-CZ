@@ -2,8 +2,6 @@
 title: Použití plánovací vývěsky k rezervaci zdrojů projektu
 description: Toto téma obsahuje informace o způsobu rezervace zdrojů.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9c9db2e602ca97d63ba237fd2c0eb757583caebc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: bbd6e8c711f6c15221143514efdd43a388ef4e7f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144405"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998043"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Použití plánovací vývěsky k rezervaci zdrojů projektu
 
@@ -53,3 +51,6 @@ Před tím, než si můžete rezervovat z Plánovací vývěsky, musíte vytvoř
 Požadavek je splněn pomocí vybraného zdroje. V podokně **Požadavky na rezervace** si všimněte, že požadavek byl aktualizován a zdroj je v projektu zobrazen jako rezervovaný.
 
 ![Rezervovaný zdroj v projektu](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

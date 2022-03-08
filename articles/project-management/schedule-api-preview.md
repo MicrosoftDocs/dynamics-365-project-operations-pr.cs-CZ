@@ -1,29 +1,32 @@
 ---
-title: K provádění operací s entitami plánování použijte rozhraní API pro plánování projektu
-description: Tento téma poskytuje informace a ukázky pro použití rozhraní API plánu projektu.
+title: Používání rozhraní Schedule API k provádění operací s entitami plánování
+description: Tento téma poskytuje informace a ukázky pro používání rozhraní Schedule API.
 author: sigitac
-ms.date: 09/09/2021
+manager: Annbe
+ms.date: 04/27/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487677"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950796"
 ---
-# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>K provádění operací s entitami plánování použijte rozhraní API pro plánování projektu
+# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Používání rozhraní Schedule API k provádění operací s entitami plánování
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-
+> [!IMPORTANT] 
+> Některé nebo všechny funkce uvedené v tomto tématu jsou k dispozici jako součást vydání verze Preview. Obsah a funkce se mohou změnit. 
 
 ## <a name="scheduling-entities"></a>Entity plánování
 
-Rozhraní API plánování projektu umožňují provádět operace vytváření, aktualizace a mazání pomocí **Plánovacích entit**. Tyto entity jsou spravovány prostřednictvím modulu Plánování v aplikaci Project for the Web. Operace vytváření, aktualizace a odstraňování **entit plánování** byly ve starších verzích Dynamics 365 Project Operations omezeny.
+Rozhraní Schedule API poskytuje funkce k vytváření, aktualizaci a odstraňování **entit plánování**. Tyto entity jsou spravovány prostřednictvím modulu Plánování v aplikaci Project for the Web. Operace vytváření, aktualizace a odstraňování **entit plánování** byly ve starších verzích Dynamics 365 Project Operations omezeny.
 
-Následující tabulka poskytuje úplný seznam entit plánu projektu.
+Následující tabulka obsahuje úplný seznam **entit plánování**.
 
 | Název entity  | Logický název entity |
 | --- | --- |
@@ -38,19 +41,19 @@ Následující tabulka poskytuje úplný seznam entit plánu projektu.
 
 OperationSet je vzor jednotky práce, který lze použít, když musí být v rámci transakce zpracováno několik požadavků ovlivňujících plány.
 
-## <a name="project-schedule-apis"></a>Rozhraní API plánu projektu
+## <a name="schedule-apis"></a>Rozhraní Schedule API
 
-Následuje seznam aktuálních rozhraní API plánu projektu.
+Následuje seznam aktuálních rozhraní Schedule API.
 
 - **msdyn_CreateProjectV1** : Toto API lze použít k vytvoření projektu. Projekt a výchozí projektový kbelík se vytvoří okamžitě.
 - **msdyn_CreateTeamMemberV1** : Toto API lze použít k vytvoření člena projektového týmu. Záznam člena týmu je vytvořen okamžitě.
 - **msdyn_CreateOperationSetV1** : Toto API lze použít k naplánování několika požadavků, které je třeba provést v rámci transakce.
-- **msdyn_PSSCreateV1** : Toto API lze použít k vytvoření entity. Entitou může být jakákoli entita plánování projektu, která podporuje operaci vytvoření.
-- **msdyn_PSSUpdateV1** : Toto API lze použít k aktualizaci entity. Entitou může být jakákoli entita plánování projektu, která podporuje operaci aktualizace.
-- **msdyn_PSSDeleteV1** : Toto API lze použít k odstranění entity. Entitou může být jakákoli entita plánování projektu, která podporuje operaci odstranění.
+- **msdyn_PSSCreateV1** : Toto API lze použít k vytvoření entity. Entitou může být libovolná entita plánování, která podporuje operaci vytvoření.
+- **msdyn_PSSUpdateV1** : Toto API lze použít k aktualizaci entity. Entitou může být libovolná entita plánování, která podporuje operaci aktualizace.
+- **msdyn_PSSDeleteV1** : Toto API lze použít k odstranění entity. Entitou může být libovolná entita plánování, která podporuje operaci odstranění.
 - **msdyn_ExecuteOperationSetV1** : Toto API se používá k provedení všech operací v rámci dané sady operací.
 
-## <a name="using-project-schedule-apis-with-operationset"></a>Používání API plánu projektu s OperationSet
+## <a name="using-schedule-apis-with-operationset"></a>Používání rozhraní Schedule API s OperationSet
 
 Protože záznamy s oběma rozhraními **CreateProjectV1** a **CreateTeamMemberV1** jsou vytvořeny okamžitě, nelze tato API použít v sadě **OperationSet** přímo. Můžete však použít API k vytvoření potřebných záznamů, vytvořit sadu **OperationSet** a poté použít tyto předem vytvořené záznamy v sadě **OperationSet**.
 
@@ -256,7 +259,7 @@ Následující tabulky definují pole, která mají omezené funkce **Vytvořit*
 ## <a name="limitations-and-known-issues"></a>Omezení a známé problémy
 Následuje seznam omezení a známých problémů:
 
-- Rozhraní API plánu projektu mohou používat pouze **Uživatelé s licencí Microsoft Project.** Nemohou je používat:
+- Rozhraní Schedule API mohou používat pouze **uživatelé s licencí aplikace Microsoft Project.** Nemohou je používat:
     - Uživatelé aplikace
     - Systémoví uživatelé
     - Uživatelé integrace
@@ -265,12 +268,13 @@ Následuje seznam omezení a známých problémů:
 - Každý uživatel může mít maximálně 10 otevřených sad **OperationSet**.
 - Project Operations v současné době podporuje maximálně 500 úkolů v jednom projektu.
 - Stav selhání a protokoly selhání nejsou u sad **OperationSet** aktuálně k dispozici.
+- Rozhraní Schedule API jsou nyní ve fázi Public Preview. Společnost Microsoft nepodporuje používání těchto API v produkčním prostředí.
 - [Meze a hranice projektů a úkolů](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Zpracování chyb
 
    - Chcete-li zkontrolovat chyby generované ze sad operací, přejděte na **Nastavení** \> **Naplánovat integraci** \> **Sady operací**.
-   - Chcete-li zkontrolovat chyby generované službou plánování projektu, přejděte na **Nastavení** \> **Integrace plánu** \> **Protokoly chyb PSS**.
+   - Chcete-li zkontrolovat chyby generované službou plánování projektu, přejděte na **Nastavení** \> **Naplánovat integraci** \> **Protokoly chyb PSS**.
 
 ## <a name="sample-scenario"></a>Ukázkový scénář
 

@@ -2,11 +2,9 @@
 title: Projektové předpovědi a rozpočty
 description: Microsoft Dynamics 365 Finance poskytuje projektové předpovědi a rozpočty pro správu a řízení vašich projektů.
 author: Yowelle
-manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f99c00effbb0678f1f55e5068a7128cbfb86f5ce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c1c1cde984334af8cc30e7899e3cf0b38467666f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073893"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999618"
 ---
 # <a name="project-forecasts-and-budgets"></a>Projektové předpovědi a rozpočty
 
@@ -81,3 +79,6 @@ Pokud používáte projektové předpovědi, můžete modely identifikovat jako 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,12 +2,10 @@
 title: Nastavení vlastních polí jako cenových dimenzí
 description: Toto téma obsahuje informace o nastavení vlastních cenových dimenzí.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150345"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008303"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Nastavení vlastních polí jako cenových dimenzí 
 
@@ -75,7 +73,7 @@ Existují dva typy cenových dimenzí:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|U zákazníka            |                    |Přesčas                 |15     |
 |             | Contoso India|Místní             |                    |Přesčas                 |10     |
-|             | Contoso US   |Místní             |                    |Přesčas                 |20     |
+|             | Contoso (USA)   |Místní             |                    |Přesčas                 |20     |
 
 
 Pokud zdroj ze společnosti Contoso India, jehož základní sazba je 100 USD, pracuje u zákazníka a zaznamenává do časového záznamu 8 hodin pravidelného času a 2 hodiny přesčasu, použije modul ocenění Project Service k zaznamenání 800 USD základní sazbu 100 za 8 hodin. Pro dobu 2 hodin přesčasové práce se na základní sazbu 100 použije přirážka ve výši 15 % pro získání jednotkové ceny 115 USD a zaznamenají se celkové náklady na 230 USD.
@@ -94,3 +92,6 @@ Nastavení priority dimenze pomáhá službě Project Service při tvorbě ceny,
 
 - **Priorita nákladů**: hodnota priority nákladů dimenze bude označovat váhu této dimenze při párování s nastavením nákladových cen. Hodnota **Priorita nákladů** musí být jedinečná v rámci dimenzí, které jsou **Použitelné na náklady**.
 - **Priorita prodeje**: hodnota priority prodeje dimenze bude označovat váhu této dimenze při párování s nastavením prodejních cen nebo fakturačních sazeb. Hodnota **Priorita prodeje** musí být jedinečná v rámci dimenzí, které jsou **Použitelné na náklady**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
