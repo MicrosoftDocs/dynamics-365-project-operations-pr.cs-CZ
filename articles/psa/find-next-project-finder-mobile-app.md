@@ -2,8 +2,6 @@
 title: " Vyhledání vašeho dalšího projektu pomocí aplikace Project Finder Mobile"
 description: Postup vyhledání vašeho dalšího projektu pomocí aplikace Project Finder Mobile pro Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c15be8d9884c31298f996477c732c542fce65fcc
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275260"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990759"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Vyhledání vašeho dalšího projektu pomocí aplikace Project Finder Mobile (Project Service)
 
@@ -40,12 +38,12 @@ Pomocí aplikace Project Finder Mobile na vašem telefonu [!INCLUDE[tn_iphone](.
   
  Klepnutím na šipku vpravo u projektu, který vás zajímá, zobrazíte podrobnější informace a budete se moci do projektu zaregistrovat.  
   
- ![Seznam projektů odpovídajících dovedností v projektu aplikace Finder Mobile](../psa/media/project-service-project-finder-list.png "Seznam projektů odpovídajících dovedností v projektu aplikace Finder Mobile")  
+ ![Seznam projektů odpovídajících dovedností v aplikaci Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Seznam projektů odpovídajících dovedností v projektu aplikace Finder Mobile")  
   
 ## <a name="update-your-skills"></a>Aktualizace vašich dovedností  
  Chcete-li aktualizovat úroveň svých dovedností a odborných znalostí, klepněte na tlačítko profilu v pravém dolním rohu obrazovky.  
   
- ![Tlačítko profilu v projektu aplikace Finder Mobile](../psa/media/project-service-project-finder-profile.png "Tlačítko profilu v projektu aplikace Finder Mobile")  
+ ![Tlačítko profilu v aplikaci Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Tlačítko profilu v projektu aplikace Finder Mobile")  
   
 ### <a name="see-also"></a>Viz také  
  [Příručka – Čas, výdaje a spolupráce](../psa/time-expense-collaboration-guide.md)

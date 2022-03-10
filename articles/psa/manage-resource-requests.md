@@ -2,8 +2,6 @@
 title: Správa žádostí o zdroje
 description: Postup správy žádostí o zdroje v Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128995"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985133"
 ---
 # <a name="manage-resource-requests-project-service"></a>Správa žádostí o zdroje (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -43,9 +43,12 @@ Manažeři obchodních vztahů a vedoucí projektu pro jejich projekty pravideln
   
    -   Klikněte na tlačítko **Filtr**, chcete-li zobrazit podokno **Filtr**, které vám umožní filtrovat výsledky podle organizační jednotky, role, dovednosti nebo jiných atributů.  
   
-       ![Obrazovka Žádost o zdroje Project Service](../psa/media/project-service-resource-request-screen.png "Obrazovka Žádost o zdroje Project Service")  
+       ![Obrazovka Žádost o zdroje Project Service.](../psa/media/project-service-resource-request-screen.png "Obrazovka Žádost o zdroje Project Service")  
   
 3. V kalendáři zdroje, který chcete rezervovat, vyberte časové období pro rezervaci zdroje a potom klikněte na tlačítko **Rezervovat**, chcete-li zdroj rezervovat, nebo na tlačítko **Navrhnout rezervaci**, chcete-li rezervaci navrhnout a požádat žadatele o schválení. Když rezervujete zdroj, můžete jej rezervovat předběžně nebo závazně.  
   
 ### <a name="see-also"></a>Viz také  
  [Příručka pro manažera zdrojů](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

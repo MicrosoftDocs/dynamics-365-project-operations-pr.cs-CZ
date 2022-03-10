@@ -2,8 +2,6 @@
 title: Ocenění projektů
 description: Toto téma obsahuje informace o fungování ocenění v Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073977"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000568"
 ---
 # <a name="project-pricing"></a>Ocenění projektů 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -46,7 +46,7 @@ Entita Ceník obsahuje tři související tabulky, ve kterých jsou uloženy cen
   - **Cena kategorie transakce** – tato tabulka uchovává ceny podle kategorie transakcí a používá se k nastavení cen kategorií výdajů.
   - **Položky ceníku** – tato tabulka uchovává ceny pro katalogové produkty.
 
-> ![Konfigurace cen pomocí ceníku](media/basic-guide-12.png)
+> ![Konfigurace cen pomocí ceníku.](media/basic-guide-12.png)
  
 Ceník je karta se sazbami. Karta se sazbami je kombinací entity Ceník a souvisejících řádků v tabulkách Cena role, Cena kategorie transakce a Položky ceníku.
 
@@ -58,7 +58,7 @@ Termín *Role zdroje* odkazuje na sadu dovedností, kompetencí a certifikací, 
 
 Skupina jednotek **Čas** se vytvoří při instalaci PSA. Obsahuje výchozí jednotku **Hodina**. Atributy skupiny jednotek **Čas** nebo jednotky **Hodina** nelze odstranit, přejmenovat ani upravit. Do skupiny jednotek **Čas** však můžete přidat další jednotky. Pokud se pokusíte odstranit skupinu jednotek **Čas** nebo jednotku **Hodina**, můžete způsobit selhání v obchodní logice PSA.
 
-> ![Konfigurace cen podle role](media/basic-guide-13.png)
+> ![Konfigurace cen podle role.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategorie transakcí a kategorie výdajů
 
@@ -68,7 +68,7 @@ Cestovné a další výdaje, které vzniknou projektovým konzultantům, jsou ob
 - **Procento přirážky** – procentní podíl nad skutečné náklady je fakturován zákazníkovi. 
 - **Cena za jednotku** – fakturační cena je nastavena pro každou jednotku kategorie výdajů. Částka, která je fakturována zákazníkovi, je vypočtena na základě počtu výdajových jednotek, které konzultant hlásí. Mílovné používá metodu ocenění cena za jednotku. Kategorie výdajů na mílovné může být nakonfigurována pro 30 amerických dolarů (USD) za den nebo 2 USD na míli. Když konzultant ohlásí mílovné na projekt, fakturovaná částka se vypočte na základě počtu mil, které konzultant ohlásil.
 
-> ![Konfigurace oceňování kategorií výdajů](media/basic-guide-14.png)
+> ![Konfigurace oceňování kategorií výdajů.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Oceňování a přepisy projektových prodejů
 
@@ -114,7 +114,7 @@ V nabídce je však možné použít hlavní ceník. Můžete také zkopírovat 
 
 Při vytváření vlastního projektového ceníku se zkopírují pouze projektové komponenty ceníku. Jinými slovy, nový ceník vytvořený jako kopie existujícího projektového ceníku, který je připojen k nabídce, a tento nový ceník obsahuje pouze související ceny rolí a ceny kategorií transakcí.
 
-> ![Zobrazení a konfigurace vlastních cen pro projektovou smlouvu](media/basic-guide-15.png)
+> ![Zobrazení a konfigurace vlastních cen pro projektovou smlouvu.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Sledování nákladů
 
@@ -129,3 +129,6 @@ Nákladové sazby pro lidské zdroje se stejně jako fakturační sazby také na
     1. Nákladový ceník, který je připojen k organizační jednotce.
     2. Nákladový ceník, který je připojen k parametrům služby Project Service. Protože k parametrům služby Project service připojit nákladové ceníky v mnoha různých měnách, jsou měna smluvní organizační jednotky projektu, smlouvy nebo nabídky a měna nákladového ceníku stejné.
     3. U výdajů se metody ocenění podle nákladů a podle přirážky k nákladům na nákladové ceníky nepoužijí. I když se tyto metody ocenění používají v řádcích nákladových ceníků pro nastavení nákladů kategorie transakce, systém je ignoruje a nebude zadána výchozí nákladová cena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

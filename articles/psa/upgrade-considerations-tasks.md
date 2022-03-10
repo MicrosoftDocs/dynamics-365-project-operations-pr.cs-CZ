@@ -1,8 +1,6 @@
 ---
 title: Důležité informace o upgradu pro strukturovaný rozpis prací
 description: Toto téma obsahuje informace o upgradu strukturovaného rozpisu prací z verze Project Service Automation 2.x na 3.x.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149535"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992333"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Důležité informace o upgradu pro strukturovaný rozpis prací
 
@@ -34,20 +32,20 @@ Toto téma obsahuje informace o upgradu strukturovaného rozpisu prací z verz
 ## <a name="key-entities"></a>Klíčové entity
 Pro přesný strukturovaný rozpis prací, ve kterém jsou již načteny zdroje, jsou vyžadovány následující entity:
 
-- [Projekt](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Projektový tým](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Projektový úkol](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Přiřazení zdrojů](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Závislost projektového úkolu](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Rezervovatelné zdroje](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Projekt](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Projektový tým](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Projektový úkol](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Přiřazení zdrojů](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Závislost projektového úkolu](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Rezervovatelné zdroje](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Chcete-li definovat strukturovaný rozpis prací s načtenými zdroji, je třeba provést následující kroky:
 
-1. Vytvořte nový projekt. Další informace o vytvoření nového projektu naleznete v tématu [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Vytvořte jeden nebo více úkolů. Další informace o vytvoření nového úkolu naleznete v tématu [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Definujte závislosti mezi úkoly. Další informace viz [Závislost projektového úkolu](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Přiřaďte členy projektového týmu k projektu. Další informace naleznete v tématu [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Přiřaďte členy projektového týmu k úkolům. Další informace naleznete v tématu [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Vytvořte nový projekt. Další informace o vytvoření nového projektu naleznete v tématu [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Vytvořte jeden nebo více úkolů. Další informace o vytvoření nového úkolu naleznete v tématu [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Definujte závislosti mezi úkoly. Další informace viz [Závislost projektového úkolu](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Přiřaďte členy projektového týmu k projektu. Další informace naleznete v tématu [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Přiřaďte členy projektového týmu k úkolům. Další informace naleznete v tématu [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Vztahy v projektovém týmu
 
@@ -96,3 +94,6 @@ Aby bylo možné zajistit úspěšný upgrade, je nutné správně udržovat ná
 
 - Všechny závislosti úkolů projektu musí souviset se stejným projektem.
 - Úkol nesmí mít stejnou závislost odkazovanou více než jednou.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

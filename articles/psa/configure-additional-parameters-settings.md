@@ -2,8 +2,6 @@
 title: Konfigurace dalšího nastavení parametrů
 description: Postup konfigurace nastavení dalších parametrů v Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bac484e29f1a0578042f350b1657a42e80b48cb4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fb23569db5136cd1b8b7d2f5735de8a91b441b76ab7e027d27087b3785f4636e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290756"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000433"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Konfigurace nastavení dalších parametrů (Project Service)
 

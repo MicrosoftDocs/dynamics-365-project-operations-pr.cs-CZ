@@ -2,8 +2,6 @@
 title: Kontrola nedokončené fakturace u projektů a projektových smluv
 description: Toto téma obsahuje informace o tom, jak kontrolovat nedokončené časové, výdajové a produktové záznamy a jak je označit jako připravené k fakturaci.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bdeeb100614cda78d0ba536310bb6b411c863b71
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282775"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006957"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Kontrola nedokončené fakturace u projektů a projektových smluv
 
@@ -42,7 +40,7 @@ Skutečné hodnoty nefakturovaného prodeje představují nedokončenou fakturac
 
 Chcete-li zkontrolovat nedokončenou fakturaci času a materiálu, přejděte na **Prodej** \> **Fakturace** \> **Nedokončená fakturace času a materiálu**. Vyberte všechny skutečné hodnoty nefakturovaného prodeje, které jsou připraveny k fakturaci a pak vyberte **Připraveno k fakturaci**. Stav fakturace těchto skutečných hodnot je změněn na **Připraveno k fakturaci**.
 
-![Nedokončená fakturace času a materiálu](media/TMBacklog.png)
+![Nedokončená fakturace času a materiálu.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Kontrola nedokončené fakturace produktů
 
@@ -50,7 +48,7 @@ Obsahuje-li projektová smlouva v PSA řádky smlouvy založené na produktu, bu
 
 Chcete-li zkontrolovat nedokončenou fakturaci produktů, přejděte do **Prodej** \> **Fakturace** \> **Nedokončená fakturace produktů**. Vyberte všechny řádky smlouvy založené na produktu, které jsou připraveny k fakturaci a pak vyberte **Připraveno k fakturaci**. Stav fakturace těchto řádků je změněn na **Připraveno k fakturaci**.
 
-![Nedokončená fakturace produktů](media/ProductBacklog.png)
+![Nedokončená fakturace produktů.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Kontrola fakturačních milníků u smluv s pevnou cenou
 
@@ -58,7 +56,7 @@ Každý řádek projektové smlouvy, který obsahuje fakturační metodu s pevno
 
 Chcete-li zkontrolovat fakturační milníky, přejděte na **Prodej** \> **Fakturace** \> **Milníky s pevnou cenou**. Vyberte milníky, které jsou připraveny k fakturaci a pak vyberte **Připraveno k fakturaci**. Stav fakturace těchto milníků je změněn na **Připraveno k fakturaci**.
 
-![Milníky s pevnou cenou](media/FPBacklog.png)
+![Milníky s pevnou cenou.](media/FPBacklog.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

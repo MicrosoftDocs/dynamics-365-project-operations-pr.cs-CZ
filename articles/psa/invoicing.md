@@ -2,12 +2,10 @@
 title: Fakturace v Project Service Automation
 description: Toto téma poskytuje informace o fakturaci.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5d9fff2d3b26da73e5a236cd8607576439fc1a08
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284260"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985493"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturace v Project Service Automation
 
@@ -52,7 +50,7 @@ Chcete-li vytvořit fakturu pro konkrétní projektovou smlouvu, postupujte podl
 
 - Na stránce se seznamem **Projektových smluv** otevřete projektovou smlouvu a pak vyberte **Vytvořit fakturu**.
 
-    ![Vytvoření projektových faktur pro konkrétní projektovou smlouvu](media/CreateProjectInvoicesOneByOne.png)
+    ![Vytvoření projektových faktur pro konkrétní projektovou smlouvu.](media/CreateProjectInvoicesOneByOne.png)
 
     Je vygenerována faktura pro všechny transakce vybrané projektové smlouvy, které mají stav **Připraveno k fakturaci**. Tyto transakce zahrnují čas, výdaje, milníky a řádky smlouvy založené na produktu.
 
@@ -60,7 +58,7 @@ Chcete-li vytvořit faktury hromadně, postupujte následovně.
 
 1. Na stránce se seznamem **Projektových smluv** vyberte jednu nebo více projektových smluv, pro které musíte vytvořit fakturu, a pak vyberte **Vytvořit projektové faktury**.
 
-    ![Hromadné vytvoření projektových faktur](media/CreateProjectInvoicesBulk.png)
+    ![Hromadné vytvoření projektových faktur.](media/CreateProjectInvoicesBulk.png)
 
     Zobrazí se zpráva s upozorněním, že před vytvořením faktur může dojít k prodlevě. Tento proces je také zobrazen.
 

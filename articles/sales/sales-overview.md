@@ -1,29 +1,22 @@
 ---
-title: Přehled prodejních procesů
+title: Přehled prodejního procesu
 description: Toto téma poskytuje informace o základních prodejních procesech.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
-ms.custom:
-- dyn365-projectservice
-ms.date: 09/23/2019
+ms.date: 10/29/2020
 ms.topic: article
-ms.prod: ''
+ms.reviewer: kfend
 ms.author: rumant
-audience: Admin
-search.audienceType:
-- admin
-- customizer
-- enduser
-search.app: ''
-ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.custom: intro-internal
+ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073979"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991838"
 ---
-# <a name="sales-processes-overview"></a>Přehled prodejních procesů
+# <a name="sales-process-overview"></a>Přehled prodejního procesu
+
+_**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
 Prodejní procesy používané v organizaci založené na projektech se liší od prodejních procesů používaných v organizaci založené na produktech. K tomuto rozdílu dochází proto, že prodejní cykly pro organizace založené na projektech jsou delší a vyžadují pro analýzu a vytváření nabídek pro jednotlivé obchody přizpůsobené techniky odhadu. Dynamics 365 Project Operations používá některé z následujících funkcí, které se používají v prodejním procesu:
 
@@ -69,3 +62,6 @@ V Project Operations nelze sledovat revize provedené v nabídce. Místo toho mu
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Sledování komentářů a schvalování nabídek a projektových smluv
 Revizi a schvalování nabídek a projektových smluv můžete spravovat pomocí zdi záznamu a příspěvků. Vaše organizace může vytvořit vlastní pracovní postupy a moduly plug-in pro přiřazení, přesměrování, eskalaci a správu upozornění na revize a schválení pracovních položek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

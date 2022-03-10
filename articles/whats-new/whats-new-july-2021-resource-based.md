@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433510"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008038"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového, červenec 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
@@ -20,7 +20,7 @@ ms.locfileid: "6433510"
 
 Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
 
-   - Project Operations v prostředí Microsoft Dataverse verze 4.12.0.148.
+   - Project Operations v prostředí Microsoft Dataverse verze 4.12.0.148 nebo 4.12.0.152.
    - Řízení projektů a účetnictví v prostředí Dynamics 365 Finance verze 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Funkce v této vydané verzi
@@ -79,7 +79,7 @@ Pokud narazíte na problém se spuštěním mapy, postupujte podle pokynů v [Pr
 | Obecná                       | 2296857              | Sledování pokroku pro dlouho běžící úlohy.                                                                                                                                                                        |
 | Obecná                       | 2253682              | Řešení duálního zápisu Project Operations by se nemělo instalovat, když je jádro duálního zápisu nainstalováno v prostředí bez řešení orchestrace duálního zápisu.                                                |
 | Obecná                       | 2316420              | Zřízení jádra projektové služby selže, pokud se změní obchodní jednotka uživatele aplikace.                                                                                                                     |
-
+| Obecná                       | 2376405              | Opravený problém s aktualizací řízenou vydavatelem (aktualizace kvality je k dispozici ve verzi 4.12.0.152)                                                                                                                     |
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Přehled řízení projektů a účetnictví v Dynamics 365 Finance
 
 | Oblast funkcí                      | Referenční číslo | Aktualizace pro zvýšení kvality                                                                                                                                                                                                                                                                                                                |

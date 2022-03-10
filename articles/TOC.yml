@@ -4,9 +4,15 @@
   items:
     - name: Určení typu nasazení
       href: environment/determine-deployment-type.md
+    - name: Registrace ke zkušební verzi Project Operations
+      href: environment/admin-trials.md
     - name: Aktualizace Project Operations
       href: whats-new/project-operations-updates.md
-- name: 'Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+    - name: Odstraněné nebo zastaralé funkce
+      items:
+        - name: "Odstraněné nebo zastaralé funkce v\_aplikaci Project Operations"
+          href: whats-new/removed-depreciated-features-project.md
+- name: 'Project Operations pro scénáře založené na zdrojích/položkách, které nejsou na skladě'
   items:
     - name: Začínáme
       items:
@@ -52,9 +58,21 @@
               href: environment/resource-dual-write-expense.md
             - name: Integrace faktury dodavatele
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Odinstalace Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Co je nového
       items:
-        - name: 'Červenec 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+        - name: 'Prosinec 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-dec-2021-resource-based.md
+        - name: 'Listopad 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-nov-2021-resource-based.md
+        - name: 'Říjen 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: 'Září 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-sept-2021-resource-based.md
+        - name: 'Srpen 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-august-2021-resource-based.md
+        - name: 'Červenec 2021 – Project Operations pro scénáře založené na zdrojích/položkách, které nejsou na skladě'
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: 'Červen 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
           href: whats-new/whats-new-june-2021-resource-based.md
@@ -288,8 +306,12 @@
           items:
             - name: Vývoj šablon projektů pomocí kopírování projektu
               href: project-management/dev-copy-project.md
-            - name: Použití rozhraní API projektového plánu (Public Preview)
+            - name: Použití rozhraní API projektového plánu
               href: project-management/schedule-api-preview.md
+            - name: Výkonnost API rozhraní projektového plánu
+              href: project-management/project-schedule-api-performance.md
+            - name: Protokoly plánování projektu
+              href: project-management/schedule-api-logs.md
     - name: Správa zdrojů
       items:
         - name: Klíčové koncepty
@@ -384,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Nastavení najetých kilometrů pomocí úrovní najetých kilometrů
               href: expense/set-up-mileage.md
+        - name: Rozpis výdajů
+          href: prod-exp/expense-itemization.md
         - name: Osobní výdaje
           href: expense/personal-expenses-expense-report.md
         - name: Mezipodnikové výdaje
@@ -418,6 +442,8 @@
       items:
         - name: Přehled schválení
           href: approvals/approvals-overview.md
+        - name: Sady schválení
+          href: approvals/approval-sets.md
         - name: Poznámky vývojáře
           items:
             - name: Poznámky pro vývojáře ke schválení
@@ -436,8 +462,16 @@
       items:
         - name: Konfigurace neskladovaných materiálů a nevyřízené faktury dodavatele
           href: procurement/configure-materials-nonstocked.md
-        - name: Pořízení neskladovaných materiálů pro projekty pomocí nevyřízených faktur dodavatele
+        - name: Pořízení neskladových materiálů pro projekty pomocí nevyřízených faktur dodavatele
           href: procurement/pending-vendor-invoices.md
+        - name: Objednávka neskladových materiálů pro projekty pomocí nákupních objednávek projektu
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Udržení dodavatele
+          items:
+            - name: Přehled udržení dodavatele
+              href: procurement/vendor-retention-overview.md
+            - name: Nastavení udržení dodavatele
+              href: procurement/set-up-vendor-retention.md
     - name: Fakturace
       items:
         - name: Přehled fakturovacího procesu
@@ -504,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Správa odhadů výnosů
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Řešení problémů
+      items:
+        - name: Prodejní proces projektu
+          items:
+            - name: 'Chyba nesouladu měn při vytváření projektu, smlouvy, nabídky nebo rezervovatelného zdroje'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Omezené nasazení – od obchodu po pro forma fakturaci
   items:
     - name: Začínáme
@@ -520,6 +560,18 @@
           href: environment/security-model.md
     - name: Co je nového
       items:
+        - name: Co je nového ve vlně 2 roku 2021 pro dřívější přístup – omezené nasazení
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 'Co je nového, prosinec 2021 - omezené nasazení'
+          href: pro/whats-new/whats-new-dec-2021-lite.md
+        - name: 'Co je nového, listopad 2021 - omezené nasazení'
+          href: pro/whats-new/whats-new-nov-2021-lite.md
+        - name: 'Co je nového, říjen 2021 – omezené nasazení'
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: 'Co je nového, září 2021 – omezené nasazení'
+          href: pro/whats-new/whats-new-sept-2021-lite.md
+        - name: 'Co je nového, srpen 2021 – omezené nasazení'
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: 'Co je nového, červenec 2021 – omezené nasazení'
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: 'Co je nového, červen 2021 – omezené nasazení'
@@ -774,8 +826,10 @@
           items:
             - name: Vývoj šablon projektů pomocí kopírování projektu
               href: project-management/dev-copy-project.md
-            - name: Použití rozhraní API projektového plánu (Public Preview)
+            - name: Použití rozhraní API projektového plánu
               href: project-management/schedule-api-preview.md
+            - name: Výkonnost API rozhraní projektového plánu
+              href: project-management/project-schedule-api-performance.md
     - name: Správa zdrojů
       items:
         - name: Klíčové koncepty
@@ -832,6 +886,44 @@
           items:
             - name: Přehled využití zdroje
               href: resource-management/resource-utilization-overview.md
+    - name: Správa subdodávek ve službě Project Operations
+      items:
+        - name: Správa subdodávek ve službě Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Subdodávky v dřívějším přístupu v říjnu 2021
+          href: pro/subcontracting/Subcontracting_EA_scope.md
+        - name: Klíčové pojmy v subdodávkách
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Správa prodejců a ceníků projektů
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Subdodavatelé jako rezervovatelné zdroje
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Podrobnosti záhlaví pro subdodávky
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Řádky subdodávky pro čas
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Řádky subdodávky pro kategorie výdajů
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Řádky subdodávky pro produkty
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Zdroje řádku subdodávky
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Milníky řádku subdodávky
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Subdodávky členů projektových týmů
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Možnosti subdodávky pro členy projektových týmů
+          href: pro/subcontracting/subcon-options.md
+        - name: Odhad nákladů na přiřazení zdrojů subdodávky
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Konfigurace plánovací vývěsky pro zobrazení smluvních pracovníků a subdodavatelské kapacity
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Personální zajištění projektu smluvními pracovníky a subdodavatelskou kapacitou
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Evidence času, nákladů a spotřeby materiálu pro subdodavatelské komponenty'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Přechody stavu v subdodávce
+          href: pro/subcontracting/subcon-states.md
     - name: Čas
       items:
         - name: Přehled času
@@ -858,6 +950,8 @@
       items:
         - name: Přehled schválení
           href: approvals/approvals-overview.md
+        - name: Sady schválení
+          href: approvals/approval-sets.md
         - name: Poznámky vývojáře
           items:
             - name: Poznámky pro vývojáře ke schválení
@@ -894,6 +988,10 @@
   items:
     - name: Co je nového
       items:
+        - name: 'Co je nového, říjen 2021 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: 'Co je nového, září 2021 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: 'Co je nového, červenec 2021 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: 'Co je nového, květen 2021 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
@@ -1050,6 +1148,18 @@
       items:
         - name: Plán vydávání aktualizací pro Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 38, V3'
+          href: psa/whats-new-ur-38.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 37, V3'
+          href: psa/whats-new-ur-37.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 36, V3'
+          href: psa/whats-new-ur-36.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 35, V3'
+          href: psa/whats-new-ur-35.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 34, V3'
+          href: psa/whats-new-ur-34.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 33, V3'
           href: psa/whats-new-ur-33.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 32.5, V3'
@@ -1126,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Příručka pro generování sestav
           href: psa/implementation-guides/reporting-guide.md
+    - name: Upgrade z Project Service Automation na Project Operations - omezená verze
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Upgrade aplikace Project Service Automation (aplikace verze 3.x)
       items:
         - name: Upgrade Project Service Automation
@@ -1294,7 +1406,7 @@
               href: psa/time-entry-calendar.md
             - name: Přizpůsobení týdenních časových záznamů
               href: psa/time-entry-extensibility-v3.md
-            - name: Sady schválení
+            - name: Sady schválení v Project Service Automation
               href: psa/approval-set.md
     - name: Nejčastější dotazy a poradce při potížích (3.x)
       items:

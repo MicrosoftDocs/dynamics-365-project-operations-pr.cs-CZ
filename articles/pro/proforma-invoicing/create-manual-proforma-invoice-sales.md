@@ -2,19 +2,17 @@
 title: Projektové proforma faktury
 description: Tento téma poskytuje informace o projektových proforma fakturách v Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 04/06/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d08e2b0422a991aa4c98ae5d1e0f60aa0eb9daa6
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 3d02728ce682781eb8816e0c2239cf62f88adfa8c5d2a0aab280be053c2a5ae6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867168"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992918"
 ---
 # <a name="proforma-project-pnvoices"></a>Projektové proforma faktury
 

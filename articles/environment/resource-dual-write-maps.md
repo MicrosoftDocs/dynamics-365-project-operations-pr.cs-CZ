@@ -2,18 +2,16 @@
 title: Verze mapování duálního zápisu Project Operations
 description: Tento téma poskytuje seznam map duálního zápisu požadovaných pro Dynamics 365 Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 04/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa0342985f2c860cd3cb3f686f0dcaa59d8cfd41
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938962"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547101"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Verze mapování duálního zápisu Project Operations
 
@@ -34,40 +32,40 @@ Následující mapy jsou požadovanými předpoklady pro řešení Project Opera
 
 1. Ze seznamu map vyberte mapu Hlavní kniha **(msdyn\_ledgers)** se všemi předpoklady a zaškrtněte **Počáteční synchronizace**. V poli **Předloha pro počáteční synchronizaci** vyberte **Aplikace Finance and Operations** pro mapu hlavní knihy i všechny nezbytné mapy. Vyberte **Spustit**.
 
-![Synchronizace mapy registru](media/DW6.png)
+![Synchronizace mapy registru.](media/DW6.png)
 
-1. Stejným způsobem postupujte u všech zbývajících map tabulek uvedených v tabulce výše. Nevybírejte políčko **Počáteční synchronizace** při spuštění těchto map.
+2. Stejným způsobem postupujte u všech zbývajících map tabulek uvedených v tabulce výše. Nevybírejte políčko **Počáteční synchronizace** při spuštění těchto map.
 
 ## <a name="project-operations-dual-write-maps"></a>Mapy duálního zápisu Project Operations
 
-Následující mapy jsou požadované pro řešení Project Operations.
+Následující mapy jsou požadované pro řešení Project Operations. Verze map s duálním zápisem jsou uvedeny počínaje aktualizací Project Operations z května 2021, verze 4.10.0.186.
 
 | **Mapování entity** | **Nejnovější verze** | **Počáteční synchronizace** |
 | --- | --- | --- |
 | Entita integrace pro vztahy projektových transakcí (msdyn\_transactionconnections) | 1.0.0.0 | Není nutné pro zřizování. |
 | Záhlaví kontraktu projektu (prodejní objednávky) | 1.0.0.1 | Není nutné pro zřizování. |
 | Řádky smlouvy založené na projektu (salesorderdetails) | 1.0.0.0 | Není nutné pro zřizování. |
-| Zdroj financování projektu (msdyn_projectcontractsplitbillingrules) | 1.0.0.1 | Není nutné pro zřizování. |
+| Zdroj financování projektu (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Není nutné pro zřizování. |
 | Tabulka integrace Project Operations pro odhady materiálu (msdyn\_estimatelines) | 1.0.0.0 | Není nutné pro zřizování. |
-| Návrhy faktury projektu V2 (faktury) | 1.0.0.2 | Není nutné pro zřizování. |
+| Návrhy faktury projektu V2 (faktury) | 1.0.0.3 | Není nutné pro zřizování. |
 | Skutečné hodnoty integrace Project Operations (msdyn_actuals) | 1.0.0.14 | Není nutné pro zřizování. |
-| Milníky řádku smlouvy integrace Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Není nutné pro zřizování. |
-| Entita integrace Project Operations pro odhady výdajů (msdyn_estimateslines) | 1.0.0.2 | Není nutné pro zřizování. |
+| Milníky řádku smlouvy integrace Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Není nutné pro zřizování. |
+| Entita integrace Project Operations pro odhady nákladů (msdyn_estimatelines) | 1.0.0.2 | Není nutné pro zřizování. |
 | Entita integrace Project Operations pro odhady hodin (msdyn_resourceassignments) | 1.0.0.5 | Není nutné pro zřizování. |
-| Entita exportu kategorie výdajů projektu integrace Project Operations (msdyn_expensecategories) | 1.0.0.2 | Není nutné pro zřizování. |
+| Entita exportu kategorie výdajů projektu integrace Project Operations (msdyn_expensecategories) | 1.0.0.1 | Není nutné pro zřizování. |
 | Entita exportu výdajů projektu integrace Project Operations (msdyn_expenses) | 1.0.0.2 | Není nutné pro zřizování. |
 | Entita exportu faktury dodavatele projektu integrace Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Není nutné pro zřizování. |
-| Entita exportu řádku faktury dodavatele projektu integrace Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.0 | Není nutné pro zřizování. |
+| Entita exportu řádku faktury dodavatele projektu integrace Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.1 | Není nutné pro zřizování. |
 | Role zdrojů projektu pro všechny společnosti (bookableresourcecategories) | 1.0.0.1 | Vyžaduje počáteční synchronizaci pro mapu tabulky k synchronizaci rolí prostředků Projektový manažer a Člen týmu, které jsou naplněny v prostředí Dynamics 365 Dataverse během zřizování. Dataverse je hlavním zdrojem pro počáteční synchronizaci. |
 | Projektové úkoly (msdyn_projecttasks) | 1.0.0.4 | Není nutné pro zřizování. |
 | Kategorie transakcí projektu (msdyn_transactioncategories) | 1.0.0.0 | Není nutné pro zřizování. |
-| Projekty V2 (msdyn_projects) | 1.0.0.1 | Není nutné pro zřizování. |
+| Projekty V2 (msdyn_projects) | 1.0.0.2 | Není nutné pro zřizování. |
 
 Chcete-li spustit uvedené mapy, proveďte následující kroky.
 
 1. Aktivujte role prostředků projektu pro mapu tabulky **všechny společnosti (bookableresourcecategories)**, protože tato mapa vyžaduje počáteční synchronizaci. V poli **Předloha pro počáteční synchronizaci** vyberte **Common data service**. 
 
- ![Synchronizace mapy tabulek rolí zdrojů](media/6ResourceInitialSync.jpg)
+ ![Synchronizace mapy tabulek rolí zdrojů.](media/6ResourceInitialSync.jpg)
 
  Počkejte, až bude stav mapy **Spuštěná**, než přejdete k dalšímu kroku.
 

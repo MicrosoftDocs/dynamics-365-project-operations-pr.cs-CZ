@@ -2,8 +2,6 @@
 title: Novinky a změny v aplikaci Project Service Automation, aktualizace verze 15, V3
 description: Tohle téma poskytuje informace o tom, co je nového v aktualizaci verze 15 pro aplikaci Project Service Automation V3.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,16 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6112e4874025e528a2bb583cf215fd9eff681534
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d052dd670ac31fae57a71cb71682da86a237b3487482a9548f3fb9e52516c407
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073737"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004438"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Project Service Automation, vydání aktualizace 15, V3
 
-S potěšením oznamujeme nejnovější aktualizaci aplikace Dynamics 365 Project Service Automation (PSA). Tato verze obsahuje některá důležitá vylepšení kvality, výkonu a použitelnosti. Tato verze je kompatibilní s Dynamics 365 9.x. Chcete-li aktualizovat tuto verzi, navštivte Centrum pro správu Dynamics 365 a na stránce řešení nainstalujte danou aktualizaci. Další informace viz [Instalace, aktualizace nebo odebrání preferovaného řešení](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+S potěšením oznamujeme nejnovější aktualizaci aplikace Dynamics 365 Project Service Automation (PSA). Tato verze obsahuje některá důležitá vylepšení kvality, výkonu a použitelnosti. Tato verze je kompatibilní s Dynamics 365 9.x. Chcete-li aktualizovat tuto verzi, navštivte Centrum pro správu Dynamics 365 a na stránce řešení nainstalujte danou aktualizaci. Další informace viz [Instalace, aktualizace nebo odebrání preferovaného řešení](/power-platform/admin/install-remove-preferred-solution).
 
 Tohle téma uvádí seznam funkcí a oprav, které jsou nové nebo změněné v aktualizaci verze 15 pro aplikaci PSA V3. Tato verze má číslo sestavení V3.10.5.28 a je obvykle k dispozici prostřednictvím automatické aktualizace v lednu 2020.
 
@@ -61,3 +61,6 @@ Tohle téma uvádí seznam funkcí a oprav, které jsou nové nebo změněné v�
   - Opraveno: Již se nezobrazí chybová zpráva ve **Vyhledávání projektu** ve formuláři **Řádek nabídky**, pokud existuje více než 1000 projektů.
   - Opraveno: Mřížka **Odhady** pro odhady práce a nákladů nyní zobrazuje správný symbol měny.
   - Opraveno: Poté, co organizace aktualizuje PSA z aktualizace verze 14 na verzi 15, karta **Plán** se již na formuláři **Projekt** nezobrazuje jako prázdná.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

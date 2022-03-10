@@ -2,18 +2,16 @@
 title: Kopírovat ceníky
 description: Tento téma poskytuje informace o tom, jak kopírovat ceníky ve službě Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e49a95a04e9506e983d920c49d4c504d9f944c88
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275710"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003718"
 ---
 # <a name="copy-price-lists"></a>Kopírovat ceníky
 

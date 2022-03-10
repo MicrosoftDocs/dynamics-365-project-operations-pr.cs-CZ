@@ -2,8 +2,6 @@
 title: Předběžná rezervace prostředku
 description: Toto téma obsahuje informace o tom, jak předběžně plánovat nebo předběžně rezervovat členy projektového týmu.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/25/2019
@@ -12,14 +10,16 @@ ms.author: ruhercul
 audience: Admin
 search.app:
 - ProjectOperations
-ms.openlocfilehash: cb506a519dbc490ecdd579edf1e3fa5dd0153bdb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf67769fef39f95785320ae38055f0a3359b3a82d996b740bdb5d51e864f3d56
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073905"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005338"
 ---
 # <a name="soft-book-a-resource"></a>Předběžná rezervace prostředku
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -65,3 +65,6 @@ Pokud budete chtít změnit předběžně rezervovaný zdroj člena týmu na zá
 2. Klikněte pravým tlačítkem myši na rezervaci a u možnosti **Změnit stav** vyberte **Závazná rezervace** \> **Závazná**. Stav rezervace je nyní **Závazná**.
 3. Po zavření Plánovací vývěsky, návratu na projekt a otevření karty **Tým** uvidíte, že hodiny zdroje byly přesunuty ze sloupce **Předběžně rezervované hodiny** do sloupce **Závazně rezervované hodiny** na kartě **Tým** v zobrazení **Pojmenovaní členové týmu**. Pokud byl zdroj přiřazen k úkolům, nebude již zobrazovat nedostatečnou rezervaci na kartě **Vyrovnání**, protože jeho rezervace jsou nyní závazné.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

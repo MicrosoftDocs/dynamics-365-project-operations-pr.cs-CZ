@@ -2,18 +2,16 @@
 title: Práce s řádky smlouvy založené na projektu
 description: Tohle téma poskytuje informace o řádcích smlouvy na základě projektu.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181703"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990038"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Práce s řádky smlouvy založené na projektu
 
@@ -57,3 +55,6 @@ Pravidlo: Projekt a určitou třídu transakcí lze do smlouvy zahrnout pouze na
 | S1       | ŘS2           | O1      | No           | Ano             | No          | Platná           | Čas a poplatky v projektu P1 jsou zahrnuty na řádku ŘS1. Výdaje v projektu P1 jsou zahrnuty na řádku ŘS2. </br>   Neexistuje žádné překrývání toho, co je zahrnuto na každém řádku smlouvy, a proto je platné.  |
 | S1       | ŘS1           | O1      | Ano          | Ano             | Ano         | Neplatný       | Porušuje pravidlo. Čas, výdaje a poplatky za projekt P1 jsou zahrnuty v řádcích dvou smluv.                                                                                               |
 | ŘS2      | ŘS2           | O1      | Ano          | Ano             | Ano         | Neplatný       | Porušuje pravidlo. Čas, výdaje a poplatky za projekt P1 jsou zahrnuty v řádcích dvou smluv.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

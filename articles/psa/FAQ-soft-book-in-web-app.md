@@ -2,8 +2,6 @@
 title: Jak předběžně rezervovat zdroje v aplikaci verze 2.x?
 description: Tento článek popisuje, jak předběžně rezervovat členy týmu projektu s pomocí Project Service.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18a1176c131e233f62f74dc0dd8a6aa3ee561da5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d7eb9e3baea3c3f696845905a2522940d14bba8a8d42917f8fe1b90c7c443747
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286015"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993908"
 ---
 # <a name="how-do-i-soft-book-resources-in-the-web-app-project-service-app-v2x"></a>Jak předběžně rezervuji zdroje ve webové aplikaci (Project Service app v2.x)?
 

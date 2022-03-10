@@ -1,10 +1,10 @@
 ---
 title: Upgrade domovské stránky
 description: Toto téma ukazuje, kde naleznete důležité informace o nových a změněných funkcích aplikace Dynamics 365 Project Service Automation a o procesu upgradu na nejnovější verzi.
-manager: kfend
-ms.service: dynamics-365-customerservice
+ms.prod: ''
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 05/30/2019
 ms.topic: article
 author: rumant
@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 29e7b519b61e8709c025e9906d04aed0156f65eb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2b9b14d72157ae0046e1ca6abdc604b8dbc30377b5b24f5d79617a7201b1bf10
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073861"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006733"
 ---
 # <a name="upgrade-home-page"></a>Upgrade domovské stránky
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +39,7 @@ Od 17. května 2019 platí, že pokud je při zřizování nové instance vybr�
 
 ### <a name="existing-instances"></a>Existují instance
 
-Dříve museli zákazníci, kteří měli instanci PSA verze 2.x a potřebovali upgradovat na verzi 3.x, což je verze PSA založená na sjednoceném rozhraní klienta (UCI), kontaktovat podporu Microsoft a poskytnout podrobnosti o jejich instanci, aby podpora mohla povolit instanci pro upgrade na verzi 3.x. Od 1. března 2020 budou zákazníci, kteří mají instanci PSA verze 2.x a potřebují upgradovat na verzi 3.x, moci upgradovat své instance přímo z portálu pro správu, aniž by museli kontaktovat podporu společnosti Microsoft.  
+Dříve zákazníci, kteří mají instanci PSA verze 2.x a museli upgradovat na verzi 3.x, což je verze PSA založená na sjednoceném rozhraní klienta (UCI), se museli obrátit na podporu Microsoftu a poskytnout podrobnosti o jejich instanci, aby podpora mohla povolit upgrade instance na verzi 3.x. Od 1. března 2020 budou zákazníci, kteří mají instanci PSA verze 2.x a potřebují upgradovat na verzi 3.x, moci upgradovat své instance přímo z portálu pro správu, aniž by museli kontaktovat podporu společnosti Microsoft.  
 
 > [!NOTE]
 > PSA verze 3.x zahrnuje významné změny. Byla postavena na architektuře Sjednoceného rozhraní, aby pomohla zajistit lepší uživatelské prostředí. Nově přepracovaná aplikace poskytuje konzistentní, jednotné uživatelské rozhraní (UI) a řídí se zásadami přizpůsobivého návrhu pro optimální zobrazení libovolné velikosti obrazovky nebo zařízení. V aplikaci byly provedeny další změny. Mezi oblasti, které byly změněny, patří tvorba cen, rezervace a přiřazování zdrojů, čas, výdaje a schválení.
@@ -58,7 +60,10 @@ Po zkontrolování dříve zmíněných témat a jakmile budete připraveni na 
 
 Od 17. května 2019 budou mít všechny nové instance UCI jako výchozího klienta. Pro zajištění souladu s touto změnou bude ve výchozím nastavení zřízena verze PSA 3.x a Field Service 8.x, protože tyto verze jsou navrženy tak, aby fungovaly s klientem UCI.
 
-Od 1. března 2020 již zákazníci Dynamics PSA nebudou moci vytvářet nová prostředí se staršími verzemi PSA, například PSA verze 2.x nebo nižší. Jakékoli nové prostředí bude pouze verze 3.x aplikace PSA.
+Od 1. března 2020 již zákazníci Dynamics PSA nebudou moci vytvářet nové prostředí se staršími verzemi PSA, například PSA verze 2.x nebo nižší. Jakékoli nové prostředí bude pouze verze 3.x aplikace PSA.
 
 > [!NOTE]
 > Chcete-li dosáhnout nejlepších výsledků, pokud používáte starší verze aplikací Field Service a PSA, přejděte na stránku **Nastavení systému** a pro pole **Používat jen nové Sjednocené rozhraní (doporučeno)** vyberte možnost **Ne**, protože tyto verze nejsou navrženy tak, aby byly v UCI správně načteny. Po vypnutí UCI můžete tyto verze aplikací Field Service a PSA otevřít a spustit pomocí starého webového klienta. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

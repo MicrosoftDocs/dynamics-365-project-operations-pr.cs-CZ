@@ -1,31 +1,40 @@
 ---
-title: Přehled odhadů projektů
-description: Toto téma poskytuje informace o odhadech v Dynamics 365 Project Operations.
-author: ruhercul
-manager: AnnBe
-ms.date: 10/06/2020
+title: Koncepty finančního odhadu
+description: Tento téma poskytuje informace o finančních odhadech projektů v Project Operations.
+author: rumant
+ms.date: 03/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.custom: intro-internal
+ms.openlocfilehash: 74b2499cc706e03658cadeb088df154100051cbc7cce386b2e4d50dbdb5c197f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286870"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989183"
 ---
-# <a name="estimate-projects-overview"></a>Přehled odhadů projektů
+# <a name="financial-estimation-concepts"></a>Koncepty finančního odhadu
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
+V Dynamics 365 Project Operations můžete své projekty finančně odhadnout ve dvou fázích: 
+1. Během předprodejní fáze, než dojde k získání dohody. 
+2. Během fáze provádění po vytvoření smlouvy o projektu. 
+
+Finanční odhad pro projektovou práci můžete vytvořit na kterékoli z následujících 3 stránek:
+- Stránka **Řádek nabídky** pomocí údajů řádku nabídky.  
+- Stránka **Řádek smlouvy o projektu** pomocí údajů řádku smlouvy. 
+- Stránka **Projekt** pomocí stránek karty **Úkoly** nebo **Odhady výdajů**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Pomocí nabídky projektu vytvořte odhad
 U nabídky založené na projektu můžete pomocí entity **Podrobnosti řádku nabídky** odhadnout práci, která je požadována pro dodání projektu. Tento odhad pak můžete sdílet se zákazníkem.
 
 Řádky nabídky založené na projektu mohou mít nula až mnoho podrobností řádku nabídky. Podrobnosti řádku nabídky se používají k odhadu času, výdajů nebo poplatků. Microsoft Dynamics 365 Project Operations neumožňuje u podrobností řádku nabídky materiálové odhady. Ty se nazývají třídy transakcí. Odhadované částky daně lze zadat také do třídy transakcí.
 
 Kromě tříd transakcí, obsahují podrobnosti řádku nabídky mají typ transakce. Jsou podporovány dva typy transakcí pro podrobnosti řádku nabídky: **Náklady** a **Projektová smlouva**.
 
-## <a name="estimate-by-using-a-contract"></a>Odhad pomocí smlouvy
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Pomocí smlouvy o projektu vytvořte odhad
 
 Pokud jste při vytváření smlouvy založené na projektu použili nabídku, bude odhad, který jste udělali pro každý řádek nabídky v nabídce, zkopírován do projektové smlouvy. Struktura projektové smlouvy se podobá struktuře projektové nabídky, která obsahuje řádky, podrobnosti řádků a rozpisy faktur.
 
@@ -35,27 +44,21 @@ Podrobnosti řádku smlouvy lze použít k odhadu času, výdajů nebo poplatků
 
 Na podrobnostech řádku smlouvy nejsou materiálové odhady povoleny.
 
-Procesy, které jsou podporovány ve smlouvě o projektu, jsou vytvoření a potvrzení faktury. Vytvoření faktury vytvoří koncept faktury založené na projektu, který zahrnuje všechny skutečné hodnoty nefakturovaného prodeje do aktuálního data.
+## <a name="use-a-project-to-create-an-estimate"></a>Pomocí projektu vytvořte odhad 
 
-Po potvrzení je smlouva jen pro čtení a její stav se změní z **Koncept** na **Potvrzeno**. Jakmile tuto akci provedete, nelze ji vrátit zpět. Vzhledem k tomu, že tato akce je trvalá, je vhodné udržovat smlouvu ve stavu **Koncept**.
-
-Jedinými rozdíly mezi koncepty smluv a potvrzenými smlouvami je jejich stav a skutečnost, že koncept smluv lze upravit, zatímco potvrzené smlouvy nelze. Vytváření faktur a sledování skutečných hodnot lze provádět u konceptů smluv i u potvrzených smluv.
-
-Project Operations nepodporuje u smluv nebo projektů změnové příkazy.
-
-## <a name="estimating-projects"></a>Odhady projektů
-
-Můžete odhadnout čas a výdaje na projekty. Project Operations neumožňuje odhady materiálů nebo poplatků na projekty.
+Můžete odhadnout čas a výdaje na projekty. Project Operations nepodporuje odhady materiálů ani poplatků za projekty.
 
 Odhady času se generují při vytvoření úkolu a určení atributů obecného zdroje, který je vyžadován k provedení úkolu. Odhady času jsou generovány z plánování úkolů. Odhady času nejsou vytvářeny, pokud vytváříte obecné členy týmu mimo kontext plánu.
 
-Odhady výdajů se zapisují do mřížky na stránce **Odhady**.
+Odhady výdajů se zapisují do mřížky na stránce **Odhady výdajů**.
 
-## <a name="understanding-estimation"></a>Princip odhadování
+Vytvoření odhadu pro projekt je považováno za osvědčený postup, protože u každého úkolu v plánu projektu můžete sestavit podrobné odhady pracovní síly nebo času a výdajů zdola nahoru. Tento podrobný odhad pak můžete použít k vytvoření odhadů pro každý řádek nabídky a vytvoření důvěryhodnější nabídky pro zákazníka. Když importujete nebo vytvoříte podrobný odhad na řádku nabídky pomocí plánu projektu, Project Operations importuje hodnoty prodeje a hodnoty nákladů těchto odhadů. Po importu si můžete zobrazit ziskovost, marže a metriky proveditelnosti v nabídce projektu.
+
+## <a name="understanding-estimates"></a>Princip odhadování
 
 Následující tabulku použijte jako vodítko pro pochopení obchodní logiky ve fázi odhadu.
 
-| Situace                                                                                                                                                                                                                                                                                                                                          | Záznam entity                                                                                                                                                                                                       | Typ transakce | Třída transakce | Další informace                                                            |
+| Scénář                                                                                                                                                                                                                                                                                                                                          | Záznam entity                                                                                                                                                                                                       | Typ transakce | Třída transakce | Další informace                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-----------------------------------------------------------------------------------|
 | Potřebujete-li odhadnout prodejní hodnotu času v nabídce                                                                                                                                                                                                                                                                                    | Je vytvořen záznam Podrobnosti řádku nabídky (PŘN).                                                                                                                                                                               | Projektová smlouva | Time        | Pole Původ transakce na řádku PŘN strany prodeje odkazuje na PŘN strany nákladů |
 |                                                                                                                                                                                                                                                                                     | Systém vytvoří druhý záznam PŘN, který bude uchovávat odpovídající hodnoty nákladů. Systém zkopíruje všechna nepeněžní pole z PŘN prodeje do PŘN nákladů.                                                                                                                                                                               | Náklady | Time        | Pole Původ transakce na řádku PŘN strany prodeje odkazuje na PŘN strany nákladů |

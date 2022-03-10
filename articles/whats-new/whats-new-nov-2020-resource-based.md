@@ -2,18 +2,16 @@
 title: Co je nového v listopadu 2020 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 description: Tohle téma poskytuje informace o aktualizacích pro zvýšení kvality, které jsou k dispozici ve verzi Project Operations z listopadu 2020 pro scénáře založené na zdrojích / položkách, které nejsou na skladě.
 author: sigitac
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa6530a0eefb1ae6a84a662c6131182d97d49aeb
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950931"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007948"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového v listopadu 2020 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 

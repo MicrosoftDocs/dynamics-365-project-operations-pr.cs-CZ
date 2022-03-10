@@ -1,21 +1,19 @@
 ---
-title: Řešení prodejních cen pro odhady a skutečnosti – omezené
-description: Tento téma poskytuje informace o tom, jak vyřešit prodejní ceny pro odhady a skutečnosti.
+title: Řešení prodejních cen pro odhady projektu a skutečné hodnoty
+description: Tento téma poskytuje informace o řešení prodejních cen na základě projektových odhadů a skutečností.
 author: rumant
-manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2152b3f59050482cab0d1c5940d6743f420206bfc90e034dc2d754df8bd513a5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274495"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996068"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Řešení prodejních cen pro odhady a skutečnosti – omezené
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Řešení prodejních cen pro odhady projektu a skutečné hodnoty
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
@@ -55,5 +53,14 @@ Po vyřešení prodejního ceníku systém provede následující kroky a nastav
 
 4. Pokud systém není schopen spárovat hodnoty polí **Kategorie** a **Jednotka**, je výchozí hodnota prodejní sazby nula (0).
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Řešení prodejních sazeb na řádcích skutečností a odhadů pro materiál
+
+V aplikaci Project Operations se řádky odhadu pro materiál používají k označení podrobností řádku nabídky a řádku smlouvy u materiálů a řádky odhadu materiálu na projektu.
+
+Po vyřešení prodejního ceníku systém provede následující kroky a nastaví výchozí prodejní cenu jednotky.
+
+1. Systém používá kombinaci polí **Produkt** a **Jednotka** na řádku odhadu materiálu pro spárování s řádky položky ceníku v ceníku, který byl vyřešen.
+2. Pokud systém najde řádek položky ceníku, který má sazbu prodeje pro kombinaci polí **Produkt** a **Jednotka** a metoda ocenění je **Částka měny**, použije se prodejní cena uvedená v řádku ceníku.
+3. Pokud se hodnoty polí **Produkt** a **Jednotka** neshodují, výchozí sazba prodeje je nula.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

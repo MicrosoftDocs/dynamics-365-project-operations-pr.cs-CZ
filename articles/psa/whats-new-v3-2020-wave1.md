@@ -1,8 +1,6 @@
 ---
 title: Novinky a změny v aplikaci Project Service Automation verze 3.x vlny 1 2020
 description: Tohle téma poskytuje informace o novinkách a změnách v aplikaci Project Service Automation verze 3 vlny 1 2020.
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -18,14 +16,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 16b51995f863d9ee54172625dacbf081c51c8556
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a88b777c54ce54935d5483f616f3a24724ee192d40fbfd5d514f990e958dd5ea
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073726"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002098"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Novinky a změny v aplikaci Project Service Automation verze 3 vlny 1 2020
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Téma zdůrazňuje klíčové aspekty upgradu při přechodu na nejnovější vydání aplikace Project Service Automation (PSA) verze 3.x vlny 1 2020.
 
 ## <a name="time-entry"></a>Časový záznam
@@ -40,3 +41,6 @@ Pokud navíc máte jakékoli vlastní moduly aplikace, které zahrnují všechny
 
 ### <a name="currently-extended-time-entry-changes"></a>Aktuálně změny rozšířeného časového záznamu
 Aby se minimalizoval dopad na současné uživatele časového záznamu, je tato změna role jediným základním požadavkem nezbytným pro pokračování ve časového záznamu. Pokud jste vytvořili vlastní zobrazení nebo oddělené časové záznamy, musíte nastavit pole **Nastavení časového záznamu** na správnou hodnotu PSA.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

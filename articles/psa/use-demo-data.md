@@ -2,8 +2,6 @@
 title: Experimentovat s ukázkovými daty
 description: Postup stažení a experimentování s ukázkovými daty pro Project Service Automation
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d0bc6d171f2f3080b7b1c34222de49e93415a139
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 49b5f0fe9c35e6975fa05c592920f38203a888d49a341c8c54005c4bdb3a0786
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073859"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998093"
 ---
 # <a name="experiment-with-demo-data-project-service"></a>Experimentování s ukázkovými daty (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 V rámci seznámení s aplikací Dynamics 365 Project Service Automation je užitečné mít předem nakonfigurované prostředí pro prozkoumání. Pro tento účel jsme vytvořili samostatný instalační balíček ukázkových dat (tentokrát pouze v angličtině), který usnadní seznamování s těmito řešeními. 
 
@@ -53,3 +53,6 @@ Další informace naleznete v tomto [blogu](https://blogs.msdn.microsoft.com/crm
  [Příručka pro projektového manažera](../psa/project-manager-guide.md)   
  [Příručka pro manažera zdrojů](../psa/resource-manager-guide.md)   
  [Příručka – Čas, výdaje a spolupráce](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

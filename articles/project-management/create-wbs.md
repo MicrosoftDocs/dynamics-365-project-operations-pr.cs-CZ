@@ -2,18 +2,16 @@
 title: Vytvoření strukturovaného rozpisu prací
 description: Tento téma vysvětluje, jak vytvořit strukturovaný rozpis práce (WBS) včetně základních ovládacích prvků v novém plánovacím rozhraní.
 author: ruhercul
-manager: tfehr
-ms.date: 01/07/2021
+ms.date: 12/16/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287005"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928607"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Vytvoření strukturovaného rozpisu prací (WBS)
 
@@ -97,7 +95,7 @@ Jako správce můžete definovat vlastní pole v entitě úlohy. Pole však nelz
 
 ## <a name="staffing-attributes"></a>Personální atributy
 
-K atributům personálního obsazení se přistupuje prostřednictvím pole **Zdroje** v plánu. Můžete buď vyhledat existující zdroj, nebo vybrat **Vytvořit** a v podokně **Vytvořit** přidat člena projektového týmu jako nový zdroj.
+K atributům personálního obsazení se přistupuje prostřednictvím pole **Zdroje** v plánu. Můžete buď vyhledat existující zdroj, nebo vybrat **Vytvořit** a v podokně **Vytvořit** přidat člena projektového týmu jako nový zdroj.  Když hledáte zdroj pomocí nástroje pro výběr zdrojů v mřížce úkolů, zobrazení vývěsky nebo Ganttově diagramu, vyhledávání vrátí buď stávající členy projektového týmu, nebo aktivní rezervovatelné zdroje.
 
 Pole **Role**, **Jednotka zdroje** a **Název pozice** slouží k popisu požadavků na personální obsazení úkolu. Tyto atributy personálního obsazení se společně s plánem úkolů používají k nalezení dostupných zdrojů pro vykonání tohoto úkolu.
 
@@ -119,5 +117,27 @@ Režim úkolu nemá žádný vliv na aktualizace dat zahájení a ukončení př
 
 Mřížka **Plán** je plně přístupná a lze ji použít se čtečkami obrazovky, jako jsou např. Narrator, JAWS nebo NVDA. Oblast mřížky můžete procházet pomocí kláves se šipkami (jako v aplikaci Microsoft Excel), pomocí klávesy Tab můžete procházet interaktivní prvky uživatelského rozhraní a pomocí klávesy se šipkou dolů, klávesy Enter nebo mezerníku vybrat a otevřít rozevírací nabídky.
 
+## <a name="project-limitations"></a>Projektová omezení 
+Pokud používáte strukturovaný rozpis prací v aplikaci Project Operations, měli byste si být vědomi následujících omezení. Tato omezení se vztahují na projekty a úkoly. Více informací viz [Limity a omezení aplikace Project for the web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Pole**                                          |  **Omezení**           |
+|----------------------------------------------------|----------------------|
+| Maximální celkový počet úkolů v projektu                  | 500                  |
+| Maximální celková doba trvání projektu               | 3650 dní (10 let) |
+| Maximální celkový počet zdrojů v projektu              | 150                  |
+| Maximální celkový počet odkazů (pouze následovník) v projektu | 600                  |
+| Maximální celkový počet vlastních polí v projektu          | 10                   |
+| Maximální počet položek kontrolního seznamu na úkol                   | 20                   |
+
+**Omezení úkolu**
+
+| **Pole**                               |   **Omezení**           |
+|-----------------------------------------|-----------------------|
+| Maximální úroveň hierarchie                 | 10 úrovní             |
+| Maximální počet odkazů (následovník + předchůdce) | 20                    |
+| Maximální doba trvání koncového úkolu           | 1250 dní             |
+| Maximální doba trvání souhrnného úkolu      | 3650 dní (10 let)  |
+| Maximální počet zdrojů přiřazených k úkolu    | 20 zdrojů          |
+| Podporované časové období pro úkol         | 1. 1. 2000 - 31. 12. 2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

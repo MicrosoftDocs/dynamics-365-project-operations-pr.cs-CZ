@@ -2,35 +2,36 @@
 title: Určení typu nasazení
 description: Tento téma poskytuje informace, které vám pomůžou určit hlavní typ nasazení Project Operations pro vaši společnost.
 author: stsporen
-manager: Annbe
-ms.date: 10/07/2020
+ms.date: 03/15/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073784"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994628"
 ---
 # <a name="determine-your-deployment-type"></a>Určení typu nasazení
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
 > [!IMPORTANT]
-> Po zakoupení licence začněte zde a určete nejlepší model nasazení Dynamics 365 Project Operations pomocí [Řízený průběh instalace](https://aka.ms/provisionprojectoperations).
+> Po zakoupení licence začněte zde a určete nejlepší model nasazení Dynamics 365 Project Operations za použití [Řízeného toku instalace](https://aka.ms/provisionprojectoperations).
 > Poté, co dokončíte postup instalace s průvodcem, budete přesměrováni na správný portál pro správu, abyste dokončili instalaci. Dokončete instalaci podle informací o nasazení.
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Stávající zákazníci Dynamics pomocí Dynamics 365 Project Service Automation
-Project Operations zahrnuje funkce dodávané s Project Service Automation. Pro tyto zákazníky bude v budoucnu vydána cesta k upgradu.
+Project Operations zahrnuje funkce dodávané s Project Service Automation. Pro tyto zákazníky bude v 1. vlně vydání v roce 2021 uvolněna cesta k upgradu.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Stávající zákazníci Dynamics 365 Finance pomocí Projektového řízení a účetnictví 
 
-Stávající zákazníci Finance, kteří používají funkce řízení projektů a účetnictví, mohou toto používat tak, jak je. Viz [Project Operations pro scénáře se skladovým materiálem a výrobními příkazy](#pma)
+Stávající zákazníci řešení Finance, kteří používají funkce správy projektů a účetnictví, je mohou i nadále používat tak, jak jsou. Viz [Project Operations pro scénáře se skladovým materiálem a výrobními příkazy](#pma)
 
+
+## <a name="deployment-regions"></a>Oblasti nasazení
+Chcete-li zjistit, které regiony podporují nasazení Project Operations, přečtěte si sestavu [ Geografická dostupnost pro Dynamics 365 a Power Platform](https://dynamics.microsoft.com/en-us/geographic-availability/). Vyberte **Zobrazit sestavu** a rozbalte **Dynamics 365> Provozní aplikace> Dynamics 365 Project Operations** k zobrazení podporovaných regionů.
 
 ## <a name="deployment-types"></a>Typy nasazení
 Project Operations podporuje více možností nasazení, aby odpovídaly vašim požadavkům. Ať už jste novým nebo stávajícím zákazníkem Dynamics 365, Project Operations může podpořit vaše potřeby.
@@ -41,18 +42,19 @@ Náš [Dotazník o nasazení](https://aka.ms/provisionprojectoperations) vám po
 - [Project Operations pro scénáře se zdroji bez skladových materiálů](#integrated)
 - [Project Operations pro scénáře se skladovým materiálem a výrobními příkazy](#pma)
 
-Project Operation podporují scénáře zásob / výrobní zakázky a scénáře bez zásob / zdrojů ve stejném prostředí prostřednictvím konfigurací na úrovni právnických osob. Například společnost Contoso může využívat možnosti skladového materiálu / výrobní objednávky ve svém výrobním závodě v USA (právnická osoba = Contoso Manufacturing United States). Společnost Contoso může ve svém servisním zařízení Contoso Robotics Arms ve Velké Británii využívat funkce, které nejsou skladové / založené na zdrojích (právnická osoba = Contoso Robotics United Kingdom).
+Project Operation podporují scénáře zásob / výrobní zakázky a scénáře bez zásob / zdrojů ve stejném prostředí prostřednictvím konfigurací na úrovni právnických osob. Například Contoso mohou využívat možnosti skladové/výrobní zakázky ve svém výrobním závodě v USA (právnická osoba =Contoso Manufacturing United States). Contoso může využívat možnosti, které nejsou na základě skladu/prostředků, ve svém servisním závodě Contoso Robotics Arms ve Velké Británii (právnická osoba = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Omezené nasazení – od obchodu po pro forma fakturaci
 
 Omezené nasazení zahrnuje následující funkce:
 
+- Proces prodeje pro projekty, které rozšiřují možnosti aplikace Dynamics 365 Sales
 - Plánování projektu pomocí Microsoft Project pro web
 - Multidimenzionální ceny
 - Sjednocené řízení zdrojů
-- Doba sledování
+- Sledování času
 - Základní výdaje
-- Návrh faktury
+- Proforma faktura pro kontrolu a úpravy projektového manažera 
 
 #### <a name="deployment-steps"></a>Postup nasazení
 Určete nejlepší model nasazení Project Operations pomocí [Dotazník o nasazení](https://aka.ms/provisionprojectoperations).
@@ -62,16 +64,17 @@ Pro toto nasazení viz [Zaregistrujte se k odběru náhledu](lite-preview-subscr
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations pro scénáře se zdroji bez skladových materiálů
 Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě:
-  
+ 
+- Proces prodeje pro projekty, které rozšiřují aplikaci Dynamics 365 Sales
 - Plánování projektu pomocí Microsoft Project pro web
 - Multidimenzionální ceny
 - Sjednocené řízení zdrojů
-- Doba sledování
+- Sledování času
 - Základní výdaje
 - Plné výdaje
 - OCR účtenky
-- Plná fakturace
-- Uznání výnosů
+- Proforma a fakturace zaměřená na zákazníka 
+- Vykazování výnosů z projektů
 
 #### <a name="deployment-steps"></a>Postup nasazení
 Určete nejlepší model nasazení Project Operations pomocí [Dotazník o nasazení](https://aka.ms/provisionprojectoperations).
@@ -82,17 +85,20 @@ Pro toto nasazení viz [Zaregistrujte se k odběru náhledu](resource-sign-up-pr
 ### <a name="project-operations-for-stockedproduction-order-scenarios"></a><a name="pma"></a>Project Operations pro scénáře se skladovým materiálem a výrobními příkazy
 
 - Plánování projektu pomocí strukturovaného rozpisu prací
-- Správa zdrojů
-- Doba sledování
+- Řízení zdrojů
+- Sledování času
 - Plné výdaje
 - OCR účtenky
-- Plná fakturace
+- Úplná fakturace
 - Uznání výnosů
 - Výrobní zakázky
-- Podpora materiálů
+- Podpora skladovaných materiálů s inventářem
 
 #### <a name="deployment-steps"></a>Postup nasazení
 Určete nejlepší model nasazení Project Operations pomocí [Dotazník o nasazení](https://aka.ms/provisionprojectoperations).
 
-Pro toto nasazení viz [Zaregistrujte se k odběru náhledu](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) a [Zřídit nové prostředí](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
+Pro toto nasazení viz [Zaregistrujte se k odběru náhledu](/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=%2fdynamics365%2ffinance%2ftoc.json) a [Zřídit nové prostředí](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=%2fdynamics365%2ffinance%2ftoc.json). 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

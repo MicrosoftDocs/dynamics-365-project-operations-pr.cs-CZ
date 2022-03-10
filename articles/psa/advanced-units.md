@@ -2,8 +2,6 @@
 title: Skupiny jednotek a jednotky
 description: Toto téma poskytuje informace o skupinách jednotek a jednotkách.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130570"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987563"
 ---
 # <a name="unit-groups-and-units"></a>Skupiny jednotek a jednotky
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -44,7 +44,7 @@ Pokud například ve skupině jednotek **Čas** nastavíte jako první jednotku 
 
 Následující obrázek znázorňuje příklad nastavení pro jednotku **Den**, kde pole **Množství** zobrazuje počet hodin v rámci dne a **Týdne**, kde pole **Množství** zobrazí počet dnů v týdnu.
 
-> ![Skupina jednotek: Stránka s informacemi](media/advanced-2.png)
+> ![Skupina jednotek: Stránka s informacemi.](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Použití jednotek a skupin jednotek
 
@@ -86,7 +86,7 @@ Následující příklad ukazuje, jak PSA používá skupinu jednotek, jednotky 
 
 | Role      | Skupina jednotek | Jednotka | Organizační jednotka | Cena   |
 |-----------|------------|------|---------------------|---------|
-| Vývojář | Time       | Day  | Contoso UK          | 800 GBP |
+| Vývojář | Čas       | Den  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>Časový záznam
 
@@ -110,3 +110,6 @@ V některých zemích nebo oblastech existuje právní požadavek, aby byly fakt
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Lze jednotky a skupiny jednotek upravit, odstranit a přidat?
 Ano. S výjimkou skupiny jednotek **Čas** a jednotky **Hodina** lze všechny jednotky odstranit nebo upravit a přidat nové jednotky. V PSA nelze skupinu jednotek **Čas** a jednotku **Hodina** odstranit. Lze je však aktualizovat pomocí přeloženého textu pro pole **Název**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

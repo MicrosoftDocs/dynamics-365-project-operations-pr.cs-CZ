@@ -2,16 +2,16 @@
 title: Přihlášení k odběru preview Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 description: Toto téma poskytuje informace o tom, jak přihlásit odběr a nasadit Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě.
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1b8c8982ede83191ce346e76718322d47abf0dd8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000428"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323408"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Přihlášení k odběru preview Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
@@ -19,48 +19,30 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Toto téma vysvětluje, jak se přihlásit k odběru preview / nabídky partnera a nasadit prostředí Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě.
+Tento téma vysvětluje, jak se přihlásit k nabídce zkušební verze a nasadit prostředí Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě.
 
 ## <a name="prerequisites"></a>Požadavky
-
-- Obdržíte e-mail s výzvou k účasti v programu Preview. O preview můžete požádat na [webu Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- Uživatel, který nasadí preview, musí mít práva globálního správce klienta Azure.
-- Nasazení prostředí Finance vyžaduje platné předplatné Azure, kterému bude účtováno každé prostředí zvlášť. V začátcích můžete použít stávající předplatné vaší organizace nebo [zkušební verzi Azure](https://azure.microsoft.com/en-us/free/). Prostředí CDS bude poskytováno zdarma po omezenou dobu 30 dnů.
-
-## <a name="subscribe"></a>Odebírat
-
-Až bude váš [požadavek na preview](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) schválen, dostanete od společnosti Microsoft e-mailem tři nabídky. Tyto nabídky vám umožňují nasadit Project Operations Preview:
-
-- Zkušební verze Preview Dynamics 365 Project Operations (CRM)
-- Office 365 Project Operations – zkušební verze Preview
-- Dynamics 365 Finance - Zkušební verze Preview
+- Uživatel, který nasadí preview, musí mít práva globálního správce klienta Azure. Během prvního uplatnění nabídky můžete vytvořit nájemce. 
+- Nasazení prostředí Finance vyžaduje platné předplatné Azure, kterému bude účtováno každé prostředí zvlášť. V začátcích můžete použít stávající předplatné vaší organizace nebo [zkušební verzi Azure](https://azure.microsoft.com/free/). Prostředí CDS bude poskytováno zdarma po omezenou dobu 30 dnů.
 
 > [!IMPORTANT]
 > Tuto úlohu musí v organizaci provést pouze jedna osoba, správce tenanta. Pokud nejste předplatitelem tohoto vydání, počkejte, dokud nebude vaše organizace zaregistrována a neobdržíte přihlašovací údaje uživatele.
+> 
+> Zkušební verze jsou na jedno použití v klientovi. Zkušební verzi můžete spustit pouze jednou. Pro účely zkušebního období vám doporučujeme vytvořit nového klienta.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Zkušební verze Preview Dynamics 365 Project Operations (CRM) 
+
+### <a name="dynamics-365-project-operations-ce---preview-trial"></a>Dynamics 365 Project Operations(CE) - zkušební verze 
 
 Než začnete, ujistěte se, že jste přihlášeni do prohlížeče s pracovním účtem uživatele v klientu, kde chcete Project Operations Preview mít.
 
-1. Uplatněte první kód nabídky **Dynamics 365 Project Operations (CRM) - zkušební verze náhledu** vložením do adresy URL prohlížeče.
-
-![Uplatnění nabídky](./media/16RedeemFirstOfferNew.png)
-
+1. Uplatněte první nabídkový kód **Dynamics 365 Project Operations** zde [Zkušební verze Project Operations](https://aka.ms/try-po)
 2. Objednávku potvrďte.
 
-![Potvrďte objednávku](./media/17ConfirmOrderNew.png)
-
-Uvidíte, že nabídka potvrzení byla úspěšně uplatněna.
-
-![Potvrzení](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – zkušební verze Preview
-
-Opakujte stejné kroky jako u prvního nabídkového kódu. Přidejte druhý kód nabídky pomocí stejného uživatelského účtu, který byl použit s prvním kódem nabídky.
+  Uvidíte, že nabídka potvrzení byla úspěšně uplatněna.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Zkušební verze Preview Dynamics 365 Finance
 
-Stejné kroky opakujte s poslední nabídkou z uvítacího e-mailu.
+Přejděte na [Zkušební verze Dynamics 365 for Finance](https://aka.ms/trypoche) a zopakujte kroky z předchozí části s nabídkou, zaregistrujte se v prostředí hostovaném v cloudu.  
 
 ## <a name="assign-licenses"></a>Přiřazení licencí
 
@@ -69,13 +51,9 @@ Stejné kroky opakujte s poslední nabídkou z uvítacího e-mailu.
 
 1. Přejděte do [Centra pro správu Microsoft 365](https://portal.office.com/), kde přiřadíte licence vašim uživatelům.
 
-![Domovská stránka centra pro správu](./media/14AdminPortal.png)
-
 2. Na stránce **Aktivní uživatelé** vyberte uživatele, kterým chcete přiřadit licenci.
 
-![Přiřazení licencí](./media/15AssignLicenses.png)
-
-3. Ověřte, že byla vybrána licence **Náhled Dynamics 365 Project Operations (CRM)** a **Office 365 Project Operations - náhled** a vyberte **Uložit změny**.
+3. Ověřte, že byla vybrána licence **Dynamics 365 Project Operations** a vyberte **Uložit změny**.
 
 > [!NOTE]
 > Nabídku zkušební verze Finance není nutné přiřadit uživateli.
@@ -95,7 +73,7 @@ Postupujte podle pokynů v tématu [Zřízení nového prostředí](resource-pro
 ## <a name="install-cds-setup-and-configuration-data"></a>Instalace nastavení CDS a dat konfigurace
 
 Nainstalujte instalační a konfigurační data CDS podle popisu v tématu [Nastavení a použití dat konfigurace ve službě Common Data Service](resource-apply-pro-setup-config-data.md).
-Tento krok dokončete až poté, co se nasadí ukázkové prostředí Finance a budou připravena ukázková data ve FO.
+Tento krok dokončete až po nasazení demo prostředí Finance a připravě demo dat.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

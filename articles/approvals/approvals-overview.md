@@ -2,51 +2,53 @@
 title: Přehled schválení
 description: Toto téma poskytuje informace o práci se schváleními ve službě Project Operations.
 author: stsporen
-manager: Annbe
-ms.date: 10/05/2020
+ms.date: 03/31/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: a7573b95998387453b72dbcb73c3de977ed7d913
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: d77c62455c346d6d427d71af4b01d62b5132a2377c2c1a0a64f56fb313219c46
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290350"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991703"
 ---
 # <a name="approvals-overview"></a>Přehled schválení
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Odeslání času a výdajů prochází schvalovacím pracovním postupem. Po schválení položek jsou transakce zaznamenány ve skutečných hodnotách nebo je čas zaúčtován v rozvrhu.
+Odeslání času, výdajů a využití materiálu prochází schvalovacím pracovním postupem. Po schválení položek jsou transakce zaznamenány ve skutečných hodnotách nebo je čas zaúčtován v rozvrhu.
 
 ## <a name="approvals-workflow"></a>Pracovní postup schválení
-Když vytvoříte a odešlete položku času nebo výdajů, vytvoří se položka schválení. Schvalovatel projektu nebo váš nadřízený váš vstup zkontroluje a schválí. Pokud položka souvisí s projektem, po schválení budou vytvořeny skutečné údaje. To umožňuje sledování nákladů a fakturace. 
+Když vytvoříte a odešlete záznam o čase, výdaji nebo použití materiálu, vytvoří se záznam o schválení. Schvalovatel nebo manažer projektu záznam zkontroluje a schválí. Pokud položka souvisí s projektem, skutečné údaje se vytvoří, až bude schválen. To umožňuje sledování nákladů a fakturace.
 
 ## <a name="approve-an-entry"></a>Schválit záznam
-Formulář **Schválení** umožňuje přepínat mezi různými pohledy, takže můžete prohlížet různé typy schválení.
+Stránka **Schválení** umožňuje přepínat mezi různými pohledy, takže můžete prohlížet různé typy schválení.
   
-1. Přejděte na formulář **Schválení** a vyberte **Výdaje**, **Čas** nebo **Odvolání**.
+1. Přejděte na stránku **Schválení** a vyberte **Výdaje**, **Čas**, **Využití materiálu** nebo **Odvolání**.
 2. Zkontrolujte každé schválení a vyberte ty, které chcete schválit.
 3. Vyberte **Schvalovat**, chcete-li schválit vybrané položky.
-Systém tyto záznamy zpracuje a vytvoří skutečné hodnoty nebo rezervaci.
+Systém tyto záznamy zpracuje a vytvoří skutečná data.
 
 ## <a name="reject-an-entry"></a>Odmítnout záznam
 Jako schvalovatel projektu možná budete muset zaslat záznam zpět uživateli k opravě.
   
-1. Přejděte na formulář **Schválení** a vyberte záznam, který chcete odmítnout. 
+1. Přejděte na stránku **Schválení** stránka a vyberte záznam, který chcete odmítnout. 
 2. Vyberte **Odmítnout**.
-3. Volitelné - Přidejte komentář do dialogového okna **Komentáře k odmítnutí** informující uživatele, proč je záznam odmítnut.
+3. Volitelně přidejte komentář do dialogového okna **Komentáře k odmítnutí** k informování uživatele, proč je položka odmítnuta.
 4. Vyberte **OK**. Záznam bude vrácen uživateli.
   
-## <a name="recall-entries"></a>Odvolání záznamů
-V určitém okamžiku možná budete muset odeslaný záznam odvolat. Pokud záznam nebyl schválen, bude okamžitě vrácen. Schválená položka však může mít podstatný dopad. Schvalovatel projektu je povinen schválit odvolání, aby se transakce dále nepromítala do skutečných hodnot.
+## <a name="cancel-approval"></a>Zrušit schválení
+V některých případech možná budete muset zrušit dříve schválený záznam. Zrušení dříve schváleného záznamu bude mít finanční dopad. 
+
+## <a name="approving-recall-requests"></a>Schvalování požadavků na odvolání
+V některých případech může být nutné, aby konzultant odvolal dříve schválený záznam. Zrušení dříve schváleného záznamu bude mít finanční dopad. Schvalovatel projektu je povinen schválit odvolání, aby transakci vrátil ve skutečných hodnotách.
 
 ## <a name="specify-project-approvers"></a>Zadejte schvalovatele projektu
 Každý projekt má několik členů projektového týmu. Můžete určit, kteří členové týmu jsou také schvalovateli projektu.
 
-1. Přejděte na formulář **Projekty** a otevřete projekt ze seznamu.
+1. Přejděte na stránku **Projekty** stránku a otevřete projekt ze seznamu.
 2. Na kartě **Tým** vyberte člena týmu, který bude schvalovatelem projektu, a poté vyberte **Upravit**.
 3. Nastavte pole **Schvalovatel projektu** na **Ano**.
 4. Zvolte **Uložit**.

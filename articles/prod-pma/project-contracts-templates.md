@@ -1,12 +1,10 @@
 ---
-title: Synchronizace projektových smluv a projektů přímo z Project Service Automation do Finance and Operations
+title: Synchronizace projektových smluv a projektů přímo z Project Service Automation do Finance
 description: Toto téma popisuje šablonu a základní úkoly, které se používají k synchronizaci projektových smluv a projektů přímo z Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 author: Yowelle
-manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,16 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073914"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001063"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizace projektových smluv a projektů přímo z Project Service Automation do Finance and Operations
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synchronizace projektových smluv a projektů přímo z Project Service Automation do Finance 
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Toto téma popisuje šablonu a základní úkoly, které se používají k synchronizaci projektových smluv a projektů přímo z Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 
@@ -42,7 +42,7 @@ Toto téma popisuje šablonu a základní úkoly, které se používají k synch
 
 Následující obrázek ukazuje, jak jsou data synchronizována mezi Project Service Automation a Finance.
 
-[![Datový tok pro integraci Project Service Automation s Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Datový tok pro integraci Project Service Automation s Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Šablony a úkoly
 
@@ -51,24 +51,24 @@ Pro přístup k dostupným šablonám v centru pro správu Microsoft Power Apps 
 Následující šablony a základní úlohy se používají k synchronizaci projektových smluv a projektů z Project Service Automation do Finance:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Integrace s Dynamics 365 Project Service Automation v2.x
-- **Název šablony v integraci dat** Projekty a smlouvy (PSA do Fin and Ops)
+- **Název šablony v Integraci dat:** Projekty a smlouvy (Project Service Automation do Finance)
 - **Název úloh v projektu:**
 
-    - Projektové smlouvy PSA do Fin and Ops
-    - Projekty PSA do Fin and Ops
-    - Řádky projektových smluv PSA do Fin and Ops
-    - Milníky řádků projektových smluv PSA do Fin and Ops
+    - Projektové smlouvy Project Service Automation do Finance
+    - Projekty Project Service Automation do Finance
+    - Řádky projektové smlouvy Project Service Automation do Finance
+    - Milníky řádku projektové smlouvy Project Service Automation do Finance
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Integrace s Dynamics 365 Project Service Automation v3.x
 V Project Service Automation dochází ke změně schématu, která má dopad na šablonu milníku řádků projektové smlouvy. Použití verze v2 šablony je nutné pro integraci Project Service Automation v3.x s Dynamics 365.
 
-- **Název šablony v integraci dat** Projekty a smlouvy (PSA 3.x do Fin and Ops) - v2
+- **Název šablony v Integraci dat:** Projekty a smlouvy (Project Service Automation 3.x do Finance) – v2
 - **Název úloh v projektu:**
 
-    - Projektové smlouvy PSA do Fin and Ops
-    - Projekty PSA do Fin and Ops
-    - Řádky projektových smluv PSA do Fin and Ops
-    - Milníky řádků projektových smluv PSA do Fin and Ops
+    - Projektové smlouvy Project Service Automation do Finance
+    - Projekty Project Service Automation do Finance
+    - Řádky projektové smlouvy Project Service Automation do Finance
+    - Milníky řádku projektové smlouvy Project Service Automation do Finance
 
 Než může dojít k synchronizaci projektových smluv a projektů, musíte synchronizovat účty.
 
@@ -85,7 +85,8 @@ Než může dojít k synchronizaci projektových smluv a projektů, musíte sync
 
 Projektové smlouvy jsou spravovány v aplikaci Project Service Automation a jsou synchronizovány do Finance jako projektové smlouvy. Jako součást šablony integrace můžete nastavit zdroj integrace ve Finance pro projektovou smlouvu.
 
-Časové a materiálové projekty a projekty s pevnou cenou jsou spravovány v aplikaci Project Service Automation a jsou synchronizovány do Finance jako projekty. Jako součást integrace šablony můžete nastavit zdroj integrace ve Finance pro projektovou smlouvu.
+Časové a materiálové projekty a projekty s pevnou cenou jsou spravovány v Project Service Automation a synchronizovány s Finance jako projekty. Jako součást integrace šablony můžete nastavit zdroj integrace pro projekt v aplikaci Finance. V současné době jsou podporovány pouze časové a materiálové projekty a projekty s pevnou cenou.
+
 
 Řádky projektové smlouvy jsou spravovány v aplikaci Project Service Automation a jsou synchronizovány do Finance jako pravidla fakturace smlouvy. Pokud se metoda fakturace liší od výchozího typu projektu, synchronizace aktualizuje typ projektu pro řádek projektové smlouvy a skupinu projektů.
 
@@ -106,8 +107,8 @@ Když je použito řešení integrace Project Service Automation do Finance, nas
 ## <a name="prerequisites-and-mapping-setup"></a>Předpoklady a nastavení mapování
 
 - Než může dojít k synchronizaci projektových smluv a projektů, musíte synchronizovat účty.
-- V sadě připojení přidejte mapování pole integračního klíče pro **msdyn\_organizationalunits** na **msdyn\_name \[Název\]**. Možná budete muset nejprve přidat projekt do sady připojení. Další informace viz článek [Integrace dat do Common Data Service pro aplikace](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- V sadě připojení přidejte mapování pole integračního klíče pro **msdyn\_projects** na **msdynce\_projectnumber \[Číslo projektu\]**. Možná budete muset nejprve přidat projekt do sady připojení. Další informace viz článek [Integrace dat do Common Data Service pro aplikace](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- V sadě připojení přidejte mapování pole integračního klíče pro **msdyn\_organizationalunits** na **msdyn\_name \[Název\]**. Možná budete muset nejprve přidat projekt do sady připojení. Další informace viz článek [Integrace dat do Common Data Service pro aplikace](/powerapps/administrator/data-integrator).
+- V sadě připojení přidejte mapování pole integračního klíče pro **msdyn\_projects** na **msdynce\_projectnumber \[Číslo projektu\]**. Možná budete muset nejprve přidat projekt do sady připojení. Další informace viz článek [Integrace dat do Common Data Service pro aplikace](/powerapps/administrator/data-integrator).
 - Pole **SourceDataID** u projektových smluv a projektů lze aktualizovat na jinou hodnotu nebo odebrat z mapování. Výchozí hodnota šablony je **Project Service Automation**.
 - Mapování **Platební podmínky** musí být aktualizováno tak, aby odráželo platné platební podmínky ve Finance. Můžete také odebrat mapování z projektové úlohy. Mapa výchozích hodnot má výchozí hodnoty pro ukázková data. V následující tabulce jsou uvedeny hodnoty v Project Service Automation.
 
@@ -120,7 +121,7 @@ Když je použito řešení integrace Project Service Automation do Finance, nas
 
 ## <a name="power-query"></a>Power Query
 
-K filtrování dat musíte použít Microsoft Power Query pro Excel, pokud jsou splněny následující podmínky:
+K filtrování dat použijte Microsoft Power Query pro Excel, pokud jsou splněny následující podmínky:
 
 - Máte prodejní objednávky v Dynamics 365 Sales.
 - Máte více organizačních jednotek v Project Service Automation a tyto organizační jednotky budou mapovány na více právnických osob ve Finance.
@@ -128,7 +129,7 @@ K filtrování dat musíte použít Microsoft Power Query pro Excel, pokud jsou 
 Pokud musíte použít Power Query, postupujte podle těchto pokynů:
 
 - Šablona Projekty a smlouvy (PSA do Fin a Ops) má výchozí filtr, který zahrnuje pouze prodejní objednávky typu **Pracovní položka (msdyn\_ordertype = 192350001)**. Tento filtr pomáhá zaručit, že projektové smlouvy nejsou vytvořeny pro prodejní objednávky ve Finance. Pokud vytvoříte vlastní šablonu, musíte přidat tento filtr.
-- Musíte vytvořit filtr Power Query, který zahrnuje pouze smluvní organizace, které by se měly synchronizovat s právnickou osobou sady integračních připojení. Například projektové smlouvy uzavřené se smluvní organizační jednotkou společnosti Contoso USA by měly být synchronizovány s právním subjektem USSI, ale projektové smlouvy se smluvní organizační jednotkou společnosti Contoso Global by měly být synchronizovány s právním subjektem USMF. Pokud tento filtr nepřidáte do svého mapování úkolů, budou všechny projektové smlouvy synchronizovány s právním subjektem, který je definován pro sadu připojení, bez ohledu na smluvní organizační jednotku.
+- Vytvořte filtr Power Query, který zahrnuje pouze smluvní organizace, které by se měly synchronizovat s právní entitou sady integračních připojení. Například smlouvy o projektu, které máte s organizační jednotkou smlouvy Contoso USA by měly být synchronizovány s právním subjektem USSI, ale projektové smlouvy, které máte s organizační jednotkou smlouvy Contoso Global by měl být synchronizovány s právním subjektem USMF. Pokud tento filtr nepřidáte do svého mapování úkolů, budou všechny projektové smlouvy synchronizovány s právním subjektem, který je definován pro sadu připojení, bez ohledu na smluvní organizační jednotku.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapování šablon v integraci dat
 
@@ -139,14 +140,17 @@ Pokud musíte použít Power Query, postupujte podle těchto pokynů:
 
 Následující obrázky ukazují příklady mapování úlohy šablony v Integraci dat. Mapování zobrazuje informace pole, které budou synchronizovány z Project Service Automation do Finance.
 
-[![Mapování šablony projektové smlouvy](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Mapování šablony projektové smlouvy.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Mapování šablony projektu](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Mapování šablony projektu.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Mapování šablony řádků projektové smlouvy](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Mapování šablony řádků projektové smlouvy.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Mapování šablony milníku řádku projektové smlouvy](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Mapování šablony milníku řádku projektové smlouvy.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Mapování milníku řádků projektových smluv v projektech a smlouvách (PSA 3.x do Dynamics) - šablona v2:
 
-[![Mapování šablony milníku řádku projektové smlouvy se šablonou druhé verze](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![Mapování šablony milníku řádku projektové smlouvy se šablonou druhé verze.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

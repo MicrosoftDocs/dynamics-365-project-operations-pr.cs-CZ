@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999888"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988103"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronizace skutečných hodnot projektu přímo z Project Service Automation do deníku integrace projektu k zaúčtování ve Finance and Operations
 
@@ -42,7 +42,7 @@ Toto téma popisuje šablony a základní úkoly, které se používají k synch
 
 Následující obrázek ukazuje, jak jsou data synchronizována mezi Project Service Automation a Finance.
 
-[![Datový tok pro integraci Project Service Automation s Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Datový tok pro integraci Project Service Automation s Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Skutečné hodnoty projektu z Project Service Automation
 
@@ -93,9 +93,9 @@ Chcete-li aktualizovat vložený podmíněný sloupec v šabloně, otevřete kli
 
 Následující obrázky ukazují příklady mapování úlohy šablony v Integraci dat. Mapování zobrazuje informace pole, které budou synchronizovány z Project Service Automation do Finance.
 
-[![Mapování šablon – Skutečnosti](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Mapování šablon – Skutečnosti.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Mapování šablon – Propojení transakcí](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Mapování šablon – Propojení transakcí.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Import z pracovní tabulky po integraci z Project Service Automation
 
@@ -135,9 +135,9 @@ V šabloně skutečných hodnot projektu musíte použít Power Query k dokonče
 
 Následující obrázky ukazují příklady mapování úlohy šablony v Integraci dat. Mapování zobrazuje informace pole, které budou synchronizovány z Finance do Project Service Automation.
 
-[![Mapování šablon – Aktualizace skutečností](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Mapování šablon – Aktualizace skutečností.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Mapování šablon – Aktualizace transakce](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![Mapování šablon – Aktualizace transakce.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

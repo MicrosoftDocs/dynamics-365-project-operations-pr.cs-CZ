@@ -2,8 +2,6 @@
 title: Příručka pro řízení zdrojů
 description: Toto téma poskytuje odkazy na informace o správě zdrojů v Project Service Automation
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da7371a050ae6962d7081ff7bd28e2c3ae6f623a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b78d6771807b77e2f314cb297fd3563e235bbf53756673fc480df09e9b84dbbf
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275125"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985224"
 ---
 # <a name="resource-management-guide"></a>Příručka pro řízení zdrojů
 

@@ -2,18 +2,16 @@
 title: Správa více zákazníků na řádcích nabídek na základě projektů – omezené
 description: Toto téma popisuje správu více zákazníků v řádcích nabídek založených na projektu.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d015e9107741fd496f7d3639731f33fcdcc9b9bdd5f501c9ad2617e37a707f35
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176468"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001693"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Správa více zákazníků na řádcích nabídek na základě projektů – omezené
 
@@ -43,3 +41,6 @@ V následující tabulce jsou uvedena pole v záznamu zákazníka řádku nabíd
 Procenta rozdělení fakturace se dají upravit v řádku. Pokud součet procent rozdělení fakturace není 100%, dojde k chybě. Po úpravě procent rozdělení fakturace chybu odstraníte aktualizací stránky řádku nabídky.
 
 Pomocí akce rovnoměrného rozložení na podřízené mřížce zákazníků řádku nabídky přidělte rozdělení fakturace všem zákazníkům řádku nabídky. Pokud existuje zaokrouhlovací faktor, bude přidán k zaokrouhlovacímu zákazníkovi. Jeden ze zákazníků řádku nabídky je vždy označen jako zaokrouhlovací zákazník, což znamená, že v záznamu zákazníka řádku nabídky je příznak zaokrouhlování nastaven na **Ano**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

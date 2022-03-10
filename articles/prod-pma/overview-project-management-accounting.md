@@ -10,18 +10,18 @@ ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6d3b9eb97fce836e5b2310714d8f731b2c09e6c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008123"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007498"
 ---
 # <a name="project-management-and-accounting-overview"></a>Přehled řízení projektů a účetnictví
 
@@ -34,14 +34,14 @@ Projekt je skupina činností, která je určena k poskytování služeb, výrob
 ## <a name="projects-across-industries"></a>Projekty napříč průmyslovými odvětvími
 Funkci řízení a účetnictví projektu lze použít v různých průmyslových odvětvích, jak ukazuje následující obrázek.
 
-[![Projekty napříč průmyslovými odvětvími](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projekty napříč průmyslovými odvětvími.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 V call centru lze lístek použít k popisu souboru akcí, které jsou nutné k vyřešení hovoru. Poradenské společnosti, jako jsou organizace pro správu nebo technické poradenství nebo reklamní agentury, označují své činnosti jako projekty. V marketingu představuje kampaň soubor práce, kterou je třeba doručit. V projektové výrobě se výrobní zakázka týká různých prací, které je třeba provést k výrobě některých hotových výrobků. Ať se pro ně použije jakýkoli název, tyto projekty zahrnují zdroje, plány a náklady a funkce pro správu a účetnictví projektu mohou pomoci s plánováním, prováděním a analýzou těchto projektů.
 
 ## <a name="project-phases"></a>Fáze projektu
 Ačkoli je následující procesní proces zaměřen na externí projekty nebo projekty, které jsou dokončeny pro jednoho nebo více zákazníků, funkce se vztahuje také na interní projekty pouze za náklady. 
 
-![3 fáze projektu](./media/3-stages-of-a-project.png) 
+![3 fáze projektu.](./media/3-stages-of-a-project.png) 
 
 Jak je znázorněno na předchozím obrázku, projektové řízení a účetnictví lze rozdělit do tří fází:
 
@@ -50,7 +50,7 @@ Jak je znázorněno na předchozím obrázku, projektové řízení a účetnict
 3.  Analýza
 
 ## <a name="initiate-the-project"></a>Zahajte projekt
-Během zahájení projektu dochází k několika klíčovým procesům. Pomocí nabídky projektu můžete zákazníkovi sdělit odhadovanou práci, výdaje a materiál. Fakturační podmínky, limity a dohody můžete zaznamenat do smlouvy o projektu. K plánování a odhadu práce můžete použít strukturu rozpisu práce (WBS). K řízení spuštění projektu můžete nastavit prognózy a rozpočty. Následující obrázek ukazuje strukturu projektu.[![struktura projektu](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Během zahájení projektu dochází k několika klíčovým procesům. Pomocí nabídky projektu můžete zákazníkovi sdělit odhadovanou práci, výdaje a materiál. Fakturační podmínky, limity a dohody můžete zaznamenat do smlouvy o projektu. K plánování a odhadu práce můžete použít strukturu rozpisu práce (WBS). K řízení spuštění projektu můžete nastavit prognózy a rozpočty. Následující obrázek ukazuje strukturu projektu.[![struktura projektu.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Vtvoření projektových nabídek
 

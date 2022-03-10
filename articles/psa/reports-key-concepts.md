@@ -2,8 +2,6 @@
 title: Důležité koncepce
 description: Toto téma poskytuje informace o důležitých koncepcích správy zdrojů v Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 862e277d8109e810401bdecd4c45c2696275f8a8
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120355"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995078"
 ---
 # <a name="key-concepts"></a>Důležité koncepce
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -46,3 +46,6 @@ Následující tabulka definuje klíčové koncepce, které se používají v ap
 | Průběhová křivka                    | Hodiny úkolu, požadavku nebo přiřazení, které jsou rozděleny do denního rozdělení. Například pětidenní, 40hodinový úkol může být rozdělen na osm hodin denně za pět dní. |
 | Zobrazení Vyrovnání        | Zobrazení, ve kterém jsou zobrazeny rezervace a přiřazení pro jednotlivé členy projektového týmu. Toto zobrazení umožňuje projektovému manažerovi vyhledat jakýkoli nesoulad mezi rezervacemi a přiřazeními a provést nápravné opatření, pokud k nějakému nesouladu dojde. |
 | Pracovní doba                 | Entita, která slouží k identifikaci kapacity zdroje a pracovní a nepracovní doby. Tato entita je také označována jako kalendář zdroje. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Zobrazení řídicích panelů a sestav
 description: Postup zobrazení řídicích panelů a sestav v Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 51c372d117bd451c15c75d2a0797c78d7842168e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: de1c83730b9c45f6a38e4bd4538b6f9cb5cee44f701db0bd395069cf8336d080
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121660"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987113"
 ---
 # <a name="view-dashboards-and-reports-project-service"></a>Zobrazení řídicích panelů a sestav (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -47,3 +47,6 @@ ms.locfileid: "4121660"
   
 ### <a name="see-also"></a>Viz také  
  [Příručka pro projektového manažera](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
