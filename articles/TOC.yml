@@ -62,6 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Co je nového
       items:
+        - name: 'Květen 2022 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: 'Duben 2022 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: 'Březen 2022 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: 'Únor 2022 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: 'Prosinec 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: 'Listopad 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
@@ -102,6 +110,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Měna
               href: sales/sales-currency.md
+            - name: Organizační jednotky
+              href: sales/OrgUnits.md
         - name: Správa zájemců projektu
           href: sales/manage-leads.md
         - name: Správa příležitostí projektu
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: Sledování pracovních výnosů na projektech
               href: project-management/project-sales-tracking.md
-            - name: Aktualizace odhadu nákladů při dokončení
-              href: project-management/update-completed-estimate.md
         - name: Členové projektových týmů
           items:
             - name: Přehled členů projektového týmu
@@ -308,6 +316,8 @@
               href: project-management/dev-copy-project.md
             - name: Použití rozhraní API projektového plánu
               href: project-management/schedule-api-preview.md
+            - name: Použití rozhraní API projektového plánu pomocí Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Výkonnost API rozhraní projektového plánu
               href: project-management/project-schedule-api-performance.md
             - name: Protokoly plánování projektu
@@ -426,8 +436,8 @@
           href: expense/travel-requisition.md
         - name: Hotovostní záloha
           href: expense/cash-advance.md
-        - name: Denní diety
-          href: expense/per-diems.md
+        - name: Výdaje denních diet
+          href: expense/per-diem-expenses.md
         - name: Aplikace mobilních výdajů
           href: expense/expense-using-mobile.md
         - name: Finanční správa
@@ -444,27 +454,39 @@
           href: approvals/approvals-overview.md
         - name: Sady schválení
           href: approvals/approval-sets.md
+        - name: Zrušení schválení dříve schválených záznamů
+          href: approvals/cancelapproval.md
+        - name: Odvolání dříve schválených položek
+          href: approvals/recall-cancel.md
         - name: Poznámky vývojáře
           items:
             - name: Poznámky pro vývojáře ke schválení
               href: approvals/dev-notes-approvals.md
     - name: Skutečné hodnoty
       items:
+        - name: Obchodní transakce v Project Operations
+          href: actuals/businesstransactions.md
         - name: Přehled skutečných hodnot
           href: actuals/actuals-overview.md
-        - name: Propojení skutečných hodnot s původními záznamy
+        - name: Původy transakcí – Propojení skutečných hodnot se zdrojovými
           href: actuals/linkingactuals.md
-        - name: Opravné deníky
+        - name: Propojení transakcí - Propojení skutečných hodnot různých typů transakcí
+          href: actuals/connectingactuals.md
+        - name: Deníky
           items:
+            - name: Vytváření a potvrzení deníků záznamů
+              href: actuals/create-confirm-entry-journals.md
             - name: Vytváření a potvrzení deníků oprav
               href: actuals/create-confirm-correction-journals.md
     - name: Zásobování
       items:
         - name: Konfigurace neskladovaných materiálů a nevyřízené faktury dodavatele
           href: procurement/configure-materials-nonstocked.md
-        - name: Pořízení neskladových materiálů pro projekty pomocí nevyřízených faktur dodavatele
+        - name: Konfigurace kategorií zásobování pro projekty
+          href: procurement/configure-procurement-categories.md
+        - name: Pořízení zboží a služeb pro projekty pomocí nevyřízených faktur dodavatele
           href: procurement/pending-vendor-invoices.md
-        - name: Objednávka neskladových materiálů pro projekty pomocí nákupních objednávek projektu
+        - name: Objednávka zboží a služeb pro projekty pomocí nákupních objednávek projektu
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: Udržení dodavatele
           items:
@@ -538,6 +560,18 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Správa odhadů výnosů
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Pokročilá konfigurace
+      items:
+        - name: Migrace plně fakturovaných milníků během přechodu
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: Upgrade
+      items:
+        - name: Aspekty upgradu pro moderní schválení
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Aplikace Project Operations
+      items:
+        - name: Aplikace Člen týmu Project Operations
+          href: team-member/project-operations-team-member.md
     - name: Řešení problémů
       items:
         - name: Prodejní proces projektu
@@ -562,6 +596,14 @@
       items:
         - name: Co je nového ve vlně 2 roku 2021 pro dřívější přístup – omezené nasazení
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 'Co je nového, květen 2022 – omezené nasazení'
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: 'Co je nového, duben 2022 – omezené nasazení'
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: 'Co je nového, březen 2022 – omezené nasazení'
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: 'Co je nového, únor 2022 - omezené nasazení'
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: 'Co je nového, prosinec 2021 - omezené nasazení'
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: 'Co je nového, listopad 2021 - omezené nasazení'
@@ -602,6 +644,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Měna
               href: sales/sales-currency.md
+            - name: Organizační jednotky
+              href: sales/OrgUnits.md
         - name: Správa zájemců projektu
           href: pro/sales/managing-leads-sales.md
         - name: Správa příležitostí projektu
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: Sledování pracovních výnosů na projektech
               href: project-management/project-sales-tracking.md
-            - name: Aktualizace odhadu nákladů při dokončení
-              href: project-management/update-completed-estimate.md
         - name: Členové projektových týmů
           items:
             - name: Přehled členů projektového týmu
@@ -828,6 +870,8 @@
               href: project-management/dev-copy-project.md
             - name: Použití rozhraní API projektového plánu
               href: project-management/schedule-api-preview.md
+            - name: Použití rozhraní API projektového plánu pomocí Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Výkonnost API rozhraní projektového plánu
               href: project-management/project-schedule-api-performance.md
     - name: Správa zdrojů
@@ -886,12 +930,10 @@
           items:
             - name: Přehled využití zdroje
               href: resource-management/resource-utilization-overview.md
-    - name: Správa subdodávek ve službě Project Operations
+    - name: Řízení subdodávek
       items:
         - name: Správa subdodávek ve službě Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Subdodávky v dřívějším přístupu v říjnu 2021
-          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Klíčové pojmy v subdodávkách
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Správa prodejců a ceníků projektů
@@ -924,6 +966,28 @@
           href: pro/subcontracting/recording-subcon-actuals.md
         - name: Přechody stavu v subdodávce
           href: pro/subcontracting/subcon-states.md
+    - name: Faktury dodavatele projektu
+      items:
+        - name: Fakturace dodavatele - koncept a tvorba
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: Podrobnosti záhlaví pro faktury dodavatele
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: Řádky faktury dodavatele za čas
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: Řádky faktury dodavatele za produkty
+          href: pro/subcontracting/vi-line-material.md
+        - name: Řádky faktury dodavatele za milníky
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: Řádky faktury dodavatele za kategorie výdajů
+          href: pro/subcontracting/vi-line-expense.md
+        - name: Ověřování faktur dodavatele se schválenými skutečnými hodnotami
+          href: pro/subcontracting/VI-Verification.md
+        - name: Zrušení faktury dodavatele projektu
+          href: pro/subcontracting/cancel-vi.md
+        - name: Potvrzení faktury dodavatele projektu
+          href: pro/subcontracting/confirm-vi.md
+        - name: Přechody stavu na faktuře dodavatele
+          href: pro/subcontracting/vi-state-model.md
     - name: Čas
       items:
         - name: Přehled času
@@ -952,18 +1016,28 @@
           href: approvals/approvals-overview.md
         - name: Sady schválení
           href: approvals/approval-sets.md
+        - name: Zrušení schválení dříve schválených záznamů
+          href: approvals/cancelapproval.md
+        - name: Odvolání dříve schválených položek
+          href: approvals/recall-cancel.md
         - name: Poznámky vývojáře
           items:
             - name: Poznámky pro vývojáře ke schválení
               href: approvals/dev-notes-approvals.md
     - name: Skutečné hodnoty
       items:
+        - name: Obchodní transakce v Project Operations
+          href: actuals/businesstransactions.md
         - name: Přehled skutečných hodnot
           href: actuals/actuals-overview.md
-        - name: Propojení skutečných hodnot s původními záznamy
+        - name: Původy transakcí – Propojení skutečných hodnot se zdrojovými
           href: actuals/linkingactuals.md
-        - name: Opravné deníky
+        - name: Propojení transakcí - Propojení skutečných hodnot různých typů transakcí
+          href: actuals/connectingactuals.md
+        - name: Deníky
           items:
+            - name: Vytváření a potvrzení deníků záznamů
+              href: actuals/create-confirm-entry-journals.md
             - name: Vytváření a potvrzení deníků oprav
               href: actuals/create-confirm-correction-journals.md
     - name: Proforma fakturace
@@ -984,6 +1058,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Konfigurace automatizace faktury projektu
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: Upgrade
+      items:
+        - name: Aspekty upgradu pro moderní schválení
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Aplikace Project Operations
+      items:
+        - name: Aplikace Člen týmu Project Operations
+          href: team-member/project-operations-team-member.md
 - name: Project Operations pro scénáře se skladovým materiálem a výrobními příkazy
   items:
     - name: Co je nového
@@ -1010,43 +1092,39 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Přehled řízení projektů a účetnictví
       href: prod-pma/overview-project-management-accounting.md
-    - name: Mezipodniková fakturace
-      href: prod-pma/intercompany-invoicing.md
-    - name: Konfigurace fakturace mezipodnikového projektu
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: Konfigurace standardních nákladů na práci a výdaje
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: Vytvoření a použití podmínek zadržení plateb dodavatele
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: Nastavení a použití zaplacení dodavatele po uhrazení platby
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: Časové rozlišení nákladů projektu na příjemkách nákupu
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: Projektová fakturace
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: Výkon návrhů faktury projektu
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: Projektové smlouvy
-      href: prod-pma/project-contracts.md
-    - name: Vytvoření rozšířených smluv pro fakturaci na základě průběhu
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: Projektové prognózy a rozpočty
-      href: prod-pma/project-forecasts-budgets.md
-    - name: Vytvoření modelů prognóz pro rozpočty projektů
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: Převod rozpočtů projektů na konci fiskálního roku
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: Projektové prodejní objednávky
-      href: prod-pma/project-sales-orders.md
-    - name: Nákupní objednávky pro projekt
-      href: prod-pma/project-purchase-orders.md
-    - name: Projektové nabídky
-      href: prod-pma/project-quotations.md
-    - name: 'Potvrzení, aktualizace a odeslání projektové nabídky'
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: Převod nabídky na projekt
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: Zajišťování zdrojů pro projekt
+    - name: Prodejní proces projektu
+      items:
+        - name: Projektové nabídky
+          href: prod-pma/project-quotations.md
+        - name: 'Potvrzení, aktualizace a odeslání projektové nabídky'
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: Převod nabídky na projekt
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: Projektové smlouvy
+          href: prod-pma/project-contracts.md
+        - name: Projektové granty
+          href: prod-pma/project-grants.md
+    - name: Ceny a výpočet nákladů
+      items:
+        - name: Konfigurace standardních nákladů na práci a výdaje
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Správa projektů
+      items:
+        - name: Přehled strukturovaných rozpisů prací
+          href: prod-pma/work-breakdown-structures.md
+        - name: Integrace Microsoft Project Client
+          href: prod-pma/project-integration.md
+        - name: Přehled projektových mobilních aplikací
+          href: prod-pma/project-mobile-application-overview.md
+        - name: Mobilní pracovní prostor zadání času projektu
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Mobilní aplikace časového rozvrhu projektu
+          href: prod-pma/project-timesheet.md
+        - name: Časové rozvrhy projektu na mobilním zařízení
+          href: prod-pma/mobile-timesheets.md
+        - name: Implementace vlastních polí pro mobilní aplikaci časového rozvrhu projektu
+          href: prod-pma/custom-fields-mobile.md
+    - name: Správa zdrojů
       items:
         - name: Přehled zajišťování zdrojů pro projekt
           href: prod-pma/project-resourcing.md
@@ -1068,28 +1146,106 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: Plnění zdrojů pro plánované zdroje
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: Příjem položek na nákupní objednávce z požadavku na položku
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: Strukturované rozpisy prací
+    - name: Projektové prognózy a rozpočty
       items:
-        - name: Přehled strukturovaných rozpisů prací
-          href: prod-pma/work-breakdown-structures.md
-        - name: Integrace Microsoft Project Client
-          href: prod-pma/project-integration.md
-        - name: Přehled projektových mobilních aplikací
-          href: prod-pma/project-mobile-application-overview.md
-        - name: Mobilní pracovní prostor zadání času projektu
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Mobilní aplikace časového rozvrhu projektu
-          href: prod-pma/project-timesheet.md
-        - name: Časové rozvrhy projektu na mobilním zařízení
-          href: prod-pma/mobile-timesheets.md
-        - name: Implementace vlastních polí pro mobilní aplikaci časového rozvrhu projektu
-          href: prod-pma/custom-fields-mobile.md
-    - name: Projektové granty
-      href: prod-pma/project-grants.md
-    - name: Eliminace odhadu projektu
-      href: prod-pma/eliminate-project-estimate.md
+        - name: Projektové prognózy a rozpočty
+          href: prod-pma/project-forecasts-budgets.md
+        - name: Vytvoření modelů prognóz pro rozpočty projektů
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: Převod rozpočtů projektů na konci fiskálního roku
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Čas
+      items:
+        - name: Výchozí finanční dimenze pro záznamy času projektu
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: Výdaje
+      items:
+        - name: Přehled výdajů
+          href: expense/expense-overview.md
+        - name: Nové prostředí výdajů
+          items:
+            - name: Nová verze vyúčtování výdajů
+              href: expense/expense-reports-reimagined.md
+            - name: Pořízení účtenky pomocí OCR
+              href: expense/match-receipt-expense-ocr.md
+        - name: Konfigurace a nastavení
+          items:
+            - name: Nastavení zásad
+              href: expense/set-up-policies.md
+            - name: Nastavení pracovních postupů
+              href: expense/set-up-workflows.md
+            - name: Správa delegování
+              href: expense/manage-delegation.md
+            - name: Konfigurace parametrů správy výdajů
+              href: expense/configure-expense-management-parameters.md
+            - name: Nastavení integrace kreditní karty
+              href: expense/set-up-credit-card-integration.md
+            - name: Nastavení kategorií výdajů
+              href: expense/set-up-expense-categories.md
+            - name: Nastavení najetých kilometrů pomocí úrovní najetých kilometrů
+              href: expense/set-up-mileage.md
+        - name: Rozpis výdajů
+          href: prod-exp/expense-itemization.md
+        - name: Osobní výdaje
+          href: expense/personal-expenses-expense-report.md
+        - name: Mezipodnikové výdaje
+          href: prod-exp/intercompany-expense.md
+        - name: Vytvoření vyúčtování výdajů
+          items:
+            - name: Distribuce na vyúčtování výdajů
+              href: expense/distributions-expense-report.md
+        - name: Schválení vyúčtování výdajů
+          items:
+            - name: Vyúčtování výdajů a více schvalovatelů
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Zaúčtování sestav výdajů
+          href: expense/posting-expense-reports.md
+        - name: Cestovní žádanka
+          href: expense/travel-requisition.md
+        - name: Hotovostní záloha
+          href: expense/cash-advance.md
+        - name: Výdaje denních diet
+          href: expense/per-diem-expenses.md
+        - name: Aplikace mobilních výdajů
+          href: expense/expense-using-mobile.md
+        - name: Finanční správa
+          items:
+            - name: Vratka DPH
+              href: expense/vat-recovery.md
+    - name: Zásobování
+      items:
+        - name: Nákupní objednávky pro projekt
+          href: prod-pma/project-purchase-orders.md
+        - name: Časové rozlišení nákladů projektu na příjemkách nákupu
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: Příjem položek na nákupní objednávce z požadavku na položku
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: Nastavení a použití zaplacení dodavatele po uhrazení platby
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: Vytvoření a použití podmínek zadržení plateb dodavatele
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Projektová fakturace
+      items:
+        - name: Projektová fakturace
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: Výkon návrhů faktury projektu
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: Vytvoření rozšířených smluv pro fakturaci na základě průběhu
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: Projektové prodejní objednávky
+          href: prod-pma/project-sales-orders.md
+        - name: Požadavky na položky pro projektové smlouvy s více zdroji financování
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: Mezipodniková fakturace
+      items:
+        - name: Mezipodniková fakturace
+          href: prod-pma/intercompany-invoicing.md
+        - name: Konfigurace fakturace mezipodnikového projektu
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: Uznání výnosů
+      items:
+        - name: Eliminace odhadu projektu
+          href: prod-pma/eliminate-project-estimate.md
 - name: Řízení výdajů
   items:
     - name: Přehled správy výdajů
@@ -1148,6 +1304,16 @@
       items:
         - name: Plán vydávání aktualizací pro Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 43, V3'
+          href: psa/whats-new-ur43.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 42, V3'
+          href: psa/whats-new-ur-42.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 41, V3'
+          href: psa/whats-new-ur-41.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 40, V3'
+          href: psa/whats-new-ur-40.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 39, V3'
+          href: psa/whats-new-ur-39.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 38, V3'
           href: psa/whats-new-ur-38.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 37.5, V3'
@@ -1238,6 +1404,8 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: Upgrade z Project Service Automation na Project Operations - omezená verze
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: Změny funkcí z Project Service Automation na Project Operations
+      href: psa/psa-project-operations-changes.md
     - name: Upgrade aplikace Project Service Automation (aplikace verze 3.x)
       items:
         - name: Upgrade Project Service Automation
