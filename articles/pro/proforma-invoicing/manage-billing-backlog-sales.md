@@ -4,14 +4,14 @@ description: Tento téma poskytuje informace o různých pohledech, které jsou 
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b3a90d50fcca8824db10594352cbd1e204665c53
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988283"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578133"
 ---
 # <a name="manage-project-billing-backlog"></a>Správa nedokončené fakturace produktů 
 

@@ -1,25 +1,25 @@
 ---
 title: Aktualizace Project Operations v prostředí Finance
-description: Tohle téma poskytuje informace, jak aktualizovat Project Operations v prostředí Dynamics 365 Finance.
+description: Toto téma poskytuje informace o tom, jak aktualizovat Project Operations ve vašem prostředí Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986753"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579918"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Aktualizace Project Operations v prostředí Finance
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
 
-Tohle téma poskytuje informace, jak aktualizovat Dynamics 365 Project Operations v prostředí Dynamics 365 Finance. K aktualizaci Project Operations na Update 5 (UR5) jsou vyžadovány tři postupy:
+Toto téma poskytuje informace o tom, jak aktualizovat Dynamics 365 Project Operations ve vašem prostředí Dynamics 365 Finance. K aktualizaci Project Operations na Update 5 (UR5) jsou vyžadovány tři postupy:
 
 - [Importujte balíček do projektu náhledu](#import)
 - [Nainstaluje aktualizaci](#apply)
@@ -119,7 +119,7 @@ Následující aktualizace bezpečnostních oprávnění pro entity jsou vyžado
 4. Na stránce **Verze tabulky mapy** použijte novou verzi mapy na každou ze tří entit.
 5. Na stránce **Duální zápis** vyberte příkaz Spustit a restartujte mapy.
 6. Ze seznamu map vyberte mapu **Registr (msdyn_ledgers)** se všemi předpoklady a zaškrtněte **Počáteční synchronizace**. 
-7. V poli **Předloha pro počáteční synchronizaci** vyberte **Aplikace Finance and Operations** a poté vyberte **Spustit**.
+7. V poli **Předloha pro počáteční synchronizaci** vyberte **Finanční a provozní aplikace** a poté vyberte **Spustit**.
  
  ![Synchronizace mapy registru.](media/DW6.png)
  

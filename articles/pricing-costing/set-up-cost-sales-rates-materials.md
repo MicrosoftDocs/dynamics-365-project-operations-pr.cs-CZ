@@ -2,16 +2,16 @@
 title: Nastavení nákladových a prodejních sazeb pro materiály
 description: Tento téma poskytuje informace o tom, jak nastavit nákladové a prodejní sazby u materiálů použitých v projektech.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999173"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576860"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Nastavení nákladových a prodejních sazeb pro materiály
 
@@ -25,6 +25,9 @@ Chcete-li nastavit náklady a prodejní ceny produktů, proveďte následující
 2. V části **Položky ceníku** vyberte v nabídce podmřížky možnost **Nová položka ceníku**. 
 3. Na stránce **Rychlé vytvoření** zadejte produkt a jednotku, pro kterou vytváříte novou cenu.
 
-Další informace o tom, jak definovat ceny pro položky katalogu, najdete v tématu [Nastavení cen produktů](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) a [Desetinná přesnost v měně a cenách](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
+Další informace o tom, jak definovat ceny pro položky katalogu, viz [Definujte cenu produktu pomocí ceníků a položek ceníku](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) a [Desetinná přesnost v měně a ceně](/dynamics365/sales/decimal-precision-currency-pricing).
+> [!NOTE]
+> Dynamics 365 Project Operations nepodporuje všechny metody stanovení cen pro produkty jako Dynamics 365 Sales. Jediný způsob stanovení ceny podporovaný pro produkty, které mají být použity v projektech, je *Částka měny*.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

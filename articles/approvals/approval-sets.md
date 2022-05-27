@@ -2,18 +2,16 @@
 title: Sady schválení
 description: Tento téma vysvětluje, jak pracovat se schvalovacími sadami, požadavky a podmnožinami těchto operací.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323228"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576216"
 ---
 # <a name="approval-sets"></a>Sady schválení
 
@@ -27,6 +25,18 @@ Sady schválení označují celkový stav zpracování souvisejících záznamů
 Schválení, která jsou zařazena do fronty ke zpracování, jsou viditelná v pohledu **Zpracování schválení**. Systém zpracovává všechny položky vícekrát asynchronně, včetně opakování schválení, pokud předchozí pokusy selhaly.
 
 Pole **Životnost sady schválení** zaznamenává počet pokusů zbývajících ke zpracování sady, než bude označena jako neúspěšná.
+
+Sady schválení jsou zpracovávány prostřednictvím periodické aktivace na základě **cloudového toku** s názvem **Project Service - Souběžně naplánovat sady schválení projektu**. Ten se nachází v **řešení** s názvem **Project Operations**. 
+
+Ujistěte se, že je tok aktivován, provedením následujících kroků.
+
+1. Jako správce se přihlaste na webu [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. V pravém horním rohu se přepněte do prostředí, které používáte pro Dynamics 365 Project Operations.
+3. Výběrem položky **Řešení** vypište seznam řešení, která jsou nainstalována v prostředí.
+4. V seznamu řešení vyberte položku **Project Operations**.
+5. Změňte filtr z **Vše** na **Cloudové toky**.
+6. Zkontrolujte, že je tok **Project Service - Souběžně naplánovat sady schválení projektu** nastaven na **Zapnuto**. Pokud tomu tak není, vyberte tok a poté vyberte **Zapnout**.
+7. Zkontrolujte, zda ke zpracování dochází každých pět minut, a to kontrolou seznamu **Systémové úlohy** v oblasti **Nastavení** vašeho prostředí Project Operations v Dataverse.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Neúspěšná schválení a sady schválení
 Zobrazení **Neúspěšná schválení** obsahuje všechna schválení, která vyžadují zásah uživatele. Otevřete související protokoly sady schválení a zjistěte příčinu selhání.

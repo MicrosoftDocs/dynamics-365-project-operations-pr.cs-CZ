@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c4869f3ab06ec80d620ec51bb4f0429412cd4d00
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 0fc3f524b7b240170822f0b246559e15985f4b0f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943015"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579804"
 ---
 # <a name="whats-new-december-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového v prosinci 2021 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
@@ -20,7 +20,7 @@ ms.locfileid: "7943015"
 
 Toto téma se vztahuje na následující součásti a verze aplikace Microsoft Dynamics 365 Project Operations:
 
-- Project Operations v prostředí Dataverse verze 4.27.0.195, 4.27.0.242
+- Project Operations v prostředí Dataverse verze 4.27.0.195, 4.27.0.242, 4.27.0.244
 - Řízení projektů a účetnictví v Dynamics 365 Finance, verze prostředí 10.0.23
 
 ## <a name="features-included-in-this-release"></a>Funkce v této vydané verzi
@@ -48,7 +48,7 @@ Pokud při spuštění mapy narazíte na problém, postupujte podle pokynů v č
 | Čas a výdaje | 2468188 | Opraven problém s textem protokolu překračujícím maximální délku v atributu **notetext** entity **Annotation**. |
 | Fakturace a ceny | 2488698 | Aktualizovaná chybová zpráva, která se objeví, když v nastavení prostředí chybí záznamy entity Ledger, které jsou vyplněny z Finance. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Přehled řízení projektů a účetnictví v Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Řízení projektů a účetnictví v Dynamics 365 Finance
 
 | **Oblast funkcí** | **Referenční číslo** | **Aktualizace pro zvýšení kvality** |
 | --- | --- | --- |

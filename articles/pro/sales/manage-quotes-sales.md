@@ -4,14 +4,14 @@ description: Toto téma poskytuje informace o projektových nabídkách.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001513"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579574"
 ---
 # <a name="manage-project-quotes"></a>Správa projektových nabídek
 
@@ -31,6 +31,9 @@ Seznam nabídek projektu se nachází na stránce se seznamem **Nabídky**.
 2. Pomocí **přepínače zobrazení** vyberte další filtrovaná zobrazení nabídek. Pomocí vlastních kritérií filtru můžete nakonfigurovat vlastní zobrazení a možnosti navigace.
 
 Nabídky lze vytvářet nebo mazat z této stránky seznamu nebo stránek podrobností.
+
+ > [!NOTE]
+ > Nemůžete odstranit nabídky, ke kterým jsou přidruženy projekty, úkoly, odhady, deníky a/nebo skutečné hodnoty. Také platí, že když je nabídka uzavřena jako Vyhraná nebo Prohraná, již ji nelze odstranit ani upravit. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

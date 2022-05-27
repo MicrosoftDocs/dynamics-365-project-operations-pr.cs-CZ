@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984863"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579850"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového v prosinci 2020 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
@@ -21,7 +21,7 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
 
 - Project Operations v prostředí Dataverse verze 4.5.0.134
-- Řízení projektů a účetnictví v prostředí Dynamics 365 Finance verze 10.0.15
+- Řízení projektů a účetnictví v Dynamics 365 Finance, verze prostředí 10.0.15
 
 Informace o aktualizaci na toto vydání najdete v části [Aktualizace Project Operations v prostředí Finance](ur5-nonstocked-installation.md).
 
@@ -61,12 +61,12 @@ V této vydané verzi jsou zahrnuty následující funkce:
 | Plánování a sledování projektu | 2057197          | Kopie řádku odhadu s odkazem na úlohu není podporována                                                                                                     |
 | Plánování a sledování projektu | 2060687          | Varování časového pásma nyní po určité době zmizí                                                                                                      |
 | Řízení zdrojů           | 1832887          | ID výchozí kategorie prostředků musí být statické, aby bylo zajištěno opakovatelné načítání dat pro Dataverse a prostředí Finance                                                 |
-| Čas a výdaje              | 2081793          | **Název kategorie výdajů** musí být mapován na pole **Popis kategorie výdajů** v aplikaci Finance and Operations                                                  |
+| Čas a výdaje              | 2081793          | **Název kategorie výdajů** musí být namapován na pole **Popis kategorie výdajů** ve finančních a provozních aplikacích                                                  |
 | Čas a výdaje              | 2034882          | Tlačítko **Nový** se zobrazí dvakrát na panelu příkazů pro zadání času, když je nainstalován Dynamics 365 Field Service                                          |
 | Čas a výdaje              | 2056028          | Aktualizace stránky **Úpravy času**, aby obsahovala časovou osu                                                                                                              |
 | Čas a výdaje              | 1983747          | Tabulka zadávání času ukazuje další data                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Přehled řízení projektů a účetnictví v Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Řízení projektů a účetnictví v Dynamics 365 Finance
 
 | Oblast funkcí                        | Referenční číslo | Aktualizace pro zvýšení kvality                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ V této vydané verzi jsou zahrnuty následující funkce:
 | Cestování a výdaje                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Pracovní postup automatického zaúčtování sestavy výdajů je dokončen, ale faktura není zaúčtována                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Povinné aktualizace
-Informace o povinných aktualizacích pro aplikace Finance and Operations viz [Povinné aktualizace](/dynamics365/finance/localizations/regulatory-updates). Můžete se také přihlásit do LCS a zobrazit plánované povinné aktualizace pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
+Informace o regulačních aktualizacích pro finanční a provozní aplikace naleznete v části [Regulační aktualizace](/dynamics365/finance/localizations/regulatory-updates). Můžete se také přihlásit do LCS a zobrazit plánované povinné aktualizace pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
