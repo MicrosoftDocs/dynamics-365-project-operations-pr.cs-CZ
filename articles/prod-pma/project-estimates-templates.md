@@ -1,32 +1,31 @@
 ---
-title: Synchronizace projektových odhadů přímo z Project Service Automation do Finance and Operations
-description: Toto téma popisuje šablony a základní úkoly, které se používají k synchronizaci odhadů projektových hodin a odhadů projektových výdajů přímo z Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
+title: Synchronizace odhadů projektu přímo z Project Service Automation do Finance and Operations
+description: Toto téma popisuje šablony a základní úkoly, které se používají k synchronizaci odhadovaných hodin na projektu a náklady na projekt přímo z aplikace Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988193"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684588"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizace projektových odhadů přímo z Project Service Automation do Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizace odhadů projektu přímo z Project Service Automation do Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Toto téma popisuje šablony a základní úkoly, které se používají k synchronizaci odhadů projektových hodin a odhadů projektových výdajů přímo z Dynamics 365 Project Service Automation do Dynamics 365 Finance.
+Toto téma popisuje šablony a základní úkoly, které se používají k synchronizaci odhadovaných hodin na projektu a náklady na projekt přímo z aplikace Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integrace projektových úkolů, kategorie transakcí výdajů, odhady hodin, odhady výdajů a zamykání funkcí je k dispozici ve verzi 8.0.
@@ -70,7 +69,7 @@ Než může dojít k synchronizaci odhadů projektových hodin, musíte synchron
 
 ### <a name="power-query"></a>Power Query
 
-V šabloně odhadů projektových hodin musíte použít Microsoft Power Query pro Excel k dokončení těchto úkolů:
+V šabloně odhadu hodin projektu je nutné použít Microsoft Power Query pro Excel za účelem dokončení těchto úkolů:
 
 - Nastavte ID výchozího modelu předpovědi, který se použije, když integrace vytvoří nové předpovědi hodin.
 - Odfiltrujte všechny záznamy specifické pro daný zdroj v úkolu, které selžou při integraci do předpovědí hodin.
@@ -81,7 +80,7 @@ V šabloně odhadů projektových hodin musíte použít Microsoft Power Query p
 Chcete-li aktualizovat ID výchozího modelu předpovědi v šabloně, otevřete kliknutím na ikonu **Mapovat** mapování. Poté vyberte odkaz **Pokročilý dotaz a filtrování**.
 
 - Pokud používáte výchozí šablonu odhadů projektových hodin (PSA do Fin a Ops), vyberte hodnotu **Vložená podmínka** v seznamu **Aplikované kroky**. V poli **Funkce** nahraďte **O\_předpověď** za název ID modelu předpovědi, který by měl být použit s integrací. Výchozí šablona obsahuje ID modelu předpovědi z ukázkových dat.
-- Pokud vytváříte novou šablonu, musíte přidat tento sloupec. V Power Query vyberte **Přidat podmíněný sloupec** a zadejte název nového sloupce, například **Model_ID**. Zadejte podmínku pro sloupec, kde pokud projektová úloha není null, pak \<enter the forecast model ID\>; jinak null.
+- Pokud vytváříte novou šablonu, musíte přidat tento sloupec. V Power Query zvolte **Přidat podmíněný sloupec** a zadejte název nového sloupce, jako například **ModelID**. Zadejte podmínku pro sloupec, kde pokud projektová úloha není null, pak \<enter the forecast model ID\>; jinak null.
 
 #### <a name="filter-out-resource-specific-records"></a>Odfiltrování záznamů specifických pro určitý zdroj
 
@@ -126,7 +125,7 @@ Než může dojít k synchronizaci odhadů projektových výdajů, musíte synch
 
 ### <a name="power-query"></a>Power Query
 
-V šabloně odhadů projektových výdajů musíte použít Microsoft Power Query pro Excel k dokončení následujících úkolů:
+V šabloně odhadů výdajů projektu je nutné použít Power Query pro dokončení následujících úkolů:
 
 - Filtr, který zahrne pouze záznamy řádků odhadu výdajů.
 - Nastavte ID výchozího modelu předpovědi, který se použije, když integrace vytvoří nové předpovědi hodin.
@@ -141,8 +140,8 @@ V šabloně odhadů projektových výdajů musíte použít Microsoft Power Quer
 
 Chcete-li aktualizovat ID výchozího modelu předpovědi v šabloně, vyberte úlohu **Odhady výdajů** a poté otevřete kliknutím na ikonu **Mapovat** mapování. Vyberte odkaz **Pokročilý dotaz a filtrování**.
 
-- Pokud používáte výchozí šablonu odhadů projektových výdajů (PSA do Fin a Ops), vyberte v Power Query nejprve hodnotu **Vložená podmínka** v seznamu **Aplikované kroky**. V poli **Funkce** nahraďte **O\_předpověď** za název ID modelu předpovědi, který by měl být použit s integrací. Výchozí šablona obsahuje ID modelu předpovědi z ukázkových dat.
-- Pokud vytváříte novou šablonu, musíte přidat tento sloupec. V Power Query vyberte **Přidat podmíněný sloupec** a zadejte název nového sloupce, například **Model_ID**. Zadejte podmínku pro sloupec, kde pokud ID řádku odhadu není null, pak \<enter the forecast model ID\>; jinak null.
+- Pokud použijete výchozí šablonu odhadů projektových výdajů (PSA do Fin and Ops), vyberte v Power Query první **Vloženou podmínku** v sekci **Použité kroky**. V poli **Funkce** nahraďte **O\_předpověď** za název ID modelu předpovědi, který by měl být použit s integrací. Výchozí šablona obsahuje ID modelu předpovědi z ukázkových dat.
+- Pokud vytváříte novou šablonu, musíte přidat tento sloupec. V Power Query zvolte **Přidat podmíněný sloupec** a zadejte název nového sloupce, jako například **ModelID**. Zadejte podmínku pro sloupec, kde pokud ID řádku odhadu není null, pak \<enter the forecast model ID\>; jinak null.
 
 #### <a name="transform-the-billing-types"></a>Transformace typů fakturace
 

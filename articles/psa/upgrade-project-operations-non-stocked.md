@@ -3,7 +3,7 @@ title: Upgrade z Project Service Automation na Project Operations
 description: Toto téma obsahuje přehled funkce procesu upgradu z Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/05/2022
+ms.date: 01/13/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9363fd5a06b6b1ba023961b03228e13a53a82002
-ms.sourcegitcommit: 5789766efae1e0cb513ea533e4f9ac1e553158a5
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
+ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952834"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626709"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Upgrade z Project Service Automation na Project Operations
 
@@ -28,7 +29,7 @@ S potěšením oznamujeme první ze tří fází upgradu z Microsoft Dynamics 36
 
 Program doručení upgradu bude rozdělen do tří fází.
 
-| Doručení upgradu | Fáze 1 (leden 2022) | Fáze 2 (vlna duben 2022) | Fáze 3 (vlna duben 2022) |
+| Doručení upgradu | Fáze 1 (leden 2022) | Fáze 2 (vlna duben 2022) | Fáze 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Žádná závislost na strukturovaném rozpisu prací (WBS) u projektů | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Strukturovaný rozpis prací v rámci aktuálně podporovaných limitů Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
@@ -38,11 +39,11 @@ Program doručení upgradu bude rozdělen do tří fází.
 
 V rámci procesu upgradu jsme do mapy webu přidali protokoly upgradu, aby administrátoři mohli snadněji diagnostikovat selhání. Kromě nového rozhraní budou přidána nová ověřovací pravidla, která zajistí integritu dat po upgradu. Do procesu upgradu budou přidána následující ověření.
 
-| Ověření | Fáze 1 (leden 2022) | Fáze 2 (vlna duben 2022) | Fáze 3 (vlna duben 2022) |
+| Ověření | Fáze 1 (leden 2022) | Fáze 2 (vlna duben 2022) | Fáze 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | Strukturovaný rozpis prací bude ověřen vůči běžným narušením integrity dat (například přiřazení zdrojů, které jsou spojeny se stejným nadřazeným úkolem, ale mají různé nadřazené projekty). | | :heavy_check_mark: | :heavy_check_mark: |
 | Strukturovaný rozpis prací bude ověřen vůči [známým limitům aplikace Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
-| Strukturovaný rozpis prací bude ověřen vůči známým limitům aplikace Project Desktop Client. | | :heavy_check_mark: | :heavy_check_mark: |
+| Strukturovaný rozpis prací bude ověřen vůči známým limitům aplikace Project Desktop Client. | |  | :heavy_check_mark: |
 | Rezervovatelné zdroje a projektové kalendáře budou vyhodnoceny vůči běžným výjimkám nekompatibilních pravidel kalendáře. | | :heavy_check_mark: | :heavy_check_mark: |
 
 Ve fázi 2 budou zákazníkům, kteří upgradují na Project Operations, upgradovány jejich stávající projekty na prostředí pouze ke čtení pro plánování projektů. V tomto prostředí určeném pouze ke čtení bude v mřížce sledování viditelný úplný strukturovaný rozpis prací. Pokud budou projektoví manažeři chtít upravit strukturovaný rozpis prací, mohou vybrat příkaz **Převést** na hlavní stránce **Projekty**. Proces na pozadí pak aktualizuje projekt tak, aby podporoval nové prostředí plánování projektu z aplikace Project for the Web. Tato fáze je vhodná pro zákazníky, kteří mají projekty, které vyhovují [známým limitům aplikace Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
@@ -56,7 +57,7 @@ Aby byl zákazník způsobilý pro upgrade fáze 1, musí splňovat následujíc
 - Cílové prostředí nesmí obsahovat žádné záznamy v entitě **msdyn_projecttask**.
 - Všem aktivním uživatelům zákazníka musejí být přiřazeny platné licence Project Operations. 
 - Zákazník musí ověřit proces upgradu alespoň v jednom neprodukčním prostředí obsahujícím reprezentativní datovou sadu, která je v souladu s produkčními daty.
-- Cílové prostředí musí být aktualizováno na verzi Project Service Automation Update Release 38 nebo novější.
+- Cílové prostředí musí být aktualizováno na verzi Project Service Automation Update Release 41 (3.10.62.162) nebo novější.
 
 Předpoklady pro fázi 2 a fázi 3 budou aktualizovány, jakmile se blíží obecná data dostupnosti.
 
@@ -72,14 +73,14 @@ Dávejte si pozor na několik věcí:
 
 - Import může selhat kvůli chybějícím závislostem. Jinými slovy, přizpůsobení se odkazují na pole nebo jiné součásti, které byly z Project Operations odstraněny. V takovém případě odeberte tyto závislosti z vývojového prostředí.
 - Pokud vaše nespravovaná a spravovaná řešení obsahují součásti, které nejsou přizpůsobené, odeberte tyto součásti z řešení. Například když přizpůsobíte entitu **Projekt**, přidejte do svého řešení pouze hlavičku entity. Nepřidávejte všechna pole. Pokud jste předtím přidali všechny dílčí součásti, možná budete muset ručně vytvořit nové řešení a přidat do něj relevantní součásti.
-- Formuláře a zobrazení se nemusí jevit jako neočekávané. Za určitých okolností, pokud jste přizpůsobili některý z předem připravených formulářů nebo zobrazení, mohou přizpůsobení zabránit novým aktualizacím v Project Operations. Chcete-li tyto problémy identifikovat, doporučujeme provést souběžnou kontrolu čisté instalace Project Operations a instalace Project Operations, která zahrnuje vaše přizpůsobení. Porovnejte nejčastěji používané formuláře ve vaší firmě, abyste se ujistili, že vaše verze formuláře stále dává smysl a nechybí jí něco z čisté verze formuláře. Proveďte stejný typ souběžné kontroly u všech zobrazení, která jste si přizpůsobili.
+- Formuláře a zobrazení se nemusí jevit jako očekávané. Za určitých okolností, pokud jste přizpůsobili některý z předem připravených formulářů nebo zobrazení, mohou přizpůsobení zabránit novým aktualizacím v Project Operations. Chcete-li tyto problémy identifikovat, doporučujeme provést souběžnou kontrolu čisté instalace Project Operations a instalace Project Operations, která zahrnuje vaše přizpůsobení. Porovnejte nejčastěji používané formuláře ve vaší firmě, abyste se ujistili, že vaše verze formuláře stále dává smysl a nechybí jí něco z čisté verze formuláře. Proveďte stejný typ souběžné kontroly u všech zobrazení, která jste si přizpůsobili.
 - Obchodní logika může za běhu selhat. Protože odkazy na pole ve vašich modulech plug-in nejsou v době importu ověřeny, obchodní logika může selhat kvůli odkazům na pole, která již neexistují, a můžete obdržet chybovou zprávu, vypadající jako následující příklad: "Entita 'Project' neobsahuje atribut s Name = 'msdyn_plannedhours' a NameMapping = 'Logical'." V takovém případě upravte svá přizpůsobení tak, aby používala nová pole. Pokud v logice modulu plug-in používáte automaticky generované třídy proxy a odkazy na silné typy, zvažte opětovné vytvoření těchto proxy z čisté instalace. Tímto způsobem můžete snadno identifikovat všechna místa, kde vaše moduly plug-in závisejí na zastaralých polích.
 
 Po aktualizaci vašich přizpůsobení tak, aby čistě importovaly údaje z Project Operations, přejděte k dalším krokům.
 
-## <a name="end-to-end-testing-in-lower-environments"></a>Komplexní testování v nižších prostředích
+## <a name="end-to-end-testing-in-development-environments"></a>Komplexní testování ve vývojových prostředích
 
-### <a name="run-the-upgrade-in-production"></a>Spuštění upgradu v produkci
+### <a name="initiate-upgrade"></a>Spusťte upgrade 
 
 1. V centru pro správu Power Platform vyhledejte a vyberte prostředí. Poté v aplikacích vyhledejte a vyberte **Dynamics 365 Project Operations**.
 2. Výběrem možnosti **Instalovat** spusťte upgrade. Centrum pro správu Power Platform označí tuto instalaci jako novou. Bude však zjištěna přítomnost dřívější verze Project Service Automation a stávající instalace bude upgradována.
@@ -93,6 +94,10 @@ Po aktualizaci vašich přizpůsobení tak, aby čistě importovaly údaje z Pro
 4. Přejděte do nabídky **Nastavení** \> **Řešení** a vyberte možnost odinstalovat řešení **Zastaralé součásti Project Operations**.
 
     Toto řešení je dočasné řešení, které uchovává stávající datový model a součásti, které jsou přítomny během upgradu. Odebráním tohoto řešení odeberete všechna pole a součásti, které se již nepoužívají. Tímto způsobem zjednodušíte rozhraní a usnadníte integraci a rozšíření.
+    
+### <a name="validate-common-scenarios"></a>Ověřte běžné scénáře
+
+Když ověřujete svá konkrétní přizpůsobení, doporučujeme vám také zkontrolovat obchodní procesy, které jsou podporovány napříč aplikacemi. Tyto obchodní procesy zahrnují, ale nejsou omezeny na vytváření prodejních subjektů, jako jsou nabídky a smlouvy, a vytváření projektů, které zahrnují WBS a schvalování skutečností.
 
 ## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Hlavní změny mezi Project Service Automation a Project Operations
 
@@ -119,7 +124,7 @@ V rámci pokračujících investic do Project Operations je k dispozici několik
 | Source                                                 | Cíl                                                    | Status                  |
 |--------------------------------------------------------|-----------------------------------------------------------|-------------------------|
 | Project Service Automation                             | Nasazení Project Operations Lite                        | Podporováno               |
-| Dynamics 365 Finance pro řízení projektů a účetnictví | Nasazení Project Operations Lite                        | V současnosti není podporováno |
+| Řízení projektů a účetnictví v Dynamics 365 Finance | Nasazení Project Operations Lite                        | V současnosti není podporováno |
 | Finance pro řízení projektů a účetnictví              | Project Operations pro scénáře se zdroji bez skladových materiálů     | V současnosti není podporováno |
 | Finance pro řízení projektů a účetnictví              | Project Operations pro scénáře se skladovým materiálem a výrobními příkazy | V současnosti není podporováno |
 | Project Service Automation 3.x                         | Project Operations pro scénáře se zdroji bez skladových materiálů     | V současnosti není podporováno |

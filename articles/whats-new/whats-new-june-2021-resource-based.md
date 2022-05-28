@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679201"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600780"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového - červen 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
@@ -21,7 +21,7 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
 
 - Project Operations v prostředí Dynamics 365 Dataverse verze 4.11.0.156 nebo 4.11.0.164.
-- Projektové řízení a účetnictví v prostředích aplikací Finance and Operations verze 10.0.19.
+- Řízení projektů a účetnictví v prostředí finančních a provozních aplikací verze 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Funkce v této vydané verzi
 
@@ -38,7 +38,7 @@ V této verzi nejsou k dispozici žádné aktualizace map duálního zápisu Pro
 
 Aktuální seznam a verze map duálního zápisu Project Operations najdete v části [Verze map duálního zápisu Project Operations](../environment/resource-dual-write-maps.md).
 
-Vždy musíte spustit nejnovější verzi mapy ve svém prostředí a povolit všechny související mapy tabulky při aktualizaci verze řešení Project Operations Dataverse a řešení aplikací Finance and Operations. Pokud není aktivována nejnovější verze mapy, některé funkce a možnosti nemusí fungovat správně. Aktivní verzi mapy můžete vidět na stránce **Duální zápis** ve sloupci **Verze**. Aktivujte novou verzi mapy výběrem **Verze mapy tabulky** a výberte nejnovější verzi a uložte vybranou verzi. Pokud jste přizpůsobili připravenou mapu tabulky, změny znovu použijte. Další informace: [Správa životního cyklu aplikace](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Vždy spusťte nejnovější verzi mapy ve vašem prostředí a povolte všechny související mapové tabulky při aktualizaci verze řešení Project Operations Dataverse a finančních a provozních aplikacích. Pokud není aktivována nejnovější verze mapy, některé funkce a možnosti nemusí fungovat správně. Aktivní verzi mapy můžete vidět na stránce **Duální zápis** ve sloupci **Verze**. Aktivujte novou verzi mapy výběrem **Verze mapy tabulky** a výberte nejnovější verzi a uložte vybranou verzi. Pokud jste přizpůsobili připravenou mapu tabulky, změny znovu použijte. Další informace: [Správa životního cyklu aplikace](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Pokud narazíte na problém se spuštěním mapy, postupujte podle pokynů v [Problém chybějících sloupců tabulky na mapách](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) v příručce pro řešení potíží s duálním zápisem.
 
@@ -62,7 +62,7 @@ Pokud narazíte na problém se spuštěním mapy, postupujte podle pokynů v [Pr
 | Čas a výdaje | 2194431 | Mřížka **ČAsový záznam** musí ctít začátek týdne, jak je stanoveno v **Nastavení systému**. |
 | Čas a výdaje | 2277311 | Po odstranění hodnoty v buňce v mřížce **Časový záznam** kurzor zůstane v mřížce. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Přehled řízení projektů a účetnictví v Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Řízení projektů a účetnictví v Dynamics 365 Finance
 
 | Oblast funkcí | Referenční číslo | Aktualizace pro zvýšení kvality |
 | --- | --- | --- |

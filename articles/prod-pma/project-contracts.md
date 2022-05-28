@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8cfc5183ce28574d865389eba72cafd3528741cc
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001018"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683484"
 ---
 # <a name="project-contracts"></a>Projektové smlouvy
 
@@ -45,7 +44,7 @@ Některé projektové smlouvy stanoví, že odpovědnost za financování nákla
 -   Silniční projekt je spolufinancován dvěma obcemi.
 -   Projekt stavby mostu je financován z vládního grantu a soukromou společností.
 
-V Dynamics 365 Finance můžete rozdělit fakturaci za jednu transakci nebo celý projekt mezi více zákazníků, grantů nebo organizací. 
+V aplikaci Dynamics 365 Finance můžete rozdělit účtování pro jednu transakci nebo celý projekt mezi více odběratelů, grantů nebo organizací. 
 
 V projektech, které mají více poskytovatelů financování, se všechny strany, které přispívají na financování projektu s rozšířeným financováním, nazývají zdroje financování. Poté, co je zákazník, organizace nebo grant definován jako zdroj financování, jej lze přiřadit k jednomu nebo více pravidlům financování. Pravidla financování obsahují kritéria, která určují, jak jsou alokovány poplatky k různým zdrojům financování projektu. 
 
@@ -98,7 +97,7 @@ Následující tabulka poskytuje scénáře pro správu alokace financování me
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>0</li>
+<li>1</li>
 <li>2</li>
 <li>3</li>
 </ul></td>
@@ -116,8 +115,8 @@ Následující tabulka poskytuje scénáře pro správu alokace financování me
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>0</li>
-<li>0</li>
+<li>1</li>
+<li>1</li>
 <li>2</li>
 </ul></td>
 </tr>
@@ -136,8 +135,8 @@ Následující tabulka poskytuje scénáře pro správu alokace financování me
 <li>50 %</li>
 </ul></td>
 <td><ul>
-<li>0</li>
-<li>0</li>
+<li>1</li>
+<li>1</li>
 <li>2</li>
 <li>2</li>
 </ul></td>
@@ -153,7 +152,7 @@ Následující tabulka poskytuje scénáře pro správu alokace financování me
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>0</li>
+<li>1</li>
 <li>2</li>
 </ul></td>
 </tr>

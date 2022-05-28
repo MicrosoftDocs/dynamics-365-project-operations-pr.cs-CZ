@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008038"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600872"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového, červenec 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
@@ -21,7 +21,7 @@ ms.locfileid: "7008038"
 Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
 
    - Project Operations v prostředí Microsoft Dataverse verze 4.12.0.148 nebo 4.12.0.152.
-   - Řízení projektů a účetnictví v prostředí Dynamics 365 Finance verze 10.0.20.
+   - Řízení projektů a účetnictví v Dynamics 365 Finance, verze prostředí 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Funkce v této vydané verzi
 
@@ -80,7 +80,7 @@ Pokud narazíte na problém se spuštěním mapy, postupujte podle pokynů v [Pr
 | Obecná                       | 2253682              | Řešení duálního zápisu Project Operations by se nemělo instalovat, když je jádro duálního zápisu nainstalováno v prostředí bez řešení orchestrace duálního zápisu.                                                |
 | Obecná                       | 2316420              | Zřízení jádra projektové služby selže, pokud se změní obchodní jednotka uživatele aplikace.                                                                                                                     |
 | Obecná                       | 2376405              | Opravený problém s aktualizací řízenou vydavatelem (aktualizace kvality je k dispozici ve verzi 4.12.0.152)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Přehled řízení projektů a účetnictví v Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Řízení projektů a účetnictví v Dynamics 365 Finance
 
 | Oblast funkcí                      | Referenční číslo | Aktualizace pro zvýšení kvality                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

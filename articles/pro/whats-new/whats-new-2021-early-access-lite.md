@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323903"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723668"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Co je nového v druhé vlně brzkého přístupu pro rok 2021 - omezené nasazení Project Operations
 
@@ -26,7 +26,7 @@ Vydání lze použít pouze v případě, že je prostředí [přihláseno k br
 
 ## <a name="features-included-in-this-release"></a>Funkce v této vydané verzi
 
-[Řízení subdodávek](../subcontracting/subcontracting_EA_scope.md) - Tato funkce poskytuje lepší viditelnost a kontrolu nad všemi aspekty práce na projektu. Náhled řízení subdodávek obsahuje následující možnosti:
+[Řízení subdodávek](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - Tato funkce poskytuje lepší viditelnost a kontrolu nad všemi aspekty práce na projektu. Náhled řízení subdodávek obsahuje následující možnosti:
 
   - Projektový manažer vytvoří subdodávku s dodavatelem. Pro subdodávku se standardně používají ceníky, které jsou připojeny k záznamu dodavatele. Účet dodavatele má typ vztahu **Prodejce** nebo **Dodavatel**.
   - Projektový manažer může všechny nákupy rozdělit do řádkových položek subdodávky. Řádky subdodávky mohou být na čas, výdaje nebo produkty. Třída transakce každého řádku subdodávky určuje, k čemu daný řádek slouží.

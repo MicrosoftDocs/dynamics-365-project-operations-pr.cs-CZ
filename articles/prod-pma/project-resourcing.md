@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007318"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684864"
 ---
 # <a name="project-resourcing-home-page"></a>Domovská stránka zajišťování zdrojů pro projekty
 
@@ -29,7 +28,7 @@ ms.locfileid: "7007318"
 
 Toto téma obsahuje informace o zajišťování zdrojů pro projekt.
 
-Náročným úkolem ve fázi plánování projektu pro projektové manažery a manažery zdrojů je alokace zdrojů, kdy musí určit a rezervovat správný zdroj pro práci na projektu. V Dynamics 365 Finance vám funkce zajišťování zdrojů pro projekty umožňuje definovat role, které jsou považovány za dočasné zdroje a které mohou být rezervovány pro konkrétní zakázku nebo část zakázky. Tento typ financování umožní projektovým manažerům a manažerům zdrojů dokončit následující úkoly:
+Náročným úkolem ve fázi plánování projektu pro projektové manažery a manažery zdrojů je alokace zdrojů, kdy musí určit a rezervovat správný zdroj pro práci na projektu. V aplikaci Dynamics 365 Finance umožňuje přidělení prostředků pro projekty definovat role, které jsou považovány za dočasné zdroje, které mohou být vyhrazeny pro konkrétní pracovní balíček nebo součásti zapojení. Tento typ financování umožní projektovým manažerům a manažerům zdrojů dokončit následující úkoly:
 
 - Definovat roli, která má požadované kompetence, aby bylo snadné dát dohromady potřebné zdroje.
 - Pomocí rolí můžete definovat počáteční plán zakázky, který je založen na rezervovaných zdrojích.

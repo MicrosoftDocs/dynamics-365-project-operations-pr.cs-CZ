@@ -1,32 +1,31 @@
 ---
-title: Synchronizace skutečných hodnot projektu přímo z Project Service Automation do deníku integrace projektu k zaúčtování ve Finance and Operations
-description: Toto téma popisuje šablony a základní úkoly, které se používají k synchronizaci skutečných hodnot projektu přímo z Microsoft Dynamics 365 Project Service Automation do Finance and Operations.
+title: Synchronizace skutečných hodnot projektu přímo z Project Service Automation do deníku integrace projektu pro zaúčtování ve Finance and Operations
+description: Toto téma popisuje šablony a základní úkoly, které se používají k synchronizaci skutečných hodnot projektů přímo z Microsoft Dynamics 365 Project Service Automation do Finance and Operations.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988103"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683530"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronizace skutečných hodnot projektu přímo z Project Service Automation do deníku integrace projektu k zaúčtování ve Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronizace skutečných hodnot projektu přímo z Project Service Automation do deníku integrace projektu pro zaúčtování ve Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Toto téma popisuje šablony a základní úkoly, které se používají k synchronizaci skutečných hodnot projektu přímo z Dynamics 365 Project Service Automation do Dynamics 365 Finance.
+Toto téma popisuje šablony a základní úkoly, které se používají k synchronizaci skutečných hodnot projektů přímo z Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 
 Šablona synchronizuje transakce z Project Service Automation do pracovní tabulky v modulu Finance. Po dokončení synchronizace **musíte** importovat data z pracovní tabulky do integračního deníku.
 
@@ -42,7 +41,7 @@ Toto téma popisuje šablony a základní úkoly, které se používají k synch
 
 Následující obrázek ukazuje, jak jsou data synchronizována mezi Project Service Automation a Finance.
 
-[![Datový tok pro integraci Project Service Automation s Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Tok dat pro integraci Project Service Automation s Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Skutečné hodnoty projektu z Project Service Automation
 
@@ -75,7 +74,7 @@ Než může dojít k synchronizaci skutečných hodnot, musíte nakonfigurovat p
 
 ### <a name="power-query"></a>Power Query
 
-V šabloně skutečných hodnot projektu musíte použít Microsoft Power Query pro Excel k dokončení těchto úkolů:
+V šabloně skutečných hodnot projektu je nutné použít Microsoft Power Query pro Excel za účelem dokončení těchto úkolů:
 
 - Transformujte typ transakce v Project Service Automation na správný typ transakce v Finance. Tato transformace je již definována v šabloně Skutečné hodnoty projektu (PSA do Fin and Ops).
 - Transformujte typ fakturace v Project Service Automation na správný typ fakturace v Finance. Tato transformace je již definována v šabloně Skutečné hodnoty projektu (PSA do Fin and Ops). Typ fakturace je poté namapován na vlastnost řádku na základě konfigurace na stránce **Parametry integrace Project Service Automation**.
@@ -84,9 +83,9 @@ V šabloně skutečných hodnot projektu musíte použít Microsoft Power Query 
 - Pokud se mezipodnikový čas nebo skutečné mezipodnikové výdaje nesynchronizují s Finance, musíte odstranit poslední vložený podmíněný sloupec ze své šablony. V opačném případě může dojít k chybě integrace nebo k importu nesprávných skutečných transakcí do Finance.
 
 #### <a name="contract-organizational-unit"></a>Smluvní organizační jednotka
-Chcete-li aktualizovat vložený podmíněný sloupec v šabloně, otevřete kliknutím na ikonu **Mapovat** mapování. Kliknutím na odkaz **Pokročilý dotaz a filtrování** otevřete Power Query.
+Chcete-li aktualizovat vložený podmíněný sloupec v šabloně, otevřete kliknutím na ikonu **Mapovat** mapování. Zvolte odkaz **Pokročilé dotazy a filtrování** a otevřete tak Power Query.
 
-- Pokud používáte výchozí šablonu skutečných hodnot projektu (PSA do Fin and Ops), vyberte v Power Query podlední hodnotu **Vložená podmínka** v seznamu **Aplikované kroky**. V poli **Funkce** nahraďte **USSI** názvem právnické osoby, která by měla být použita s integrací. Do záznamu **Funkce** přidejte podle potřeby další podmínky a aktualizujte podmínku **else** z **USMF** na správnou právnickou osobu.
+- Pokud použijete výchozí šablonu skutečných hodnot Microsoft Project (PSA do Fin and Ops), vyberte v Power Query **Vložená podmínka** z části **Použité kroky**. V poli **Funkce** nahraďte **USSI** názvem právnické osoby, která by měla být použita s integrací. Do záznamu **Funkce** přidejte podle potřeby další podmínky a aktualizujte podmínku **else** z **USMF** na správnou právnickou osobu.
 - Pokud vytváříte novou šablonu, musíte přidat sloupec, abyste podpořili mezipodnikový čas a výdaje. Vyberte **Přidat podmíněný sloupec** a zadejte název nového sloupce, například **LegalEntity**. Zadejte podmínku pro sloupec, kde pokud **název msdyn\_contractorganizationalunitid.msdyn\_** je \<organizational unit\>, pak \<enter the legal entity\> ; jinak null.
 
 ### <a name="template-mapping-in-data-integration"></a>Mapování šablon v integraci dat
@@ -126,7 +125,7 @@ Odhady skutečných hodnot projektu hodin jsou spravovány v aplikaci Project Se
 
 ### <a name="power-query"></a>Power Query
 
-V šabloně skutečných hodnot projektu musíte použít Power Query k dokončení těchto úkolů:
+V šabloně aktualizace skutečných hodnot projektu je nutné použít Microsoft Power Query za účelem dokončení těchto úkolů:
 
 - Transformujte typ transakce ve Finance na správný typ transakce v Project Service Automation. Tato transformace je již definována v aktualizaci šablony Skutečné hodnoty projektu (Fin Ops do PSA).
 - Transformujte typ fakturace v modulu Finance na správný typ fakturace v Project Service Automation. Tato transformace je již definována v aktualizaci šablony Skutečné hodnoty projektu (Fin Ops do PSA).

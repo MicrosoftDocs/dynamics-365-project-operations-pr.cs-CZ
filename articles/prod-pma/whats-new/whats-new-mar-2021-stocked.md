@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991163"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723714"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Co je nového nebo co se změnilo v Project Operations, březen 2021 – scénáře založené na skladovém materiálu / výrobě
 
@@ -20,7 +20,7 @@ _**Platí pro:** Project Operations pro scénáře založené na skladovém mate
 
 Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
 
-- Řízení projektů a účetnictví v prostředí Dynamics 365 Finance verze 10.0.17
+- Řízení projektů a účetnictví v Dynamics 365 Finance, verze prostředí 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Funkce v této vydané verzi
 V této vydané verzi jsou zahrnuty následující funkce:
@@ -121,7 +121,7 @@ V této vydané verzi jsou zahrnuty následující funkce:
 | Přehled řízení projektů a účetnictví | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Starší metoda třídy strukturovaného rozpisu prací (WBS) **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** je označena jako zastaralá.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Povinné aktualizace
-Informace o povinných aktualizacích pro aplikace Finance and Operations viz [Povinné aktualizace](/dynamics365/finance/localizations/regulatory-updates.md). Můžete se také přihlásit do LCS a zobrazit plánované povinné aktualizace pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
+Informace o regulačních aktualizacích pro finanční a provozní aplikace naleznete v části [Regulační aktualizace](/dynamics365/finance/localizations/regulatory-updates). Můžete se také přihlásit do LCS a zobrazit plánované povinné aktualizace pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

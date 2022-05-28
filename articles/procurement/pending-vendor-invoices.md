@@ -1,46 +1,42 @@
 ---
-title: Zakoupení neskladovaných materiálů pomocí nevyřízené faktury dodavatele
+title: Nákup neskladových materiálů nebo kategorií zásobování pomocí nevyřízené faktury dodavatele
 description: Tento téma vysvětluje, jak zaznamenat nevyřízené faktury dodavatele.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547281"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612649"
 ---
-# <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Zakoupení neskladovaných materiálů pomocí nevyřízené faktury dodavatele
+# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Nákup neskladových materiálů nebo kategorií zásobování pomocí nevyřízené faktury dodavatele
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-Když společnost pro projekt pořizuje neskladované materiály, lze náklady okamžitě zaznamenat oproti projektu. 
+Protože společnost pořizuje neskladové materiály nebo kategorie zásobování pro projekt, lze náklady okamžitě zaúčtovat proti projektu. 
 
-Společnost Contoso Robotics USA například provádí projekt obnovy vybavení a potřebuje softwarové licence. Tyto licence jsou zakoupeny od dodavatele třetí strany.  Pomocí Dynamics 365 Finance účetní odpovědný za účty zaznamená dokument nevyřízené faktury dodavatele a přiřadí náklady na licenci přímo proti projektu obnovy zařízení. 
+Společnost Contoso Robotics USA například provádí projekt obnovy vybavení a potřebuje softwarové licence. Tyto licence jsou zakoupeny od dodavatele třetí strany.  V aplikaci Dynamics 365 Finance zaznamená úředník závazků nevyřízený doklad faktury dodavatele a přiřadí náklady na licenci přímo k projektu obnovy zařízení. 
 
 > [!IMPORTANT]
-> Než použijete funkce popsané v tomto tématu, zkontrolujte a použijte požadované konfigurace. Další informace viz [Povolené neskladovaných materiálů a nevyřízených faktury dodavatele](configure-materials-nonstocked.md). 
+> Než použijete funkce popsané v tomto tématu, zkontrolujte a použijte požadované konfigurace. Více informací viz téma [Povolení neskladovaných materiálů a nevyřízených faktur dodavatele](configure-materials-nonstocked.md) a [Používání kategorií zásobování s projektovými nákupními objednávkami a nevyřízenými fakturami dodavatele](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Zaúčtování nevyřízené faktury dodavatele související s projektem 
 
 Nevyřízené faktury dodavatele lze zaznamenat na stránce **Nevyřízené faktury dodavatele** (**Závazky** > **Faktury** > **Nevyřízené faktury dodavatele**). Chcete-li zaúčtovat nevyřízenou fakturu dodavatele související s projektem, postupujte takto:
 
-1. Přejděte na **Závazky** > **Faktury** a vyberte **Nový**. 
-2. V poli **Účet faktury** vyberte dodavatele a v poli **Číslo** zadejte identifikaci faktury dodavatele.
-3. Přidejte řádek na fakturu dodavatele a do pole **Číslo položky** vyberte skladovou položku zakoupenou od dodavatele. 
-
-    > [!NOTE]
-    > Řádky faktury dodavatele založené na kategorii nákupu nelze proti projektu zaznamenat. 
-    
-5. Přidejte zakoupené množství. Systém naplní jednotkovou cenu na základě konfigurace ceny zboží, které není skladem. 
-6. Ověřte celkovou částku a další požadované podrobnosti na řádku.
-7. Na řádku podrobnosti na kartě **Projekt** vyberte ID projektu, do kterého bude tato položka zaznamenána.
-8. Volitelně vyberte číslo aktivity a aktualizujte kategorii projektu a vlastnost řádku.
-9. Zaúčtujte nevyřízenou fakturu dodavatele. Když je faktura zaúčtována, systém zaznamená:
+1. Přejděte na **Závazky** > **Faktury** a vyberte **Nová**. 
+1. V poli **Fakturační účet** vyberte dodavatele a poté v poli **Číslo** zadejte identifikaci faktury dodavatele.
+1. Přidejte řádek do faktury dodavatele a poté v poli **Číslo položky** vyberte neskladovanou položku, která byla zakoupena od dodavatele. Případně v poli **Kategorie zásobování** vyberte kategorii zásobování, která byla zakoupena od dodavatele.   
+1. Přidejte zakoupené množství. Systém vyplní jednotkovou cenu na základě konfigurace ceny neskladované položky. 
+1. Ověřte celkovou částku a další požadované podrobnosti na řádku.
+1. V detailech řádku na kartě **Projekt** vyberte ID projektu, do kterého bude tato položka zaznamenána.
+1. Volitelné: Vyberte číslo aktivity a aktualizujte kategorii projektu a vlastnost čáry.
+1. Zaúčtujte nevyřízenou fakturu dodavatele. Při zaúčtování faktury systém zaznamená následující informace:
     
     - Částka zůstatku dodavatele.
     - Částka DPH.

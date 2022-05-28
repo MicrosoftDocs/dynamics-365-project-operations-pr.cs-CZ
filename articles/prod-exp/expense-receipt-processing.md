@@ -1,24 +1,23 @@
 ---
 title: Zpracování příjemek výdajů
-description: Toto téma poskytuje informace o zpracování optického rozpoznávání znaků (OCR) pro účtenky. Tato funkce je navržena tak, aby zlepšila uživatelské prostředí při vytváření výkazů výdajů v Microsoft Dynamics 365 Finance.
+description: Toto téma poskytuje informace o zpracování optického rozpoznávání znaků (OCR) pro účtenky. Tato funkce je navržena pro zlepšení uživatelského prostředí při vytváření sestav výdajů v aplikaci Microsoft Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001378"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684312"
 ---
 # <a name="expense-receipt-processing"></a>Zpracování příjemek výdajů
 
@@ -51,7 +50,7 @@ Chcete-li vytvořit výdaj nebo spárovat výdaj z účtenky, proveďte následu
 
 Tato funkce funguje v kombinaci s funkcí **Sestavy výdajů v novém**, která pomůže zjednodušit výdaje. Tato funkce je k dispozici pouze pro prostředí úrovně alespoň 2, která jsou Sandbox a provozní.
 
-Chcete-li použít tyto pokročilé možnosti výdajů, nainstalujte si doplněk Služba správy výdajů pro Microsoft Dynamics 365 Finance a zapněte funkce ve vaší instanci. K doplňku můžete přistupovat ze svého projektu v Microsoft Dynamics Lifecycle Services (LCS).
+Chcete-li používat tyto pokročilé možnosti výdajů, nainstalujte doplněk služby správy výdajů pro Microsoft Microsoft Dynamics 365 Finance a zapněte funkce ve vaší instanci. K doplňku můžete přistupovat ze svého projektu v Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Přihlaste se do LCS a otevřete požadované prostředí.
 2. Přejděte na **Úplné podrobnosti**.

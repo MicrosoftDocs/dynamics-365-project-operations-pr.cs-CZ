@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005743"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8682745"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementace vlastních polí pro mobilní aplikaci Microsoft Dynamics 365 Project Timesheet na systémech iOS a Android
 
@@ -52,7 +51,7 @@ Vlastnost **FieldBaseType** v objektu **TsTimesheetCustom** určuje typ pole, kt
 | Hodnota Typy | Typ              | Poznámky |
 |-------------|-------------------|-------|
 | 0           | Řetězec (a výčet) | Pole se zobrazí jako textové pole. |
-| 0           | Integer           | Hodnota je zobrazena jako číslo bez desetinných míst. |
+| 1           | Integer           | Hodnota je zobrazena jako číslo bez desetinných míst. |
 | 2           | Reálné              | Hodnota je zobrazena jako číslo s desetinnými místy.<p>Chcete-li zobrazit skutečnou hodnotu jako měnu v aplikaci, použijte vlastnost **fieldExtenededType**. Můžete použít vlastnost **numberOfDecimals** pro nastavení počtu zobrazených desetinných míst.</p> |
 | 3           | Datum              | Formáty data jsou určeny nastavením **Formát data, času a čísla** uživatele, které je uvedeno pod **Předvolby jazyka a země / regionu** v poli **Možnosti uživatele**. |
 | 4           | Boolean           | |

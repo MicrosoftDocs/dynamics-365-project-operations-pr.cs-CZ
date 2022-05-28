@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005293"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727950"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Použití doplňku Project Service Automation za účelem plánování práce v aplikaci Microsoft Project
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005293"
 ## <a name="download-and-install-the-add-in"></a>Stažení a instalace doplňku  
  Připravte si přihlašovací informace pro [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Tyto informace budete potřebovat pro připojení z aplikace [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] k [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  Z webu Download Center si můžete stáhnout doplněk pro podporovanou verzi Project Service, a to buď [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) nebo [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  Z webu Download Center si můžete stáhnout doplněk pro podporovanou verzi Project Service, a to buď [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) nebo [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Klikněte na odkaz ke stažení.  
 
@@ -87,9 +88,8 @@ Po dokončení plánování projektu je dalším krokem import a publikování p
 
 Projekt se importuje do [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Použijí se procesy tvorby cen a generování týmu. Otevřením projektu v [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ověřte, že byl vygenerován tým, odhad projektu a strukturovaný rozpis prací. Následující tabulka uvádí, kde lze nalézt výsledky:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Details (Podrobnosti) |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Ganttův diagram**   | Importuje na obrazovku [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Strukturovaný rozpis prací**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Tabulka zdrojů** |   Importuje na obrazovku [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Členové týmu projektu**.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Pomocí využití**    |    Importuje na obrazovku [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Odhady projektů**.     |

@@ -1,32 +1,31 @@
 ---
-title: Synchronizace projektových úkolů přímo z Project Service Automation do Finance and Operations
-description: Toto téma popisuje šablonu a základní úkol, který se používají k synchronizaci projektových úkolů přímo z Microsoft Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
+title: Synchronizace projektových úloh přímo z Project Service Automation do Finance and Operations
+description: Toto téma popisuje šablonu a základní úkoly, které se používají k synchronizaci projektových úkolů přímo z Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992783"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683142"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizace projektových úkolů přímo z Project Service Automation do Finance and Operations
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizace projektových úloh přímo z Project Service Automation do Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Toto téma popisuje šablonu a základní úkol, který se používají k synchronizaci projektových úkolů přímo z Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
+Toto téma popisuje šablonu a základní úkoly, které se používají k synchronizaci projektových úkolů přímo z Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integrace projektových úkolů, kategorie transakcí výdajů, odhady hodin, odhady výdajů a zamykání funkcí jsou k dispozici ve verzi 8.0.
@@ -68,11 +67,11 @@ Než může dojít k synchronizaci projektových úkolů, musíte synchronizovat
 
 ## <a name="power-query"></a>Power Query
 
-K filtrování dat musíte použít Microsoft Power Query pro Excel, pokud je splněna následující podmínka:
+K filtrování dat musíte použít Microsoft Power Query pro Excel, pokud je splněna tato podmínka:
 
 - V úkolu projektu máte záznamy specifické pro daný prostředek.
 
-Pokud musíte použít Power Query, postupujte podle těchto pokynů:
+Pokud musíte použít Power Query, postupujte podle této příručky:
 
 - Šablona Project tasks (PSA to Fin and Ops) má výchozí filtr, který vylučuje záznamy specifické pro prostředek z úkolu projektu nastavením filtru na **IsLineTask** na **Nepravdivé**. Pokud vytvoříte vlastní šablonu, musíte přidat tento filtr.
 

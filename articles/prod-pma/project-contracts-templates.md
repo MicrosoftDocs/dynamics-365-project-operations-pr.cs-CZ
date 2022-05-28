@@ -7,26 +7,25 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001063"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684634"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synchronizace projektových smluv a projektů přímo z Project Service Automation do Finance 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Toto téma popisuje šablonu a základní úkoly, které se používají k synchronizaci projektových smluv a projektů přímo z Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 
@@ -112,7 +111,7 @@ Když je použito řešení integrace Project Service Automation do Finance, nas
 - Pole **SourceDataID** u projektových smluv a projektů lze aktualizovat na jinou hodnotu nebo odebrat z mapování. Výchozí hodnota šablony je **Project Service Automation**.
 - Mapování **Platební podmínky** musí být aktualizováno tak, aby odráželo platné platební podmínky ve Finance. Můžete také odebrat mapování z projektové úlohy. Mapa výchozích hodnot má výchozí hodnoty pro ukázková data. V následující tabulce jsou uvedeny hodnoty v Project Service Automation.
 
-    | Hodnota | Popis   |
+    | Hodnota | Description   |
     |-------|---------------|
     | 0     | Netto 30        |
     | 2     | 2 % 10, Netto 30 |
@@ -121,15 +120,15 @@ Když je použito řešení integrace Project Service Automation do Finance, nas
 
 ## <a name="power-query"></a>Power Query
 
-K filtrování dat použijte Microsoft Power Query pro Excel, pokud jsou splněny následující podmínky:
+K filtrování dat používejte Microsoft Power Query pro Excel, pokud jsou splněny následující podmínky:
 
 - Máte prodejní objednávky v Dynamics 365 Sales.
 - Máte více organizačních jednotek v Project Service Automation a tyto organizační jednotky budou mapovány na více právnických osob ve Finance.
 
-Pokud musíte použít Power Query, postupujte podle těchto pokynů:
+Pokud musíte použít Power Query, postupujte podle následujících pokynů:
 
 - Šablona Projekty a smlouvy (PSA do Fin a Ops) má výchozí filtr, který zahrnuje pouze prodejní objednávky typu **Pracovní položka (msdyn\_ordertype = 192350001)**. Tento filtr pomáhá zaručit, že projektové smlouvy nejsou vytvořeny pro prodejní objednávky ve Finance. Pokud vytvoříte vlastní šablonu, musíte přidat tento filtr.
-- Vytvořte filtr Power Query, který zahrnuje pouze smluvní organizace, které by se měly synchronizovat s právní entitou sady integračních připojení. Například smlouvy o projektu, které máte s organizační jednotkou smlouvy Contoso USA by měly být synchronizovány s právním subjektem USSI, ale projektové smlouvy, které máte s organizační jednotkou smlouvy Contoso Global by měl být synchronizovány s právním subjektem USMF. Pokud tento filtr nepřidáte do svého mapování úkolů, budou všechny projektové smlouvy synchronizovány s právním subjektem, který je definován pro sadu připojení, bez ohledu na smluvní organizační jednotku.
+- Je nutné vytvořit filtr Power Query, který obsahuje pouze organizace smlouvy, které mají být synchronizovány do právnické osoby nastavení připojení integrace. Například projektové smlouvy uzavřené se smluvní organizační jednotkou společnosti Contoso USA by měly být synchronizovány s právním subjektem USSI, ale projektové smlouvy se smluvní organizační jednotkou společnosti Contoso Global by měly být synchronizovány s právním subjektem USMF. Pokud tento filtr nepřidáte do svého mapování úkolů, budou všechny projektové smlouvy synchronizovány s právním subjektem, který je definován pro sadu připojení, bez ohledu na smluvní organizační jednotku.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapování šablon v integraci dat
 
