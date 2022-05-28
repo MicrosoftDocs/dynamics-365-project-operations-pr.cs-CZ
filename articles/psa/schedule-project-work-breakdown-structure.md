@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996788"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587348"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Plánování projektu se strukturou rozpisu práce (Project Service)
 
@@ -63,7 +64,7 @@ Plán projektu uvádí, co je třeba udělat, které zdroje práci vykonají a �
 ## <a name="task-types"></a>Typy úkolů  
 Při vytváření strukturovaného rozpisu prací budete používat následující typy úkolů:  
 
-| | | 
+| Úloha | Description | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Kořenový uzel projektu**. | Souhrnný úkol nejvyšší úrovně pro projekt. Všechny ostatní úkoly projektu jsou vytvořeny pod ním. Název kořenového úkolu je název projektu. Úsilí, data a doba trvání kořenového uzlu se zakládají na hodnotách v hierarchii pod ním. Nelze upravit vlastnosti kořenového uzlu ani odstranit kořenový uzel. | 
 | **Souhrnné úkoly nebo úkoly kontejneru** | Souhrnný úkol je úkol, který má pod sebou dílčí úkoly. Souhrnný úkol nemá žádné vlastní úsilí nebo své vlastní náklady. Jeho pracovní úsilí a náklady jsou součtem jeho dílčích úkolů. Můžete změnit název souhrnného úkolu, ale nelze změnit úsilí, data a dobu trvání, protože ty jsou vypočteny automaticky. Odstraněním souhrnného úkolu odstraníte úkol a všechny jeho dílčí úkoly.|  

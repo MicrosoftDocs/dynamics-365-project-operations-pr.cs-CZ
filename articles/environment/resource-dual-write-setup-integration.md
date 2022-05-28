@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986528"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586888"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Nastavení Project Operations a integrace dat konfigurace
 
@@ -22,34 +22,34 @@ Tento téma poskytuje informace o integraci duálního zápisu Project Operation
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Projektové smlouvy, řádky smlouvy a projekty
 
-Smlouvy o projektu, řádky smlouvy a projekty jsou vytvářeny v Dataverse a synchronizovány do aplikací Finance and Operations pro další účetnictví. Záznamy v těchto entitách lze vytvářet a mazat pouze v Dataverse. K těmto záznamům v účtu však lze v aplikacích Finance and Operations přidat účetní atributy, jako jsou výchozí hodnoty skupiny DPH a finanční dimenze.
+Projektové smlouvy, řádky smlouvy a projekty se vytvářejí v Dataverse a synchronizují s finančními a provozními aplikacemi pro další účetnictví. Záznamy v těchto entitách lze vytvářet a mazat pouze v Dataverse. K těmto záznamům ve finančních a provozních aplikacích však lze přidat účetní atributy, jako jsou výchozí hodnoty skupiny daně z prodeje a finanční dimenze.
 
   ![Koncepty integrace projektových smluv.](./media/1ProjectContract.jpg)
 
-Sledují se potenciální zákazníci, příležitosti a nabídky prodejní aktivity v Dataverse a nesynchronizují se do aplikací Finance and Operations, protože s touto aktivitou není spojeno žádné následné účetnictví.
+Potenciální zákazníci, příležitosti a nabídky prodejních aktivit se sledují v Dataverse a nesynchronizují se s finančními a provozními aplikacemi, protože s touto aktivitou není spojeno žádné následné účetnictví.
 
-Funkce smlouvy o projektu v Dataverse vytvoří záznam smlouvy o projektu v aplikacích Finance and Operations pomocí mapy tabulky **Záhlaví projektové smlouvy (salesorders)**. Uložení projektové smlouvy v Dataverse také zahájí vytváření záznamu zákaznické entity projektové smlouvy. Tento záznam je synchronizován s aplikacemi Finance and Operations pomocí mapy tabulky **Zdroj financování projektu (msdyn\_projectcontractssplitbillingrules)**. Tato mapa také synchronizuje přidání, aktualizace a odstranění zákazníků ze smlouvy o projektu. Rozdělení fakturačních procent mezi zákazníky smluvních projektů je prováděno pouze v Dataverse a není synchronizováno do aplikací Finance and Operations.
+Funkčnost projektové smlouvy v Dataverse vytvoří záznam projektové smlouvy ve finančních a provozních aplikacích pomocí mapy tabulky **Záhlaví projektových smluv (salesorders)**. Uložení projektové smlouvy v Dataverse také zahájí vytváření záznamu zákaznické entity projektové smlouvy. Tento záznam je synchronizován s finančními a provozními aplikacemi pomocí mapy tabulky **Zdroj financování projektu (msdyn\_projectcontractssplitbillingrules)**. Tato mapa také synchronizuje přidání, aktualizace a odstranění zákazníků ze smlouvy o projektu. Procenta rozdělení fakturace mezi zákazníky se smlouvou o projektu se ovládají pouze v Dataverse a nejsou synchronizovány s finančními a provozními aplikacemi.
 
-Po vytvoření smlouvy o projektu v Dataverse, účetní projektu může aktualizovat účetní atributy této smlouvy projektu v aplikacích Finance and Operations přechodem na **Řízení projektů a účetnictví** > **Projektové smlouvy** > **Nastavení** > **Zobrazit výchozí účetnictví**. Účetní může zkontrolovat provozní atributy projektové smlouvy, jako je požadované datum dodání a výše smlouvy, výběrem ID smlouvy projektu v aplikacích Finance and Operations, které otevírají související záznam smlouvy o projektu v Dataverse.
+Po vytvoření projektové smlouvy v Dataverse může účetní projektu aktualizovat účetní atributy pro tuto projektovou smlouvu ve finančních a provozních aplikacích tím, že přejde na **Projektové řízení a účetnictví** > **Projektové smlouvy** > **Založit** > **Zobrazit výchozí účetnictví**. Účetní může zkontrolovat atributy smlouvy o provozním projektu, jako je požadované datum dodání a částka smlouvy, výběrem ID smlouvy o projektu ve finančních a provozních aplikacích, které otevře související záznam smlouvy o projektu v Dataverse.
 
-Entita projektu je synchronizována s aplikacemi Finance and Operations využívajícími mapu tabulky **Projekty V2 (msdyn\_projekty)**. Účetní projektu může:
+Entita projektu je synchronizována s finančními a provozními aplikacemi pomocí mapy tabulky **Projekty V2 (msdyn\_projects)**. Účetní projektu může:
 
-  - Zkontrolovat projekty v aplikacích Finance and Operations přechodem na **Řízení projektů a účetnictví** > **Všechny projekty**. 
-  - Aktualizovat účetní atributy projektu v aplikacích Finance and Operations přechodem na **Řízení projektů a účetnictví** > **Všechny projekty** > **Nastavení** > **Zobrazit výchozí účetnictví**.  
-  - Kontrolovat provozní atributy projektu, například odhadované datum zahájení a ukončení, výběrem ID projektu v aplikacích Finance and Operations, které otevírají související záznam projektu v Dataverse.
+  - Prohlédněte si projekty ve finančních a provozních aplikacích na **Projektové řízení a účetnictví** > **Všechny projekty**. 
+  - Aktualizujte účetní atributy pro projekt ve finančních a provozních aplikacích tím, že přejdete na **Projektové řízení a účetnictví** > **Všechny projekty** > **Založit** > **Zobrazit výchozí účetnictví**.  
+  - Zkontrolujte atributy provozního projektu, jako je odhadované datum zahájení a ukončení, výběrem ID projektu ve finančních a provozních aplikacích, které otevře související záznam projektu v Dataverse.
 
 Projekt je spojen se smlouvou o projektu prostřednictvím entity **Řádek smlouvy o projekt**.
 
-Řádky smlouvy projektu v Dataverse vytvoří fakturační pravidlo smlouvy o projektu v aplikacích Finance and Operations pomocí mapy tabulky **Řádky smlouvy projektu (salesorderdetails)**. Metoda fakturace definuje typ pravidla fakturace kontraktu projektu v aplikacích Finance and Operations:
+Řádky projektové smlouvy v Dataverse vytvoří fakturační pravidlo projektové smlouvy ve finančních a provozních aplikacích pomocí mapy tabulky **Řádky projektových smluv (salesorderdetails)**. Metoda fakturace definuje typ pravidla fakturace projektové smlouvy ve finančních a provozních aplikacích:
 
   - Řádky smlouvy projektu s metodou fakturace času a materiálu vytvářejí pravidlo fakturace času a typu materiálu.
   - Řádky kontraktu s metodou fakturace za pevnou cenu vytvářejí milníkové fakturační pravidlo.
 
-Řádky smlouvy projektu může účetní projektu zkontrolovat v aplikacích Finance and Operations přechodem na **Řízení projektů a účetnictví** > **Smlouvy o projektu** > **Nastavení** > **Zobrazit výchozí účetnictví** a prohlédnutím údajů na kartě **Řádky smlouvy**. Účetní může také na této kartě nastavit výchozí finanční dimenze pro řádky smlouvy metody účtování za pevnou cenu.
+Řádky projektových smluv může zkontrolovat projektový účetní ve finančních a provozních aplikacích v **Projektové řízení a účetnictví** > **Projektové smlouvy** > **Založit** > **Zobrazit výchozí účetnictví** a kontrolou podrobností na kartě **Řádky smlouvy**. Účetní může na této záložce také nastavit výchozí finanční dimenze pro smluvní řádky způsobu účtování s pevnou cenou.
 
 ## <a name="billing-milestones"></a>Fakturační milníky
 
-Řádky smlouvy projektu využívající metodu fakturace s pevnou cenou jsou fakturovány prostřednictvím milníků fakturace. Milníky fakturace se synchronizují s projektem transakcí na účtu v aplikacích Finance and Operations pomocí mapy tabulky **Milníky řádku smlouvy integrace Project Operations (msdyn\_contractlinescheduleofvalues)**.
+Řádky smlouvy projektu využívající metodu fakturace s pevnou cenou jsou fakturovány prostřednictvím milníků fakturace. Fakturační milníky jsou synchronizovány s projektem transakcí na účtu ve finančních a provozních aplikacích pomocí mapy tabulky **Milníky řádků smlouvy o integraci Project Operations (msdyn\_contractlinescheduleofvalues)**.
 
   ![Integrace fakturačních milníků.](./media/2Milestones.jpg)
 
@@ -59,21 +59,21 @@ Když poprvé vytvoříte milník fakturace pro daný řádek smlouvy projektu, 
 
 ### <a name="project-tasks"></a>Projektové úkoly
 
-Úkoly projektu jsou synchronizovány do aplikací Finance and Operations prostřednictvím mapy tabulky **Projektové úkoly (msdyn\_projecttasks)** pouze pro referenční účely. Vytváření, aktualizace a mazání nejsou podporovány prostřednictvím aplikací Finance and Operations.
+Projektové úlohy jsou synchronizovány s finančními a provozními aplikacemi prostřednictvím mapy tabulky **Projektové úkoly (msdyn\_projecttasks)** pouze pro referenční účely. Operace vytváření, aktualizace a odstraňování nejsou prostřednictvím finančních a provozních aplikací podporovány.
 
   ![Integrace úloh projektu.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Zdroje projektu
 
-Entita **Role zdrojů projektu** je synchronizována s aplikacemi Finance and Operations pomocí mapy tabulky **Role projektových zdrojů pro všechny společnosti (bookableresourcecategories)** pouze pro referenční účely. Protože role zdrojů v Dataverse nejsou specifické pro společnost, systém automaticky vytvoří příslušné záznamy o rolích zdrojů specifické pro společnost v aplikacích Finance and Operations pro všechny právnické osoby zahrnuté do rozsahu integrace duálního zápisu.
+Entita **Role projektových zdrojů** je synchronizována s finančními a provozními aplikacemi pomocí mapy tabulky **Role projektových zdrojů pro všechny společnosti (bookableresourcecategories)** pouze pro referenční účely. Protože role zdrojů v Dataverse nejsou specifické pro společnost, systém automaticky vytváří příslušné záznamy rolí zdrojů specifických pro společnost ve finančních a provozních aplikacích automaticky pro všechny právnické osoby zahrnuté do rozsahu integrace s duálním zápisem.
 
 ![Integrace rolí zdrojů.](./media/5Resources.jpg)
 
-Zdroje projektu v Project Operations jsou udržovány v Dataverse a nejsou synchronizovány do aplikací Finance and Operations.
+Projektové zdroje v Project Operations jsou udržovány v Dataverse a nejsou synchronizovány s finančními a provozními aplikacemi.
 
 ### <a name="transaction-categories"></a>Kategorie transakcí
 
-Kategorie transakcí jsou udržovány v Dataverse a synchronizováno do aplikací Finance and Operations pomocí mapy tabulky **Kategorie transakcí projektu (msdyn\_transactioncategories)**. Po synchronizaci záznamu kategorie transakce systém automaticky vytvoří čtyři sdílené záznamy kategorie. Každý záznam odpovídá typu transakce v aplikacích Finance and Operations a propojí je se záznamem kategorie transakcí.
+Kategorie transakcí jsou udržovány v Dataverse a synchronizovány s finančními a provozními aplikacemi pomocí mapy tabulky **Kategorie transakcí projektu (msdyn\_transactioncategories)**. Po synchronizaci záznamu kategorie transakce systém automaticky vytvoří čtyři sdílené záznamy kategorie. Každý záznam odpovídá typu transakce ve finančních a provozních aplikacích a propojuje je se záznamem kategorie transakce.
 
 ![Integrace kategorií transakcí.](./media/4TransactionCategories.jpg)
 

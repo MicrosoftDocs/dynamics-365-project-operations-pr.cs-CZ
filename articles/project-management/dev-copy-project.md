@@ -2,76 +2,80 @@
 title: Vývoj šablon projektů pomocí kopírování projektu
 description: Tento téma poskytuje informace o tom, jak vytvořit šablony projektu pomocí vlastní akce Kopírovat projekt.
 author: stsporen
-ms.date: 01/21/2021
+ms.date: 03/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989237"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590890"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Vývoj šablon projektů pomocí kopírování projektu
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
 Dynamics 365 Project Operations podporuje schopnost kopírovat projekt a vrátit jakékoli přiřazení zpět k obecným prostředkům, které představují roli. Zákazníci mohou pomocí této funkce vytvářet základní šablony projektů.
 
 Když vyberete **Kopírovat projekt**, je aktualizován stav cílového projektu. Použijte **Důvod stavu** k určení, kdy je akce kopírování dokončena. Výběr možnosti **Kopírovat projekt** také aktualizuje počáteční datum projektu na aktuální počáteční datum, pokud v entitě cílového projektu není zjištěno žádné cílové datum.
 
-## <a name="copy-project-custom-action"></a>Vlastní akce Kopírovat projekt 
+## <a name="copy-project-custom-action"></a>Vlastní akce Kopírovat projekt
 
-### <a name="name"></a>Jméno 
+### <a name="name"></a>Name 
 
-**msdyn_CopyProjectV2**
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>Vstupní parametry
+
 Jsou tři vstupní parametry:
 
-| Parametr          | Typ   | Hodnoty                                                   | 
-|--------------------|--------|----------------------------------------------------------|
-| ProjectCopyOption  | String | **{"removeNamedResources":true}** nebo **{"clearTeamsAndAssignments":true}** |
-| SourceProject      | Odkaz na entitu | Zdrojový projekt |
-| Cíl             | Odkaz na entitu | Cílový projekt |
+- **ReplaceNamedResources** nebo **ClearTeamsAndAssignments** – Nastavte pouze jednu z možností. Nenastavujte obojí.
 
+    - **\{"ReplaceNamedResources":true\}** – Výchozí chování pro Project Operations. Jakýkoli pojmenovaný zdroj je nahrazen obecnými zdroji.
+    - **\{"ClearTeamsAndAssignments":true\}** – Výchozí chování pro Project for the Web. Všechny úkoly a členové týmu jsou odebráni.
 
-- **{"clearTeamsAndAssignments":true}**: Výchozí chování pro Project for the Web a odstraní všechna přiřazení a členy týmu.
-- **{"removeNamedResources":true}** Výchozí chování pro Project Operations a vrátí přiřazení na obecné prostředky.
+- **SourceProject** – Reference entity zdrojového projektu, ze kterého se má kopírovat. Tento parametr nemůže mít hodnotu null.
+- **Target** – Reference entity cílového projektu, do kterého se má kopírovat. Tento parametr nemůže mít hodnotu null.
 
-Další informace o akcích naleznete v části [Použití akcí Web API](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Následující tabulka obsahuje souhrn třech parametrů.
 
-## <a name="specify-fields-to-copy"></a>Zadejte pole ke kopírování 
+| Parametr                | Type             | Hodnota                 |
+|--------------------------|------------------|-----------------------|
+| ReplaceNamedResources    | Logický          | **Pravda** nebo **Nepravda** |
+| ClearTeamsAndAssignments | Logický          | **Pravda** nebo **Nepravda** |
+| SourceProject            | Odkaz na entitu | Zdrojový projekt    |
+| Cíl                   | Odkaz na entitu | Cílový projekt    |
+
+Další informace o výchozích hodnotách akcí naleznete v článku [Použití akcí webového rozhraní API](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+
+### <a name="validations"></a>Ověření
+
+Provedena jsou následující ověření.
+
+1. Kontrola hodnot null a načtení zdrojových a cílových projektů, aby se potvrdila existence obou projektů v organizaci.
+2. Systém ověří platnost cílového projektu pro kopírování ověřením následujících podmínek:
+
+    - Na projektu neprobíhá žádná předchozí aktivita (včetně výběru karty **Úkoly**) a projekt je nově vytvořen.
+    - Neexistuje žádná předchozí kopie, v tomto projektu nebyl požadován žádný import a projekt není ve stavu **Selhání**.
+
+3. Operace není volána pomocí protokolu HTTP.
+
+## <a name="specify-fields-to-copy"></a>Zadejte pole ke kopírování
+
 Po zavolání se akce **Kopírovat projekt** podívá na pohled projektu **Kopírovat sloupce projektu** k určení, která pole se mají kopírovat při kopírování projektu.
 
-
 ### <a name="example"></a>Příklad
-Následující příklad ukazuje, jak volat vlastní akci **CopyProject** vlastní akce se sadou parametrů **removeNamedResources**.
+
+Následující příklad ukazuje, jak zavolat vlastní akci **CopyProjectV3** se sadou parametrů **removeNamedResources**.
+
 ```C#
 {
     using System;
     using System.Runtime.Serialization;
     using Microsoft.Xrm.Sdk;
     using Newtonsoft.Json;
-
-    [DataContract]
-    public class ProjectCopyOption
-    {
-        /// <summary>
-        /// Clear teams and assignments.
-        /// </summary>
-        [DataMember(Name = "clearTeamsAndAssignments")]
-        public bool ClearTeamsAndAssignments { get; set; }
-
-        /// <summary>
-        /// Replace named resource with generic resource.
-        /// </summary>
-        [DataMember(Name = "removeNamedResources")]
-        public bool ReplaceNamedResources { get; set; }
-    }
 
     public class CopyProjectSample
     {
@@ -89,27 +93,32 @@ Následující příklad ukazuje, jak volat vlastní akci **CopyProject** vlastn
             var sourceProject = new Entity("msdyn_project", sourceProjectId);
 
             Entity targetProject = new Entity("msdyn_project");
-            targetProject["msdyn_subject"] = "Example Project";
+            targetProject["msdyn_subject"] = "Example Project - Copy";
             targetProject.Id = organizationService.Create(targetProject);
 
-            ProjectCopyOption copyOption = new ProjectCopyOption();
-            copyOption.ReplaceNamedResources = true;
-
-            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption, true, false);
             Console.WriteLine("Done ...");
         }
 
-        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, bool replaceNamedResources = true, bool clearTeamsAndAssignments = false)
         {
-            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV3");
             req["SourceProject"] = sourceProject;
             req["Target"] = TargetProject;
-            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+
+            if (replaceNamedResources)
+            {
+                req["ReplaceNamedResources"] = true;
+            }
+            else
+            {
+                req["ClearTeamsAndAssignments"] = true;
+            }
+
             OrganizationResponse response = organizationService.Execute(req);
         }
     }
 }
 ```
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

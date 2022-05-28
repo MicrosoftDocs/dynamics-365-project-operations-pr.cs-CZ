@@ -3,15 +3,15 @@ title: Správa subdodávek ve službě Project Operations
 description: Toto téma poskytuje přehled procesu správy komplexních subdodávek v Microsoft.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323588"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593006"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Správa subdodávek ve službě Project Operations
 
@@ -46,7 +46,7 @@ Následující seznam obsahuje podrobný popis procesu subdodávky.
 
 Když je řádek subdodávky **množstevní** kupované množství zakoupené na řádku subdodávky na čas, náklady nebo materiál lze použít na jakýkoli projekt.
 
-Když je řádek subdodávky **pracovní**, řádek subdodávky se mapuje na soubor prací reprezentovaný uzlem v plánu projektu. Hodnota řádku subdodávky je součtem všech komponent, které jsou nutné k provedení souboru prací. Jsou modelovány jako podrobnosti řádku subdodávky a může se jednat o kolekci času, nákladů nebo materiálů. V případě řádku subdodávky na základě práce je řádek subdodávky také vyhrazen pro jeden projekt.
+Když je řádek subdodávky **pracovní**, řádek subdodávky se mapuje na soubor prací reprezentovaný uzlem v plánu projektu. Hodnota řádku subdodávky je součtem všech komponent, které jsou nutné k provedení souboru prací. Jsou modelovány jako podrobnosti řádku subdodávky a může se jednat o kolekci času, nákladů nebo materiálů. V případě řádku subdodávky na základě práce je řádek subdodávky také vyhrazen pro jeden projekt. Tyto typy subdodávek Project Operations v současné době nepodporuje.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

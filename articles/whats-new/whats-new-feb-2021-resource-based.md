@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986798"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589004"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového, únor 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
@@ -21,7 +21,7 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
 
 - Project Operations v prostředí Dataverse 4.7.0.95
-- Řízení projektů a účetnictví v prostředí Dynamics 365 Finance verze 10.0.16 
+- Řízení projektů a účetnictví v Dynamics 365 Finance, verze prostředí 10.0.16 
 
 ## <a name="quality-updates"></a>Aktualizace pro zvýšení kvality
 
@@ -44,14 +44,14 @@ Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 36
 | **Časový záznam** | 2129161 | Aplikují se přísnější omezení, aby uživatelé nemohli měnit a aktualizovat zadaný nebo schválený časový údaj. |
 | **Časový záznam** | 2103572 | Schválení času pro neprojektové časové záznamy nesmí hledat roli schvalovatele projektu. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Přehled řízení projektů a účetnictví v Dynamics 365 Finance 
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Řízení projektů a účetnictví v Dynamics 365 Finance 
 
-Další informace o projektovém řízení a účetnictví v Dynamics 365 Finance viz [Co je nového, leden 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě ](whats-new-jan-2021-resource-based.md).
+Další informace o řízení projektů a účetnictví v Dynamics 365 Finance naleznete v [Co je nového Leden 2021 – Projektové operace pro scénáře založené na zdrojích/bez zásob](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Povinné aktualizace
 
-Informace o povinných aktualizacích pro aplikace Finance and Operations viz [Povinné aktualizace](/dynamics365/finance/localizations/regulatory-updates). Dalším způsobem, jak se dozvědět o aktualizacích předpisů, je přihlásit se do služby Lifecycle Services (LCS) a zobrazit plánované aktualizace předpisů pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
+Informace o regulačních aktualizacích pro finanční a provozní aplikace naleznete v části [Regulační aktualizace](/dynamics365/finance/localizations/regulatory-updates). Dalším způsobem, jak se dozvědět o aktualizacích předpisů, je přihlásit se do služby Lifecycle Services (LCS) a zobrazit plánované aktualizace předpisů pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

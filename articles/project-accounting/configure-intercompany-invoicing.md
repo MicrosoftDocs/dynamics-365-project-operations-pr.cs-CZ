@@ -4,14 +4,14 @@ description: Tento téma poskytuje informace a příklady o konfiguraci mezipodn
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994043"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591580"
 ---
 # <a name="configure-intercompany-invoicing"></a>Konfigurace mezipodnikové fakturace
 
@@ -21,11 +21,11 @@ Chcete-li v projektu nastavit mezipodnikovou fakturaci, proveďte následující
 
 ## <a name="example-configure-intercompany-invoicing"></a>Příklad: Konfigurace mezipodnikové fakturace
 
-V následujícím příkladu Contoso Robotics USA (USPM) je půjčující si právnická osoba a Contoso Robotics UK (GBPM) je půjčující právnická osoba. 
+V následujícím příkladu je Contoso Robotics USA (USPM) vypůjčující právnická osoba a Contoso Robotics UK (GBPM) je půjčující právnická osoba. 
 
 1. **Nakonfigurujte mezipodnikové účetnictví mezi právnickými osobami**. Každá dvojice výpůjčujících a půjčujících právnických osob musí být nakonfigurována v hlavní knize na stránce [Mezipodnikové účetnictví](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
-    1. v Dynamics 365 Finance přejděte na **Hlavní kniha** > **Nastavení účtování** > **Mezipodnikové účetnictví**. Vytvořte záznam obsahující následující údaje:
+    1. V Dynamics 365 Finance přejděte na **Hlavní kniha** > **Nastavení účtování** > **Mezipodnikové účetnictví**. Vytvořte záznam obsahující následující údaje:
 
         - **Původní společnost** = **GBPM**
         - **Cílová společnost** = **USPM**
@@ -80,19 +80,19 @@ V následujícím příkladu Contoso Robotics USA (USPM) je půjčující si pr�
 
 5. **Nastavte převodní ceny pro práci**. Mezipodnikové převodové ceny jsou konfigurovány v části Project Operations v Dataverse. Konfigurovat [nákladové sazby za práci](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) a [sazby účtů za práci](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) pro mezipodnikovou fakturaci. Transferové ceny nejsou podporovány u transakcí mezi společnostmi. Cena za prodej mezi jednotkami mezi organizacemi bude vždy nastavena na stejnou hodnotu jako cena nákladů na jednotku zajišťující zdroje.
 
-      Cena prostředku vývojáře v Contoso Robotics UK je 88 GBP za hodinu. Contoso Robotics UK bude fakturovat společnosti Contoso Robotics USA 120 USD za každou hodinu, kdy tento zdroj pracoval na projektech v USA. Contoso Robotics USA bude fakturovat zákazníkovi Adventure Works 200 USD za práci prostředkem vývojáře Contoso Robotics UK.
+      Náklady na zdroj vývojářů v Contoso Robotics UK je 88 GBP za hodinu. Společnost Contoso Robotics UK bude účtovat společnosti Contoso Robotics USA 120 USD za každou hodinu, kdy tento zdroj pracoval na projektech v USA. Společnost Contoso Robotics USA bude fakturovat zákazníkovi Adventure Works 200 USD za práci vývojářského zdroje Contoso Robotics UK.
 
-      1. V Project Operations v Dataverse přejděte na **Prodej** > **Ceníky**. Vytvořte nový ceník nákladů s názvem **Sazby nákladů Contoso Robotics UK**. 
+      1. V Project Operations v Dataverse přejděte na **Prodej** > **Ceníky**. Vytvořte nový ceník nákladů s názvem **Sazby nákladů společnosti Contoso Robotics UK.** 
       2. V ceníku nákladů vytvořte záznam s následujícími informacemi:
          - **Role** = **Vývojář**
          - **Náklady** = **88 GBP**
-      3. Přejděte do **Nastavení** > **Organizační jednotky** a připojte tento ceník nákladů k organizační jednotce **Contoso Robotics UK**.
-      4. Přejděte na **Prodej** > **Ceníky**. Vytvořte ceník nákladů s názvem **Sazby nákladů Contoso Robotics USA**. 
+      3. Přejděte na **Nastavení** > **Organizační jednotky** a připojte tento ceník nákladů k organizační jednotce **Contoso Robotics UK**.
+      4. Přejděte na **Prodej** > **Ceníky**. Vytvořte ceník nákladů s názvem **Sazby nákladů společnosti Contoso Robotics USA**. 
       5. V ceníku nákladů vytvořte záznam s následujícími informacemi:
           - **Role** = **Vývojář**
           - **Zdrojová společnost** = **Contoso Robotics UK**
           - **Náklady** = **120 USD**
-      6. Přejděte do **Nastavení** > **Organizační jednotky** a připojte ceník nákladů **Sazba nákladů Contoso Robotics USA** k organizační jednotce **Contoso Robotics USA**.
+      6. Přejděte a **Nastavení** > **Organizační jednotky** a připojte ceník nákladů **Sazby nákladů společnosti Contoso Robotics USA** k organizační jednotce **Contoso Robotics USA**.
       7. Přejděte na **Prodej** > **Ceníky**. Vytvořte prodejní ceník s názvem **Fakturační sazby Adventure Works**. 
       8. V prodejním ceníku vytvořte záznam s následujícími informacemi:
           - **Role** = **Vývojář**

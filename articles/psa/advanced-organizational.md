@@ -1,5 +1,5 @@
 ---
-title: Organizační jednotky
+title: Rozšířené organizační jednotky
 description: Toto téma poskytuje informace o organizačních jednotkách v Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
@@ -16,14 +16,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 80208be7be56d0b09354c45cd2afd96958daf985
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005068"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589418"
 ---
-# <a name="organizational-units"></a>Organizační jednotky 
+# <a name="about-organizational-units"></a>Přehled organizačních jednotek 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -94,7 +95,7 @@ Organizační jednotka je interní skupina nebo divize ve společnosti, která s
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Příklad organizačních jednotek a prodejních oblastí
 
-Společnost Contoso, Ltd., má dvě vývojová centra: Contoso US a Contoso India. Náklady na zdroje se mezi těmito dvěma vývojovými centry značně liší.
+Společnost Contoso, Ltd. má dvě vývojová centra: Contoso US a Contoso India. Náklady na zdroje se mezi těmito dvěma vývojovými centry značně liší.
 
 Společnost Contoso prodává své IT služby na mnoha mezinárodních trzích, jako jsou Latinská Amerika, Severní Amerika, Asie a Tichomoří, západní Evropa a Střední Východ. Fakturační sazby za stejné projektové role se mohou na těchto trzích značně lišit.
 
@@ -122,7 +123,7 @@ Nákladové ceníky jsou přidruženy k organizačním jednotkám. Transakční 
 Pokud máte složitou hierarchii nákladových středisek, divizí, fakturačních kanceláří atd., nastavte uzly typu list této hierarchie jako samostatné organizační jednotky.
 Následující příklad ukazuje typickou hierarchii:
 
-**ContosoIndie**
+**Contoso India**
 
   - Postupy pro SAP 
 

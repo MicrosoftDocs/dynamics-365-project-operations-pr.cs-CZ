@@ -4,14 +4,14 @@ description: Toto téma obsahuje informace, jak vytvářet mezipodnikové faktur
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989236"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591488"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Vytvářejte mezipodnikové faktury zákazníků a dodavatelů
 
@@ -27,7 +27,7 @@ Použijte tento proces pro řuční vytvoření mezipodnikové faktury zákazní
 
 U právnické osoby poskytující půjčku je nutné provést následující kroky. 
 
-1. v Dynamics 365 Finance přejděte na **Řízení projektů a účetnictví** > **Faktury projektu** > **Mezipodnikové faktury zákazníků**. Na stránce seznamu **Mezipodnikové faktury zákazníků** v podokně akcí vyberte **Nový.**
+1. V Dynamics 365 Finance přejděte na **Projektové řízení a účetnictví** > **Projektové faktury** > **Mezipodnikové faktury odběratele**. Na stránce seznamu **Mezipodnikové faktury zákazníků** v podokně akcí vyberte **Nový.**
 2. Na stránce **Vytvořte mezipodnikovou fakturu** v poli **Právnická osoba** vyberte vypůjčující právnickou osobu.
 3. Volitelné: Zadejte konkrétní smlouvu o projektu a číslo projektu.
 4. Vyhledávání můžete zúžit výběrem časového období. Zadejte konkrétní data do pole **Počáteční datum** a **Koncové datum**. Ve výsledcích hledání se zobrazí pouze mezipodnikové transakce, které jsou zaúčtovány v tomto období.

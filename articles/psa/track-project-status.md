@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 58274886a9f9ce6ae49c64c1d7ac491e29c7d06c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996698"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593374"
 ---
 # <a name="track-a-projects-status-project-service"></a>Sledování stavu projektu (Project Service)
 
@@ -33,14 +34,13 @@ ms.locfileid: "6996698"
 
 V průběhu platnosti závazku se fáze projektu aktualizují tak, aby odrážely stupeň závazku:  
 
-
-|              |                                                                                                                                                                                                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **Nová**    | Při vytváření projektu je fáze nastavena na **Nový**. Pokud jste vytvořili projekt ze šablony, v této fázi může mít projekt plán, odhady a data týmu. Jinak se bude jednat pouze o návrh projektu a bude třeba ručně zadat zbývající části projektu. |
-|  **Nabídka**   |      Když přiřadíte projekt k nabídce nebo jej vytvoříte z nabídky, fáze projektu bude nastavena na možnost **Nabídka** a aktualizuje se také odhadované datum zahájení a ukončení. Pokud je projekt ve fázi nabídky, podrobnosti o nabídce se zobrazí na kartě **Prodej** na stránce **Projekt**.      |
-|   **Plán**   |                                     Pokud vyhrajete nabídku spojenou s projektem a v průběhu platnosti závazku přejdete do fáze smlouvy, fáze projektu se aktualizuje na **Plán**. Podrobnosti o smlouvě se zobrazí na kartě **Prodej** na stránce **Projekt**.                                      |
-| **Dokončeno** |                    Po dokončení práce na projektu můžete přepnout na fázi **Dokončeno**. Pokud je fáze projektu nastavena na možnost Dokončeno, práce je na 100 % ale dokončena, ale projekt zůstává otevřen, aby by mohla být zaznamenána doba čekání nebo položky výdajů.                     |
-|  **Zavřít**   |           Když jsou všechny transakce projektu zaznamenány a neočekáváte protokolování dalších, můžete ručně nastavit fázi na **Uzavřeno**. Pokud je projekt nastaven na **Uzavřeno**, nelze protokolovat žádné další transakce projektu a projekt bude jen pro čtení.           |
+| Úloha | Description | 
+|------------|----------|
+| **New** | Při vytváření projektu je fáze nastavena na **Nový**. Pokud jste vytvořili projekt ze šablony, v této fázi může mít projekt plán, odhady a data týmu. Jinak se bude jednat pouze o návrh projektu a bude třeba ručně zadat zbývající části projektu. |
+| **Nabídka** |  Když přiřadíte projekt k nabídce nebo jej vytvoříte z nabídky, fáze projektu bude nastavena na možnost **Nabídka** a aktualizuje se také odhadované datum zahájení a ukončení. Pokud je projekt ve fázi nabídky, podrobnosti o nabídce se zobrazí na kartě **Prodej** na stránce **Projekt**. |
+| **Plán** |  Pokud vyhrajete nabídku spojenou s projektem a v průběhu platnosti závazku přejdete do fáze smlouvy, fáze projektu se aktualizuje na **Plán**. Podrobnosti o smlouvě se zobrazí na kartě **Prodej** na stránce **Projekt**. |
+| **Dokončeno** | Po dokončení práce na projektu můžete přepnout na fázi **Dokončeno**. Pokud je fáze projektu nastavena na možnost Dokončeno, práce je na 100 % ale dokončena, ale projekt zůstává otevřen, aby by mohla být zaznamenána doba čekání nebo položky výdajů. |
+| **Zavřít** | Když jsou všechny transakce projektu zaznamenány a neočekáváte protokolování dalších, můžete ručně nastavit fázi na **Uzavřeno**. Pokud je projekt nastaven na **Uzavřeno**, nelze protokolovat žádné další transakce projektu a projekt bude jen pro čtení. |
 
 ## <a name="to-track-a-projects-status"></a>Sledování stavu projektu  
 

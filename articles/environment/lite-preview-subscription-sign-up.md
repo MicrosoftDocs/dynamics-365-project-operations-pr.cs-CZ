@@ -4,14 +4,14 @@ description: Toto téma obsahuje informace o tom, jak se přihlásit k odběru a
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991523"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587992"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registrace k odběru verze Preview - omezené 
 
@@ -43,7 +43,7 @@ Než začnete, ujistěte se, že jste přihlášeni do prohlížeče s pracovní
 > Budete potřebovat přístup správce k portálu Microsoft 365 vaší organizace, abyste mohli dokončit následující kroky.
 
 
-1. Přejděte do [Centra pro správu Microsoft 365](https://portal.office.com/), kde přiřadíte licence vašim uživatelům.
+1. Přejděte do [centra pro správu Microsoft 365](https://portal.office.com/) a přiřaďte licence vašim uživatelům.
 2. Na stránce **Aktivní uživatelé** vyberte uživatele, kterým chcete přiřadit licenci.
 3. Ověřte, že je vybrána licence **Dynamics 365 Project Operations**. 
 4. Vyberte volbu **Uložit změny**.

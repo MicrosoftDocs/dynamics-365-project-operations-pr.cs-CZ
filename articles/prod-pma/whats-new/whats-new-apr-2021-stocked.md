@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005563"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589602"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Co je nového nebo co se změnilo v Project Operations, duben 2021 – scénáře založené na skladovém materiálu / výrobě
 
@@ -20,7 +20,7 @@ _**Platí pro:** Project Operations pro scénáře založené na skladovém mate
 
 Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
 
-- Řízení projektů a účetnictví v prostředí Dynamics 365 Finance verze 10.0.18
+- Řízení projektů a účetnictví v Dynamics 365 Finance, verze prostředí 10.0.18
  
 ### <a name="quality-updates"></a>Aktualizace pro zvýšení kvality
                                                                                                                                                                                   
@@ -83,7 +83,7 @@ Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 36
 | Cestování a výdaje                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | Pokud je kategorie výdajů neprojektovou kategorií, finanční dimenze vybrané ve stránce **Výdaje** se nezkopírují do sestavy výdajů.                                          |
 
 ### <a name="regulatory-updates"></a>Povinné aktualizace
-Informace o povinných aktualizacích pro aplikace Finance and Operations viz [Povinné aktualizace](/dynamics365/finance/localizations/regulatory-updates). Můžete se také přihlásit do LCS a zobrazit plánované povinné aktualizace pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
+Informace o regulačních aktualizacích pro finanční a provozní aplikace naleznete v části [Regulační aktualizace](/dynamics365/finance/localizations/regulatory-updates). Můžete se také přihlásit do LCS a zobrazit plánované povinné aktualizace pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

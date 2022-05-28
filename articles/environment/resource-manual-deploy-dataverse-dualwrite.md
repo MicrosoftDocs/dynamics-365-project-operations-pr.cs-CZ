@@ -4,14 +4,14 @@ description: Toto téma vysvětluje, jak ručně nasadit aplikaci Project Operat
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986438"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591212"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Ruční nasazení aplikace Project Operations Dataverse s podporou duálního zápisu
 
@@ -37,7 +37,7 @@ Chcete-li tento postup dokončit, musíte se přihlásit jako správce.
 3. Vyberte typ prostředí. Pokud jste se zaregistrovali k nabídce zkušební verze, vyberte **Zkušební verze (na základě předplatného)**.
 4. Potvrďte oblast nasazení.
 5. Povolte možnost **Vytvořit databázi pro toto prostředí**. 
-6. Potvrďte jazyk a poté potvrďte, že měna odpovídá měně vaší aplikace Finance and Operations.
+6. Potvrďte jazyk a poté potvrďte, že měna odpovídá měně vašich finančních a provozních aplikací.
 7. Povolte možnost **Aplikace Dynamics 365** a potvrďte, že je pole **Automaticky nasadit tyto aplikace** nastaveno na **Žádné**.
 8. Přidejte skupinu zabezpečení, pokud je požadována.
 9. Výběrem možnosti **Uložit** vytvořte prostředí.
@@ -62,4 +62,4 @@ Tento postup můžete dokončit, pouze pokud jste před instalací Project Opera
 
 ## <a name="link-your-environments"></a><a name="link"></a>Propojte svá prostředí
 
-Po nasazení prostředí Dataverse můžete nastavit odkaz ve vašich aplikacích Finance and Operations. Postupujte podle pokynů v [Propojte prostředí pomocí průvodce duálním zápisem](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Po nasazení prostředí Dataverse můžete odkaz nastavit ve svých finančních a provozních aplikacích. Postupujte podle pokynů v [Propojte prostředí pomocí průvodce duálním zápisem](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
