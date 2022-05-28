@@ -4,20 +4,20 @@ description: Tento téma poskytuje informace o definování nebo odhadování pr
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
+ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992603"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737294"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Finanční odhady pro materiály na projektech
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Dynamics 365 Project Operations umožňuje projektovým manažerům definovat náklady na materiál na základě projektu pro každý projekt nebo úkol. Každý odhad materiálu může být spojen s konkrétním úkolem projektu. Výdaje jsou rozděleny do různých kategorií výdajů, které jsou definovány na organizační úrovni. Ceny a kalkulace pro každou kategorii výdajů jsou definovány v ceníku. 
+Dynamics 365 Project Operations umožňuje projektovým manažerům definovat náklady na materiál na základě projektu pro každý projekt nebo úkol. Každý odhad materiálu může být spojen s konkrétním úkolem projektu. Materiály, které se používají na projektech, mohou být produkty nezahrnuté do katalogu nebo produkty z katalogu produktů. Pro každou kombinaci produktu a jednotky lze definovat cenu v projektových cenících pro prodej a v projektových cenících pro náklady.  
 
 Chcete-li zobrazit, přidat nebo odstranit odhad materiálu projektu, proveďte následující kroky.
 
