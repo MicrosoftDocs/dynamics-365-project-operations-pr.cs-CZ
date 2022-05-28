@@ -4,14 +4,14 @@ description: Toto téma obsahuje informace, jak vytvářet mezipodnikové transa
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005473"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599954"
 ---
 # <a name="create-intercompany-transactions"></a>Vytváření mezipodnikových transakcí
 
@@ -30,14 +30,14 @@ Po schválení mezipodnikové transakce se vytvoří následující skutečné t
 
 Náklady, jednotkové náklady na zdroje, ceník transakcí mezi organizacemi a měna se řídí **organizační jednotkou**. To je důležité mít na paměti při rozhodování o tom, jak strukturovat společnosti a organizační jednotky ve vaší implementaci.
 
-Když vytvoříte příležitost, nabídku, smlouvu o projektu a záznamy o projektu, systém ověří, zda se měna smluvní jednotky shoduje s účetní měnou smluvní společnosti. Pokud nejsou stejné, nelze tyto záznamy vytvořit. Měna organizační jednotky je definována v Dynamics 365 Project Operations tím, že přejdete na **Dataverse** > **Nastavení** > **Organizační jednotky**. Účetní měna společnosti je definována v Dynamics 365 Finance tím, že přejdete na **Hlavní kniha** > **Nastavení hlavní knihy** > **Účetní kniha**. Měna je synchronizována s vaším prostředím Dataverse pomocí mapy dvojího zápisu účetních knih.
+Když vytvoříte příležitost, nabídku, smlouvu o projektu a záznamy o projektu, systém ověří, zda se měna smluvní jednotky shoduje s účetní měnou smluvní společnosti. Pokud nejsou stejné, nelze tyto záznamy vytvořit. Měna organizační jednotky je definována v Dynamics 365 Project Operations tím, že přejdete na **Dataverse** > **Nastavení** > **Organizační jednotky**. Účetní měna společnosti je definována v Dynamics 365 Finance přechodem na **Hlavní kniha** > **Nastavení hlavní knihy** > **Hlavní kniha**. Měna je synchronizována s vaším prostředím Dataverse pomocí mapy dvojího zápisu účetních knih.
 
 Systém vytváří jednotkové náklady na zdroje a skutečné prodeje mezi organizačními jednotkami v následujících situacích:
 
   - Když se zdrojová jednotka liší od kontraktační jednotky
   - Když se zdrojová společnost liší od smluvní jednotky
 
-Avšak pouze transakce, které mají odlišnou zdrojovou společnost od smluvní společnosti, budou převedeny do prostředí Dynamics 365 Finance pro další účtování.
+Do prostředí Dynamics 365 Finance pro dodatečné účtování však budou přeneseny pouze transakce, které mají jinou společnost poskytující zdroje než smluvní společnost.
 
 Účtování skutečných hodnot projektu se zaznamenává v deníku integrace Project Operations v Finance. Systém vytvoří následující řádky deníku.
 

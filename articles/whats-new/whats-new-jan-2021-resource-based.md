@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008083"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599538"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového, leden 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
@@ -22,7 +22,7 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
 
   - Project Operations v prostředí Dataverse verze 4.6.0.154
-  - Řízení projektů a účetnictví v prostředí Dynamics 365 Finance verze 10.0.16
+  - Řízení projektů a účetnictví v Dynamics 365 Finance, verze prostředí 10.0.16
 
 ## <a name="quality-updates"></a>Aktualizace pro zvýšení kvality
 
@@ -43,7 +43,7 @@ Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 36
 | **Plánování a sledování projektu** | 2090202 | Obchodní pravidla, která se již nepoužívají, byla označena jako **Zastaralé**. |
 | **Čas a výdaje** | 2091249 | Přesnější kontroly, aby uživatelé nemohli změnit úkol u odeslaného nebo schváleného časového záznamu. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Přehled řízení projektů a účetnictví v Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Řízení projektů a účetnictví v Dynamics 365 Finance
 
 | **Oblast funkcí** | **Referenční číslo** | **Aktualizace pro zvýšení kvality** |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 36
 
 ## <a name="regulatory-updates"></a>Povinné aktualizace
 
-Informace o povinných aktualizacích pro aplikace Finance and Operations viz [Povinné aktualizace](/dynamics365/finance/localizations/regulatory-updates). Můžete se také přihlásit do LCS a zobrazit plánované povinné aktualizace pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
+Informace o regulačních aktualizacích pro finanční a provozní aplikace naleznete v části [Regulační aktualizace](/dynamics365/finance/localizations/regulatory-updates). Můžete se také přihlásit do LCS a zobrazit plánované povinné aktualizace pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

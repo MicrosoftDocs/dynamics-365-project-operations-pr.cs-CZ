@@ -2,17 +2,16 @@
 title: Sledování projektového úsilí
 description: Toto téma obsahuje informace o způsobu sledování projektového úsilí a postupu prací.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993953"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593788"
 ---
 # <a name="project-effort-tracking"></a>Sledování projektového úsilí
 
@@ -46,7 +45,8 @@ Manažer projektu může přeprojektovat úsilí uplatněné na úkoly aktualiza
 - Dojde k výpočtu nové hodnoty EAC u jednotlivých úkolů, až po úkoly uzlů typu list. 
 - Ovlivněné podřízené úkoly směrem k úkolům uzlů typu list mají zbývající úsilí a procentuální hodnotu pokroku přepočítány na základě hodnoty EAC. Výsledkem je nový odhad odchylky úsilí na úkol. 
 - Přepočítají se hodnoty EAC souhrnných úkolů všech cest ke kořenovému uzlu.
-
+- Schválené úsilí u souhrnného úkolu je součtem schváleného úsilí u všech podřízených úkolů plus schváleného úsilí u souhrnného úkolu.
+- Zbývající úsilí u souhrnného úkolu je součtem zbývajícího úsilí u všech podřízených úkolů minus schválené úsilí u souhrnného úkolu.
 
 ## <a name="project-status-summary"></a>Souhrn stavu projektu
 

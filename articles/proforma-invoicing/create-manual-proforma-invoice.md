@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995618"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600044"
 ---
 # <a name="proforma-invoices"></a>Proforma faktury
 
@@ -82,6 +82,9 @@ Když vytváříte koncept projektové faktury, jsou všechny nefakturované pro
 - Upravit a přizpůsobit množství a typ fakturace.
 
 Chcete-li fakturu potvrdit, vyberte **Potvrdit**. Akce Potvrdit představuje jednosměrnou akci. Když vyberete **Potvrdit**, systém nastaví fakturu jen pro čtení a vytvoří skutečné fakturované hodnoty z každé podrobnosti řádku faktury pro každý řádek faktury. Pokud podrobnosti řádku faktury odkazují na nefakturovanou skutečnou hodnotu prodeje, tak systém také stornuje nefakturovanou skutečnou hodnotu prodeje. (Všechny podrobnosti řádku faktury vytvořené z časových nebo výdajových záznamů budou odkazovat na nefakturovanou skutečnou hodnotu prodeje.) Systémy integrace hlavní knihy mohou toto storno použít ke zrušení probíhající práce (WIP) pro účetní účely.
+
+> [!NOTE]
+> Potvrzené proforma faktury a související záznamy, jako jsou řádky faktur a podrobnosti řádků faktur, nelze upravovat ani odstraňovat. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Oprava potvrzené faktury
 

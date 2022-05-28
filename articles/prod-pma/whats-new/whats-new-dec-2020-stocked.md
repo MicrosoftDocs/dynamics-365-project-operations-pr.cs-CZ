@@ -5,14 +5,14 @@ author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008803"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594938"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Co je nového nebo změněného v Project Operations, prosinec 2020, pro scénáře založené na skladovém materiálu / výrobě
 
@@ -20,7 +20,7 @@ _Platí pro: Project Operations pro scénáře založené na skladovém materiá
 
 Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
 
-  - Řízení projektů a účetnictví v prostředí Dynamics 365 Finance verze 10.0.15
+  - Řízení projektů a účetnictví v Dynamics 365 Finance, verze prostředí 10.0.15
 
 ## <a name="quality-updates"></a>Aktualizace pro zvýšení kvality
 
@@ -139,7 +139,7 @@ Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 36
 
 ## <a name="regulatory-updates"></a>Povinné aktualizace
 
-Informace o povinných aktualizacích pro Dynamics 365 Finance viz [Povinné aktualizace](/dynamics365/finance/localizations/regulatory-updates). Dalším způsobem, jak se dozvědět o aktualizacích předpisů, je přihlásit se do služby Lifecycle Services (LCS) a zobrazit plánované aktualizace předpisů pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
+Informace o regulačních aktualizacích pro Dynamics 365 Finance naleznete v části [Regulační aktualizace](/dynamics365/finance/localizations/regulatory-updates). Dalším způsobem, jak se dozvědět o aktualizacích předpisů, je přihlásit se do služby Lifecycle Services (LCS) a zobrazit plánované aktualizace předpisů pomocí nástroje pro vyhledávání problémů. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

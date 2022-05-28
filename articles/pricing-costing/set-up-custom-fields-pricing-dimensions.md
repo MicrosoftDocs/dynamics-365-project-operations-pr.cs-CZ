@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003583"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599400"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Nastavení vlastních polí jako cenových dimenzí
 
@@ -75,7 +75,7 @@ Existují dva typy cenových dimenzí:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|U zákazníka            |                    |Přesčas                 |15     |
 |             | Contoso India|Místní             |                    |Přesčas                 |10     |
-|             | Contoso (USA)   |Místní             |                    |Přesčas                 |20     |
+|             | Contoso US   |Místní             |                    |Přesčas                 |20     |
 
 
 Pokud zdroj ze společnosti Contoso India, jehož základní sazba je 100 USD, pracuje u zákazníka a zaznamenává do časového záznamu 8 hodin pravidelného času a 2 hodiny přesčasu, použije modul ocenění k zaznamenání 800 USD základní sazbu 100 za 8 hodin. Pro dobu 2 hodin přesčasové práce se na základní sazbu 100 použije přirážka ve výši 15 % pro získání jednotkové ceny 115 USD a zaznamenají se celkové náklady na 230 USD.

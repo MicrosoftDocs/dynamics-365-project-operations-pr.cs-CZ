@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 5788378c7e015c4b11182aaf427aca7d1da48b40
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987383"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598940"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Vytvoření šablony pracovní doby (Project Service)
 
@@ -49,7 +50,7 @@ K vytvoření šablony kalendáře pro vaši organizaci existují dva klíčové
 
 1. Přejděte na **Zdroje** \> **Zdroje**.
 2. Vytvořte nový prostředek, který bude odkazovat v šabloně kalendáře, nebo vyberte existující prostředek.
-3. Vyberte kartu **Pracovní doba** zdroje a postupujte podle pokynů v části [Nastavení pracovní doby zdroje](/dynamics365/field-service/set-work-hours-resource.md) ke konfiguraci pravidel kalendáře.
+3. Vyberte kartu **Pracovní doba** zdroje a postupujte podle pokynů v části [Nastavení pracovní doby zdroje](/dynamics365/field-service/set-work-hours-resource) ke konfiguraci pravidel kalendáře.
 
 **Vytvořit novou šablonu kalendáře**
 

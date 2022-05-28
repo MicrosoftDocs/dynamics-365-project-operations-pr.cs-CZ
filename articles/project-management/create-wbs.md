@@ -4,14 +4,14 @@ description: Tento téma vysvětluje, jak vytvořit strukturovaný rozpis práce
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928607"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597790"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Vytvoření strukturovaného rozpisu prací (WBS)
 
@@ -124,7 +124,7 @@ Pokud používáte strukturovaný rozpis prací v aplikaci Project Operations, m
 |----------------------------------------------------|----------------------|
 | Maximální celkový počet úkolů v projektu                  | 500                  |
 | Maximální celková doba trvání projektu               | 3650 dní (10 let) |
-| Maximální celkový počet zdrojů v projektu              | 150                  |
+| Maximální celkový počet zdrojů v projektu              | 300                  |
 | Maximální celkový počet odkazů (pouze následovník) v projektu | 600                  |
 | Maximální celkový počet vlastních polí v projektu          | 10                   |
 | Maximální počet položek kontrolního seznamu na úkol                   | 20                   |

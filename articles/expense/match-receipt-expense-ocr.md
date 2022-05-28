@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798032"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596272"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Pořízení účtenky pomocí OCR
 
@@ -52,7 +52,7 @@ Chcete-li vytvořit výdaj nebo spárovat výdaj z účtenky, proveďte následu
 
 ## <a name="installation"></a>Instalace
 
-Chcete-li použít tyto pokročilé možnosti výdajů, nainstalujte si doplněk Služba správy výdajů pro Microsoft Dynamics 365 Finance a zapněte funkce ve vaší instanci. K doplňku můžete přistupovat ze svého projektu v Microsoft Dynamics Lifecycle Services (LCS).
+Chcete-li používat tyto pokročilé možnosti výdajů, nainstalujte doplněk služby správy výdajů pro Microsoft Microsoft Dynamics 365 Finance a zapněte funkce ve vaší instanci. K doplňku můžete přistupovat ze svého projektu v Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Přihlaste se do LCS a otevřete požadované prostředí.
 2. Přejděte na **Úplné podrobnosti**.
