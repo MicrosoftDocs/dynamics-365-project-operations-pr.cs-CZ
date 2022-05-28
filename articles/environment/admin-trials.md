@@ -2,22 +2,22 @@
 title: Registrace ke zkušební verzi Project Operations
 description: Toto téma obsahuje informace o tom, jak nasadit zkušební verzi projektu Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901609"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584266"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrace ke zkušební verzi Project Operations 
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení – od obchodu po proforma fakturaci a Project Operations pro scénáře založené na skladovém materiálu / výrobě_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Toto téma vysvětluje, jak se přihlásit k odběru zkušební nabídky partnera a jak nasadit prostředí Dynamics 365 Project Operations.
 
@@ -36,7 +36,6 @@ Následující tabulka obsahuje podrobnosti o nové zkušební nabídce.
 | Použití nabídky                    | Jedenkrát na klienta                          |
 | Trvání nabídky               | 30 kalendářních dní                             |
 | Uplatnění na klienta       | 0                                            |
-| Počet uživatelů              | 25                                           |
 | Přípona                    | 1 prodloužení, 30 kalendářních dní               |
 | Počet zkušebních prostředí | 3                                            |
 
@@ -87,7 +86,7 @@ Než začnete, přihlaste se do prohlížeče pomocí uživatelského pracovníh
  
   Když je zřizování dokončeno, stav vašeho prostředí je **Připraveno**. Zřizování prostředí zahrnuje nasazení ukázkových dat.
  
-4.  Vyberte příslušnou adresu URL aplikace Microsoft Dataverse a adresy URL aplikací Finance and Operations k ověření nasazení.
+4.  Vyberte příslušnou adresu URL aplikace Microsoft Dataverse a adresy URL finančních a provozních aplikací k ověření nasazení.
 
 ## <a name="configuring-dual-write"></a>Jak konfigurovat duální zápis.
 - Chcete-li konfigurovat role zabezpečení pro duální zápis, pročtěte si článek [Aktualizace nastavení zabezpečení u Project Operations v Dataverse](resource-provision-new-environment.md).
@@ -97,7 +96,7 @@ Než začnete, přihlaste se do prohlížeče pomocí uživatelského pracovníh
 
 Budete potřebovat přístup správce k portálu Microsoft 365 vaší organizace, abyste mohli dokončit následující kroky.
 
-1. Přejdete na [Centrum pro správu Microsoft 365](https://portal.office.com/) a přiřaďte licence vašim uživatelům.
+1. Přejděte do [centra pro správu Microsoft 365](https://portal.office.com/) a přiřaďte licence vašim uživatelům.
 
    ![Domovská stránka centra pro správu](./media/14AdminPortal.png)
 
@@ -117,7 +116,7 @@ Následující zdroje poskytují užitečné pokyny na začátku vaší práce s
 
 ## <a name="frequently-asked-questions"></a>Nejčastější dotazy
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Co když požaduji ALM nebo ELM pro svoje prostředí aplikací Finance and Operations?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Co když potřebuji ALM nebo ELM pro mé prostředí finančních a provozních aplikací?
 
 - Pro partnery, kteří vyžadují úplné možnosti správy životního cyklu prostředí. Projdete si novou nabídku pro partnery [Žádost o licenci Partner Sandbox](https://experience.dynamics.com/requestlicense). 
 - Pro partnery, kteří hledají další informace o právech na interní užívání. Viz [Výhody cloudových a softwarových práv pro interní použití (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +124,7 @@ Následující zdroje poskytují užitečné pokyny na začátku vaší práce s
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Mohu si zkušební dobu prodloužit na více než 30 dní?
 Chcete-li si zkušební verzi prodloužit, proveďte následující kroky.
 
-1. V centru pro správu **Centrum pro správu Microsoft 365** přejděte do části **Fakturace** > **Produkty pro vás**.
+1. V **centru pro správu Microsoft 365** přejděte na **Fakturace** > **Vaše produkty**.
 2. Vyberte **Dynamics 365 Project Operations (CE) - Zkušební ukázka (CE)**.
 3. V části **Datum spotřeby**, vyberte **Prodloužit datum**.
 

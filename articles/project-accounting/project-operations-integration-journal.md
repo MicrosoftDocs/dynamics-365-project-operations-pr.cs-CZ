@@ -4,29 +4,29 @@ description: Tohle téma poskytuje informace o práci s deníkem integrace v Pro
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5e1a455d055fe562a1946cc3b90c8274ef1a4b12
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987923"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582426"
 ---
 # <a name="integration-journal-in-project-operations"></a>Deník integrace v Project Operations
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-Položky času a výdajů vytvářejí **Skutečné** transakce, které představují provozní zobrazení práce provedenou v rámci projektu. Dynamics 365 Project Operations poskytuje účetním nástroj pro kontrolu transakcí a úpravu účetních atributů podle potřeby. Po dokončení kontroly a úprav jsou transakce zaúčtovány do dílčí hlavní knihy a hlavní knihy projektu. Účetní může tyto činnosti provádět pomocí **deníku integrace Project Operations** (**Dynamics 365 Finance** > **Řízení projektů a účetnictví** > **Deníky** > **Deník integrace Project Operations**.
+Položky času a výdajů vytvářejí **Skutečné** transakce, které představují provozní zobrazení práce provedenou v rámci projektu. Dynamics 365 Project Operations poskytuje účetním nástroj pro kontrolu transakcí a úpravu účetních atributů podle potřeby. Po dokončení kontroly a úprav jsou transakce zaúčtovány do dílčí hlavní knihy a hlavní knihy projektu. Účetní může tyto činnosti provádět pomocí deníku **Integrace Project Operations** (**Dynamics 365 Finance** > **Řízení projektů a účetnictví** > **Deníky** > deník **Integrace Project Operations**.
 
 ![Tok deníku integrace.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Vytvoření záznamů v deníku integrace Project Operations
 
-Záznamy v deníku integrace Project Operations jsou vytvářeny pomocí periodického procesu **Import z pracovní tabulky**. Tento proces můžete spustit přechodem na **Dynamics 365 Finance** > **Řízení projektů a účetnictví** > **Periodické** > **Integrace Project Operations** > **Import z pracovní tabulky**. Proces můžete spustit interaktivně nebo jej nakonfigurovat tak, aby běžel na pozadí podle potřeby.
+Záznamy v deníku integrace Project Operations jsou vytvářeny pomocí periodického procesu **Import z pracovní tabulky**. Tento proces můžete spustit přechodem na **Dynamics 365 Finance** > **Řízení a účetnictví projektů** > **Periodické** > **Integrace Project Operations** > **Import z tabulky fázování**. Proces můžete spustit interaktivně nebo jej nakonfigurovat tak, aby běžel na pozadí podle potřeby.
 
 Když se periodický proces spustí, budou nalezeny všechny skutečné hodnoty, které ještě nejsou přidány do deníku integrace Project Operations. Vytvoří se řádek deníku pro každou transakci skutečné hodnoty.
-Systém seskupuje řádky deníku do samostatných deníků na základě hodnoty vybrané v poli **Jednotka období v deníku integrace Project Operations** (**Finance** > **Řízení projektů a účetnictví** > **Nastavení** > **Parametry řízení projektů a účetnictví**, karta **Project Operations v Dynamics 365 Customer Engagement**). Možné hodnoty pro toto pole zahrnují:
+Systém seskupí řádky deníku do samostatných deníků na základě hodnoty vybrané v poli **Jednotka období v deníku integrace Project Operations** (**Finance** > **Řízení a účetnictví projektů** > **Nastavení** > **Parametry modulu Řízení a účetnictví projektu**, karta **Project Operations v Dynamics 365 Customer Engagement**). Možné hodnoty pro toto pole zahrnují:
 
   - **Dny**: Skutečné hodnoty jsou seskupeny podle data transakce. Pro každý den se vytvoří samostatný deník.
   - **Měsíce**: Skutečné hodnoty jsou seskupeny podle kalendářních měsíců. Pro každý měsíc se vytvoří samostatný deník.
@@ -40,10 +40,10 @@ Systém seskupuje řádky deníku do samostatných deníků na základě hodnoty
   - Pole **Poukaz** pole zobrazuje číslo poukazu pro každou skutečnou transakci. Pořadí čísel poukazů je definováno na kartě **Číselné řady** na stránce **Parametry řízení projektů a účetnictví**. Každému řádku je přiřazeno nové číslo. Po odeslání poukazu můžete zobrazit, jak souvisí cena a nefakturovaná prodejní transakce, výběrem možnosti **Související poukazy** na stránce **Transakce poukazů**.
   - Pole **Kategorie** představuje transakci projektu a výchozí hodnoty na základě kategorie transakcí pro související skutečnou hodnotu projektu.
     - Pokud je **Kategorie transakce** nastavena ve skutečné hodnotě projektu a existuje související **Kategorie projektu** v dané právnické osobě, kategorie se automaticky nastaví na kategorii tohoto projektu.
-    - Pokud není **Kategorie transakce** nastavena ve skutečné hodnotě projektu, systém použije hodnotu v poli **Výchozí hodnoty kategorie projektu** na kartě **Project Operations v Dynamics 365 Customer Engagement** na stránce **Parametry řízení projektů a účetnictví**.
+    - Pokud **Kategorie transakce** není nastavena ve skutečných hodnotách projektu, systém použije hodnotu nastavenou v poli **Výchozí kategorie projektu** na kartě **Project Operations v Dynamics 365 Customer Engagement** na stránce **Parametry modulu Řízení a účetnictví projektu**.
   - Pole **Zdroj** představuje zdroj projektu související s touto transakcí. Zdroj se používá jako odkaz v návrzích faktur projektu pro zákazníky.
-  - Pole **Směnný kurz** se automaticky nastaví podle hodnoty **Směnný kurz měny** nastavené v Dynamics 365 Finance. Pokud nastavení směnného kurzu chybí, periodický proces **Import z pracovní tabulky** nepřidá záznam do deníku a do protokolu o spuštění úlohy bude přidána chybová zpráva.
-  - Pole **Vlastnost řádku** představuje typ fakturace ve skutečných hodnotách projektu. Vlastnost řádku a mapování typu fakturace jsou definovány na kartě **Project Operations v Dynamics 365 Customer Engagement** na stránce **Parametry řízení projektů a účetnictví**.
+  - Pole **Směnný kurz** přebírá výchozí hodnoty ze **Směnného kurzu měny** nastaveného v Dynamics 365 Finance. Pokud nastavení směnného kurzu chybí, periodický proces **Import z pracovní tabulky** nepřidá záznam do deníku a do protokolu o spuštění úlohy bude přidána chybová zpráva.
+  - Pole **Vlastnost řádku** představuje typ fakturace ve skutečných hodnotách projektu. Vlastnost řádku a mapování typu účtování jsou definovány na kartě **Project Operations v Dynamics 365 Customer Engagement** na stránce **Parametry modulu Řízení a účetnictví projektu**.
 
 V řádcích deníku integrace Project Operations lze aktualizovat pouze následující účetní atributy:
 

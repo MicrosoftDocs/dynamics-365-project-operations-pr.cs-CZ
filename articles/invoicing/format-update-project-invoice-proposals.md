@@ -4,14 +4,14 @@ description: Toto téma obsahuje informace o zpracování faktur pro zákazník
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989903"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585600"
 ---
 # <a name="manage-project-invoice-proposals"></a>Správa návrhů faktury projektu
 
@@ -22,7 +22,7 @@ Vaše fakturační oddělení může zpracovat návrhy faktury za projekt, pokud
   - Manažer projektu potvrdí proforma fakturu v Microsoft Dataverse.
   - Všechny časově a materiálně nevyfakturované prodejní transakce, které jsou zahrnuty do pro forma faktury, se zaúčtují pomocí deníku integrace Dynamics 365 **Project Operations**.
 
-Pomocí následujících kroků dokončete návrh faktury projektu v Dynamics 365 Finance.
+Pomocí následujících kroků dokončete návrh projektové faktury v Dynamics 365 Finance.
 
 1. Zkontrolujte fakturační údaje týkající se časových a věcných materiálových transakcí a zaúčtujte deník **integrace Project Operations**.
 2. Zkontrolujte fakturační údaje pro milníky fakturace s pevnou cenou.

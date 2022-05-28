@@ -6,29 +6,25 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986708"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582795"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Vytváření a potvrzení deníků oprav
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Někdy může být nesprávně zadán údaj o čase nebo výdaji. Poradce může například při vytváření časového záznamu vybrat nesprávné datum nebo při zadávání výdaje může transponovat čísla. Pokud konzultant nemůže provést aktualizace odeslaných zadání, může správce přímo opravit záznam pro projekt.
-
-K dokončení postupů v tomto tématu budete potřebovat oprávnění správce.
+Občas může být nesprávně zadán čas nebo výdaj. Konzultant může například vybrat nesprávné datum při vytváření časového záznamu nebo může vybrat nesprávný projekt, když zadává výdaj. Pokud konzultant nemůže aktualizovat odeslané záznamy, může back-end správce přímo opravit skutečné hodnoty pro projekt.
 
 ## <a name="correct-approved-time-entries"></a>Oprava schválených časových údajů     
 
@@ -46,8 +42,8 @@ Chcete-li opravit jeden nebo více časových záznamů pro projekt, proveďte n
 
 6. Vyberte **Náhled**. V dialogovém okně vyberte **OK**. Na kartě **Řádky deníku** můžete zobrazit seznam původních skutečných hodnot, které se vztahují k vybraným časovým záznamům, které byly stornovány, a opraveným odpovídajícím řádkům, které byly vytvořeny. Pokud je třeba provést další opravy, opakujte kroky 5 a 6. 
 
-> [!NOTE]
-> Všechny opravené skutečné hodnoty budou mít stejné hodnoty, jaké jste vybrali v části **Nové hodnoty pro časové záznamy**.
+    > [!NOTE]
+    > Všechny opravené skutečné hodnoty budou mít stejné hodnoty, jaké jste vybrali v části **Nové hodnoty pro časové záznamy**.
 
 7. Pokud se opravy objeví podle očekávání, vyberte **Potvrdit**. V dialogovém okně vyberte **OK**.
 
@@ -55,12 +51,10 @@ Chcete-li opravit jeden nebo více časových záznamů pro projekt, proveďte n
 
 9. Na stránce **Projekty** na kartě **Skutečné hodnoty** zobrazte provedené změny. 
 
-> [!NOTE]
-> Pokud není karta **Skutečné hodnoty** viditelná, vyberte **Související** > **Skutečné hodnoty**.  
+    > [!NOTE]
+    > Pokud není karta **Skutečné hodnoty** viditelná, vyberte **Související** > **Skutečné hodnoty**.  
 
 10. V seznamu **Přidružené zobrazení skutečností** můžete vidět, že původní časové záznamy, které byly stornovány, jsou stále uvedeny, stejně jako odpovídající opravené časové záznamy. 
-
-Například v následující grafice jsou dvě položky řádku s množstvím 8,00, jejichž debety jsou uvedeny ve sloupci Částka. Navíc jsou ve sloupci Částka dvě položky řádku s množstvím -8,00, které zobrazují připsané částky. Tyto korekce uvádějí množství na nulu.
 
  
 ## <a name="correct-approved-expense-entries"></a>Oprava schválených záznamů výdajů
@@ -79,14 +73,30 @@ Chcete-li opravit jeden nebo více záznamů výdajů, proveďte následující 
 
 6. Pokud opravené hodnoty odpovídají očekávání, vyberte **Potvrdit**. V dialogovém okně vyberte **OK**. Pokud se hodnoty nezobrazují podle očekávání, vyberte **Zrušit** a vraťte se do seznamu **Schválené výdaje**. Opakujte kroky 2 až 5. 
 
-> [!NOTE]
-> Opravené skutečné hodnoty budou mít stejné hodnoty, jaké jste vybrali v části **Nové hodnoty pro výdaje**.
+7. Po potvrzení deníku oprav se vraťte k projektu nebo projektům, které jste aktualizovali, abyste viděli své změny.
 
-7. Po potvrzení deníku oprav přejděte zpět k projektu nebo projektům, které jste aktualizovali, a zobrazte své změny.  
-
-8. Na stránce projektu na kartě **Skutečné hodnoty** zkontrolujte **Přidružené zobrazení skutečností**. Jsou uvedeny původní záznamy a opravené záznamy. Následující obrázek ukazuje původní částky záznamu výdajů a odpovídající opravené položky částek zadaných výdajů. 
+8. Na stránce projektu na kartě **Skutečné hodnoty** zkontrolujte seznam **Přidružené zobrazení skutečných hodnot**. Jsou uvedeny původní záznamy a opravené záznamy.
 
 
+## <a name="correct-approved-material-usage-logs"></a>Oprava protokolů schváleného použití materiálu
+
+Chcete-li opravit jeden nebo více záznamů v protokolu použití materiálu, proveďte následující kroky.
+
+1. V oblasti **Prodej** v levém navigačním podokně v sekci **Transakce** vyberte **Skutečné hodnoty**.
+
+2. V seznamu **Skutečné hodnoty** pomocí sloupcových filtrů vyberte třídu transakcí **Materiál**, takže jsou zobrazeny pouze skutečné hodnoty materiálů. K dalšímu omezení zobrazených skutečných hodnot použijte filtry dalších sloupců. Poté, co najdete požadovanou sadu skutečných hodnot, vyberte skutečné hodnoty a poté vyberte **Opravit položky**. Automaticky se vytvoří nový deník oprav a je přiřazen typ **Oprava materiálu**.
+
+3. Na stránce **Nový deník** v poli **Popis** zadejte popis opravy. Poté na kartě **Oprava materiálu** v sekci **Nové hodnoty pro materiály** vyberte datová pole, která chcete u vybraných materiálových řádků opravit. Můžete například přiřadit materiál k jinému projektu nebo opravit produkt, datum materiálu nebo subdodávku.
+
+4. Vyberte **Náhled**. Poté v dialogovém okně vyberte **OK**.
+
+5. Na kartě **Řádky deníku** ověřte provedené opravy. Můžete zobrazit seznam původních skutečných hodnot, které souvisejí s vybranými stornovanými položkami materiálu a opravenými odpovídajícími řádky, které byly vytvořeny.
+
+6. Pokud opravené hodnoty odpovídají očekávání, vyberte **Potvrdit**. Poté v dialogovém okně vyberte **OK**. Pokud hodnoty nejsou podle očekávání, příkazem **Zrušit** se vraťte do seznamu **Skutečné hodnoty**. Pak opakujte kroky 2 až 5.
+
+7. Po potvrzení deníku oprav se vraťte k projektu nebo projektům, které jste aktualizovali, abyste viděli své změny.
+
+8. Na stránce projektu na kartě **Skutečné hodnoty** zkontrolujte seznam **Přidružené zobrazení skutečných hodnot**. Jsou uvedeny původní záznamy a opravené záznamy.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

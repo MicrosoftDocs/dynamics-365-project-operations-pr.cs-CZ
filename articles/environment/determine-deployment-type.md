@@ -4,14 +4,14 @@ description: Tento téma poskytuje informace, které vám pomůžou určit hlavn
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994628"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584128"
 ---
 # <a name="determine-your-deployment-type"></a>Určení typu nasazení
 
@@ -25,7 +25,7 @@ _**Platí pro:** Project Operations scénáře založené na zdrojích / položk
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Stávající zákazníci Dynamics pomocí Dynamics 365 Project Service Automation
 Project Operations zahrnuje funkce dodávané s Project Service Automation. Pro tyto zákazníky bude v 1. vlně vydání v roce 2021 uvolněna cesta k upgradu.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Stávající zákazníci Dynamics 365 Finance pomocí Projektového řízení a účetnictví 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Stávající zákazníci Dynamics 365 Finance využívající Řízení projektů a účetnictví 
 
 Stávající zákazníci řešení Finance, kteří používají funkce správy projektů a účetnictví, je mohou i nadále používat tak, jak jsou. Viz [Project Operations pro scénáře se skladovým materiálem a výrobními příkazy](#pma)
 
@@ -42,7 +42,7 @@ Náš [Dotazník o nasazení](https://aka.ms/provisionprojectoperations) vám po
 - [Project Operations pro scénáře se zdroji bez skladových materiálů](#integrated)
 - [Project Operations pro scénáře se skladovým materiálem a výrobními příkazy](#pma)
 
-Project Operation podporují scénáře zásob / výrobní zakázky a scénáře bez zásob / zdrojů ve stejném prostředí prostřednictvím konfigurací na úrovni právnických osob. Například Contoso mohou využívat možnosti skladové/výrobní zakázky ve svém výrobním závodě v USA (právnická osoba =Contoso Manufacturing United States). Contoso může využívat možnosti, které nejsou na základě skladu/prostředků, ve svém servisním závodě Contoso Robotics Arms ve Velké Británii (právnická osoba = Contoso Robotics United Kingdom).
+Project Operation podporují scénáře zásob / výrobní zakázky a scénáře bez zásob / zdrojů ve stejném prostředí prostřednictvím konfigurací na úrovni právnických osob. Například společnost Contoso může využívat možnosti skladového materiálu / výrobní objednávky ve svém výrobním závodě v USA (právnická osoba = Contoso Manufacturing United States). Společnost Contoso může ve svém servisním zařízení Contoso Robotics Arms ve Velké Británii využívat funkce, které nejsou skladové / založené na zdrojích (právnická osoba = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Omezené nasazení – od obchodu po pro forma fakturaci
 

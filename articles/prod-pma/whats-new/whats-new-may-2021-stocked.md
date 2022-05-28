@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: c4f58842c33ec5f45a6cd9ea4bd0e73b0aa693b7cecf63bfa8889a5671840d7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 701ed791dce2dd0f7d196810de7538c65cb99d93
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991118"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586290"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Co je nového nebo se změnilo v Project Operations, květen 2021, pro scénáře založené na skladovém materiálu / výrobě
 
@@ -20,7 +20,7 @@ ms.locfileid: "6991118"
 
 Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
 
-- Řízení projektů a účetnictví v prostředí Dynamics 365 Finance verze 10.0.19
+- Řízení projektů a účetnictví v Dynamics 365 Finance, verze prostředí 10.0.19
  
 ### <a name="quality-updates"></a>Aktualizace pro zvýšení kvality
                                                                                                                                                                                   
@@ -93,7 +93,7 @@ Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 36
 | Cestování a výdaje                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | V mobilní aplikaci Expense jsou problémy se synchronizací. 
 
 ### <a name="regulatory-updates"></a>Povinné aktualizace
-Informace o povinných aktualizacích pro aplikace Finance and Operations viz [Povinné aktualizace](/dynamics365/finance/localizations/regulatory-updates). Můžete se také přihlásit do služby Lifecycle Services (LCS) a zobrazit plánované aktualizace předpisů pomocí vyhledávacího nástroje Vydání. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
+Informace o regulačních aktualizacích pro finanční a provozní aplikace naleznete v části [Regulační aktualizace](/dynamics365/finance/localizations/regulatory-updates). Můžete se také přihlásit do služby Lifecycle Services (LCS) a zobrazit plánované aktualizace předpisů pomocí vyhledávacího nástroje Vydání. Hledání problému vám umožňuje vyhledávat podle země, typu funkce a vydání.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,16 @@
 title: Nastavení projektové smlouvy – omezené
 description: Toto téma poskytuje informace o polích, která mají dopad na řádky smlouvy, a informacích o smlouvě, které jsou shrnuty za všechny řádkové položky.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995933"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586382"
 ---
 # <a name="header-details-for-project-contracts"></a>Podrobnosti záhlaví pro projektové smlouvy
 
@@ -32,12 +32,15 @@ V následující tabulce jsou uvedena pole na kontraktu projektu, která jsou je
 | Nepřekročitelný limit | Karta **Souhrn** | Toto pole označuje vyjednanou horní mez konečné hodnoty, se kterou zákazník u tohoto obchodu souhlasil. | Horní mez se vyhodnocuje během provádění a je použitelná ve všech řádkových položkách a projektech přidružených k tomuto obchodu. |
 | Požadované datum dodávky | Karta **Souhrn** | Když je smlouva vytvořena z projektové nabídky, zkopíruje se toto pole z odpovídajícího pole záznamu projektové nabídky. | Toto datum se používá jako konečné datum pro generování rozpisů faktur. |
 
-Na kartě **Plnění smlouvy** projektové smlouvy jsou k dispozici následující KPI.
+Na kartě **Plnění smlouvy** projektové smlouvy jsou k dispozici následující KPI. 
 
-| Pole | Místo | Popis |
+>[!NOTE]
+>Všechny částky na kartě **Plnění smlouvy** jsou vyjádřeny ve výchozí měně prostředí.
+
+| Pole | Umístění | Description |
 | --- | --- | --- |
-| Hodnota smlouvy | Souhrnná smlouva | Celková hodnota projektové smlouvy. |
-| Fakturovaná částka | Souhrnná smlouva | Součet částek na všech fakturách uplatněných vůči této smlouvě. |
+| Hodnota smlouvy | Souhrnná smlouva | Celková hodnota projektové smlouvy.|
+| Fakturovaná částka | Souhrnná smlouva | Součet částek na všech fakturách uplatněných vůči této smlouvě.|
 | Vzniklé náklady | Souhrnná smlouva | Součet všech skutečných nákladů zaznamenaných u všech projektů, které jsou mapovány na smlouvu. |
 | Hrubá marže | Souhrnná smlouva | Fakturovaná částka - Náklady vzniklé do data / Fakturovaná částka |
 | Očekávaná marže | Souhrnná smlouva | (Hodnota smlouvy - Odhadované náklady) / Hodnota smlouvy Odhadované náklady = součet všech odhadovaných nákladů u všech projektů mapovaných na smlouvu.|

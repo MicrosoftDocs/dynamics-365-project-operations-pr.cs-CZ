@@ -4,20 +4,20 @@ description: Toto téma obsahuje informace o modelu zabezpečení v Dynamics 365
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8ba220097589655381ac1da5d4d926605c3ae672
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991478"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585738"
 ---
 # <a name="security-model"></a>Model zabezpečení
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Microsoft Dynamics 365 Project Operations obsahuje jedinečný model zabezpečení, který umožňuje obchodní model zabezpečení založený na rolích, kterým spolupracuje se skupinami Microsoft Office. 
 
@@ -70,7 +70,7 @@ Během dalšího vývoje modelu skupinové spolupráce Office do něj bude přid
 
 Další informace najdete v tématu [Zabezpečení v rámci služby Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Zabezpečení v Project Operations a Microsoft Dynamics 365 Finance
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Zabezpečení Project Operations a Microsoft Dynamics 365 Finance
 Project Operations zahrnuje následující role:
 
 - Vedoucí projektu

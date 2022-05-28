@@ -4,16 +4,16 @@ description: Toto téma poskytuje informace o hotovostních zálohách.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6881fc8251a2d3c7d6af0016780a92358ce63397d09b9a0cde201126cd2912cc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8151ecfb83f0d6da32451d509364b8f63dffdb4d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988508"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585692"
 ---
 # <a name="cash-advance"></a>Hotovostní záloha
 
@@ -66,7 +66,7 @@ Před odesláním výkazu výdajů můžete vybrat hotovostní zálohu, která o
  
  Když jsou povoleny tyto funkce:
  
-  - Pro každý výdajový řádek můžete přidat jednu nebo více peněžních záloh.
+  - Pro každý výdajový řádek můžete přidat jednu nebo více hotovostních záloh.
   - Dostupný zůstatek hotovostní zálohy je viditelný v reálném čase, když je uložena sestava výdajů. To vám umožňuje zpracovávat výdajové transakce a současně vracet hotovostní transakce.
   - Pro jednu výdajovou transakci můžete přidat více peněžních záloh.
   - Data odsouhlasení zálohy v hotovosti jsou k dispozici pomocí dotazu. 

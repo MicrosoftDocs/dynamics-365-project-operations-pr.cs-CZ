@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 7016d702719b2d432ec929aaca8d609ebf6e996b
-ms.sourcegitcommit: abdd6cb3461ebb12fd2ca7ea78439c29aecd0a94
+ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7815841"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582012"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Co je nového nebo co se změnilo v Project Operations pro scénáře založené na skladovém materiálu / výrobě, září 2021
 
@@ -91,6 +91,6 @@ Toto téma se vztahuje na následující součásti a verze aplikace Microsoft D
 
 ## <a name="regulatory-updates"></a>Povinné aktualizace
 
-Informace o povinných aktualizacích pro aplikace Finance and Operations viz [Povinné aktualizace](/dynamics365/finance/localizations/regulatory-updates). Můžete se také přihlásit do služeb Microsoft Dynamics Lifecycle Services (LCS) a použít nástroj pro vyhledávání problémů k zobrazení plánovaných regulačních aktualizací. Hledání problémů vám umožňuje vyhledávat podle země nebo oblasti, typu funkce a vydání.
+Informace o regulačních aktualizacích pro finanční a provozní aplikace naleznete v části [Regulační aktualizace](/dynamics365/finance/localizations/regulatory-updates). Můžete se také přihlásit do služeb Microsoft Dynamics Lifecycle Services (LCS) a použít nástroj pro vyhledávání problémů k zobrazení plánovaných regulačních aktualizací. Hledání problémů vám umožňuje vyhledávat podle země nebo oblasti, typu funkce a vydání.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
