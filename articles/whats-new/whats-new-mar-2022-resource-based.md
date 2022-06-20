@@ -1,24 +1,24 @@
 ---
 title: Co je nového, březen 2022 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
-description: Toto téma poskytuje informace o aktualizacích kvality, které jsou k dispozici ve verzi Project Operations z března 2022 pro scénáře založené na zdrojích / neskladových položkách.
+description: Tento článek poskytuje informace o aktualizacích kvality, které jsou k dispozici ve verzi Project Operations z března 2022 pro scénáře založené na zdrojích / neskladových položkách.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: afd5149cda909b5367e7f12382423179d7e19267
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 986d0652ed502873085259fef5ad40aba99c278d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600734"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910898"
 ---
 # <a name="whats-new-march-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového, březen 2022 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
 *Platí pro: Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě*
 
-Toto téma se vztahuje na následující součásti a verze aplikace Microsoft Dynamics 365 Project Operations:
+Tento článek se vztahuje na následující součásti a verze aplikace Microsoft Dynamics 365 Project Operations:
 
 - Project Operations v prostředí Dataverse verze 4.30.0.99
 - Řízení projektů a účetnictví v Dynamics 365 Finance, verze prostředí 10.0.25
@@ -91,11 +91,11 @@ Pokud při spuštění mapy narazíte na problém, postupujte podle pokynů v č
 
 ## <a name="removed-and-deprecated-features"></a>Odstraněné a zastaralé funkce
 
-Téma [Odebrané nebo zastaralé funkce v Project Operations](removed-depreciated-features-project.md) popisuje funkce, které byly odstraněny nebo které byly zastaralé pro Dynamics 365 Project Operations.
+Článek [Odebrané nebo zastaralé funkce v Project Operations](removed-depreciated-features-project.md) popisuje funkce, které byly odstraněny nebo které byly zastaralé pro Dynamics 365 Project Operations.
 
 - Odebraná funkce již v produktu není k dispozici.
 - Zastaralá funkce není v aktivním nasazení a v budoucí aktualizaci může být odstraněna.
 
-Oznámení o zastarání se objeví v tématu [Odebrané nebo zastaralé funkce v Project Operations](removed-depreciated-features-project.md) 12 měsíců před odebráním funkce z produktu.
+Oznámení o zastarání se objeví v článku [Odebrané nebo zastaralé funkce v Project Operations](removed-depreciated-features-project.md) 12 měsíců před odebráním funkce z produktu.
 
 U změn způsobujícíh chyby, které ovlivní pouze dobu kompilace, ale jsou v binárním formátu kompatibilní s prostředím sandbox a produkčními prostředími, bude doba zastarání kratší než 12 měsíců. Obvykle se jedná o funkční aktualizace, které je nutné provést v kompilátoru.

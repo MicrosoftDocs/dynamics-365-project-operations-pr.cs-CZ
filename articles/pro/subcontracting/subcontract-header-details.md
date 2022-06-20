@@ -1,17 +1,17 @@
 ---
 title: Podrobnosti záhlaví pro subdodávky
-description: Toto téma vysvětluje funkce poskytované v záhlaví subdodávky v Project Operations.
+description: Tento článek vysvětluje funkce poskytované v záhlaví subdodávky v Project Operations.
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fade0ff876486ad60ffd9ad618be7864c1b28185
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 85649d08228b16178eb8d6be9af5a6731def74bf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598158"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914164"
 ---
 # <a name="header-details-for-subcontracts"></a>Podrobnosti záhlaví pro subdodávky
 
@@ -19,7 +19,7 @@ ms.locfileid: "8598158"
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
-Toto téma vysvětluje funkce poskytované v záhlaví subdodávky v Dynamics 365 Project Operations.
+Tento článek vysvětluje funkce poskytované v záhlaví subdodávky v Dynamics 365 Project Operations.
 
 Když projektový manažer plánuje a provádí projekty, může zaměstnávat subdodavatele a nakupovat produkty a služby od prodejců. Když správce projektu potřebuje zakoupit produkty nebo služby, může vytvořit subdodávku v Project Operations.
 

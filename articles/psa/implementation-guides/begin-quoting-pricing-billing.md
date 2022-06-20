@@ -1,6 +1,6 @@
 ---
 title: Základní příručka pro vypracovávání nabídek, vytváření cenových kalkulací a generování faktur
-description: Toto téma obsahuje odkazy na informace o základním vypracovávání nabídek, vytváření cenových kalkulací a generování faktur v Project Service Automation.
+description: Tento článek obsahuje odkazy na informace o základním vypracovávání nabídek, vytváření cenových kalkulací a generování faktur v Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592224"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910786"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Základní příručka pro vypracovávání nabídek, vytváření cenových kalkulací a generování faktur
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592224"
 
 Schopnost najít správné zdroje ve správný čas, rezervovat tyto zdroje pro projekty a udržovat zdroje využité pomáhá organizacím plnit výnosové cíle a cíle spokojenosti zákazníků. 
 
-Odkaz na soubor PDF, který byl dříve v tomto tématu, byl odebrán a obsah byl přesunut do následujících témat:
+Odkaz na soubor PDF, který byl dříve v tomto článku, byl odebrán a obsah byl přesunut do následujících článků:
 
 - [Vypracovávání nabídek, vytváření cenových kalkulací a generování faktur](../quote-bill-price.md)
 - [Prodejní procesy](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Odkaz na soubor PDF, který byl dříve v tomto tématu, byl odebrán a obsah by
 - [Záznam skutečných hodnot](../advanced-actuals.md)
 
 > [!NOTE]
-> Toto téma bude v budoucí aktualizaci dokumentace odebráno. 
+> Tento článek bude v budoucí aktualizaci dokumentace odebrán. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

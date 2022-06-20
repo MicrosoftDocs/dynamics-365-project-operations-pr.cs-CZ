@@ -1,6 +1,6 @@
 ---
 title: Domovská stránka správy zdrojů
-description: Toto téma obsahuje informace o způsobu správy zdrojů.
+description: Tento článek obsahuje informace o způsobu správy zdrojů.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578746"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913244"
 ---
 # <a name="resource-management-home-page"></a>Domovská stránka správy zdrojů
 
@@ -31,9 +31,9 @@ ms.locfileid: "8578746"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Zdroje jsou nejdůležitějším majetkem organizace založené na službách. Schopnost najít a rezervovat správné zdroje, když je potřebujete a udržovat je využité, pomáhá organizaci plnit výnosové cíle a cíle spokojenosti zákazníků. Následující témata se zaměřují na funkce správy zdrojů Dynamics 365 Project Service Automation:
+Zdroje jsou nejdůležitějším majetkem organizace založené na službách. Schopnost najít a rezervovat správné zdroje, když je potřebujete a udržovat je využité, pomáhá organizaci plnit výnosové cíle a cíle spokojenosti zákazníků. Následující články se zaměřují na funkce správy zdrojů Dynamics 365 Project Service Automation:
 
-- [Správa zdrojů](manage-resources.md)
+- [Řízení zdrojů](manage-resources.md)
 - [Důležité koncepce](reports-key-concepts.md)
 - [Plnění žádostí o zdroje](resource-management-fulfill-requests.md)
 - [Navrhování zdrojů](resource-management-propose-resources.md)

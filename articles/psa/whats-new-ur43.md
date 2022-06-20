@@ -1,6 +1,6 @@
 ---
 title: Novinky a změny v aplikaci Project Service Automation, aktualizace verze 43, V3
-description: Toto téma obsahuje funkce a opravy, které jsou k dispozici ve Microsoft Dynamics 365 Project Service Automation vydání aktualizace 43, V3.
+description: Tento článek uvádí funkce a opravy, které jsou k dispozici v Microsoft Dynamics 365 Project Service Automation, vydání Update 43, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/04/2022
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: fcf18a24b3bc354a16a415368063133743e79696
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: b12cfda08f1ea1fc441782003130be445a437f7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8709976"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915301"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-43-v3"></a>Novinky a změny v aplikaci Project Service Automation, aktualizace verze 43, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8709976"
 
 S potěšením oznamujeme nejnovější aktualizaci pro aplikaci Microsoft Dynamics 365 Project Service Automation. Tato verze obsahuje některá důležitá vylepšení kvality, výkonu a použitelnosti. Je kompatibilní s Dynamics 365 9.x. Chcete-li provést aktualizaci na toto vydání, navštivte stránku Centra pro správu online řešení Dynamics 365 a nainstalujte aktualizaci. Další informace viz [Instalace, aktualizace nebo odebrání preferovaného řešení](/power-platform/admin/install-remove-preferred-solution).
 
-Tohle téma uvádí seznam funkcí a oprav, které jsou nové nebo změněné v aktualizaci verze 43 pro aplikaci Project Service Automation V3. Tato verze má číslo sestavení V3.10.74.200 a je obvykle k dispozici prostřednictvím automatické aktualizace v květnu 2022.
+Tento článek uvádí funkce a opravy, které jsou nové nebo se změnily v Project Service Automation, vydání Update 43, V3. Tato verze má číslo sestavení V3.10.74.200 a je obvykle k dispozici prostřednictvím automatické aktualizace v květnu 2022.
 
 ## <a name="update-release-43"></a>Aktualizace verze 43
 

@@ -1,6 +1,6 @@
 ---
 title: Domovská stránka plánování projektu
-description: Toto téma obsahuje informace o plánování projektu.
+description: Tento článek obsahuje informace o plánování projektu.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588131"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919040"
 ---
 # <a name="project-planning-home-page"></a>Domovská stránka plánování projektu
 
@@ -43,7 +43,7 @@ Nástroje pro řízení projektů v PSA pomáhají snadno spouštět projekty. P
 - Předpovídání požadavků na zdroje pro projekty, které jsou v kanálu.
 - Úspěšné dodání projektů sledováním postupu a spotřeby nákladů.
 
-Následující témata obsahují informace, které projektovým manažerům pomohou odhadnout práci, odhadnout náklady na projekt a předpovědět požadavky na zdroje pomocí nástrojů podporovaných v PSA:
+Následující články obsahují informace, které projektovým manažerům pomohou odhadnout práci, odhadnout náklady na projekt a předpovědět požadavky na zdroje pomocí nástrojů podporovaných v PSA:
 
 - [Vytvoření plánu](project-creating.md)
 - [Odhad nákladů a výnosů projektu](project-estimating.md)

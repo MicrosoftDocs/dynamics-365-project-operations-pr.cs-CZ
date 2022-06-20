@@ -1,6 +1,6 @@
 ---
 title: Přehled projektových mobilních aplikací
-description: Toto téma poskytuje obecné informace o časově orientovaných projektových aplikacích pro Microsoft Dynamics 365 Project Timesheet, pracovní prostor Zadání času projektu a řešení Moje časové výkazy / Časové výkazy pro mou kontrolu, které jsou k dispozici na mobilním zařízení.
+description: Tento článek obsahuje obecné informace o aplikacích souvisejících s časem projektu pro Microsoft Dynamics 365 Project Timesheet, zadávání času projektu a moje časové harmonogramy/časové harmonogramy, které jsou k dispozici na mobilním zařízení.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 35ac2fa52f488d38be4b647ae8a3babe2b117f79
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685400"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922858"
 ---
 # <a name="project-mobile-applications-overview"></a>Přehled projektových mobilních aplikací
 

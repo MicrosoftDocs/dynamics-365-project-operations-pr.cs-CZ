@@ -1,25 +1,25 @@
 ---
 title: Řešení potíží s prací v mřížce úloh
-description: Tento téma poskytuje potřebné informace o odstraňování potíží při práci v mřížce úloh.
+description: Tento článek poskytuje informace o odstraňování problémů, které jsou potřebné při práci v mřížce úloh.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596410"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911036"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Řešení potíží s prací v mřížce úloh 
 
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / neskladových položkých, nasazení Lite – řeší proforma fakturaci, Project for the Web_
 
-Mřížka úkolů využívaná řešením Dynamics 365 Project Operations je hostovaný prvek iframe uvnitř Microsoft Dataverse. V důsledku tohoto použití musí být splněny specifické požadavky, aby bylo zajištěno správné fungování ověřování a autorizace. Toto téma popisuje časté problémy, které mohou mít dopad na vykreslení mřížky nebo správu úkolů ve strukturovaném rozpisu praccí (WBS).
+Mřížka úkolů využívaná řešením Dynamics 365 Project Operations je hostovaný prvek iframe uvnitř Microsoft Dataverse. V důsledku tohoto použití musí být splněny specifické požadavky, aby bylo zajištěno správné fungování ověřování a autorizace. Tento článek popisuje časté problémy, které mohou mít dopad na vykreslení mřížky nebo správu úkolů ve strukturovaném rozpisu praccí (WBS).
 
 Časté problémy zahrnují:
 

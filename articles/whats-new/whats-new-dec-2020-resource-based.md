@@ -1,24 +1,24 @@
 ---
 title: Co je nového v prosinci 2020 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
-description: Tohle téma poskytuje informace o aktualizacích pro zvýšení kvality, které jsou k dispozici ve verzi Project Operations z prosince 2020 pro scénáře založené na zdrojích / položkách, které nejsou na skladě.
+description: Tento článek poskytuje informace o aktualizacích kvality, které jsou k dispozici ve verzi Project Operations z prosince 2020 pro scénáře založené na zdrojích / neskladových položkách.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579850"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933024"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového v prosinci 2020 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
+Tento článek se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
 
 - Project Operations v prostředí Dataverse verze 4.5.0.134
 - Řízení projektů a účetnictví v Dynamics 365 Finance, verze prostředí 10.0.15

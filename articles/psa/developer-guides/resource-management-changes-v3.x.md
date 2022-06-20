@@ -1,6 +1,6 @@
 ---
 title: Změny správy zdrojů (Project Service Automation 3.x)
-description: Toto téma poskytuje informace o změnách v oblasti správy zdrojů.
+description: Tento článek poskytuje informace o změnách v oblasti správy zdrojů.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,18 +15,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d19b8b453c544bb4c6fd11a8b9f750cb08e0c168
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cac11606811632bdc48f462eb3a09a163ba1620d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595490"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916004"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Změny správy zdrojů (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Části tohoto tématu poskytují informace o změnách, které byly provedeny v oblasti správy zdrojů Dynamics 365 Project Service Automation verze 3.x.
+Části tohoto článku poskytují informace o změnách, které byly provedeny v oblasti správy zdrojů Dynamics 365 Project Service Automation verze 3.x.
 
 ## <a name="project-estimates"></a>Odhady projektů
 

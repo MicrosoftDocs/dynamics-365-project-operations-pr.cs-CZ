@@ -1,6 +1,6 @@
 ---
 title: Přijetí nebo zamítnutí navrženého zdroje projektu
-description: Toto téma obsahuje informace o tom, jak schválit nebo zamítnout navržený zdroj projektu.
+description: Tento článek obsahuje informace o tom, jak schválit nebo zamítnout navržený zdroj projektu.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8337ed19764e62cf2e095ec2f51d325caf92e6fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 94c3f9f960adc7c348b19e23a11bc05bd60e0b56
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599124"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916188"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>Přijetí nebo zamítnutí navrženého zdroje projektu
 
@@ -30,7 +30,7 @@ ms.locfileid: "8599124"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Toto téma obsahuje informace o tom, jak schválit nebo zamítnout navržený zdroj projektu.
+Tento článek obsahuje informace o tom, jak schválit nebo zamítnout navržený zdroj projektu.
 
 Pokud správce zdrojů navrhne pojmenovaný zdroj pro vyplnění žádosti o obecný zdroj pro projekt, bude pole **Stav žádosti** pro obecného člena týmu aktualizováno na **Potřebuje kontrolu**. Žádost bude zaslána projektovému manažerovi ke schválení nebo odmítnutí.
 

@@ -1,6 +1,6 @@
 ---
 title: Změny entit, ovládacích prvků a uživatelského rozhraní (Project Service Automation 3.x)
-description: Toto téma popisuje změny řešení pro Microsoft Dynamics Project Service Automation 3.x.
+description: Tento článek popisuje změny řešení pro Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597560"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926860"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Změny entit, ovládacích prvků a uživatelského rozhraní (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Ve vydání Microsoft Dynamics Project Service Automation (PSA) 3.x bylo provedeno mnoho změn entit, ovládacích prvků, zobrazení a uživatelského rozhraní. Toto téma obsahuje informace o těchto důležitých změnách.
+Ve vydání Microsoft Dynamics Project Service Automation (PSA) 3.x bylo provedeno mnoho změn entit, ovládacích prvků, zobrazení a uživatelského rozhraní. Tento článek obsahuje informace o těchto důležitých změnách.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Vztahy nadřízenosti a podřízenosti pro entity prodejní dokument, řádek prodejního dokumentu, podrobnosti řádku prodejního dokumentu
 Ve verzích Dynamics 365 Project Service Automation (PSA), které byly vydány před verzí 3.0, byly některé vztahy mezi entitami prodejní dokument, řádky prodejního dokumentu, podrobnosti řádku prodejního dokumentu implementovány pomocí řetězcových polí, která by obsahovala řetězcovou reprezentaci GUID související entity. To bylo způsobeno omezeními platformy, která na straně serveru a klienta tohoto řešení vyžadovala množství vlastního kódu, aby tyto vztahy fungovaly podobně jako u typické vztahy entity Dynamics CRM a aby pole řetězců fungovala jako vyhledávací pole.

@@ -1,18 +1,18 @@
 ---
 title: Konfigurace neskladovaných materiálů a nevyřízené faktury dodavatele
-description: Tento téma vysvětluje, jak povolit neskladované materiály a nevyřízené faktury dodavatele.
+description: Tento článek vysvětluje, jak povolit neskladové materiály a čekající faktury dodavatele.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913750"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurace neskladovaných materiálů a nevyřízené faktury dodavatele
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Spusťte mapy duálního zápisu pro skladové materiály a integraci faktur dodavatele
 
-Tato část poskytuje informace o konkrétních mapách požadovaných pro neskladované materiály a faktury dodavatele. Ověřte, zda jsou nezbytné mapy uvedené v tématu [Zřízení nového prostředí](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) spuštěné ve vašem prostředí.
+Tato část poskytuje informace o konkrétních mapách požadovaných pro neskladované materiály a faktury dodavatele. Ověřte, že jsou nezbytné mapy uvedené v článku [Zřízení nového prostředí](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) spuštěny ve vašem prostředí.
 
 1. Přejděte na Lifecycle Services (LCS), přejděte na svůj projekt LCS a přejděte na stránku **Podrobnosti o prostředí**.
 2. V části **Informace o prostředí Common Data Service** vyberte **Odkaz na CDS pro aplikace**. Poté, co vyberete odkaz, budete přesměrováni na seznam entit v mapováních.

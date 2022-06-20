@@ -1,24 +1,24 @@
 ---
 title: Integrace správy výdajů
-description: Toto téma poskytuje informace o integraci sestav výdajů Project Operations s použitím duálního zápisu.
+description: Tento článek poskytuje informace o integraci sestavy výdajů v Project Operations s využitím duálního zápisu.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585784"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924606"
 ---
 # <a name="expense-management-integration"></a>Integrace správy výdajů
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-Toto téma poskytuje informace o integraci sestav výdajů [v nasazení s plnými výdaji](../expense/expense-overview.md) Project Operations s použitím duálního zápisu.
+Tento článek poskytuje informace o integraci sestav výdajů v [plném nasazení výdajů](../expense/expense-overview.md) Project Operations s využitím duálního zápisu.
 
 ## <a name="expense-categories"></a>Kategorie výdajů
 

@@ -1,6 +1,6 @@
 ---
 title: Použití rezervovatelného zdroje jako cenové dimenze
-description: Toto téma obsahuje informace o použití rezervovatelného zdroje jako cenové dimenze.
+description: Tento článek obsahuje informace o použití rezervovatelného zdroje jako cenové dimenze.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576400"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916096"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Použití rezervovatelného zdroje jako cenové dimenze
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Toto téma obsahuje informace o použití rezervovatelného zdroje jako cenové dimenze. Než začnete, pokud jste ještě nevytvořili řešení cenové dimenze, bude nutné vytvořit novou. Pokud již máte řešení cenové dimenze, můžete provést změny v tomto řešení. Pokud jste pro organizaci nevytvořili nové řešení cenové dimenze, dokončete postupy v tématu [Vytvoření vlastních polí a entit](create-custom-fields-entities.md).
+Tento článek obsahuje informace o použití rezervovatelného zdroje jako cenové dimenze. Než začnete, pokud jste ještě nevytvořili řešení cenové dimenze, bude nutné vytvořit novou. Pokud již máte řešení cenové dimenze, můžete provést změny v tomto řešení. Pokud jste pro organizaci nevytvořili nové řešení cenové dimenze, dokončete postupy v článku [Vytvoření vlastních polí a entit](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Přidat do formulářů a zobrazení rezervovatelný zdroj
 Chcete-li, aby byla tato pole viditelná v uživatelském rozhraní v řešení cenové dimenze, musíte projít všechny formuláře a zobrazení klíčových entit Project Service a přidat tato pole do formulářů a zobrazení těchto entit.

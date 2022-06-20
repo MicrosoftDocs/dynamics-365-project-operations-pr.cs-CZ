@@ -1,17 +1,17 @@
 ---
 title: Projektové smlouvy – klíčové koncepty – omezené
-description: Toto téma poskytuje informace o klíčových konceptech projektových smluv.
+description: Tento článek poskytuje informace o klíčových konceptech projektových smluv.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e92edadc49469ad5f541be8bce7b7a8043b981e2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580586"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932656"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>Koncepty jedinečné pro projektové smlouvy
 
@@ -19,7 +19,7 @@ _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
 
 
-Tento téma poskytuje klíčové koncepty, které musíte znát, než začnete používat projektové smlouvy v Dynamics 365 Project Operations:
+Tento článek poskytuje klíčové koncepty, které je třeba znát, než začnete používat projektové smlouvy v Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Smluvní jednotka
 

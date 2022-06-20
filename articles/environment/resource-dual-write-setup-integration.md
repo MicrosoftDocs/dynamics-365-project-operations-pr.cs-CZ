@@ -1,24 +1,24 @@
 ---
 title: Nastavení Project Operations a integrace dat konfigurace
-description: Tento téma poskytuje informace o nastavení a konfiguraci map duálního zápisu Project Operations.
+description: Tento článek poskytuje informace o tom, jak nastavit a konfigurovat mapy duálního zápisu Project Operations.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586888"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914532"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Nastavení Project Operations a integrace dat konfigurace
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-Tento téma poskytuje informace o integraci duálního zápisu Project Operations pro entity nastavení a konfigurace.
+Tento článek poskytuje informace o integraci duálního zápisu Project Operations pro entity nastavení a konfigurace.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Projektové smlouvy, řádky smlouvy a projekty
 

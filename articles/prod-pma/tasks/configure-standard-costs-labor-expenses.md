@@ -1,6 +1,6 @@
 ---
 title: Konfigurace standardních nákladů na práci a výdaje
-description: Toto téma vysvětluje, jak nastavit standardní náklady na práci a výdaje na projekt.
+description: Tento článek vysvětluje způsob nastavení standardních nákladů na práci a výdaje na projekt.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd74da69986a73e933f8cfedce40158555c2ac60
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a51eee8d2eb960b6f24b6511dab7b7a27303dddb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685324"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919500"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Konfigurace standardních nákladů na práci a výdaje
 
 [!include [banner](../../includes/banner.md)]
 
-Toto téma vysvětluje, jak nastavit standardní náklady na práci a výdaje na projekt. Tento úkol používá datovou sadu USSI.
+Tento článek vysvětluje způsob nastavení standardních nákladů na práci a výdaje na projekt. Tento úkol používá datovou sadu USSI.
 
 1. V navigačním podokně přejděte na **Moduly> Řízení projektů a účetnictví> Nastavení> Ceny> Nákladová cena (hodina)**.
 2. Vyberte **Nové**.

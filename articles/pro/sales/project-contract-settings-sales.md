@@ -1,23 +1,23 @@
 ---
 title: Nastavení projektové smlouvy – omezené
-description: Toto téma poskytuje informace o polích, která mají dopad na řádky smlouvy, a informacích o smlouvě, které jsou shrnuty za všechny řádkové položky.
+description: Tento článek poskytuje informace o polích, která ovlivňují řádky smlouvy, a informace o smlouvě, které jsou shrnuty za všechny řádkové položky.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586382"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917062"
 ---
 # <a name="header-details-for-project-contracts"></a>Podrobnosti záhlaví pro projektové smlouvy
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
-Toto téma poskytuje informace o polích, která se vztahují na celou projektovou smlouvu, včetně nastavení, která mají dopad na všechny řádky smlouvy. Zahrnuty jsou také informace o smlouvě, které jsou shrnuty za všechny řádkové položky za účelem zvýšení KPI projektové smlouvy.
+Tento článek poskytuje informace o polích, která se vztahují na celou projektovou smlouvu, včetně nastavení, která ovlivňují všechny řádky smlouvy. Zahrnuty jsou také informace o smlouvě, které jsou shrnuty za všechny řádkové položky za účelem zvýšení KPI projektové smlouvy.
 
 V následující tabulce jsou uvedena pole na kontraktu projektu, která jsou jedinečná pro Dynamics 365 Project Operations nebo mají některé důležité změny v chování z prodejních objednávek v Dynamics 365 Sales.
 

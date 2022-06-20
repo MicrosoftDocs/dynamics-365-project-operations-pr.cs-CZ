@@ -1,24 +1,24 @@
 ---
 title: Co je nového, prosinec 2020 – omezené nasazení Project Operations – od obchodu po proforma fakturaci
-description: Tohle téma poskytuje informace o aktualizacích pro zvýšení kvality, které jsou k dispozici v omezeném nasazení Project Operations z prosince 2020 – od obchodu po proforma fakturaci.
+description: Tento článek poskytuje informace o aktualizacích kvality, které jsou k dispozici ve verzi Project Operations z prosince 2020 pro omezené nasazení - od obchodu po pro forma fakturaci.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585416"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924054"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Co je nového, prosinec 2020 – omezené nasazení Project Operations – od obchodu po proforma fakturaci
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
-Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
+Tento článek se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
 
   - Project Operations v prostředí Dataverse verze 4.5.0.134 
 

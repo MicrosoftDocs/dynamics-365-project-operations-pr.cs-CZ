@@ -1,6 +1,6 @@
 ---
 title: Upgrade z Project Service Automation na Project Operations
-description: Toto téma obsahuje přehled funkce procesu upgradu z Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Project Operations.
+description: Tento článek obsahuje přehled funkce procesu upgradu z Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626709"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912968"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Upgrade z Project Service Automation na Project Operations
 
-S potěšením oznamujeme první ze tří fází upgradu z Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Project Operations. Toto téma poskytuje přehled pro zákazníky, kteří se vydávají na tuto vzrušující cestu. Později zveřejněná témata budou zahrnovat úvahy vývojářů a podrobnosti o vylepšeních funkcí. Poskytnou vám nejen pokyny, které vám pomohou připravit se k upgradu na Project Operations, ale také vysvětlí, co můžete po upgradu očekávat.
+S potěšením oznamujeme první ze tří fází upgradu z Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Project Operations. Tento článek poskytuje přehled pro zákazníky, kteří se vydávají na tuto vzrušující cestu. Později zveřejněné články budou zahrnovat úvahy vývojářů a podrobnosti o vylepšeních funkcí. Poskytnou vám nejen pokyny, které vám pomohou připravit se k upgradu na Project Operations, ale také vysvětlí, co můžete po upgradu očekávat.
 
 Program doručení upgradu bude rozdělen do tří fází.
 
@@ -90,7 +90,7 @@ Po aktualizaci vašich přizpůsobení tak, aby čistě importovaly údaje z Pro
     > [!NOTE]
     > V závislosti na množství dat v prostředí může upgrade trvat několik hodin. Základní tým, který spravuje upgrade, by ho měl podle toho plánovat a provádět mimo pracovní dobu. V některých případech, pokud je objem dat velký, by měl být upgrade spuštěn přes víkend. Rozhodnutí o plánování by mělo být založeno na výsledcích testování v nižších prostředích.
 
-3. Podle potřeby upgradujte vlastní řešení. V tomto okamžiku nasaďte všechny změny, které jste provedli ve svých přizpůsobeních v sekci [Testování a refaktorování přizpůsobení](#testing-and-refactoring-customizations) tohoto tématu.
+3. Podle potřeby upgradujte vlastní řešení. V tomto okamžiku nasaďte všechny změny, které jste provedli ve svých přizpůsobeních v sekci [Testování a refaktorování přizpůsobení](#testing-and-refactoring-customizations) tohoto článku.
 4. Přejděte do nabídky **Nastavení** \> **Řešení** a vyberte možnost odinstalovat řešení **Zastaralé součásti Project Operations**.
 
     Toto řešení je dočasné řešení, které uchovává stávající datový model a součásti, které jsou přítomny během upgradu. Odebráním tohoto řešení odeberete všechna pole a součásti, které se již nepoužívají. Tímto způsobem zjednodušíte rozhraní a usnadníte integraci a rozšíření.
@@ -126,7 +126,6 @@ V rámci pokračujících investic do Project Operations je k dispozici několik
 | Project Service Automation                             | Nasazení Project Operations Lite                        | Podporováno               |
 | Řízení projektů a účetnictví v Dynamics 365 Finance | Nasazení Project Operations Lite                        | V současnosti není podporováno |
 | Finance pro řízení projektů a účetnictví              | Project Operations pro scénáře se zdroji bez skladových materiálů     | V současnosti není podporováno |
-| Finance pro řízení projektů a účetnictví              | Project Operations pro scénáře se skladovým materiálem a výrobními příkazy | V současnosti není podporováno |
 | Project Service Automation 3.x                         | Project Operations pro scénáře se zdroji bez skladových materiálů     | V současnosti není podporováno |
 | Project for the web (vyhrazené prostředí)            | Nasazení Project Operations Lite                        | V současnosti není podporováno |
 

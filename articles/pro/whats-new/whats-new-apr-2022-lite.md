@@ -1,24 +1,24 @@
 ---
 title: Co je nového, duben 2022 - omezené nasazení Project Operations
-description: Toto téma poskytuje informace o aktualizacích kvality, které jsou k dispozici ve verzi Microsoft Dynamics 365 Project Operations z dubna 2022 pro omezené nasazení.
+description: Tento článek poskytuje informace o aktualizacích kvality, které jsou k dispozici ve verzi Microsoft Dynamics 365 Project Operations z dubna 2022 pro omezené nasazení.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f75d75e57d6a6396b0148f0449899735089b06a
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 6d6fc52d535244b339e43f88e85797a957d98b89
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613243"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927458"
 ---
 # <a name="whats-new-april-2022---project-operations-lite-deployment"></a>Co je nového, duben 2022 - omezené nasazení Project Operations
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
-Toto téma se vztahuje na následující součásti a verze aplikace Microsoft Dynamics 365 Project Operations:
+Tento článek se vztahuje na následující součásti a verze aplikace Microsoft Dynamics 365 Project Operations:
 
 - Project Operations v prostředí Dataverse verze 4.41.0.45
 

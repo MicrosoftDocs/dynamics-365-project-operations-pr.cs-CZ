@@ -1,24 +1,24 @@
 ---
 title: Co je nového nebo změněného v Project Operations, leden 2021, pro scénáře založené na skladovém materiálu / výrobě
-description: Tohle téma poskytuje informace o aktualizacích pro zvýšení kvality, které jsou k dispozici ve verzi Project Operations z ledna 2021 pro scénáře založené na skladovém materiálu / výrobě.
+description: Tento článek poskytuje informace o aktualizacích kvality, které jsou k dispozici ve verzi Project Operations z ledna 2021 pro scénáře se skladovým materiálem a výrobními příkazy.
 author: andchoi
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: c41fda3a3c756f8ad4c695b572eea9cad715f2e4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84a49994267d0c070769090f9fce9c6a969c98be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592638"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923916"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Co je nového nebo změněného v Project Operations, leden 2021, pro scénáře založené na skladovém materiálu / výrobě
 
 _**Platí pro:** Project Operations pro scénáře založené na skladovém materiálu / výrobě_
 
-Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
+Tento článek se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
 
 - Řízení projektů a účetnictví v Dynamics 365 Finance, verze prostředí 10.0.16
 

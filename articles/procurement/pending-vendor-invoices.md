@@ -1,18 +1,18 @@
 ---
 title: Nákup neskladových materiálů nebo kategorií zásobování pomocí nevyřízené faktury dodavatele
-description: Tento téma vysvětluje, jak zaznamenat nevyřízené faktury dodavatele.
+description: Tento článek vysvětluje, jak zaznamenat nevyřízené faktury dodavatele.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612649"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921984"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Nákup neskladových materiálů nebo kategorií zásobování pomocí nevyřízené faktury dodavatele
 
@@ -23,7 +23,7 @@ Protože společnost pořizuje neskladové materiály nebo kategorie zásobován
 Společnost Contoso Robotics USA například provádí projekt obnovy vybavení a potřebuje softwarové licence. Tyto licence jsou zakoupeny od dodavatele třetí strany.  V aplikaci Dynamics 365 Finance zaznamená úředník závazků nevyřízený doklad faktury dodavatele a přiřadí náklady na licenci přímo k projektu obnovy zařízení. 
 
 > [!IMPORTANT]
-> Než použijete funkce popsané v tomto tématu, zkontrolujte a použijte požadované konfigurace. Více informací viz téma [Povolení neskladovaných materiálů a nevyřízených faktur dodavatele](configure-materials-nonstocked.md) a [Používání kategorií zásobování s projektovými nákupními objednávkami a nevyřízenými fakturami dodavatele](configure-procurement-categories.md)
+> Než použijete funkce popsané v tomto článku, zkontrolujte a použijte požadované konfigurace. Více informací viz téma [Povolení neskladovaných materiálů a nevyřízených faktur dodavatele](configure-materials-nonstocked.md) a [Používání kategorií zásobování s projektovými nákupními objednávkami a nevyřízenými fakturami dodavatele](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Zaúčtování nevyřízené faktury dodavatele související s projektem 
 

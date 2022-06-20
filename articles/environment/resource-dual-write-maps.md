@@ -1,17 +1,17 @@
 ---
 title: Verze mapování duálního zápisu Project Operations
-description: Tento téma poskytuje seznam map duálního zápisu požadovaných pro Dynamics 365 Project Operations.
+description: Tento článek poskytuje seznam map s duálním zápisem požadovaných pro Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612742"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959392"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Verze mapování duálního zápisu Project Operations
 
@@ -54,7 +54,7 @@ Následující mapy jsou požadované pro řešení Project Operations. Verze ma
 | Entita integrace Project Operations pro odhady hodin (msdyn_resourceassignments) | 1.0.0.5 | Není nutné pro zřizování. ||
 | Entita exportu kategorie výdajů projektu integrace Project Operations (msdyn_expensecategories) | 1.0.0.1 | Není nutné pro zřizování. ||
 | Entita exportu výdajů projektu integrace Project Operations (msdyn_expenses) | 1.0.0.3 | Není nutné pro zřizování. ||
-| Entita exportu faktury dodavatele projektu integrace Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Není nutné pro zřizování. ||
+| Entita exportu faktury dodavatele projektu integrace Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | Není nutné pro zřizování. |10.0.26 nebo vyšší|
 | Entita exportu řádku faktury dodavatele projektu integrace Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Není nutné pro zřizování. | 10.0.26 nebo vyšší |
 | Role zdrojů projektu pro všechny společnosti (bookableresourcecategories) | 1.0.0.1 | Vyžaduje počáteční synchronizaci pro mapu tabulky k synchronizaci rolí prostředků Projektový manažer a Člen týmu, které jsou naplněny v prostředí Dynamics 365 Dataverse během zřizování. Dataverse je hlavním zdrojem pro počáteční synchronizaci. ||
 | Projektové úkoly (msdyn_projecttasks) | 1.0.0.4 | Není nutné pro zřizování. ||

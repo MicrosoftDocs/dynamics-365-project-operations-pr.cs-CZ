@@ -1,28 +1,28 @@
 ---
 title: Výkon rozhraní API projektového plánu
-description: Toto téma poskytuje informace o výkonnostních testech API Plánu projektu a identifikuje nejlepší postupy pro optimální využití.
+description: Tento článek poskytuje informace o výkonnostních testech API Plánu projektu a identifikuje nejlepší postupy pro optimální využití.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593834"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911174"
 ---
 # <a name="project-schedule-api-performance"></a>Výkon rozhraní API projektového plánu
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / neskladových položkých, nasazení Lite – řeší proforma fakturaci, Project for the Web_
 
-Toto téma poskytuje informace o výkonnostních testech rozhraní API Plánu projektu a identifikuje nejlepší postupy pro optimální využití.
+Tento článek poskytuje informace o výkonnostních testech rozhraní API Plánu projektu a identifikuje nejlepší postupy pro optimální využití.
 
 ## <a name="project-scheduling-service"></a>Služba Plánování projektů
 Služba Plánování projektů je služba pro více klientů, která běží v Microsoft Azure. Je navržena tak, aby zlepšila interakci poskytováním rychlého a plynulého zážitku, když uživatelé pracují na projektech. Tohoto zlepšení je dosaženo přijetím požadavků na změny, jejich zpracováním a následným okamžitým vrácením výsledku. Služba asynchronně uchovává data v Dataverse a nebrání uživateli provádět další operace.
 
-Rozhraní API Plánu projektu spoléhají na službu Plánování projektů, která spouští požadavky, které jsou podrobněji popsány v dalších částech tohoto tématu.
+Rozhraní API Plánu projektu spoléhají na službu Plánování projektů, která spouští požadavky, které jsou podrobněji popsány v dalších částech tohoto článku.
 
 Rozhraní API Plánu projektu jsou navržena tak, aby fungovala s následujícími entitami strukturovaného rozpisu prací (WBS):
 

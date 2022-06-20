@@ -1,23 +1,23 @@
 ---
 title: Přidání předplatného Azure do projektu LCS
-description: Toto téma poskytuje informace o tom, jak připojit vaše předplatné Azure k projektu LCS.
+description: Tento článek poskytuje informace o tom, jak připojit předplatné Azure k projektu LCS.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595904"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912140"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Přidání předplatného Azure do projektu LCS
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-Prostředí hostovaná v cloudu musí být nasazena pomocí existujícího předplatného Azure. Toto téma vysvětluje, jak připojit vaše stávající předplatné Azure k projektu LCS. 
+Prostředí hostovaná v cloudu musí být nasazena pomocí existujícího předplatného Azure. Tento článek vysvětluje, jak připojit stávající předplatné Azure k projektu LCS. 
 
 ## <a name="grant-admin-consent"></a>Udělit souhlas správce
 
@@ -59,7 +59,7 @@ Autorizace je nyní dokončena.
 2. Zadejte ID vašeho předplatného Azure. ID předplatného Azure najdete na [portálu Azure](https://ms.portal.azure.com/) v části **Nastavení** v levém dolním rohu obrazovky.
 3. V poli **Konfigurovat pro použití technologie ARM (Azure Resource Manager)** vyberte **Ano**.
 4. Ujistěte se, že se doména klienta AAD předplatného Azure shoduje s předplatným Azure vlastnícím vámi používanou doménu, a vyberte položku **Další**.
-5. Na obrazovce **Nastavení Microsoft Azure** potvrďte výběr tlačítkem **Další**. Pokud se na této obrazovce zobrazí chyba, vraťte se do sekce [Poskytnutí přístupu k předplatnému Azure službám Dynamics Deployment Services](#provide) v tomto tématu a ujistěte se, že jste dokončili všechny kroky.
+5. Na obrazovce **Nastavení Microsoft Azure** potvrďte výběr tlačítkem **Další**. Pokud se na této obrazovce zobrazí chyba, vraťte se do sekce [Poskytnutí přístupu k předplatnému Azure službám Dynamics Deployment Services](#provide) v tomto článku a ujistěte se, že jste provedli všechny kroky.
 6. Stáhněte si certifikát pro správu Azure do místní složky ve vašem počítači. Požádejte svého správce předplatného Azure o nahrání certifikátu na portál Azure Management Portal výběrem předplatného a přechodem na **Nastavení** > **Certifikáty pro správu**. Tento certifikát umožňuje LCS komunikovat s Azure vaším jménem. Tento krok můžete přeskočit, pokud má váš uživatel přístup k předplatnému.
 7. Vyberte tlačítko **Další**.
 8. Vyberte oblast Azure, do které chcete provést nasazení, a vyberte datové centrum, které je blízko místa, kde plánujete tento systém používat.

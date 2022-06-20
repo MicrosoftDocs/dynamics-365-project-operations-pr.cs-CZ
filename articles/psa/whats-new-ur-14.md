@@ -1,6 +1,6 @@
 ---
 title: Novinky a změny v aplikaci Project Service Automation, aktualizace verze 14, V3
-description: Tohle téma poskytuje informace o tom, co je nového v aktualizaci verze 14 pro aplikaci Project Service Automation V3.
+description: Tento článek obsahuje informace o novinkách a změnách ve vydání Update 14, V3 aplikace Project Service Automation.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8504ac5a0ce7254baee9139e4407e712c758540d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e8e5132f970e3ec5742842175c118faf98a7b079
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594295"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926538"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Project Service Automation, vydání aktualizace 14, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8594295"
 
 S potěšením oznamujeme nejnovější aktualizaci aplikace Dynamics 365 Project Service Automation (PSA). Tato verze obsahuje některá důležitá vylepšení kvality, výkonu a použitelnosti. Tato verze je kompatibilní s Dynamics 365 9.x. Chcete-li aktualizovat tuto verzi, navštivte Centrum pro správu Dynamics 365 a na stránce řešení nainstalujte danou aktualizaci. Další informace viz [Instalace, aktualizace nebo odebrání preferovaného řešení](/power-platform/admin/install-remove-preferred-solution).
 
-Tohle téma uvádí seznam funkcí a oprav, které jsou nové nebo změněné v aktualizaci verze 14 pro aplikaci PSA V3. Tato verze má číslo sestavení V3.10.4.21 a je k dispozici v následujícím plánu:
+Tento článek uvádí funkce a opravy, které jsou nové nebo se změnily v PSA V3, vydání Update 14. Tato verze má číslo sestavení V3.10.4.21 a je k dispozici v následujícím plánu:
 
 - **Obecná dostupnost (automatická aktualizace):** Leden 2020
 - **Automatická aktualizace:** Únor 2020

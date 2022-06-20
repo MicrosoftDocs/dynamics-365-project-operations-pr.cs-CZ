@@ -1,6 +1,6 @@
 ---
 title: Implementace vlastních polí pro mobilní aplikaci Microsoft Dynamics 365 Project Timesheet na systémech iOS a Android
-description: Toto téma poskytuje běžné vzory pro použití rozšíření k implementaci vlastních polí.
+description: Tento článek poskytuje běžné vzory pro použití rozšíření k implementaci vlastních polí.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682745"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913704"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementace vlastních polí pro mobilní aplikaci Microsoft Dynamics 365 Project Timesheet na systémech iOS a Android
 
 [!include [banner](../includes/banner.md)]
 
-Toto téma poskytuje běžné vzory pro použití rozšíření k implementaci vlastních polí. Jsou zahrnuta následující témata:
+Tento článek poskytuje běžné vzory pro použití rozšíření k implementaci vlastních polí. Jsou zde pokryty následující články:
 
 - Různé datové typy, které podporuje rámec vlastního pole
 - Jak zobrazit pole jen pro čtení nebo upravitelná pole v záznamech časového výkazu a uložit hodnoty poskytnuté uživatelem zpět do databáze
@@ -35,7 +35,7 @@ Toto téma poskytuje běžné vzory pro použití rozšíření k implementaci v
 
 ## <a name="audience"></a>Cílová skupina
 
-Toto téma je určeno pro vývojáře, kteří integrují svá vlastní pole do mobilní aplikace Microsoft Dynamics 365 Project Timesheet, která je k dispozici pro Apple iOS a Google Android. Předpokládá se, že čtenáři jsou obeznámeni s vývojem X ++ a funkcemi časového výkazu projektu.
+Tento článek je určen pro vývojáře, kteří integrují svá vlastní pole do mobilní aplikace Microsoft Dynamics 365 Project Timesheet, která je k dispozici pro systémy Apple iOS a Google Android. Předpokládá se, že čtenáři jsou obeznámeni s vývojem X ++ a funkcemi časového výkazu projektu.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Smlouva na data - třída TSTimesheetCustomField X ++
 
@@ -64,7 +64,7 @@ Vlastnost **FieldBaseType** v objektu **TsTimesheetCustom** určuje typ pole, kt
 
 - Pokud je vlastnost **stringOptions** poskytnuta v objektu **TSTimesheetCustomField**, tyto prvky seznamu jsou jediné hodnoty, které mohou uživatelé vybrat pomocí tlačítek s možnostmi (přepínačů).
 
-    V takovém případě může pole řetězce fungovat jako hodnota výčtu pro účely vstupu uživatele. Chcete-li uložit hodnotu do databáze jako výčet, ručně namapujte hodnotu řetězce zpět na hodnotu výčtu před uložením do databáze pomocí řetězce příkazů (viz „Použití řetězce příkazů ve třídě TSTimesheetEntryService k uložení záznamu časového výkazu z aplikace zpět do databáze" dále v tomto tématu).
+    V takovém případě může pole řetězce fungovat jako hodnota výčtu pro účely vstupu uživatele. Chcete-li hodnotu uložit do databáze jako výčet, před uložením do databáze pomocí chain of command ručně, namapujte hodnotu řetězce zpět na hodnotu výčtu (příklad naleznete dále v tomto článku v části „Použití chain of command v třídě TSTimesheetEntryService pro uložení záznamu časového rozvrhu z aplikace zpět do databáze“).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Tato vlastnost určuje štítek, který se zobrazuje vedle pole v aplikaci.
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (seznam řetězců)
 
-Tato vlastnost je použitelná pouze v případě, že je vlastnost **fieldBaseType** nastavena na **Řetězec**. Pokud je vlastnost **stringOptions** nastavená, hodnoty řetězců, které jsou k dispozici pro výběr pomocí přepínačů, jsou určeny řetězci v seznamu. Pokud nejsou k dispozici žádné řetězce, je povoleno zadávání volného textu do pole řetězce (příklad najdete v části „Použití řetězce příkazů ve třídě TSTimesheetEntryService k uložení záznamu časového výkazu z aplikace zpět do databáze“ dále v tomto tématu).
+Tato vlastnost je použitelná pouze v případě, že je vlastnost **fieldBaseType** nastavena na **Řetězec**. Pokud je vlastnost **stringOptions** nastavená, hodnoty řetězců, které jsou k dispozici pro výběr pomocí přepínačů, jsou určeny řetězci v seznamu. Nejsou-li zadány žádné řetězce, bude záznam s volným textem v poli řetězce povolen (příklad naleznete dále v tomto článku v části „Použití chain of command v třídě TSTimesheetEntryService pro uložení záznamu časového rozvrhu z aplikace zpět do databáze“).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

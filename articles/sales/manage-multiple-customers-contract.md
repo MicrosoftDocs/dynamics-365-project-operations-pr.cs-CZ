@@ -1,21 +1,21 @@
 ---
 title: Správa více zákazníků v projektových smlouvách
-description: Toto téma poskytuje informace o správě několika zákazníků na projektových smlouvách.
+description: Tento článek poskytuje informace o správě více zákazníků v projektové smlouvě.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591304"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928332"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Správa více zákazníků v projektových smlouvách
 
-Toto téma poskytuje informace o správě několika zákazníků na projektových smlouvách. Můžete použít projektovou smlouvu, když je pro financování obchodu potřeba smluvní dohoda pro více zákazníků. Na stránce **Projektová smlouva** karta **Souhrn** obsahuje informace o primárním zákazníkovi obchodu. Na kartu **Zákazníci** lze přidat další zákazníky, kteří se obchodu účastní.
+Tento článek poskytuje informace o správě více zákazníků v projektové smlouvě. Můžete použít projektovou smlouvu, když je pro financování obchodu potřeba smluvní dohoda pro více zákazníků. Na stránce **Projektová smlouva** karta **Souhrn** obsahuje informace o primárním zákazníkovi obchodu. Na kartu **Zákazníci** lze přidat další zákazníky, kteří se obchodu účastní.
 
 Všichni smluvní zákazníci na kartě **Zákazníci** projektové smlouvy se automaticky stanou zákazníky na řádku smlouvy na všech nových řádcích smlouvy založené na projektu vytvořených pro projektovou smlouvu. Žádné stávající řádky smlouvy na základě projektu nezdědí nové záznamy zákazníky kontraktů, kteří jsou vytvořeni později.
 

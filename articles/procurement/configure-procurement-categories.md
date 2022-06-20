@@ -1,18 +1,18 @@
 ---
 title: Používání kategorií zásobování s projektovými nákupními objednávkami a nevyřízenými fakturami dodavatele
-description: Tento téma popisuje, jak konfigurovat kategorie zásobování, které lze použít s projektovými nákupními objednávkami a nevyřízenými fakturami dodavatele.
+description: Tento článek popisuje, jak konfigurovat kategorie zásobování, které lze použít s projektovými nákupními objednávkami a nevyřízenými fakturami dodavatele.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927412"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Používání kategorií zásobování s projektovými nákupními objednávkami a nevyřízenými fakturami dodavatele
 
@@ -47,7 +47,7 @@ Chcete-li namapovat kategorie projektů na kategorie zásobování v hierarchii 
 
 1. Přejděte do nabídky **Zásobování a zdroje \> Kategorie zásobování**.
 1. Vyberte **Upravit hierarchii kategorií**.
-1. Vyberte požadovaný uzel hierarchie kategorií a poté na kartě **Přiřadit kategorie projektů** asociujte uzel s kategorií projektu z kategorie **Čas**, Výdaj, popř. **Položka projektu** (tj. kategorie **Výchozí čas** nebo **Výchozí výdaje**).
+1. Vyberte požadovaný uzel hierarchie kategorií a poté na kartě **Přiřadit kategorie projektů** asociujte uzel s kategorií projektu z kategorie **Čas**, **Výdaj** nebo **Položka projektu** (tj. kategorie **Výchozí čas** nebo **Výchozí výdaje**).
 1. Vyberte **Uložit**.
 1. Zavřete stránku.
 

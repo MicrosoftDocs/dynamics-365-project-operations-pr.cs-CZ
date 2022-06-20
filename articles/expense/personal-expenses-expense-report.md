@@ -1,18 +1,18 @@
 ---
 title: Práce s osobními výdaji ve výkazu výdajů
-description: Tento téma poskytuje informace o tom, jak pracovat s osobními výdaji vzniklým zaměstnancům při cestování za obchodními účely.
+description: Tento článek poskytuje informace o tom, jak pracovat s osobními výdaji vzniklými zaměstnancům při cestování za pracovními účely.
 author: suvaidya
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: d35bf6960bb60e2ad4184e1b5f188695a3525be0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1cda5151a32482f92c69402bcc0056d7b6572db8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586520"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922260"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Práce s osobními výdaji ve výkazu výdajů
 

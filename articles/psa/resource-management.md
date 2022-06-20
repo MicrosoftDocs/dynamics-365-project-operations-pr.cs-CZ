@@ -1,6 +1,6 @@
 ---
 title: Domovská stránka zajišťování zdrojů pro projekty
-description: Toto téma poskytuje informace o funkcích pro správu zdrojů v Project Service Automation (PSA) pro Dynamics 365.
+description: Tento článek poskytuje informace o funkcích pro správu zdrojů v Project Service Automation (PSA) pro Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599814"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925250"
 ---
 # <a name="resourcing-projects-home-page"></a>Domovská stránka zajišťování zdrojů pro projekty
 
@@ -46,7 +46,7 @@ Zdroje jsou nejdůležitějším majetkem organizace založené na službách. S
 - Údržba úložiště dovedností a odbornosti.
 
 
-Projekt můžete v PSA personálně obsadit týmem obecných nebo pojmenovaných zdrojů. Pro přidání a přiřazení členů týmu a ke správě jejich rezervací a přiřazení můžete použít různé metody. Další informace naleznete v následujících tématech:
+Projekt můžete v PSA personálně obsadit týmem obecných nebo pojmenovaných zdrojů. Pro přidání a přiřazení členů týmu a ke správě jejich rezervací a přiřazení můžete použít různé metody. Další informace naleznete v následujících článcích:
 
 - [Rezervace pojmenovaných rezervovatelných zdrojů projektovému týmu a přiřazení úkolů](assign-named-bookable-resource.md)
 - [Přiřazení obecný rezervovatelných zdrojů k úkolu a vygenerování požadavků na zdroj](assign-generic-bookable-resource.md)

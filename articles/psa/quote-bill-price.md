@@ -1,6 +1,6 @@
 ---
 title: Domovská stránka vypracovávání nabídek, vytváření cenových kalkulací a generování faktur
-description: Toto téma poskytuje informace o vypracovávání nabídek, vytváření cenových kalkulací a generování faktur.
+description: Tento článek poskytuje informace o vypracovávání nabídek, vytváření cenových kalkulací a generování faktur.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581092"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926722"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Domovská stránka vypracovávání nabídek, vytváření cenových kalkulací a generování faktur
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581092"
 
 Vypracovávání nabídek, vytváření cenových kalkulací a generování faktur jsou funkce používané malými i velkými organizacemi. Pokud porozumíte, jak tyto funkce v aplikaci fungují, mohou organizace snadněji přizpůsobit konfiguraci.
 
-Následující témata obsahují další informace o funkcích vypracovávání nabídek, vytváření cenových kalkulací a generování faktur v PSA:
+Následující články obsahují další informace o funkcích vypracovávání nabídek, vytváření cenových kalkulací a generování faktur v PSA:
 
 - [Prodejní proces](basic-sales-process.md)
 - [Řádky nabídky](basic-quote-lines.md)

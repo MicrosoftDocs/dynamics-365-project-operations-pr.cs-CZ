@@ -1,17 +1,17 @@
 ---
 title: Přehled řádků nabídky založené na projektu
-description: Toto téma poskytuje informace o používání řádků nabídek založených na projektu pro práci na projektu.
+description: Tento článek poskytuje informace o používání řádků nabídek založených na projektu v projektových pracích.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0a9661d9b91ffeece4c66b129846632b30ebebc8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 90c5affa25b113476e43f0bbbadd5c9615f9c05c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591074"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934450"
 ---
 # <a name="project-based-quote-lines-overview"></a>Přehled řádků nabídky založené na projektu 
 

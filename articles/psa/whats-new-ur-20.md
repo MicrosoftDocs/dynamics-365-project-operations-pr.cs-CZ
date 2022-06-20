@@ -1,6 +1,6 @@
 ---
 title: Novinky a změny v aplikaci Project Service Automation, aktualizace verze 20, V3
-description: Toto téma uvádí seznam funkcí a oprav, které jsou k dispozici v Project Service Automation, aktualizace verze 20, V3
+description: Tento článek uvádí funkce a opravy, které jsou k dispozici v Project Service Automation, vydání Update 20, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4b1a8b5b65f0dfeeff74db363c918206c64e81f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7265f4999ee9c584450efcf444621c00acd65920
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588820"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913054"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation, vydání aktualizace 20, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8588820"
 
 S potěšením oznamujeme nejnovější aktualizaci aplikace Project Service Automation pro Dynamics 365. Tato verze obsahuje některá důležitá vylepšení kvality, výkonu a použitelnosti. Tato verze je kompatibilní s Dynamics 365 9.x. Chcete-li aktualizovat tuto verzi, navštivte Centrum pro správu Dynamics 365 online, stránku řešení a nainstalujte danou aktualizaci. Další informace viz [Instalace, aktualizace nebo odebrání preferovaného řešení](/power-platform/admin/install-remove-preferred-solution).
 
-Tohle téma uvádí seznam funkcí a oprav, které jsou nové nebo změněné v aktualizaci verze 20 pro aplikaci Project Service Automation V3. Tato verze má číslo sestaveníV 3.10.31.37 a je obvykle k dispozici prostřednictvím automatické aktualizace v červnu 2020.
+Tento článek uvádí funkce a opravy, které jsou nové nebo se změnily v Project Service Automation V3, vydání Update 20. Tato verze má číslo sestaveníV 3.10.31.37 a je obvykle k dispozici prostřednictvím automatické aktualizace v červnu 2020.
 
 ## <a name="update-release-20"></a>Aktualizace verze 20
 

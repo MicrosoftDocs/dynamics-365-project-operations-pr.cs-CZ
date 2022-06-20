@@ -1,17 +1,17 @@
 ---
 title: Konfigurace plánovací vývěsky pro zobrazení smluvních pracovníků a kapacity subdodávky
-description: Toto téma popisuje, jak konfigurovat plánovací vývěsku v Microsoft Dynamics 365 Project Operations tak, aby zobrazovala kapacitu zdrojů subdodávky při personálním zajištění požadavků na zdroje projektu.
+description: Tento článek popisuje, jak konfigurovat plánovací vývěsku v Microsoft Dynamics 365 Project Operations tak, aby zobrazovala kapacitu zdrojů subdodávky při personálním zajištění požadavků na zdroje projektu.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6e382b33fafe91c8b96a91d033fe12b998114bdc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b965fd5011a575354f50c47081be198ab43248f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587809"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919822"
 ---
 # <a name="configure-schedule-board-to-show-contract-workers-and-subcontracted-capacity"></a>Konfigurace plánovací vývěsky pro zobrazení smluvních pracovníků a kapacity subdodávky 
 

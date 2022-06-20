@@ -1,6 +1,6 @@
 ---
 title: Domovská stránka cenových a nákladových dimenzí
-description: Toto téma obsahuje přehled cenových dimenzí.
+description: Tento článek obsahuje přehled cenových dimenzí.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593604"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925434"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Domovská stránka cenových a nákladových dimenzí
 
@@ -47,7 +47,7 @@ PSA se dodává s výchozí sadou cenových dimenzí. Můžete je zobrazit pomoc
 > [!IMPORTANT]
 > Pokud jste před verzí 3 PSA jako cenové dimenze používali připravená pole role a organizační jednotky, nezaznamenáte žádné zjistitelné změny. Službu Project Service můžete nadále používat obvyklým způsobem. 
 
-Potřebujete-li své zdroje ocenit nebo vyjádřit náklady na ně pomocí dalších atributů, můžete vytvořit přizpůsobená pole, entity a dimenze. Další informace naleznete v následujících tématech, ale mějte na vědomí, že je nutné dokončit postupy v uvedeném pořadí:
+Potřebujete-li své zdroje ocenit nebo vyjádřit náklady na ně pomocí dalších atributů, můžete vytvořit přizpůsobená pole, entity a dimenze. Další informace naleznete v následujících článcích, ale mějte na vědomí, že je nutné dokončit postupy v uvedeném pořadí:
 
 - [Vytvoření vlastních polí a entit](create-custom-fields-entities.md)
 - [Přidání vlastních polí do nastavení ceny a transakčních entit](field-references.md)

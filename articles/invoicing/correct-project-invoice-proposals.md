@@ -1,17 +1,17 @@
 ---
 title: Oprava účtování návrhů konceptů faktur projektu
-description: Tento téma vysvětluje, jak upravit informace související s účetnictvím u návrhu konceptu faktury.
+description: Tento článek vysvětluje, jak upravit informace související s účetnictvím v návrhu faktury.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575066"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921202"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Oprava účtování návrhů konceptů faktur projektu
 
@@ -19,7 +19,7 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 
 *Provozní podrobnosti* pro projektové faktury vede projektový manažer na proforma faktuře. Mezi tyto podrobnosti patří rozhodnutí o hodinách, výdajích, materiálech nebo milnících, které musí být fakturovány, sazbách a použití záloh a zadržených částek. Po potvrzení původní proforma faktury můžete upravit provozní podrobnosti vytvořením a potvrzením [opravné proforma faktury](../proforma-invoicing/corrective-invoices.md).
 
-*Účetní údaje* pro projektové faktury jsou uchovávány v dokumentu faktury orientované na zákazníka. Mezi tyto podrobnosti patří výpočet DPH a finanční dimenze použité na faktuře. Tento téma poskytuje podrobnosti o tom, jak lze tyto účetní podrobnosti upravit v návrhu faktury konceptu projektu.
+*Účetní údaje* pro projektové faktury jsou uchovávány v dokumentu faktury orientované na zákazníka. Mezi tyto podrobnosti patří výpočet DPH a finanční dimenze použité na faktuře. Tento článek poskytuje podrobnosti o tom, jak lze tyto účetní podrobnosti upravit v návrhu projektové faktury.
 
 ## <a name="adjust-sales-tax"></a>Úprava DPH
 

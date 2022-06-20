@@ -1,6 +1,6 @@
 ---
 title: Výdaje na denní diety
-description: Toto téma obsahuje informace o způsobu práce s výdaji na denní diety.
+description: Tento článek obsahuje informace o způsobu práce s výdaji na denní diety.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596042"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923180"
 ---
 # <a name="per-diem-expenses"></a>Výdaje na denní diety
 
 > [!IMPORTANT] 
-> Funkce popisovaná v tomto tématu je k dispozici cílovým uživatelům jako součást verze Preview.
+> Funkce popisovaná v tomto článku je k dispozici cílovým uživatelům jako součást verze Preview.
 
 Denní diety jsou pevná, předem stanovená denní náhrada, kterou společnost vyplácí svým zaměstnancům za ubytování (hotely), stravování a vedlejší výdaje, které tito zaměstnanci vynaloží při cestování za prací. Společnost vyplácí tuto náhradu zaměstnancům namísto úhrady skutečných cestovních nákladů. Zaměstnanci mohou využít své **Vedlejší/jiné** diety na pokrytí spropitného, pokojových služeb, praní nebo chemického čištění při důležitých obchodních jednáních. Sazba denních diet se může lišit v závislosti na tom, zda se zaměstnavatel rozhodne proplácet kombinované náklady na ubytování a stravování, nebo pouze náklady na stravování a vedlejší výdaje.
 

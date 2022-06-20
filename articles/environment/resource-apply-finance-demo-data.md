@@ -1,24 +1,24 @@
 ---
 title: Použití ukázkových dat na prostředí aplikace Finance hostované v cloudu
-description: Toto téma vysvětluje, jak použít ukázková data z Project Operations na cloudové prostředí Dynamics 365 Finance.
+description: Tento článek vysvětluje, jak použít ukázková data z Project Operations na cloudové prostředí Dynamics 365 Finance.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588958"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924652"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Použití ukázkových dat na prostředí aplikace Finance hostované v cloudu
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
 > [!IMPORTANT]
-> Toto téma se vztahuje pouze na Microsoft Dynamics 365 Finance verze 10.0.13 a lze jej provádět pouze v prostředí hostovaném v cloudu. Kroky v tomto tématu dokončete **PŘED** použitím aktualizací kvality na prostředí.
+> Tento článek se vztahuje pouze na Microsoft Dynamics 365 Finance verze 10.0.13 a lze jej provádět pouze v prostředí hostovaném v cloudu. Dokončete kroky v tomto článku **PŘED** použitím aktualizací kvality na prostředí.
 
 1. Ve svém projektu LCS otevřete stránku **Podrobnosti o prostředí**. Všimněte si, že obsahuje podrobnosti potřebné pro připojení k prostředí pomocí protokolu RDP (Remote Desktop Protocol).
 

@@ -1,6 +1,6 @@
 ---
 title: Zpracování příjemek výdajů
-description: Toto téma poskytuje informace o zpracování optického rozpoznávání znaků (OCR) pro účtenky. Tato funkce je navržena pro zlepšení uživatelského prostředí při vytváření sestav výdajů v aplikaci Microsoft Microsoft Dynamics 365 Finance.
+description: Tento článek obsahuje informace o zpracování příjemky pomocí technologie OCR. Tato funkce je navržena pro zlepšení uživatelského prostředí při vytváření sestav výdajů v aplikaci Microsoft Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 5a72802e3c52b6a9e55ac779aa36c32072dc8b8b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684312"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911404"
 ---
 # <a name="expense-receipt-processing"></a>Zpracování příjemek výdajů
 

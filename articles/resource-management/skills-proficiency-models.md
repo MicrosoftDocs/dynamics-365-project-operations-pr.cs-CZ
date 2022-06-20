@@ -1,17 +1,17 @@
 ---
 title: Dovednosti a certifikace
-description: Toto téma poskytuje informace o přidání dovedností a certifikačních charakteristik ke zdrojům.
+description: Tento článek poskytuje informace o přidávání charakteristik dovedností a certifikací do zdrojů.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 836784bf45ba45da35d685e9372b29bb843a7268
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 12871964fec536849c55888f0704725b439dd2af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594248"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918351"
 ---
 # <a name="skills-and-certifications"></a>Dovednosti a certifikace
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_

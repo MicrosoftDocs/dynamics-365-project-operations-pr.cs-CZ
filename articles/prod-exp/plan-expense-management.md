@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8709961"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933990"
 ---
 # <a name="configure-expense-management"></a>Konfigurace správy výdajů
 
-Toto téma popisuje úvahy a rozhodnutí, která musíte udělat během procesu plánování, než nakonfigurujete správu výdajů. Ve správě výdajů můžete ukládat informace o platebních metodách, cestovních požadavcích, sestavách výdajů, zásadách atd.
+Tento článek popisuje, co je třeba zvážit a jaká rozhodnutí je třeba učinit během procesu plánování před konfigurací oblasti Správa výdajů. Ve správě výdajů můžete ukládat informace o platebních metodách, cestovních požadavcích, sestavách výdajů, zásadách atd.
 
 Protože mnohá rozhodnutí, která uděláte při plánování konfigurace správy výdajů, jsou založena na hierarchii a finanční struktuře vaší organizace, musíte si přečíst plánovací dokumenty pro tyto oblasti.
 

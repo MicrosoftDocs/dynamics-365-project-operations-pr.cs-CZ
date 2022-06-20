@@ -1,24 +1,24 @@
 ---
 title: Co je nového v srpnu 2021 - omezené nasazení Project Operations
-description: Toto téma obsahuje informace o aktualizacích kvality dostupných ve vydání omezeného nasazení Project Operations v srpnu 2021.
+description: Tento článek poskytuje informace o aktualizacích kvality, které jsou k dispozici ve verzi Project Operations ze srpna 2021 pro omezené nasazení.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3cb6f92bfb28dc64f0f689e0070b0506644c2320
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84318a26d97355fe56794e1d1532576cde4af661
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586428"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922030"
 ---
 # <a name="whats-new-august-2021---project-operations-lite-deployment"></a>Co je nového v srpnu 2021 - omezené nasazení Project Operations
 
 _Platí pro: Omezené nasazení – od obchodu po pro forma fakturaci_
 
-Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
+Tento článek se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
 
   - Project Operations v prostředí Dataverse verze 4.13.0.152
 

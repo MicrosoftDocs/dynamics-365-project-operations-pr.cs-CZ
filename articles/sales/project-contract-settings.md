@@ -1,23 +1,23 @@
 ---
 title: Nastavení projektové smlouvy
-description: Toto téma poskytuje informace o polích, která mají dopad na řádky smlouvy, a informacích o smlouvě, které jsou shrnuty za všechny řádkové položky.
+description: Tento článek poskytuje informace o polích, která ovlivňují řádky smlouvy, a informace o smlouvě, které jsou shrnuty za všechny řádkové položky.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 461e6026730e4895b4d660db0f50b621432fd01a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921570"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Podrobnosti záhlaví pro smlouvy založené na projektu
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-Toto téma poskytuje informace o polích, která se vztahují na celou projektovou smlouvu, včetně nastavení, která mají dopad na všechny řádky smlouvy. Zahrnuty jsou také informace o smlouvě, které jsou shrnuty za všechny řádkové položky za účelem zvýšení KPI projektové smlouvy.
+Tento článek poskytuje informace o polích, která se vztahují na celou projektovou smlouvu, včetně nastavení, která ovlivňují všechny řádky smlouvy. Zahrnuty jsou také informace o smlouvě, které jsou shrnuty za všechny řádkové položky za účelem zvýšení KPI projektové smlouvy.
 
 V následující tabulce jsou uvedena pole na kontraktu projektu, která jsou jedinečná pro Dynamics 365 Project Operations nebo mají některé důležité změny v chování z prodejních objednávek v Dynamics 365 Sales.
 

@@ -1,6 +1,6 @@
 ---
-title: Mobilní pracovní prostor zadání času projektu
-description: Toto téma obsahuje informace o Zadání času projektu na mobilních pracovních prostorech. Tento pracovní prostor umožňuje uživatelům vstoupit a ušetřit čas proti projektu pomocí mobilního zařízení.
+title: Mobilní pracovní prostor Časový záznam projektu
+description: Tento článek obsahuje informace o mobilním pracovním prostoru Časový záznam projektu. Tento pracovní prostor umožňuje uživatelům vstoupit a ušetřit čas proti projektu pomocí mobilního zařízení.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683944"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919530"
 ---
-# <a name="project-time-entry-mobile-workspace"></a>Mobilní pracovní prostor zadání času projektu
+# <a name="project-time-entry-mobile-workspace"></a>Mobilní pracovní prostor Časový záznam projektu
 
 [!include [banner](../includes/banner.md)]
 
-Toto téma obsahuje informace o **Zadání času projektu** na mobilních pracovních prostorech. Tento pracovní prostor umožňuje uživatelům vstoupit a ušetřit čas proti projektu pomocí mobilního zařízení.
+Tento článek obsahuje informace o mobilním pracovním prostoru **Časový záznam projektu**. Tento pracovní prostor umožňuje uživatelům vstoupit a ušetřit čas proti projektu pomocí mobilního zařízení.
 
 Tento mobilní pracovní prostor je určen k použití s mobilní aplikací Dynamics 365 Unified Ops. 
 

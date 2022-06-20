@@ -1,18 +1,18 @@
 ---
 title: Sady schválení v Project Service Automation
-description: Tento téma poskytuje informace o sadě schválení, požadavcích a podmnožinách těchto operací.
+description: Tento článek poskytuje informace o sadě schválení, požadavcích a podmnožinách těchto operací.
 author: stsporen
 manager: tfehr
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 0783441d3bf7ed80192a3890a2e297fea05fe425
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 568815967b909d2a5ee9bf40b4fee97e0ad4d295
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583300"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927044"
 ---
 # <a name="approval-sets-in-project-service-automation"></a>Sady schválení v Project Service Automation
 

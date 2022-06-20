@@ -1,18 +1,18 @@
 ---
 title: Chyba neshody měn
-description: Toto téma poskytuje informace o odstraňování chyby nesouladu měn, ke které dochází při ukládání určitých typů záznamů.
+description: Tento článek poskytuje informace o odstraňování chyby nesouladu měn, ke které dochází při ukládání určitých typů záznamů.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5bb54a121f0dc22f1c0ea88ada9c922c1d4c6544
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5b0973a340dec8e68f326803d75bea9803e19791
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914716"
 ---
 # <a name="currency-mismatch-error"></a>Chyba neshody měn 
 

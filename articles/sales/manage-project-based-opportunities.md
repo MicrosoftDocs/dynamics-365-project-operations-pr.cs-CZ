@@ -1,17 +1,17 @@
 ---
 title: Správa příležitostí založených na projektech
-description: Toto téma poskytuje informace o tom, jak pracovat s příležitostmi, které souvisejí s projekty.
+description: Tento článek poskytuje informace o tom, jak pracovat s příležitostmi souvisejícími s projekty.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600412"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933208"
 ---
 # <a name="manage-project-based-opportunities"></a>Správa příležitostí založených na projektech
 
@@ -19,7 +19,7 @@ _**Platí pro:** Project Operations scénáře založené na zdrojích / položk
 
 Projektové společnosti mají své doručovací činnosti obvykle rozložené do více zemí a geografických oblastí. Náklady na realizaci a dodání projektu se mohou lišit v závislosti na tom, která geografická oblast nebo divize řídí dodávku. To pak může mít dopad na obchodní marže. Poskytování služeb založených na projektu obvykle zahrnuje velké množství času vynaloženého lidskými zdroji, značné výdaje na cestování, náklady na materiál a další výdaje.
 
-Příležitosti založené na projektu v Dynamics 365 Project Operations jsou navrženy s rozšířením příležitostí v Dynamics 365 Sales. Téma poskytuje podrobnosti o různých polích a obchodní logice obsažené v dalších funkcích, které jsou vyžadovány projektovými společnostmi ke správě příležitostí založených na projektu.
+Příležitosti založené na projektu v Dynamics 365 Project Operations jsou navrženy s rozšířením příležitostí v Dynamics 365 Sales. Článek poskytuje podrobnosti o různých polích a obchodní logice zahrnutých v dodatečné funkčnosti, kterou vyžadují projektové společnosti ke správě příležitostí založených na projektech.
 
 ## <a name="view-all-project-based-opportunities"></a>Zobrazení všech příležitostí založených na projektech
 

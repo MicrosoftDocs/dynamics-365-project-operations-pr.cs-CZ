@@ -1,6 +1,6 @@
 ---
 title: Vratka DPH
-description: Toto téma vysvětluje, jak získat zpět vratky u transakcí s DPH.
+description: Tento článek vysvětluje postup obnovy refundace u transakcí s nárokem na vrácení daně z přidané hodnoty.
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ab390e399e0c709cd72219f0a1d85116b33b84e
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a5798c11b4f7a9e49318cdab097746f21c2e81e2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682978"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934082"
 ---
 # <a name="vat-recovery"></a>Vratka DPH 
 

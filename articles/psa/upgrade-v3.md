@@ -1,6 +1,6 @@
 ---
 title: Zvažování upgradu - Microsoft Dynamics 365 Project Service Automation verze 2.x nebo 1.x na verzi 3
-description: Toto téma obsahuje důležité informace, které je třeba zvážit při upgradu aplikace Project Service Automation verze 2.x nebo 1.x na verzi 3.
+description: Tento článek obsahuje důležité informace, které je třeba zvážit při upgradu z verze Project Service Automation 2.x nebo 1.x na verzi 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601746"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918902"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Důležité informace o upgradu – PSA verze 2.x nebo 1.x na verzi 3
 
@@ -40,7 +40,7 @@ Ve verzích 2 a 1 aplikace Project Service Automation byla přiřazení úkol�
 
 V aplikaci Project Service Automation verze 3 se změnilo základní schéma přiřazení rezervovatelných zdrojů k úkolům. Úkol na řádku byl zastaralý a mezi úlohou v **entitě Úkol** a členem týmu v entitě **Přiřazení zdroje** existuje přímá relace 1:1. Úkoly, které jsou přiřazeny členovi projektového týmu, jsou nyní uloženy přímo v entitě Přiřazení zdroje.  
 
-Tyto změny ovlivňují upgrade všech existujících projektů, které mají přiřazení zdrojů pro pojmenované rezervovatelné zdroje a obecné zdroje v projektovém týmu. Toto téma obsahuje důležité informace, které je třeba zohlednit u projektů při upgradu na verzi 3. 
+Tyto změny ovlivňují upgrade všech existujících projektů, které mají přiřazení zdrojů pro pojmenované rezervovatelné zdroje a obecné zdroje v projektovém týmu. Tento článek obsahuje důležité informace, které je třeba zohlednit u projektů při upgradu na verzi 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Úkoly přiřazené k pojmenovaným zdrojům
 Pomocí základní entity úkolu umožňovaly úkoly ve verzích 2 a 1 členům týmu ztvárnit jinou roli, než je jejich výchozí definovaná role. Například Ivaně Kočvářové, které je ve výchozím nastavení přiřazena role Programový manažer, může být přiřazena Vývojář. Ve verzi 3 je role pojmenovaného člena týmu vždy výchozí, takže všechny úkoly, ke kterým je přiřazena Ivana Kočvářová, používají její výchozí roli Programový manažer.

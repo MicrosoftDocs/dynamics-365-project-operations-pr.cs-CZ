@@ -1,6 +1,6 @@
 ---
 title: Fakturace v Project Service Automation
-description: Toto téma poskytuje informace o fakturaci.
+description: Tento článek poskytuje informace o fakturaci.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579298"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926814"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturace v Project Service Automation
 
@@ -94,7 +94,7 @@ Proces **ProcessRunner** po svém dokončení volá proces **ProcessRunCaller**,
 Úloha dávkového zpracování pro vytváření faktur je opakující se úloha. Pokud je tento dávkový proces spuštěn vícekrát, vytvoří se více instancí této úlohy a způsobí chyby. Proto byste tento dávkový proces měli spustit pouze jednou a restartovat ho, pouze pokud přestane běžet.
 
 > [!NOTE]
-> Dávková fakturace v Project Service Automation běží pouze pro řádky smlouvy o projektu, které jsou konfigurovány podle plánů faktur. Řáeke smlouvy s metodou fakturace s pevnou cenou musí mít nakonfigurované milníky. Řádek smlouvy o projektu s metodou fakturace času a materiálu bude vyžadovat sestavení časového rozvrhu faktur. Informace o nastavení frekvencí fakturace v kontextu projektu, který je založen na řádku nabídky, jsou uvedeny v tématu [Nabídky a řádky nabídek](basic-quote-lines.md#invoice-schedule). Totéž platí pro řádek smlouvy založené na projektu.      
+> Dávková fakturace v Project Service Automation běží pouze pro řádky smlouvy o projektu, které jsou konfigurovány podle plánů faktur. Řáeke smlouvy s metodou fakturace s pevnou cenou musí mít nakonfigurované milníky. Řádek smlouvy o projektu s metodou fakturace času a materiálu bude vyžadovat sestavení časového rozvrhu faktur. Informace o nastavení fakturačních frekvencí v kontextu projektu, který je založen na řádku nabídky, jsou uvedeny v článku [Nabídky a řádky nabídky](basic-quote-lines.md#invoice-schedule). Totéž platí pro řádek smlouvy založené na projektu.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Úprava konceptu faktury PSA
 

@@ -1,25 +1,25 @@
 ---
 title: Co je nového, leden 2021 - omezené nasazení Project Operations
-description: Tohle téma poskytuje informace o aktualizacích pro zvýšení kvality, které jsou k dispozici v omezeném nasazení Project Operations z ledna 2021.
+description: Tento článek poskytuje informace o aktualizacích kvality, které jsou k dispozici ve verzi Project Operations z ledna 2021 pro omezené nasazení.
 author: sigitac
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 17accd33a6126918e02e90b67636d95342efdd65
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 47932fb89cdd9481988d00f2f3be094b68110cbc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583990"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934266"
 ---
 # <a name="whats-new-january-2021---project-operations-lite-deployment"></a>Co je nového, leden 2021 - omezené nasazení Project Operations
 
 
 _Platí pro: Omezené nasazení – od obchodu po pro forma fakturaci_
 
-Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
+Tento článek se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
 
   - Project Operations v prostředí Dataverse verze 4.6.0.154.
   

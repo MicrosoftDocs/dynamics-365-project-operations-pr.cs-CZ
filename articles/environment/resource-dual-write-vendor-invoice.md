@@ -1,18 +1,18 @@
 ---
 title: Integrace faktury dodavatele
-description: Tento téma poskytuje informace o integraci faktury dodavatele v Project Operations.
+description: Tento článek poskytuje informace o práci s integrací faktur dodavatelů v Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591167"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912048"
 ---
 # <a name="vendor-invoice-integration"></a>Integrace faktury dodavatele
 
@@ -21,7 +21,7 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 Zásobování související s projektem v Dynamics 365 Project Operations lze zaznamenat přechodem na **Závazky** > **Faktury** > **Nevyřízené faktury dodavatele** a pomocí dokladu nevyřízené faktury dodavatele. Další informace viz [Zakoupení neskladovaných materiálů pomocí nevyřízené faktury dodavatele](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Než použijete funkce popsané v tomto tématu, zkontrolujte a použijte požadované konfigurace. Další informace viz [Povolené neskladovaných materiálů a nevyřízených faktury dodavatele](../procurement/configure-materials-nonstocked.md).
+> Než použijete funkce popsané v tomto článku, zkontrolujte a použijte požadované konfigurace. Další informace viz [Povolené neskladovaných materiálů a nevyřízených faktury dodavatele](../procurement/configure-materials-nonstocked.md).
 
 V Project Operations se řádky faktury dodavatele související s projektem zaúčtují pomocí zvláštních pravidel účtování:
 

@@ -1,6 +1,6 @@
 ---
 title: Upgrade domovské stránky
-description: Toto téma ukazuje, kde naleznete důležité informace o nových a změněných funkcích aplikace Dynamics 365 Project Service Automation a o procesu upgradu na nejnovější verzi.
+description: Tento článek ukazuje, kde naleznete důležité informace o nových a změněných funkcích aplikace Dynamics 365 Project Service Automation a o procesu upgradu na nejnovější verzi.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591373"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926630"
 ---
 # <a name="upgrade-home-page"></a>Upgrade domovské stránky
 
@@ -48,14 +48,14 @@ Dříve zákazníci, kteří mají instanci PSA verze 2.x a museli upgradovat n
 Před spuštěním upgradu doporučujeme dokončit následující úkoly:
 
 - Ověřte, zda jsou v identifikované instanci nainstalovány aplikace Dynamics 365 Field Service a Project Service Automation. Pokud jsou nainstalována obě řešení, měli byste naplánovat upgrade obou před obnovením běžného používání dané instance.
-- Pečlivě si prostudujte následující témata. Znalost a pochopení změn mezi verzemi vám pomůže při procesu upgradu. Tato témata obsahují informace o hlavních změnách v programu PSA, včetně důležitých informací a doporučení pro plánování upgradu na verzi 3.x.
+- Pečlivě si prostudujte následující články. Znalost a pochopení změn mezi verzemi vám pomůže při procesu upgradu. Tyto články obsahují informace o hlavních změnách v programu PSA, včetně důležitých informací a doporučení pro plánování upgradu na verzi 3.x.
 
     - [Novinky a změny v aplikaci Project Service Automation verze 3](whats-new-changed-v3.md)
     - [Důležité informace o upgradu – Project Service Automation verze 2.x nebo 1.x na verzi 3](upgrade-v3.md)
 
 - Upgradujte sandboxovou instanci, chcete-li zhodnotit změny v implementaci před upgradem produkční instance.
 
-Po zkontrolování dříve zmíněných témat a jakmile budete připraveni na upgrade na verzi PSA 3.x nebo na verzi založenou na UCI, odešlete požadavek oddělení podpory Microsoftu, aby byl upgrade k dispozici z centra pro správu. V požadavku zadejte podrobnosti o vaší instanci.
+Po zkontrolování dříve zmíněných článků a jakmile budete připraveni na upgrade na verzi PSA 3.x nebo na verzi založenou na UCI, odešlete požadavek oddělení podpory Microsoftu, aby byl upgrade k dispozici z centra pro správu. V požadavku zadejte podrobnosti o vaší instanci.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Starší verze programu PSA (PSA verze 2.x) v nově vytvořené instanci
 

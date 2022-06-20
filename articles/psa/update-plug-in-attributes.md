@@ -1,6 +1,6 @@
 ---
 title: Aktualizace atributů modulů plug-in tak, aby zahrnovaly nové cenové dimenze
-description: Toto téma obsahuje informace o aktualizaci atributů modulů plug-in pro cenové dimenze.
+description: Tento článek obsahuje informace o aktualizaci atributů modulů plug-in pro cenové dimenze.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580863"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913198"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Aktualizace atributů modulů plug-in tak, aby zahrnovaly nové cenové dimenze
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Pokud nepoužíváte funkce Vypracování nabídky a Uzavírání smluv služby Project Service Automation (PSA), můžete toto téma přeskočit.
+> Pokud nepoužíváte funkce Vypracování nabídky a Uzavírání smluv služby Project Service Automation (PSA), můžete tento článek přeskočit.
 
-Toto téma předpokládá, že jste dokončili postupy v tématech [Vytvoření vlastních polí a entit](create-custom-fields-entities.md), [Přidání vlastních polí do nastavení ceny a transakčních entit](field-references.md) a [Nastavení vlastních polí jako cenových dimenzí](set-up-pricing-dimensions.md). Pokud jste tyto postupy nedokončili, vraťte se zpět, dokončete je a vraťte se k tomuto tématu.
+Tento článek předpokládá, že jste dokončili postupy v článcích [Vytvoření vlastních polí a entit](create-custom-fields-entities.md), [Přidání vlastních polí do nastavení ceny a transakčních entit](field-references.md) a [Nastavení vlastních polí jako cenových dimenzí](set-up-pricing-dimensions.md). Pokud jste tyto postupy nedokončili, vraťte se zpět, dokončete je a vraťte se k tomuto článku.
 
 Při vytvoření detailu řádku nabídky na stránce **Řádek nabídky** pro řádek nabídky projektu systém vytvoří dva řádky odhadu na pozadí – jeden řádek pro nákladovou stranu odhadu a jeden pro prodejní stranu. To je stejné pro řádky projektové smlouvy.
 

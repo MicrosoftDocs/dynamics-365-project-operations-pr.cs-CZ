@@ -1,6 +1,6 @@
 ---
 title: Nabídky a řádky nabídky
-description: Toto téma poskytuje informace o nabídkách a řádcích nabídky.
+description: Tento článek poskytuje informace o nabídkách a řádcích nabídky.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599032"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933346"
 ---
 # <a name="quotes-and-quote-lines"></a>Nabídky a řádky nabídky
 
@@ -39,7 +39,7 @@ V Dynamics 365 Project Service Automation existují dva typy nabídek: projektov
 - Prodejní nabídka neobsahuje některá pole a koncepty, které jsou součástí projektové nabídky. Mezi tato pole patří **Smluvní jednotka**, **Manažer obchodních vztahů** a **Fakturační adresa – jméno kontaktu**.  
 - Prodejní nabídky a projektové nabídky jsou také identifikovány pomocí pole založeného na sadě možností, které je pojmenováno **Typ**. U prodejní nabídky má toto pole hodnotu **Na základě zboží**. U projektové nabídky má hodnotu **Na základě práce**.
 
-Toto téma se zaměří na podrobnosti projektových nabídek.
+Tento článek se zaměří na podrobnosti projektových nabídek.
 
 Projektová nabídka v PSA může obsahovat více řádkových položek nebo řádků nabídky. Projektová nabídka obsahuje ve skutečnosti dvě mřížky pro řádkové položky. Jedna mřížka je pro řádky založené na projektech, které umožňují detailní odhady. Druhá mřížka je pro řádky založené na produktech, které používají jednoduchou jednotkovou cenu a přístup založený na množství.
 

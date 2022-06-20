@@ -1,6 +1,6 @@
 ---
 title: Novinky a změny v aplikaci Project Service Automation verze 3
-description: Tohle téma poskytuje informace o novinkách a změnách v aplikaci Project Service Automation verze 3.
+description: Tento článek obsahuje informace o novinkách a změnách v aplikaci Project Service Automation verze 3.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581644"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926584"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novinky a změny v aplikaci Project Service Automation verze 3
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581644"
 
 
 
-Toto téma poskytuje informace o změnách uživatelského rozhraní (UI), funkčnosti a terminologie v aplikaci Project Service Automation mezi verzemi 2 nebo 1 a verzí 3.
+Tento článek poskytuje informace o změnách uživatelského rozhraní (UI), funkčnosti a terminologie v aplikaci Project Service Automation mezi verzemi 2 nebo 1 a verzí 3.
 
 ## <a name="project-scheduling"></a>Plánování projektu
 Plán projektu, v předchozích verzích označovaný jako strukturovaný rozpis prací, byl přejmenován na plán a je přístupný kliknutím na záložku **Plán**. 
@@ -150,7 +150,7 @@ Pokud máte přiřazení úkolů pro zdroj bez rezervací (nedostatečná rezerv
 Tato část obsahuje informace o změnách času, výdajů a schválení ve verzi 3 aplikace Project Service Automation. Jako součást řešení Dynamics 365 Project Service Automation byla obnovena funkce zadání **Časový záznam**, aby bylo možné využít architekturu Sjednoceného rozhraní. Díky tomu je možné poskytovat konzistentní, jednotné uživatelské rozhraní, které se řídí zásadami přizpůsobivého návrhu na libovolné velikosti obrazovky nebo v libovolném zařízení. 
 
 ### <a name="landing-page"></a>Cílová stránka
-Ve verzi 3 se již nerozšiřitelné prostřední vlastního časového záznamu nepoužívá. Místo toho se zde používá rozšiřitelná a přístupná nativní mřížka. Funkci časového záznamu můžete používat pomocí mapy webu vlevo. Díky této změně již nebudete moci zadávat čas vždy na jeden týden. Místo toho bude nutné vytvořit časový záznam pro každý den v mřížce. Po vytvoření několika časových záznamů mohou uživatelé hromadně vytvářet časové záznamy pomocí funkce **Kopírovat** vysvětlené později v tomto tématu. 
+Ve verzi 3 se již nerozšiřitelné prostřední vlastního časového záznamu nepoužívá. Místo toho se zde používá rozšiřitelná a přístupná nativní mřížka. Funkci časového záznamu můžete používat pomocí mapy webu vlevo. Díky této změně již nebudete moci zadávat čas vždy na jeden týden. Místo toho bude nutné vytvořit časový záznam pro každý den v mřížce. Po vytvoření několika časových záznamů mohou uživatelé hromadně vytvářet časové záznamy pomocí funkce **Kopírovat** vysvětlené později v tomto článku. 
 
 ![Úvodní stránka časového záznamu.](media/time-entry-landing-page-07.png)
  

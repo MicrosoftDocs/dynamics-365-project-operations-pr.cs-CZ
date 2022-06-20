@@ -1,24 +1,24 @@
 ---
 title: Odstraněné nebo zastaralé funkce v aplikaci Dynamics 365 Project Operations
-description: Toto téma popisuje funkce, které byly odebrány nebo u nichž se plánuje odebrání z aplikace Dynamics 365 Project Operations.
+description: Tento článek popisuje funkce, které byly odebrány nebo u nichž se plánuje odebrání z aplikace Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601562"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921478"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Odstraněné nebo zastaralé funkce v aplikaci Dynamics 365 Project Operations
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení – od obchodu po proforma fakturaci a Project Operations pro scénáře založené na skladovém materiálu / výrobě_
 
-Toto téma popisuje funkce, které byly odebrány nebo u nichž se plánuje odebrání z aplikace Dynamics 365 Project Operations.
+Tento článek popisuje funkce, které byly odebrány nebo u nichž se plánuje odebrání z aplikace Dynamics 365 Project Operations.
 
 - *Odebraná* funkce již v produktu není k dispozici.
 - *Zastaralá* funkce není v aktivním vývoji a může být v budoucí aktualizaci odebrána.

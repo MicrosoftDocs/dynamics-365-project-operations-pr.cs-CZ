@@ -1,25 +1,25 @@
 ---
 title: Použití rozhraní API projektového plánu s Power Automate
-description: Toto téma poskytuje ukázkový tok, který používá rozhraní API (Project schedule application programming interface).
+description: Tento článek poskytuje ukázkový tok, který používá rozhraní API (Project schedule application programming interface).
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597698"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916326"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>Použití rozhraní API projektového plánu s Power Automate
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Toto téma popisuje ukázkový tok, který ukazuje, jak vytvořit úplný plán projektu pomocí Microsoft Power Automate, jak vytvořit sadu operací a jak aktualizovat entitu. Příklad ukazuje, jak vytvořit projekt, člena projektového týmu, sady operací, projektové úkoly a přiřazení zdrojů. Toto téma také vysvětluje, jak aktualizovat entitu a provést sadu operací.
+Tento článek popisuje ukázkový tok, který ukazuje, jak vytvořit úplný plán projektu pomocí Microsoft Power Automate, jak vytvořit sadu operací a jak aktualizovat entitu. Příklad ukazuje, jak vytvořit projekt, člena projektového týmu, sady operací, projektové úkoly a přiřazení zdrojů. Tento článek také vysvětluje, jak aktualizovat entitu a provést sadu operací.
 
-Následuje úplný seznam kroků, které jsou zdokumentovány ve vzorovém toku v tomto tématu:
+Následuje úplný seznam kroků, které jsou zdokumentovány ve vzorovém toku v tomto článku:
 
 1. [Vytvoření spouštěče PowerApps](#1)
 2. [Vytvoření projektu](#2)
@@ -40,7 +40,7 @@ Následuje úplný seznam kroků, které jsou zdokumentovány ve vzorovém toku 
 
 ## <a name="assumptions"></a>Předpoklady
 
-Toto téma předpokládá, že máte základní znalosti o platformě Dataverse, cloudových tocích a Project Schedule Application Programming Interface (API). Více informací naleznete v části [Reference](#references) v dále v tomto tématu.
+Tento článek předpokládá, že máte základní znalosti o platformě Dataverse, cloudových tocích a Project Schedule Application Programming Interface (API). Více informací naleznete v části [Reference](#references) v dále v tomto článku.
 
 ## <a name="create-a-flow"></a>Vytvoření toku
 
@@ -65,7 +65,7 @@ Pokud chcete vytvořit [tok s podporou řešení](/power-automate/overview-solut
 1. Na stránce **Řešení** vyberte řešení, které jste vytvořili, a poté vyberte **Nový**.
 2. V levém podokně vyberte **Cloudové toky** \> **Automatizace** \> **Cloudový tok** \> **Okamžitý**.
 3. Do pole **Název toku** zadejte **Naplánovat ukázkový tok API**.
-4. V seznamu **Vyberte, jak tento tok spustit** vyberte **Power Apps**. Když vytvoříte trigger Power Apps, logika je na vás jako autorovi. V tomto tématu ponechte vstupní parametry prázdné pro účely testování.
+4. V seznamu **Vyberte, jak tento tok spustit** vyberte **Power Apps**. Když vytvoříte trigger Power Apps, logika je na vás jako autorovi. V tomto článku ponechte vstupní parametry prázdné pro účely testování.
 5. Vyberte **Vytvořit**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Krok 2: Vytvoření projektu

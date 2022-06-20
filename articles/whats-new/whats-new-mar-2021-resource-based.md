@@ -1,24 +1,24 @@
 ---
 title: Co je nového, březen 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
-description: Tohle téma poskytuje informace o aktualizacích pro zvýšení kvality, které jsou k dispozici ve verzi Project Operations z března 2021 pro scénáře založené na zdrojích / položkách, které nejsou na skladě.
+description: Tento článek poskytuje informace o aktualizacích kvality, které jsou k dispozici ve verzi Project Operations z března 2021 pro scénáře založené na zdrojích / neskladových položkách.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a59aa5591dd5f5ed129ce710196eea572e66ea0b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fbdcb01117c39f879f80319b01d278c91a56e8f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599446"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932932"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového, březen 2021 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-Toto téma se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
+Tento článek se vztahuje na následující součásti a verze aplikace Dynamics 365 Project Operations:
 
 - Project Operations v prostředí Dataverse verze 4.8.0.91 
 - Řízení projektů a účetnictví v Dynamics 365 Finance, verze prostředí 10.0.16 

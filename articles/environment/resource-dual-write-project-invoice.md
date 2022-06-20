@@ -1,22 +1,22 @@
 ---
 title: Integrace projektové faktury
-description: Toto téma poskytuje informace o integraci fakturaci zákazníka Project Operations s použitím duálního zápisu.
+description: Tento článek poskytuje informace o integraci duálního zápisu Project Operations pro fakturaci zákazníků.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581230"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912094"
 ---
 # <a name="project-invoice-integration"></a>Integrace projektové faktury
 
-Toto téma poskytuje informace o integraci fakturaci zákazníka Project Operations s použitím duálního zápisu.
+Tento článek poskytuje informace o integraci duálního zápisu Project Operations pro fakturaci zákazníků.
 
 V Project Operations projektový manažer spravuje nevyřízené účty fakturace projektu a vytváří proforma fakturu pro zákazníka v Microsoft Dataverse. Na základě této proforma faktury vytvoří účetní pohledávek nebo účetní projektu zákaznickou fakturu. Integrace duálního zápisu zajišťuje synchronizaci podrobností proforma faktury s finančními a provozními aplikacemi. Po zaúčtování faktury orientované na zákazníka systém aktualizuje příslušné skutečné hodnoty projektu Dataverse s údaji účetnictví. Následující obrázek poskytuje koncepční přehled této integrace na vysoké úrovni.
 

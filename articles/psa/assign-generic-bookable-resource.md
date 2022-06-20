@@ -1,6 +1,6 @@
 ---
 title: Přiřaďte k úkolu a projektovému týmu obecné rezervovatelné zdroje
-description: Toto téma obsahuje informace o rezervaci obecných zdrojů pro úkoly a projektové týmy.
+description: Tento článek obsahuje informace o rezervaci obecných zdrojů pro úkoly a projektové týmy.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 043a295bb7daee86ec0a701b29fd32c59654832d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9f67ab7381747e5d780f8b0024dd98ae8420d05f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591994"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923548"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Přiřaďte k úkolu obecný rezervovatelný zdroj a vygenerujte požadavky na zdroj 
 

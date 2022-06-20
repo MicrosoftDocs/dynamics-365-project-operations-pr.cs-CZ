@@ -1,6 +1,6 @@
 ---
 title: Přizpůsobení týdenních časových záznamů
-description: Toto téma obsahuje informace o způsobu implementace vlastních obchodních pravidel, která podporují postupy organizace.
+description: Tento článek obsahuje informace o způsobu implementace vlastních obchodních pravidel, která podporují postupy organizace.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581046"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918948"
 ---
 # <a name="customize-weekly-time-entry"></a>Přizpůsobení týdenních časových záznamů 
 
@@ -46,9 +46,9 @@ Nová mřížka pro týdenní zadávání času je vlastní ovládací prvek, kt
 - Typ
 - Stav záznamu
 
-Část **Dimenze** neumožňuje úpravy na řádku. Tato část je podložena zobrazením, které umožňuje přidat vlastní pole do mřížky pro týdenní zadávání času. Informace o přidávání vlastních polí naleznete dále v tomto tématu v části „Rozšiřitelnost“.
+Část **Dimenze** neumožňuje úpravy na řádku. Tato část je podložena zobrazením, které umožňuje přidat vlastní pole do mřížky pro týdenní zadávání času. Informace o přidávání vlastních polí naleznete dále v tomto článku v části „Rozšiřitelnost“.
 
-### <a name="duration"></a>Doba trvání
+### <a name="duration"></a>Duration
 Část Doba trvání zobrazuje dny v týdnu jako záhlaví sloupců. Tato část umožňuje úpravy na řádku. Po vytvoření časového záznamu, který má odpovídající dimenze, mohou uživatelé rychle zadat na řádku množství času stráveného v těchto dimenzích.
 
 ## <a name="create-a-new-time-entry"></a>Vytvoření nového časového záznamu

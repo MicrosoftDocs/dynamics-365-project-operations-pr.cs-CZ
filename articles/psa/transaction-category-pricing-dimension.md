@@ -1,6 +1,6 @@
 ---
 title: Použití kategorie transakce jako cenové dimenze
-description: Toto téma obsahuje informace o použití kategorie transakce jako cenové dimenze.
+description: Tento článek obsahuje informace o použití kategorie transakce jako cenové dimenze.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ede5f95a3ba7e122e28875acad1ecc63ff095e63
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1a1c2dc17c2092e5364d90e7efc1f13aee80703e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593328"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915728"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Použití kategorie transakce jako cenové dimenze
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Toto téma ukazuje, jak používat kategorii transakce jako cenovou dimenzi. Než začnete, pokud jste ještě nevytvořili řešení cenové dimenze, bude nutné vytvořit novou. Pokud již máte řešení cenové dimenze, můžete provést změny v tomto řešení. Pokud jste pro organizaci nevytvořili nové řešení cenové dimenze, dokončete postupy v tématu [Vytvoření vlastních polí a entit](create-custom-fields-entities.md).
+Tento článek ukazuje, jak používat kategorii transakce jako cenovou dimenzi. Než začnete, pokud jste ještě nevytvořili řešení cenové dimenze, bude nutné vytvořit novou. Pokud již máte řešení cenové dimenze, můžete provést změny v tomto řešení. Pokud jste pro organizaci nevytvořili nové řešení cenové dimenze, dokončete postupy v článku [Vytvoření vlastních polí a entit](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Přidání kategorie transakce do formulářů a zobrazení
 Chcete-li, aby byla kategorie transakce viditelná v uživatelském rozhraní v řešení cenové dimenze, musíte projít všechny formuláře a zobrazení klíčových entit a přidat tato pole do formulářů a zobrazení těchto entit.

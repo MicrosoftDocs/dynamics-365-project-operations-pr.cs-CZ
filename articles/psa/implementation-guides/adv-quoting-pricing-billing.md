@@ -1,6 +1,6 @@
 ---
 title: Pokročilé vypracovávání nabídek, vytváření cenových kalkulací a generování faktur
-description: Toto téma obsahuje informace o vypracovávání nabídek, generování faktur a vytváření cenových kalkulací v aplikaci Project Service Automation.
+description: Tento článek obsahuje informace o vypracovávání nabídek, generování faktur a vytváření cenových kalkulací v aplikaci Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54047f34d950fc79e510bfe0d6601e271c02a92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8106a18fefc34141fdc5d350c60e87ec4b2a4c1d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579344"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921800"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Pokročilá příručka pro vypracovávání nabídek, vytváření cenových kalkulací a generování faktur
 
@@ -32,7 +32,7 @@ ms.locfileid: "8579344"
 
 Schopnost najít správné zdroje ve správný čas, rezervovat tyto zdroje pro projekty a udržovat zdroje využité pomáhá organizacím plnit výnosové cíle a cíle spokojenosti zákazníků. 
 
-Odkaz na soubor PDF, který byl dříve v tomto tématu, byl odebrán a obsah byl přesunut do následujících témat:
+Odkaz na soubor PDF, který byl dříve v tomto článku, byl odebrán a obsah byl přesunut do následujících článků:
 
 - [Vypracovávání nabídek, vytváření cenových kalkulací a generování faktur](../quote-bill-price.md)
 - [Prodejní procesy](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Odkaz na soubor PDF, který byl dříve v tomto tématu, byl odebrán a obsah by
 - [Záznam skutečných hodnot](../advanced-actuals.md)
 
 > [!NOTE]
-> Toto téma bude v budoucí aktualizaci dokumentace odebráno. 
+> Tento článek bude v budoucí aktualizaci dokumentace odebrán. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

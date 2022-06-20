@@ -1,6 +1,6 @@
 ---
 title: Kontrola nedokončené fakturace u projektů a projektových smluv
-description: Toto téma obsahuje informace o tom, jak kontrolovat nedokončené časové, výdajové a produktové záznamy a jak je označit jako připravené k fakturaci.
+description: Tento článek obsahuje informace o tom, jak kontrolovat nedokončené časové, výdajové a produktové záznamy a jak je označit jako připravené k fakturaci.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 51a7ecfefcc20544f5be378a347e3568285cafb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 833ace7fd6285191f4b023a029286cd36b5de8f4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600550"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928884"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Kontrola nedokončené fakturace u projektů a projektových smluv
 
@@ -28,7 +28,7 @@ ms.locfileid: "8600550"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Pokud je transakce připravena k vytvoření a zpracování faktury, měla by být označena jako **Připraveno k fakturaci**. Toto téma popisuje typy transakcí, které lze vytvořit.
+Pokud je transakce připravena k vytvoření a zpracování faktury, měla by být označena jako **Připraveno k fakturaci**. Tento článek popisuje typy transakcí, které lze vytvořit.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Kontrola nedokončené fakturace času a materiálu
 

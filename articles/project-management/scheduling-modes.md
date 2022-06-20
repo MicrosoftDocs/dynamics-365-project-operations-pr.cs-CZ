@@ -1,17 +1,17 @@
 ---
 title: Režimy plánování
-description: Toto téma poskytuje informace o režimech plánování.
+description: Tento článek obsahuje informace o režimech plánování.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923640"
 ---
 # <a name="scheduling-modes"></a>Režimy plánování
 
@@ -38,7 +38,7 @@ Když definujete režim plánování projektu, nastavujete jednu z těchto hodno
 | Úkol s pevným úsilím    | Doba trvání se přepočítá. | Jednotky jsou přepočítány.    | Doba trvání se přepočítá. |
 | Úkol s pevnou dobou trvání  | Úsilí se přepočítá.   | Úsilí se přepočítá.    | Jednotky jsou přepočítány.   |
 
-Další informace o implikacích daného režimu najdete v části [Změna typu úkolu pro přesnější plánování](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). V téma se výraz **Práce** se používá místo **Úsilí**.
+Další informace o implikacích daného režimu najdete v části [Změna typu úkolu pro přesnější plánování](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). V článku se používá pojem **práce** namísto **úsilí**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Změna režimu plánování organizace
 

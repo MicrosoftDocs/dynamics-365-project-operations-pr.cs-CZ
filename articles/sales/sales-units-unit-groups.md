@@ -1,6 +1,6 @@
 ---
 title: Jednotky a skupiny jednotek
-description: Toto téma obsahuje informace, jak vytvářet jednotky a skupiny jednotek v Dynamics 365 Project Operations.
+description: Tento článek poskytuje informace o tom, jak vytvořit jednotky a skupiny jednotek v Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578424"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921432"
 ---
 # <a name="units-and-unit-groups"></a>Jednotky a skupiny jednotek
 
@@ -28,7 +28,7 @@ _**Platí pro:** Project Operations scénáře založené na zdrojích / položk
 
 Jednotky jsou množství nebo míry, ve kterých své produkty nebo služby prodáváte. Pokud například prodáváte zahradnické potřeby, můžete prodávat semena v jednotkách sáčky, krabice a palety. Skupina jednotek je kolekce těchto různých jednotek.
 
-Chcete-li provést kroky v tomto tématu, ujistěte se, že vám byla přiřazena role správce systému nebo Sales Professional Manager nebo že máte ekvivalentní oprávnění.
+Chcete-li dokončit kroky v tomto článku, ujistěte se, že máte přiřazenu roli správce systému nebo manažera prodejních specialistů nebo máte ekvivalentní oprávnění.
 
 ## <a name="create-a-unit-group"></a>Vytvoření skupiny jednotek
 

@@ -1,23 +1,23 @@
 ---
 title: Sledování projektového úsilí
-description: Toto téma obsahuje informace o způsobu sledování projektového úsilí a postupu prací.
+description: Tento článek obsahuje informace o způsobu sledování projektového úsilí a průběhu prací.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593788"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929252"
 ---
 # <a name="project-effort-tracking"></a>Sledování projektového úsilí
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Potřeba sledovat pokrok oproti plánu se liší podle odvětví. Některá odvětví sledují pokrok podrobně, zatímco jiná odvětví ho sledují na vyšší úrovni. Toto téma ukazuje, jak plánovat, abyste vyhověli požadavkům vaší organizace.
+Potřeba sledovat pokrok oproti plánu se liší podle odvětví. Některá odvětví sledují pokrok podrobně, zatímco jiná odvětví ho sledují na vyšší úrovni. Tento článek ukazuje, jak plánovat, abyste vyhověli požadavkům vaší organizace.
 
 ## <a name="effort-tracking-view"></a>Zobrazení sledování úsilí
 

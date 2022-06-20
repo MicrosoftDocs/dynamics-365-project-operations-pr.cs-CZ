@@ -1,17 +1,17 @@
 ---
 title: Registrace ke zkušební verzi Project Operations
-description: Toto téma obsahuje informace o tom, jak nasadit zkušební verzi projektu Dynamics 365 Project Operations.
+description: Tento článek obsahuje informace o nasazení zkušební verze Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584266"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959431"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrace ke zkušební verzi Project Operations 
 
@@ -19,9 +19,9 @@ _**Platí pro:** Project Operations pro scénáře založené na zdrojích / pol
 
 
 
-Toto téma vysvětluje, jak se přihlásit k odběru zkušební nabídky partnera a jak nasadit prostředí Dynamics 365 Project Operations.
+Tento článek vysvětluje, jak se přihlásit k odběru nabídky partnera Preview a nasadit prostředí Dynamics 365 Project Operations.
 
-S novou zkušební verzí Project Operations můžete automaticky nasadit kterýkoli ze tří podporovaných scénářů nasazení po vyplnění dotazníku, který doporučuje nejlepší přístup k nasazení. Toto téma obsahuje následující informace:
+S novou zkušební verzí Project Operations můžete automaticky nasadit kterýkoli ze tří podporovaných scénářů nasazení po vyplnění dotazníku, který doporučuje nejlepší přístup k nasazení. Tento článek obsahuje informace o těchto činnostech:
 
 - Jak uplatnit svou zkušební nabídku.
 - Jak zahájit zajišťování.
@@ -89,7 +89,8 @@ Než začnete, přihlaste se do prohlížeče pomocí uživatelského pracovníh
 4.  Vyberte příslušnou adresu URL aplikace Microsoft Dataverse a adresy URL finančních a provozních aplikací k ověření nasazení.
 
 ## <a name="configuring-dual-write"></a>Jak konfigurovat duální zápis.
-- Chcete-li konfigurovat role zabezpečení pro duální zápis, pročtěte si článek [Aktualizace nastavení zabezpečení u Project Operations v Dataverse](resource-provision-new-environment.md).
+- Chcete-li konfigurovat role zabezpečení pro duální zápis, pročtěte si článek [Aktualizace nastavení zabezpečení u Project Operations v Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Chcete-li získat přístup ke konfiguraci duálního zápisu, přejděte na instanci Finance and Operations a poté přejděte na **Správa dat** > **Duální zápis**.
 - Chcete-li konfigurovat mapy duálního zápisu, pročtěte si článek [Spuštění mapování duálního zápisu Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Přiřazení licencí

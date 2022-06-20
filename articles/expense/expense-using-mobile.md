@@ -1,6 +1,6 @@
 ---
 title: Aplikace mobilních výdajů
-description: Toto téma obsahuje informace o pracovním prostoru mobilní správy výdajů.
+description: Tento článek obsahuje informace o mobilním pracovním prostoru Správa výdajů.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588912"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930218"
 ---
 # <a name="mobile-expense-app"></a>Aplikace mobilních výdajů
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
-Toto téma obsahuje informace o pracovním prostoru mobilní **správy výdajů**. Tento pracovní prostor umožňuje uživatelům zaznamenat a odeslat účtenku, aby ji mohli později připojit k výkazu výdajů. Uživatelé mohou také rychle vytvořit řádek výdajů pomocí přiložené účtenky a vytvářet a spravovat své výkazy výdajů. Schvalovatelé mohou dále používat mobilní pracovní prostor **Správa výdajů** k zobrazení výkazů výdajů, které jsou jim přiřazeny, a tyto výkazy výdajů buď schválit, nebo odmítnout.
+Tento článek obsahuje informace o mobilním pracovním prostoru **Správa výdajů**.. Tento pracovní prostor umožňuje uživatelům zaznamenat a odeslat účtenku, aby ji mohli později připojit k výkazu výdajů. Uživatelé mohou také rychle vytvořit řádek výdajů pomocí přiložené účtenky a vytvářet a spravovat své výkazy výdajů. Schvalovatelé mohou dále používat mobilní pracovní prostor **Správa výdajů** k zobrazení výkazů výdajů, které jsou jim přiřazeny, a tyto výkazy výdajů buď schválit, nebo odmítnout.
 
 Tento mobilní pracovní prostor je určen k použití s mobilní aplikací Dynamics 365 Unified Ops.
 

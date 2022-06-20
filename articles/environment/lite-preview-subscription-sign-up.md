@@ -1,21 +1,21 @@
 ---
-title: Registrace k odběru verze Preview – omezené
-description: Toto téma obsahuje informace o tom, jak se přihlásit k odběru a nasadit omezené nasazení Project Operations - od obchodu po pro forma fakturaci.
+title: Registrace k odběru verze Preview - omezené
+description: Tento článek poskytuje informace o tom, jak přihlásit odběr a nasadit omezené nasazení Project Operations - od obchodu po pro forma fakturaci.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587992"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921248"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registrace k odběru verze Preview - omezené 
 
-Tento téma vysvětluje, jak se přihlásit k odběru zkušební nabídky a nasadit Dynamics 365 Project Operations omezené nasazení – od obchodu po pro forma fakturaci
+Tento článek vysvětluje, jak si zaregistrovat zkušební nabídku a nasadit omezené nasazení Dynamics 365 Project Operations - od obchodu po pro forma fakturaci.
 
 > [!NOTE]
 > Tento proces se v nadcházejících verzích Project Operations změní.
@@ -50,7 +50,7 @@ Než začnete, ujistěte se, že jste přihlášeni do prohlížeče s pracovní
 
 ## <a name="create-a-new-dataverse-environment"></a>Vytvořte nové prostředí Dataverse
 
-1. Nové prostředí pro nasazení Project Operations Dataverse zřiďte podle pokynů v tématu [Model nasazení Dataverse](lite-deployment.md). Když vyberete typ prostředí, ujistěte se, že používáte **Zkušební verze (na základě předplatného)**.
+1. Nové prostředí nasazení Project Operations Dataverse zřiďte podle pokynů v článku [Model nasazení Dataverse](lite-deployment.md). Když vyberete typ prostředí, ujistěte se, že používáte **Zkušební verze (na základě předplatného)**.
 
   ![Nové prostředí.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Než začnete, ujistěte se, že jste přihlášeni do prohlížeče s pracovní
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Nainstalujte konfiguraci CDS a nastavte ukázková data
 
-Nainstalujte konfiguraci CDS a nastavte ukázková data podle pokynů v tématu [Použití ukázkového nastavení a konfiguračních dat](lite-apply-demo-setup-config-data.md).
+Nainstalujte konfiguraci CDS a nastavte ukázková data podle pokynů v článku [Použití ukázkového nastavení a dat konfigurace](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Příručka pro řízení zdrojů
-description: Toto téma poskytuje odkazy na informace o správě zdrojů v Project Service Automation
+description: Tento článek poskytuje odkazy na informace o správě zdrojů v Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 630f77060caa84d9941c0552c54412d7a235a4f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b4506bbc0a7cbdd78b3f9b37f1a7f1b258f6500
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910764"
 ---
 # <a name="resource-management-guide"></a>Příručka pro řízení zdrojů
 
@@ -30,7 +30,7 @@ ms.locfileid: "8595444"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Odkaz na soubor PDF, který byl dříve v tomto tématu, byl odebrán a obsah byl přesunut do následujících témat:
+Odkaz na soubor PDF, který byl dříve v tomto článku, byl odebrán a obsah byl přesunut do následujících článků:
 
 - [Domovská stránka správy zdrojů](../resource-management-home-page.md)
 - [Důležité koncepce](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ Odkaz na soubor PDF, který byl dříve v tomto tématu, byl odebrán a obsah by
 - [Nejčastější dotazy ke správě zdrojů](../resource-management-faq.md)
 
 > [!NOTE]
-> Toto téma bude v budoucí aktualizaci dokumentace odebráno. 
+> Tento článek bude v budoucí aktualizaci dokumentace odebrán. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

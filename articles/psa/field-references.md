@@ -1,6 +1,6 @@
 ---
 title: Přidání vlastních polí do nastavení ceny a transakčních entit
-description: Toto téma obsahuje informace o přidávání vlastních polí do nastavení ceny a transakčních entit.
+description: Tento článek obsahuje informace o přidávání vlastních polí do nastavení ceny a transakčních entit.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cb4a99b10e5d0c79e80bcd46d2f60ccdab4487aa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b666d1767306b9833fba36c6ed2c59a633c5fdf0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596916"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920466"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Přidání vlastních polí do nastavení ceny a transakčních entit 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Toto téma předpokládá, že jste dokončili postupy v tématu [Vytvoření vlastních polí a entit](create-custom-fields-entities.md). Pokud jste tyto postupy nedokončili, vraťte se zpět, dokončete je a vraťte se k tomuto tématu. 
+Tento článek předpokládá, že jste dokončili postupy v článku [Vytvoření vlastních polí a entit](create-custom-fields-entities.md). Pokud jste tyto postupy nedokončili, vraťte se zpět, dokončete je a vraťte se k tomuto článku. 
 
-Postupy v tomto tématu vám ukážou, jak přidat požadované odkazy na vlastní pole do entit a do prvků uživatelského rozhraní (UI), jako jsou formuláře a zobrazení.
+Postupy v tomto článku vám ukážou, jak přidat požadované odkazy na vlastní pole do entit a do prvků uživatelského rozhraní (UI), jako jsou formuláře a zobrazení.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Přidání polí vlastních cenových dimenzí 
 Po vytvoření vlastních polí a entit je dalším krokem pomocí vytvoření referenčních polí informovat nastavení ceny a transakční entity o všech vlastních entitách nebo sadách možností. V závislosti na tom, zda váš seznam cenových dimenzí zahrnuje dimenze sady možností nebo dimenze entit nebo obojí, proveďte pouze příslušné kroky v **Vlastní cenové dimenze založené na sadě možností** nebo **Vlastní cenové dimenze založené na entitě** nebo obojí.

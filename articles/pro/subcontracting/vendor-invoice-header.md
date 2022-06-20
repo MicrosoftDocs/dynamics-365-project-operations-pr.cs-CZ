@@ -1,17 +1,17 @@
 ---
 title: Podrobnosti záhlaví pro faktury dodavatele
-description: Toto téma vysvětluje funkce poskytované v záhlaví faktury dodavatele v Microsoft Dynamics 365 Project Operations.
+description: Tento článek vysvětluje funkce poskytované v záhlaví faktury dodavatele v Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17be106d5486358ff0bbf011af3da26a4c85a274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 95f84f2d2a357abbd8d507705412a0434b44f658
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575572"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929850"
 ---
 # <a name="header-details-for-vendor-invoices"></a>Podrobnosti záhlaví pro faktury dodavatele
 
@@ -19,7 +19,7 @@ ms.locfileid: "8575572"
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
-Toto téma vysvětluje funkce poskytované v záhlaví faktury dodavatele v Microsoft Dynamics 365 Project Operations.
+Tento článek vysvětluje funkce poskytované v záhlaví faktury dodavatele v Microsoft Dynamics 365 Project Operations.
 
 Když projektoví manažeři plánují a realizují projekty, mohou zaměstnávat subdodavatele a nakupovat produkty a služby od prodejců. Během realizace projektu vznikají náklady na služby, materiály a kategorie nákladů, které jsou pořizovány na základě subdodávek s dodavateli. Dodavatelé fakturují tyto náklady projektům vytvořením dodavatelských faktur.
 

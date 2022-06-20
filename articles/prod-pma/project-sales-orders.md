@@ -1,6 +1,6 @@
 ---
 title: Projektujte prodejní objednávky pro časové a materiální projekty
-description: Toto téma vysvětluje, jak vytvořit prodejní objednávky založené na projektech času a materiálu.
+description: Tento článek vysvětluje, jak vytvářet prodejní objednávky na základě projektů určených časem a materiálem.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3e88235b08ca2b8a5ccaab3dfdd7bcff4ab64f5f
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 3a040de6d22b626b9e3d462272f43c5763b5b90f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684496"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933806"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Projektujte prodejní objednávky pro časové a materiální projekty
 
 [!include[banner](../includes/banner.md)]
 
-Toto téma popisuje, jak vytvořit prodejní objednávku pro projekt. Objednávky odběratele lze vytvořit pouze pro projekty typu **čas a materiál**.
+Tento článek popisuje způsob vytvoření prodejní objednávky pro projekt. Objednávky odběratele lze vytvořit pouze pro projekty typu **čas a materiál**.
 
 Pokud má časový a věcný projekt na projektové smlouvě více zdrojů financování, musíte povolit **Povolit prodejní objednávky u projektů s více zdroji financování** parametr na stránce **Parametry řízení projektu a účetnictví**. 
 

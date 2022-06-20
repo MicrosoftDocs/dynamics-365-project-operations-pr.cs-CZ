@@ -1,6 +1,6 @@
 ---
 title: Novinky a změny v aplikaci Project Service Automation, aktualizace verze 29.5, oprava hotfix, V3
-description: Tohle téma uvádí seznam funkcí a oprav, které jsou k dispozici v aktualizaci verze 29.5, oprava hotfix, pro aplikaci Project Service Automation V3.
+description: Tento článek uvádí funkce a opravy, které jsou k dispozici v Project Service Automation, vydání Update 29.5 Hotfix, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/26/2021
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: df0f486a3a3d592b8780671ab05ed26f97df24ea
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: a023a2e777b04575bf31a55f1104bacbdf346744
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723577"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926354"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-295-v3"></a>Novinky a změny v aplikaci Project Service Automation, aktualizace verze 29.5, V3
 
 S potěšením oznamujeme nejnovější aktualizaci aplikace Project Service Automation pro Dynamics 365. Tato verze obsahuje některá důležitá vylepšení kvality, výkonu a použitelnosti. Tato verze je kompatibilní s Dynamics 365 9.x. Chcete-li aktualizovat tuto verzi, navštivte Centrum pro správu Dynamics 365 online, stránku řešení a nainstalujte danou aktualizaci. Další informace viz [Instalace, aktualizace nebo odebrání preferovaného řešení](/power-platform/admin/install-remove-preferred-solution).
 
-Tohle téma uvádí seznam funkcí a oprav, které jsou nové nebo změněné v aktualizaci verze 29.5 pro aplikaci Project Service Automation V3. Tato verze má číslo sestavení V3.10.47.150 a je obvykle k dispozici prostřednictvím automatické aktualizace v lednu 2021.
+Tento článek uvádí funkce a opravy, které jsou nové nebo se změnily v Project Service Automation V3, vydání Update 29.5. Tato verze má číslo sestavení V3.10.47.150 a je obvykle k dispozici prostřednictvím automatické aktualizace v lednu 2021.
 
 ## <a name="update-release-295"></a>Aktualizace verze 29.5
 

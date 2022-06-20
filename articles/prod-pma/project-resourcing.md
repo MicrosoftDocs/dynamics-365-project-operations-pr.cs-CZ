@@ -1,6 +1,6 @@
 ---
 title: Domovská stránka zajišťování zdrojů pro projekty
-description: Toto téma obsahuje informace o zajišťování zdrojů pro projekt.
+description: Tento článek obsahuje informace o zajišťování zdrojů pro projekt.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924008"
 ---
 # <a name="project-resourcing-home-page"></a>Domovská stránka zajišťování zdrojů pro projekty
 
 [!include [banner](../includes/banner.md)]
 
-Toto téma obsahuje informace o zajišťování zdrojů pro projekt.
+Tento článek obsahuje informace o zajišťování zdrojů pro projekt.
 
 Náročným úkolem ve fázi plánování projektu pro projektové manažery a manažery zdrojů je alokace zdrojů, kdy musí určit a rezervovat správný zdroj pro práci na projektu. V aplikaci Dynamics 365 Finance umožňuje přidělení prostředků pro projekty definovat role, které jsou považovány za dočasné zdroje, které mohou být vyhrazeny pro konkrétní pracovní balíček nebo součásti zapojení. Tento typ financování umožní projektovým manažerům a manažerům zdrojů dokončit následující úkoly:
 
@@ -41,7 +41,7 @@ Náročným úkolem ve fázi plánování projektu pro projektové manažery a m
 
 V průběhu plánování projektu lze plánované zdroje nahradit personálními zdroji. Vedoucí projektu se může také vrátit zpět a aktualizovat rezervace zdrojů během kterékoli fáze projektu.
 
-Následující témata poskytují informace o úkolech, které je třeba dokončit při zajišťování zdrojů pro projekty.
+Následující články poskytují informace o úkolech, které je třeba provést, když pracujete na projektech zajišťujících prostředky.
 
 - [Nastavení projektových zdrojů](set-up-project-resources.md)
 - [Správa kompetencí zdrojů](manage-resource-competencies.md)

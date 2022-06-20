@@ -1,17 +1,17 @@
 ---
 title: Rozpis výdajů
-description: Toto téma vysvětluje, jak rozepisovat výdaje pomocí přepracovaného pracovního prostoru Výdaje.
+description: Tento článek vysvětluje, jak rozepisovat výdaje pomocí přepracovaného pracovního prostoru Výdaje.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 34b11c6bd8be729957973a60fccccc2dd32c2669
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 71bfbe83259804fc0b0355c81d430805da23dd45
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574514"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920926"
 ---
 # <a name="expense-itemization"></a>Rozpis výdajů
 

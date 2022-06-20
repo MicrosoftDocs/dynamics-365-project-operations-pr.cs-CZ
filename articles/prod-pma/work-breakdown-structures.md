@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683392"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920650"
 ---
 # <a name="work-breakdown-structures-overview"></a>Přehled struktur rozpisu prací
 
@@ -35,7 +35,7 @@ Stupeň podrobností ve WBS závisí na úrovni přesnosti, která je požadová
 
 Naproti tomu projekty v průmyslových odvětvích, jako jsou média a reklama, software IT infrastruktura, bývají svého druhu a produktivita je relativní ke zkušenostem a kompetencím jednotlivce, který tento úkol plní. Proto tato odvětví používají strukturovaný rozpis prací k získání přibližné velikosti projektu, nikoli k podrobnému sledování postupu tohoto projektu. 
 
-Budování strukturovaného rozpis prací je intenzivní proces, který se obvykle provádí po dlouhou dobu a který vyžaduje spolupráci a informace od nejrůznějších lidí. Toho téma popisuje, jak můžete pomocí vylepšení strukturovaného rozpisu prací splnit své požadavky na odhady a sledování.
+Budování strukturovaného rozpis prací je intenzivní proces, který se obvykle provádí po dlouhou dobu a který vyžaduje spolupráci a informace od nejrůznějších lidí. Tento článek popisuje použití vylepšení struktury WBS tak, aby byly splněny požadavky pro odhady a sledování.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Požadavky na vytvoření strukturovaného rozpisu prací
 Chcete-li vytvořit strukturovaný rozpis prací, musíte být schopni vytvořit pracovní plán a odhadnout cenu práce.
@@ -166,7 +166,7 @@ Finance má pro strukturovaný rozpis prací projektu tři zobrazení: Zobrazen�
 
 ### <a name="planning-view"></a>Zobrazení plánování
 
-Zobrazení Plánování zobrazuje plánovaný nebo základní odhad plánu a informací o nákladech. Ačkoli neexistují žádné funkce pro sledování verze a základní úroveň pro projekt strukturovaného rozpisu prací, hodnoty v tomto zobrazení jsou určeny k představení verze v základní úrovni. Oddíly Odhad plánu a Odhad nákladů tohoto téma popisují toto zobrazení a způsob, jakým se používá k vytvoření strukturovaného rozpisu prací.
+Zobrazení Plánování zobrazuje plánovaný nebo základní odhad plánu a informací o nákladech. Ačkoli neexistují žádné funkce pro sledování verze a základní úroveň pro projekt strukturovaného rozpisu prací, hodnoty v tomto zobrazení jsou určeny k představení verze v základní úrovni. Oddíly Odhad plánu a Odhad nákladů v tomto článku popisují toto zobrazení a jeho použití k vytvoření struktury WBS.
 
 ### <a name="effort-tracking-view"></a>Zobrazení sledování úsilí
 

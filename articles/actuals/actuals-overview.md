@@ -1,6 +1,6 @@
 ---
 title: Skutečné hodnoty
-description: Tento téma poskytuje informace o tom, jak pracovat s aktuálními údaji v Microsoft Dynamics 365 Project Operations.
+description: Tento článek poskytuje informace o tom, jak pracovat se skutečnými hodnotami v Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581276"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924790"
 ---
 # <a name="actuals"></a>Skutečné hodnoty
 
@@ -33,7 +33,7 @@ Skutečné hodnoty představují zkontrolovaný a schválený finanční a časo
 
 Aplikace Project Operations zaznamenává finanční transakce, ke kterým dojde během životního cyklu projektové zakázky, jako skutečné hodnoty. Vytváření skutečných hodnot při různých událostech v životním cyklu se liší v závislosti na tom, zda projektové zapojení používá model účtování podle času a materiálu nebo model účtování s pevnou cenou a zda je ve fázi předprodeje nebo jde o interní projekt.
 
-Následující témata vysvětlují dopad na tabulku Skutečné hodnoty u různých událostí pro různé varianty:
+Následující články vysvětlují dopad na tabulku Skutečné hodnoty u různých událostí pro různé varianty:
 
 - [Dopad na skutečné hodnoty u časového a materiálového zapojení](ActualsonTM.md)
 - [Dopad na skutečné hodnoty u zapojení s pevnou cenou](ActualonFP.md)

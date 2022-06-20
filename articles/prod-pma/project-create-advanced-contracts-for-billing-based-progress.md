@@ -1,6 +1,6 @@
 ---
 title: Vytváření rozšířených smluv pro fakturaci na základě pokroku
-description: Toto téma vysvětluje, jak vytvořit projektové smlouvy, abyste mohli generovat faktury pro zákazníky na základě procenta z dokončené práce.
+description: Tento článek vysvětluje, jak vytvořit projektové smlouvy, aby bylo možné vygenerovat faktury pro odběratele na základě procenta dokončené práce.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683155"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913658"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Vytváření rozšířených smluv pro fakturaci na základě pokroku
 [!include [banner](../includes/banner.md)]
 
-Toto téma vysvětluje, jak vytvořit projektové smlouvy, abyste mohli vytvářet faktury pro zákazníky na základě procenta z dokončené práce. Částky faktury se automaticky počítají pro rozpočtové kategorie práce, které jste pro projekt nastavili. Časování faktur je nastaveno při sjednávání projektové smlouvy se zákazníkem.
+Tento článek vysvětluje, jak vytvořit projektové smlouvy, aby bylo možné vytvořit faktury pro odběratele na základě procenta dokončené práce. Částky faktury se automaticky počítají pro rozpočtové kategorie práce, které jste pro projekt nastavili. Časování faktur je nastaveno při sjednávání projektové smlouvy se zákazníkem.
 
-Pomocí postupů v tomto tématu můžete nastavit smlouvu, přidružený projekt a pravidla fakturace, která počítají částky faktur pro rozpočtové kategorie práce, které jste pro projekt nastavili.
+Postupy v tomto článku slouží k nastavení smlouvy, souvisejícího projektu a pravidel účtování pro výpočet fakturovaných částek pro rozpočtové kategorie práce, které jste nastavili pro projekt.
 
 Poté, co vytvoříte smlouvu a projekt, můžete nastavit podrobnosti projektu. Můžete například definovat aktivity a přiřadit pracovníky k projektu.
 

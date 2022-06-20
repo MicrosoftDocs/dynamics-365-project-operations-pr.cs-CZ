@@ -1,17 +1,17 @@
 ---
 title: Nastavení projektové nabídky
-description: Toto téma poskytuje informace o údajích a nastaveních, která se vztahují na projektové nabídky a ovlivňují je.
+description: Tento článek poskytuje informace o informacích a nastaveních, která se týkají projektových nabídek a ovlivňují je.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c5870c75d5337b951a453000369baf9f6e81a1da
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 661dd40edeea890ad684b801bcc99ce2c242bb9b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575158"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931920"
 ---
 # <a name="header-details-for-project-based-quotes"></a>Podrobnosti záhlaví pro nabídky založené na projektu
 

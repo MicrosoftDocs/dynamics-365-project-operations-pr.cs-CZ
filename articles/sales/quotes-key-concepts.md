@@ -1,6 +1,6 @@
 ---
 title: Nabídky - klíčové koncepty
-description: Tento téma poskytuje informace o projektových a prodejních nabídkách dostupných v Project Operations.
+description: Tento článek poskytuje informace o projektových nabídkách a prodejních nabídkách dostupných v Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579896"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912508"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Koncepty jedinečné pro nabídky na základě projektu
 
@@ -35,7 +35,7 @@ V Dynamics 365 Project Operations existují dva typy nabídek, projektové nabí
 - **Pole a koncepty**: Prodejní nabídka neobsahuje některá pole a koncepty, které jsou součástí projektové nabídky. Mezi tato pole patří **Smluvní jednotka**, **Manažer obchodních vztahů** a **Fakturační adresa – jméno kontaktu**.  
 - **Typ**: Prodejní nabídky a projektové nabídky jsou také identifikovány pomocí pole **Typ** založeného na sadě možností. U prodejní nabídky má toto pole hodnotu **Na základě zboží**. U projektové nabídky má hodnotu **Na základě práce**.
 
-Toto téma se zaměřuje na podrobnosti projektových nabídek.
+Tento článek se zaměří na podrobnosti projektových nabídek.
 
 Projektová nabídka v Project Operations může obsahovat více položek řádků nebo řádků nabídky. Projektová nabídka obsahuje ve skutečnosti dvě mřížky pro řádkové položky. Jedna mřížka je pro řádky založené na projektech, které umožňují detailní odhady. Druhá mřížka je pro řádky založené na produktech, které používají jednoduchou jednotkovou cenu a přístup založený na množství.
 

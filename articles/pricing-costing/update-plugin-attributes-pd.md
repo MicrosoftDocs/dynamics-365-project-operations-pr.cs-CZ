@@ -1,33 +1,33 @@
 ---
 title: Aktualizace atributů modulů plug-in o nové cenové dimenze
-description: Toto téma obsahuje informace o aktualizaci atributů modulů plug-in o cenové dimenze.
+description: Tento článek obsahuje informace o aktualizaci atributů modulů plug-in pro cenové dimenze.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575020"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920006"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Aktualizace atributů modulů plug-in o nové cenové dimenze
 
-Toto téma obsahuje informace o aktualizaci atributů modulů plug-in o cenové dimenze.
+Tento článek obsahuje informace o aktualizaci atributů modulů plug-in pro cenové dimenze.
 
 > [!NOTE]
-> Toto téma se vztahuje pouze na funkce nabídek a smluv v Dynamics 365 Project Operations.
+> Tento článek se vztahuje pouze na funkce nabídky a smlouvy v Dynamics 365 Project Operations.
 
-## <a name="prerequisites"></a>Požadavky
-Než dokončíte kroky v tomto téma, musíte mít dokončené postupy v následujících tématech:
+## <a name="prerequisites"></a>Předpoklady
+Před dokončením kroků v tomto článku musíte provést postupy v následujících článcích:
 
   - [Vytvoření vlastních polí a entit](create-custom-fields-entities-pricing-dimensions.md) 
   - [Přidání vlastních polí do nastavení ceny a transakčních entit ](add-custom-fields-price-setup-transactional-entities.md)
   - [Nastavení vlastních polí jako cenových dimenzí ](set-up-custom-fields-pricing-dimensions.md). 
   
-Pokud jste tyto postupy nedokončili, dokončete je a vraťte se k tomuto tématu.
+Pokud jste tyto postupy nedokončili, dokončete je a vraťte se k tomuto článku.
 
 ## <a name="register-a-plug-in"></a>Registrace modulů plug-in
 Když je vytvořen detail řádku nabídky na stránce **Řádek nabídky** pro řádek nabídky projektu, systém vytvoří dva řádky odhadu. Jeden řádek je na straně nákladů odhadu a druhý řádek na straně prodeje. To je stejné pro řádky projektové smlouvy.

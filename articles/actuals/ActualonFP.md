@@ -1,6 +1,6 @@
 ---
 title: Dopad na skutečné hodnoty u zapojení s pevnou cenou
-description: Tento téma poskytuje informace o dopadu na tabulku Skutečné hodnoty při různých událostech během životního cyklu zapojení s pevnou cenou v Microsoft Dynamics 365 Project Operations.
+description: Tento článek poskytuje informace o dopadu na tabulku Skutečné hodnoty při různých událostech během životního cyklu zapojení s pevnou cenou v Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 222e7c5eefd7c619e4d7389cdaff2f96176ff275
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 50819d77d56935bfe5438d7d9dae99562bcc0b49
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579220"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918120"
 ---
 # <a name="actuals-impact-in-a-fixed-price-engagement"></a>Dopad na skutečné hodnoty u zapojení s pevnou cenou
 
