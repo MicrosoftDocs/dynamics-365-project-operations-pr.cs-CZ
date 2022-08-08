@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922858"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028878"
 ---
 # <a name="project-mobile-applications-overview"></a>Přehled projektových mobilních aplikací
 
@@ -33,11 +33,11 @@ Mobilní aplikace Dynamics 365 Časový výkaz projektu umožňuje uživatelům 
 
 ## <a name="project-time-entry-workspace"></a>Pracovní prostor Zadání času projektu
 
-Pracovní prostor Zadání času projektu umožňuje uživatelům zadávat a ukládat čas projektu. Neumožňuje však uživatelům předkládat nebo schvalovat časové rozvrhy projektu. Lze ji použít pouze k zadání času. Tento mobilní pracovní prostor je určen k použití spolu s mobilní aplikací Finance and Operations.
+Pracovní prostor Zadání času projektu umožňuje uživatelům zadávat a ukládat čas projektu. Neumožňuje však uživatelům předkládat nebo schvalovat časové rozvrhy projektu. Lze ji použít pouze k zadání času. Tento mobilní pracovní prostor je určen k použití spolu s mobilní aplikací Finance a operace.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Moje časové výkazy / Časové výkazy pro mou kontrolu
 
-Moje časové výkazy (optimalizováno pro mobilní zařízení) a Časové výkazy pro mou kontrolu (optimalizováno pro mobilní zařízení) tvoří řešení, které umožňuje zaměstnancům vytvářet, odesílat a schvalovat časové výkazy projektu na mobilním zařízení. Pracovníci mají přístup k funkcím aplikace Finance prostřednictvím adresy URL aplikace. Toto řešení nevyžaduje mobilní aplikaci Finance and Operations.
+Moje časové výkazy (optimalizováno pro mobilní zařízení) a Časové výkazy pro mou kontrolu (optimalizováno pro mobilní zařízení) tvoří řešení, které umožňuje zaměstnancům vytvářet, odesílat a schvalovat časové výkazy projektu na mobilním zařízení. Pracovníci mají přístup k funkcím aplikace Finance prostřednictvím adresy URL aplikace. Toto řešení nevyžaduje mobilní aplikaci Finance a operace.
 
 ## <a name="for-more-information"></a>Další informace
 

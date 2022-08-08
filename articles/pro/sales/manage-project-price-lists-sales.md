@@ -6,16 +6,16 @@ ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6902d22c7bd4b422466c924ee6473146b036caa5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: af89996fcaca9823d32e84e10ce6d29ead4f3d6d
+ms.sourcegitcommit: 95dacb0e74fa8970f56fdb1cbaa915d3fbec6e0f
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929942"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023605"
 ---
 # <a name="manage-project-price-lists-on-project-quotes"></a>Správa ceníků projektů v nabídkách projektů 
 
-_**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
+_**Platí pro:** omezené nasazení – dohoda o pro forma fakturaci, Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
 Projektové nabídky projektu jsou navrženy tak, aby podporovaly prodejní ceníky s více daty účinnosti. S Dynamics 365 Project Operations je přidána nová přidružená entita s názvem **Ceníky projektu**. Tato entita má vztah 1:N k projektové nabídce.
 

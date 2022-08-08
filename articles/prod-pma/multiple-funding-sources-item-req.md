@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931184"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028465"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Požadavky na položky u projektových smluv s více zdroji financování
 
@@ -33,7 +33,7 @@ Společnost Contoso získala smlouvu na obnovu zařízení u dvou zákazníků: 
 
 ### <a name="prerequisites"></a>Předpoklady
 
-- U požadavků na položky, které mají více fakturačních účtů, je nutné použít Microsoft Dynamics 365 Finance and Operations **verze 10.0.27 nebo novější**.
+- U požadavků na položky, které mají více fakturačních účtů, je nutné použít Microsoft Dynamics 365 Finance **verze 10.0.27 nebo novější**.
 - Váš správce systému musí povolit funkci **Povolit požadavky na položky s více zdroji financování u scénářů Project Operations založených na skladovém materiálu / výrobě** v pracovním prostoru **Správa funkcí**.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>Nastavení výchozích pravidel fakturačního účtu

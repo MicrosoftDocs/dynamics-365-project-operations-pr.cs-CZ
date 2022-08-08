@@ -2,7 +2,7 @@
 title: Mobilní aplikace Časový výkaz projektu
 description: Tento článek obsahuje informace o mobilní aplikaci Microsoft Dynamics 365 Project Timesheet. Mobilní aplikace Časový výkaz projektu umožňuje uživatelům odesílat a schvalovat časové rozvrhy projektů na jejich mobilním zařízení.
 author: abruer
-ms.date: 04/08/2019
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 730ed36841d07df60e8a8f343126209f0edcc593
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923962"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110967"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobilní aplikace Časový výkaz projektu
 
@@ -28,7 +28,7 @@ ms.locfileid: "8923962"
 
 ## <a name="overview"></a>Přehled
 
-Mobilní aplikace Microsoft Dynamics 365 Project Timesheet umožňuje uživatelům odesílat a schvalovat časové rozvrhy projektů na jejich mobilním zařízení. (iPhone nebo Android). Tato mobilní aplikace je vybavena funkcí časového rozvrhu, která je umístěna v Řízení projektů a účetnictví aplikace Dynamics 365 Finance a zlepšuje produktivitu a efektivitu uživatelů a umožňuje včasné zadávání a schvalování časového rozvrhu projektu.
+Mobilní aplikace Microsoft Dynamics 365 Project Timesheet umožňuje uživatelům odesílat a schvalovat časové rozvrhy projektů na jejich mobilním zařízení. (iPhone nebo Android). Tato mobilní aplikace se týká funkce časových rozvrhů v oblasti Řízení projektů a účetnictví v aplikaci Dynamics 365 Finance. Pomáhá zlepšit produktivitu a efektivitu uživatelů a také umožňuje včasné zadávání a schvalování časových výkazů projektu.
 
 ## <a name="download-and-install-the-mobile-app"></a>Stažení a instalace mobilní aplikace
 
@@ -38,6 +38,19 @@ Stáhněte a nainstalujte mobilní aplikaci Microsoft Dynamics 365 Project Times
 
 Ve Financích musí být mobilní aplikace Časový výkaz projektu povolena. Chcete-li tuto funkci povolit, přejděte na **Parametry řízení projektu a účetnictví \> Rozvrh hodin** a vyberte **Povolit Microsoft Dynamics 365 Project Timesheet** parametr.
 
+### <a name="resolve-sign-in-issues"></a>Řešení potíží s přihlášením
+
+**Problém:** Během přihlašování do mobilní aplikace Project Timesheet se uživatelům zobrazí chybová zpráva, že „nemají přístup k aplikaci“ '2bc50526-cdc3-4e36-a970-c284c34cbd6e' v daném klientovi."
+
+**Problém:** Během přihlašování do mobilní aplikace Project Timesheet se uživatelům zobrazí chyba podobná jednomu z následujících příkladů:
+
+- "AADSTS50020: Uživatelský účet '[jméno uživatele]' od poskytovatele identity 'https://sts.windows.net/[app id]“ neexistuje v klientovi '[tenant id]' a nemá přístup k aplikaci '[app id]' v tomto klientovi."
+- "Vybraný uživatelský účet neexistuje v klientovi '[tenant id]' a nemůže získat přístup k aplikaci '[app id]' v tomto klientovi."
+
+**Vysvětlení:** Tyto problémy jsou způsobeny změnou, která byla provedena v Azure Active Directory (Azure AD) v květnu 2022 a týká se externích uživatelů. Protože tato změna nebyla provedena ve finančních a provozních aplikacích, může ovlivnit zákazníky na jakékoli verzi platformy nebo aplikace.
+
+**Řešení:** Všichni externí uživatelé musí být pozváni do klienta prostřednictvím Azure AD. Více informací viz [Pozvěte uživatele pomocí Azure Active Directory B2B collaboration](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
+
 ## <a name="sign-in-to-the-app"></a>Přihlaste se do aplikace
 
 1.  Otevřete mobilní aplikaci na svém mobilním zařízení.
@@ -46,7 +59,7 @@ Ve Financích musí být mobilní aplikace Časový výkaz projektu povolena. Ch
 
 3.  Při prvním přihlášení se zobrazí výzva k zadání uživatelského jména a hesla. Zadejte vaše pověření.
 
-4.  Budete přihlášeni do své výchozí společnosti.
+4. Budete přihlášeni do své výchozí společnosti.
 
 ## <a name="submit-a-project-timesheet"></a>Odešlete časový rozvrh projektu
 

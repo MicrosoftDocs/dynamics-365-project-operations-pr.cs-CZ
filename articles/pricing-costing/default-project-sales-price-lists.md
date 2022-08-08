@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917706"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036403"
 ---
 # <a name="default-price-lists"></a>Výchozí ceníky
 
@@ -25,7 +25,7 @@ Každá nabídka projektu a smlouva v Dynamics 365 Project Operations obsahuje v
 Systém provede následující proces, aby určil, který ceník má být v nabídce projektu nastaven jako výchozí:
 
 1. Systém zkoumá ceníky, které jsou připojeny k ceníkům projektů účtu. 
-2. Pokud jsou k záznamu účtu připojeny ceníky projektu, systém prohlédne prodejní ceníky připojené k parametrům projektu, které odpovídají měně nabídky projektu.
+2. Pokud nejsou k záznamu účtu připojeny ceníky projektu, systém prohlédne prodejní ceníky připojené k parametrům projektu, které odpovídají měně nabídky projektu.
 3. Dále systém zkontroluje datovou platnost ceníků, které odpovídají časovému období nabídky projektu. Konkrétně datum vytvoření nabídky.
 4. Pokud existuje více ceníků, které jsou platné pro datum nabídky projektu, všechny ceníky jsou výchozí pro nabídku projektu.
 5. Pokud k datu nabídky projektu nejsou platné žádné ceníky, není v nabídce projektu žádný výchozí ceník projektu. V nabídce projektu se zobrazí varovná zpráva. Zpráva uvádí, že kvůli neexistenci projektových ceníků nebudou vaše skutečné a odhadované práce a výdaje na projekt oceněny.

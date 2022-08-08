@@ -2,17 +2,17 @@
 title: Řešení potíží s prací v mřížce úloh
 description: Tento článek poskytuje informace o odstraňování problémů, které jsou potřebné při práci v mřížce úloh.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911036"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188223"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Řešení potíží s prací v mřížce úloh 
 
@@ -72,7 +72,10 @@ Project Operations vyžaduje, aby parametr projektu odkazoval na PEX koncový bo
 4. Odeberte pole ze stránky **Parametry projektu**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Řešení 3: Přihlaste se na webu project.microsoft.com.
-V prohlížeči Microsoft Edge otevřete novou kartu, přejděte na project.microsoft.com a přihlaste se pomocí uživatelské role, kterou používáte pro přístup k Project Operations.
+
+V prohlížeči otevřete novou kartu, přejděte na project.microsoft.com a přihlaste se pomocí uživatelské role, kterou používáte pro přístup k Project Operations. Je důležité, aby byl k produktu společnosti Microsoft v prohlížeči přihlášen pouze jeden uživatel. Chybová zpráva „login.microsoftonline.com se odmítla připojit“ se nejčastěji objeví, když je přihlášeno více než jeden uživatel, jak ukazuje následující obrázek.
+
+![Vyberte přihlašovací stránku účtu, která ukazuje, že jsou přihlášeni dva uživatelé.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problém: Projekt se nenačte a uživatelské rozhraní je zaseknuto na indikátoru průběhu
 

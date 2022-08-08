@@ -2,16 +2,16 @@
 title: Verze mapování duálního zápisu Project Operations
 description: Tento článek poskytuje seznam map s duálním zápisem požadovaných pro Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959392"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112421"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Verze mapování duálního zápisu Project Operations
 
@@ -46,7 +46,7 @@ Následující mapy jsou požadované pro řešení Project Operations. Verze ma
 | Záhlaví kontraktu projektu (prodejní objednávky) | 1.0.0.1 | Není nutné pro zřizování. ||
 | Řádky smlouvy založené na projektu (salesorderdetails) | 1.0.0.0 | Není nutné pro zřizování. ||
 | Zdroj financování projektu (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Není nutné pro zřizování. ||
-| Tabulka integrace Project Operations pro odhady materiálu (msdyn\_estimatelines) | 1.0.0.0 | Není nutné pro zřizování. ||
+| Tabulka integrace projektu pro odhady materiálu (msdyn\_estimatelines) | 1.0.0.0 | Není nutné pro zřizování. ||
 | Návrhy faktury projektu V2 (faktury) | 1.0.0.3 | Není nutné pro zřizování. ||
 | Skutečné hodnoty integrace Project Operations (msdyn_actuals) | 1.0.0.14 | Není nutné pro zřizování. ||
 | Milníky řádku smlouvy integrace Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Není nutné pro zřizování. ||

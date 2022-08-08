@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959431"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029292"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrace ke zkušební verzi Project Operations 
 
@@ -90,7 +90,7 @@ Než začnete, přihlaste se do prohlížeče pomocí uživatelského pracovníh
 
 ## <a name="configuring-dual-write"></a>Jak konfigurovat duální zápis.
 - Chcete-li konfigurovat role zabezpečení pro duální zápis, pročtěte si článek [Aktualizace nastavení zabezpečení u Project Operations v Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Chcete-li získat přístup ke konfiguraci duálního zápisu, přejděte na instanci Finance and Operations a poté přejděte na **Správa dat** > **Duální zápis**.
+- Chcete-li získat přístup ke konfiguraci duálního zápisu, přejděte na instanci finance a operace a poté přejděte na **Správa dat** > **Duální zápis**.
 - Chcete-li konfigurovat mapy duálního zápisu, pročtěte si článek [Spuštění mapování duálního zápisu Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Přiřazení licencí

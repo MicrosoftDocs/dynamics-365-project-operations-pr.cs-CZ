@@ -2,22 +2,22 @@
 title: Deník integrace v Project Operations
 description: Tento článek poskytuje informace o práci s deníkem integrace v Project Operations.
 author: sigitac
-ms.date: 10/27/2020
+ms.date: 06/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
+ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923870"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9106267"
 ---
 # <a name="integration-journal-in-project-operations"></a>Deník integrace v Project Operations
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-Položky času a výdajů vytvářejí **Skutečné** transakce, které představují provozní zobrazení práce provedenou v rámci projektu. Dynamics 365 Project Operations poskytuje účetním nástroj pro kontrolu transakcí a úpravu účetních atributů podle potřeby. Po dokončení kontroly a úprav jsou transakce zaúčtovány do dílčí hlavní knihy a hlavní knihy projektu. Účetní může tyto činnosti provádět pomocí deníku **Integrace Project Operations** (**Dynamics 365 Finance** > **Řízení projektů a účetnictví** > **Deníky** > deník **Integrace Project Operations**.
+Položky času, výdajů, poplatků a materiálu vytvářejí **Skutečné** transakce, které představují provozní zobrazení práce provedenou v rámci projektu. Dynamics 365 Project Operations poskytuje účetním nástroj pro kontrolu transakcí a úpravu účetních atributů podle potřeby. Po dokončení kontroly a úprav jsou transakce zaúčtovány do dílčí hlavní knihy a hlavní knihy projektu. Účetní může tyto činnosti provádět pomocí deníku **Integrace Project Operations** (**Dynamics 365 Finance** > **Řízení projektů a účetnictví** > **Deníky** > deník **Integrace Project Operations**.
 
 ![Tok deníku integrace.](./media/IntegrationJournal.png)
 
@@ -50,9 +50,21 @@ V řádcích deníku integrace Project Operations lze aktualizovat pouze násled
 - **Fakturační skupina prodejní daně** a **Fakturační skupina prodejní daně položky**
 - **Finanční dimenze** (za použití akce **Rozdělit částky**)
 
-Řádky deníku integrace lze odstranit, avšak všechny nezaúčtované řádky se do deníku vloží znovu po opětovném spuštění periodického procesu **Import z pracovní tabulky**.
+Řádky deníku integrace lze odstranit. Všechny nezaúčtované řádky se však do deníku vloží znovu po opětovném spuštění periodického procesu **Import z pracovní tabulky**.
+
+### <a name="post-the-project-operations-integration-journal"></a>Zaúčtovat deník integrace Project Operations
 
 Když zaúčtujete deník integrace, vytvoří se transakce dílčí hlavní knihy a hlavní knihy. Tyto transakce se používají při následné fakturaci zákazníků, uznání výnosů a finančním výkaznictví.
 
+Vybraný deník integrace Project Operations lze zaúčtovat pomocí **Zaúčtovat** na stránce deníku integrace Project Operations. Všechny deníky lze automaticky zaúčtovat spuštěním procesu na **Periodika** > **Integrace Project Operations** > **Zaúčtovat deník integrace Project Operations**.
+
+Účtování lze provádět interaktivně nebo hromadně. Všimněte si, že všechny deníky, které mají více než 100 řádků, budou automaticky zaúčtovány v dávce. Pro lepší výkon, když jsou deníky, které mají mnoho řádků, zaúčtovány v dávce, povolte funkci **Zaúčtovat deník integrace Project Operations pomocí více dávkových úloh** v pracovním prostoru **Správa funkcí**. 
+
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Přeneste všechny řádky s chybami účtování do nového deníku
+
+> [!NOTE]
+> Chcete-li použít tuto funkci, povolte funkci **Přeneste všechny řádky s chybami zaúčtování do nového deníku integrace Project Operations** v pracovním prostoru **Správa funkcí**.
+
+Během zaúčtování do deníku integrace Project Operations systém ověří každý řádek v deníku. Systém zaúčtuje všechny řádky, které nemají žádné chyby, a vytvoří nový deník pro všechny řádky, které mají chyby zaúčtování. Chcete-li zkontrolovat deníky, které obsahují řádky s chybami zaúčtování, přejděte na **Projektové řízení a účetnictví** > **Deníky** > **Deník integrace Project Operations** a filtrujte deníky pomocí pole **Původní deník**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

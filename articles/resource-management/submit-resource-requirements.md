@@ -6,12 +6,12 @@ ms.date: 10/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 583524ccf33f2dc42ee6beba7e00cc5fd74819d4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1e09d92de310dbe09e53ae134e5bb195fd64178f
+ms.sourcegitcommit: 341192e1e45eb42d6b18a8370ac2e1100c4a4ca4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598664"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9137172"
 ---
 # <a name="submit-a-resource-request"></a>Odeslání žádosti o zdroj
 
@@ -24,7 +24,11 @@ Vygenerovaný požadavek na zdroj můžete odeslat jako žádost o zdroj. Žádo
 
 Stav žádosti obecného člena týmu se změní na **Odeslána**.
 
-Po splnění žádosti bude obecný zdroj nahrazen pojmenovaným zdrojem, pokud správce zdrojů splní žádost rezervací pojmenovaného zdroje. Jinak, pokud správce zdrojů navrhne pojmenovaný zdroj, zůstane obecný zdroj v týmu a stav požadavku se změní na **Potřebuje kontrolu**.
+Příjemce požadavku na zdroj má možnost buď částečně splnit požadavek pomocí jednoho nebo více zdrojů, nebo zcela splnit požadavek na zdroj.
+
+Po splnění požadavku je do projektu přidán jeden nebo více pojmenovaných zdrojů jako členové projektového týmu. Pokud je požadavek na zdroj splněn jedním zdrojem, obecný člen týmu přidružený k požadavku na zdroj je odstraněn. 
+
+Poté, co příjemce žádosti o zdroj navrhl zdroje a je připraven, aby projektový manažer zkontroloval zdroje, které byly navrženy, měl by aktualizovat stav žádosti o zdroj na **Potřebuje revizi**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

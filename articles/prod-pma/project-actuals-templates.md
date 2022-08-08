@@ -1,6 +1,6 @@
 ---
-title: Synchronizace skutečných hodnot projektu přímo z Project Service Automation do deníku integrace projektu pro zaúčtování ve Finance and Operations
-description: Tento článek popisuje šablony a základní úkoly, které se používají k synchronizaci skutečných hodnot projektů přímo z Microsoft Dynamics 365 Project Service Automation do Finance and Operations.
+title: Synchronizace skutečných hodnot projektu přímo z Project Service Automation do deníku integrace projektu pro zaúčtování ve finance a operace
+description: Tento článek popisuje šablony a základní úkoly, které se používají k synchronizaci skutečných hodnot projektů přímo z Microsoft Dynamics 365 Project Service Automation do financí a operací.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 34a0a0f7277777895077d221cd95e8d962d2a902
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929482"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028970"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronizace skutečných hodnot projektu přímo z Project Service Automation do deníku integrace projektu pro zaúčtování ve Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronizace skutečných hodnot projektu přímo z Project Service Automation do deníku integrace projektu pro zaúčtování ve finance a operace
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,7 +41,7 @@ Tento článek popisuje šablony a základní úkoly, které se používají k s
 
 Následující obrázek ukazuje, jak jsou data synchronizována mezi Project Service Automation a Finance.
 
-[![Tok dat pro integraci Project Service Automation s Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Tok dat pro integraci Project Service Automation s financemi a operacemi.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Skutečné hodnoty projektu z Project Service Automation
 

@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930126"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064270"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Nastavení najetých kilometrů pomocí úrovní najetých kilometrů
 
@@ -50,5 +50,15 @@ Funkce **výpočtu počtu kilometrů u více úrovní najetých kilometrů se st
 
 Po aktivaci této funkce resetujte úrovně najetých kilometrů, aby správně odrážely hodnotu pole **Množství**. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Povolte funkce výpočet celkových ujetých kilometrů podle fiskálního roku
+
+Funkce **Výpočet celkových ujetých kilometrů podle fiskálního roku** funkce umožňuje nové nastavení v parametrech správy výdajů, které provádí výpočty celkových ujetých kilometrů podle fiskálního roku namísto kalendářního roku. Chcete-li povolit tuto funkci, proveďte následující kroky.
+
+1. Přejděte na **Pracovní prostory** > **Správa funkcí**.
+1. V seznamu vyhledejte a vyberte **Výpočet celkových ujetých kilometrů podle fiskálního roku** a poté vyberte **Povolit nyní**.
+1. Přejděte do nabídky **Řízení výdajů** > **Nastavení** > **Všeobecné** > **Parametry správy výdajů**.
+1. Na stránce **Parametry řízení výdajů** vyhledejte a povolte **Pro celkové ujeté kilometry použijte fiskální rok**.
+
+Po povolení **Pro celkové ujeté kilometry použijte fiskální rok** se celkové ujeté kilometry vypočítají podle fiskálního roku.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

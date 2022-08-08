@@ -1,5 +1,5 @@
 ---
-title: Synchronizace odhadů projektu přímo z Project Service Automation do Finance and Operations
+title: Synchronizace odhadů projektu přímo z Project Service Automation do financí a operací
 description: Tento článek popisuje šablony a základní úkoly, které se používají k synchronizaci odhadovaných hodin na projektu a náklady na projekt přímo z aplikace Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: fb39a377a51b09f04564b4fe8527e34f0ea12682
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a71a2a7ca0c9179ddd5667364d8b5c9e413b917
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920834"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029797"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizace odhadů projektu přímo z Project Service Automation do Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizace odhadů projektu přímo z Project Service Automation do financí a operací
 
 [!include[banner](../includes/banner.md)]
 

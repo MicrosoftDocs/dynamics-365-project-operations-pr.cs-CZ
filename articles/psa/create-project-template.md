@@ -4,7 +4,7 @@ description: Postup vytvoření šablony projektu v Project Service
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598986"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177417"
 ---
 # <a name="create-a-project-template-project-service"></a>Vytvoření šablony projektu (Project Service)
 
@@ -40,7 +40,14 @@ ms.locfileid: "8598986"
 - **Odhady projektu**: Odhady projektu v šablonách fungují stejným způsobem jako v projektech kromě toho, že nákladové a prodejní ceny jsou vždy výchozími nákladovými a prodejními ceníky definovanými v parametrech [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Zbývající funkce jsou stejné jako v projektu.  
   
 - **Vytvoření projektového týmu**: Při vytváření projektového týmu pro šablonu projektu nelze rezervovat pojmenovaný zdroj v šabloně. Můžete použít možnost **Vygenerovat projektový tým** ve strukturovaném rozpisu prací a vygenerovat sadu obecných zdrojů. Můžete také určit požadované dovednosti a odborné znalosti pro obecné zdroje. Nelze nahradit obecný zdroj rezervovatelným zdrojem v šablonách projektů.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Vytvoření šablony projektu z existujícího projektu
+Šablonu projektu lze z projektu vytvořit následujícími způsoby:
+
+- **Strukturovaný rozpis prací** : Strukturovaný rozpis prací v šabloně, která je odvozena z projektu, zkopíruje všechny úkoly a závislosti. Vytvořená přiřazení budou založena na obecných členech týmu, kteří jsou přidáni do projektového týmu při vytvoření šablony projektu.
+- **Odhady projektu**: Když je šablona projektu vytvořena z existujícího projektu, odhady ze zdrojového projektu se zkopírují do šablony projektu.
+- **Členové projektového týmu**: Když je šablona vytvořena z existujícího projektu, všichni pojmenovaní členové týmu jsou nahrazeni obecným zdrojem organizace. Všechny názvy pozic a role jsou zachovány.
+
 ## <a name="create-a-project-from-a-template"></a>Vytvoření projektu ze šablony  
  Projekt lze ze šablony vytvořit následujícími způsoby:  
   

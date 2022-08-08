@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912370"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110876"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového, duben 2022 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
@@ -25,7 +25,7 @@ Tento článek se vztahuje na následující součásti a verze aplikace Microso
 
 ## <a name="features-included-in-this-release"></a>Funkce v této vydané verzi
 
-Kategorie zásobování lze použít v projektových nákupních objednávkách a nevyřízených fakturách dodavatele. Další informace viz [Používání kategorií zásobování s projektovými nákupními objednávkami a nevyřízenými fakturami dodavatele](configure-procurement-categories.md).
+Kategorie zásobování lze použít v projektových nákupních objednávkách a nevyřízených fakturách dodavatele. Další informace viz [Používání kategorií zásobování s projektovými nákupními objednávkami a nevyřízenými fakturami dodavatele](../procurement/configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Aktualizace map duálního zápisu Project Operations
 
