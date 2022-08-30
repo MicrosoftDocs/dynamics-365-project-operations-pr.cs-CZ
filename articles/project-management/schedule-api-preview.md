@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929206"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230307"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>K provádění operací s entitami plánování použijte rozhraní API pro plánování projektu
 
@@ -45,9 +45,9 @@ Následuje seznam aktuálních rozhraní API plánu projektu.
 - **msdyn_CreateProjectV1** : Toto API lze použít k vytvoření projektu. Projekt a výchozí skupina projektů se vytvoří okamžitě.
 - **msdyn_CreateTeamMemberV1** : Toto API lze použít k vytvoření člena projektového týmu. Záznam člena týmu je vytvořen okamžitě.
 - **msdyn_CreateOperationSetV1** : Toto API lze použít k naplánování několika požadavků, které je třeba provést v rámci transakce.
-- **msdyn_PSSCreateV1** : Toto API lze použít k vytvoření entity. Entitou může být jakákoli entita plánování projektu, která podporuje operaci vytvoření.
-- **msdyn_PSSUpdateV1** : Toto API lze použít k aktualizaci entity. Entitou může být jakákoli entita plánování projektu, která podporuje operaci aktualizace.
-- **msdyn_PSSDeleteV1** : Toto API lze použít k odstranění entity. Entitou může být jakákoli entita plánování projektu, která podporuje operaci odstranění.
+- **msdyn_PssCreateV1**: Toto API lze použít k vytvoření entity. Entitou může být jakákoli entita plánování projektu, která podporuje operaci vytvoření.
+- **msdyn_PssUpdateV1** : Toto API lze použít k aktualizaci entity. Entitou může být jakákoli entita plánování projektu, která podporuje operaci aktualizace.
+- **msdyn_PssDeleteV1** : Toto API lze použít k odstranění entity. Entitou může být jakákoli entita plánování projektu, která podporuje operaci odstranění.
 - **msdyn_ExecuteOperationSetV1** : Toto API se používá k provedení všech operací v rámci dané sady operací.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Používání API plánu projektu s OperationSet

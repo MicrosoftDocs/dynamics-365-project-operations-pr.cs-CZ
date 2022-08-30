@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912968"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230221"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Upgrade z Project Service Automation na Project Operations
 
@@ -67,7 +67,7 @@ Pokud máte aktivní licence Project Service Automation, můžete nainstalovat a
 
 ## <a name="testing-and-refactoring-customizations"></a>Testování a refaktorování přizpůsobení
 
-Jako výchozí bod importujte všechna přizpůsobení do čistého prostředí Project Operations (lite), abyste potvrdili, že import je úspěšný a že obchodní operace se chovají podle očekávání.
+Jako výchozí bod importujte všechna přizpůsobení do čistého prostředí Project Operations (Lite), abyste potvrdili, že import je úspěšný a že obchodní operace se chovají podle očekávání.
 
 Dávejte si pozor na několik věcí:
 

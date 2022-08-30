@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 74d3f5377559763e035155bd3f10818076f97ea3
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9028878"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316979"
 ---
 # <a name="project-mobile-applications-overview"></a>Přehled projektových mobilních aplikací
 
@@ -42,9 +42,8 @@ Moje časové výkazy (optimalizováno pro mobilní zařízení) a Časové výk
 ## <a name="for-more-information"></a>Další informace
 
 - [Mobilní aplikace Časový výkaz projektu](project-timesheet.md)
-- [Zadání času projektu]( project-time-entry-mobile-workspace.md)
+- [Zadání času projektu](project-time-entry-mobile-workspace.md)
 - [Časové výkazy projektu na mobilním zařízení](Mobile-timesheets.md)
 - [Implementujte vlastní pole pro mobilní aplikaci Microsoft Dynamics 365 Project Timesheet na systémech iOS a Android](custom-fields-mobile.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

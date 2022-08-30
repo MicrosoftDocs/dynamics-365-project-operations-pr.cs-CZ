@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b8437df6a1ea7b5bff272767b6bd0540d632e1a0
-ms.sourcegitcommit: 7e7a5e39360cd30ef5fcb3242c050673df63c156
+ms.openlocfilehash: 14fd22c7c863d650baebf1c7c2c96521d0bd207c
+ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "9190658"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295823"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Plán vydávání aktualizací pro Project Service 3.x
 
@@ -63,12 +63,12 @@ Vydání: Informace o dalších aktualizacích služby Project Service naleznete
 | | <i>Oceana</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. září 2022
 | | <i>Spojené arabské emiráty</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. září 2022
 |<strong>Stanice 4</strong> | |  |  | |
-| | <i>Evropě</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 29. července 2022
+| | <i>Evropě</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 16. září 2022
 |<strong>Stanice 5</strong> | |  |  | |
-| | <i>Severní Amerika</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 05. srpna 2022
+| | <i>Severní Amerika</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 23. září 2022
 |<strong>Stanice 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 03. srpna 2022
-| | <i>Vyhrazené skupiny škálování</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 05. srpna 2022
+| | <i>Government Community Cloud</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 21. září 2022
+| | <i>Vyhrazené skupiny škálování</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 30. září 2022
 
 
 

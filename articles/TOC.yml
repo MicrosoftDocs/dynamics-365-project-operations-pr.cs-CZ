@@ -62,11 +62,13 @@
           href: environment/uninstall-project-operations.md
     - name: Co je nového
       items:
-        - name: 'Červenec 2022 – Project Operations pro scénáře založené na zdrojích/položkách, které nejsou na skladě'
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: "Srpen 2022\_– Project Operations pro\_scénáře založené na\_zdrojích nebo\_položkách, které nejsou na\_skladě"
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Archiv
           items:
-            - name: 'Červen 2022 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+            - name: "Červenec 2022\_–\_Project Operations pro\_scénáře založené na\_zdrojích nebo\_položkách, které nejsou na\_skladě"
+              href: whats-new/whats-new-july-2022-resource-based.md
+            - name: "Červen 2022\_–\_Project Operations pro\_scénáře založené na\_zdrojích nebo položkách, které nejsou na\_skladě"
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: 'Květen 2022 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
               href: whats-new/whats-new-may-2022-resource-based.md
@@ -384,6 +386,42 @@
           items:
             - name: Přehled využití zdroje
               href: resource-management/resource-utilization-overview.md
+    - name: Řízení subdodávek
+      items:
+        - name: Správa subdodávek ve službě Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Klíčové pojmy v subdodávkách
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Správa prodejců a ceníků projektů
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Subdodavatelé jako rezervovatelné zdroje
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Podrobnosti záhlaví pro subdodávky
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Řádky subdodávky pro čas
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Řádky subdodávky pro kategorie výdajů
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Řádky subdodávky pro produkty
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Zdroje řádku subdodávky
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Milníky řádku subdodávky
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Subdodávky členů projektových týmů
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Možnosti subdodávky pro členy projektových týmů
+          href: pro/subcontracting/subcon-options.md
+        - name: Odhad nákladů na přiřazení zdrojů subdodávky
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Konfigurace plánovací vývěsky pro zobrazení smluvních pracovníků a subdodavatelské kapacity
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Personální zajištění projektu smluvními pracovníky a subdodavatelskou kapacitou
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Evidence času, nákladů a spotřeby materiálu pro subdodavatelské komponenty'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Přechody stavu v subdodávce
+          href: pro/subcontracting/subcon-states.md
     - name: Čas
       items:
         - name: Přehled času
@@ -580,9 +618,11 @@
       items:
         - name: Migrace plně fakturovaných milníků během přechodu
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: "Synchronizace stavu projektu, aby\_nedocházelo ke\_vstupům do\_uzavřených projektů"
+          href: advanced-configuration/sync-project-status.md
     - name: Upgrade
       items:
-        - name: Aspekty upgradu pro moderní schválení
+        - name: "Aspekty upgradu pro\_moderní schválení"
           href: upgrade/upgrade-considerations-modern-approvals.md
     - name: Aplikace Project Operations
       items:
@@ -604,19 +644,21 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: Nasazení Project Operations - omezené
           href: environment/lite-deployment.md
-        - name: Použití ukázkového nastavení a data konfigurace – omezené
+        - name: "Použití ukázkového nastavení a\_data konfigurace\_–\_omezené"
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Model zabezpečení
           href: environment/security-model.md
     - name: Co je nového
       items:
-        - name: 'Co je nového, červenec 2022 – omezené nasazení'
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: "Co je nového, srpen 2022\_–\_omezené nasazení"
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Archiv
           items:
-            - name: 'Co je nového, červen 2022 – omezené nasazení'
+            - name: "Co je nového, červenec 2022\_–\_omezené nasazení"
+              href: pro/whats-new/whats-new-july-2022-lite.md
+            - name: "Co je nového, červen 2022\_–\_omezené nasazení"
               href: pro/whats-new/whats-new-june-2022-lite.md
-            - name: Co je nového ve vlně 2 roku 2021 pro dřívější přístup – omezené nasazení
+            - name: "Co je nového v\_2.\_vlně dřívějšího přístupu v\_roce\_2021\_–\_omezené nasazení"
               href: pro/whats-new/whats-new-2021-early-access-lite.md
             - name: 'Co je nového, květen 2022 – omezené nasazení'
               href: pro/whats-new/whats-new-may-2022-lite.md
