@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 471cf1fc24010351a76394cb2342d2cfe14da1cb
-ms.sourcegitcommit: 360eccc09e47f81cd57affa9f0012641b7351694
+ms.openlocfilehash: 95681a4e1c0c42e8a29810796ee84429c94cc7cd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9321390"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403895"
 ---
 # <a name="whats-new-august-2022---project-operations-lite-deployment"></a>Co je nového v srpnu 2022 - omezené nasazení Project Operations
 
@@ -27,3 +27,7 @@ Tento článek se vztahuje na následující součásti a verze aplikace Microso
 | Oblast funkcí | Referenční číslo | Aktualizace pro zvýšení kvality |
 | --- | --- | --- |
 | Správa příležitostí | 2762089 | Ošetření chyb při uzavírání smlouvy jako ztracené, pokud je v organizaci zakázáno automatické ukládání.|
+|Plánování a sledování projektu | 2767841 | Scénáře vytvoření nebo aktualizace entity projektu aktualizace telemetrie|
+|Fakturace a ceny | 2771072 | Zpracování výjimek nulové reference při získávání cenové nabídky.|
+|Fakturace a ceny | 2844181 |Selhání při získávání ID korelace a zablokování vytvoření faktury.|
+|Fakturace a ceny | 2852836 | Chybí mezipodnikové skutečné údaje pro mezipodnikové výdaje vytvořené a schválené v CE.|

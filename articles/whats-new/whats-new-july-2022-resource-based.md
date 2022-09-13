@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183882"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403943"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového, červenec 2022 - Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
@@ -45,6 +45,12 @@ Pokud při spuštění mapy narazíte na problém, postupujte podle pokynů v č
 | Fakturace a ceny | 2675880 | Zabraňte propojení projektu s řádkem slouvy, který není založen na práci. |
 | Fakturace a ceny | 2664396 | Pokud je ceník nabídky uložen bez nabídky, musí se vyskytnout chyba, která říká, že nabídka nemůže být prázdná. |
 | Fakturace a ceny | 2184019 | Karta **Fakturace na základě úkolů** by se neměla zobrazovat u projektů, které nemají žádnou podpůrnou smlouvu nebo nabídku. |
+| Čas a výdaje | 2754459 | Když je cloudový tok opakovaného plánování neaktivní, zobrazit banner a obejít asynchronní zpracování. |
+| Fakturace a ceny | 2724391 | Chybná výjimka je vyvolána, když v pravidle účtování rozdělení projektové smlouvy chybí zákaznická hodnota. |
+| Fakturace a ceny | 2708638 | Záznam nebyl nalezen při vyhledávání pomocí vyhledávání v mřížce v částech Využití materiálů a Schválení použití materiálů.|
+| Fakturace a ceny | 2686977 | Zabránit ověření řádku faktury během vytváření faktury. |
+| Fakturace a ceny | 2683032 | Kopírování zpoplatněných rolí a kategorií nepřesahuje 5000 záznamů.|
+| Fakturace a ceny | 2673363 | Procento spotřeby nákladů na projektu je poškozeno, pokud pro projekt existují odhady a skutečné hodnoty práce a výdajů. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Správa projektů a účetnictví ve Finance
 

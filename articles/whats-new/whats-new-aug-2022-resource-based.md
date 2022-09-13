@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348000"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403848"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového v srpnu 2022 - Project Operations pro scénáře založené na zdrojích/položkách, které nejsou na skladě
 
@@ -38,6 +38,11 @@ Pokud při spuštění mapy narazíte na problém, postupujte podle pokynů v č
 | Oblast funkcí | Referenční číslo | Aktualizace pro zvýšení kvality |
 | --- | --- | --- |
 | Správa příležitostí | 2762089 | Ošetření chyb při uzavírání smlouvy jako ztracené, pokud je v organizaci zakázáno automatické ukládání.|
+|Plánování a sledování projektu | 2767841 | Scénáře vytvoření nebo aktualizace entity projektu aktualizace telemetrie|
+|Fakturace a ceny | 2771072 | Zpracování výjimek nulové reference při získávání cenové nabídky.|
+|Fakturace a ceny | 2844181 |Selhání při získávání ID korelace a zablokování vytvoření faktury.|
+|Fakturace a ceny | 2852836 | Chybí mezipodnikové skutečné údaje pro mezipodnikové výdaje vytvořené a schválené v CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Správa projektů a účetnictví ve Finance
 

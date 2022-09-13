@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 68e504dd031596b295b1383a8e81621744cae8d2
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922306"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9409969"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Použití ukázkového nastavení a data konfigurace pro Project Operations – omezené 
 
@@ -19,9 +19,9 @@ _**Omezené nasazení - dohoda o pro forma fakturaci_
 
 
 
-## <a name="prerequisites"></a>Požadavky
+## <a name="prerequisites"></a>Předpoklady
 
-Před zahájením konfigurace musíte mít mít zřízeno prostředí  Common Data Service (CDS) pro Dynamics 365 Project Operations.
+Před zahájením konfigurace musíte mít mít zřízeno prostředí Dataverse pro Dynamics 365 Project Operations.
 
 
 ## <a name="instructions"></a>Pokyny

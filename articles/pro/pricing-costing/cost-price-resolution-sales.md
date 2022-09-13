@@ -1,45 +1,85 @@
 ---
-title: Řešení nákladových cen pro odhady projektu a skutečné hodnoty
-description: Tento článek poskytuje informace o tom, jak se řeší nákladové ceny na odhady a skutečné hodnoty projektu.
+title: Určení nákladových sazeb pro odhady a skutečné hodnoty projektu
+description: Tento článek poskytuje informace o tom, jak se určují nákladové sazby na odhady a skutečné hodnoty projektu.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c278d8994389145c6dbee7574d2354724d985722
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917522"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410141"
 ---
-# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Řešení nákladových cen pro odhady projektu a skutečné hodnoty 
+# <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Určení nákladových sazeb pro odhady a skutečné hodnoty projektu
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
-K řešení nákladových cen a nákladového ceníku pro odhady a skutečné hodnoty používá systém informace polích **Datum**, **Měna** a **Smluvní jednotka** souvisejícího projektu. Po vyřešení ceníku nákladů vyřeší aplikace nákladovou sazbu.
+K určení nákladového ceníku a nákladových cen v kontextu odhadu a skutečném kontextu používá systém informace polích **Datum**, **Měna** a **Smluvní jednotka** souvisejícího projektu.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Vyřešení nákladových sazeb v řádcích skutečností a odhadů pro čas
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Určení nákladových sazeb v kontextu odhadu a skutečném kontextu pro čas
 
-Odhad řádků pro čas se vztahuje k podrobnostem řádku nabídky a smlouvy pro přiřazení času a zdrojů v projektu.
+Kontext odhadu pro **Čas** odkazuje na:
 
-Po vyřešení ceníku nákladů budou pole **Role** a **Jednotka zdroje** na řádku odhadu pro čas porovnána s cenovými řádky rolí v ceníku. Tato shoda předpokládá, že používáte standardní cenové dimenze mzdových nákladů. Pokud jste nakonfigurovali systém, aby pároval pole namísto polí **Role**, **Jednotka zdroje** nebo kromě nich, pak bude použita k načtení odpovídajícího řádku ceny role jiná kombinace. Pokud aplikace najde řádek ceny role, který má nákladovou sazbu pro kombinaci polí **Role**, **Jednotka zdroje**, pak je tato nákladová sazba výchozí. Pokud aplikace neumí spárovat hodnoty polí **Role**, **Jednotka zdroje**, načte řádky cen rolí se shodnou rolí, ale s hodnotami null v poli **Jednotka zdroje**. Poté, co má odpovídající záznam o ceně role, je z tohoto záznamu výchozí cena. 
+- Údaje řádku nabídky pro **Čas**.
+- Údaje řádku smlouvy pro **Čas**.
+- Přiřazení zdroje k projektu.
+
+Skutečný kontext pro **Čas** odkazuje na:
+
+- Řádky deníku záznamů a oprav pro **Čas**.
+- Řádky deníku, které se vytvoří při odeslání časového záznamu.
+
+Po určení nákladového ceníku systém provede následující kroky a zadá výchozí nákladovou sazbu.
+
+1. Systém spáruje pole **Role** a **Jednotka zdroje** v kontextu odhadu nebo skutečném odhadu pro **Čas** s řádky cen rolí v ceníku. Tato shoda předpokládá, že používáte standardní cenové dimenze mzdových nákladů. Pokud jste nakonfigurovali systém, aby pároval pole namísto polí **Role**, **Jednotka zdroje** nebo kromě nich, pak je použita k načtení odpovídajícího řádku ceny role jiná kombinace.
+1. Pokud systém najde řádek ceny role, který má nákladovou sazbu pro kombinaci polí **Role** a **Jednotka zdroje**, pak je tato nákladová sazba použita jako výchozí.
+1. Pokud systém nedokáže spárovat hodnoty polí **Role**, **Jednotka zdroje**, načte řádky cen rolí se shodným polem **Role**, ale s hodnotami null v poli **Jednotka zdroje**. Poté, co systém má odpovídající záznam ceny role, nákladová sazba podle tohoto záznamu bude použita jako výchozí.
 
 > [!NOTE]
-> Pokud jste konfigurovali jinou prioritu polí **Role** a **Jednotka zdroje** nebo pokud máte jiné dimenze s vyšší prioritou, toto chování se odpovídajícím způsobem změní. Systém načte záznamy cen rolí se shodnými hodnotami každé z hodnot cenových dimenzí v pořadí podle priority s řádky, které mají hodnoty null pro tyto dimenze, uvedenými až nakonec.
+> Pokud jste konfigurovali jinou prioritu polí **Role** a **Jednotka zdroje** nebo pokud máte jiné dimenze s vyšší prioritou, předchozí chování se odpovídajícím způsobem změní. Systém načte záznamy cen rolí, které mají hodnoty, které odpovídají každé hodnotě dimenze cen v pořadí podle priority. Řádky, které mají pro tyto dimenze hodnoty null, jsou na posledním místě.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Vyřešení nákladových sazeb v řádcích skutečností a odhadů pro výdaj
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Určení nákladových sazeb v řádcích skutečností a odhadů pro výdaj
 
-Řádky odhadu pro výdaje odkazují na detaily řádku nabídky a smlouvy pro výdaje a řádky odhadu výdaje v projektu.
+Kontext odhadu pro **Výdaj** odkazuje na:
 
-Po vyřešení ceníku nákladů systém použije kombinaci polí **Kategorie** a **Jednotka** na řádku odhadu výdajů ke srovnání s řádky **Cena kategorie** na vyřešeném ceníku. Pokud systém najde řádek ceny kategorie, který má nákladovou sazbu pro kombinaci polí **Kategorie** a **Jednotka**, pak je nákladová sazba výchozí. Pokud systém nedokáže spárovat hodnoty **Kategorie** a **Jednotka** nebo pokud dokáže najít odpovídající cenový řádek kategorie, ale metoda stanovení cen není **Cena za jednotku**, výchozí cena je nula (0).
+- Údaje řádku nabídky pro **Výdaj**.
+- Údaje řádku smlouvy pro **Výdaj**.
+- Odhady výdajů na projekt.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Řešení nákladových sazeb na řádcích skutečností a odhadů pro materiál
+Skutečný kontext pro **Výdaj** odkazuje na:
 
-Řádky odhadu pro materiál označují údaje řádku nabídky a řádku smlouvy u materiálů a řádky odhadu materiálu na projektu.
+- Řádky deníku záznamů a oprav pro **Výdaj**.
+- Řádky deníku, které se vytvoří při odeslání záznamu výdaje.
 
-Po vyřešení ceníku nákladů systém použije kombinaci polí **Produkt** a **Jednotka** na řádku odhadu, aby se odhad materiálu shodoval s řádky **Ceník položek** na vyřešeném ceníku. Pokud systém najde cenový řádek produktu, která má nákladovou sazbu pro kombinaci polí **Produkt** a **Jednotka**, je nákladová cena výchozí. Pokud systém nedokáže spárovat hodnoty **Produkt** a **Jednotka** nebo pokud je schopen najít odpovídající řádek položky ceníku, ale metoda stanovení ceny je založena na standardních nákladech nebo aktuálních nákladech a ani jedna z nich není na produktu definována, výchozí cena jednotky je nula.
+Po určení nákladového ceníku systém provede následující kroky a zadá výchozí nákladovou sazbu.
 
+1. Systém spáruje pole **Kategorie** a **Jednotka** v kontextu odhadu nebo skutečném odhadu pro **Výdaj** s řádky cen kategorie v ceníku.
+1. Pokud systém najde řádek ceny kategorie, který má nákladovou sazbu pro kombinaci polí **Kategorie** a **Jednotka**, pak je tato nákladová sazba použita jako výchozí.
+1. Pokud systém není schopen spárovat hodnoty polí **Kategorie** a **Jednotka**, je výchozí cena nastavena na **0** (nula).
+1. Pokud systém nedokáže v kontextu odhadu najít odpovídající cenový řádek kategorie, ale metoda stanovení cen není **Cena za jednotku**, je výchozí nákladová sazba nastavena na **0** (nula).
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Určení nákladových sazeb na řádcích skutečností a odhadů pro materiál
+
+Kontext odhadu pro **Materiál** odkazuje na:
+
+- Údaje řádku nabídky pro **Materiál**.
+- Údaje řádku smlouvy pro **Materiál**.
+- Odhady materiálu v projektu.
+
+Skutečný kontext pro **Materiál** odkazuje na:
+
+- Řádky deníku záznamů a oprav pro **Materiál**.
+- Řádky deníku, které se vytvoří při odeslání deníku využití materiálu.
+
+Po určení nákladového ceníku systém provede následující kroky a zadá výchozí nákladovou sazbu.
+
+1. Systém používá kombinaci polí **Produkt** a **Jednotka** v kontextu odhadu nebo skutečném kontextu pro **Materiál** s řádky položky ceníku v ceníku.
+1. Pokud systém najde řádek položky ceníku, který má nákladovou sazbu pro kombinaci **Produkt** a **Jednotka**, použije se tato nákladová sazba jako výchozí nákladová sazba.
+1. Pokud systém nedokáže spárovat hodnoty **Produkt** a **Jednotka**, výchozí nákladová jednotka je **0** (nula).
+1. Pokud systém nedokáže v kontextu odhadu nebo skutečném kontextu najít odpovídající řádek položky ceníku, ale metoda stanovení cen není **Měna v jednotce**, je výchozí jednotková cena nastavena na **0** (nula). K tomuto chování dochází, protože Project Operations podporuje pouze metodu ceny **Částka měny** pro materiály, které se používají na projektu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
