@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Kopírování projektových nabídek
               href: sales/lose-quote.md
+            - name: "Aktivace a\_oprava projektových nabídek"
+              href: sales/activation-and-revision.md
             - name: Uzavření projektových nabídek
               href: sales/win-quote.md
         - name: Správa projektových smluv
@@ -198,11 +200,13 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Vytvoření plánů faktur na řádcích smlouvy na základě projektu
                   href: sales/invoice-schedules-contract-line.md
+            - name: Kopírování smluv založených na projektu
+              href: sales/copy-project-based-contracts-sales.md
             - name: Potvrzení projektové smlouvy
               href: pro/sales/confirm-contract-sales.md
             - name: Zálohy
               items:
-                - name: Zálohy a smlouvy na základě záloh
+                - name: "Zálohy a\_smlouvy na základě záloh"
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Nastavení plánu záloh
                   href: pro/sales/set-up-schedule-retainers-sales.md
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Přepsání prodejních ceníků projektu
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Řešení nákladových cen pro odhady a skutečnosti
+            - name: Určení nákladových cen pro odhady a skutečnosti
               href: pricing-costing/cost-price-resolution.md
-            - name: Řešení prodejních cen pro odhady a skutečnosti
+            - name: Určení prodejních cen pro odhady a skutečnosti
               href: pricing-costing/sales-price-resolution.md
             - name: Kopírovat ceníky
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Kopírování nabídek na základě projektu
               href: sales/lose-quote.md
+            - name: "Aktivace a\_oprava projektových nabídek"
+              href: sales/activation-and-revision.md
             - name: Uzavření nabídek na základě projektu
               href: pro/sales/win-quote-sales.md
         - name: Správa smluv založených na projektu
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Přepsání prodejních ceníků projektu
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Řešení nákladových cen pro odhady projektu a skutečné hodnoty
+            - name: Určení nákladových cen pro odhady projektu a skutečné hodnoty
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Řešení prodejních cen pro odhady projektu a skutečné hodnoty
+            - name: Určení prodejních cen pro odhady projektu a skutečné hodnoty
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Kopírovat ceníky
               href: pricing-costing/copy-price-lists.md
