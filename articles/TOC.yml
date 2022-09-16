@@ -226,15 +226,17 @@
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
             - name: Nastavení nákladových a prodejních sazeb pro materiály
               href: pricing-costing/set-up-cost-sales-rates-materials.md
-        - name: Výchozí hodnoty a přepsání
+        - name: "Výchozí hodnoty a\_přepsání"
           items:
             - name: Výchozí ceníky
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Přepsání prodejních ceníků projektu
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Určení nákladových cen pro odhady a skutečnosti
+            - name: "Nastavení přepsání s\_platností podle data pro konkrétní ceny v\_ceníku"
+              href: pricing-costing/dateffective_price_overrides.md
+            - name: "Určení nákladových cen pro odhady a\_skutečnosti"
               href: pricing-costing/cost-price-resolution.md
-            - name: Určení prodejních cen pro odhady a skutečnosti
+            - name: "Určení prodejních cen pro odhady a\_skutečnosti"
               href: pricing-costing/sales-price-resolution.md
             - name: Kopírovat ceníky
               href: pricing-costing/copy-price-lists.md
@@ -544,11 +546,19 @@
           href: procurement/pending-vendor-invoices.md
         - name: Objednávka zboží a služeb pro projekty pomocí nákupních objednávek projektu
           href: procurement/non-stocked-materials-project-purchase-orders.md
-        - name: Udržení dodavatele
+        - name: "Faktury dodavatelů za subdodávky v\_Dataverse"
           items:
-            - name: Přehled udržení dodavatele
+            - name: Vytvořit faktury dodavatele
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Ověřování faktur dodavatele se schválenými skutečnými hodnotami
+              href: pro/subcontracting/VI-Verification.md
+            - name: Potvrzení faktur dodavatele projektu
+              href: procurement/Confirm-a-project-vendor-invoice.md
+        - name: Uchování dodavatele
+          items:
+            - name: Přehled uchování dodavatele
               href: procurement/vendor-retention-overview.md
-            - name: Nastavení udržení dodavatele
+            - name: Nastavení uchování dodavatele
               href: procurement/set-up-vendor-retention.md
     - name: Fakturace
       items:
@@ -838,12 +848,14 @@
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
             - name: Nastavení nákladových a prodejních sazeb pro materiály
               href: pricing-costing/set-up-cost-sales-rates-materials.md
-        - name: Výchozí hodnoty a přepsání
+        - name: "Výchozí hodnoty a\_přepsání"
           items:
             - name: Výchozí ceníky
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Přepsání prodejních ceníků projektu
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: "Nastavení přepsání s\_platností podle data pro konkrétní ceny v\_ceníku"
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Určení nákladových cen pro odhady projektu a skutečné hodnoty
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Určení prodejních cen pro odhady projektu a skutečné hodnoty
