@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230221"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446027"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Upgrade z Project Service Automation na Project Operations
 
@@ -29,7 +29,7 @@ S potěšením oznamujeme první ze tří fází upgradu z Microsoft Dynamics 36
 
 Program doručení upgradu bude rozdělen do tří fází.
 
-| Doručení upgradu | Fáze 1 (leden 2022) | Fáze 2 (vlna duben 2022) | Fáze 3  |
+| Doručení upgradu | Fáze 1 (leden 2022) | Fáze 2 (listopad 2022) | Fáze 3 (vlna duben 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Žádná závislost na strukturovaném rozpisu prací (WBS) u projektů | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Strukturovaný rozpis prací v rámci aktuálně podporovaných limitů Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ Program doručení upgradu bude rozdělen do tří fází.
 
 V rámci procesu upgradu jsme do mapy webu přidali protokoly upgradu, aby administrátoři mohli snadněji diagnostikovat selhání. Kromě nového rozhraní budou přidána nová ověřovací pravidla, která zajistí integritu dat po upgradu. Do procesu upgradu budou přidána následující ověření.
 
-| Ověření | Fáze 1 (leden 2022) | Fáze 2 (vlna duben 2022) | Fáze 3  |
+| Ověření | Fáze 1 (leden 2022) | Fáze 2 (listopad 2022) | Fáze 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | Strukturovaný rozpis prací bude ověřen vůči běžným narušením integrity dat (například přiřazení zdrojů, které jsou spojeny se stejným nadřazeným úkolem, ale mají různé nadřazené projekty). | | :heavy_check_mark: | :heavy_check_mark: |
 | Strukturovaný rozpis prací bude ověřen vůči [známým limitům aplikace Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |

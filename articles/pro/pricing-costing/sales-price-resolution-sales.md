@@ -6,18 +6,18 @@ ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410110"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475176"
 ---
 # <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Určení prodejních cen pro odhady projektu a skutečné hodnoty
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
-Když jsou určovány prodejní ceny na základě odhadů a skutečností v Microsoft Dynamics 365 Project Operations, systém nejprve použije datum a měnu v příchozím odhadu nebo skutečném kontextu k určení ceníku prodejní ceny. Ve skutečném kontextu konkrétně systém používá pole **Datum transakce** pro určení, který ceník je použitelný. Po určení prodejního ceníku systém určí prodejní nebo fakturační sazbu.
+Když jsou určovány prodejní ceny na základě odhadů a skutečností v Microsoft Dynamics 365 Project Operations, systém nejprve použije datum a měnu v příchozím odhadu nebo skutečném kontextu k určení ceníku prodejní ceny. Ve skutečném kontextu konkrétně systém používá pole **Datum transakce** pro určení, který ceník je použitelný. Hodnota **Datum transakce** příchozího odhadu nebo skutečné hodnoty se porovnává s hodnotami **Zahájení platnosti (nezávisle na časovém pásmu)** a **Konec platnosti (nezávisle na časovém pásmu)** v ceníku. Po určení prodejního ceníku systém určí prodejní nebo fakturační sazbu.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Určení prodejních sazeb v řádcích skutečností a odhadů pro čas
 

@@ -1,43 +1,84 @@
 ---
-title: Řešení nákladových cen pro odhady a skutečnosti
-description: Tento článek poskytuje informace o tom, jak se řeší nákladové ceny pro odhady a skutečné hodnoty.
+title: Určení nákladových sazeb pro odhady a skutečné hodnoty projektu
+description: Tento článek poskytuje informace o tom, jak se určují nákladové sazby na odhady a skutečné hodnoty projektu.
 author: rumant
-ms.date: 04/09/2021
+ms.date: 9/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: af17712f0aef4fe3e6e758edd976cc377e90631d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 822a7bd8ae87d4fd4044d8b46347bfe1b4ca13ca
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8919960"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475265"
 ---
-# <a name="resolving-cost-prices-for-estimates-and-actuals"></a>Řešení nákladových cen pro odhady a skutečnosti
+# <a name="determine-cost-rates-for-project-based-estimates-and-actuals"></a>Určení nákladových sazeb pro odhady a skutečné hodnoty projektu
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-K řešení nákladových cen a nákladového ceníku pro odhady a skutečné hodnoty používá systém informace polích **Datum**, **Měna** a **Smluvní jednotka** souvisejícího projektu. Po vyřešení ceníku nákladů vyřeší aplikace nákladovou sazbu.
+Když jsou určovány nákladové ceny na základě odhadů a skutečností v Microsoft Dynamics 365 Project Operations, systém nejprve použije datum a měnu v příchozím odhadu nebo skutečném kontextu k určení ceníku prodejní ceny. Ve skutečném kontextu konkrétně systém používá pole **Datum transakce** pro určení, který ceník je použitelný. Hodnota **Datum transakce** příchozího odhadu nebo skutečné hodnoty se porovnává s hodnotami **Zahájení platnosti (nezávisle na časovém pásmu)** a **Konec platnosti (nezávisle na časovém pásmu)** v ceníku. Po určení ceníku nákladů systém určí nákladovou sazbu.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Vyřešení nákladových sazeb v řádcích skutečností a odhadů pro čas
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Určení nákladových sazeb v kontextu odhadu a skutečném kontextu pro čas
 
-Odhad řádků pro čas se vztahuje k podrobnostem řádku nabídky a smlouvy pro přiřazení času a zdrojů v projektu.
+Kontext odhadu pro **Čas** odkazuje na:
 
-Po vyřešení nákladového ceníku systém používá pole **Role**, **Společnost poskytující zdroje** a **Jednotka zdroje** na řádku odhadu pro čas, aby se shodovaly s řádky cen rolí ve vyřešeném ceníku. Tato párování předpokládá, že se používáte předem připravené cenové dimenze pro personální náklady. Pokud jste nakonfigurovali systém, aby pároval pole namísto polí **Role**, **Společnost poskytující zdroje** a **Jednotka zdroje** nebo kromě nich, pak bude použita k načtení odpovídajícího řádku ceny role jiná kombinace. Pokud aplikace najde řádek ceny role, který má nákladovou sazbu pro kombinaci polí **Role**, **Společnost poskytující zdroje** a **Jednotka zdroje**, pak je tato nákladová sazba výchozí. Pokud aplikace nedokáže přesně spárovat hodnoty **Role**, **Společnost prostředků** a **Jednotka prostředků**, načte řádky cen rolí se shodnou hodnotou role, ale bude mít nulové hodnoty pro **Jednotka prostředků** a **Společnost prostředků**. Poté, co se najde odpovídající záznam ceny role se shodnou hodnotou ceny role, bude z tohoto záznamu výchozí cena. 
+- Údaje řádku nabídky pro **Čas**.
+- Údaje řádku smlouvy pro **Čas**.
+- Přiřazení zdroje k projektu.
+
+Skutečný kontext pro **Čas** odkazuje na:
+
+- Řádky deníku záznamů a oprav pro **Čas**.
+- Řádky deníku, které se vytvoří při odeslání časového záznamu.
+
+Po určení nákladového ceníku systém provede následující kroky a zadá výchozí nákladovou sazbu.
+
+1. Systém spáruje pole **Role**, **Zdrojová společnost** a **Jednotka zdroje** v kontextu odhadu nebo skutečném odhadu pro **Čas** s řádky cen rolí v ceníku. Tato shoda předpokládá, že používáte standardní cenové dimenze mzdových nákladů. Pokud jste nakonfigurovali systém, aby pároval pole namísto polí **Role**, **Společnost poskytující zdroje** a **Jednotka zdroje** nebo kromě nich, pak bude použita k načtení odpovídajícího řádku ceny role jiná kombinace.
+1. Pokud systém najde řádek ceny role, který má nákladovou sazbu pro kombinaci polí **Role**, **Společnost poskytující zdroje** a **Jednotka zdroje**, pak je tato nákladová sazba použita jako výchozí.
+1. Pokud se systém nemůže spárovat hodnoty **Role**, **Společnost poskytující zdroje** a **Jednotka zdroje**, odstraní dimenzi, která má nejnižší prioritu, vyhledává řádky cen role, které se shodují s dalšími dvěma hodnotami dimenze, a pokračuje v postupném snižování dimenzí, dokud není nalezen odpovídající řádek ceny role. Nákladová sazba z tohoto záznamu bude použita jako výchozí nákladová sazba. Pokud systém nenajde odpovídající řádek ceny role, bude cena nastavena na **0** (nula) jako výchozí.
 
 > [!NOTE]
-> Pokud nakonfigurujete jinou prioritu polí **Role**, **Společnost poskytující zdroje** a **Jednotka zdroje** nebo pokud máte jiné dimenze s vyšší prioritou, toto chování se odpovídajícím způsobem změní. Systém načte záznamy cen rolí s hodnotami, které odpovídají každé z hodnot cenové dimenze v pořadí podle priority, s řádky, které mají nulové hodnoty pro ty dimenze, které jsou jako poslední v pořadí priority.
+> Pokud jste konfigurovali jinou prioritu polí **Role** a **Jednotka zdroje** nebo pokud máte jiné dimenze s vyšší prioritou, předchozí chování se odpovídajícím způsobem změní. Systém načte záznamy cen rolí, které mají hodnoty, které odpovídají každé hodnotě dimenze cen v pořadí podle priority. Řádky, které mají pro tyto dimenze hodnoty null, jsou na posledním místě.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Vyřešení nákladových sazeb v řádcích skutečností a odhadů pro výdaj
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Určení nákladových sazeb v řádcích skutečností a odhadů pro výdaj
 
-Řádky odhadu pro výdaje odkazují na detaily řádku nabídky a smlouvy pro výdaje a řádky odhadu výdaje v projektu.
+Kontext odhadu pro **Výdaj** odkazuje na:
 
-Po vyřešení nákladového ceníku systém používá kombinaci polí **Kategorie** a **Jednotka** na řádku odhadu pro výdaj, aby se shodovaly s řádky **Ceny kategorií** ve vyřešeném ceníku. Pokud systém najde řádek ceny kategorie, který má nákladovou sazbu pro kombinaci polí **Kategorie** a **Jednotka**, pak je nákladová sazba výchozí. Pokud systém nemůže spárovat hodnoty **Kategorie** a **Jednotka** nebo pokud je schopen najít odpovídající řádek ceny kategorie, ale metoda stanovení cen není **Cena za jednotku**, nákladová sazba je standardně nastavena na nulu (0).
+- Údaje řádku nabídky pro **Výdaj**.
+- Údaje řádku smlouvy pro **Výdaj**.
+- Odhady výdajů na projekt.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Řešení nákladových sazeb na řádcích skutečností a odhadů pro materiál
+Skutečný kontext pro **Výdaj** odkazuje na:
 
-Řádky odhadu pro materiál označují údaje řádku nabídky a řádku smlouvy u materiálů a řádky odhadu materiálu na projektu.
+- Řádky deníku záznamů a oprav pro **Výdaj**.
+- Řádky deníku, které se vytvoří při odeslání záznamu výdaje.
 
-Po vyřešení ceníku nákladů systém použije kombinaci polí **Produkt** a **Jednotka** na řádku odhadu, aby se odhad materiálu shodoval s řádky **Ceník položek** na vyřešeném ceníku. Pokud systém najde cenový řádek produktu, která má nákladovou sazbu pro kombinaci polí **Produkt** a **Jednotka**, je nákladová cena výchozí. Pokud systém nedokáže spárovat hodnoty **Produkt** a **Jednotka** neshodují, výchozí náklad jednotky je nula. K tomuto výchozímu nastavení dojde také v případě, že existuje odpovídající řádek položky ceníku, ale metoda stanovení ceny je založena na standardní ceně nebo aktuální ceně, která není v produktu definována.
+Po určení nákladového ceníku systém provede následující kroky a zadá výchozí nákladovou sazbu.
+
+1. Systém spáruje pole **Kategorie** a **Jednotka** v kontextu odhadu nebo skutečném odhadu pro **Výdaj** s řádky cen kategorie v ceníku.
+1. Pokud systém najde řádek ceny kategorie, který má nákladovou sazbu pro kombinaci polí **Kategorie** a **Jednotka**, pak je tato nákladová sazba použita jako výchozí.
+1. Pokud systém není schopen spárovat hodnoty polí **Kategorie** a **Jednotka**, je výchozí cena nastavena na **0** (nula).
+1. Pokud systém nedokáže v kontextu odhadu najít odpovídající cenový řádek kategorie, ale metoda stanovení cen není **Cena za jednotku**, je výchozí nákladová sazba nastavena na **0** (nula).
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Určení nákladových sazeb na řádcích skutečností a odhadů pro materiál
+
+Kontext odhadu pro **Materiál** odkazuje na:
+
+- Údaje řádku nabídky pro **Materiál**.
+- Údaje řádku smlouvy pro **Materiál**.
+- Odhady materiálu v projektu.
+
+Skutečný kontext pro **Materiál** odkazuje na:
+
+- Řádky deníku záznamů a oprav pro **Materiál**.
+- Řádky deníku, které se vytvoří při odeslání deníku využití materiálu.
+
+Po určení nákladového ceníku systém provede následující kroky a zadá výchozí nákladovou sazbu.
+
+1. Systém používá kombinaci polí **Produkt** a **Jednotka** v kontextu odhadu nebo skutečném kontextu pro **Materiál** s řádky položky ceníku v ceníku.
+1. Pokud systém najde řádek položky ceníku, který má nákladovou sazbu pro kombinaci **Produkt** a **Jednotka**, použije se tato nákladová sazba jako výchozí nákladová sazba.
+1. Pokud systém nedokáže spárovat hodnoty **Produkt** a **Jednotka**, výchozí nákladová jednotka je **0** (nula).
+1. Pokud systém nedokáže v kontextu odhadu nebo skutečném kontextu najít odpovídající řádek položky ceníku, ale metoda stanovení cen není **Měna v jednotce**, je výchozí jednotková cena nastavena na **0** (nula). K tomuto chování dochází, protože Project Operations podporuje pouze metodu ceny **Částka měny** pro materiály, které se používají na projektu.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

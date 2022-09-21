@@ -1,68 +1,95 @@
 ---
-title: Vyřešení prodejních cen pro odhady a skutečnosti
-description: Tento článek poskytuje informace o tom, jak vyřešit prodejní sazby pro odhady a skutečné hodnoty.
+title: Určení prodejních cen pro odhady projektu a skutečné hodnoty
+description: Tento článek poskytuje informace o tom, jak se určují prodejní ceny pro odhady a skutečné hodnoty projektu.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ee750b93a5be7be09ed76942c7c235f8c811e8bb
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0b95c651983230cbf340f2c06089a287b2c8a10
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911818"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475361"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Vyřešení prodejních cen pro odhady a skutečnosti
+#  <a name="determine-sales-prices-for-project-based-estimates-and-actuals"></a>Určení prodejních cen pro odhady projektu a skutečné hodnoty
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-Když jsou vyřešeny prodejní ceny na základě odhadů a skutečností v Dynamics 365 Project Operations, systém nejprve použije datum a měnu související nabídky projektu nebo smlouvy k vyřešení ceníku prodejní ceny. Po vyřešení prodejního ceníku systém vyřeší prodejní nebo fakturační sazbu.
+Když jsou určovány prodejní ceny na základě odhadů a skutečností v Microsoft Dynamics 365 Project Operations, systém nejprve použije datum a měnu v příchozím odhadu nebo skutečném kontextu k určení ceníku prodejní ceny. Ve skutečném kontextu konkrétně systém používá pole **Datum transakce** pro určení, který ceník je použitelný. Hodnota **Datum transakce** příchozího odhadu nebo skutečné hodnoty se porovnává s hodnotami **Zahájení platnosti (nezávisle na časovém pásmu)** a **Konec platnosti (nezávisle na časovém pásmu)** v ceníku. Po určení prodejního ceníku systém určí prodejní nebo fakturační sazbu.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Vyřešení prodejních sazeb v řádcích skutečností a odhadů pro čas
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Určení prodejních sazeb v řádcích skutečností a odhadů pro čas
 
-V Project Operations se řádky odhadů pro čas používají k označení řádků nabídek a podrobností řádků smluv pro čas a přiřazení prostředků v projektu.
+Kontext odhadu pro **Čas** odkazuje na:
 
-Po vyřešení prodejního ceníku systém provede následující kroky a nastaví výchozí fakturační sazbu.
+- Údaje řádku nabídky pro **Čas**.
+- Údaje řádku smlouvy pro **Čas**.
+- Přiřazení zdroje k projektu.
 
-1. Systém používá pole **Role**, **Společnost poskytující zdroje** a **Jednotka zdroje** na řádku odhadu pro čas, aby se shodovaly s řádky cen rolí ve vyřešeném ceníku. Tato párování předpokládá, že se používají předem připravené cenové dimenze pro fakturační sazby. Pokud jste konfigurovali ceny na základě jakýchkoli jiných polí namísto polí **Role**, **Společnost poskytující zdroje** a **Jednotka zdroje** nebo kromě nich, pak to je kombinace, která bude použita k načtení odpovídajícího řádku ceny role.
-2. Pokud systém najde řádek ceny role, který má fakturační sazbu pro kombinaci polí **Role**, **Společnost poskytující zdroje** a **Jednotka zdroje**, pak je tato fakturační sazba výchozí.
-3. Pokud systém neumí spárovat hodnoty polí **Role**, **Společnost poskytující zdroje** a **Jednotka zdroje**, načte řádky cen rolí se shodnou rolí, ale s hodnotami null v poli **Jednotka zdroje**. Poté, co systém najde odpovídající záznam ceny role, nastaví výchozí fakturační sazbu podle tohoto záznamu. Tato shoda předpokládá předem připravenou konfiguraci pro relativní prioritu **Role** vs. **Jednotka role** jako dimenze prodejních cen.
+Skutečný kontext pro **Čas** odkazuje na:
+
+- Řádky deníku záznamů a oprav pro **Čas**.
+- Řádky deníku, které se vytvoří při odeslání časového záznamu.
+- Údaje řádku faktury pro **Čas**. 
+
+Po určení prodejního ceníku systém provede následující kroky a zadá výchozí fakturační sazbu.
+
+1. Systém spáruje pole **Role**, **Zdrojová společnost** a **Jednotka zdroje** v kontextu odhadu nebo skutečném odhadu pro **Čas** s řádky cen rolí v ceníku. Tato párování předpokládá, že se používáte předem připravené cenové dimenze pro fakturační sazby. Pokud jste konfigurovali ceny na základě jakýchkoli jiných polí namísto polí **Role**, **Společnost zajišťující zdroje** a **Jednotka zdroje** nebo kromě nich, pak to je kombinace polí, která bude použita k načtení odpovídajícího řádku ceny role.
+1. Pokud systém najde řádek ceny role, který má fakturační sazbu pro kombinaci polí **Role**, **Společnost poskytující zdroje** a **Jednotka zdroje**, pak je tato fakturační sazba použita jako výchozí.
 
 > [!NOTE]
-> Pokud jste konfigurovali jinou prioritu polí **Role**, **Společnost poskytující zdroje** a **Jednotka zdroje** nebo pokud máte jiné dimenze s vyšší prioritou, toto chování se odpovídajícím způsobem změní. Systém načte záznamy cen rolí se shodnými hodnotami každé z hodnot cenových dimenzí v pořadí podle priority s řádky, které mají hodnoty null pro tyto dimenze, uvedenými až nakonec.
+> Pokud nakonfigurujete jinou prioritu polí **Role**, **Společnost poskytující zdroje** a **Jednotka zdroje** nebo pokud máte jiné dimenze s vyšší prioritou, výše uvedené chování se odpovídajícím způsobem změní. Systém načte záznamy cen rolí, které mají hodnoty, které odpovídají každé hodnotě dimenze cen v pořadí podle priority. Řádky, které mají pro tyto dimenze hodnoty null, jsou na posledním místě.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Vyřešení prodejních sazeb v řádcích skutečností a odhadů pro výdaje
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Určení prodejních sazeb v řádcích skutečností a odhadů pro výdaje
 
-V Project Operations se řádky odhadů pro výdaje používají k označení řádků nabídek a podrobností řádků smluv pro výdaje a řádků odhadů výdajů v projektu.
+Kontext odhadu pro **Výdaj** odkazuje na:
 
-Po vyřešení prodejního ceníku systém provede následující kroky a nastaví výchozí prodejní cenu jednotky.
+- Údaje řádku nabídky pro **Výdaj**.
+- Údaje řádku smlouvy pro **Výdaj**.
+- Odhady řádku Výdaj na projektu.
 
-1. Systém používá kombinaci polí **Kategorie** a **Jednotka** na řádku odhadu pro výdaje, aby řádek spároval s řádky cen kategorií ve vyřešeném ceníku.
-2. Pokud systém najde řádek ceny kategorie, který má prodejní sazbu pro kombinaci polí **Kategorie** a **Jednotka**, pak je tato prodejní sazba výchozí.
-3. Pokud systém najde odpovídající řádek ceny kategorie, lze metodu stanovení cen použít ke stanovení výchozí prodejní ceny. Následující tabulka ukazuje výchozí chování ceny výdajů v Project Operations.
+Skutečný kontext pro **Výdaj** odkazuje na:
+
+- Řádky deníku záznamů a oprav pro **Výdaj**.
+- Řádky deníku, které se vytvoří při odeslání záznamu výdaje.
+- Údaje řádku faktury pro **Výdaj**. 
+
+Po určení prodejního ceníku systém provede následující kroky a nastaví výchozí prodejní cenu jednotky.
+
+1. Systém páruje kombinaci polí **Kategorie** a **Jednotka** na řádku odhadu pro **Výdaj**, aby řádek spároval s řádky cen kategorií v ceníku.
+1. Pokud systém najde řádek ceny kategorie, který má prodejní sazbu pro kombinaci polí **Kategorie** a **Jednotka**, pak je tato prodejní sazba používána jako výchozí.
+1. Pokud systém najde odpovídající řádek ceny kategorie, lze metodu stanovení cen použít k zadání výchozí prodejní ceny. Následující tabulka ukazuje výchozí chování ceny výdajů v Project Operations.
 
     | Kontext | Způsob ocenění | Výchozí cena |
     | --- | --- | --- |
-    | Odhad | Cena za jednotku | Na základě řádku ceny kategorie |
-    | &nbsp; | Podle nákladů | 0.00 |
-    | &nbsp; | Přirážka k nákladům | 0.00 |
-    | Skutečnost | Cena za jednotku | Na základě řádku ceny kategorie |
-    | &nbsp; | Podle nákladů | Na základě skutečných souvisejících nákladů |
-    | &nbsp; | Přirážka k nákladům | Aplikováním přirážky definované v řádku ceny kategorie na sazbu jednotkové ceny související skutečné ceny |
+    | Odhad | Cena za jednotku | Na základě řádku ceny kategorie. |
+    |        | Podle nákladů | 0.00 |
+    |        | Přirážka k nákladům | 0.00 |
+    | Skutečnost | Cena za jednotku | Na základě řádku ceny kategorie. |
+    |        | Podle nákladů | Na základě skutečných souvisejících nákladů. |
+    |        | Přirážka k nákladům | Je aplikována přirážka definovaná v řádku ceny kategorie na sazbu jednotkové ceny související skutečné ceny. |
 
-4. Pokud systém není schopen spárovat hodnoty polí **Kategorie** a **Jednotka**, je výchozí hodnota prodejní sazby nula (0).
+1. Pokud systém není schopen spárovat hodnoty polí **Kategorie** a **Jednotka**, je výchozí prodejní sazba nastavena na **0** (nula).
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Řešení prodejních sazeb na řádcích skutečností a odhadů pro materiál
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Určení prodejních sazeb na řádcích skutečností a odhadů pro materiál
 
-V aplikaci Project Operations se řádky odhadu pro materiál používají k označení podrobností řádku nabídky a řádku smlouvy u materiálů a řádky odhadu materiálu na projektu.
+Kontext odhadu pro **Materiál** odkazuje na:
 
-Po vyřešení prodejního ceníku systém provede následující kroky a nastaví výchozí prodejní cenu jednotky.
+- Údaje řádku nabídky pro **Materiál**.
+- Údaje řádku smlouvy pro **Materiál**.
+- Odhady řádku Materiál na projektu.
 
-1. Systém používá kombinaci polí **Produkt** a **Jednotka** na řádku odhadu materiálu pro spárování s řádky položky ceníku v ceníku, který byl vyřešen.
-2. Pokud systém najde řádek položky ceníku, který má sazbu prodeje pro kombinaci polí **Produkt** a **Jednotka** a metoda ocenění je **Částka měny**, použije se prodejní cena uvedená v řádku ceníku.
-3. Pokud se hodnoty polí **Produkt** a **Jednotka** neshodují, výchozí sazba prodeje je nula.
+Skutečný kontext pro **Materiál** odkazuje na:
 
+- Řádky deníku záznamů a oprav pro **Materiál**.
+- Řádky deníku, které se vytvoří při odeslání deníku využití materiálu.
+- Údaje řádku faktury pro **Materiál**. 
 
+Po určení prodejního ceníku systém provede následující kroky a nastaví výchozí prodejní cenu jednotky.
+
+1. Systém páruje kombinaci polí **Produkt** a **Jednotka** na řádku odhadu **Materiál** s řádky položky ceníku v ceníku.
+1. Pokud systém najde řádek položky ceníku, který má sazbu prodeje pro kombinaci polí **Produkt** a **Jednotka** a metoda ocenění je **Částka měny**, použije se prodejní cena uvedená v řádku ceníku. 
+1. Pokud se hodnoty pole **Produkt** a **Jednotka** neshodují nebo pokud je metoda stanovení ceny jiná než **Částka měny**, prodejní sazba je nastavena na **0** (nula) ve výchozím nastavení. K tomuto chování dochází, protože Project Operations podporuje pouze metodu ceny **Částka měny** pro materiály, které se používají na projektu.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410141"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475223"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Určení nákladových sazeb pro odhady a skutečné hodnoty projektu
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
-K určení nákladového ceníku a nákladových cen v kontextu odhadu a skutečném kontextu používá systém informace polích **Datum**, **Měna** a **Smluvní jednotka** souvisejícího projektu.
+Když jsou určovány nákladové sazby na základě odhadů a skutečností v Microsoft Dynamics 365 Project Operations, systém nejprve použije datum a měnu v příchozím odhadu nebo skutečném kontextu k určení nákladového ceníku. Ve skutečném kontextu konkrétně systém používá pole **Datum transakce** pro určení, který ceník je použitelný. Hodnota **Datum transakce** příchozího odhadu nebo skutečné hodnoty se porovnává s hodnotami **Zahájení platnosti (nezávisle na časovém pásmu)** a **Konec platnosti (nezávisle na časovém pásmu)** v ceníku. Po určení ceníku nákladů systém určí nákladovou sazbu. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Určení nákladových sazeb v kontextu odhadu a skutečném kontextu pro čas
 
