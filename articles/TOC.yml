@@ -324,7 +324,7 @@
           items:
             - name: Spolupráce se Skupinami Office
               href: project-management/collaboration-groups.md
-        - name: Poznámky vývojáře
+        - name: Poznámky pro vývojáře
           items:
             - name: Vývoj šablon projektů pomocí kopírování projektu
               href: project-management/dev-copy-project.md
@@ -436,7 +436,7 @@
           items:
             - name: Uživatelské rozhraní časových záznamů
               href: time/ui-behavior-time.md
-        - name: Poznámky vývojáře
+        - name: Poznámky pro vývojáře
           items:
             - name: Přizpůsobení mřížky týdenních časových záznamů
               href: time/customize-weekly-time-entry-grid.md
@@ -506,15 +506,17 @@
           href: approvals/approval-sets.md
         - name: Zrušení schválení dříve schválených záznamů
           href: approvals/cancelapproval.md
-        - name: Odvolání dříve schválených položek
+        - name: Odvolání dříve schválených záznamů
           href: approvals/recall-cancel.md
-        - name: Poznámky vývojáře
+        - name: "Zabezpečení a\_schválení"
+          href: approvals/approvals-security.md
+        - name: Poznámky pro vývojáře
           items:
             - name: Poznámky pro vývojáře ke schválení
               href: approvals/dev-notes-approvals.md
     - name: Skutečné hodnoty
       items:
-        - name: Obchodní transakce v Project Operations
+        - name: "Obchodní transakce v\_Project Operations"
           href: actuals/businesstransactions.md
         - name: Přehled skutečných hodnot
           href: actuals/actuals-overview.md
@@ -560,9 +562,11 @@
               href: procurement/vendor-retention-overview.md
             - name: Nastavení uchování dodavatele
               href: procurement/set-up-vendor-retention.md
+            - name: Platba po zaplacení
+              href: procurement/Pay-when-paid.md
     - name: Fakturace
       items:
-        - name: Přehled fakturovacího procesu
+        - name: Přehled procesu fakturace
           href: invoicing/post-project-invoices.md
         - name: Proforma fakturace
           items:
@@ -946,7 +950,7 @@
           items:
             - name: Spolupráce se Skupinami Office
               href: project-management/collaboration-groups.md
-        - name: Poznámky vývojáře
+        - name: Poznámky pro vývojáře
           items:
             - name: Vývoj šablon projektů pomocí kopírování projektu
               href: project-management/dev-copy-project.md
@@ -1078,7 +1082,7 @@
           items:
             - name: Uživatelské rozhraní časových záznamů
               href: time/ui-behavior-time.md
-        - name: Poznámky vývojáře
+        - name: Poznámky pro vývojáře
           items:
             - name: Přizpůsobení mřížky týdenních časových záznamů
               href: time/customize-weekly-time-entry-grid.md
@@ -1100,15 +1104,17 @@
           href: approvals/approval-sets.md
         - name: Zrušení schválení dříve schválených záznamů
           href: approvals/cancelapproval.md
-        - name: Odvolání dříve schválených položek
+        - name: Odvolání dříve schválených záznamů
           href: approvals/recall-cancel.md
-        - name: Poznámky vývojáře
+        - name: "Zabezpečení a\_schválení"
+          href: approvals/approvals-security.md
+        - name: Poznámky pro vývojáře
           items:
             - name: Poznámky pro vývojáře ke schválení
               href: approvals/dev-notes-approvals.md
     - name: Skutečné hodnoty
       items:
-        - name: Obchodní transakce v Project Operations
+        - name: "Obchodní transakce v\_Project Operations"
           href: actuals/businesstransactions.md
         - name: Přehled skutečných hodnot
           href: actuals/actuals-overview.md
