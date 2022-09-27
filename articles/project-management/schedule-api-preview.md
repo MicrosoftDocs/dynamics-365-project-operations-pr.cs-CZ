@@ -6,284 +6,146 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 159d395efff98f2af780e5ed1e5ab3d6483cba89
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230307"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541116"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>K provádění operací s entitami plánování použijte rozhraní API pro plánování projektu
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
 
-
-## <a name="scheduling-entities"></a>Entity plánování
+**Entity plánování**
 
 Rozhraní API plánování projektu umožňují provádět operace vytváření, aktualizace a mazání pomocí **Plánovacích entit**. Tyto entity jsou spravovány prostřednictvím modulu Plánování v aplikaci Project for the Web. Operace vytváření, aktualizace a odstraňování **entit plánování** byly ve starších verzích Dynamics 365 Project Operations omezeny.
 
 Následující tabulka poskytuje úplný seznam entit plánu projektu.
 
-| Název entity  | Logický název entity |
-| --- | --- |
-| Project | msdyn_project |
-| Projektový úkol  | msdyn_projecttask  |
-| Závislost projektového úkolu  | msdyn_projecttaskdependency  |
-| Přiřazení zdroje | msdyn_resourceassignment |
-| Kbelík projektu  | msdyn_projectbucket |
-| Člen projektového týmu | msdyn_projectteam |
+| **Název entity**         | **Logický název entity**     |
+|-------------------------|-----------------------------|
+| Project                 | msdyn_project               |
+| Projektový úkol            | msdyn_projecttask           |
+| Závislost projektového úkolu | msdyn_projecttaskdependency |
+| Přiřazení zdroje     | msdyn_resourceassignment    |
+| Kbelík projektu          | msdyn_projectbucket         |
+| Člen projektového týmu     | msdyn_projectteam           |
+| Kontrolní seznamy projektu      | msdyn_projectchecklist      |
+| Popisek projektu           | msdyn_projectlabel          |
+| Projektový úkol k popisku   | msdyn_projecttasktolabel    |
+| Sprint projektu          | msdyn_projectsprint         |
 
-## <a name="operationset"></a>OperationSet
+**OperationSet**
 
 OperationSet je vzor jednotky práce, který lze použít, když musí být v rámci transakce zpracováno několik požadavků ovlivňujících plány.
 
-## <a name="project-schedule-apis"></a>Rozhraní API plánu projektu
+**Rozhraní API plánu projektu**
 
 Následuje seznam aktuálních rozhraní API plánu projektu.
 
-- **msdyn_CreateProjectV1** : Toto API lze použít k vytvoření projektu. Projekt a výchozí skupina projektů se vytvoří okamžitě.
-- **msdyn_CreateTeamMemberV1** : Toto API lze použít k vytvoření člena projektového týmu. Záznam člena týmu je vytvořen okamžitě.
-- **msdyn_CreateOperationSetV1** : Toto API lze použít k naplánování několika požadavků, které je třeba provést v rámci transakce.
-- **msdyn_PssCreateV1**: Toto API lze použít k vytvoření entity. Entitou může být jakákoli entita plánování projektu, která podporuje operaci vytvoření.
-- **msdyn_PssUpdateV1** : Toto API lze použít k aktualizaci entity. Entitou může být jakákoli entita plánování projektu, která podporuje operaci aktualizace.
-- **msdyn_PssDeleteV1** : Toto API lze použít k odstranění entity. Entitou může být jakákoli entita plánování projektu, která podporuje operaci odstranění.
-- **msdyn_ExecuteOperationSetV1** : Toto API se používá k provedení všech operací v rámci dané sady operací.
+| **API**                                 | Description                                                                                                                       |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateProjectV1**               | Toto rozhraní API slouží k vytvoření projektu. Projekt a výchozí skupina projektů se vytvoří okamžitě.                         |
+| **msdyn_CreateTeamMemberV1**            | Toto rozhraní API slouží k vytvoření člena projektového týmu. Záznam člena týmu je vytvořen okamžitě.                                  |
+| **msdyn_CreateOperationSetV1**          | Toto rozhraní API slouží k naplánování několika požadavků, které je třeba provést v rámci transakce.                                        |
+| **msdyn_PssCreateV1**                   | Toto rozhraní API slouží k vytvoření entity. Entitou může být jakákoli entita plánování projektu, která podporuje operaci vytvoření. |
+| **msdyn_PssUpdateV1**                   | Toto rozhraní API slouží k aktualizaci entity. Entitou může být jakákoli entita plánování projektu, která podporuje operaci aktualizace  |
+| **msdyn_PssDeleteV1**                   | Toto rozhraní API slouží k odstranění entity. Entitou může být jakákoli entita plánování projektu, která podporuje operaci odstranění. |
+| **msdyn_ExecuteOperationSetV1**         | Toto rozhraní API slouží k provedení všech operací v rámci dané sady operací.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Toto rozhraní API slouží k aktualizaci průběhové křivky plánované práce v rámci přiřazení zdrojů.                                                        |
 
-## <a name="using-project-schedule-apis-with-operationset"></a>Používání API plánu projektu s OperationSet
+
+
+**Používání API plánu projektu s OperationSet**
 
 Protože záznamy s oběma rozhraními **CreateProjectV1** a **CreateTeamMemberV1** jsou vytvořeny okamžitě, nelze tato API použít v sadě **OperationSet** přímo. Můžete však použít API k vytvoření potřebných záznamů, vytvořit sadu **OperationSet** a poté použít tyto předem vytvořené záznamy v sadě **OperationSet**.
 
-## <a name="supported-operations"></a>Podporované operace
+**Podporované operace**
 
-| Entita plánování | Vytvoření | Aktualizovat | Odstranění | Důležitá poznámka |
-| --- | --- | --- | --- | --- |
-Projektový úkol | Ano | Ano | Ano | Pole **Pokrok**, **EffortCompleted** a **EffortRemaining** lze upravovat v Project for the Web, ale nelze je upravovat v Project Operations.  |
-| Závislost projektového úkolu | Ano |  | Ano | Záznamy závislostí projektových úkolů se neaktualizují. Místo toho lze starý záznam odstranit a vytvořit nový záznam. |
-| Přiřazení zdroje | Ano | Ano | | Operace s následujícími poli nejsou podporovány: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** a **PlannedWork**. Záznamy přiřazení zdrojů se neaktualizují. Místo toho lze starý záznam odstranit a vytvořit nový záznam. |
-| Kbelík projektu | Ano | Ano | Ano | Výchozí segment je vytvořen pomocí API **CreateProjectV1**. V aktualizaci 16 byla přidána podpora pro vytváření a odstraňování skupin projektů. |
-| Člen projektového týmu | Ano | Ano | Ano | Pro operaci vytvoření použijte API **CreateTeamMemberV1**. |
-| Project | Ano | Ano |  | Operace s následujícími poli nejsou podporovány: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** a **Duration**. |
+| **Entita plánování**   | **Vytvoření** | **Update** | **Odstranění** | **Důležitá poznámka**                                                                                                                                                                                                                                                                                                                            |
+|-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Projektový úkol            | Ano        | Ano        | Ano        | Pole **Pokrok**, **EffortCompleted** a **EffortRemaining** lze upravovat v Project for the Web, ale nelze je upravovat v Project Operations.                                                                                                                                                                                             |
+| Závislost projektového úkolu | Ano        | No         | Ano        | Záznamy závislostí projektových úkolů se neaktualizují. Místo toho lze starý záznam odstranit a vytvořit nový záznam.                                                                                                                                                                                                                                 |
+| Přiřazení zdroje     | Ano        | Ano\*      | Ano        | Operace s následujícími poli nejsou podporovány: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** a **PlannedWork**. Záznamy přiřazení zdrojů se neaktualizují. Místo toho lze starý záznam odstranit a vytvořit nový záznam. Pro aktualizaci průběhové křivky přiřazení zdrojů slouží samostatné rozhraní API. |
+| Kbelík projektu          | Ano        | Ano        | Ano        | Výchozí segment je vytvořen pomocí API **CreateProjectV1**. V aktualizaci 16 byla přidána podpora pro vytváření a odstraňování skupin projektů.                                                                                                                                                                                                   |
+| Člen projektového týmu     | Ano        | Ano        | Ano        | Pro operaci vytvoření použijte API **CreateTeamMemberV1**.                                                                                                                                                                                                                                                                                           |
+| Project                 | Ano        | Ano        |            | Operace s následujícími poli nejsou podporovány: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** a **Duration**.                                                                                       |
+| Kontrolní seznamy projektu      | Ano        | Ano        | Ano        |                                                                                                                                                                                                                                                                                                                                                         |
+| Popisek projektu           | No         | Ano        | No         | Názvy popisků lze změnit. Tato funkce je k dispozici pouze pro Project for the Web                                                                                                                                                                                                                                                                      |
+| Projektový úkol k popisku   | Ano        | No         | Ano        | Tato funkce je k dispozici pouze pro Project for the Web                                                                                                                                                                                                                                                                                                  |
+| Sprint projektu          | Ano        | Ano        | Ano        | Pole **Zahájení** musí mít dřívější datum než pole **Dokončení**. Sprinty pro stejný projekt se nemohou navzájem překrývat. Tato funkce je k dispozici pouze pro Project for the Web                                                                                                                                                                    |
 
-Tato rozhraní API lze volat s objekty entit, které obsahují vlastní pole.
+
+
 
 Vlastnost ID je volitelná. Pokud je k dispozici, systém se pokusí ji použít a vyvolá výjimku, pokud ji nelze použít. Pokud není k dispozici, systém jej vygeneruje.
 
-## <a name="restricted-fields"></a>Omezená pole
+**Omezení a známé problémy**
 
-Následující tabulky definují pole, která mají omezené funkce **Vytvořit** a **Upravit**.
-
-### <a name="project-task"></a>Projektový úkol
-
-| Logický název                           | Je možné vytvořit     | Může upravit         |
-|----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | No             | No               |
-| msdyn_actualcost_base                  | No             | No               |
-| msdyn_actualend                        | No             | No               |
-| msdyn_actualsales                      | No             | No               |
-| msdyn_actualsales_base                 | No             | No               |
-| msdyn_actualstart                      | No             | No               |
-| msdyn_costatcompleteestimate           | No             | No               |
-| msdyn_costatcompleteestimate_base      | No             | No               |
-| msdyn_costconsumptionpercentage        | No             | No               |
-| msdyn_effortcompleted                  | Ne (ano pro projekt)             | Ne (ano pro projekt)               |
-| msdyn_effortremaining                  | Ne (ano pro projekt)              | Ne (ano pro projekt)                |
-| msdyn_effortestimateatcomplete         | No             | No               |
-| msdyn_iscritical                       | No             | No               |
-| msdyn_iscriticalname                   | No             | No               |
-| msdyn_ismanual                         | No             | No               |
-| msdyn_ismanualname                     | No             | No               |
-| msdyn_ismilestone                      | No             | No               |
-| msdyn_ismilestonename                  | No             | No               |
-| msdyn_LinkStatus                       | No             | No               |
-| msdyn_linkstatusname                   | No             | No               |
-| msdyn_msprojectclientid                | No             | No               |
-| msdyn_plannedcost                      | No             | No               |
-| msdyn_plannedcost_base                 | No             | No               |
-| msdyn_plannedsales                     | No             | No               |
-| msdyn_plannedsales_base                | No             | No               |
-| msdyn_pluginprocessingdata             | No             | No               |
-| msdyn_progress                         | Ne (ano pro projekt)             | Ne (ano pro projekt) |
-| msdyn_remainingcost                    | No             | No               |
-| msdyn_remainingcost_base               | No             | No               |
-| msdyn_remainingsales                   | No             | No               |
-| msdyn_remainingsales_base              | No             | No               |
-| msdyn_requestedhours                   | No             | No               |
-| msdyn_resourcecategory                 | No             | No               |
-| msdyn_resourcecategoryname             | No             | No               |
-| msdyn_resourceorganizationalunitid     | No             | No               |
-| msdyn_resourceorganizationalunitidname | No             | No               |
-| msdyn_salesconsumptionpercentage       | No             | No               |
-| msdyn_salesestimateatcomplete          | No             | No               |
-| msdyn_salesestimateatcomplete_base     | No             | No               |
-| msdyn_salesvariance                    | No             | No               |
-| msdyn_salesvariance_base               | No             | No               |
-| msdyn_scheduleddurationminutes         | No             | No               |
-| msdyn_scheduledend                     | No             | No               |
-| msdyn_scheduledstart                   | No             | No               |
-| msdyn_schedulevariance                 | No             | No               |
-| msdyn_skipupdateestimateline           | No             | No               |
-| msdyn_skipupdateestimatelinename       | No             | No               |
-| msdyn_summary                          | No             | No               |
-| msdyn_varianceofcost                   | No             | No               |
-| msdyn_varianceofcost_base              | No             | No               |
-
-### <a name="project-task-dependency"></a>Závislost projektového úkolu
-
-| Logický název                  | Je možné vytvořit     | Může upravit     |
-|-------------------------------|----------------|--------------|
-| msdyn_linktype                | No             | No           |
-| msdyn_linktypename            | No             | No           |
-| msdyn_predecessortask         | Ano            | No           |
-| msdyn_predecessortaskname     | Ano            | No           |
-| msdyn_project                 | Ano            | No           |
-| msdyn_projectname             | Ano            | No           |
-| msdyn_projecttaskdependencyid | Ano            | No           |
-| msdyn_successortask           | Ano            | No           |
-| msdyn_successortaskname       | Ano            | No           |
-
-### <a name="resource-assignment"></a>Přiřazení zdroje
-
-| Logický název                 | Je možné vytvořit     | Může upravit     |
-|------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | Ano            | No           |
-| msdyn_bookableresourceidname | Ano            | No           |
-| msdyn_bookingstatusid        | No             | No           |
-| msdyn_bookingstatusidname    | No             | No           |
-| msdyn_committype             | No             | No           |
-| msdyn_committypename         | No             | No           |
-| msdyn_effort                 | No             | No           |
-| msdyn_effortcompleted        | No             | No           |
-| msdyn_effortremaining        | No             | No           |
-| msdyn_finish                 | No             | No           |
-| msdyn_plannedcost            | No             | No           |
-| msdyn_plannedcost_base       | No             | No           |
-| msdyn_plannedcostcontour     | No             | No           |
-| msdyn_plannedsales           | No             | No           |
-| msdyn_plannedsales_base      | No             | No           |
-| msdyn_plannedsalescontour    | No             | No           |
-| msdyn_plannedwork            | No             | No           |
-| msdyn_projectid              | Ano            | No           |
-| msdyn_projectidname          | No             | No           |
-| msdyn_projectteamid          | No             | No           |
-| msdyn_projectteamidname      | No             | No           |
-| msdyn_start                  | No             | No           |
-| msdyn_taskid                 | No             | No           |
-| msdyn_taskidname             | No             | No           |
-| msdyn_userresourceid         | No             | No           |
-
-### <a name="project-team-member"></a>Člen projektového týmu
-
-| Logický název                                     | Je možné vytvořit     | Může upravit     |
-|--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | No             | No           |
-| msdyn_creategenericteammemberwithrequirementname | No             | No           |
-| msdyn_deletestatus                               | No             | No           |
-| msdyn_deletestatusname                           | No             | No           |
-| msdyn_effort                                     | No             | No           |
-| msdyn_effortcompleted                            | No             | No           |
-| msdyn_effortremaining                            | No             | No           |
-| msdyn_finish                                     | No             | No           |
-| msdyn_hardbookedhours                            | No             | No           |
-| msdyn_hours                                      | No             | No           |
-| msdyn_markedfordeletiontimer                     | No             | No           |
-| msdyn_markedfordeletiontimestamp                 | No             | No           |
-| msdyn_msprojectclientid                          | No             | No           |
-| msdyn_percentage                                 | No             | No           |
-| msdyn_requiredhours                              | No             | No           |
-| msdyn_softbookedhours                            | No             | No           |
-| msdyn_start                                      | No             | No           |
-
-### <a name="project"></a>Project
-
-| Logický název                           | Je možné vytvořit     | Může upravit     |
-|----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | No             | No           |
-| msdyn_actualexpensecost_base           | No             | No           |
-| msdyn_actuallaborcost                  | No             | No           |
-| msdyn_actuallaborcost_base             | No             | No           |
-| msdyn_actualsales                      | No             | No           |
-| msdyn_actualsales_base                 | No             | No           |
-| msdyn_contractlineproject              | Ano            | No           |
-| msdyn_contractorganizationalunitid     | Ano            | No           |
-| msdyn_contractorganizationalunitidname | Ano            | No           |
-| msdyn_costconsumption                  | No             | No           |
-| msdyn_costestimateatcomplete           | No             | No           |
-| msdyn_costestimateatcomplete_base      | No             | No           |
-| msdyn_costvariance                     | No             | No           |
-| msdyn_costvariance_base                | No             | No           |
-| msdyn_duration                         | No             | No           |
-| msdyn_effort                           | No             | No           |
-| msdyn_effortcompleted                  | No             | No           |
-| msdyn_effortestimateatcompleteeac      | No             | No           |
-| msdyn_effortremaining                  | No             | No           |
-| msdyn_finish                           | Ano            | Ano          |
-| msdyn_globalrevisiontoken              | No             | No           |
-| msdyn_islinkedtomsprojectclient        | No             | No           |
-| msdyn_islinkedtomsprojectclientname    | No             | No           |
-| msdyn_linkeddocumenturl                | No             | No           |
-| msdyn_msprojectdocument                | No             | No           |
-| msdyn_msprojectdocumentname            | No             | No           |
-| msdyn_plannedexpensecost               | No             | No           |
-| msdyn_plannedexpensecost_base          | No             | No           |
-| msdyn_plannedlaborcost                 | No             | No           |
-| msdyn_plannedlaborcost_base            | No             | No           |
-| msdyn_plannedsales                     | No             | No           |
-| msdyn_plannedsales_base                | No             | No           |
-| msdyn_progress                         | No             | No           |
-| msdyn_remainingcost                    | No             | No           |
-| msdyn_remainingcost_base               | No             | No           |
-| msdyn_remainingsales                   | No             | No           |
-| msdyn_remainingsales_base              | No             | No           |
-| msdyn_replaylogheader                  | No             | No           |
-| msdyn_salesconsumption                 | No             | No           |
-| msdyn_salesestimateatcompleteeac       | No             | No           |
-| msdyn_salesestimateatcompleteeac_base  | No             | No           |
-| msdyn_salesvariance                    | No             | No           |
-| msdyn_salesvariance_base               | No             | No           |
-| msdyn_scheduleperformance              | No             | No           |
-| msdyn_scheduleperformancename          | No             | No           |
-| msdyn_schedulevariance                 | No             | No           |
-| msdyn_taskearlieststart                | No             | No           |
-| msdyn_teamsize                         | No             | No           |
-| msdyn_teamsize_date                    | No             | No           |
-| msdyn_teamsize_state                   | No             | No           |
-| msdyn_totalactualcost                  | No             | No           |
-| msdyn_totalactualcost_base             | No             | No           |
-| msdyn_totalplannedcost                 | No             | No           |
-| msdyn_totalplannedcost_base            | No             | No           |
-
-### <a name="project-bucket"></a>Kbelík projektu
-
-| Logický název          | Je možné vytvořit      | Může upravit     |
-|-----------------------|-----------------|--------------|
-| msdyn_displayorder    | Ano             | No           |
-| msdyn_name            | Ano             | Ano          |
-| msdyn_project         | Ano             | No           |
-| msdyn_projectbucketid | Ano             | No           |
-
-## <a name="limitations-and-known-issues"></a>Omezení a známé problémy
 Následuje seznam omezení a známých problémů:
 
-- Rozhraní API plánu projektu mohou používat pouze **Uživatelé s licencí Microsoft Project**. Nemohou je používat:
+-   Rozhraní API plánu projektu mohou používat pouze **Uživatelé s licencí Microsoft Project**. Nemohou je používat:
+    -   Uživatelé aplikace
+    -   Systémoví uživatelé
+    -   Uživatelé integrace
+    -   Ostatní uživatelé, kteří nemají požadovanou licenci
+-   Každá sada **OperationSet** může mít maximálně 100 operací.
+-   Každý uživatel může mít maximálně 10 otevřených sad **OperationSet**.
+-   Project Operations v současné době podporuje maximálně 500 úkolů v jednom projektu.
+-   Každá operace Aktualizovat průběhovou křivku přiřazení zdrojů se počítá jako jedna operace.
+-   Každý seznam aktualizovaných průběhových křivek může obsahovat maximálně 100 časových řezů.
+-   Stav selhání a protokoly selhání nejsou u sad **OperationSet** aktuálně k dispozici.
+-   Na jeden projekt lze použít maximálně 400 sprintů.
+-   [Omezení a hranice projektů a úkolů](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   Popisky jsou momentálně k dispozici pouze pro Project for the Web.
 
-    - Uživatelé aplikace
-    - Systémoví uživatelé
-    - Uživatelé integrace
-    - Ostatní uživatelé, kteří nemají požadovanou licenci
+**Zpracování chyb**
 
-- Každá sada **OperationSet** může mít maximálně 100 operací.
-- Každý uživatel může mít maximálně 10 otevřených sad **OperationSet**.
-- Project Operations v současné době podporuje maximálně 500 úkolů v jednom projektu.
-- Stav selhání a protokoly selhání nejsou u sad **OperationSet** aktuálně k dispozici.
-- [Meze a hranice projektů a úkolů](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   Chcete-li zkontrolovat chyby generované ze sad operací, přejděte na **Nastavení** \> **Naplánovat integraci** \> **Sady operací**.
+-   Chcete-li zkontrolovat chyby generované službou plánování projektu, přejděte na **Nastavení** \> **Integrace plánu** \> **Protokoly chyb PSS**.
 
-## <a name="error-handling"></a>Zpracování chyb
+**Úprava průběhových křivek přiřazení zdrojů**
 
-- Chcete-li zkontrolovat chyby generované ze sad operací, přejděte na **Nastavení** \> **Naplánovat integraci** \> **Sady operací**.
-- Chcete-li zkontrolovat chyby generované službou plánování projektu, přejděte na **Nastavení** \> **Integrace plánu** \> **Protokoly chyb PSS**.
+Na rozdíl od všech ostatních rozhraní API, která aktualizují entity, je rozhraní API průběhové křivky přiřazení zdrojů zodpovědné výhradně za aktualizace jediného pole msdyn_plannedwork v jedné entitě msydn_resourceassignment.
 
-## <a name="sample-scenario"></a>Ukázkový scénář
+Daný režim plánu je:
+
+-   **pevné jednotky**
+-   kalendář projektu je 9–17 hod je 9–17 hod PST, pondělí, út, čtvrtek, pátek (ŽÁDNÉ PRACOVNÍ STŘEDY)
+-   a kalendář zdrojů je 9–13 hod PST od pondělí do pátku
+
+Toto přiřazení platí na jeden týden, čtyři hodiny denně. Důvodem je, že kalendář zdrojů je od 9–13 hod PST nebo čtyři hodiny denně.
+
+| &nbsp;     | Úloha | Počáteční datum | Datum ukončení  | Množství | 13. 6. 2022 | 14. 6. 2022 | 15. 6. 2022 | 16. 6. 2022 | 17. 6. 2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9–13 pracovník |  T1  | 13. 6. 2022  | 17. 6. 2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+
+Pokud například chcete, aby pracovník tento týden pracoval pouze tři hodiny denně a jednu hodinu si ponechal na jiné úkoly.
+
+#### <a name="updatedcontours-sample-payload"></a>Ukázková datová část pro UpdatedContours:
+
+```json
+[{
+
+"minutes":900.0,
+
+"start":"2022-06-13T00:00:00-07:00",
+
+"end":"2022-06-18T00:00:00-07:00"
+
+}]
+```
+
+Toto je přiřazení po spuštění rozhraní API Aktualizovat plán průběhové křivky.
+
+| &nbsp;     | Úloha | Počáteční datum | Datum ukončení  | Množství | 13. 6. 2022 | 14. 6. 2022 | 15. 6. 2022 | 16. 6. 2022 | 17. 6. 2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9–13 pracovník | T1   | 13. 6. 2022  | 17. 6. 2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+
+
+**Ukázkový scénář**
 
 V tomto scénáři vytvoříte projekt, člena týmu, čtyři úkoly a dvě přiřazení prostředků. Dále aktualizujete jeden úkol, aktualizujete projekt, odstraníte jeden úkol, odstraníte jedno přiřazení prostředku a vytvoříte závislost úkolu.
 
@@ -333,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-## <a name="additional-samples"></a>Další ukázky
+** Další ukázky
 
 ```csharp
 #region Call actions --- Sample code ----

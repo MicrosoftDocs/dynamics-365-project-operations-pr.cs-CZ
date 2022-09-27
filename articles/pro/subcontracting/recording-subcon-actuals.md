@@ -2,20 +2,20 @@
 title: Evidence času, výdajů a spotřeby materiálu pro součásti subdodávky
 description: Tento článek vysvětluje, jak společnost Microsoft sleduje čas, výdaje a využití materiálu zaznamenané u projektů ze součástí subdodávky v Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 89fbbfcd1535660e92d0cc80beb91029331e990f
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: b82c14412cfb0405040902a2329c3b6692422d89
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261128"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522505"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Evidence času, výdajů a spotřeby materiálu u projektů u součástí subdodávky
 
-_**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
+_**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
 Tento článek vysvětluje, jak společnost Microsoft sleduje čas, výdaje a využití materiálu zaznamenané u projektů ze součástí subdodávky v Microsoft Dynamics 365 Project Operations.
 

@@ -2,20 +2,20 @@
 title: Řádky subdodávky pro produkty
 description: Tento článek vysvětluje, jak zaznamenat řádky subdodávky pro produkty a jak používat různá pole k zaznamenání nákupů produktů od dodavatelů.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262097"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522834"
 ---
 # <a name="subcontract-lines-for-products"></a>Řádky subdodávky pro produkty
 
-_**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
+_**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
 Subdodavatel v Dynamics 365 Project Operations může mít řádek subdodávky pro produkty. Tyto řádky umožňují manažerovi projektu nakupovat produkty od dodavatelů, které mohou použít při plnění úkolů projektu.
 

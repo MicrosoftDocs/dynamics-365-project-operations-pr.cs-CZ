@@ -2,16 +2,16 @@
 title: Deník integrace v Project Operations
 description: Tento článek poskytuje informace o práci s deníkem integrace v Project Operations.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106267"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541069"
 ---
 # <a name="integration-journal-in-project-operations"></a>Deník integrace v Project Operations
 
@@ -65,6 +65,12 @@ Vybraný deník integrace Project Operations lze zaúčtovat pomocí **Zaúčtov
 > [!NOTE]
 > Chcete-li použít tuto funkci, povolte funkci **Přeneste všechny řádky s chybami zaúčtování do nového deníku integrace Project Operations** v pracovním prostoru **Správa funkcí**.
 
-Během zaúčtování do deníku integrace Project Operations systém ověří každý řádek v deníku. Systém zaúčtuje všechny řádky, které nemají žádné chyby, a vytvoří nový deník pro všechny řádky, které mají chyby zaúčtování. Chcete-li zkontrolovat deníky, které obsahují řádky s chybami zaúčtování, přejděte na **Projektové řízení a účetnictví** > **Deníky** > **Deník integrace Project Operations** a filtrujte deníky pomocí pole **Původní deník**.
+Tato funkce pomáhá zlepšit práci s deníkem integrace Project Operations. Když je povolena, zaúčtování platných deníků již nebrání problémy s časováním duálního zápisu a problémy s nastavením. Během zaúčtování do deníku integrace Project Operations systém ověří každý řádek v deníku. Dojde k zaúčtování všech řádků, které nemají žádné chyby, a vytvoří se nový deník pro všechny řádky, které mají chyby zaúčtování.
+
+Chcete-li zkontrolovat deníky, které obsahují řádky s chybami zaúčtování, přejděte na **Řízení projektů a účetnictví** \> **Deníky** \> **Deník integrace Project Operations** a filtrujte seznam deníků podle pole **Původní deník**. Následující obrázek ukazuje příklad, kde jsou deníky na stránce **Deník integrace Project Operations** tímto způsobem filtrovány.
+
+![Původní deník zobrazený na stránce Deník integrace Project Operations.](./media/transferLines-originalJournal.png)
+
+Pokud je periodická dávková úloha nakonfigurována tak, aby zaúčtovala deník integrace, pokus o zaúčtování bude opakován a deníky budou zaúčtovány, pokud byl problém s načasováním vyřešen. Všechny zbývající deníky by měly být ručně prozkoumány kontrolou protokolů a poté by měla být provedena potřebná akce.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,20 +2,20 @@
 title: Milníky řádku subdodávky
 description: Tento článek vysvětluje, jak vytvořit a udržovat plán faktur založený na milnících pro subdodávku s dodavatelem.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261785"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522411"
 ---
 # <a name="subcontract-line-milestones"></a>Milníky řádku subdodávky
 
-_**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
+_**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
 V Dynamics 365 Project Operations řádek subdodávky s metodou fakturace s pevnou cenou může určit plán fakturace založený na milníku dodavatele.
 

@@ -2,20 +2,20 @@
 title: Řádky subdodávky pro čas
 description: Tento článek vysvětluje, jak zaznamenat řádky subdodávek pro čas a zaznamenat nákup času od dodavatelů.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e9619dc713fde3127f552234e4a7427d99be683
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 3ba013dd7ad023acc4f0cf077099c8c2c8d5bcd8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261974"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522224"
 ---
 # <a name="subcontract-lines-for-time"></a>Řádky subdodávky pro čas
 
-_**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
+_**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
 Subdodavatel v Dynamics 365 Project Operations může mít řádek subdodávky pro čas. Řádky subdodávek pro čas umožňují manažerovi projektu nakoupit čas zdroje dodavatele na plnění úkolů projektu a požadavků na zdroje.
 

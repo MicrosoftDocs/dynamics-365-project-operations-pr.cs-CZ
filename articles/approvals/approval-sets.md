@@ -6,12 +6,12 @@ ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918074"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524908"
 ---
 # <a name="approval-sets"></a>Sady schválení
 
@@ -45,14 +45,9 @@ Výběr možnosti **Opakovat** zvýší celkový počet sady schválení, přesu
 ## <a name="configure-approval-sets"></a>Konfigurace sad schválení
 
 ### <a name="enable-the-approval-sets-feature"></a>Aktivace funkce sad schválení
-Než aktivujete funkci sad schválení, ověřte, zda v současné době nejsou zpracovávána žádná schválení.
+Než aktivujete funkci sad schválení, ověřte, zda v současné době nejsou zpracovávána žádná schválení. Po povolení této funkce ji nelze zakázat.
 
 - Přejděte na stránku **Parametry projektu** stránku a vyberte **Ovládání funkcí** > **Aktivovat moderní schválení**.
-
-### <a name="turn-off-the-approval-sets-feature"></a>Vypnutí funkce sad schválení
-Než vypnete funkci sad schválení, ověřte, zda v současné době nejsou zpracovávána žádná schválení.
-
-- Přejděte na stránku **Parametry projektu** stránku a vyberte **Ovládání funkcí** > **Deaktivovat moderní schválení**.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>Konfigurace asynchronního prahu 
 Když jsou vytvořeny sady schválení, zpracování se přesune na pozadí, když vybraný počet záznamů ke schválení překročí uvedenou prahovou hodnotu. Použijte pole **Asynchronní prahová hodnota** pro konfiguraci, kdy má být zpracování schválení spuštěno synchronně nebo asynchronně. Vyberte jednu z následujících hodnot:

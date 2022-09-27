@@ -1,8 +1,8 @@
 ---
 title: Zaúčtování sestav výdajů
 description: Tento článek vysvětluje, jak zaúčtovat sestavy výdajů.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934496"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524861"
 ---
 # <a name="post-expense-reports"></a>Zaúčtování sestav výdajů
 
@@ -30,5 +30,15 @@ Chcete-li zaúčtovat sestavu výdajů, vyberte na stránce **Schválené sestav
 
 Je také možné zaúčtovat všechny sestavy výdajů v seznamu současně. Vyberte všechny sestavy výdajů a poté vyberte příkaz **Zaúčtovat**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Povolení funkce Schopnost účtovat výdajový závazek v měně dodavatele pro způsob platby v hotovosti
+
+Funkce **Schopnost účtovat výdajový závazek v měně dodavatele pro způsob platby v hotovosti** umožňuje povolit zaúčtování výkazů výdajů v měně dodavatele pro způsob platby v hotovosti.
+
+V současné době, když odesíláte výdaje v hotovosti, výkazy výdajů jsou účtovány v zúčtovací měně. Kvůli převodu částky mezi měnou transakce, zúčtovací měnou a měnou dodavatele je dodavatelům vyplacena nesprávná částka, pokud datum transakce výdaje a datum skutečné platby mají různé směnné kurzy.
+
+Tato funkce zajistí, že zůstatek dodavatele bude zaznamenán v měně dodavatele při zaúčtování výkazu výdajů.
+
+1. Přejděte na **Pracovní prostory** \> **Správa funkcí**.
+2. V seznamu vyhledejte a vyberte funkci **Schopnost účtovat výdajový závazek v měně dodavatele pro způsob platby v hotovosti** a poté vyberte **Povolit**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
