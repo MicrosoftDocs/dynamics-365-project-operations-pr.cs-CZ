@@ -6,12 +6,12 @@ ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
-ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
+ms.openlocfilehash: b86b9ecdc63989189c76dd8380024aa44c7641a5
+ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112421"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621073"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Verze mapování duálního zápisu Project Operations
 
@@ -48,14 +48,14 @@ Následující mapy jsou požadované pro řešení Project Operations. Verze ma
 | Zdroj financování projektu (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Není nutné pro zřizování. ||
 | Tabulka integrace projektu pro odhady materiálu (msdyn\_estimatelines) | 1.0.0.0 | Není nutné pro zřizování. ||
 | Návrhy faktury projektu V2 (faktury) | 1.0.0.3 | Není nutné pro zřizování. ||
-| Skutečné hodnoty integrace Project Operations (msdyn_actuals) | 1.0.0.14 | Není nutné pro zřizování. ||
+| Skutečné hodnoty integrace Project Operations (msdyn_actuals) | 1.0.0.15 | Není nutné pro zřizování. |10.0.29 nebo novější|
 | Milníky řádku smlouvy integrace Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Není nutné pro zřizování. ||
 | Entita integrace Project Operations pro odhady nákladů (msdyn_estimatelines) | 1.0.0.2 | Není nutné pro zřizování. ||
 | Entita integrace Project Operations pro odhady hodin (msdyn_resourceassignments) | 1.0.0.5 | Není nutné pro zřizování. ||
 | Entita exportu kategorie výdajů projektu integrace Project Operations (msdyn_expensecategories) | 1.0.0.1 | Není nutné pro zřizování. ||
 | Entita exportu výdajů projektu integrace Project Operations (msdyn_expenses) | 1.0.0.3 | Není nutné pro zřizování. ||
-| Entita exportu faktury dodavatele projektu integrace Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | Není nutné pro zřizování. |10.0.26 nebo vyšší|
-| Entita exportu řádku faktury dodavatele projektu integrace Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Není nutné pro zřizování. | 10.0.26 nebo vyšší |
+| Entita exportu faktury dodavatele projektu integrace Project Operations (msdyn_projectvendorinvoices) | 1.0.0.2 | Není nutné pro zřizování. |10.0.29 nebo novější|
+| Entita exportu řádku faktury dodavatele projektu integrace Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.5 | Není nutné pro zřizování. | 10.0.29 nebo novější |
 | Role zdrojů projektu pro všechny společnosti (bookableresourcecategories) | 1.0.0.1 | Vyžaduje počáteční synchronizaci pro mapu tabulky k synchronizaci rolí prostředků Projektový manažer a Člen týmu, které jsou naplněny v prostředí Dynamics 365 Dataverse během zřizování. Dataverse je hlavním zdrojem pro počáteční synchronizaci. ||
 | Projektové úkoly (msdyn_projecttasks) | 1.0.0.4 | Není nutné pro zřizování. ||
 | Kategorie transakcí projektu (msdyn_transactioncategories) | 1.0.0.0 | Není nutné pro zřizování. ||

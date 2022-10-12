@@ -62,13 +62,15 @@
           href: environment/uninstall-project-operations.md
     - name: Co je nového
       items:
-        - name: "Srpen 2022\_– Project Operations pro\_scénáře založené na\_zdrojích nebo\_položkách, které nejsou na\_skladě"
-          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: 'Září 2022 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
+          href: whats-new/whats-new-sept-2022-resource-based.md
         - name: Archiv
           items:
-            - name: "Červenec 2022\_–\_Project Operations pro\_scénáře založené na\_zdrojích nebo\_položkách, které nejsou na\_skladě"
+            - name: "Srpen 2022\_– Project Operations pro\_scénáře založené na\_zdrojích / položkách, které nejsou na\_skladě"
+              href: whats-new/whats-new-aug-2022-resource-based.md
+            - name: "Červenec 2022\_–\_Project Operations pro\_scénáře založené na\_zdrojích / položkách, které nejsou na\_skladě"
               href: whats-new/whats-new-july-2022-resource-based.md
-            - name: "Červen 2022\_–\_Project Operations pro\_scénáře založené na\_zdrojích nebo položkách, které nejsou na\_skladě"
+            - name: "Červen 2022\_–\_Project Operations pro\_scénáře založené na\_zdrojích / položkách, které nejsou na\_skladě"
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: 'Květen 2022 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě'
               href: whats-new/whats-new-may-2022-resource-based.md
@@ -668,10 +670,12 @@
           href: environment/security-model.md
     - name: Co je nového
       items:
-        - name: "Co je nového, srpen 2022\_–\_omezené nasazení"
-          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: 'Co je nového, září 2022 – omezené nasazení'
+          href: pro/whats-new/whats-new-sept-2022-lite.md
         - name: Archiv
           items:
+            - name: "Co je nového, srpen 2022\_–\_omezené nasazení"
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: "Co je nového, červenec 2022\_–\_omezené nasazení"
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: "Co je nového, červen 2022\_–\_omezené nasazení"
@@ -1180,10 +1184,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Co je nového
       items:
-        - name: 'Co je nového, červenec 2022 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: 'Co je nového, září 2022 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
         - name: Archiv
           items:
+            - name: 'Co je nového, červenec 2022 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: 'Co je nového, červen 2022 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: 'Co je nového, říjen 2021 - Project Operations pro scénáře založené na skladovém materiálu / výrobě'
@@ -1436,6 +1442,10 @@
       items:
         - name: Plán vydávání aktualizací pro Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 47, V3'
+          href: psa/whats-new-ur-47.md
+        - name: 'Co je nového nebo co se změnilo ve vydání Update 45, V3'
+          href: psa/whats-new-ur-45.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 44, V3'
           href: psa/whats-new-ur-44.md
         - name: 'Co je nového nebo co se změnilo ve vydání Update 43, V3'

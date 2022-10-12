@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 14fd22c7c863d650baebf1c7c2c96521d0bd207c
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: 359fcc2d31d4d90339870b93560685d77cb03fc8
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295823"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621933"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Plán vydávání aktualizací pro Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "9295823"
 
 | Řešení  | Nejnovější verze |
 |-------|----|
-| Project Service Automation    | 3.10.76.168 |
+| Project Service Automation    | 3.10.78.8 |
 | Desktopový doplněk Project Service Automation                | 3.60          |
 
 Vydání: Informace o dalších aktualizacích služby Project Service naleznete v části [Plány vydání Dynamics 365](/dynamics365/release-plans/). 
@@ -45,30 +45,30 @@ Vydání: Informace o dalších aktualizacích služby Project Service naleznete
 | Stanice  | Oblast | Aktuální verze | Další verze |  Plánované datum
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stanice 1</strong> | |  |  | |
-| | <i>První vydání</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 26. srpna 2022
+| | <i>První vydání</i> | [3.10.78.8](whats-new-ur-47.md)| TBD | 07. října 2022
 |<strong>Stanice 2</strong> | |  |  | |
-| | <i>Jižní Amerika</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. září 2022
-| | <i>Kanada</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. září 2022
-| | <i>Indie</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. září 2022
-| | <i>Francie</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. září 2022
-| | <i>Jižní Afrika</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. září 2022
-| | <i>Německo</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. září 2022
-| | <i>Švýcarsko</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. září 2022
-| | <i>Korea</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. září 2022
-| | <i>Norsko</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. září 2022
+| | <i>Jižní Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. října 2022
+| | <i>Kanada</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. října 2022
+| | <i>Indie</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. října 2022
+| | <i>Francie</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. října 2022
+| | <i>Jižní Afrika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. října 2022
+| | <i>Německo</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. října 2022
+| | <i>Švýcarsko</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. října 2022
+| | <i>Korea</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. října 2022
+| | <i>Norsko</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. října 2022
 |<strong>Stanice 3</strong> | |  |  | |
-| | <i>Japonsko</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. září 2022
-| | <i>Asie a Tichomoří</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. září 2022
-| | <i>Velká Británie</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. září 2022
-| | <i>Oceana</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. září 2022
-| | <i>Spojené arabské emiráty</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. září 2022
+| | <i>Japonsko</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. října 2022
+| | <i>Asie a Tichomoří</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. října 2022
+| | <i>Velká Británie</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. října 2022
+| | <i>Oceana</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. října 2022
+| | <i>Spojené arabské emiráty</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. října 2022
 |<strong>Stanice 4</strong> | |  |  | |
-| | <i>Evropě</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 16. září 2022
+| | <i>Evropě</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. října 2022
 |<strong>Stanice 5</strong> | |  |  | |
-| | <i>Severní Amerika</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 23. září 2022
+| | <i>Severní Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 4. listopadu 2022
 |<strong>Stanice 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 21. září 2022
-| | <i>Vyhrazené skupiny škálování</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 30. září 2022
+| | <i>Government Community Cloud</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 02. listopadu 2022
+| | <i>Vyhrazené skupiny škálování</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 11. listopadu 2022
 
 
 
