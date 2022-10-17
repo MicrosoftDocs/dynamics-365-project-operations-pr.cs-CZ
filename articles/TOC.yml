@@ -28,7 +28,7 @@
               href: environment/create-lcs-project.md
             - name: Přidání předplatného Azure do projektu LCS
               href: environment/resource-add-azure-subscription-lcs-project.md
-        - name: Použití ukázkových dat
+        - name: Použití vzorových dat
           items:
             - name: Použití konfiguračních dat v Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
@@ -664,7 +664,7 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: Nasazení Project Operations - omezené
           href: environment/lite-deployment.md
-        - name: "Použití ukázkového nastavení a\_data konfigurace\_–\_omezené"
+        - name: "Použití vzorového nastavení a\_data konfigurace\_–\_omezené"
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Model zabezpečení
           href: environment/security-model.md
@@ -1534,9 +1534,17 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Co je nového nebo co se změnilo v aplikaci Project Service Automation V3
           href: psa/whats-new-changed-v3.md
+    - name: Upgrade aplikace Project Service Automation (verze aplikace Project Operations Lite 4.x)
+      items:
+        - name: Upgrade z aplikace Project Service Automation na Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Změny funkcí z Project Service Automation na Project Operations
+          href: psa/psa-project-operations-changes.md
+        - name: Proces konverze plánování projektu Project Service Automation na Project Operations
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: Plánování implementace (verze aplikace 3.x)
       items:
-        - name: Instalace ukázkových dat
+        - name: Instalace vzorových dat
           href: psa/install-sample-data-3-x.md
         - name: Příručka pro plánování a sledování projektu
           href: psa/implementation-guides/project-planning-tracking.md
@@ -1754,7 +1762,7 @@
               href: psa/admin-guide.md
             - name: Instalace a vlastní nastavení
               href: psa/install-customize.md
-            - name: Použití ukázkových dat
+            - name: Použití vzorových dat
               href: psa/use-demo-data.md
             - name: Konfigurace aplikace Project Service
               items:
