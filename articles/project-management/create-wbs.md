@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932058"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655180"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Vytvoření strukturovaného rozpisu prací (WBS)
 
@@ -112,6 +112,18 @@ Pole **Kategorie** obsahuje hodnoty, které označují širší typ práce, do k
 Pomocí plánu můžete v Project Operations mezi úkoly vytvořit vztahy předchůdců. Pole **Předchůdce** v používá jednu nebo více hodnot, které označují úkoly, na kterých úkol závisí. Když k úkolu přiřadíte hodnoty předchůdců, lze úkol zahájit pouze v případě, že byly dokončeny všechny úkoly typu předchůdce. Vzhledem k závislosti je plánované datum zahájení úkolu znovu nastaveno na datum, kdy byly dokončeny předchozí úkoly.
 
 Režim úkolu nemá žádný vliv na aktualizace dat zahájení a ukončení předchozích/závislých úkolů.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Seznámení s dopady doby trvání, kalendářů zdrojů a projektových kalendářů na úkoly
+Doba trvání úkolu je definováno jako počet pracovních hodin mezi počátečním časem počátečního data a koncovým časem koncového data úkolu.   Project for the web definuje měrné jednotky doby trvání takto:
+
+| **Měrná jednotka doby trvání** | **Množství**|
+|----------------------------------------------------|----------------------|
+| Hodiny za den | 8 |
+| Hodiny za týden |  40 |
+| Dny za měsíc |  20 |
+
+Nepřiřazené úkoly se plánují pomocí kalendáře projektu. Po počátečním přiřazení zdrojů je však plánování úkolu aktualizováno tak, aby respektovalo kalendář zdroje. Následné změny úkolu, který je přiřazen, se budou řídit [režimem plánování](scheduling-modes.md) projektu. Chcete-li se dozvědět více o vlivu kalendářů na úkoly, viz [Kalendáře zdrojů v aplikaci Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) a [Počáteční časy úkol a vaše projekty!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Usnadnění a klávesové zkratky
 

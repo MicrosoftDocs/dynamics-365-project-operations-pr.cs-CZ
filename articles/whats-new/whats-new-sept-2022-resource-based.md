@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621219"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634797"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co je nového, září 2022 – Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě
 
@@ -35,6 +35,7 @@ Tento článek se vztahuje na následující součásti a verze aplikace Microso
 | Řízení výdajů | **Schopnost účtovat výdajový závazek v měně dodavatele**<br>Tato funkce umožňuje účtovat výdajové sestavy v měně dodavatele pro způsob platby v hotovosti. | [Schopnost účtovat výdajový závazek v měně dodavatele](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | Zadávání projektů | **Platby dodavatelů typu „Zaplatit po uhrazení platby“**<br>Tato funkce umožňuje použití funkce Platit po zaplacený (PWP) s neskladovými prostředími Project Operations. Umožňuje zablokovat/zadržet platby dodavatele na základě podmínek uchování, dokud platba nepřijde od zákazníka. | [Platby dodavatelů typu „Zaplatit po uhrazení platby“](/dynamics365/project-operations/procurement/pay-when-paid) |
 | Zadávání projektů | **Požadavky na nákup projektu**<br>Tato funkce umožňuje uživatelům vytvářet nákupní objednávky související s projektem v právnických osobách, kde je zapnutá integrace Project Operations na Dynamics 365 Customer Engagement. Nákupní zakázky projektu lze použít k evidenci nákupu neskladovaného materiálu oproti projektu osobou oddělení nákupu. Nákupní objednávky projektu nebudou synchronizovány s Dataverse. Můžete však použít virtuální entitu k zobrazení řádků nákupní objednávky projektu v Dataverse pro informace projektového manažera. Náklady na fakturu dodavatele související s projektem jsou integrovány s entitou Skutečné hodnoty projektu v Dataverse. Náklady projektu se zaznamenávají do poddeníku pomocí deníku integrace Project Operations. | |
+|Plánování a sledování projektu|**K provádění operací s entitami plánování použijte rozhraní API pro plánování projektu** </br> </br>Rozhraní API pro úpravu průběhových křivek přiřazení zdrojů umožňuje vývojářům programově specifikovat úsilí příjemce úkolu v libovolném podporovaném časovém období pro podrobnější časově rozložené plánování úsilí.|[K provádění operací s entitami plánování použijte rozhraní API pro plánování projektu](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Aktualizace map duálního zápisu Project Operations
 
