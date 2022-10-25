@@ -3,7 +3,7 @@ title: Upgrade z Project Service Automation na Project Operations
 description: Tento článek obsahuje přehled funkce procesu upgradu z Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/13/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
-ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
+ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
+ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9446027"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9686967"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Upgrade z Project Service Automation na Project Operations
 
-S potěšením oznamujeme první ze tří fází upgradu z Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Project Operations. Tento článek poskytuje přehled pro zákazníky, kteří se vydávají na tuto vzrušující cestu. Později zveřejněné články budou zahrnovat úvahy vývojářů a podrobnosti o vylepšeních funkcí. Poskytnou vám nejen pokyny, které vám pomohou připravit se k upgradu na Project Operations, ale také vysvětlí, co můžete po upgradu očekávat.
+S potěšením oznamujeme první ze dvou fází upgradu z Microsoft Dynamics 365 Project Service Automation na Microsoft Dynamics 365 Project Operations. Tento článek poskytuje přehled pro zákazníky, kteří se vydávají na tuto vzrušující cestu. 
 
 Program doručení upgradu bude rozdělen do tří fází.
 
@@ -33,11 +33,11 @@ Program doručení upgradu bude rozdělen do tří fází.
 |------------------|------------------------|---------------------------|---------------------------|
 | Žádná závislost na strukturovaném rozpisu prací (WBS) u projektů | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Strukturovaný rozpis prací v rámci aktuálně podporovaných limitů Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
-| Strukturovaný rozpis prací mimo aktuálně podporované limity Project Operations, včetně podpory pro aplikaci Project Desktop Client. | | | :heavy_check_mark: |
+| Strukturovaný rozpis prací mimo aktuálně podporované limity Project Operations, včetně podpory pro aplikaci Project Desktop Client | | | :heavy_check_mark: |
 
 ## <a name="upgrade-process-features"></a>Funkce procesu upgradu 
 
-V rámci procesu upgradu jsme do mapy webu přidali protokoly upgradu, aby administrátoři mohli snadněji diagnostikovat selhání. Kromě nového rozhraní budou přidána nová ověřovací pravidla, která zajistí integritu dat po upgradu. Do procesu upgradu budou přidána následující ověření.
+V rámci procesu upgradu jsme do mapy webu přidali protokoly upgradu, aby správci mohli snadněji diagnostikovat selhání. Kromě nového rozhraní budou přidána nová ověřovací pravidla, která zajistí integritu dat po upgradu. Do procesu upgradu budou přidána následující ověření.
 
 | Ověření | Fáze 1 (leden 2022) | Fáze 2 (listopad 2022) | Fáze 3  |
 |-------------|------------------------|---------------------------|---------------------------|
@@ -46,24 +46,31 @@ V rámci procesu upgradu jsme do mapy webu přidali protokoly upgradu, aby admin
 | Strukturovaný rozpis prací bude ověřen vůči známým limitům aplikace Project Desktop Client. | |  | :heavy_check_mark: |
 | Rezervovatelné zdroje a projektové kalendáře budou vyhodnoceny vůči běžným výjimkám nekompatibilních pravidel kalendáře. | | :heavy_check_mark: | :heavy_check_mark: |
 
-Ve fázi 2 budou zákazníkům, kteří upgradují na Project Operations, upgradovány jejich stávající projekty na prostředí pouze ke čtení pro plánování projektů. V tomto prostředí určeném pouze ke čtení bude v mřížce sledování viditelný úplný strukturovaný rozpis prací. Pokud budou projektoví manažeři chtít upravit strukturovaný rozpis prací, mohou vybrat příkaz **Převést** na hlavní stránce **Projekty**. Proces na pozadí pak aktualizuje projekt tak, aby podporoval nové prostředí plánování projektu z aplikace Project for the Web. Tato fáze je vhodná pro zákazníky, kteří mají projekty, které vyhovují [známým limitům aplikace Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+Ve fázi 2 budou zákazníkům, kteří upgradují na Project Operations, upgradovány jejich stávající projekty na prostředí pouze ke čtení pro plánování projektů. V tomto prostředí určeném pouze ke čtení bude v mřížce sledování viditelný úplný strukturovaný rozpis prací. Pokud budou projektoví manažeři chtít upravit strukturovaný rozpis prací, mohou vybrat příkaz [**Převést**](/PSA-Upgrade-Project-Conversion.md) na hlavní stránce projektu. Proces na pozadí pak aktualizuje projekt tak, aby podporoval nové prostředí plánování projektu z aplikace Project for the Web. Tato fáze je vhodná pro zákazníky, kteří mají projekty, které vyhovují [známým limitům aplikace Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
 Ve fázi 3 bude přidána podpora pro aplikaci Project Desktop Client ve prospěch zákazníků, kteří chtějí nadále upravovat své projekty z této aplikace. Pokud jsou však existující projekty převedeny do nového prostředí Project for the Web, přístup k doplňku bude pro každý převedený projekt zakázán.
 
 ## <a name="prerequisites"></a>Předpoklady
 
-Aby byl zákazník způsobilý pro upgrade fáze 1, musí splňovat následující kritéria:
+Abyste byli způsobilí pro upgrade fáze 1, musíte splňovat následující kritéria:
 
 - Cílové prostředí nesmí obsahovat žádné záznamy v entitě **msdyn_projecttask**.
-- Všem aktivním uživatelům zákazníka musejí být přiřazeny platné licence Project Operations. 
-- Zákazník musí ověřit proces upgradu alespoň v jednom neprodukčním prostředí obsahujícím reprezentativní datovou sadu, která je v souladu s produkčními daty.
-- Cílové prostředí musí být aktualizováno na verzi Project Service Automation Update Release 41 (3.10.62.162) nebo novější.
+- Všem aktivním uživatelům musejí být přiřazeny platné licence Project Operations. 
+- Musíte ověřit proces upgradu alespoň v jednom neprovozním prostředí obsahujícím reprezentativní datovou sadu, která je v souladu s provozním prostředím.
+- Cílové prostředí musí být aktualizováno na verzi Project Service Automation Update Release 37 (V3.10.58.120) nebo novější.
 
-Předpoklady pro fázi 2 a fázi 3 budou aktualizovány, jakmile se blíží obecná data dostupnosti.
+Abyste byli způsobilí pro upgrade fáze 2, musíte splňovat následující kritéria:
+
+- Všem aktivním uživatelům musejí být přiřazeny platné licence Project Operations. 
+- Musíte ověřit proces upgradu alespoň v jednom neprovozním prostředí obsahujícím reprezentativní datovou sadu, která je v souladu s provozním prostředím.
+- Cílové prostředí musí být aktualizováno na verzi Project Service Automation Update Release 37 (V3.10.58.120) nebo novější.
+- Prostředí obsahující úkoly (msdyn_projecttask) jsou podporována pouze v případě, že celkový počet úkolů na projekt je 500 nebo méně.
+
+Předpoklady pro fázi 3 budou aktualizovány, jakmile se blíží datum obecné dostupnosti.
 
 ## <a name="licensing"></a>Licencování
 
-Pokud máte aktivní licence Project Service Automation, můžete nainstalovat a používat aplikaci Project Operations, která zahrnuje všechny funkce Project Service Automation a další. Tímto způsobem můžete otestovat schopnosti Project Operations, zatímco budete pokračovat v produkčním používání Project Service Automation. Po vypršení platnosti licencí Project Service Automation budete muset přejít na Project Operations. Při plánování tohoto přechodu musíte počítat se skutečností, že licence Project Operations nezahrnuje licenci Project Service Automation.
+Pokud máte aktivní licence Project Service Automation, můžete nainstalovat a používat aplikaci Project Operations, která zahrnuje všechny funkce Project Service Automation a další. Tímto způsobem můžete otestovat schopnosti Project Operations v odděleném prostředí, zatímco budete pokračovat v provozním používání Project Service Automation. Po vypršení platnosti licencí Project Service Automation budete muset přejít na Project Operations. Při plánování tohoto přechodu musíte počítat se skutečností, že licence Project Operations nezahrnuje licenci Project Service Automation.
 
 ## <a name="testing-and-refactoring-customizations"></a>Testování a refaktorování přizpůsobení
 
@@ -87,14 +94,23 @@ Po aktualizaci vašich přizpůsobení tak, aby čistě importovaly údaje z Pro
 
     Po dokončení upgradu by mělo prostředí ukazovat, že je nainstalován Project Operations a že není nainstalován Project Service Automation.
 
-    > [!NOTE]
-    > V závislosti na množství dat v prostředí může upgrade trvat několik hodin. Základní tým, který spravuje upgrade, by ho měl podle toho plánovat a provádět mimo pracovní dobu. V některých případech, pokud je objem dat velký, by měl být upgrade spuštěn přes víkend. Rozhodnutí o plánování by mělo být založeno na výsledcích testování v nižších prostředích.
+    V závislosti na množství dat v prostředí může upgrade trvat několik hodin. Základní tým, který spravuje upgrade, by ho měl podle toho plánovat a provádět mimo pracovní dobu. V některých případech, pokud je objem dat velký, by měl být upgrade spuštěn přes víkend. Rozhodnutí o plánování by mělo být založeno na výsledcích testování v nižších prostředích.
 
 3. Podle potřeby upgradujte vlastní řešení. V tomto okamžiku nasaďte všechny změny, které jste provedli ve svých přizpůsobeních v sekci [Testování a refaktorování přizpůsobení](#testing-and-refactoring-customizations) tohoto článku.
 4. Přejděte do nabídky **Nastavení** \> **Řešení** a vyberte možnost odinstalovat řešení **Zastaralé součásti Project Operations**.
 
     Toto řešení je dočasné řešení, které uchovává stávající datový model a součásti, které jsou přítomny během upgradu. Odebráním tohoto řešení odeberete všechna pole a součásti, které se již nepoužívají. Tímto způsobem zjednodušíte rozhraní a usnadníte integraci a rozšíření.
     
+### <a name="upgrade-to-project-operations-lite"></a>Upgrade na Project Operations Lite
+
+Následující kroky popisují proces upgradu a související protokolování chyb:
+
+1. **Kontrola verze PSA:** Chcete-li nainstalovat Project Operations, musíte mít verzi V3.10.58.120 nebo vyšší.
+1. **Předběžné ověření:** Když správce zahájí upgrade, systém spustí operaci předběžného ověření u každé entity, která je jádrem řešení Project Operations. Tento krok ověří, že jsou všechny odkazy na entity platné, a zajistí, že data související s WBS jsou v rámci publikovaných omezení Project for the Web.
+1. **Upgrade metadat:** Po úspěšném předběžném ověření systém zahájí změny schématu a vytvoří řešení zastaralých komponent. Toto zastaralé řešení můžete odebrat poté, co dokončíte všechny požadované úpravy vlastních nastavení. Tento krok je nejdelší částí procesu upgradu a jeho dokončení může trvat až čtyři hodiny.
+1. **Upgrade dat:** Po dokončení všech požadovaných změn schématu v kroku upgradu metadat se vaše data migrují do nového schématu a provedou se všechna požadovaná výchozí nastavení a přepočet.
+1. **Aktualizace modulu harmonogramu projektu:** Po úspěšném upgradu dat se karta **Plán** na hlavní stránce přejmenuje na **Úkoly**. Když uživatel po upgradu vybere tuto kartu, bude přesměrován na sledovací mřížku, kde je zobrazena verze WBS pouze pro čtení. Chce-li upravit WBS, musí spustit plán [zpracování převodu](/PSA-Upgrade-Project-Conversion.md). Všechny projekty bez předem existujícího WBS mohou používat nové prostředí plánování přímo bez převodu.
+ 
 ### <a name="validate-common-scenarios"></a>Ověřte běžné scénáře
 
 Když ověřujete svá konkrétní přizpůsobení, doporučujeme vám také zkontrolovat obchodní procesy, které jsou podporovány napříč aplikacemi. Tyto obchodní procesy zahrnují, ale nejsou omezeny na vytváření prodejních subjektů, jako jsou nabídky a smlouvy, a vytváření projektů, které zahrnují WBS a schvalování skutečností.
@@ -107,7 +123,7 @@ Tato sekce obsahuje souhrn hlavních změn, které můžete očekávat při pře
 
 Možnosti plánování projektu v Project Operations se již nespoléhají na kombinaci logiky na straně klienta a logiky na straně serveru. Namísto toho používá Project Operations jako svůj primární plánovací modul aplikaci Project for the Web. Tato změna ve schopnostech plánování aktivuje několik nových funkcí, jako jsou plánovací vývěska a Ganttova zobrazení, plánování řízené zdroji, [položky kontrolního seznamu úkolu](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c) a režimy plánování projektů. Nové schopnosti plánování jsou také podporovány bohatou sadou nových [rozhraní pro programování aplikací (API)](../project-management/schedule-api-preview.md). Tato rozhraní API mají pomoci zajistit, aby žádná programová operace pro vytváření, aktualizaci nebo odstraňování entity ve WBS nepoškodila vypočítaná pole v plánu.
 
-## <a name="billing-and-pricing"></a>Fakturace a ceny
+### <a name="billing-and-pricing"></a>Fakturace a ceny
 
 V rámci pokračujících investic do Project Operations je k dispozici několik nových funkcí v oblasti fakturace a stanovení cen. Zde je uvedeno několik příkladů:
 
@@ -116,6 +132,10 @@ V rámci pokračujících investic do Project Operations je k dispozici několik
 - [Zálohy a smlouvy na základě záloh](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 - [Nepřekročitelné stavy smlouvy a ověření](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - Fakturace na základě úkolů
+
+### <a name="resource-management"></a>Řízení zdrojů
+
+Project Operations poskytuje volitelnou podporu plánovací vývěsky Universal Resource Scheduling (URS) a pomocníka plánování. Toto nové prostředí bude povinné ve vlně v dubnu 2023.
 
 ## <a name="frequently-asked-questions"></a>Nejčastější dotazy
 
@@ -136,5 +156,4 @@ Existují dvě možnosti instalace Project Operations před tím, než budou k d
 - Zřízení nového prostředí.
 - Nasaďte Project Operations samostatně v jakékoli prodejní organizaci, kde není k dispozici Project Service Automation.
 
-> [!NOTE]
-> Pokud je aplikace Project Service Automation nainstalována v organizaci, ale nebyla použita, lze ji odinstalovat. Po úplném odebrání Project Service Automation lze Project Operations nainstalovat do stejné organizace.
+Pokud je aplikace Project Service Automation nainstalována v organizaci, ale nebyla použita, lze ji odinstalovat. Po úplném odebrání Project Service Automation lze Project Operations nainstalovat do stejné organizace.
