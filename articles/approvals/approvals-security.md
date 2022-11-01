@@ -6,12 +6,12 @@ ms.date: 08/29/2022
 ms.topic: security
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bc33f63f66bdcf1470e5d9386cfc3661774436fd
-ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
+ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9525355"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709389"
 ---
 # <a name="security-and-approvals"></a>Zabezpečení a schválení
 
@@ -33,6 +33,6 @@ Chcete-li schvalovat neprojektové položky, musíte být manažerem zadavatele.
 > [!NOTE]
 > Funkce [Schvalovací sady](approval-sets.md) musí být povolena před použitím funkce Schvalovatel projektu – správce.
 
-Role zabezpečení **Schvalovatel projektu – správce** umožňuje uživatelům obejít zásady a umožňuje schvalování položek ve všech projektech. Přiřazení této role vynechá logiku ověřování, která vyžaduje členství v týmu a označení jako schvalovatel. Musíte mít přístup k příslušným souvisejícím entitám, jako je například **Projekt**. Tento přístup může přidělit někdo, kdo má roli **Projektový manažer**.
+Role zabezpečení **Schvalovatel projektu – správce** umožňuje uživatelům obejít zásady a umožňuje schvalování položek ve všech projektech. Přiřazení této role vynechá logiku ověřování, která vyžaduje členství v týmu a označení jako schvalovatel. Musíte mít přístup k příslušným souvisejícím tabulkám, například **Projekt**, prostřednictvím rolí zabezpečení, které vám byly přiděleny.
 
 Uživatelský kontext SYSTEM vynechá ověřování stejným způsobem jako role zabezpečení Schvalovatel projektu – správce.

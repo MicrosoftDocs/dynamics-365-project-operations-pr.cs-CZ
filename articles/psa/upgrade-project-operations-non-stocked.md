@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686967"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709436"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Upgrade z Project Service Automation na Project Operations
 
@@ -70,7 +70,7 @@ Předpoklady pro fázi 3 budou aktualizovány, jakmile se blíží datum obecné
 
 ## <a name="licensing"></a>Licencování
 
-Pokud máte aktivní licence Project Service Automation, můžete nainstalovat a používat aplikaci Project Operations, která zahrnuje všechny funkce Project Service Automation a další. Tímto způsobem můžete otestovat schopnosti Project Operations v odděleném prostředí, zatímco budete pokračovat v provozním používání Project Service Automation. Po vypršení platnosti licencí Project Service Automation budete muset přejít na Project Operations. Při plánování tohoto přechodu musíte počítat se skutečností, že licence Project Operations nezahrnuje licenci Project Service Automation.
+Pokud máte aktivní licence Project Service Automation, můžete nainstalovat a používat aplikaci Project Operations, která zahrnuje všechny funkce Project Service Automation a další. Tímto způsobem můžete otestovat schopnosti Project Operations, zatímco budete pokračovat v produkčním používání Project Service Automation. Po vypršení platnosti licencí Project Service Automation budete muset přejít na Project Operations. Při plánování tohoto přechodu musíte počítat se skutečností, že licence Project Operations nezahrnuje licenci Project Service Automation. Zákazníci, kteří mají scénáře, kdy nasadili Project Service Automation a potřebují nadále používat nebo zvyšovat své licence pro PSA, zatímco plánují přejít na Project Operations, mohou požádat o dočasné licence PSA na základě zakoupených licencí Project Operations. Jedna licence Project Service Automation bude vydána pro jednu licenci Project Operations. O dočasné licence PSA lze požádat pomocí tohoto odkazu: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Testování a refaktorování přizpůsobení
 
