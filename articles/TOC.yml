@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Jak přizpůsobit tok obchodního procesu týkající se fází projektu?
               href: psa/FAQ-customize-bpf.md
-            - name: "Důležité informace o\_upgradu pro strukturovaný rozpis prací"
-              href: psa/upgrade-considerations-tasks.md
         - name: Dokumenty white paper
           href: psa/white-papers.md
         - name: Příručka pro správce
