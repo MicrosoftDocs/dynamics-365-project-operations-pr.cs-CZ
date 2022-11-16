@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709436"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736658"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Upgrade z Project Service Automation na Project Operations
 
@@ -97,7 +97,7 @@ Po aktualizaci vašich přizpůsobení tak, aby čistě importovaly údaje z Pro
     V závislosti na množství dat v prostředí může upgrade trvat několik hodin. Základní tým, který spravuje upgrade, by ho měl podle toho plánovat a provádět mimo pracovní dobu. V některých případech, pokud je objem dat velký, by měl být upgrade spuštěn přes víkend. Rozhodnutí o plánování by mělo být založeno na výsledcích testování v nižších prostředích.
 
 3. Podle potřeby upgradujte vlastní řešení. V tomto okamžiku nasaďte všechny změny, které jste provedli ve svých přizpůsobeních v sekci [Testování a refaktorování přizpůsobení](#testing-and-refactoring-customizations) tohoto článku.
-4. Přejděte do nabídky **Nastavení** \> **Řešení** a vyberte možnost odinstalovat řešení **Zastaralé součásti Project Operations**.
+4. Jděte na stránku **make.powerapps.com**, vyberte své prostředí z rozevíracího seznamu v pravém horním rohu portálu, vyberte **Řešení** z nabídky vlevo, vyberte řešení **Zastaralé součásti Project Operations** a **Odinstalovat**.
 
     Toto řešení je dočasné řešení, které uchovává stávající datový model a součásti, které jsou přítomny během upgradu. Odebráním tohoto řešení odeberete všechna pole a součásti, které se již nepoužívají. Tímto způsobem zjednodušíte rozhraní a usnadníte integraci a rozšíření.
     
