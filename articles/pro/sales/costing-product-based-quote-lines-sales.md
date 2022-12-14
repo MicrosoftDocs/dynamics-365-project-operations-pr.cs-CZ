@@ -1,21 +1,21 @@
 ---
 title: Nákladové řádky nabídky založené na produktu
 description: Tento článek poskytuje informace o použití nákladové ceny na řádek nabídky založené na produktu.
-author: ruhercul
+author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: ruhercul
-ms.openlocfilehash: 23eb3d29081769347d62098534a9863fd28fa90c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.author: rumant
+ms.openlocfilehash: a8b3569ff217f6fc62606dae4292be14f9d3358c
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932564"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825603"
 ---
 # <a name="costing-product-based-quote-lines"></a>Nákladové řádky nabídky založené na produktu
 
-_**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
+_**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
 
 Produktové řádky nabídek v Dynamics 365 Project Operations mají také pole také **Ceník**. Toto pole se používá ke sledování nákladové ceny produktu na řádku nabídky a pro výpočty následné ziskovosti.

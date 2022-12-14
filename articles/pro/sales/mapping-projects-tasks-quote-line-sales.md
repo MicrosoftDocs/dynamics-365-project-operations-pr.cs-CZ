@@ -1,19 +1,19 @@
 ---
-title: Mapování projektů a úkolů na řádky nabídky založené na projektu
-description: Tento článek poskytuje informace o tom, jak mapovat projekty a úkoly na řádek úkolů založených na projektu.
+title: Mapování projektů a úkolů na řádky nabídky na základě projektů
+description: Tento článek poskytuje informace o tom, jak mapovat projekty a úkoly na řádky projektové nabídky.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917154"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824252"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mapování projektů a úkolů na řádky nabídky založené na projektu
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Mapování projektů a úkolů na řádky nabídky na základě projektů
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 

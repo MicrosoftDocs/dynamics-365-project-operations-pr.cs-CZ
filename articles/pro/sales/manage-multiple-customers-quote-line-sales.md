@@ -1,19 +1,19 @@
 ---
-title: Správa více zákazníků na řádcích nabídek na základě projektů – omezené
+title: Správa více zákazníků v nabídkách projektů
 description: Tento článek popisuje, jak spravovat více zákazníků v řádcích nabídek založených na projektu.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927780"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824430"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Správa více zákazníků na řádcích nabídek na základě projektů – omezené
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Správa více zákazníků v nabídkách projektů
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 

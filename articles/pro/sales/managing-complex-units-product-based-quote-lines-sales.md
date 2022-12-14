@@ -1,19 +1,19 @@
 ---
-title: Správa komplexních jednotek, jako jsou na uživatele nebo za měsíc pro řádky nabídek založené na produktu – omezeno
+title: Správa komplexních jednotek, jako jsou na uživatele nebo za měsíc pro řádky nabídek založené na produktu
 description: Tento článek poskytuje informace o správě složitých jednotek pro řádky nabídek založené na produktech.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 88173468cd2e898331c4aa0a398792d9a0f3df10
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 50151e9a34e8608c98e406a30131c1efc4bf2f11
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929896"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825463"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Správa komplexních jednotek, jako jsou na uživatele nebo za měsíc pro řádky nabídek založené na produktu – omezeno
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Správa komplexních jednotek, jako jsou na uživatele nebo za měsíc pro řádky nabídek založené na produktu
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 

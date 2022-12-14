@@ -1,23 +1,23 @@
 ---
-title: Uzavření nabídky
+title: Uzavření nabídek na základě projektu
 description: Tento článek poskytuje informace o tom, jak zavírat nabídky v Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 45bdfe5fb9eddb8f96ed1bc017596c8fe436245e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b35417d4258a1e837fdf7a61bbcc303ec04a900
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931874"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824208"
 ---
-# <a name="close-a-quote"></a>Uzavření nabídky
+# <a name="close-project-based-quotes"></a>Uzavření nabídek na základě projektu
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
-Nabídku projektu lze uzavřít jako Získanou nebo Ztracenou. Koncept nabídky lze uzavřít, protože funkce Aktivace a Revize nabídek nejsou v Microsoft Dynamics 365 Project Operations podporovány.
+Nabídku projektu lze uzavřít jako **získanou** nebo **ztracenou**. 
 
 ## <a name="close-a-quote-as-won"></a>Uzavření nabídky jako získané
 

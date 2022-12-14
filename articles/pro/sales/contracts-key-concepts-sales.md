@@ -1,17 +1,17 @@
 ---
-title: Projektové smlouvy – klíčové koncepty – omezené
+title: Koncepty jedinečné pro projektové smlouvy
 description: Tento článek poskytuje informace o klíčových konceptech projektových smluv.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e92edadc49469ad5f541be8bce7b7a8043b981e2
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8776188add2094bbf64530b361bb7fd029ab19ba
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932656"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825697"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>Koncepty jedinečné pro projektové smlouvy
 

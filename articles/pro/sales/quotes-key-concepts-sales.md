@@ -1,17 +1,17 @@
 ---
-title: Nabídky – klíčové koncepty – omezené
+title: Koncepty jedinečné pro projektové nabídky
 description: Tento článek poskytuje informace o tom, jak používat projektové nabídky v Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916970"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825885"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Koncepty jedinečné pro projektové nabídky
 
@@ -82,9 +82,13 @@ Rozpisy faktur jsou specifické pro každý řádek nabídky a jsou také volite
 
 Nabídky Project Operations vycházejí z nabídek Dynamics 365 Sales. Existují však některé důležité rozdíly ve funkčnosti, které byste měli znát:
 
-- Akce **Opravit** a **Aktivovat** nejsou podporovány.
+
 - Nabídky Project Operations mají dva různé typy řádků. Jeden typ je určen pro projekty a druhý pro produkty.
 - Nabídky Project Operations mají svůj vlastní formulář a prvky uživatelského rozhraní, obchodní pravidla, obchodní logiku v modulech plug-in, a skripty na straně klienta, díky nimž se liší od nabídek aplikace Sales.
+- Prodejní nabídky vám umožňují připojit k prodejní nabídce více objednávek. V Project Operations můžete k projektové nabídce připojit pouze jednu projektovou smlouvu.
+- Když získáte prodejní nabídku, související příležitost může zůstat otevřená. Po získání projektové nabídky je související příležitost uzavřena.
+- Prodejní nabídka neobsahuje některá pole a koncepty, které jsou součástí projektové nabídky. Mezi tato pole patří **Smluvní jednotka**, **Manažer obchodních vztahů** a **Fakturační adresa – jméno kontaktu**.  
+- **Typ**: Prodejní nabídky a projektové nabídky jsou také identifikovány pomocí pole **Typ** založeného na sadě možností. U prodejní nabídky má toto pole hodnotu **Na základě zboží**. U projektové nabídky má hodnotu **Na základě práce**.
 
 Z těchto důvodů se nedoporučuje zaměňovat nabídky aplikace Sales a nabídky Project Operations.
 

@@ -1,21 +1,21 @@
 ---
-title: Správa více zákazníků na projektové nabídce
+title: Správa více zákazníků v nabídce založené na projektu
 description: Tento článek poskytuje informace o práci na nabídkách zahrnujících více zákazníků, kteří budou projekt financovat.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928194"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825140"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Správa více zákazníků na projektové nabídce
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Správa více zákazníků v nabídce založené na projektu
 
-_**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
+_**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
 Projektové nabídky podporují scénář, kdy návrh zahrnuje více zákazníků, kteří budou obchod financovat. Karta **Souhrn** nabídky obsahuje pole **Potencionální zákazník**, které identifikuje primárního zákazníka obchodu. Další zákazníky pro obchod lze nastavit na kartě **Zákazníci** projektové nabídky.
 

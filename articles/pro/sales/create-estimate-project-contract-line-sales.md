@@ -1,19 +1,19 @@
 ---
-title: Odhad řádku smlouvy na základě projektu – omezené
+title: Odhad řádku projektové smlouvy
 description: Tento článek poskytuje informace o odhadech v řádcích smluv na základě projektu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914394"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824759"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Odhad řádku smlouvy na základě projektu – omezené
+# <a name="estimate-a-project-contract-line"></a>Odhad řádku projektové smlouvy
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 

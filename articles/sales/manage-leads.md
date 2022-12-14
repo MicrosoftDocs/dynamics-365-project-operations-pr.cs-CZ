@@ -1,31 +1,29 @@
 ---
-title: Správa zájemců
+title: Správa potenciálních zákazníků založených na projektech
 description: Tento článek poskytuje informace o správě zájemců na základě projektu.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920190"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825791"
 ---
-# <a name="manage-leads"></a>Správa zájemců
+# <a name="manage-project-based-leads"></a>Správa potenciálních zákazníků založených na projektech
 
 _**Platí pro:** Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
 Zájemce na základě projektu lze spravovat a kvalifikovat v aplikaci Project Operations. Proces správy zájemců zahrnuje vytváření pracovních zájemců na základě práce a jejich kvalifikaci. 
 
-## <a name="project-sales-leads"></a>Potenciální zákazníci projektu
-
 V části **Prodej** v levém navigačním podokně otevřete stránku seznamu **Zájemci** a zobrazte tak seznam všech záznamů potenciálních zákazníků v systému. Zobrazený seznam zájemců obsahuje zájemce založené na práci a další typy zájemců, které lze vytvořit, pokud máte také aplikace Dynamics 365 Sales nebo Dynamics 365 Field Service.
 
 Vytvořením filtru podle hodnoty **Typ** můžete vytvořit filtrované zobrazení a ukázat pouze zájemce na základě projektu. Můžete například vybrat, aby se zobrazovali pouze zájemci na základě práce.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Vytvoření nového potenciálního zákazníka pro obchod založený na projektu
+## <a name="create-a-new-project-based-lead"></a>Vytvoření nového potenciálního zákazníka na základě projektu 
 
 Když je zájemce na základě projektu kvalifikován, vytvoří se příležitost a účet. Příležitost založená na projektu je výchozím bodem pro aktivity zaměřené na prodej ve fázi Příležitost. Příležitosti založené na projektu mají jedinečné schopnosti, které jsou vyžadovány k prodeji projektové práce. Mezi tyto schopnosti patří:
 

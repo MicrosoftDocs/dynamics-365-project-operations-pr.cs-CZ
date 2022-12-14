@@ -1,19 +1,19 @@
 ---
-title: Řádky příležitosti založené na projektu – omezené
+title: Řádky projektových příležitostí
 description: Tento článek poskytuje informace o řádcích příležitostí založených na projektu. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b5a8fc32ca903d7da2e090137bed358b364902a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e4f67bd9b7d51559e2942e9005b8f5f9187b1f78
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914256"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824947"
 ---
-# <a name="project-based-opportunity-lines---lite"></a>Řádky příležitosti založené na projektu – omezené
+# <a name="project-opportunity-lines"></a>Řádky projektových příležitostí 
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
@@ -23,7 +23,7 @@ _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
 Níže jsou vyjmenována pole v řádku příležitosti založené na projektu:
 
-| **Pole** | **Umístění** | **Popis** | **Dopad na příjem dat** |
+| **Pole** | **Location** | **Description** | **Dopad na příjem dat** |
 | --- | --- | --- | --- |
 | Typ produktu | Karta Obecné (skrytá) | Můžete vybrat některou z následujících možností:</br>- Projektová služba (k dispozici pouze v případě, že je nainstalována aplikace Dynamics 365 Project Operations)</br>- Produkt (k dispozici pouze v případě, že jsou nainstalovány aplikace Project Operations a Dynamics 365 Sales) | Hodnota tohoto pole se nastaví na **Služba založená na projektu**, když vytvoříte řádek příležitosti založené na projektu z mřížky řádků založených na projektu v příležitosti. <br> Pokud tuto hodnotu změníte nebo přepíšete, nebude u vašich řádkových položek založených na projektu povolena funkce projektu. |
 | Příležitost | Karta Obecné | Toto pole je pouze ke čtení a odkazuje na nadřazený záznam příležitosti, ke kterému tato řádková položka patří. | Toto pole nemá žádný následný dopad. |

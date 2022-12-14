@@ -1,21 +1,21 @@
 ---
-title: Odhad na řádku nabídky založené na projektu
-description: Tento článek poskytuje informace o vytváření odhadu v řádku smlouvy založené na projektu.
+title: Odhad řádku projektové nabídky
+description: Tento článek poskytuje informace o vytváření odhadu v řádku projektové smlouvy.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914348"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825979"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Odhad na řádku nabídky založené na projektu
+# <a name="estimate-a-project-quote-line"></a>Odhad řádku projektové nabídky
 
-_**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
+_**Platí pro:** omezené nasazení – dohoda o pro forma fakturaci, Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
 Řádek nabídky založené na projektu obsahuje podrobnosti, které pomáhají odhadnout náklady a potenciální výnosy z práce spojené s dodáním řádku nabídky.
 
@@ -24,7 +24,7 @@ Chcete-li odhadnout řádek nabídky na základě projektu, na řádku nabídky 
 - Ručně vytvořte odhad přímo na řádku nabídky pomocí podrobností řádku nabídky. 
 - Vytvořte projekt a plán projektu a poté přidružte projekt a úkoly v projektu k řádku nabídky. Bude povolen proces importu odhadů plánu projektu na řádku nabídky na základě informací, které jste poskytli.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Vytvoření odhadů přímo na řádku nabídky založené na projektu
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Vytvoření odhadů přímo na řádku nabídky založené na projektu
 
 Chcete-li vytvořit odhad na řádku nabídky na základě projektu, vyberte kartu **Podrobnosti na řádku nabídky**. Položka řádku, kterou vytvoříte na této kartě, shrnuje hodnotu nabídky pro tento řádek nabídky. 
 
@@ -68,8 +68,7 @@ Měna v podrobnostech řádku nabídky pro výchozí náklady z ceníku projektu
 
 Výpočty ziskovosti převádějí částku v podrobnostech řádku nabídky pro náklady a prodej do na základní měnu prostředí a vykazují celkovou odhadovanou marži nabídky.
 
-> [!POZNÁMKA
-> > Mohou se vyskytnout chyby při zaokrouhlování měn a změněné marže z důvodu chybějících směnných kurzů k platnému datu. Tyto výpočty používejte pouze u smluv o projektu, protože se jedná o přibližné údaje a nejsou určeny pro skutečné statutární nebo jiné zprávy, které vyžadují vyšší přesnost zaokrouhlování a povědomí o datu platnosti pro směnné kurzy.
+> [!POZNÁMKA Mohou se vyskytnout chyby při zaokrouhlování měn a změněné marže z důvodu chybějících směnných kurzů k platnému datu. Tyto výpočty používejte pouze u smluv o projektu, protože se jedná o přibližné údaje a nejsou určeny pro skutečné statutární nebo jiné zprávy, které vyžadují vyšší přesnost zaokrouhlování a povědomí o datu platnosti pro směnné kurzy.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

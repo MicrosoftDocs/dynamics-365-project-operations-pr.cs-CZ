@@ -1,19 +1,19 @@
 ---
-title: Plány faktur na řácích nabídky založené na projektu
+title: Plány faktur na řádcích nabídky založené na projektu
 description: Tento článek poskytuje informace o vytváření plánů faktur a milníků pro řádky nabídek.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918304"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825744"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Plány faktur na řácích nabídky založené na projektu
+# <a name="invoice-schedules-on-project-quote-lines"></a>Plány faktur na řádcích nabídky založené na projektu
 
 _**Platí pro:** Project Operations scénáře založené na zdrojích / položkách, které nejsou na skladě, omezené nasazení - dohoda o pro forma fakturaci_
 
@@ -21,7 +21,7 @@ _**Platí pro:** Project Operations scénáře založené na zdrojích / položk
 
 Celkově je účelem plánů faktur umožnit automatické vytváření návrhů faktur pro řádek smlouvy založené na projektu. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Vytvořte harmonogram faktury za čas a materiál pro řádek nabídky založené na projektu
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Vytvořte harmonogram faktury za čas a materiál pro řádek nabídky založené na projektu
 
 Když je metodou fakturace pro řádek nabídky na základě projektu Čas a materiál, systém vygeneruje plán faktur na základě data. Chcete-li automaticky vygenerovat plán faktur na základě data, proveďte následující kroky.
 
@@ -36,7 +36,7 @@ Když je metodou fakturace pro řádek nabídky na základě projektu Čas a mat
     - **Mezní datum transakce** je nastaven na den před **Datem spuštění faktury**.
     - **Stav spuštění** je automaticky nastaven na **Nespuštěno**. Když je úloha automatického vytváření faktur spuštěna pro určité datum spuštění faktury, aktualizuje toto pole buď na **Spuštění úspěšné** nebo **Spuštění selhalo**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Vytvořte harmonogram faktury za fixní cenu pro řádek nabídky založené na projektu
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Vytvořte harmonogram faktury za fixní cenu pro řádek nabídky založené na projektu
 
 Když má řádek nabídky na základě projektu metodu fakturace **Ficní**, systém vytvoří plán faktur na základě milníků. Dokončením následujících kroků automaticky vygenerujete tento plán pro fixní sadu milníků, které jsou rovnoměrně rozloženy pro kalendářní období.
 

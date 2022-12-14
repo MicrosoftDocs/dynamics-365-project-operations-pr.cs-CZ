@@ -1,19 +1,19 @@
 ---
-title: Mapování projektů a úkolů na řádek smlouvy na základě projektu – omezené
+title: Mapování projektů a úkolů na řádek projektové smlouvy
 description: Tento článek poskytuje informace o přidávání a odebírání projektů a úkolů do/z řádku smlouvy.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932518"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825050"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Mapování projektů a úkolů na řádky smlouvy na základě projektů 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Mapování projektů a úkolů na řádek projektové smlouvy 
 
 _**Platí pro:** omezené nasazení – dohoda o pro forma fakturaci, Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 
@@ -25,7 +25,7 @@ Pokud máte situaci, ve kterém je jedna fáze projektu, například fáze proto
 
 Všechny ostatní fáze ve strukturovaném rozpisu prací projektu (WBS) lze přidružit k řádce smlouvy na základě času a materiálu.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Přidružení úkolů k řádkům smlouvy na základě projektu
+## <a name="associate-tasks-to-project-contract-lines"></a>Přidružení úkolů k řádkům smlouvy na základě projektu
 
 Úkoly lze přidružit k řádkům smlouvy z karty **Účtovatelné úkoly** na stránce **Řádek smlouvy** nebo z karty **Účtování úkolů** na stránce **Projekt**.
 

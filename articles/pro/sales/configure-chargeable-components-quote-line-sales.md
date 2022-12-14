@@ -1,19 +1,19 @@
 ---
-title: Konfigurace účtovatelných součásti řádku nabídky
+title: Konfigurace účtovatelných součásti řádcích projektové nabídky
 description: Tento článek poskytuje informace o nastavení účtovatelných a neúčtovatelných komponent na řádku projektové nabídky.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d4829055f429546c7911a05a765bc28ae085afa1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1e454278a1c5c24ac346c537c778b25448d9ea03
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930034"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825509"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Konfigurace účtovatelných součásti řádku nabídky 
+# <a name="configure-chargeable-components-on-project-quote-lines"></a>Konfigurace účtovatelných součásti řádcích projektové nabídky
 
 _**Platí pro:** omezené nasazení – dohoda o pro forma fakturaci, Project Operations pro scénáře založené na zdrojích / položkách, které nejsou na skladě_
 

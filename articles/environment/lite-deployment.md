@@ -1,19 +1,19 @@
 ---
-title: Nasazení Project Operations – omezené
+title: Nasazení Project Operations Lite
 description: Tento článek poskytuje informace o tom, jak nainstalovat omezené nasazení Project Operations - od obchodu po pro forma fakturaci.
 author: stsporen
-ms.date: 02/28/2022
+ms.date: 11/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 86293b725e86db3d4b8bdaf5810b16b7c670e8a3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2c508f56b3018b6a86fea78bcf9ee4136e90f385
+ms.sourcegitcommit: 38cb012502cbd640abbc21a0912b195112b27ccb
 ms.translationtype: HT
 ms.contentlocale: cs-CZ
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930310"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9810970"
 ---
-# <a name="deploy-project-operations---lite"></a>Nasazení Project Operations – omezené
+# <a name="deploy-project-operations-lite"></a>Nasazení Project Operations Lite
 
 _**Platí pro:** Omezené nasazení – od obchodu po pro forma fakturaci_
 
@@ -27,21 +27,27 @@ Project Operations podporuje více modelů nasazení. Chcete-li zjistit nejlepš
 
 - [Instalace Project Operations do nového prostředí Dataverse](#new)
 - [Instalace do existujícího prostředí Dataverse](#existing)
+- [Nainstalujte do stávajícího prostředí Dataverse, které obsahuje komponenty pro duální zápis](#existingdw)
 
 
 
-## <a name="install-project-operations-to-a-new-dataverse-environment"></a><a name="new"></a>Instalace Project Operations do nového prostředí Dataverse
+## <a name="install-project-operations-lite-to-a-new-dataverse-environment"></a><a name="new"></a>Instalace Project Operations Lite do nového prostředí Dataverse
 
 1. Jako [Globální správce nebo správce Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) s licencí Project Operations vytvořte nové prostředí Dataverse v [Centru pro správu PowerPlatform](https://admin.powerplatform.com). Zkontrolujte, že jsou zapnuty funkce **Vytvořit databázi pro toto prostředí** a **Aplikace Dynamics 365**. Další informace naleznete v [Vytvoření a správa prostředí v centru pro správu Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
-2. Vyberte **Microsoft Dynamics 365 Project Operations** ze seznamu nasazení aplikací Dynamics 365.
+1. Vyberte **Microsoft Dynamics 365 Project Operations** ze seznamu nasazení aplikací Dynamics 365.
 
 
-## <a name="install-project-operations-to-an-existing-dataverse-environment"></a><a name="existing"></a>Instalace Project Operations do stávajícího prostředí Dataverse
-1. Ujistěte se, že prostředí nemá konfigurováno [duální zápis](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview), protože instalace poté nainstaluje schopnosti [Project Operations pro scénáře založené na zdrojích/položkách, které nejsou na skladě](project-operations-integrated-deployment-overview.md).
-2. Jako [Globální správce nebo správce Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) s licencí Project Operations vyhledejte prostředí v [Centru pro správu PowerPlatform](https://admin.powerplatform.com), kam chcete nainstalovat Project Operations.
-3. Nainstalujte **Microsoft Dynamics 365 Project Operations** ze seznamu nasazení aplikací Dynamics 365. Další informace najdete v části [Správa aplikací Dynamics 365](/power-platform/admin/manage-apps).
+## <a name="install-project-operations-lite-to-an-existing-dataverse-environment"></a><a name="existing"></a>Instalace Project Operations Lite do stávajícího prostředí Dataverse 
+1. Jako [Globální správce nebo správce Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) s licencí Project Operations vyhledejte prostředí v [Centru pro správu PowerPlatform](https://admin.powerplatform.com), kam chcete nainstalovat Project Operations.
+1. Nainstalujte **Microsoft Dynamics 365 Project Operations** ze seznamu nasazení aplikací Dynamics 365. Další informace najdete v části [Správa aplikací Dynamics 365](/power-platform/admin/manage-apps).
 
+## <a name="install-project-operations-lite-to-an-existing-dataverse-environment-where-dual-write-solutions-are-already-present"></a><a name="existingdw"></a>Instalace Project Operations Lite do stávajícího prostředí Dataverse, kde již existují řešení pro duální zápis
 
+Pokud chcete pokračovat v používání Project Operations v režimu nasazení Lite, měli byste postupovat takto:
 
+1. Jako [Globální správce nebo správce Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) s licencí Project Operations vyhledejte prostředí v [Centru pro správu PowerPlatform](https://admin.powerplatform.com), kam chcete nainstalovat Project Operations.
+1. Nainstalujte **Microsoft Dynamics 365 Project Operations** ze seznamu nasazení aplikací Dynamics 365. Další informace najdete v části [Správa aplikací Dynamics 365](/power-platform/admin/manage-apps).
+1. Protože vaše prostředí má nainstalované komponenty pro duální zápis, které pomáhají s integrací do finančních a provozních aplikací, instalace Project Operations také nainstaluje možnosti a rozšíření potřebná k integraci dat souvisejících s projektem do finančních a provozních aplikací. Protože chcete provozovat Project Operations v nasazení Lite, měly by být tyto integrační komponenty odstraněny, protože budou vytvářet omezení a režii pro scénáře nasazení Lite. Chcete-li tyto součásti odebrat, ručně odinstalujte řešení **Duální zápis Dynamics 365 Project Operations** a **Mapy entity duálního zápisu Dynamics 365 Project Operations**.
+1. Přejděte do **Project Operations -> Nastavení -> Parametry**. Otevřete stránku s údaji **Parametr projektu** a nastavte pole **Chování při upgradu řešení** na **Pouze Lite**. To zajišťuje, že žádné následné upgrady Project Operations nevrátí integrační komponenty zpět do Project Operations.  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
