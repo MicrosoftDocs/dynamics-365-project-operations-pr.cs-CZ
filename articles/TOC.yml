@@ -846,7 +846,7 @@
               items:
                 - name: "Zálohy a\_smlouvy na základě záloh"
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Nastavení plánu zálohNastavení plánu záloh
+                - name: Nastavení plánu záloh
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Vytvoření ad hoc zálohy na projektové smlouvě
                   href: pro/sales/create-ad-hoc-advance-sales.md
